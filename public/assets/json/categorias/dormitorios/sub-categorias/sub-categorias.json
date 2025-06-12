@@ -1,0 +1,22 @@
+{
+    "subcategorias":[
+        {
+            "id": 1,
+            "subcategoria": "Kamas",
+            "metaTitulo": "Dormitorios - Kamas | Dormihogar",
+            "ruta": "/productos/dormitorios/kamas/"
+        },
+        {
+            "id": 2,
+            "subcategoria": "Paraiso",
+            "metaTitulo": "Dormitorios - Paraiso | Dormihogar",
+            "ruta": "/productos/dormitorios/paraiso/"
+        },
+        {
+            "id": 3,
+            "subcategoria": "El Cisne",
+            "metaTitulo": "Dormitorios - El Cisne | Dormihogar",
+            "ruta": "/productos/dormitorios/el-cisne/"
+        }
+    ]
+}

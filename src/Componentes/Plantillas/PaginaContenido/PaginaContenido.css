@@ -1,0 +1,16 @@
+.content-page-list li{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.content-page-list li::before{
+    content: '✔';
+    color: var(--color-1);
+}
+
+.title{
+    display: flex;
+    color: #000000;
+}

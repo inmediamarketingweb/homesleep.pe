@@ -1,0 +1,22 @@
+{
+    "subcategorias":[
+        {
+            "id": 1,
+            "subcategoria": "Kamas",
+            "metaTitulo": "Colchones - Kamas | Kamas",
+            "ruta": "/productos/colchones/kamas/"
+        },
+        {
+            "id": 2,
+            "subcategoria": "Paraiso",
+            "metaTitulo": "Colchones - Paraiso | Kamas",
+            "ruta": "/productos/colchones/paraiso/"
+        },
+        {
+            "id": 3,
+            "subcategoria": "Cisne",
+            "metaTitulo": "Colchones - Cisne | Kamas",
+            "ruta": "/productos/colchones/cisne/"
+        }
+    ]
+}

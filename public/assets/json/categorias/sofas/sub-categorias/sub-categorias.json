@@ -1,0 +1,10 @@
+{
+    "subcategorias":[
+        {
+            "id": 1,
+            "subcategoria": "Kamas",
+            "metaTitulo": "Sofás - Kamas | Dormihogar",
+            "ruta": "/productos/sofas/kamas/"
+        }
+    ]
+}

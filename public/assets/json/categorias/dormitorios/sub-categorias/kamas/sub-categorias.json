@@ -1,0 +1,34 @@
+{
+    "subcategorias":[
+        {
+            "id": 0,
+            "subcategoria": "clasicos",
+            "metaTitulo": "Dormitorios Kamas clásicos | Dormihogar",
+            "ruta": "/productos/colchones/kamas/clasicos/"
+        },
+        {
+            "id": 1,
+            "subcategoria": "americanos",
+            "metaTitulo": "Dormitorios Kamas americanos | Dormihogar",
+            "ruta": "/productos/colchones/kamas/americanos/"
+        },
+        {
+            "id": 2,
+            "subcategoria": "americanos con cajones",
+            "metaTitulo": "Dormitorios Kamas americanos con cajones | Dormihogar",
+            "ruta": "/productos/colchones/kamas/americanos-con-cajones/"
+        },
+        {
+            "id": 3,
+            "subcategoria": "europeos",
+            "metaTitulo": "Dormitorios Kamas europeos | Dormihogar",
+            "ruta": "/productos/colchones/kamas/europeos/"
+        },
+        {
+            "id": 4,
+            "subcategoria": "europeos con cajones",
+            "metaTitulo": "Dormitorios Kamas europeos con cajones | Dormihogar",
+            "ruta": "/productos/colchones/kamas/europeos-con-cajones/"
+        }
+    ]
+}

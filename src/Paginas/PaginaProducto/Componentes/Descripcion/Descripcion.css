@@ -1,0 +1,114 @@
+.product-details ul,
+.descripcion-list{
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.product-details ul li,
+.descripcion-list li{
+    width: 100%;
+    /* min-height: 56px; */
+    padding: 10px 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.product-details ul li:nth-child(2n - 1){
+    background: rgba(0 0 0 / 0.05);
+}
+
+.product-details ul li div,
+.descripcion-list li div{
+    padding: 10px;
+}
+
+.product-details ul li div strong,
+.descripcion-list li div strong{
+    font-weight: bold;
+    display: inline-block;
+}
+
+.product-details ul li div strong::first-letter,
+.descripcion-list li div strong::first-letter,
+.product-details ul li div p::first-letter,
+.descripcion-list li div p::first-letter{
+    text-transform: uppercase;
+}
+
+/**/
+
+.descripcion-list{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.descripcion-list-1 li:nth-child(2n){
+    background: rgba(0 0 0 / 0.05);
+}
+
+.descripcion-list li{
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.product-descripcion > div > div > div:nth-child(2) .descripcion-list-1 li:nth-child(2n){
+    background: none;
+}
+
+.product-descripcion > div > div > div:nth-child(2) .descripcion-list-1 li:nth-child(2n + 1){
+    background: rgba(0 0 0 / 0.05);
+}
+
+/**/
+
+.product-descripcion > div > div > div:nth-child(2n) > ul li:nth-child(2n - 1){
+    background: transparent;
+}
+
+.product-descripcion > div > div > div:nth-child(2n) > ul li:nth-child(2n){
+    background: rgba(0 0 0 / 0.05);
+}
+
+/**/
+
+.card-flex-3{
+    flex: 1 1 clamp(100px, calc(calc(100% / 3) - calc(20px / 3)), 100%);
+    /* max-width: calc(calc(100% / 3) - calc(20px / 3)); */
+}
+
+/**/
+
+.description-title{
+    color: var(--color-1) !important;
+    text-decoration: underline;
+}
+
+/**/
+
+@media screen and (max-width: 600px){
+    .card-flex-3{
+        width: 100%;
+        flex: unset;
+        max-width: none;
+    }
+
+    /**/
+
+    .product-descripcion > div > div > div:nth-child(2n) > ul li:nth-child(1){
+        background: rgba(0 0 0 / 0.05);
+    }
+    
+    .product-descripcion > div > div > div:nth-child(2n) > ul li:nth-child(2){
+        background: transparent;
+    }
+
+    .description-title{
+        text-align: center;
+    }
+}
