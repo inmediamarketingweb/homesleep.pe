@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 
 import LazyImage from '../../../Plantillas/LazyImage';
 
@@ -8,47 +8,29 @@ function SearchBar() {
     const [productos, setProductos] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
     const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
-
-    useEffect(() => {
-        const handleResize = () => {
-            setIsSmallScreen(window.innerWidth < 600);
-        };
-
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-        };
-    }, []);
+    const [isLoading, setIsLoading] = useState(false);
+    const [filteredProductos, setFilteredProductos] = useState([]);
+    const [isSearchActive, setIsSearchActive] = useState(false);
+    const inputRef = useRef(null);
 
     useEffect(() => {
         const fetchProductos = async () => {
-            try{
+            setIsLoading(true);
+            try {
                 const manifestResponse = await fetch('/assets/json/manifest.json');
-                if (!manifestResponse.ok) {
-                    console.error(manifestResponse.status);
-                    return;
-                }
+                if (!manifestResponse.ok) throw new Error(manifestResponse.status);
+                
                 const manifestData = await manifestResponse.json();
                 const archivos = manifestData.files || [];
-
+                
                 const productosArrays = await Promise.all(
                     archivos.map(async (archivo) => {
                         try {
                             const res = await fetch(archivo);
-                            if (!res.ok) {
-                                console.warn(`No OK (${res.status}) al cargar ${archivo}`);
-                                return [];
-                            }
-                            const text = await res.text();
-                            if (!text) {
-                                console.warn(`Respuesta vacía para ${archivo}`);
-                                return [];
-                            }
-                            const data = JSON.parse(text);
+                            if (!res.ok) return [];
+                            const data = await res.json();
                             return data.productos || [];
-                        } catch (err) {
-                            console.error(`Error procesando ${archivo}:`, err);
+                        } catch {
                             return [];
                         }
                     })
@@ -56,73 +38,108 @@ function SearchBar() {
 
                 setProductos(productosArrays.flat());
             } catch (error) {
-                console.error('Error al cargar los productos:', error);
+                console.error('Error al cargar productos:', error);
+            } finally {
+                setIsLoading(false);
             }
         };
 
-        if (searchTerm.trim().length >= 3 && productos.length === 0) {
-            fetchProductos();
+        fetchProductos();
+    }, []);
+
+    useEffect(() => {
+        if (!searchTerm.trim()) {
+            setFilteredProductos([]);
+            return;
         }
-    }, [searchTerm, productos.length]);
 
-    const handleSearchChange = (e) => {
-        setSearchTerm(e.target.value);
-    };
+        const normalizeStr = (str = '') => str.toString().normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9\s]/g, '');
+        
+        const normalizedSearch = normalizeStr(searchTerm);
+        const searchTokens = normalizedSearch.split(/\s+/).filter(Boolean);
+        
+        const results = productos.filter(producto => {
+            const normalizedNombre = normalizeStr(producto.nombre);
+            const normalizedSku = normalizeStr(producto.sku);
 
-    const normalizeStr = (str = '') =>
-        str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+            return searchTokens.every(
+                token => normalizedNombre.includes(token) || normalizedSku.includes(token)
+            );
+        });
+        
+        setFilteredProductos(results);
+    }, [searchTerm, productos]);
 
-    const filteredProductos = productos.filter((producto) => {
-        if (!searchTerm) return true;
-        const tokens = normalizeStr(searchTerm).split(' ').filter(Boolean);
-        const fields = [ producto.nombre, producto.sku, producto.categoria, producto.subcategoria ].map(String).map(normalizeStr);
+    useEffect(() => {
+        const handleResize = () => {
+            setIsSmallScreen(window.innerWidth < 600);
+        };
 
-        return tokens.every(token =>
-            fields.some(field => field.includes(token))
-        );
-    });
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    useEffect(() => {
+        if (isSearchActive && inputRef.current) {
+            inputRef.current.focus();
+        }
+    }, [isSearchActive]);
 
     const handleKeyDown = (e) => {
-        if (e.key === 'Enter') {
+        if (e.key === 'Enter' && searchTerm.trim()){
             e.preventDefault();
-            if (!searchTerm.trim()) return;
-            if (filteredProductos.length === 1) {
-                window.location.href = filteredProductos[0].ruta;
-            } else if (filteredProductos.length > 1) {
-                window.location.href = `/busqueda?query=${encodeURIComponent(searchTerm)}`;
-            }
+            window.location.href = `/busqueda?query=${encodeURIComponent(searchTerm)}`;
         } else if (e.key === 'Escape') {
             setSearchTerm('');
+            setIsSearchActive(false);
         }
     };
 
-    return (
-        <>
-            <div className={`search-bar-container ${searchTerm.trim() !== '' ? 'active' : ''}`}>
-                <div className='search-bar'>
-                    <input type='text' placeholder='Buscar en dormihogar.pe' value={searchTerm} onChange={handleSearchChange} onKeyDown={handleKeyDown} />
-                    <span className='material-icons'>search</span>
-                </div>
+    const toggleSearch = () => {
+        setIsSearchActive(!isSearchActive);
+        setSearchTerm('');
+    };
 
-                <div className={`search-bar-items-container ${searchTerm.trim() !== '' ? 'active' : ''}`}>
-                    <ul className='search-bar-items'>
-                        {filteredProductos.length > 0 ? (
-                            filteredProductos.map((producto) => (
-                                <li key={producto.sku}>
-                                    <a href={producto.ruta} title={producto.nombre}>
-                                        <p className='text'>{producto.nombre}</p>
-                                        <LazyImage width={isSmallScreen ? 80 : 60} height={isSmallScreen ? 80 : 60} src={`${producto.fotos}/1.jpg`} alt={producto.nombre}/>
-                                    </a>
-                                </li>
-                            ))
-                        ) : (
-                            <li>No se encontraron productos.</li>
-                        )}
-                    </ul>
+    return(
+        <>
+            <div className='leo'>
+                <button type='button' className='search-bar-button' onClick={toggleSearch}>
+                    <span className="material-icons">search</span>
+                </button>
+
+                <div className={`search-bar-container ${isSearchActive ? 'active' : ''}`}>
+                    <div className='search-bar'>
+                        <input ref={inputRef} type='text' placeholder='Buscar en homesleep.pe' value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} onKeyDown={handleKeyDown}/>
+                        <span className='material-icons close-icon' onClick={() => setIsSearchActive(false)}>close</span>
+                    </div>
+
+                    <div className={`search-bar-items-container ${searchTerm.trim() ? 'active' : ''}`}>
+                        <ul className='search-bar-items'>
+                            {isLoading ? (
+                                <li className='d-flex-center-center padding-10-0'>Cargando productos...</li>
+                            ) : searchTerm.trim() ? (
+                                filteredProductos.length > 0 ? (
+                                    filteredProductos.map((producto) => (
+                                        <li key={`${producto.sku}-${producto.nombre}`}>
+                                            <a href={producto.ruta} title={producto.nombre}>
+                                                <div className='d-flex-column gap-5'>
+                                                    <p className='text'>{producto.nombre}</p>
+                                                    <p className="sku">SKU: {producto.sku}</p>
+                                                </div>
+                                                <LazyImage width={isSmallScreen ? 80 : 60} height={isSmallScreen ? 80 : 60} src={`${producto.fotos}/1`} alt={producto.nombre}/>
+                                            </a>
+                                        </li>
+                                    ))
+                                ) : (
+                                    <li className='d-flex-center-center padding-10-0'>No se encontraron productos.</li>
+                                )
+                            ) : null}
+                        </ul>
+                    </div>
                 </div>
             </div>
 
-            <div className={`search-bar-layer ${searchTerm.trim() !== '' ? 'active' : ''}`} onClick={() => setSearchTerm('')}></div>
+            <div className={`search-bar-layer ${isSearchActive ? 'active' : ''}`} onClick={() => setIsSearchActive(false)} />
         </>
     );
 }

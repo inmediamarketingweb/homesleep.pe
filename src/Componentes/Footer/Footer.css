@@ -22,8 +22,7 @@
 
 footer{
     width: 100%;
-    background: var(--header);
-    border-top: 1px solid gray;
+    background: #F8F8F8;
 }
 
 .footer-block-container{
@@ -205,6 +204,23 @@ footer{
 .footer-bottom > p a{
     text-decoration: underline;
 }
+
+/**/
+
+.footer-target-1 .footer-list li span{
+    color: var(--color-1);
+}
+
+.footer-target-1 .footer-list li div{
+    flex-direction: column;
+}
+
+.footer-target-1 .footer-list li div b{
+    color: #000000;
+    font-weight: bold;
+}
+
+/**/
 
 @media screen and (max-width: 600px){
     footer{

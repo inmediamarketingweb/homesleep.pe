@@ -9,13 +9,31 @@
     margin: auto;
 }
 
+.menu-container{
+    display: flex;
+    width: auto;
+    height: 100%;
+}
+
 .menu{
+    width: auto;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+}
+
+.menu-li{
+    display: flex;
+    width: auto;
+    height: 100%;
 }
 
 .menu-li-div{
+    width: auto;
+    height: 100%;
+    /* padding: 0 10px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,34 +41,53 @@
 
 .menu-link{
     width: auto;
-    height: 50px;
-    padding: 0 20px;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: var(--t-200ms-linear);
 }
 
-.menu-link:hover{
-    background: rgba(255 255 255 / 0.25);
+.menu-link h2{
+    color: var(--text);
 }
 
-.menu-link h2{
-    color: var(--white);
+.menu-li-div:hover .menu-link h2{
+    color: var(--color-1);
 }
 
 .menu-link:nth-last-child(1){
+    padding: 0 10px;
+    border-radius: 4px;
+    max-height: calc(100% - 20px);
     background: var(--color-1);
 }
 
+.menu-link:nth-last-child(1) h2{
+    color: var(--white);
+}
+
+.menu-link:nth-last-child(1):hover h2{
+    color: var(--white);
+}
+
 .menu-link-button{
-    display: none;
+    display: flex;
+    color: var(--text);
+}
+
+.menu-link-button span{
+    font-size: 20px;
+}
+
+.menu-li-div:hover .menu-link-button span{
+    color: var(--color-1);
 }
 
 .submenu-container{
     position: fixed;
     left: 0;
-    top: 160px;
+    top: 110px;
     width: 100%;
     height: auto;
     padding: 20px;
@@ -125,20 +162,6 @@
 }
 
 @media screen and (max-width: 600px){
-    .header-bottom-container{
-        position: fixed;
-        left: 100%;
-        top: 168px;
-        width: 100%;
-        height: calc(100vh - 165px);
-        background: var(--header);
-        transition: var(--t-200ms-linear);
-        overflow-y: auto;
-        display: flex;
-        flex-direction: column-reverse;
-        padding: 0;
-    }
-
     .header-bottom-container::before{
         content: 'dormihogar.pe';
         margin: auto auto 20px auto;
@@ -156,6 +179,15 @@
 
     .menu-container{
         width: 100%;
+        position: fixed;
+        left: 100%;
+        top: 110px;
+        background: var(--header);
+        overflow-y: auto;
+    }
+
+    .menu-container.active{
+        left: 0;
     }
 
     .menu{
@@ -163,17 +195,22 @@
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
+        gap: 0;
     }
 
     .menu-li{
         width: 100%;
+        height: auto;
+        flex-direction: column;
     }
 
     .menu-li.active{
-        background: rgb(255 0 0 / 0.075);
+        background: rgb(66 118 241 / 8%);
     }
 
     .menu-li-div{
+        width: 100% !important;
+        height: 48px;
         padding: 0 20px;
         display: flex;
         align-items: center;

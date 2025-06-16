@@ -7,11 +7,17 @@
 .header-center{
     margin: 0 auto;
     width: 100%;
+    height: 100%;
     max-width: var(--content-mx-width);
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 10px;
+}
+
+.header-center > div{
+    width: 100%;
+    height: 100%;
 }
 
 .header-logo img{
@@ -106,7 +112,7 @@
         width: 48px;
         height: 48px;
         border-radius: 100%;
-        background: rgba(255 0 0 / 0.075)
+        background: rgba(60 127 190 / 0.1);
     }
 
     .menu-button span{
@@ -132,5 +138,11 @@
 
     .favorites-button{
         display: none;
+    }
+
+    /**/
+
+    .header-center > div{
+        gap: 10px !important;
     }
 }
