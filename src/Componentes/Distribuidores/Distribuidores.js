@@ -22,6 +22,11 @@ function Distribuidores(){
                                 </a>
                             </li>
                             <li>
+                                <a href='/' title="Komfort | Dormihogar">
+                                    <img width={150} height={150} src="/assets/imagenes/componentes/distribuidores/komfort.png" alt="Paraiso"/>
+                                </a>
+                            </li>
+                            <li>
                                 <a href='/' title="Bett | Dormihogar">
                                     <img width={150} height={150} src="/assets/imagenes/componentes/distribuidores/bett.png" alt="Bett"/>
                                 </a>

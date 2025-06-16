@@ -52,7 +52,7 @@ body::-webkit-scrollbar{
 
 main{
     width: 100%;
-    margin-top: 160px;
+    margin-top: 110px;
 }
 
 .block-container{
@@ -280,7 +280,6 @@ button{
     padding-right: 20px;
 }
 
-
 .gap-5{
     gap: 5px;
 }
@@ -291,6 +290,10 @@ button{
 
 .gap-20{
     gap: 20px;
+}
+
+.padding-10-0{
+    padding: 10px 0;
 }
 
 .text-center{
@@ -428,11 +431,6 @@ button{
 @media screen and (max-width: 600px){
     *{
         cursor: none !important;
-    }
-
-    main{
-        width: 100%;
-        margin-top: 168px;
     }
 
     .block-title{

@@ -1,23 +1,24 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 
 import Top from './Componentes/Top/Top';
 import Center from './Componentes/Center/Center';
-import Bottom from './Componentes/Bottom/Bottom';
+// import Bottom from './Componentes/Bottom/Bottom';
 
 import './Header.css';
 
 function Header(){
-    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-    const toggleMenu = () => {
-        setIsMenuOpen(prev => !prev);
-    };
+    // const toggleMenu = () => {
+    //     setIsMenuOpen(prev => !prev);
+    // };
 
     return(
         <header>
             <Top/>
-            <Center onMenuClick={toggleMenu} isMenuOpen={isMenuOpen} />
-            <Bottom isMenuOpen={isMenuOpen}/>
+            <Center/>
+            {/* <Center onMenuClick={toggleMenu} isMenuOpen={isMenuOpen} /> */}
+            {/* <Bottom isMenuOpen={isMenuOpen}/> */}
         </header>
     );
 }
