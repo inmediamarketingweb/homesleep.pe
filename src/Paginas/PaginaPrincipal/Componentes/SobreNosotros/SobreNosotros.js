@@ -21,7 +21,7 @@ function SobreNosotros(){
         <div className='block-container block-container-homepage-about-us'>
             <section className='block-content'>
                 <div className='block-title-container'>
-                    <h2 className='block-title'>Dormihogar</h2>
+                    <h2 className='block-title'>Homesleep</h2>
                 </div>
 
                 <div className='d-grid-2-1fr gap-10'>

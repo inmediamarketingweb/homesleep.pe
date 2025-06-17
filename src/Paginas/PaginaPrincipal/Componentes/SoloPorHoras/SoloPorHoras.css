@@ -28,7 +28,7 @@
     position: relative;
     width: 48px;
     height: 64px;
-    background: crimson;
+    background: var(--color-2);
     border-radius: 6px;
     display: flex;
     align-items: center;
@@ -69,7 +69,7 @@
 }
 
 .block-content-sale .product-card-discount{
-    background: crimson;
+    background: var(--color-1);
 }
 
 .sale-products-content{
@@ -94,7 +94,7 @@
 }
 
 .sale-products li .product-card:hover{
-    border: 2px solid crimson !important;
+    border: 2px solid var(--color-1) !important;
 }
 
 .product-card-stock{
@@ -108,7 +108,7 @@
 }
 
 .product-card-stock span{
-    background: crimson;
+    background: var(--color-1);
     padding: 3px 8px;
     border-radius: 3px;
 }
@@ -121,11 +121,11 @@
 }
 
 .block-content-sale > .d-flex > .block-title-buttons button{
-    background: crimson !important;
+    background: var(--color-1) !important;
 }
 
 .sale-products .product-card-sale-price{
-    color: crimson !important;
+    color: var(--color-1) !important;
 }
 
 /**/
@@ -145,7 +145,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 100%;
-    background: crimson;
+    background: var(--color-1);
     z-index: 10;
 }
 
@@ -175,7 +175,7 @@
     translate: 0 -50%;
     width: 100%;
     text-align: center;
-    background: crimson;
+    background: var(--color-1);
     padding: 16px 0;
     color: var(--white);
     z-index: 1;

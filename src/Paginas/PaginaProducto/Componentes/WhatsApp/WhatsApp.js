@@ -6,12 +6,12 @@ function WhatsApp({producto, selectedShipping, shippingInfo, selectedColor, quan
     const getWhatsAppLink = () => {
         if (!selectedShipping.tipo) return "#";
 
-        const numeroWhatsApp = "+51933197648";
+        const numeroWhatsApp = "+51901451579";
         const userName = localStorage.getItem('nombre') || '';
 
-        const mensaje = `Hola Dormihogar 🛌, estoy interesad@ en adquirir este/os producto/s:\n`
+        const mensaje = `Hola Homesleep 🛌, estoy interesad@ en adquirir este/os producto/s:\n`
             + `*${producto.nombre}*\n`
-            + `https://dormihogar.pe${producto.ruta}\n`
+            + `https://homesleep.pe${producto.ruta}\n`
             + `Tela: ${selectedColor ? selectedColor.tela : 'Sin variación'}\n`
             + `Color: ${selectedColor ? selectedColor.color : 'Sin variación'}\n`
             + `Precio: S/.${producto.precioVenta}\n\n`
@@ -37,7 +37,6 @@ function WhatsApp({producto, selectedShipping, shippingInfo, selectedColor, quan
         (district.trim() || headquarters.trim())
     );
 
-    // Build class list
     const buttonClasses = [
         'product-page-whatsapp',
         hasRequiredFields && 'active',
@@ -46,7 +45,7 @@ function WhatsApp({producto, selectedShipping, shippingInfo, selectedColor, quan
 
     return(
         <a href={getWhatsAppLink()} className={buttonClasses} target="_blank" rel="noopener noreferrer" onClick={handleContinuarClick}>
-            <img src="/assets/imagenes/iconos/whatsapp-blanco.svg" alt="WhatsApp | dormihogar"/>
+            <img src="/assets/imagenes/iconos/whatsapp-blanco.svg" alt="WhatsApp | homesleep"/>
             <p>Continuar</p>
         </a>
     )

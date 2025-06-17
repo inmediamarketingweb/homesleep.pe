@@ -17,7 +17,7 @@ function Contacto(){
     return(
         <>
             <Helmet>
-                <title>Contacto | Kamas</title>
+                <title>Contacto | Homesleep</title>
             </Helmet>
 
             <Header/>
@@ -49,13 +49,8 @@ function Contacto(){
                                             <img src="/" alt="" />
                                         </li>
                                         <li>
-                                            <a href="tel: +51917013610" title="Teléfono | Kamas" className="">
-                                                <p>917013610</p>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="+51943469911" title="Teléfono | Kamas" className="">
-                                                <p>943469911</p>
+                                            <a href="tel: +51901451579" title="Teléfono | Kamas" className="">
+                                                <p>901451579</p>
                                             </a>
                                         </li>
                                     </ul>
@@ -66,7 +61,7 @@ function Contacto(){
                                         </li>
                                         <li>
                                             <a href="/" title="" className="">
-                                                <p>consultas@kamas.pe</p>
+                                                <p>consultas@homesleep.pe</p>
                                             </a>
                                         </li>
                                     </ul>
