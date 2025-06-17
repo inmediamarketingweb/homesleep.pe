@@ -49,7 +49,7 @@ export default function MasProductos({ categoriaActual }){
 
                 setProducts(selected);
             } catch (err) {
-                console.error('Error loading more products:', err);
+                console.error('Error cargando productos', err);
             } finally {
                 setLoading(false);
             }

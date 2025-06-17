@@ -3,7 +3,7 @@ import './Footer.css';
 function Footer(){
     return(
         <>
-            <a href='https://wa.link/oe9uol' target='_blank' rel="noopener noreferrer" className='whatsapp-button'>
+            <a href='https://wa.link/97p523' target='_blank' rel="noopener noreferrer" className='whatsapp-button'>
                 <img src="/assets/imagenes/iconos/whatsapp-blanco.svg" alt="icono de whatsapp"/>
             </a>
 
@@ -18,7 +18,7 @@ function Footer(){
                             <div className='footer-target footer-target-1'>
                                 <p className='title'>Contáctanos</p>
 
-                                <ul className='footer-list'>
+                                <ul className='footer-list gap-10'>
                                     <li>
                                         <span className="material-icons">location_on</span>
                                         <div>
@@ -99,7 +99,7 @@ function Footer(){
                                             </a>
                                         </li>
                                         <li>
-                                            <a href='/servicio-al-cliente/manual-de-instalacion/' title='Manual de instalación | Homesleep'>
+                                            <a href='/nosotros/' title='Manual de instalación | Homesleep'>
                                                 <p>Homesleep</p>
                                             </a>
                                         </li>
@@ -119,7 +119,7 @@ function Footer(){
                                             </a>
                                         </li>
                                         <li>
-                                            <a href='/nosotros/contacto/' title='Contacto | Homesleep'>
+                                            <a href='/contacto/' title='Contacto | Homesleep'>
                                                 <p>Contacto</p>
                                             </a>
                                         </li>
