@@ -1,14 +1,14 @@
-# Dormihogar
+# Homesleep
 
-[![Version](https://img.shields.io/npm/v/dormihogar)](https://www.npmjs.com/package/dormihogar)  
-[![Build Status](https://img.shields.io/github/actions/workflow/status/inmediamarketingweb/dormihogar/deploy.yml?branch=main)](https://github.com/inmediamarketingweb/dormihogar/actions)  
-[![License](https://img.shields.io/github/license/inmediamarketingweb/dormihogar)](LICENSE)
+[![Version](https://img.shields.io/npm/v/homesleep)](https://www.npmjs.com/package/homesleep)  
+[![Build Status](https://img.shields.io/github/actions/workflow/status/inmediamarketingweb/homesleep/deploy.yml?branch=main)](https://github.com/inmediamarketingweb/homesleep/actions)  
+[![License](https://img.shields.io/github/license/inmediamarketingweb/homesleep)](LICENSE)
 
 ## Descripción
 
-- Sitio web oficial de la empresa fabricante de muebles "dormihogar" que les permite a los usuarios navegar y ver los diferentes productos de la empresa.
+- Sitio web oficial de la empresa fabricante de muebles "homesleep" que les permite a los usuarios navegar y ver los diferentes productos de la empresa.
 - Este proyecto sigue en etapa de desarrollo por lo que puede presentar algunas incogruencias en su funcionalidad, diseño o productos.
-- Visita el sitio web oficial: [dormihogar.pe](https://dormihogar.pe)
+- Visita el sitio web oficial: [homesleep.pe](https://homesleep.pe)
 
 ## Características
 
@@ -22,7 +22,7 @@
 
 1. Clona el repositorio  
    ```bash
-   git clone https://github.com/inmediamarketingweb/dormihogar.git
+   git clone https://github.com/inmediamarketingweb/homesleep.pe
 
 2. Instalar dependencias
    ```bash
@@ -34,7 +34,7 @@
 
 ## Arquitectura
 
-dormihogar/
+homesleep/
 ├── public/                   # Assets estáticos
 ├── src/
 │   ├── Componentes/          # Componentes React reutilizables
