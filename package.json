@@ -1,6 +1,6 @@
 {
-    "name": "dormihogar",
-    "homepage": "https://dormihogar.pe",
+    "name": "homesleep",
+    "homepage": "https://homesleep.pe",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
