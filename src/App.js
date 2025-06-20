@@ -67,12 +67,10 @@ function App(){
 
                     <Route path="/productos/" element={<Productos/>} />
                     
-                    {/* Rutas específicas de categorías (deben ir ANTES de la ruta genérica) */}
                     <Route path="/productos/:categoria/" element={<PaginaDeCategoria/>} />
                     <Route path="/productos/:categoria/:subcategoria/" element={<PaginaDeCategoria/>} />
                     <Route path="/productos/:categoria/:subcategoria/:marca/" element={<PaginaDeCategoria/>} />
                     
-                    {/* Ruta genérica para productos individuales (DEBE IR DESPUÉS de las rutas de categoría) */}
                     <Route path="/productos/*" element={<PaginaProducto/>} />
 
                     <Route path="/ofertas/" element={<Ofertas/>} />
@@ -93,6 +91,7 @@ function App(){
                     <Route path="/envios/envios-a-lima-y-callao/" element={<EnviosALimaYCallao/>}/>
                     <Route path="/envios/envios-a-provincia/" element={<EnviosAProvincia/>}/>
 
+                    <Route path="/paleta-de-colores/" element={<Colores/>}/>
                     <Route path="/servicio-al-cliente/medios-de-pago/" element={<MediosDePago/>}/>
                     <Route path="/servicio-al-cliente/costos-de-envio-por-zona/" element={<CostosDeEnvioPorZonas/>}/>
                     <Route path="/servicio-al-cliente/garantia-de-productos/" element={<GarantiaDeProductos/>}/>

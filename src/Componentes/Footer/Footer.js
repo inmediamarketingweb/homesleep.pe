@@ -47,6 +47,11 @@ function Footer(){
                                 <p className='title'>Servicio al cliente</p>
                                 <ul className='footer-list'>
                                     <li>
+                                        <a href='/paleta-de-colores/' title='Paleta de colores | Homesleep'>
+                                            <p>Paleta de colores</p>
+                                        </a>
+                                    </li>
+                                    <li>
                                         <a href='/servicio-al-cliente/medios-de-pago/' title='Medios de pago | Homesleep'>
                                             <p>Medios de pago</p>
                                         </a>
