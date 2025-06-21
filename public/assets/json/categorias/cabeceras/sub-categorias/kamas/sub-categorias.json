@@ -3,19 +3,19 @@
         {
             "id": 1,
             "subcategoria": "Aereas con patas",
-            "metaTitulo": "Cabeceras - Kamas aereas con patas | Dormihogar",
+            "metaTitulo": "Cabeceras - Kamas aereas con patas | Homesleep",
             "ruta": "/productos/cabeceras/kamas/aereas-con-patas/"
         },
         {
             "id": 2,
             "subcategoria": "Aereas",
-            "metaTitulo": "Cabeceras - Kamas aereas | Dormihogar",
+            "metaTitulo": "Cabeceras - Kamas aereas | Homesleep",
             "ruta": "/productos/cabeceras/kamas/aereas/"
         },
         {
             "id": 3,
             "subcategoria": "Pedestales",
-            "metaTitulo": "Cabeceras - Kamas pedestales | Dormihogar",
+            "metaTitulo": "Cabeceras - Kamas pedestales | Homesleep",
             "ruta": "/productos/cabeceras/kamas/pedestales/"
         }
     ]
