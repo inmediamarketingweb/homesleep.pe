@@ -3,19 +3,19 @@
         {
             "id": 1,
             "subcategoria": "Kamas",
-            "metaTitulo": "Cabeceras - Kamas | Dormihogar",
+            "metaTitulo": "Cabeceras - Kamas | Homesleep",
             "ruta": "/productos/cabeceras/kamas/"
         },
         {
             "id": 2,
             "subcategoria": "Paraiso",
-            "metaTitulo": "Cabeceras - Paraiso | Dormihogar",
+            "metaTitulo": "Cabeceras - Paraiso | Homesleep",
             "ruta": "/productos/cabeceras/paraiso/"
         },
         {
             "id": 3,
             "subcategoria": "El Cisne",
-            "metaTitulo": "Cabeceras - El Cisne | Dormihogar",
+            "metaTitulo": "Cabeceras - El Cisne | Homesleep",
             "ruta": "/productos/cabeceras/el-cisne/"
         }
     ]

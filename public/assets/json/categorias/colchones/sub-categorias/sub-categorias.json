@@ -14,9 +14,9 @@
         },
         {
             "id": 3,
-            "subcategoria": "Cisne",
-            "metaTitulo": "Colchones - Cisne | Kamas",
-            "ruta": "/productos/colchones/cisne/"
+            "subcategoria": "El cisne",
+            "metaTitulo": "Colchones - El cisne | Kamas",
+            "ruta": "/productos/colchones/el-cisne/"
         }
     ]
 }

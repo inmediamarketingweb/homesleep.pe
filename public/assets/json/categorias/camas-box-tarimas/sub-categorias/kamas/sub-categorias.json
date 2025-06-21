@@ -3,31 +3,31 @@
         {
             "id": 1,
             "subcategoria": "Clasicas",
-            "metaTitulo": "Camas box tarimas Kamas clásicas | Dormihogar",
+            "metaTitulo": "Camas box tarimas Kamas clásicas | Homesleep",
             "ruta": "/productos/camas-box-tarimas/kamas/clasicas/"
         },
         {
             "id": 2,
             "subcategoria": "Americanas",
-            "metaTitulo": "Camas box tarimas Kamas americanas | Dormihogar",
+            "metaTitulo": "Camas box tarimas Kamas americanas | Homesleep",
             "ruta": "/productos/camas-box-tarimas/kamas/americanas/"
         },
         {
             "id": 3,
             "subcategoria": "Americanas con cajones",
-            "metaTitulo": "Camas box tarimas Kamas americanas con cajones | Dormihogar",
+            "metaTitulo": "Camas box tarimas Kamas americanas con cajones | Homesleep",
             "ruta": "/productos/camas-box-tarimas/kamas/americanas-con-cajones/"
         },
         {
             "id": 4,
             "subcategoria": "Europeas",
-            "metaTitulo": "Camas box tarimas Kamas europeas | Dormihogar",
+            "metaTitulo": "Camas box tarimas Kamas europeas | Homesleep",
             "ruta": "/productos/camas-box-tarimas/kamas/europeas/"
         },
         {
             "id": 5,
             "subcategoria": "Europeas con cajones",
-            "metaTitulo": "Camas box tarimas Kamas europeas con cajones | Dormihogar",
+            "metaTitulo": "Camas box tarimas Kamas europeas con cajones | Homesleep",
             "ruta": "/productos/camas-box-tarimas/kamas/europeas-con-cajones/"
         }
     ]

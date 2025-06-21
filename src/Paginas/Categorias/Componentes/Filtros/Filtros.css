@@ -352,4 +352,8 @@
     .filters-clear{
         width: calc(100% - 40px);
     }
+
+    .category-page-filters-container img{
+        display: none;
+    }
 }

@@ -152,7 +152,7 @@ function Filtros({ productos, setProductosFiltrados, filtersActive, onClose }){
     };
 
     return (
-        <>
+        <div className="category-page-filters-container d-flex-column gap-20">
             <div className={`filters-layer ${filtersActive ? "active" : ""}`} onClick={onClose} aria-hidden={!filtersActive}/>
 
             <div className={`filters-container ${filtersActive ? "active" : ""}`}>
@@ -223,7 +223,9 @@ function Filtros({ productos, setProductosFiltrados, filtersActive, onClose }){
                     </div>
                 </div>
             </div>
-        </>
+
+            <img src='/assets/imagenes/paginas/categorias/1.jpg' alt='Homesleep | Las mejores marcas en dormitorios' className='page-banner-img'/>
+        </div>
     );
 }
 

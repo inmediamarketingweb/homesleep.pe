@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import './Imagenes.css';
 
 import LazyImage from '../../../../Componentes/Plantillas/LazyImage';
-import Colores from '../../Componentes/Colores/Colores'
+import Colores from '../Colores/Colores';
 
 function Imagenes({ imagenes, producto, onSelectColor }){
     const [currentIndex, setCurrentIndex] = useState(0);
