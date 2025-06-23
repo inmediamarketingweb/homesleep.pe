@@ -35,7 +35,7 @@ function Top(){
                 </ul>
 
                 <div className='margin-left location d-flex-center-center gap-10'>
-                    <p>Marca 100% peruana</p>
+                    <p>Líderes en productos de dormitorio</p>
                     <span></span>
                 </div>
             </section>

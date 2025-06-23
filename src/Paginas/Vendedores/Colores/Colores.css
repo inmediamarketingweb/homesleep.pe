@@ -188,6 +188,14 @@
     filter: grayscale(0);
 }
 
+.block-title.d-flex-center-left.color-black-0{
+    display: inline-block;
+}
+
+.block-title.d-flex-center-left.color-black-0::first-letter{
+    font-size: 20px;
+}
+
 @media screen and (max-width: 600px){
     .page-colors-container{
         grid-template-columns: 1fr;

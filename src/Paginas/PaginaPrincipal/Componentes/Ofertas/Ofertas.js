@@ -128,7 +128,7 @@ function Ofertas(){
                     <ul className='homepage-offers-content'>
                         {[1, 2, 3, 4, 5, 6].map((n) => (
                             <li key={n}>
-                                <a href='/productos/dormitorios/?marca=kamas&tamaño=king&modelo-de-colchón=sarki' title='Ver ofertas'>
+                                <a href='/productos/dormitorios/' title='Ver ofertas | Homesleep'>
                                     <LazyImage width={280} height={400} src={`/assets/imagenes/paginas/pagina-principal/ofertas/${n}.webp`} alt="Ofertas | Homesleep"/>
                                 </a>
                             </li>
