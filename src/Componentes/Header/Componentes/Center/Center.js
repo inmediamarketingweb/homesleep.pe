@@ -80,56 +80,56 @@ function Center(){
                                                     </div>
                                                 )}
 
-                                            {categoria.subCategorias && (
-                                                <div className='submenu-target submenu-target-2'>
-                                                    <h3 className='submenu-target-title'>{categoria.subCategoriasTitulo?.[0]?.text || 'Subcategorías'}:</h3>
-                                                    <ul>
-                                                        {categoria.subCategorias.map((sub) => (
-                                                            <li key={uuidv4()}>
-                                                                <a href={sub.ruta} title={sub.subcategoria}>
-                                                                    <h4>{sub.subcategoria}</h4>
-                                                                </a>
-                                                            </li>
-                                                        ))}
-                                                    </ul>
-                                                </div>
-                                            )}
+                                                {categoria.medidas && (
+                                                    <div className='submenu-target submenu-target-3'>
+                                                        <h3 className='submenu-target-title'>Medidas:</h3>
+                                                        <ul>
+                                                            {categoria.medidas.map((medida) => (
+                                                                <li key={uuidv4()}>
+                                                                    <a href={medida.ruta} title={medida.medida}>
+                                                                        <h4>{medida.medida}</h4>
+                                                                    </a>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+                                                    </div>
+                                                )}
 
-                                            {categoria.medidas && (
-                                                <div className='submenu-target submenu-target-3'>
-                                                    <h3 className='submenu-target-title'>Medidas:</h3>
-                                                    <ul>
-                                                        {categoria.medidas.map((medida) => (
-                                                            <li key={uuidv4()}>
-                                                                <a href={medida.ruta} title={medida.medida}>
-                                                                    <h4>{medida.medida}</h4>
-                                                                </a>
-                                                            </li>
-                                                        ))}
-                                                    </ul>
-                                                </div>
-                                            )}
+                                                {categoria.subCategorias && (
+                                                    <div className='submenu-target submenu-target-2'>
+                                                        <h3 className='submenu-target-title'>{categoria.subCategoriasTitulo?.[0]?.text || 'Subcategorías'}:</h3>
+                                                        <ul>
+                                                            {categoria.subCategorias.map((sub) => (
+                                                                <li key={uuidv4()}>
+                                                                    <a href={sub.ruta} title={sub.subcategoria}>
+                                                                        <h4>{sub.subcategoria}</h4>
+                                                                    </a>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+                                                    </div>
+                                                )}
 
-                                            {categoria.modelos && (
-                                                <div className='submenu-target submenu-target-3'>
-                                                    <h3 className='submenu-target-title'>Modelos:</h3>
-                                                    <ul>
-                                                        {categoria.modelos.map((modelo) => (
-                                                            <li key={uuidv4()}>
-                                                                <a href={modelo.ruta} title={modelo.modelo}>
-                                                                    <h4>{modelo.modelo}</h4>
-                                                                </a>
-                                                            </li>
-                                                        ))}
-                                                    </ul>
-                                                </div>
-                                            )}
+                                                {categoria.modelos && (
+                                                    <div className='submenu-target submenu-target-3'>
+                                                        <h3 className='submenu-target-title'>Modelos:</h3>
+                                                        <ul>
+                                                            {categoria.modelos.map((modelo) => (
+                                                                <li key={uuidv4()}>
+                                                                    <a href={modelo.ruta} title={modelo.modelo}>
+                                                                        <h4>{modelo.modelo}</h4>
+                                                                    </a>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+                                                    </div>
+                                                )}
 
-                                            {categoria.menuImg && (
-                                                <div className='submenu-target submenu-target-4'>
-                                                    <img width={280} height={280} loading='lazy' src={categoria.menuImg[0]?.imgSrc} alt={categoria.menuImg[0]?.imgAlt || categoria.categoria}/>
-                                                </div>
-                                            )}
+                                                {categoria.menuImg && (
+                                                    <div className='submenu-target submenu-target-4'>
+                                                        <img width={280} height={280} loading='lazy' src={categoria.menuImg[0]?.imgSrc} alt={categoria.menuImg[0]?.imgAlt || categoria.categoria}/>
+                                                    </div>
+                                                )}
                                             </nav>
                                         </div>
                                     )}
