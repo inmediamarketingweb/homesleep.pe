@@ -12,37 +12,6 @@
                     "text": "Contamos con una amplia gama de colchones en diversos tamaños, nivel de comodidad y Marcass propios."
                 }
             ],
-            "subCategoriasTitulo":[
-                {
-                    "text": "Marcas"
-                }
-            ],
-            "subCategorias":[
-                {
-                    "id": 1,
-                    "subcategoria": "Kamas",
-                    "metaTitulo": "Colchones - Kamas | Homesleep",
-                    "ruta": "/productos/colchones/kamas/"
-                },
-                {
-                    "id": 2,
-                    "subcategoria": "Paraiso",
-                    "metaTitulo": "Colchones - Paraiso | Homesleep",
-                    "ruta": "/productos/colchones/paraiso/"
-                },
-                {
-                    "id": 3,
-                    "subcategoria": "Cisne",
-                    "metaTitulo": "Colchones - Cisne | Homesleep",
-                    "ruta": "/productos/colchones/cisne/"
-                },
-                {
-                    "id": 4,
-                    "subcategoria": "Ver todos",
-                    "metaTitulo": "Colchones | Homesleep",
-                    "ruta": "/productos/colchones/"
-                }
-            ],
             "medidas":[
                 {
                     "id": 1,
@@ -75,6 +44,37 @@
                     "ruta": "/productos/colchones/"
                 }
             ],
+            "subCategoriasTitulo":[
+                {
+                    "text": "Marcas"
+                }
+            ],
+            "subCategorias":[
+                {
+                    "id": 1,
+                    "subcategoria": "Kamas",
+                    "metaTitulo": "Colchones - Kamas | Homesleep",
+                    "ruta": "/productos/colchones/kamas/"
+                },
+                {
+                    "id": 2,
+                    "subcategoria": "Paraiso",
+                    "metaTitulo": "Colchones - Paraiso | Homesleep",
+                    "ruta": "/productos/colchones/paraiso/"
+                },
+                {
+                    "id": 3,
+                    "subcategoria": "El Cisne",
+                    "metaTitulo": "Colchones - El Cisne | Homesleep",
+                    "ruta": "/productos/colchones/el-cisne/"
+                },
+                {
+                    "id": 4,
+                    "subcategoria": "Ver todos",
+                    "metaTitulo": "Colchones | Homesleep",
+                    "ruta": "/productos/colchones/"
+                }
+            ],
             "menuImg":[
                 {
                     "imgSrc": "/assets/imagenes/productos/colchones/1.webp",
@@ -92,37 +92,6 @@
             "menuMensaje":[
                 {
                     "text": "Bases con diseños americanos, europeos con o sin cajones... son la base de un buen descanso."
-                }
-            ],
-            "subCategoriasTitulo":[
-                {
-                    "text": "Marcas"
-                }
-            ],
-            "subCategorias":[
-                {
-                    "id": 1,
-                    "subcategoria": "Kamas",
-                    "metaTitulo": "Camas box tarimas - Kamas | Homesleep",
-                    "ruta": "/productos/camas-box-tarimas/kamas/"
-                },
-                {
-                    "id": 2,
-                    "subcategoria": "Paraíso",
-                    "metaTitulo": "Camas box tarimas - Paraíso | Homesleep",
-                    "ruta": "/productos/camas-box-tarimas/paraiso/"
-                },
-                {
-                    "id": 3,
-                    "subcategoria": "Cisne",
-                    "metaTitulo": "Camas box tarimas - Cisne | Homesleep",
-                    "ruta": "/productos/camas-box-tarimas/cisne/"
-                },
-                {
-                    "id": 4,
-                    "subcategoria": "Ver todos",
-                    "metaTitulo": "Camas box tarimas | Homesleep",
-                    "ruta": "/productos/camas-box-tarimas/"
                 }
             ],
             "medidas":[
@@ -154,6 +123,37 @@
                 {
                     "id": 6,
                     "medida": "Ver todos",
+                    "ruta": "/productos/camas-box-tarimas/"
+                }
+            ],
+            "subCategoriasTitulo":[
+                {
+                    "text": "Marcas"
+                }
+            ],
+            "subCategorias":[
+                {
+                    "id": 1,
+                    "subcategoria": "Kamas",
+                    "metaTitulo": "Camas box tarimas - Kamas | Homesleep",
+                    "ruta": "/productos/camas-box-tarimas/kamas/"
+                },
+                {
+                    "id": 2,
+                    "subcategoria": "Paraíso",
+                    "metaTitulo": "Camas box tarimas - Paraíso | Homesleep",
+                    "ruta": "/productos/camas-box-tarimas/paraiso/"
+                },
+                {
+                    "id": 3,
+                    "subcategoria": "El cisne",
+                    "metaTitulo": "Camas box tarimas - El Cisne | Homesleep",
+                    "ruta": "/productos/camas-box-tarimas/el-cisne/"
+                },
+                {
+                    "id": 4,
+                    "subcategoria": "Ver todos",
+                    "metaTitulo": "Camas box tarimas | Homesleep",
                     "ruta": "/productos/camas-box-tarimas/"
                 }
             ],

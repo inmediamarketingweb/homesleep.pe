@@ -1,6 +1,5 @@
 [
     {
-        "id": 0,
         "titulo": "Tamaño",
         "nombre": "tamaño",
         "lista":[
@@ -27,7 +26,6 @@
         ]
     },
     {
-        "id": 1,
         "titulo": "Marca",
         "nombre": "marca",
         "lista":[
@@ -41,12 +39,11 @@
             },
             {
                 "id": 3,
-                "nombre": "Cisne"
+                "nombre": "El Cisne"
             }
         ]
     },
     {
-        "id": 2,
         "titulo": "Línea de colchón",
         "nombre": "línea-de-colchón",
         "lista":[
@@ -77,7 +74,6 @@
         ]
     },
     {
-        "id": 3,
         "titulo": "Nivel de confort",
         "nombre": "nivel-de-confort",
         "lista":[
@@ -108,7 +104,24 @@
         ]
     },
     {
-        "id": 4,
+        "titulo": "Tipo de resorte",
+        "nombre": "tipo-de-resorte",
+        "lista":[
+            {
+                "id": 1,
+                "nombre": "Bonell"
+            },
+            {
+                "id": 2,
+                "nombre": "Cosisoft"
+            },
+            {
+                "id": 3,
+                "nombre": "Pocket"
+            }
+        ]
+    },
+    {
         "titulo": "Modelo de colchón",
         "nombre": "modelo-de-colchón",
         "lista":[
@@ -159,25 +172,6 @@
             {
                 "id": 12,
                 "nombre": "Yurmale"
-            }
-        ]
-    },
-    {
-        "id": 5,
-        "titulo": "Tipo de resorte",
-        "nombre": "tipo-de-resorte",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Bonell"
-            },
-            {
-                "id": 2,
-                "nombre": "Cosisoft"
-            },
-            {
-                "id": 3,
-                "nombre": "Pocket"
             }
         ]
     }
