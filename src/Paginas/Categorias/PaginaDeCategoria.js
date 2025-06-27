@@ -348,7 +348,7 @@ function PaginaDeCategoria() {
                                                                                     <div className={`product-card-tipo-de-envio ${tipoEnvioClase}`}>
                                                                                         <span>
                                                                                             {producto["tipo-de-envio"] === "Gratis"
-                                                                                                ? "¡ Envío gratis 🚚 !"
+                                                                                                ? "Envío gratis 🚚"
                                                                                                 : producto["tipo-de-envio"] || "No especificado"}
                                                                                         </span>
                                                                                     </div>
@@ -381,24 +381,14 @@ function PaginaDeCategoria() {
                                             <div className="d-flex-center-center gap-10">
                                                 {getVisiblePages().map((page, index) => 
                                                     typeof page === 'number' ? (
-                                                        <button 
-                                                            key={index} 
-                                                            className={`pagination-page ${currentPage === page ? 'active' : ''}`} 
-                                                            onClick={() => handlePageChange(page)}
-                                                        >
-                                                            {page}
-                                                        </button>
+                                                        <button key={index} className={`pagination-page ${currentPage === page ? 'active' : ''}`} onClick={() => handlePageChange(page)}>{page}</button>
                                                     ) : (
                                                         <span key={index} className="pagination-ellipsis">...</span>
                                                     )
                                                 )}
                                             </div>
 
-                                            <button 
-                                                className="pagination-arrow" 
-                                                onClick={handleNextPage} 
-                                                disabled={currentPage === totalPages}
-                                            >
+                                            <button className="pagination-arrow" onClick={handleNextPage} disabled={currentPage === totalPages}>
                                                 <span className="material-icons">chevron_right</span>
                                             </button>
                                         </div>
