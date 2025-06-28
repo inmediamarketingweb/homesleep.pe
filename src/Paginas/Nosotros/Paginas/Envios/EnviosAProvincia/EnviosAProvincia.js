@@ -52,16 +52,17 @@ function EnviosAProvincia(){
 
                         <div className="envios-page">
                             <div className="d-flex-column gap-10">
-                                <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@kamas.pe/video/7306283248932474118" data-video-id="7306283248932474118">
+                                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@homesleep.pe/video/7375670311783501061" data-video-id="7375670311783501061">
                                     <section>
-                                        <a target="_blank" rel="noopener noreferrer" title="@kamas.pe" href="https://www.tiktok.com/@kamas.pe?refer=embed">@kamas.pe</a>
-                                        <a title="dormitorio" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/tag/dormitorio?refer=embed">#Dormitorio</a>
-                                        <a title="kamas" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/tag/kamas?refer=embed">#Kamas</a>
-                                        <a title="king" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/tag/king?refer=embed">#King</a>
-                                        <a title="3plazas" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/tag/3plazas?refer=embed">#3Plazas</a>
-                                        <a target="_blank" rel="noopener noreferrer" title="♬ sonido original - kamas" href="https://www.tiktok.com/music/sonido-original-7306283263833164549?refer=embed">♬ sonido original - kamas</a>
+                                        <a target="_blank" title="@homesleep.pe" href="https://www.tiktok.com/@homesleep.pe?refer=embed">@homesleep.pe</a>
+                                        <a title="dormitorio" target="_blank" href="https://www.tiktok.com/tag/dormitorio?refer=embed">#DORMITORIO</a>
+                                        <a title="cisne" target="_blank" href="https://www.tiktok.com/tag/cisne?refer=embed">#CISNE</a>
+                                        <a title="kamas" target="_blank" href="https://www.tiktok.com/tag/kamas?refer=embed">#KAMAS</a>
+                                        KING &#47; 3 PLAZAS A TAN SÓLO 1649 SOLES 💙
+                                        <a title="homesleep" target="_blank" href="https://www.tiktok.com/tag/homesleep?refer=embed">#Homesleep</a>
                                     </section>
                                 </blockquote>
+                                <script async src="https://www.tiktok.com/embed.js"></script>
                             </div>
 
                             <div className="envios-page-destinos">

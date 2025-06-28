@@ -52,16 +52,20 @@ function EnviosALimaYCallao(){
 
                         <div className="envios-page">
                             <div className="d-flex-column gap-10">
-                                <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@kamas.pe/video/7306283248932474118" data-video-id="7306283248932474118">
+                                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@homesleep.pe/video/7408317289155611909" data-video-id="7408317289155611909">
                                     <section>
-                                        <a target="_blank" rel="noopener noreferrer" title="@kamas.pe" href="https://www.tiktok.com/@kamas.pe?refer=embed">@kamas.pe</a>
-                                        <a title="dormitorio" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/tag/dormitorio?refer=embed">#Dormitorio</a>
-                                        <a title="kamas" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/tag/kamas?refer=embed">#Kamas</a>
-                                        <a title="king" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/tag/king?refer=embed">#King</a>
-                                        <a title="3plazas" target="_blank" rel="noopener noreferrer" href="https://www.tiktok.com/tag/3plazas?refer=embed">#3Plazas</a>
-                                        <a target="_blank" rel="noopener noreferrer" title="♬ sonido original - kamas" href="https://www.tiktok.com/music/sonido-original-7306283263833164549?refer=embed">♬ sonido original - kamas</a>
+                                        <a target="_blank" title="@homesleep.pe" href="https://www.tiktok.com/@homesleep.pe?refer=embed">@homesleep.pe</a>
+                                        Dormitorio Kamas&#47;Cisne King 3 plazas a tan solo 1649 soles 🥰
+                                        <a title="homesleep" target="_blank" href="https://www.tiktok.com/tag/homesleep?refer=embed">#Homesleep</a>
+                                        ¡Líder en productos de dormitorio! 💙
+                                        <a title="dormitorios" target="_blank" href="https://www.tiktok.com/tag/dormitorios?refer=embed">#dormitorios</a>
+                                        <a title="colchonescisne" target="_blank" href="https://www.tiktok.com/tag/colchonescisne?refer=embed">#colchonescisne</a>
+                                        <a title="kamas" target="_blank" href="https://www.tiktok.com/tag/kamas?refer=embed">#kamas</a>
+                                        <a title="ofertas" target="_blank" href="https://www.tiktok.com/tag/ofertas?refer=embed">#ofertas</a>
+                                        <a target="_blank" title="♬ sonido original - Homesleep" href="https://www.tiktok.com/music/sonido-original-7408317286384536325?refer=embed">♬ sonido original - Homesleep</a>
                                     </section>
                                 </blockquote>
+                                <script async src="https://www.tiktok.com/embed.js"></script>
                             </div>
 
                             <div className="envios-page-destinos">
