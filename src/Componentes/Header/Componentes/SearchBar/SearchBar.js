@@ -102,7 +102,7 @@ function SearchBar() {
 
     return(
         <>
-            <div className='leo'>
+            <div className='barra-de-busqueda'>
                 <button type='button' className='search-bar-button' onClick={toggleSearch}>
                     <span className="material-icons">search</span>
                 </button>
