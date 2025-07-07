@@ -51,70 +51,68 @@ export function Producto({ producto = { id: null } , truncate }){
     const isFavorite = favorites.some( (fav) => fav.sku === producto.sku );
 
     return(
-        <li>
-            <div className={`product-card ${producto.stock === 0 ? "agotado" : ""}`} title={producto.nombre}>
-                <div className="product-card-images">
-                    {descuento > 0 && (
-                        <span className="product-card-discount">-{descuento}%</span>
-                    )}
+        <div className={`product-card ${producto.stock === 0 ? "agotado" : ""}`} title={producto.nombre}>
+            <div className="product-card-images">
+                {descuento > 0 && (
+                    <span className="product-card-discount">-{descuento}%</span>
+                )}
 
-                    <a href={producto.ruta} alt={producto.nombre}>
-                        <LazyImage width={isSmallScreen ? 140 : 200} height={isSmallScreen ? 140 : 200} src={`${producto.fotos}1`} alt={producto.nombre}/>
-                    </a>
-
-                    <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >
-                        <span className="material-icons">favorite</span>
-                    </button>
-                </div>
-
-                <a href={producto.ruta} className="product-card-content">
-                    {producto.stock === 0 ? (
-                        <div className="product-card-agotado product-card-target">
-                            <span>Sin stock 😥</span>
-                        </div>
-                    ) : (
-                        <>
-                            {producto.novedades === "si" && (
-                                <div className="product-card-target">
-                                    <span>¡Lo más nuevo!</span>
-                                </div>
-                            )}
-
-                            {producto["solo-por-horas"] === "si" && (
-                                <div className="product-card-stock">
-                                    <span>¡ Solo por horas ⌛ !</span>
-                                </div>
-                            )}
-
-                            {producto.oferta === "si" && (
-                                <div className="product-card-ofert">
-                                    <span>En oferta 🔥</span>
-                                </div>
-                            )}
-
-                            {producto.novedades !== "si" &&
-                                producto["solo-por-horas"] !== "si" &&
-                                producto.oferta !== "si" && (
-                                    <div className={`product-card-tipo-de-envio ${tipoEnvioClase}`}>
-                                        <span>
-                                            {producto["tipo-de-envio"] === "Gratis"
-                                                ? "¡ Envío gratis 🚚 !"
-                                                : producto["tipo-de-envio"] || "No especificado"}
-                                        </span>
-                                    </div>
-                                )}
-                        </>
-                    )}
-
-                    <span className="product-card-brand">{producto.marca}</span>
-                    <h4 className="product-card-name">{truncate(producto.nombre, 79)}</h4>
-                    <div className="product-card-prices">
-                        <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
-                        <span className="product-card-sale-price">S/.{producto.precioVenta}</span>
-                    </div>
+                <a href={producto.ruta} alt={producto.nombre}>
+                    <LazyImage width={isSmallScreen ? 140 : 200} height={isSmallScreen ? 140 : 200} src={`${producto.fotos}1`} alt={producto.nombre}/>
                 </a>
+
+                <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >
+                    <span className="material-icons">favorite</span>
+                </button>
             </div>
-        </li>
+
+            <a href={producto.ruta} className="product-card-content">
+                {producto.stock === 0 ? (
+                    <div className="product-card-agotado product-card-target">
+                        <span>Sin stock 😥</span>
+                    </div>
+                ) : (
+                    <>
+                        {producto.novedades === "si" && (
+                            <div className="product-card-target">
+                                <span>¡Lo más nuevo!</span>
+                            </div>
+                        )}
+
+                        {producto["solo-por-horas"] === "si" && (
+                            <div className="product-card-stock">
+                                <span>¡ Solo por horas ⌛ !</span>
+                            </div>
+                        )}
+
+                        {producto.oferta === "si" && (
+                            <div className="product-card-ofert">
+                                <span>En oferta 🔥</span>
+                            </div>
+                        )}
+
+                        {producto.novedades !== "si" &&
+                            producto["solo-por-horas"] !== "si" &&
+                            producto.oferta !== "si" && (
+                                <div className={`product-card-tipo-de-envio ${tipoEnvioClase}`}>
+                                    <span>
+                                        {producto["tipo-de-envio"] === "Gratis"
+                                            ? "¡ Envío gratis 🚚 !"
+                                            : producto["tipo-de-envio"] || "No especificado"}
+                                    </span>
+                                </div>
+                            )}
+                    </>
+                )}
+
+                <span className="product-card-brand">{producto.marca}</span>
+                <h4 className="product-card-name">{truncate(producto.nombre, 79)}</h4>
+                <div className="product-card-prices">
+                    <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
+                    <span className="product-card-sale-price">S/.{producto.precioVenta}</span>
+                </div>
+            </a>
+        </div>
     );
 }
 
