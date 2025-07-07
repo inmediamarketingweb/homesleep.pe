@@ -15,7 +15,7 @@
             "precioNormal": 2599,
             "precioVenta": 1949,
             "stock": 9,
-            "sku": "D3222213N10",
+            "sku": "H3222213N10",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -108,7 +108,7 @@
             "precioNormal": 2899,
             "precioVenta": 2049,
             "stock": 9,
-            "sku": "D322225N10",
+            "sku": "H322225N10",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -201,7 +201,7 @@
             "precioNormal": 2899,
             "precioVenta": 2099,
             "stock": 9,
-            "sku": "D3222213N12",
+            "sku": "H3222213N12",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -294,7 +294,7 @@
             "precioNormal": 2899,
             "precioVenta": 2099,
             "stock": 9,
-            "sku": "D3222213N11",
+            "sku": "H3222213N11",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -387,7 +387,7 @@
             "precioNormal": 2899,
             "precioVenta": 2199,
             "stock": 9,
-            "sku": "D322225N11",
+            "sku": "H322225N11",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -480,7 +480,7 @@
             "precioNormal": 2899,
             "precioVenta": 2199,
             "stock": 9,
-            "sku": "D322225N12",
+            "sku": "H322225N12",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -573,7 +573,7 @@
             "precioNormal": 2899,
             "precioVenta": 2199,
             "stock": 9,
-            "sku": "D322225N13",
+            "sku": "H322225N13",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -666,7 +666,7 @@
             "precioNormal": 2319,
             "precioVenta": 1729,
             "stock": 9,
-            "sku": "D32222143N10",
+            "sku": "H32222143N10",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -762,8 +762,8 @@
             "precioNormal": 1799,
             "precioVenta": 1249,
             "stock": 9,
-            "sku": "D32222143N11",
-            "tipo-de-envio": "Envío preferente",
+            "sku": "H32222143N11",
+            "tipo-de-envio": "Gratis",
             "regalos":[
                 {
                     "texto": "2 almohadas viscoelascticas",
@@ -858,8 +858,8 @@
             "precioNormal": 1899,
             "precioVenta": 1299,
             "stock": 9,
-            "sku": "D32222145N10",
-            "tipo-de-envio": "Envío preferente",
+            "sku": "H32222145N10",
+            "tipo-de-envio": "Gratis",
             "regalos":[
                 {
                     "texto": "2 almohadas viscoelascticas",
@@ -954,8 +954,8 @@
             "precioNormal": 1899,
             "precioVenta": 1249,
             "stock": 9,
-            "sku": "D32222145N11",
-            "tipo-de-envio": "Envío preferente",
+            "sku": "H32222145N11",
+            "tipo-de-envio": "Gratis",
             "regalos":[
                 {
                     "texto": "2 almohadas viscoelascticas",
@@ -1050,8 +1050,8 @@
             "precioNormal": 1599,
             "precioVenta": 1099,
             "stock": 9,
-            "sku": "D32222143N12",
-            "tipo-de-envio": "Envío preferente",
+            "sku": "H32222143N12",
+            "tipo-de-envio": "Gratis",
             "regalos":[
                 {
                     "texto": "2 almohadas viscoelascticas",
@@ -1146,8 +1146,8 @@
             "precioNormal": 1999,
             "precioVenta": 1479,
             "stock": 9,
-            "sku": "D32222143N13",
-            "tipo-de-envio": "Envío preferente",
+            "sku": "H32222143N13",
+            "tipo-de-envio": "Gratis",
             "regalos":[
                 {
                     "texto": "2 almohadas viscoelascticas",
@@ -1220,6 +1220,296 @@
                             "láminas": "MDF de 3mm.",
                             "tela": "Piel de potro",
                             "patas": "De manera",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "categoria": "dormitorios",
+            "marca": "Paraiso",
+            "linea": "americanos",
+            "tamaño": "2 plazas",
+            "modelo": "abrazzo",
+            "ruta": "/productos/dormitorios/paraiso/americanos/2-plazas/abrazzo/8/",
+            "nombre": "DORMITORIO PARAISO AMERICANO 2 PLAZAS + COLCHÓN PARAISO ABRAZZO + CABECERA PEDESTRAL - GRIS",
+            "fotos": "/assets/imagenes/productos/dormitorios/paraiso/americanos/2-plazas/abrazzo/pedestales/americanas/brazos-rectos/otros-modelos/1/",
+            "colores": "si",
+            "precioRegular": 5499,
+            "precioNormal": 5099,
+            "precioVenta": 2299,
+            "stock": 9,
+            "sku": "H3222213N13",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas viscoelascticas",
+                    "foto": "/assets/imagenes/productos/2-almohadas-viscoelasticas.jpg"
+                },
+                {
+                    "texto": "1 protector",
+                    "foto": "/assets/imagenes/productos/protector.jpg"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "2 plazas",
+                    "modelo-colchón": "Abrazzo",
+                    "tipo-de-cabecera": "Pedestales",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Abrazzo",
+                    "tipo-de-cabecera": "Pedestales",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "patas": "De manera",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "tratamiento": "Antihongos, antibacterias y antiacaros",
+                            "tela": "Tejido de punto higroscópica con diseño 3D",
+                            "espuma": "Viscoelástica D70",
+                            "capas": "Capas de espuma zebra 35 HR y 35 HD",
+                            "garantía": "10 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "categoria": "dormitorios",
+            "marca": "Paraiso",
+            "linea": "americanos",
+            "tamaño": "king",
+            "modelo": "abrazzo",
+            "ruta": "/productos/dormitorios/paraiso/americanos/king/abrazzo/1/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ABRAZZO + CABECERA AEREA LINEAL 2 + 1 PUFF - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/paraiso/americanos/king/abrazzo/aereas-con-patas/bloques/sin-brazos/lineal-2/1/",
+            "colores": "si",
+            "precioRegular": 4999,
+            "precioNormal": 3399,
+            "precioVenta": 2999,
+            "stock": 9,
+            "sku": "H3224216N10",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas viscoelascticas",
+                    "foto": "/assets/imagenes/productos/2-almohadas-viscoelasticas.jpg"
+                },
+                {
+                    "texto": "1 protector",
+                    "foto": "/assets/imagenes/productos/protector.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "modelo-colchón": "Abrazzo",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Lineal 2"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/abrazzo/1/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Abrazzo",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 2"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "tratamiento": "Antihongos, antibacterias y antiacaros",
+                            "tela": "Tejido de punto higroscópica con diseño 3D",
+                            "espuma": "Viscoelástica D70",
+                            "capas": "De espuma zebra 35 HR y 35 HD",
+                            "garantía": "10 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
+                            "botones": "clásicos o acrílicos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "categoria": "dormitorios",
+            "marca": "Paraiso",
+            "linea": "americanos",
+            "tamaño": "king",
+            "modelo": "abrazzo",
+            "ruta": "/productos/dormitorios/paraiso/americanos/queen/abrazzo/1/",
+            "nombre": "DORMITORIO KAMAS AMERICANO QUEEN + COLCHÓN PARAISO ABRAZZO + CABECERA AEREA LINEAL 2 + 1 PUFF - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/paraiso/americanos/king/abrazzo/aereas-con-patas/bloques/sin-brazos/lineal-2/1/",
+            "colores": "si",
+            "precioRegular": 4999,
+            "precioNormal": 3199,
+            "precioVenta": 2599,
+            "stock": 9,
+            "sku": "H3223216N10",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas viscoelascticas",
+                    "foto": "/assets/imagenes/productos/2-almohadas-viscoelasticas.jpg"
+                },
+                {
+                    "texto": "1 protector",
+                    "foto": "/assets/imagenes/productos/protector.jpg"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
+                }
+            ],
+            "resumen-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "queen",
+                    "modelo-colchón": "Abrazzo",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "modelo-de-cabecera": "Lineal 2"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "king",
+                    "ruta": "/productos/dormitorios/paraiso/americanos/king/abrazzo/1/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Abrazzo",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 2"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Cama box tarima",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "refuerzos": "centrales y laterales.",
+                            "láminas": "MDF de 3mm.",
+                            "patas": "Cromadas",
+                            "garantía": "2 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Colchón",
+                    "descripcion":[
+                        {
+                            "tratamiento": "Antihongos, antibacterias y antiacaros",
+                            "tela": "Tejido de punto higroscópica con diseño 3D",
+                            "espuma": "Viscoelástica D70",
+                            "capas": "De espuma zebra 35 HR y 35 HD",
+                            "garantía": "10 años"
+                        }
+                    ]
+                },
+                {
+                    "titulo": "Cabecera",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano seco al horno.",
+                            "espuma": "Zebra de alta densidad",
+                            "láminas": "MDF de 3mm.",
                             "botones": "clásicos o acrílicos",
                             "garantía": "2 años"
                         }

@@ -84,6 +84,16 @@
     right: 20px;
 }
 
+@media screen and (max-width: 800px){
+    .hero-container{
+        height: auto;
+    }
+
+    .slider-general-container > img{
+        height: 30px;
+    }
+}
+
 @media screen and (max-width: 600px){
     .slider-general-container > img{
         width: 100%;

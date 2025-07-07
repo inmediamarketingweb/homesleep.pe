@@ -87,6 +87,14 @@
 
 /**/
 
+@media screen and (max-width: 800px) {
+    .whatsapp-message::before{
+        right: 76px;
+    }
+}
+
+/**/
+
 @media screen and (max-width: 600px) {
     .whatsapp-message::before{
         right: 92px;

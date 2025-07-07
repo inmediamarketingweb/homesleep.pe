@@ -4,8 +4,8 @@ import { useLocation } from 'react-router-dom';
 
 import Header from '../../Componentes/Header/Header';
 
+import NoProducto from '../../Paginas/NoProducto/NoProducto';
 import SpinnerLoading from '../../Componentes/SpinnerLoading/SpinnerLoading';
-import NoProducto from '../NoProducto/NoProducto';
 import Jerarquia from './Componentes/Jerarquia/Jerarquia';
 import Sku from './Componentes/Sku/Sku';
 import Imagenes from './Componentes/Imagenes/Imagenes';
@@ -119,7 +119,9 @@ function PaginaProducto(){
                         const subcatNombre = subcat.subcategoria.toLowerCase().replace(/\s+/g, "-");
                         const jsonPath = `/assets/json/categorias/${categoria}/sub-categorias/${subcatNombre}.json`;
                         
-                        const data = await fetch(jsonPath).then(response => response.json()).catch(() => null);
+                        const data = await fetch(jsonPath)
+                            .then(response => response.json())
+                            .catch(() => null);
 
                         if (data?.productos) {
                             const producto = data.productos.find(p => p.ruta === rutaBuscada);
@@ -134,13 +136,16 @@ function PaginaProducto(){
                         try {
                             const subSubCatResponse = await fetch(subSubCatPath);
                             if (!subSubCatResponse.ok) return null;
-
+                            
                             const subSubCatData = await subSubCatResponse.json();
-
+                            
                             for (const marca of subSubCatData.subcategorias || []) {
                                 const marcaNombre = marca.subcategoria.toLowerCase().replace(/\s+/g, "-");
                                 const marcaPath = `/assets/json/categorias/${categoria}/sub-categorias/${subcatNombre}/${marcaNombre}.json`;
-                                const marcaData = await fetch(marcaPath).then(response => response.json()).catch(() => null);
+                                
+                                const marcaData = await fetch(marcaPath)
+                                    .then(response => response.json())
+                                    .catch(() => null);
 
                                 if (marcaData?.productos) {
                                     const producto = marcaData.productos.find(p => p.ruta === rutaBuscada);
@@ -155,7 +160,7 @@ function PaginaProducto(){
 
                     const subSubResults = await Promise.all(subSubCatPromises);
                     return subSubResults.find(result => result !== null) || null;
-
+                    
                 } catch (error) {
                     console.error(`Error en categoría ${categoria}:`, error);
                     return null;
@@ -231,7 +236,6 @@ function PaginaProducto(){
                 setUserName(storedName);
             }
         };
-
         window.addEventListener('storage', handleStorageChange);
         return () => window.removeEventListener('storage', handleStorageChange);
     }, [userName]);
@@ -395,14 +399,12 @@ function PaginaProducto(){
                                             {!selectedColor ? (
                                                 <p className='d-flex gap-5'><b className='color-red'>*</b>Sin variación de color</p>
                                             ) : (
-                                                <div className='d-flex gap-5'>
+                                                <div className='d-flex-column gap-5'>
                                                     <p className='bold color-black d-flex gap-5'><b className='color-red'>*</b>Color seleccionado:</p>
-                                                    <span>{selectedColor.color}</span>
-                                                    <img 
-                                                        src={selectedColor.img} 
-                                                        alt={selectedColor.color} 
-                                                        loading="lazy"
-                                                    />
+                                                    <div className='d-flex-center-left gap-5'>
+                                                        <span className='first-uppercase'>{selectedColor.color}</span>
+                                                        <img width={26} height={18} src={selectedColor.img} alt={selectedColor.color} loading="lazy" style={{ borderRadius: '10%' }} />
+                                                    </div>
                                                 </div>
                                             )}
                                         </div>

@@ -54,6 +54,13 @@
     background: var(--white);
 }
 
+@media screen and (max-width: 800px){
+    .header-top-container .header-top .header-top-left > li:nth-child(1),
+    .header-top-container .header-top .header-top-left > li:nth-child(2){
+        display: none;
+    }
+}
+
 @media screen and (max-width: 600px){
     .header-top > ul{
         display: none;

@@ -161,7 +161,9 @@
     color: var(--color-1);
 }
 
-@media screen and (max-width: 600px){
+/**/
+
+@media screen and (max-width: 800px){
     .header-bottom-container::before{
         content: 'dormihogar.pe';
         margin: auto auto 20px auto;

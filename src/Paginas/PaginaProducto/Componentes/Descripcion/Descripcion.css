@@ -89,6 +89,10 @@
     text-decoration: underline;
 }
 
+.product-descripcion .title{
+    color: var(--color-2) !important;
+}
+
 /**/
 
 @media screen and (max-width: 600px){

@@ -51,3 +51,18 @@
 .homepage-categories li a:hover p{
     color: var(--color-1);
 }
+
+@media screen and (max-width: 800px){
+    .homepage-categories{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .homepage-categories li a div img{
+        width: 100px !important;
+        height: 100px !important;
+        aspect-ratio: 1/1 !important;
+    }
+}

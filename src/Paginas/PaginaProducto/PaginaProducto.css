@@ -166,7 +166,11 @@
 
 /**/
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
+    .product-page-block-content .d-grid-1-3fr.gap-20{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .product-page-container{
         display: flex;
         flex-direction: column;

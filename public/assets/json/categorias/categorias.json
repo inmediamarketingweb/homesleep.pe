@@ -54,19 +54,19 @@
                     "id": 1,
                     "subcategoria": "Kamas",
                     "metaTitulo": "Colchones - Kamas | Homesleep",
-                    "ruta": "/productos/colchones/kamas/"
+                    "ruta": "/productos/colchones/?marca=kamas"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Paraiso",
                     "metaTitulo": "Colchones - Paraiso | Homesleep",
-                    "ruta": "/productos/colchones/paraiso/"
+                    "ruta": "/productos/colchones/?marca=paraiso"
                 },
                 {
                     "id": 3,
                     "subcategoria": "El Cisne",
                     "metaTitulo": "Colchones - El Cisne | Homesleep",
-                    "ruta": "/productos/colchones/el-cisne/"
+                    "ruta": "/productos/colchones/?marca=el-cisne"
                 },
                 {
                     "id": 4,
@@ -136,19 +136,19 @@
                     "id": 1,
                     "subcategoria": "Kamas",
                     "metaTitulo": "Camas box tarimas - Kamas | Homesleep",
-                    "ruta": "/productos/camas-box-tarimas/kamas/"
+                    "ruta": "/productos/camas-box-tarimas/?marca=kamas"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Paraíso",
                     "metaTitulo": "Camas box tarimas - Paraíso | Homesleep",
-                    "ruta": "/productos/camas-box-tarimas/paraiso/"
+                    "ruta": "/productos/camas-box-tarimas/?marca=paraiso"
                 },
                 {
                     "id": 3,
                     "subcategoria": "El cisne",
                     "metaTitulo": "Camas box tarimas - El Cisne | Homesleep",
-                    "ruta": "/productos/camas-box-tarimas/el-cisne/"
+                    "ruta": "/productos/camas-box-tarimas/?marca=el-cisne"
                 },
                 {
                     "id": 4,
@@ -186,19 +186,19 @@
                     "id": 1,
                     "subcategoria": "Kamas",
                     "metaTitulo": "Dormitorios - Kamas | Homesleep",
-                    "ruta": "/productos/dormitorios/kamas/"
+                    "ruta": "/productos/dormitorios/?marca=kamas"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Paraiso",
                     "metaTitulo": "Dormitorios - Paraiso | Homesleep",
-                    "ruta": "/productos/dormitorios/paraiso/"
+                    "ruta": "productos/dormitorios/?marca=paraiso"
                 },
                 {
                     "id": 3,
                     "subcategoria": "El Cisne",
                     "metaTitulo": "Dormitorios - El Cisne | Homesleep",
-                    "ruta": "/productos/dormitorios/el-cisne/"
+                    "ruta": "productos/dormitorios/?marca=el-cisne"
                 },
                 {
                     "id": 4,
@@ -268,19 +268,19 @@
                     "id": 1,
                     "subcategoria": "Kamas",
                     "metaTitulo": "Camas funcionales - Kamas | Homesleep",
-                    "ruta": "/productos/camas-funcionales/kamas/"
+                    "ruta": "/productos/camas-funcionales/?marca=kamas"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Paraíso",
                     "metaTitulo": "Camas funcionales - Paraíso | Homesleep",
-                    "ruta": "/productos/camas-funcionales/paraiso/"
+                    "ruta": "/productos/camas-funcionales/?marca=paraiso"
                 },
                 {
                     "id": 3,
                     "subcategoria": "El Cisne",
                     "metaTitulo": "Camas funcionales - El Cisne | Homesleep",
-                    "ruta": "/productos/camas-funcionales/el-cisne/"
+                    "ruta": "/productos/camas-funcionales/?marca=el-cisne"
                 },
                 {
                     "id": 4,
@@ -350,19 +350,19 @@
                     "id": 1,
                     "subcategoria": "Kamas",
                     "metaTitulo": "Cabeceras - Kamas | Homesleep",
-                    "ruta": "/productos/cabeceras/kamas/"
+                    "ruta": "/productos/cabeceras/?marca=kamas"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Paraiso",
                     "metaTitulo": "Cabeceras - Paraiso | Homesleep",
-                    "ruta": "/productos/cabeceras/paraiso/"
+                    "ruta": "/productos/cabeceras/?marca=paraiso"
                 },
                 {
                     "id": 3,
                     "subcategoria": "El Cisne",
                     "metaTitulo": "Cabeceras - El Cisne | Homesleep",
-                    "ruta": "/productos/cabeceras/el-cisne/"
+                    "ruta": "/productos/cabeceras/?marca=el-cisne"
                 },
                 {
                     "id": 4,
@@ -432,19 +432,19 @@
                     "id": 1,
                     "subcategoria": "Kamas",
                     "metaTitulo": "Sofás - Kamas | Homesleep",
-                    "ruta": "/productos/sofas/kamas/"
+                    "ruta": "/productos/sofas/?marca=kamas"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Paraiso",
                     "metaTitulo": "Sofás - Paraiso | Homesleep",
-                    "ruta": "/productos/sofas/paraiso/"
+                    "ruta": "/productos/sofas/?marca=paraiso"
                 },
                 {
                     "id": 3,
                     "subcategoria": "El Cisne",
                     "metaTitulo": "Sofás - El Cisne | Homesleep",
-                    "ruta": "/productos/sofas/el-cisne/"
+                    "ruta": "/productos/sofas/?marca=el-cisne"
                 },
                 {
                     "id": 4,
@@ -532,43 +532,43 @@
                     "id": 1,
                     "subcategoria": "Veladores",
                     "metaTitulo": "Complementos - Veladores | Homesleep",
-                    "ruta": "/productos/complementos/veladores/"
+                    "ruta": "/productos/complementos/?sub-categoría=veladores"
                 },
                 {
                     "id": 2,
                     "subcategoria": "Baúles",
                     "metaTitulo": "Complementos - Baúles | Homesleep",
-                    "ruta": "/productos/complementos/baules/"
+                    "ruta": "/productos/complementos/?sub-categoría=baules"
                 },
                 {
                     "id": 3,
                     "subcategoria": "Bases",
                     "metaTitulo": "Complementos - Bases | Homesleep",
-                    "ruta": "/productos/complementos/bases/"
+                    "ruta": "/productos/complementos/?sub-categoría=bases"
                 },
                 {
                     "id": 4,
                     "subcategoria": "Puffs",
                     "metaTitulo": "Complementos - Puffs | Homesleep",
-                    "ruta": "/productos/complementos/puffs/"
+                    "ruta": "/productos/complementos/?sub-categoría=puffs"
                 },
                 {
                     "id": 5,
                     "subcategoria": "Almohadas",
                     "metaTitulo": "Complementos - Almohadas | Homesleep",
-                    "ruta": "/productos/complementos/almohadas/"
+                    "ruta": "/productos/complementos/?sub-categoría=almohadas"
                 },
                 {
                     "id": 6,
                     "subcategoria": "Sábanas y cobertores",
                     "metaTitulo": "Complementos - Sábanas y cobertores | Homesleep",
-                    "ruta": "/productos/complementos/sabanas-y-cobertores/"
+                    "ruta": "/productos/complementos/?sub-categoría=sabanas-y-cobertores"
                 },
                 {
                     "id": 7,
                     "subcategoria": "Cama perro",
                     "metaTitulo": "Complementos - Cama perro | Homesleep",
-                    "ruta": "/productos/complementos/cama-perro/"
+                    "ruta": "/productos/complementos/?sub-categoría=cama-perro"
                 },
                 {
                     "id": 8,

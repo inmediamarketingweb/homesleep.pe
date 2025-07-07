@@ -25,6 +25,17 @@
     object-fit: contain;
 }
 
+@media screen and (max-width: 800px){
+    .distribuidores{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .distribuidores li a img{
+        width: 90px;
+    }
+}
+
 @media screen and (max-width: 600px){
     .distribuidores-container{
         width: 100%;

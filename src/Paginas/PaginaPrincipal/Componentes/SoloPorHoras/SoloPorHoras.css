@@ -219,7 +219,7 @@
     }
 
     .sale-products-container::-webkit-scrollbar-thumb{
-        background: crimson;
+        background: var(--color-1);
         border-radius: 10px;
     }
 }

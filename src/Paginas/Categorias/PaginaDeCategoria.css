@@ -287,6 +287,30 @@
 
 /**/
 
+@media screen and (max-width: 800px){
+    .category-page-container{
+        grid-template-columns: 200px 1fr;
+    }
+
+    /* .category-page-products{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    } */
+
+    .category-page-products li{
+        display: flex;
+        flex: 1 1 clamp(100px, calc(calc(100% / 2) - calc(10px / 2)), 100%);
+        max-width: calc(calc(100% / 2) - calc(10px / 2));
+        height: 380px;
+    }
+
+    .category-page-products li .product-card a .product-card-name{
+        font-size: 13px;
+    }
+}
+
+/**/
+
 @media screen and (max-width: 600px){
     :root{
         --product-card-images-height: 180px;

@@ -61,7 +61,6 @@
 }
 
 .product-page-colors-content section > div:nth-child(2){
-    /* background: red; */
     display: grid;
     grid-template-columns: 360px auto 280px;
     gap: 20px;
@@ -86,7 +85,6 @@
     display: flex;
     align-items: center;
     justify-content: left;
-    /* flex-direction: column; */
     width: 100%;
     min-height: 48px;
     padding: 5px 10px;
@@ -125,7 +123,6 @@
 
 .product-page-colors{
     width: auto;
-    /* height: 100%; */
     overflow-y: auto;
 }
 
@@ -139,24 +136,36 @@
 .product-page-colors-results li{
     display: flex;
     width: 100%;
-    overflow: hidden;
 }
 
 .product-page-colors-results li button{
     position: relative;
-    /* padding: 5px; */
     display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: var(--t-200ms-linear);
-    border: 2px solid transparent;
-    border-radius: 4px;
     gap: 10px;
 }
 
-.product-page-colors-results li button:hover{
-    background: rgba(0 0 0 / 0.05);
+.product-page-colors-results li button::after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    width: calc(100% - 6px);
+    height: calc(100% - 6px);
+    display: flex;
+    border: 3px solid var(--color-1);
+    transition: var(--t-200ms-linear);
+    opacity: 0;
+    border-radius: 4px;
+}
+
+.product-page-colors-results li button.active::after{
+    opacity: 1;
 }
 
 .product-page-colors-results li button::before{
@@ -191,19 +200,28 @@
     height: auto;
     object-fit: cover;
     border-radius: 4px;
+    transition: var(--t-200ms-linear);
 }
 
 .product-page-colors-results li button p{
     position: absolute;
-    left: 4px;
-    bottom: 4px;
+    left: 3px;
+    bottom: 3px;
     padding: 3px 6px;
     background: var(--white);
     color: var(--text);
     font-size: 13px;
     display: inline-block;
     font-weight: bold;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
     border-radius: 4px;
+}
+
+.product-page-colors-results li button.active p{
+    border-top: 3px solid var(--color-1);
+    border-right: 3px solid var(--color-1);
+    border-radius: 0 4px 0 0;
 }
 
 .product-page-colors-results li button p::first-letter{
@@ -233,6 +251,21 @@
 
 .product-page-colors-button > div > img{
     display: none;
+}
+
+@media screen and (max-width: 800px){
+    .product-page-colors-content section > div:nth-child(2){
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .product-page-colors-content section > div:nth-child(2) > div:nth-child(3){
+        grid-column: 1/-1;
+    }
+
+    .product-page-colors-results{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 600px){

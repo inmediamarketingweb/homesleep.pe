@@ -26,13 +26,13 @@ function Colores({ onSelectColor }) {
                     setTelas([]);
                     return;
                 }
-                
+
                 const categoriasKeys = Object.keys(lineasObj);
                 const todasLasTelas = categoriasKeys.flatMap(categoriaKey => {
                     const grupo = lineasObj[categoriaKey];
-                    
+
                     let costosAdicionales = [];
-                    
+
                     if (grupo && grupo['costos-adicionales'] !== undefined) {
                         costosAdicionales = grupo['costos-adicionales'];
                     } else if (grupo && grupo['costo-adicional'] !== undefined) {

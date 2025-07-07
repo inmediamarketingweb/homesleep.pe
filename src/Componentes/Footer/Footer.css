@@ -218,6 +218,14 @@ footer{
 
 /**/
 
+@media screen and (max-width: 800px){
+    .footer-targets{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/**/
+
 @media screen and (max-width: 600px){
     footer{
         gap: 0 !important;
