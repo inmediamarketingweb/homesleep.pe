@@ -11,9 +11,20 @@ function Center(){
     const [categories, setCategories] = useState(null);
     const [error, setError] = useState(null);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isSearchActive, setIsSearchActive] = useState(false);
 
     const toggleMenu = () => {
-        setIsMenuOpen(prev => !prev);
+        setIsMenuOpen(prev => {
+            if (!prev) setIsSearchActive(false);
+            return !prev;
+        });
+    };
+
+    const toggleSearch = () => {
+        setIsSearchActive(prev => {
+            if (!prev) setIsMenuOpen(false);
+            return !prev;
+        });
     };
 
     useEffect(() => {
@@ -138,7 +149,11 @@ function Center(){
                         </ul>
                     </nav>
 
-                    <SearchBar/>
+                    <SearchBar 
+                        isSearchActive={isSearchActive} 
+                        toggleSearch={toggleSearch}
+                        setIsSearchActive={setIsSearchActive} 
+                    />
 
                     <button type='button' className={`menu-button ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
                         <span className="material-icons">menu</span>
