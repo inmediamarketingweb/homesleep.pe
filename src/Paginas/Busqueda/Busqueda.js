@@ -3,21 +3,21 @@ import { useLocation } from 'react-router-dom';
 import Helmet from 'react-helmet';
 
 import Header from '../../Componentes/Header/Header';
-
 import { Producto } from '../../Componentes/Plantillas/Producto/Producto';
-
 import Footer from '../../Componentes/Footer/Footer';
 
 import './Busqueda.css';
 
-function PaginaBusqueda() {
+function Busqueda() {
     const [productos, setProductos] = useState([]);
     const [filteredProductos, setFilteredProductos] = useState([]);
     const [filters, setFilters] = useState({ 
-        tamanos: [], lineas: []
+        tamanos: [], 
+        lineas: []
     });
     const [selectedFilters, setSelectedFilters] = useState({
-        tamanos: [], lineas: []
+        tamanos: [], 
+        lineas: []
     });
     
     const [currentPage, setCurrentPage] = useState(1);
@@ -33,14 +33,39 @@ function PaginaBusqueda() {
         const fetchProductos = async () => {
             try{
                 const manifestResponse = await fetch('/assets/json/manifest.json');
+                if (!manifestResponse.ok) {
+                    throw new Error(`HTTP error! status: ${manifestResponse.status}`);
+                }
+                
+                const manifestContentType = manifestResponse.headers.get('content-type');
+                if (!manifestContentType || !manifestContentType.includes('application/json')) {
+                    throw new Error('Response is not JSON');
+                }
+                
                 const manifestData = await manifestResponse.json();
                 const archivos = manifestData.files || [];
 
                 const productosArrays = await Promise.all(
                     archivos.map(async (archivo) => {
-                        const response = await fetch(archivo);
-                        const data = await response.json();
-                        return data.productos || [];
+                        try {
+                            const response = await fetch(archivo);
+                            if (!response.ok) {
+                                console.error(`Archivo no encontrado: ${archivo}`);
+                                return [];
+                            }
+                            
+                            const contentType = response.headers.get('content-type');
+                            if (!contentType || !contentType.includes('application/json')) {
+                                console.error(`Respuesta no JSON en: ${archivo}`);
+                                return [];
+                            }
+                            
+                            const data = await response.json();
+                            return data.productos || [];
+                        } catch (error) {
+                            console.error(`Error cargando ${archivo}:`, error);
+                            return [];
+                        }
                     })
                 );
 
@@ -58,8 +83,20 @@ function PaginaBusqueda() {
         const fetchFilterData = async () => {
             try {
                 const response = await fetch('/assets/json/categorias/busqueda/filtros.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const contentType = response.headers.get('content-type');
+                if (!contentType || !contentType.includes('application/json')) {
+                    throw new Error('Response is not JSON');
+                }
+                
                 const data = await response.json();
-                setFilters({ tamanos: data.tamaños, lineas: data.lineas });
+                setFilters({ 
+                    tamanos: data.tamaños || [], 
+                    lineas: data.lineas || [] 
+                });
             } catch (error) {
                 console.error('Error loading filter data:', error);
             }
@@ -94,11 +131,16 @@ function PaginaBusqueda() {
                 const normalizedCategoria = normalizeStr(String(producto.categoria ?? ''));
                 const normalizedSubCategoria = normalizeStr(String(producto.subCategoria ?? ''));
 
-                return normalizedNombre.includes(token) || normalizedSKU.includes(token) || normalizedCategoria.includes(token) || normalizedSubCategoria.includes(token);
+                return normalizedNombre.includes(token) || 
+                       normalizedSKU.includes(token) || 
+                       normalizedCategoria.includes(token) || 
+                       normalizedSubCategoria.includes(token);
             });
 
-            const sizeMatch = selectedFilters.tamanos.length === 0 || selectedFilters.tamanos.includes(detalles.tamaño);
-            const lineMatch = selectedFilters.lineas.length === 0 || selectedFilters.lineas.includes(detalles['línea-de-colchón']);
+            const sizeMatch = selectedFilters.tamanos.length === 0 || 
+                             selectedFilters.tamanos.includes(detalles.tamaño);
+            const lineMatch = selectedFilters.lineas.length === 0 || 
+                             selectedFilters.lineas.includes(detalles['línea-de-colchón']);
 
             return searchMatch && sizeMatch && lineMatch;
         });
@@ -166,7 +208,11 @@ function PaginaBusqueda() {
                                 <>
                                     <ul className='search-products'>
                                         {currentProducts.map(producto => (
-                                            <Producto key={producto.sku} producto={producto} truncate={truncate}/>
+                                            <Producto 
+                                                key={producto.sku} 
+                                                producto={producto} 
+                                                truncate={truncate}
+                                            />
                                         ))}
                                     </ul>
 
@@ -217,4 +263,4 @@ function PaginaBusqueda() {
     );
 }
 
-export default PaginaBusqueda;
+export default Busqueda;
