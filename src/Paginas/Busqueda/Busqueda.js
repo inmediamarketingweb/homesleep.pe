@@ -2,24 +2,15 @@ import { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Helmet from 'react-helmet';
 
+import './Busqueda.css';
+
 import Header from '../../Componentes/Header/Header';
 import { Producto } from '../../Componentes/Plantillas/Producto/Producto';
 import Footer from '../../Componentes/Footer/Footer';
 
-import './Busqueda.css';
-
 function Busqueda() {
     const [productos, setProductos] = useState([]);
     const [filteredProductos, setFilteredProductos] = useState([]);
-    const [filters, setFilters] = useState({ 
-        tamanos: [], 
-        lineas: []
-    });
-    const [selectedFilters, setSelectedFilters] = useState({
-        tamanos: [], 
-        lineas: []
-    });
-    
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 20;
 
@@ -80,42 +71,7 @@ function Busqueda() {
     }, []);
 
     useEffect(() => {
-        const fetchFilterData = async () => {
-            try {
-                const response = await fetch('/assets/json/categorias/busqueda/filtros.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                
-                const contentType = response.headers.get('content-type');
-                if (!contentType || !contentType.includes('application/json')) {
-                    throw new Error('Response is not JSON');
-                }
-                
-                const data = await response.json();
-                setFilters({ 
-                    tamanos: data.tamaños || [], 
-                    lineas: data.lineas || [] 
-                });
-            } catch (error) {
-                console.error('Error loading filter data:', error);
-            }
-        };
-
-        fetchFilterData();
-    }, []);
-
-    const handleFilterChange = (filterType, value) => {
-        setSelectedFilters(prev => ({
-            ...prev,
-            [filterType]: prev[filterType].includes(value) 
-                ? prev[filterType].filter(item => item !== value) 
-                : [...prev[filterType], value]
-        }));
-    };
-
-    useEffect(() => {
-        if (!query.trim() && selectedFilters.tamanos.length === 0 && selectedFilters.lineas.length === 0) {
+        if (!query.trim()) {
             setFilteredProductos([]);
             return;
         }
@@ -123,8 +79,6 @@ function Busqueda() {
         const tokens = normalizeStr(query).split(' ').filter(Boolean);
 
         const filtered = productos.filter(producto => {
-            const detalles = producto['detalles-del-producto']?.[0] || {};
-            
             const searchMatch = tokens.length === 0 || tokens.every(token => {
                 const normalizedNombre = normalizeStr(String(producto.nombre ?? ''));
                 const normalizedSKU = normalizeStr(String(producto.sku ?? ''));
@@ -137,17 +91,12 @@ function Busqueda() {
                        normalizedSubCategoria.includes(token);
             });
 
-            const sizeMatch = selectedFilters.tamanos.length === 0 || 
-                             selectedFilters.tamanos.includes(detalles.tamaño);
-            const lineMatch = selectedFilters.lineas.length === 0 || 
-                             selectedFilters.lineas.includes(detalles['línea-de-colchón']);
-
-            return searchMatch && sizeMatch && lineMatch;
+            return searchMatch;
         });
 
         setFilteredProductos(filtered);
         setCurrentPage(1);
-    }, [query, productos, selectedFilters.tamanos, selectedFilters.lineas]);
+    }, [query, productos]);
 
     const totalItems = filteredProductos.length;
     const totalPages = Math.ceil(totalItems / itemsPerPage);
