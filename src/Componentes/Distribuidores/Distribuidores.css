@@ -28,7 +28,7 @@
 @media screen and (max-width: 800px){
     .distribuidores{
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .distribuidores li a img{
@@ -42,16 +42,16 @@
     }
 
     .distribuidores-content{
-        width: 180%;
-        animation: scrollX 10s linear infinite alternate;
+        width: 200%;
+        animation: scrollX 5s linear infinite alternate;
     }
 
     @keyframes scrollX{
-        0%, 10%{
+        0%, 5%{
             margin-left: 0;
         }
-        90%, 100%{
-            margin-left: -126%;
+        100%{
+            margin-left: -100%;
         }
     }
 
