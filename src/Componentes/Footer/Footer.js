@@ -161,7 +161,7 @@ function Footer(){
 
                             <div className='footer-target footer-target-4'>
                                 <div className='d-flex-column gap-10'>
-                                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhomesleep.pe%2Fposts%2Fpfbid0r17q4d4QEkJXT1rWZQbJmQBJtfKg1nBfNgBMbpG4ctEaykk4MzXyPoEdSg9PQ8E8l&show_text=true&width=500" width="340" height="450" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhomesleep.pe%2Fposts%2Fpfbid0r17q4d4QEkJXT1rWZQbJmQBJtfKg1nBfNgBMbpG4ctEaykk4MzXyPoEdSg9PQ8E8l&show_text=true&width=500" width="100%" height="450" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                                 </div>
                             </div>
                         </nav>
