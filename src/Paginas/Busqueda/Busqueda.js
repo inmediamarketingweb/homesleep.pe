@@ -77,7 +77,6 @@ function Busqueda() {
         }
 
         const tokens = normalizeStr(query).split(' ').filter(Boolean);
-
         const filtered = productos.filter(producto => {
             const searchMatch = tokens.length === 0 || tokens.every(token => {
                 const normalizedNombre = normalizeStr(String(producto.nombre ?? ''));
@@ -85,10 +84,7 @@ function Busqueda() {
                 const normalizedCategoria = normalizeStr(String(producto.categoria ?? ''));
                 const normalizedSubCategoria = normalizeStr(String(producto.subCategoria ?? ''));
 
-                return normalizedNombre.includes(token) || 
-                       normalizedSKU.includes(token) || 
-                       normalizedCategoria.includes(token) || 
-                       normalizedSubCategoria.includes(token);
+                return normalizedNombre.includes(token) || normalizedSKU.includes(token) || normalizedCategoria.includes(token) || normalizedSubCategoria.includes(token);
             });
 
             return searchMatch;
@@ -157,44 +153,26 @@ function Busqueda() {
                                 <>
                                     <ul className='search-products'>
                                         {currentProducts.map(producto => (
-                                            <Producto 
-                                                key={producto.sku} 
-                                                producto={producto} 
-                                                truncate={truncate}
-                                            />
+                                            <Producto key={producto.sku} producto={producto} truncate={truncate}/>
                                         ))}
                                     </ul>
 
                                     <div className="pagination-controls d-grid-column-2-3">
-                                        <button 
-                                            className="pagination-arrow" 
-                                            onClick={handlePreviousPage} 
-                                            disabled={currentPage === 1}
-                                        >
+                                        <button className="pagination-arrow" onClick={handlePreviousPage} disabled={currentPage === 1}>
                                             <span className="material-icons">chevron_left</span>
                                         </button>
 
                                         <div className="d-flex-center-center gap-10">
                                             {getVisiblePages().map((page, index) => 
                                                 typeof page === 'number' ? (
-                                                    <button 
-                                                        key={index} 
-                                                        className={`pagination-page ${currentPage === page ? 'active' : ''}`} 
-                                                        onClick={() => handlePageChange(page)}
-                                                    >
-                                                        {page}
-                                                    </button>
+                                                    <button key={index} className={`pagination-page ${currentPage === page ? 'active' : ''}`} onClick={() => handlePageChange(page)}>{page}</button>
                                                 ) : (
                                                     <span key={index} className="pagination-ellipsis">...</span>
                                                 )
                                             )}
                                         </div>
 
-                                        <button 
-                                            className="pagination-arrow" 
-                                            onClick={handleNextPage} 
-                                            disabled={currentPage === totalPages}
-                                        >
+                                        <button className="pagination-arrow" onClick={handleNextPage} disabled={currentPage === totalPages}>
                                             <span className="material-icons">chevron_right</span>
                                         </button>
                                     </div>

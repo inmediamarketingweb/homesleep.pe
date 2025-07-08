@@ -299,20 +299,10 @@ function PaginaDeCategoria() {
                                                                     )}
 
                                                                     <a href={producto.ruta}>
-                                                                        <LazyImage 
-                                                                            width={isSmallScreen ? 140 : 200} 
-                                                                            height={isSmallScreen ? 140 : 200} 
-                                                                            src={`${producto.fotos}1`} 
-                                                                            alt={producto.nombre}
-                                                                        />
+                                                                        <LazyImage width={isSmallScreen ? 140 : 200} height={isSmallScreen ? 140 : 200} src={`${producto.fotos}1`} alt={producto.nombre}/>
                                                                     </a>
 
-                                                                    <button 
-                                                                        type="button" 
-                                                                        className={`product-card-favorite ${isFavorite ? "active" : ""}`} 
-                                                                        onClick={() => toggleFavorite(producto)} 
-                                                                        title="Agregar a favoritos"
-                                                                    >
+                                                                    <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos">
                                                                         <span className="material-icons">favorite</span>
                                                                     </button>
                                                                 </div>
@@ -370,11 +360,7 @@ function PaginaDeCategoria() {
                                         </ul>
 
                                         <div className="pagination-controls">
-                                            <button 
-                                                className="pagination-arrow" 
-                                                onClick={handlePreviousPage} 
-                                                disabled={currentPage === 1}
-                                            >
+                                            <button className="pagination-arrow" onClick={handlePreviousPage} disabled={currentPage === 1} >
                                                 <span className="material-icons">chevron_left</span>
                                             </button>
 
