@@ -29,6 +29,12 @@
             "subcategoria": "Europeas con cajones",
             "metaTitulo": "Camas box tarimas Kamas europeas con cajones | Homesleep",
             "ruta": "/productos/camas-box-tarimas/kamas/europeas-con-cajones/"
+        },
+        {
+            "id": 6,
+            "subcategoria": "premium",
+            "metaTitulo": "Camas box tarimas Kamas premium | Homesleep",
+            "ruta": "/productos/camas-box-tarimas/kamas/premium/"
         }
     ]
 }
