@@ -3547,7 +3547,7 @@
             "linea": "americanos",
             "tamaño": "king",
             "modelo": "pocket plus",
-            "ruta": "/productos/dormitorios/el-cisne/americanos/king/pocket-plus/1/",
+            "ruta": "/productos/dormitorios/el-cisne/americanos/king/pocket-plus/34/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN EL CISNE POCKET PLUS + CABECERA KAMAS AEREA CAPITONEADA - GRIS",
             "fotos": "/assets/imagenes/productos/dormitorios/el-cisne/americanos/king/pocket-plus/aereas-con-patas/americanas/sin-brazos/capitoneado/1/",
             "colores": "si",
@@ -3580,7 +3580,7 @@
             "tamaños-disponibles":[
                 {
                     "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/34/"
+                    "ruta": "/productos/dormitorios/el-cisne/americanos/queen/pocket-plus/34/"
                 }
             ],
             "detalles-del-producto":[
@@ -7189,13 +7189,13 @@
             "linea": "americanos",
             "tamaño": "queen",
             "modelo": "pocket plus",
-            "ruta": "/productos/dormitorios/el-cisne/americanos/queen/pocket-plus/1/",
+            "ruta": "/productos/dormitorios/el-cisne/americanos/queen/pocket-plus/34/",
             "nombre": "DORMITORIO KAMAS AMERICANO QUEEN + COLCHÓN EL CISNE POCKET PLUS + CABECERA KAMAS AEREA CAPITONEADA - GRIS",
             "fotos": "/assets/imagenes/productos/dormitorios/el-cisne/americanos/king/pocket-plus/aereas-con-patas/americanas/sin-brazos/capitoneado/1/",
             "colores": "si",
             "precioRegular": 2099,
             "precioNormal": 2699,
-            "precioVenta": 2099,
+            "precioVenta": 1899,
             "stock": 10,
             "sku": "H3323233N10",
             "tipo-de-envio": "Gratis",
@@ -7222,7 +7222,7 @@
             "tamaños-disponibles":[
                 {
                     "nombre": "King",
-                    "ruta": "/productos/dormitorios/el-cisne/americanos/king/rc-608/34/"
+                    "ruta": "/productos/dormitorios/el-cisne/americanos/king/pocket-plus/34/"
                 }
             ],
             "detalles-del-producto":[
