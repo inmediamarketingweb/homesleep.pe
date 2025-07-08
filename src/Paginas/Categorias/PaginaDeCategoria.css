@@ -316,6 +316,10 @@
         --product-card-images-height: 180px;
     }
 
+    .main-category{
+        margin-top: 170px;
+    }
+
     .category-page-container{
         display: flex;
         flex-direction: column;
@@ -323,11 +327,15 @@
     }
 
     .category-page-right-top{
-        width: 100%;
-        margin-left: auto;
-        display: flex;
-        align-items: center;
-        justify-content: right;
+        display: unset;
+        position: fixed;
+        right: 20px;
+        top: 130px;
+        z-index: 10;
+    }
+
+    .category-page-right-top button{
+        background: var(--body);
     }
 
     .category-page-products li{
