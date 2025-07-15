@@ -9,16 +9,16 @@ import Footer from "../../Componentes/Footer/Footer";
 
 import "./PaginaDeCategoria.css";
 
-function shuffleArray(array) {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
+function shuffleArray(array){
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
 }
 
-function PaginaDeCategoria() {
+function PaginaDeCategoria(){
     const params = useParams();
     const { categoria, subcategoria, marca } = params;
     const [metadatos, setMetadatos] = useState({ title: "", description: "" });
@@ -180,7 +180,6 @@ function PaginaDeCategoria() {
                     }
                 }
 
-                // Mezclar los productos después de cargarlos
                 const shuffledProducts = shuffleArray(products);
                 setProductos(shuffledProducts);
                 setProductosFiltrados(shuffledProducts);
@@ -228,7 +227,6 @@ function PaginaDeCategoria() {
     const handlePreviousPage = () => handlePageChange(currentPage - 1);
     const handleNextPage = () => handlePageChange(currentPage + 1);
 
-    // Paginación normal (sin orden inverso)
     const startIndex = (currentPage - 1) * itemsPerPage;
     const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
     const currentProducts = productosFiltrados.slice(startIndex, endIndex);
@@ -288,7 +286,6 @@ function PaginaDeCategoria() {
                                         <ul className="category-page-products">
                                             {currentProducts
                                                 .filter((producto) => producto.oferta !== "si")
-                                                // Se eliminó el ordenamiento por ID
                                                 .map((producto) => {
                                                     const descuento = Math.round(
                                                         ((producto.precioNormal - producto.precioVenta) * 100) /
