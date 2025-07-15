@@ -435,8 +435,22 @@ button{
     color: #FFA500;
 }
 
+.message-note{
+    border: 1px solid green;
+    background: rgba(37 214 76 / 0.1);
+    border-radius: 4px;
+}
+
+.message-note span{
+    color: green;
+}
+
 .position-relative{
     position: relative;
+}
+
+.italic{
+    font-style: italic;
 }
 
 @media screen and (max-width: 800px){

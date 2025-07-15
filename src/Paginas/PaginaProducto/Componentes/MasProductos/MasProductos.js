@@ -112,7 +112,7 @@ export default function MasProductos({ categoriaActual }) {
         );
     }
 
-    if (error) {
+    if(error){
         return(
             <div className='d-flex-column align-items-center gap-10'>
                 <p className='text-error'>{error}</p>
