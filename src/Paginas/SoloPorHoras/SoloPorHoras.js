@@ -2,10 +2,8 @@ import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet-async";
 import { v4 as uuidv4 } from "uuid";
 
-import Header from "../../Componentes/Header/Header";
 import ConteoRegresivo from "../../Componentes/ConteoRegresivo/ConteoRegresivo";
 import LazyImage from '../../Componentes/Plantillas/LazyImage';
-import Footer from "../../Componentes/Footer/Footer";
 
 import './SoloPorHoras.css';
 
@@ -78,8 +76,6 @@ function SoloPorHoras() {
                 <meta name="description" content="Descubre los mejores descuentos en productos solo por horas en Kamas." />
             </Helmet>
 
-            <Header />
-
             <main className="solo-por-horas-main d-flex-column">
                 <ConteoRegresivo onExpire={() => setExpired(true)} />
 
@@ -136,8 +132,6 @@ function SoloPorHoras() {
                     </section>
                 </div>
             </main>
-
-            <Footer />
         </>
     );
 }

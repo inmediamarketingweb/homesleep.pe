@@ -1,12 +1,13 @@
-import './NoProducto.css';
+import { Helmet } from "react-helmet";
 
-import Header from '../../Componentes/Header/Header';
-import Footer from '../../Componentes/Footer/Footer';
+import './NoProducto.css';
 
 function NoProducto(){
     return(
         <>
-            <Header/>
+            <Helmet>
+                <title>Producto no encontrado | Homesleep</title>
+            </Helmet>
 
             <main>
                 <div className='block-container margin-auto'>
@@ -16,8 +17,6 @@ function NoProducto(){
                     </section>
                 </div>
             </main>
-
-            <Footer/>
         </>
     )
 }

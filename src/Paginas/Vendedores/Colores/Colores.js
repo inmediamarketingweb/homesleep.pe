@@ -5,8 +5,6 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import './Colores.css';
 
 import SpinnerLoading from '../../../Componentes/SpinnerLoading/SpinnerLoading';
-import Header from '../../../Componentes/Header/Header';
-import Footer from '../../../Componentes/Footer/Footer';
 
 const DEFAULT_BANNER = 'https://concepto.de/wp-content/uploads/2018/09/Historia-Pintura-Van-Gogh-691x451.jpg';
 
@@ -229,8 +227,6 @@ function Colores(){
                 <meta name="description" content="Explora nuestra variedad de colores y telas" />
             </Helmet>
 
-            <Header />
-
             <main>
                 <div className='block-container'>
                     <section className="block-content">
@@ -353,8 +349,6 @@ function Colores(){
                     </section>
                 </div>
             </main>
-
-            <Footer />
         </>
     );
 }

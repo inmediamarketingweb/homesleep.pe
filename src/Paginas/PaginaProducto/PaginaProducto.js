@@ -2,8 +2,6 @@ import { useState, useEffect, lazy, Suspense } from 'react';
 import { Helmet } from 'react-helmet';
 import { useLocation } from 'react-router-dom';
 
-import Header from '../../Componentes/Header/Header';
-
 import NoProducto from '../../Paginas/NoProducto/NoProducto';
 import SpinnerLoading from '../../Componentes/SpinnerLoading/SpinnerLoading';
 import Jerarquia from './Componentes/Jerarquia/Jerarquia';
@@ -17,8 +15,6 @@ import Envios from './Componentes/Envios/Envios';
 import TiposDeEnvio from './Componentes/TiposDeEnvio/TiposDeEnvio';
 import WhatsApp from './Componentes/WhatsApp/WhatsApp';
 import Descripcion from './Componentes/Descripcion/Descripcion';
-
-import Footer from '../../Componentes/Footer/Footer';
 
 import './PaginaProducto.css';
 
@@ -314,8 +310,6 @@ function PaginaProducto(){
                 <script type="application/ld+json">{JSON.stringify(productSchema)}</script>
             </Helmet>
 
-            <Header/>
-
             <main>
                 <div className='block-container product-page-block-container'>
                     <section className='block-content product-page-block-content'>
@@ -442,8 +436,6 @@ function PaginaProducto(){
                     <MasProductos categoriaActual={producto.categoria}/>
                 </Suspense>
             </main>
-
-            <Footer/>
         </>
     );
 }

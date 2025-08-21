@@ -1,8 +1,6 @@
+import { Helmet } from "react-helmet";
 import { useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
-
-import Header from "../../Componentes/Header/Header";
-import Footer from "../../Componentes/Footer/Footer";
 
 import "./Favoritos.css";
 
@@ -29,9 +27,9 @@ function Favoritos(){
 
     return(
         <>
-            <title>Mis favoritos | Kamas</title>
-
-            <Header/>
+            <Helmet>
+                <title>Favoritos | Homesleep</title>
+            </Helmet>
 
             <main>
                 <div className="block-container">
@@ -75,8 +73,6 @@ function Favoritos(){
                     </section>
                 </div>
             </main>
-
-            <Footer/>
         </>
     );
 }
