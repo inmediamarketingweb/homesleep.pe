@@ -7,7 +7,6 @@ import UltimasNovedades from './Componentes/UltimasNovedades/UltimasNovedades';
 import Ofertas from './Componentes/Ofertas/Ofertas';
 import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
 import Distribuidores from '../../Componentes/Distribuidores/Distribuidores';
-import ModalDatos from './Componentes/ModalDatos/ModalDatos';
 
 import './PaginaPrincipal.css';
 
@@ -43,8 +42,6 @@ function PaginaPrincipal(){
                 <SobreNosotros/>
 
                 <Distribuidores/>
-
-                <ModalDatos/>
             </main>
         </>
     );
