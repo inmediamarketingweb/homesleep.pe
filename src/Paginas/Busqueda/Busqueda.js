@@ -4,9 +4,7 @@ import Helmet from 'react-helmet';
 
 import './Busqueda.css';
 
-import Header from '../../Componentes/Header/Header';
 import { Producto } from '../../Componentes/Plantillas/Producto/Producto';
-import Footer from '../../Componentes/Footer/Footer';
 
 function Busqueda() {
     const [productos, setProductos] = useState([]);
@@ -136,8 +134,6 @@ function Busqueda() {
                 <meta name='description' content="Resultados de búsqueda" />
             </Helmet>
 
-            <Header/>
-
             <main>
                 <div className='block-container'>
                     <section className='block-content'>
@@ -184,8 +180,6 @@ function Busqueda() {
                     </section>
                 </div>
             </main>
-
-            <Footer/>
         </>
     );
 }

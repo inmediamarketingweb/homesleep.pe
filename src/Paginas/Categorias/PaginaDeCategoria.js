@@ -2,10 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 
-import Header from "../../Componentes/Header/Header";
 import Filtros from "./Componentes/Filtros/Filtros";
 import LazyImage from '../../Componentes/Plantillas/LazyImage.js';
-import Footer from "../../Componentes/Footer/Footer";
 
 import "./PaginaDeCategoria.css";
 
@@ -263,8 +261,6 @@ function PaginaDeCategoria(){
                 <title>{metadatos.title}</title>
             </Helmet>
 
-            <Header/>
-
             <main className="main-category">
                 <div className="block-container">
                     <section className="block-content">
@@ -398,8 +394,6 @@ function PaginaDeCategoria(){
                     </section>
                 </div>
             </main>
-
-            <Footer />
         </>
     );
 }

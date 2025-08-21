@@ -2,9 +2,6 @@ import { Helmet } from "react-helmet-async";
 // import { useForm, ValidationError } from '@formspree/react';
 import { useForm } from '@formspree/react';
 
-import Header from '../../Componentes/Header/Header';
-import Footer from '../../Componentes/Footer/Footer';
-
 import './Contacto.css';
 
 function Contacto(){
@@ -19,8 +16,6 @@ function Contacto(){
             <Helmet>
                 <title>Contacto | Homesleep</title>
             </Helmet>
-
-            <Header/>
 
             <main>
                 <div className='block-container'>
@@ -137,8 +132,6 @@ function Contacto(){
                     </section>
                 </div>
             </main>
-
-            <Footer />
         </>
     );
 }
