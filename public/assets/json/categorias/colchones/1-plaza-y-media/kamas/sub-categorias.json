@@ -1,0 +1,64 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "adel",
+            "metaTitulo": "Colchones - 1 plaza y media - Kamas - Adel | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/kamas/adel/"
+        },
+        {
+            "subcategoria": "rucay",
+            "metaTitulo": "Colchones - 1 plaza y media - Kamas - Rucay | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/kamas/rucay/"
+        },
+        {
+            "subcategoria": "sarki",
+            "metaTitulo": "Colchones - 1 plaza y media - Kamas - Sarki | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/kamas/sarki/"
+        },
+        {
+            "subcategoria": "safynnte",
+            "metaTitulo": "Colchones - 1 plaza y media - Kamas - Safynnte | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/kamas/safynnte/"
+        },
+        {
+            "subcategoria": "der prinz",
+            "metaTitulo": "Colchones - 1 plaza y media - Kamas - Der Prinz | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/kamas/der-prinz/"
+        },
+        {
+            "subcategoria": "pocket thameo",
+            "metaTitulo": "Colchones - 1 plaza y media - Kamas - Pocket thameo | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/kamas/pocket-thameo/"
+        },
+        {
+            "subcategoria": "nesie",
+            "metaTitulo": "Colchones - 1 plaza y media - Kamas - Nesie | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/kamas/nesie/"
+        },
+        {
+            "subcategoria": "ramat",
+            "metaTitulo": "Colchones - 1 plaza y media - Kamas - Ramat | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/kamas/ramat/"
+        },
+        {
+            "subcategoria": "norole",
+            "metaTitulo": "Colchones - 1 plaza y media - Kamas - Norole | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/kamas/norole/"
+        },
+        {
+            "subcategoria": "thaleo pocket",
+            "metaTitulo": "Colchones - 1 plaza y media - Kamas - Thaleo pocket | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/kamas/thaleo-pocket/"
+        },
+        {
+            "subcategoria": "konig",
+            "metaTitulo": "Colchones - 1 plaza y media - Kamas - Konig | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/kamas/konig/"
+        },
+        {
+            "subcategoria": "yurmale",
+            "metaTitulo": "Colchones - 1 plaza y media - Kamas - Yurmale | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/kamas/yurmale/"
+        }
+    ]
+}

@@ -61,8 +61,8 @@ function Center(){
         <div className='header-center-container d-flex w-100'>
             <section className='header-center'>
                 <div className='d-flex-center-center gap-20'>
-                    <a href='/' title='Dormihogar | Fabricantes de camas' className='header-logo'>
-                        <img src="/assets/imagenes/SEO/logo-principal.jpg" width={125} height={50} alt="Dormihogar"/>
+                    <a href='/' title='Homesleep | Las mejores marcar al mejor precio' className='header-logo'>
+                        <img src="/assets/imagenes/SEO/logo-principal.jpg" width={125} height={50} alt="Homesleep"/>
                     </a>
 
                     <nav className={`menu-container ${isMenuOpen ? 'active' : ''}`}>

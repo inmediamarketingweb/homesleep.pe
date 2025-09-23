@@ -1,0 +1,19 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "el cisne",
+            "metaTitulo": "Dormitorios - 2 plazas - El Cisne | Homesleep",
+            "ruta": "/productos/dormitorios/2-plazas/el-cisne/"
+        },
+        {
+            "subcategoria": "kamas",
+            "metaTitulo": "Dormitorios - 2 plazas - Kamas | Homesleep",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/"
+        },
+        {
+            "subcategoria": "paraiso",
+            "metaTitulo": "Dormitorios - 2 plazas - Paraiso | Homesleep",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/"
+        }
+    ]
+}

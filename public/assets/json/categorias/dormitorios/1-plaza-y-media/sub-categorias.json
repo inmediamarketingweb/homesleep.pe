@@ -1,0 +1,19 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "el cisne",
+            "metaTitulo": "Dormitorios - 1 plaza y media - El Cisne | Homesleep",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/"
+        },
+        {
+            "subcategoria": "kamas",
+            "metaTitulo": "Dormitorios - 1 plaza y media - Kamas | Homesleep",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/"
+        },
+        {
+            "subcategoria": "paraiso",
+            "metaTitulo": "Dormitorios - 1 plaza y media - Paraiso | Homesleep",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/paraiso/"
+        }
+    ]
+}

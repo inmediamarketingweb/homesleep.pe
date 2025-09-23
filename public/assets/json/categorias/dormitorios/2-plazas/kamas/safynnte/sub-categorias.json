@@ -1,0 +1,19 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "americanos",
+            "metaTitulo": "Dormitorios - 2 plazas - Kamas - Safynnte - Americanos | Homesleep",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/safynnte/americanos/"
+        },
+        {
+            "subcategoria": "americanos con cajones",
+            "metaTitulo": "Dormitorios - 2 plazas - Kamas - Safynnte - Americanos con cajones | Homesleep",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/safynnte/americanos-con-cajones/"
+        },
+        {
+            "subcategoria": "europeos",
+            "metaTitulo": "Dormitorios - 2 plazas - Kamas - Safynnte - Europeos | Homesleep",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/safynnte/europeos/"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "Americanas",
+            "metaTitulo": "Camas box tarimas - 1 plaza y media - Kamas - Americanas | Homesleep",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/kamas/americanas/"
+        },
+        {
+            "subcategoria": "Americanas con cajones",
+            "metaTitulo": "Camas box tarimas - 1 plaza y media - Kamas - Americanas con cajones | Homesleep",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/kamas/americanas-con-cajones/"
+        },
+        {
+            "subcategoria": "Europeas",
+            "metaTitulo": "Camas box tarimas - 1 plaza y media - Kamas - Europeas | Homesleep",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/kamas/europeas/"
+        }
+    ]
+}

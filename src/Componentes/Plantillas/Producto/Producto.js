@@ -12,6 +12,7 @@ import "./Producto.css";
 **/
 
 export function Producto({ producto = { id: null } , truncate }){
+    const [secondImageError, setSecondImageError] = useState(false);
     const [favorites, setFavorites] = useState([]);
     const descuento = Math.round( ((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal );
 
@@ -34,21 +35,23 @@ export function Producto({ producto = { id: null } , truncate }){
         };
     }, []);
 
-    const toggleFavorite = (producto) => {
-        const exists = favorites.some((fav) => fav.sku === producto.sku);
-        const updatedFavorites = exists
-            ? favorites.filter((fav) => fav.sku !== producto.sku)
-            : [...favorites, producto];
-        setFavorites(updatedFavorites);
-        localStorage.setItem("favoritos", JSON.stringify(updatedFavorites));
-    };
+    // const toggleFavorite = (producto) => {
+    //     const exists = favorites.some((fav) => fav.sku === producto.sku);
+    //     const updatedFavorites = exists
+    //         ? favorites.filter((fav) => fav.sku !== producto.sku)
+    //         : [...favorites, producto];
+    //     setFavorites(updatedFavorites);
+    //     localStorage.setItem("favoritos", JSON.stringify(updatedFavorites));
+    // };
 
     const tipoEnvioClase = producto["tipo-de-envio"] === "Gratis" ? "envio-gratis"
     : producto["tipo-de-envio"] === "Envío preferente" ? "envio-preferente"
     : producto["tipo-de-envio"] === "Envío aplicado" ? "envio-aplicado"
     : "";
 
-    const isFavorite = favorites.some( (fav) => fav.sku === producto.sku );
+    // const isFavorite = favorites.some( (fav) => fav.sku === producto.sku );
+
+    const imageSize = isSmallScreen ? 140 : 200;
 
     return(
         <li>
@@ -58,13 +61,25 @@ export function Producto({ producto = { id: null } , truncate }){
                         <span className="product-card-discount">-{descuento}%</span>
                     )}
 
-                    <a href={producto.ruta} alt={producto.nombre}>
-                        <LazyImage width={isSmallScreen ? 140 : 200} height={isSmallScreen ? 140 : 200} src={`${producto.fotos}1`} alt={producto.nombre}/>
+                    <a href={producto.ruta} title={producto.nombre}>
+                        <LazyImage width={imageSize} height={imageSize} src={`${producto.fotos}1.jpg`} alt={producto.nombre} className="product-image"/>
+
+                        <img width={imageSize} height={imageSize} src={`${producto.fotos}2.jpg`} alt={producto.nombre} className="product-image"
+                            onError={
+                                (e) => {
+                                    if (!secondImageError) {
+                                        e.target.src = `${producto.fotos}1.jpg`;
+                                        setSecondImageError(true);
+                                    }
+                                }
+                            }
+                            loading="lazy"
+                        />
                     </a>
 
-                    <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >
+                    {/* <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >
                         <span className="material-icons">favorite</span>
-                    </button>
+                    </button> */}
                 </div>
 
                 <a href={producto.ruta} className="product-card-content">
@@ -93,23 +108,27 @@ export function Producto({ producto = { id: null } , truncate }){
                             )}
 
                             {producto.novedades !== "si" &&
-                                producto["solo-por-horas"] !== "si" &&
-                                producto.oferta !== "si" && (
-                                    <div className={`product-card-tipo-de-envio ${tipoEnvioClase}`}>
-                                        <span>
-                                            {producto["tipo-de-envio"] === "Gratis"
-                                                ? "¡ Envío gratis 🚚 !"
-                                                : producto["tipo-de-envio"] || "No especificado"}
-                                        </span>
-                                    </div>
-                                )}
+                                producto["solo-por-horas"] !== "si" && producto.oferta !== "si" && (
+                                <div className={`product-card-tipo-de-envio ${tipoEnvioClase}`}>
+                                    <span>
+                                        {producto["tipo-de-envio"] === "Gratis"
+                                            ? "¡ Envío gratis 🚚 !"
+                                            : producto["tipo-de-envio"] || "No especificado"}
+                                    </span>
+                                </div>
+                            )}
                         </>
                     )}
 
                     <span className="product-card-brand">{producto.marca}</span>
-                    <h4 className="product-card-name">{truncate(producto.nombre, 79)}</h4>
-                    <div className="product-card-prices">
-                        <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
+                    {/* <h4 className="product-card-name">{truncate(producto.nombre, 79)}</h4> */}
+                    <h4 className="product-card-name">{producto.nombre}</h4>
+                    <div className="product-card-prices d-flex-center-between">
+                        <div className="d-flex-column">
+                            <span className="product-card-regular-price">S/.{producto.precioRegular}</span>
+                            <span className="product-card-normal-price">S/.{producto.precioNormal}</span>
+                        </div>
+
                         <span className="product-card-sale-price">S/.{producto.precioVenta}</span>
                     </div>
                 </a>

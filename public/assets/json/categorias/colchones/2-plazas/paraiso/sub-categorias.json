@@ -1,0 +1,64 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "eden plus",
+            "metaTitulo": "Colchones - 2 plazas - Paraiso - Eden plus | Homesleep",
+            "ruta": "/productos/colchones/2-plazas/paraiso/eden-plus/"
+        },
+        {
+            "subcategoria": "majestic",
+            "metaTitulo": "Colchones - 2 plazas - Paraiso - Majestic | Homesleep",
+            "ruta": "/productos/colchones/2-plazas/paraiso/majestic/"
+        },
+        {
+            "subcategoria": "medallon ergosoft",
+            "metaTitulo": "Colchones - 2 plazas - Paraiso - Medallon ergosoft | Homesleep",
+            "ruta": "/productos/colchones/2-plazas/paraiso/medallon-ergosoft/"
+        },
+        {
+            "subcategoria": "pocket star",
+            "metaTitulo": "Colchones - 2 plazas - Paraiso - Pocket star | Homesleep",
+            "ruta": "/productos/colchones/2-plazas/paraiso/pocket-star/"
+        },
+        {
+            "subcategoria": "royal abrazzo",
+            "metaTitulo": "Colchones - 2 plazas - Paraiso - Royal abrazzo | Homesleep",
+            "ruta": "/productos/colchones/2-plazas/paraiso/royal-abrazzo/"
+        },
+        {
+            "subcategoria": "royal cloud",
+            "metaTitulo": "Colchones - 2 plazas - Paraiso - Royal cloud | Homesleep",
+            "ruta": "/productos/colchones/2-plazas/paraiso/royal-cloud/"
+        },
+        {
+            "subcategoria": "royal dynasty",
+            "metaTitulo": "Colchones - 2 plazas - Paraiso - Royal dynasty | Homesleep",
+            "ruta": "/productos/colchones/2-plazas/paraiso/royal-dynasty/"
+        },
+        {
+            "subcategoria": "royal elizabeth",
+            "metaTitulo": "Colchones - 2 plazas - Paraiso - Royal elizabeth | Homesleep",
+            "ruta": "/productos/colchones/2-plazas/paraiso/royal-elizabeth/"
+        },
+        {
+            "subcategoria": "royal prince",
+            "metaTitulo": "Colchones - 2 plazas - Paraiso - Royal prince | Homesleep",
+            "ruta": "/productos/colchones/2-plazas/paraiso/royal-prince/"
+        },
+        {
+            "subcategoria": "su majestad de lujo",
+            "metaTitulo": "Colchones - 2 plazas - Paraiso - Su majestad de lujo | Homesleep",
+            "ruta": "/productos/colchones/2-plazas/paraiso/su-majestad-de-lujo/"
+        },
+        {
+            "subcategoria": "super star negro",
+            "metaTitulo": "Colchones - 2 plazas - Paraiso - Super star negro | Homesleep",
+            "ruta": "/productos/colchones/2-plazas/paraiso/super-star-negro/"
+        },
+        {
+            "subcategoria": "super star",
+            "metaTitulo": "Colchones - 2 plazas - Paraiso - Super star | Homesleep",
+            "ruta": "/productos/colchones/2-plazas/paraiso/super-star/"
+        }
+    ]
+}

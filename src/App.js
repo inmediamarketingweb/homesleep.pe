@@ -69,19 +69,15 @@ function App(){
                     <Route element={<Layout/>}>
                         <Route path="/" element={<PaginaPrincipal/>} />
 
-                        <Route path="/productos/" element={<Productos/>} />
-                        
-                        <Route path="/productos/:categoria/" element={<PaginaDeCategoria/>} />
-                        <Route path="/productos/:categoria/:subcategoria/" element={<PaginaDeCategoria/>} />
-                        <Route path="/productos/:categoria/:subcategoria/:marca/" element={<PaginaDeCategoria/>} />
-                        
-                        <Route path="/productos/*" element={<PaginaProducto/>} />
+                        <Route path="/productos/" element={<Productos />} />
+
+                        <Route path="/productos/:categoria/:sub1/:sub2/:sub3/:sub4/:id/" element={<PaginaProducto />} /> 
+                        <Route path="/productos/:categoria/:sub1/:sub2/:sub3/:id/" element={<PaginaProducto />} />
+                        <Route path="/productos/:categoria/:sub1/:sub2/:id/" element={<PaginaProducto />} /> 
+
+                        <Route path="/productos/:categoria/:sub1?/:sub2?/:sub3?/:sub4?" element={<PaginaDeCategoria />} />
 
                         <Route path="/ofertas/" element={<Ofertas/>} />
-                        <Route path="/ofertas/*" element={<PaginaProducto/>} />
-
-                        <Route path="/ofertas/solo-por-horas/" element={<SoloPorHoras/>} />
-                        <Route path="/ofertas/solo-por-horas/*" element={<PaginaProducto/>} />
 
                         <Route path="/mis-favoritos/" element={<Favoritos/>} />
 

@@ -1,0 +1,64 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "adel",
+            "metaTitulo": "Colchones - King - Kamas - Adel | Homesleep",
+            "ruta": "/productos/colchones/king/kamas/adel/"
+        },
+        {
+            "subcategoria": "rucay",
+            "metaTitulo": "Colchones - King - Kamas - Rucay | Homesleep",
+            "ruta": "/productos/colchones/king/kamas/rucay/"
+        },
+        {
+            "subcategoria": "sarki",
+            "metaTitulo": "Colchones - King - Kamas - Sarki | Homesleep",
+            "ruta": "/productos/colchones/king/kamas/sarki/"
+        },
+        {
+            "subcategoria": "safynnte",
+            "metaTitulo": "Colchones - King - Kamas - Safynnte | Homesleep",
+            "ruta": "/productos/colchones/king/kamas/safynnte/"
+        },
+        {
+            "subcategoria": "der prinz",
+            "metaTitulo": "Colchones - King - Kamas - Der Prinz | Homesleep",
+            "ruta": "/productos/colchones/king/kamas/der-prinz/"
+        },
+        {
+            "subcategoria": "pocket thameo",
+            "metaTitulo": "Colchones - King - Kamas - Pocket thameo | Homesleep",
+            "ruta": "/productos/colchones/king/kamas/pocket-thameo/"
+        },
+        {
+            "subcategoria": "nesie",
+            "metaTitulo": "Colchones - King - Kamas - Nesie | Homesleep",
+            "ruta": "/productos/colchones/king/kamas/nesie/"
+        },
+        {
+            "subcategoria": "ramat",
+            "metaTitulo": "Colchones - King - Kamas - Ramat | Homesleep",
+            "ruta": "/productos/colchones/king/kamas/ramat/"
+        },
+        {
+            "subcategoria": "norole",
+            "metaTitulo": "Colchones - King - Kamas - Norole | Homesleep",
+            "ruta": "/productos/colchones/king/kamas/norole/"
+        },
+        {
+            "subcategoria": "thaleo pocket",
+            "metaTitulo": "Colchones - King - Kamas - Thaleo pocket | Homesleep",
+            "ruta": "/productos/colchones/king/kamas/thaleo-pocket/"
+        },
+        {
+            "subcategoria": "konig",
+            "metaTitulo": "Colchones - King - Kamas - Konig | Homesleep",
+            "ruta": "/productos/colchones/king/kamas/konig/"
+        },
+        {
+            "subcategoria": "yurmale",
+            "metaTitulo": "Colchones - King - Kamas - Yurmale | Homesleep",
+            "ruta": "/productos/colchones/king/kamas/yurmale/"
+        }
+    ]
+}
