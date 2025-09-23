@@ -1,0 +1,19 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "el cisne",
+            "metaTitulo": "Colchones - King - El Cisne | Homesleep",
+            "ruta": "/productos/colchones/king/el-cisne/"
+        },
+        {
+            "subcategoria": "kamas",
+            "metaTitulo": "Colchones - King - Kamas | Homesleep",
+            "ruta": "/productos/colchones/king/kamas/"
+        },
+        {
+            "subcategoria": "paraiso",
+            "metaTitulo": "Colchones - King - Paraiso | Homesleep",
+            "ruta": "/productos/colchones/king/paraiso/"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "clasicos",
+            "metaTitulo": "Dormitorios - 2 plazas - Kamas - Adel - Clásicos | Homesleep",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/adel/clasicos/"
+        },
+        {
+            "subcategoria": "americanos",
+            "metaTitulo": "Dormitorios - 2 plazas - Kamas - Adel - Americanos | Homesleep",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/adel/americanos/"
+        },
+        {
+            "subcategoria": "americanos con cajones",
+            "metaTitulo": "Dormitorios - 2 plazas - Kamas - Adel - Americanos con cajones | Homesleep",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/adel/americanos-con-cajones/"
+        },
+        {
+            "subcategoria": "europeos",
+            "metaTitulo": "Dormitorios - 2 plazas - Kamas - Adel - Europeos | Homesleep",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/adel/europeos/"
+        }
+    ]
+}

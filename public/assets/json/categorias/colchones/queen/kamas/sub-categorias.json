@@ -1,0 +1,64 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "adel",
+            "metaTitulo": "Colchones - Queen - Kamas - Adel | Homesleep",
+            "ruta": "/productos/colchones/queen/kamas/adel/"
+        },
+        {
+            "subcategoria": "rucay",
+            "metaTitulo": "Colchones - Queen - Kamas - Rucay | Homesleep",
+            "ruta": "/productos/colchones/queen/kamas/rucay/"
+        },
+        {
+            "subcategoria": "sarki",
+            "metaTitulo": "Colchones - Queen - Kamas - Sarki | Homesleep",
+            "ruta": "/productos/colchones/queen/kamas/sarki/"
+        },
+        {
+            "subcategoria": "safynnte",
+            "metaTitulo": "Colchones - Queen - Kamas - Safynnte | Homesleep",
+            "ruta": "/productos/colchones/queen/kamas/safynnte/"
+        },
+        {
+            "subcategoria": "der prinz",
+            "metaTitulo": "Colchones - Queen - Kamas - Der Prinz | Homesleep",
+            "ruta": "/productos/colchones/queen/kamas/der-prinz/"
+        },
+        {
+            "subcategoria": "pocket thameo",
+            "metaTitulo": "Colchones - Queen - Kamas - Pocket thameo | Homesleep",
+            "ruta": "/productos/colchones/queen/kamas/pocket-thameo/"
+        },
+        {
+            "subcategoria": "nesie",
+            "metaTitulo": "Colchones - Queen - Kamas - Nesie | Homesleep",
+            "ruta": "/productos/colchones/queen/kamas/nesie/"
+        },
+        {
+            "subcategoria": "ramat",
+            "metaTitulo": "Colchones - Queen - Kamas - Ramat | Homesleep",
+            "ruta": "/productos/colchones/queen/kamas/ramat/"
+        },
+        {
+            "subcategoria": "norole",
+            "metaTitulo": "Colchones - Queen - Kamas - Norole | Homesleep",
+            "ruta": "/productos/colchones/queen/kamas/norole/"
+        },
+        {
+            "subcategoria": "thaleo pocket",
+            "metaTitulo": "Colchones - Queen - Kamas - Thaleo pocket | Homesleep",
+            "ruta": "/productos/colchones/queen/kamas/thaleo-pocket/"
+        },
+        {
+            "subcategoria": "konig",
+            "metaTitulo": "Colchones - Queen - Kamas - Konig | Homesleep",
+            "ruta": "/productos/colchones/queen/kamas/konig/"
+        },
+        {
+            "subcategoria": "yurmale pocket",
+            "metaTitulo": "Colchones - Queen - Kamas - Yurmale | Homesleep",
+            "ruta": "/productos/colchones/queen/kamas/yurmale/"
+        }
+    ]
+}

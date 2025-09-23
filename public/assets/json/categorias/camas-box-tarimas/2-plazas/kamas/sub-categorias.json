@@ -1,0 +1,24 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "Clasicas",
+            "metaTitulo": "Camas box tarimas - 2 plazas clásicas | Homesleep",
+            "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/clasicas/"
+        },
+        {
+            "subcategoria": "Americanas",
+            "metaTitulo": "Camas box tarimas - 2 plazas americanas | Homesleep",
+            "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/"
+        },
+        {
+            "subcategoria": "Americanas con cajones",
+            "metaTitulo": "Camas box tarimas - 2 plazas americanas con cajones | Homesleep",
+            "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas-con-cajones/"
+        },
+        {
+            "subcategoria": "Europeas",
+            "metaTitulo": "Camas box tarimas - 2 plazas europeas | Homesleep",
+            "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/europeas/"
+        }
+    ]
+}

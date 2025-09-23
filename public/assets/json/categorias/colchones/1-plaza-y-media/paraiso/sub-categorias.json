@@ -1,0 +1,69 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "eden plus",
+            "metaTitulo": "Colchones - 1 plaza y media - Paraiso - Eden plus | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/eden-plus/"
+        },
+        {
+            "subcategoria": "majestic",
+            "metaTitulo": "Colchones - 1 plaza y media - Paraiso - Majestic | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/majestic/"
+        },
+        {
+            "subcategoria": "medallon ergosoft",
+            "metaTitulo": "Colchones - 1 plaza y media - Paraiso - Medallon ergosoft | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/medallon-ergosoft/"
+        },
+        {
+            "subcategoria": "pocket star",
+            "metaTitulo": "Colchones - 1 plaza y media - Paraiso - Pocket star | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/pocket-star/"
+        },
+        {
+            "subcategoria": "royal abrazzo",
+            "metaTitulo": "Colchones - 1 plaza y media - Paraiso - Royal abrazzo | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/royal-abrazzo/"
+        },
+        {
+            "subcategoria": "royal cloud",
+            "metaTitulo": "Colchones - 1 plaza y media - Paraiso - Royal cloud | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/royal-cloud/"
+        },
+        {
+            "subcategoria": "royal dynasty",
+            "metaTitulo": "Colchones - 1 plaza y media - Paraiso - Royal dynasty | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/royal-dynasty/"
+        },
+        {
+            "subcategoria": "royal elizabeth",
+            "metaTitulo": "Colchones - 1 plaza y media - Paraiso - Royal elizabeth | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/royal-elizabeth/"
+        },
+        {
+            "subcategoria": "royal prince",
+            "metaTitulo": "Colchones - 1 plaza y media - Paraiso - Royal prince | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/royal-prince/"
+        },
+        {
+            "subcategoria": "su majestad de lujo",
+            "metaTitulo": "Colchones - 1 plaza y media - Paraiso - Su majestad de lujo | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/su-majestad-de-lujo/"
+        },
+        {
+            "subcategoria": "super star negro",
+            "metaTitulo": "Colchones - 1 plaza y media - Paraiso - Super star negro | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/super-star-negro/"
+        },
+        {
+            "subcategoria": "super star",
+            "metaTitulo": "Colchones - 1 plaza y media - Paraiso - Super star | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/super-star/"
+        },
+        {
+            "subcategoria": "tropical ergosoft",
+            "metaTitulo": "Colchones - 1 plaza y media - Paraiso - Tropical ergosoft | Homesleep",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/tropical-ergosoft/"
+        }
+    ]
+}

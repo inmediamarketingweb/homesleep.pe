@@ -1,0 +1,14 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "box espacios",
+            "metaTitulo": "Camas funcionales - Box espacios | Homesleep",
+            "ruta": "/productos/camas-funcionales/box-espacios/"
+        },
+        {
+            "subcategoria": "divanes",
+            "metaTitulo": "Camas funcionales - Divanes | Homesleep",
+            "ruta": "/productos/camas-funcionales/divanes/"
+        }
+    ]
+}

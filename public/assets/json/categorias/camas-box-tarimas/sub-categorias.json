@@ -1,0 +1,29 @@
+{
+    "subcategorias":[
+        {
+            "subcategoria": "1 plaza",
+            "metaTitulo": "Camas box tarimas - 1 plaza | Homesleep",
+            "ruta": "/productos/camas-box-tarimas/1-plaza/"
+        },
+        {
+            "subcategoria": "1 plaza y media",
+            "metaTitulo": "Camas box tarimas - 1 plaza y media | Homesleep",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/"
+        },
+        {
+            "subcategoria": "2 plazas",
+            "metaTitulo": "Camas box tarimas - 2 plazas | Homesleep",
+            "ruta": "/productos/camas-box-tarimas/2-plazas/"
+        },
+        {
+            "subcategoria": "queen",
+            "metaTitulo": "Camas box tarimas - Queen | Homesleep",
+            "ruta": "/productos/camas-box-tarimas/queen/"
+        },
+        {
+            "subcategoria": "king",
+            "metaTitulo": "Camas box tarimas - King | Homesleep",
+            "ruta": "/productos/camas-box-tarimas/king/"
+        }
+    ]
+}
