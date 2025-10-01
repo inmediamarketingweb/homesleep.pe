@@ -15,8 +15,6 @@
         "/assets/json/categorias/colchones/king/el-cisne/rc-608.json",
         "/assets/json/categorias/colchones/king/el-cisne/valente.json",
 
-
-
         "/assets/json/categorias/colchones/1-plaza-y-media/kamas/adel.json",
         "/assets/json/categorias/colchones/1-plaza-y-media/kamas/rucay.json",
         "/assets/json/categorias/colchones/1-plaza-y-media/kamas/sarki.json",
@@ -62,8 +60,6 @@
         "/assets/json/categorias/colchones/king/kamas/norole.json",
         "/assets/json/categorias/colchones/king/kamas/thaleo-pocket.json",
         "/assets/json/categorias/colchones/king/kamas/yurmale.json",
-
-
 
         "/assets/json/categorias/colchones/1-plaza-y-media/paraiso/eden-plus.json",
         "/assets/json/categorias/colchones/1-plaza-y-media/paraiso/majestic.json",
@@ -112,6 +108,12 @@
         "/assets/json/categorias/colchones/king/paraiso/su-majestad-de-lujo.json",
         "/assets/json/categorias/colchones/king/paraiso/super-star-negro.json",
         "/assets/json/categorias/colchones/king/paraiso/super-star.json",
+
+        "/assets/json/categorias/colchones/2-plazas/komfort/saphir.json",
+
+        "/assets/json/categorias/colchones/queen/komfort/saphir.json",
+
+        "/assets/json/categorias/colchones/king/komfort/saphir.json",
 
 
 
@@ -227,12 +229,12 @@
 
 
 
-        "/assets/json/categorias/camas-funcionales/box-espacios/2-plazas/kamas/americanos.json",
-        "/assets/json/categorias/camas-funcionales/box-espacios/2-plazas/kamas/europeos.json",
+        "/assets/json/categorias/camas-funcionales/box-espacio/2-plazas/kamas/americanos.json",
+        "/assets/json/categorias/camas-funcionales/box-espacio/2-plazas/kamas/europeos.json",
 
-        "/assets/json/categorias/camas-funcionales/box-espacios/queen/kamas/americanos.json",
+        "/assets/json/categorias/camas-funcionales/box-espacio/queen/kamas/americanos.json",
 
-        "/assets/json/categorias/camas-funcionales/divanes/2-plazas/kamas/americanos.json",
+        "/assets/json/categorias/camas-funcionales/cama-divan/2-plazas/kamas/americanos.json",
 
 
 
@@ -244,6 +246,21 @@
 
         "/assets/json/categorias/cabeceras/queen/kamas/pedestales.json",
 
-        "/assets/json/categorias/cabeceras/king/kamas/pedestales.json"
+        "/assets/json/categorias/cabeceras/king/kamas/pedestales.json",
+
+
+        "/assets/json/categorias/sofas/butacas/kamas.json",
+
+        "/assets/json/categorias/sofas/juegos-de-sala/3-2-1/kamas.json",
+
+        "/assets/json/categorias/sofas/mecedoras/kamas.json",
+
+        "/assets/json/categorias/sofas/reclinables/2-cuerpos/kamas.json",
+
+        "/assets/json/categorias/sofas/seccionales/derecho/kamas.json",
+        "/assets/json/categorias/sofas/seccionales/izquierdo/kamas.json",
+
+        "/assets/json/categorias/sofas/sofa-cama/1-plaza/kamas.json",
+        "/assets/json/categorias/sofas/sofa-cama/2-plazas/kamas.json"
     ]
 }

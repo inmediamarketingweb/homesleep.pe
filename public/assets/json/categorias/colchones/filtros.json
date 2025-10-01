@@ -1,178 +1,60 @@
-[
-    {
-        "titulo": "Tamaño",
-        "nombre": "tamaño",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "1 plaza"
-            },
-            {
-                "id": 2,
-                "nombre": "1 plaza y media"
-            },
-            {
-                "id": 3,
-                "nombre": "2 plazas"
-            },
-            {
-                "id": 4,
-                "nombre": "Queen"
-            },
-            {
-                "id": 5,
-                "nombre": "King"
-            }
-        ]
-    },
-    {
-        "titulo": "Marca",
-        "nombre": "marca",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Kamas"
-            },
-            {
-                "id": 2,
-                "nombre": "Paraiso"
-            },
-            {
-                "id": 3,
-                "nombre": "El Cisne"
-            }
-        ]
-    },
-    {
-        "titulo": "Línea de colchón",
-        "nombre": "línea-de-colchón",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Semi ortopédico"
-            },
-            {
-                "id": 2,
-                "nombre": "Anátomico"
-            },
-            {
-                "id": 3,
-                "nombre": "Ortopédico"
-            },
-            {
-                "id": 4,
-                "nombre": "Súper ortopédico"
-            },
-            {
-                "id": 5,
-                "nombre": "Hotelero"
-            },
-            {
-                "id": 6,
-                "nombre": "Extra ortopédico"
-            }
-        ]
-    },
-    {
-        "titulo": "Nivel de confort",
-        "nombre": "nivel-de-confort",
-        "lista":[
-            {
-                "id": 0,
-                "nombre": "Muy suave"
-            },
-            {
-                "id": 1,
-                "nombre": "Confortable"
-            },
-            {
-                "id": 2,
-                "nombre": "Intermedio"
-            },
-            {
-                "id": 3,
-                "nombre": "Muy confortable"
-            },
-            {
-                "id": 4,
-                "nombre": "Firme"
-            },
-            {
-                "id": 5,
-                "nombre": "Muy firme"
-            }
-        ]
-    },
-    {
-        "titulo": "Tipo de resorte",
-        "nombre": "tipo-de-resorte",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Bonell"
-            },
-            {
-                "id": 2,
-                "nombre": "Cosisoft"
-            },
-            {
-                "id": 3,
-                "nombre": "Pocket"
-            }
-        ]
-    },
-    {
-        "titulo": "Modelo de colchón",
-        "nombre": "modelo-de-colchón",
-        "lista":[
-            {
-                "id": 1,
-                "nombre": "Adel"
-            },
-            {
-                "id": 2,
-                "nombre": "Rucay"
-            },
-            {
-                "id": 3,
-                "nombre": "Sarki"
-            },
-            {
-                "id": 4,
-                "nombre": "Safynnte"
-            },
-            {
-                "id": 5,
-                "nombre": "Der Prinz"
-            },
-            {
-                "id": 6,
-                "nombre": "Thameo Pocket"
-            },
-            {
-                "id": 7,
-                "nombre": "Ramat"
-            },
-            {
-                "id": 8,
-                "nombre": "Nesie"
-            },
-            {
-                "id": 9,
-                "nombre": "Norole"
-            },
-            {
-                "id": 10,
-                "nombre": "Thaleo Pocket"
-            },
-            {
-                "id": 11,
-                "nombre": "Konig"
-            },
-            {
-                "id": 12,
-                "nombre": "Yurmale"
-            }
-        ]
-    }
-]
+{
+    "filtros":[
+        {
+            "tamaño":[
+                {
+                    "tamaño": "1 plaza",
+                    "ruta": "/productos/colchones/1-plaza/"
+                },
+                {
+                    "tamaño": "1 plaza y media",
+                    "ruta": "/productos/colchones/1-plaza-y-media/"
+                },
+                {
+                    "tamaño": "2 plazas",
+                    "ruta": "/productos/colchones/2-plazas/"
+                },
+                {
+                    "tamaño": "Queen",
+                    "ruta": "/productos/colchones/queen/"
+                },
+                {
+                    "tamaño": "King",
+                    "ruta": "/productos/colchones/king/"
+                },
+                {
+                    "tamaño": "Ver todos",
+                    "ruta": "/productos/colchones/"
+                }
+            ]
+        },
+        {
+            "marca":["El cisne", "Kamas", "Paraiso", "Komfort"]
+        },
+        {
+            "línea":["Semi ortopédico", "Anátomico", "Ortopédico", "Súper ortopédico", "Hotelero", "Extra ortopédico"]
+        },
+        {
+            "nivel-de-confort":["Muy suave", "Confortable", "Intermedio", "Muy confortable", "Firme", "Muy firme"]
+        },
+        {
+            "resortes":["Bonell", "Cosisoft", "Pocket"]
+        },
+        {
+            "modelos":[
+                {
+                    "el-cisne":["Cisne CEC", "Argus", "RC-418", "Presence pillow", "RC-608", "Argus pocket", "Iconio", "Dynamic", "Valente", "Element"]
+                },
+                {
+                    "kamas":["Adel", "Rucay", "Sarki", "Safynnte", "Der prinz", "Thameo pocket", "Ramat", "Nesie", "Norole", "Thaleo pocket", "Konig", "Yurmale"]
+                },
+                {
+                    "paraiso":["Majestic", "Cancun", "Consul plus", "Eden plus", "Tropical ergo", "Medallon ergosoft", "Su majestad de lujo", "Pocket italiano", "Super star", "Super star negro", "Pocket star", "Royal prince", "Royal elizabeth", "Royal dynasty", "Royal cloud", "Abrazzo"]
+                },
+                {
+                    "komfort":["Saphir"]
+                }
+            ]
+        }
+    ]
+}

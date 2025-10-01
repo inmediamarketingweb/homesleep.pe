@@ -3,6 +3,7 @@
         {
             "categoria": "colchones",
             "marca": "el cisne",
+            "tamaño": "1 plaza y media",
             "subcategoria": "presence",
             "ruta": "/productos/colchones/1-plaza-y-media/el-cisne/nueva-edicion/",
             "nombre": "COLCHÓN EL CISNE NUEVA EDIDICIÓN 1 PLAZA Y MEDIA",
@@ -10,8 +11,8 @@
             "precioRegular": 1999,
             "precioNormal": 999,
             "precioVenta": 699,
-            "stock": 0,
-            "sku": "H13214N11110",
+            "stock": 10,
+            "sku": "H13151N10",
             "regalos":[
                 {
                     "texto": "2 almohadas",
@@ -24,7 +25,7 @@
             ],
             "resumen-del-producto":[
                 {
-                    "marca": "El Cisne",
+                    "marca": "El cisne",
                     "modelo-de-colchón": "Nueva edición",
                     "tamaño": "1 plaza y media",
                     "nivel-de-confort": "Intermedio"
@@ -33,7 +34,7 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "El Cisne",
+                    "marca": "El cisne",
                     "modelo-de-colchón": "Nueva edición",
                     "tamaño": "1 plaza y media",
                     "nivel-de-confort": "Intermedio"

@@ -14,7 +14,7 @@
             "precioNormal": 809,
             "precioVenta": 949,
             "stock": 23,
-            "sku": "K332213N10",
+            "sku": "H332213N10",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -26,7 +26,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Europeo",
+                    "línea": "Europeos",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Adel",
                     "tipo-de-cabecera": "Pedestal",
@@ -36,7 +36,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Europeo",
+                    "línea": "Europeos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",

@@ -65,6 +65,12 @@
                 },
                 {
                     "id": 4,
+                    "subcategoria": "Komfort",
+                    "metaTitulo": "Colchones - Komfort | Homesleep",
+                    "ruta": "/productos/colchones/?marca=komfort"
+                },
+                {
+                    "id": 5,
                     "subcategoria": "Ver todos",
                     "metaTitulo": "Colchones | Homesleep",
                     "ruta": "/productos/colchones/"

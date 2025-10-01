@@ -20,7 +20,7 @@
 
 footer{
     width: 100%;
-    background: #F8F8F8;
+    background: #212121;
 }
 
 .footer-block-container{
@@ -51,7 +51,7 @@ footer{
 }
 
 .footer-block-content .block-title-container .block-title{
-    color: var(--black);
+    color: var(--white);
 }
 
 .footer-targets{
@@ -69,12 +69,13 @@ footer{
 
 .footer-target .title{
     font-size: 22px;
-    color: var(--black);
+    color: var(--white);
 }
 
 .footer-list{
     display: flex;
     flex-direction: column;
+    gap: 6px;
 }
 
 .footer-list li{
@@ -95,16 +96,12 @@ footer{
 }
 
 .footer-list li a p{
-    color: var(--text);
+    color: var(--white);
     transition: var(--t-100ms-linear);
 }
 
 .footer-list li a:hover p{
-    color: var(--white);
-}
-
-.footer-list li a:hover p{
-    color: var(--color-1);
+    text-decoration: underline;
 }
 
 .social-networks li a{
@@ -212,19 +209,20 @@ footer{
 }
 
 .footer-target-1 .footer-list li div b{
-    color: #000000;
+    color: var(--white);
     font-weight: bold;
+    text-decoration: underline;
 }
 
-/**/
+.footer-target-1 .footer-list li div p{
+    color: var(--white);
+}
 
 @media screen and (max-width: 800px){
     .footer-targets{
         grid-template-columns: repeat(2, 1fr);
     }
 }
-
-/**/
 
 @media screen and (max-width: 600px){
     footer{
