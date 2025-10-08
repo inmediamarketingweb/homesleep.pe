@@ -6,7 +6,7 @@
             "marca": "kamas",
             "tamaño": "1 plaza y media",
             "modelo": "adel",
-            "ruta": "/dormitorios/1-plaza-y-media/kamas/adel/americanos-con-cajones/1/",
+            "ruta": "/dormitorios/2-plazas/kamas/adel/americanos-con-cajones/1/",
             "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA 2 CAJONES LATERALES + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL EMPERATRIZ - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/dormitorios/kamas/americanos-con-cajones/1-plaza-y-media/adel/pedestales/americanas/brazos-rectos/emperatriz/1/",
             "colores": "si",
@@ -14,8 +14,7 @@
             "precioNormal": 1009,
             "precioVenta": 779,
             "stock": 9,
-            "sku": "H31215113N10",
-            "solo-por-horas": "si",
+            "sku": "H322113N10",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -26,7 +25,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "1 plaza y media",
                     "modelo-colchón": "Adel",
                     "tipo-de-cabecera": "Pedestal"
@@ -35,7 +34,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "1 plaza y media",
                     "cajones": "Si",
                     "base-encajonada": "No",
@@ -105,7 +104,7 @@
             "precioNormal": 999,
             "precioVenta": 799,
             "stock": 13,
-            "sku": "H322113N10",
+            "sku": "H322113N11",
             "tipo-de-envio": "Gratis",
               "regalos":[
                 {
@@ -116,7 +115,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Adel",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -126,7 +125,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No",
@@ -194,7 +193,7 @@
             "precioNormal": 999,
             "precioVenta": 799,
             "stock": 13,
-            "sku": "H322113N11",
+            "sku": "H322113N12",
             "tipo-de-envio": "Gratis",
               "regalos":[
                 {
@@ -205,7 +204,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Adel",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -215,7 +214,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No",
@@ -283,7 +282,7 @@
             "precioNormal": 999,
             "precioVenta": 799,
             "stock": 13,
-            "sku": "H322113N12",
+            "sku": "H322113N13",
             "tipo-de-envio": "Gratis",
               "regalos":[
                 {
@@ -294,7 +293,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Adel",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -304,7 +303,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No",
@@ -372,7 +371,7 @@
             "precioNormal": 999,
             "precioVenta": 799,
             "stock": 13,
-            "sku": "H322113N13",
+            "sku": "H322113N14",
             "tipo-de-envio": "Gratis",
               "regalos":[
                 {
@@ -383,7 +382,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Adel",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -393,7 +392,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No",
@@ -461,7 +460,7 @@
             "precioNormal": 999,
             "precioVenta": 799,
             "stock": 13,
-            "sku": "H322113N14",
+            "sku": "H322113N15",
             "tipo-de-envio": "Gratis",
               "regalos":[
                 {
@@ -472,7 +471,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Adel",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -482,7 +481,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No",
@@ -550,7 +549,7 @@
             "precioNormal": 999,
             "precioVenta": 799,
             "stock": 13,
-            "sku": "H322113N15",
+            "sku": "H322113N16",
             "tipo-de-envio": "Gratis",
               "regalos":[
                 {
@@ -561,7 +560,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Adel",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -571,7 +570,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No",
@@ -639,7 +638,7 @@
             "precioNormal": 999,
             "precioVenta": 799,
             "stock": 13,
-            "sku": "H322113N16",
+            "sku": "H322113N17",
             "tipo-de-envio": "Gratis",
               "regalos":[
                 {
@@ -650,7 +649,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Adel",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -660,7 +659,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No",
@@ -728,7 +727,7 @@
             "precioNormal": 1119,
             "precioVenta": 899,
             "stock": 13,
-            "sku": "H322113N17",
+            "sku": "H322113N18",
             "tipo-de-envio": "Gratis",
               "regalos":[
                 {
@@ -739,7 +738,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "modelo-de-colchón": "Adel",
                     "tipo-de-cabecera": "Pedestal",
@@ -749,7 +748,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Americano",
+                    "línea": "Americanos con cajones",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No",

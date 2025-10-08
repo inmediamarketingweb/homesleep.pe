@@ -13,13 +13,13 @@ import "./Producto.css";
 
 export function Producto({ producto = { id: null } , truncate }){
     const [secondImageError, setSecondImageError] = useState(false);
-    const [favorites, setFavorites] = useState([]);
+    // const [favorites, setFavorites] = useState([]);
     const descuento = Math.round( ((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal );
 
-    useEffect(() => {
-        const favStorage = JSON.parse(localStorage.getItem("favoritos")) || [];
-        setFavorites(favStorage);
-    }, []);
+    // useEffect(() => {
+    //     const favStorage = JSON.parse(localStorage.getItem("favoritos")) || [];
+    //     setFavorites(favStorage);
+    // }, []);
 
     const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
 
@@ -62,19 +62,7 @@ export function Producto({ producto = { id: null } , truncate }){
                     )}
 
                     <a href={producto.ruta} title={producto.nombre}>
-                        <LazyImage width={imageSize} height={imageSize} src={`${producto.fotos}1.jpg`} alt={producto.nombre} className="product-image"/>
-
-                        <img width={imageSize} height={imageSize} src={`${producto.fotos}2.jpg`} alt={producto.nombre} className="product-image"
-                            onError={
-                                (e) => {
-                                    if (!secondImageError) {
-                                        e.target.src = `${producto.fotos}1.jpg`;
-                                        setSecondImageError(true);
-                                    }
-                                }
-                            }
-                            loading="lazy"
-                        />
+                        <LazyImage width={imageSize} height={imageSize} src={`${producto.fotos}1`} alt={producto.nombre} className="product-image"/>
                     </a>
 
                     {/* <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >

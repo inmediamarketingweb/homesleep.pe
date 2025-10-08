@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--color-1);
+    background: rgba(60 127 190 / 0.15);
     width: 50px;
     height: 50px;
     aspect-ratio: 1/1;
@@ -13,7 +13,7 @@
 }
 
 .search-bar-button span{
-    color: var(--white);
+    color: var(--color-1);
 }
 
 .barra-de-busqueda{
@@ -172,6 +172,15 @@
         left: 0;
         top: 110px;
         width: 100vw;
+    }
+
+    .search-bar-button{
+        width: 40px;
+        height: 40px;
+    }
+
+    .search-bar-button span{
+        font-size: 24px;
     }
 
     .search-bar-items-container{

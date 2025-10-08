@@ -4,6 +4,7 @@ header{
     top: 0;
     width: 100%;
     background: var(--header);
-    box-shadow: 0 0 10px rgba(0 0 0 / 0.75);
+    border-bottom: 1px solid var(--component);
+    /* box-shadow: 0 0 10px rgba(0 0 0 / 0.75); */
     z-index: 100;
 }

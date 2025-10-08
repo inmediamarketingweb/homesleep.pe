@@ -2,8 +2,6 @@ import { useState, useEffect, lazy, Suspense } from 'react';
 import { Helmet } from 'react-helmet';
 import { useLocation } from 'react-router-dom';
 
-import PaginaDeCategoria from '../Categorias/PaginaDeCategoria';
-
 import NoProducto from '../../Paginas/NoProducto/NoProducto';
 import SpinnerLoading from '../../Componentes/SpinnerLoading/SpinnerLoading';
 import Jerarquia from './Componentes/Jerarquia/Jerarquia';

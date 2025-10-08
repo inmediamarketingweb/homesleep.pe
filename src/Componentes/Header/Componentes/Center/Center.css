@@ -83,11 +83,14 @@
         height: auto;
     }
 
+    .header-center-container{
+        padding: 0 10px;
+    }
+
     .header-center{
         padding: 10px 0;
         height: auto;
         flex-direction: column;
-        gap: 10px;
     }
 
     .header-logo img{
@@ -109,10 +112,9 @@
     .menu-button{
         position: relative;
         display: flex;
-        width: 48px;
-        height: 48px;
+        width: 50px;
+        height: 50px;
         border-radius: 100%;
-        background: rgba(60 127 190 / 0.1);
     }
 
     .menu-button span{
@@ -120,6 +122,7 @@
         left: 50%;
         top: 50%;
         translate: -50% -50%;
+        font-size: 30px;
         color: var(--color-1);
         transition: var(--t-200ms-linear);
     }
@@ -142,5 +145,11 @@
 
     .header-center > div{
         gap: 10px !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .header-center > div{
+        gap: 0 !important;
     }
 }
