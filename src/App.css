@@ -176,8 +176,17 @@ button{
     font-weight: bold;
 }
 
+.sub-title{
+    font-size: 14px !important;
+    font-weight: bold;
+}
+
 .uppercase{
     text-transform: uppercase !important;
+}
+
+.font-bold{
+    font-weight: bold;
 }
 
 .first-uppercase::first-letter{
@@ -229,6 +238,11 @@ button{
 
 .w-100{
     width: 100%;
+}
+
+.d-grid-1-1{
+    display: grid;
+    grid-column: 1/-1;
 }
 
 .d-grid-2-1fr{

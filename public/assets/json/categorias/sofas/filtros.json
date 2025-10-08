@@ -3,31 +3,31 @@
         {
             "sofas":[
                 {
-                    "sofas": "juegos de sala",
+                    "sofas": "Juegos de sala",
                     "ruta": "/productos/sofas/juegos-de-sala/"
                 },
                 {
-                    "sofas": "seccionales",
+                    "sofas": "Seccionales",
                     "ruta": "/productos/sofas/seccionales/"
                 },
                 {
-                    "sofas": "sofa cama",
+                    "sofas": "Sofa cama",
                     "ruta": "/productos/sofas/sofa-cama/"
                 },
                 {
-                    "sofas": "reclinables",
+                    "sofas": "Reclinables",
                     "ruta": "/productos/sofas/reclinables/"
                 },
                 {
-                    "sofas": "sofas y sillones",
+                    "sofas": "Sofas y sillones",
                     "ruta": "/productos/sofas/sofas-y-sillones/"
                 },
                 {
-                    "sofas": "mecedoras",
+                    "sofas": "Mecedoras",
                     "ruta": "/productos/sofas/mecedoras/"
                 },
                 {
-                    "sofas": "butacas",
+                    "sofas": "Butacas",
                     "ruta": "/productos/sofas/butacas/"
                 },
                 {

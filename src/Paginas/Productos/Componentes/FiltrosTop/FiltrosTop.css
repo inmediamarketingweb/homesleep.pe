@@ -1,11 +1,28 @@
 .filtros-top-container{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     width: 100%;
     padding-bottom: 20px;
     border-bottom: 2px solid var(--component);
     grid-column: 1/-1;
+}
+
+.filters-button-open{
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    border: 1px solid var(--color-1);
+    background: var(--body);
+
+    display: none;
+}
+
+.filters-button-open span{
+    color: var(--color-1);
 }
 
 .products-page-right{
@@ -201,7 +218,7 @@
 }
 
 @media screen and (max-width: 600px){
-    .filtros-top-container{
-        display: none;
+    .filters-button-open{
+        display: flex;
     }
 }

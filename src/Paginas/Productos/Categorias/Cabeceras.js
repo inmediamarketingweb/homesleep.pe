@@ -1,6 +1,6 @@
 // import { useEffect, useState } from 'react';
 // import { Helmet } from 'react-helmet';
-// import { useParams, useLocation, useNavigate } from 'react-router-dom';
+// import { useParams, useLocation, useNavigate, Link } from 'react-router-dom';
 
 // import '../Productos.css';
 // import './Layout.css';
@@ -13,7 +13,6 @@
 //     return texto.toLowerCase().normalize("NFD").replace(/\s+/g, "-");
 // };
 
-// // Mapa de filtros para cabeceras (ajusta según tu JSON real)
 // const filtroKeyMap = {
 //     "tamaño": "tamaño",
 //     "marca": "marca", 
@@ -23,7 +22,7 @@
 // };
 
 // function Cabeceras() {
-//     const { sub1, sub2, sub3, sub4 } = useParams(); // 4 niveles para cabeceras
+//     const { sub1, sub2, sub3, sub4 } = useParams()
 //     const location = useLocation();
 //     const navigate = useNavigate();
 //     const [productos, setProductos] = useState([]);
@@ -31,7 +30,6 @@
 //     const [filtros, setFiltros] = useState([]);
 //     const [orden, setOrden] = useState("ultimo");
 
-//     // Redirigir a PaginaProducto si hay sub4 (ID del producto)
 //     useEffect(() => {
 //         if (sub4) {
 //             const rutaProducto = `/productos/cabeceras/${sub1}/${sub2}/${sub3}/${sub4}`;
@@ -39,7 +37,6 @@
 //         }
 //     }, [sub4, sub1, sub2, sub3, navigate]);
 
-//     // Cargar productos
 //     useEffect(() => {
 //         if (sub4) return;
 
@@ -54,7 +51,6 @@
 //                     url.startsWith('/assets/json/categorias/cabeceras/')
 //                 );
 
-//                 // Filtrar por los 3 niveles de subcategorías
 //                 if (sub1) {
 //                     archivosProductos = archivosProductos.filter(
 //                         url => url.includes(`/cabeceras/${sub1}/`)
@@ -98,7 +94,6 @@
 //         cargarProductosCabeceras();
 //     }, [sub1, sub2, sub3, sub4]);
 
-//     // Cargar filtros
 //     useEffect(() => {
 //         if (sub4) return;
 
@@ -115,40 +110,12 @@
 //         cargarFiltros();
 //     }, [sub4]);
 
-//     // Si hay sub4, no renderizar nada (ya que se redirige)
 //     if (sub4) {
 //         return null;
 //     }
 
-//     // Crear queryParams directamente
 //     const queryParams = new URLSearchParams(location.search);
 
-//     // Filtrar los filtros según el nivel de subcategoría actual
-//     const filtrosFiltrados = filtros.filter(filtro => {
-//         const nombreFiltro = Object.keys(filtro)[0];
-        
-//         // Lógica para ocultar filtros según el nivel de subcategoría
-//         if (sub1) {
-//             // Si estamos en nivel 1 o superior (tamaño específico), ocultar el filtro de "tamaño"
-//             if (nombreFiltro === "tamaño") {
-//                 return false;
-//             }
-            
-//             // Si estamos en nivel 2 o superior (marca específica), ocultar el filtro de "marca"
-//             if (sub2 && nombreFiltro === "marca") {
-//                 return false;
-//             }
-            
-//             // Si estamos en nivel 3 o superior (tipo específico), ocultar el filtro de "tipo"
-//             if (sub3 && nombreFiltro === "tipo-de-cabecera") {
-//                 return false;
-//             }
-//         }
-
-//         return true;
-//     });
-
-//     // Filtrar productos
 //     const productosFiltrados = productos.filter(producto => {
 //         if (queryParams.entries().length === 0) return true;
 
@@ -172,7 +139,6 @@
 //         return true;
 //     });
 
-//     // Ordenar productos
 //     const productosOrdenados = [...productosFiltrados].sort((a, b) => {
 //         const precioA = a.precioVenta || 0;
 //         const precioB = b.precioVenta || 0;
@@ -182,7 +148,6 @@
 //         return 0;
 //     });
 
-//     // Función para toggle de filtros
 //     const toggleFiltro = (nombreFiltro, valor) => {
 //         const normalizadoValor = normalizarTexto(valor);
 //         const newParams = new URLSearchParams(location.search);
@@ -198,13 +163,11 @@
 //         navigate(`${location.pathname}?${newParams.toString()}`, { replace: true });
 //     };
 
-//     // Verificar si un filtro está activo
 //     const isFiltroActivo = (nombreFiltro, valor) => {
 //         const normalizadoValor = normalizarTexto(valor);
 //         return queryParams.get(nombreFiltro) === normalizadoValor;
 //     };
 
-//     // Limpiar todos los filtros
 //     const limpiarFiltros = () => {
 //         navigate(location.pathname, { replace: true });
 //     };
@@ -228,11 +191,30 @@
 //                                 </div>
 
 //                                 <div className='products-page-filters-container d-flex-column gap-20'>
-//                                     {filtrosFiltrados.map((filtro, index) => {
+//                                     {filtros.map((filtro, index) => {
 //                                         const nombreFiltro = Object.keys(filtro)[0];
 //                                         const valoresFiltro = filtro[nombreFiltro];
 
-//                                         // Manejar filtros agrupados (como diseños o estilos)
+//                                         if (nombreFiltro === "tamaño") {
+//                                             return(
+//                                                 <div className='products-page-filter' key={index}>
+//                                                     <p className='filter-title uppercase'>Tamaño</p>
+//                                                     <ul className='products-page-filter-list'>
+//                                                         {valoresFiltro.map((item, i) => (
+//                                                             <li key={i}>
+//                                                                 <Link 
+//                                                                     to={item.ruta} 
+//                                                                     className={location.pathname === item.ruta ? "products-page-filter-list-link active" : "products-page-filter-list-link"}
+//                                                                 >
+//                                                                     <p>{item.tamaño}</p>
+//                                                                 </Link>
+//                                                             </li>
+//                                                         ))}
+//                                                     </ul>
+//                                                 </div>
+//                                             );
+//                                         }
+
 //                                         if (nombreFiltro === "diseños" || nombreFiltro === "estilos" || nombreFiltro === "modelos") {
 //                                             return(
 //                                                 <div className='products-page-filter' key={index}>
@@ -266,7 +248,6 @@
 //                                             );
 //                                         }
 
-//                                         // Filtros planos
 //                                         return(
 //                                             <div className='products-page-filter' key={index}>
 //                                                 <p className='filter-title uppercase'>{nombreFiltro}</p>
@@ -286,19 +267,18 @@
 //                                             </div>
 //                                         );
 //                                     })}
-//                                 </div>
 
-//                                 {/* Botón para limpiar filtros - AL FINAL */}
-//                                 {queryParams.toString() && (
-//                                     <button 
-//                                         type="button" 
-//                                         className="button-link button-link-2" 
-//                                         onClick={limpiarFiltros}
-//                                     >
-//                                         <span className="material-icons">delete</span>
-//                                         <p className="button-link-text">Limpiar filtros</p>
-//                                     </button>
-//                                 )}
+//                                     {queryParams.toString() && (
+//                                         <button 
+//                                             type="button" 
+//                                             className="button-link button-link-2" 
+//                                             onClick={limpiarFiltros}
+//                                         >
+//                                             <span className="material-icons">delete</span>
+//                                             <p className="button-link-text">Limpiar filtros</p>
+//                                         </button>
+//                                     )}
+//                                 </div>
 //                             </div>
 //                         </div>
 //                     </div>
@@ -321,16 +301,18 @@
 //                                 <ul className="products-page-products">
 //                                     {productosOrdenados.length === 0 ? (
 //                                         <div className="no-products">
-//                                             <p>No se encontraron productos con los filtros seleccionados.</p>
-//                                             {queryParams.toString() && (
-//                                                 <button 
-//                                                     type="button" 
-//                                                     className="button-link" 
-//                                                     onClick={limpiarFiltros}
-//                                                 >
-//                                                     Limpiar filtros
-//                                                 </button>
-//                                             )}
+//                                             <div className='d-grid-1-1'>
+//                                                 <div className="d-flex-column gap-10">
+//                                                     <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
+
+//                                                     {queryParams.toString() && (
+//                                                         <button type="button" className="margin-right button-link button-link-2" onClick={limpiarFiltros}>
+//                                                             <span class="material-icons">delete</span>
+//                                                             <p className='button-link-text'>Limpiar filtros</p>
+//                                                         </button>
+//                                                     )}
+//                                                 </div>
+//                                             </div>
 //                                         </div>
 //                                     ) : (
 //                                         productosOrdenados.map(producto => (
@@ -349,7 +331,7 @@
 
 // export default Cabeceras;
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo, useRef } from 'react';
 import { Helmet } from 'react-helmet';
 import { useParams, useLocation, useNavigate, Link } from 'react-router-dom';
 
@@ -364,7 +346,6 @@ const normalizarTexto = (texto) => {
     return texto.toLowerCase().normalize("NFD").replace(/\s+/g, "-");
 };
 
-// Mapa de filtros para cabeceras (ajusta según tu JSON real)
 const filtroKeyMap = {
     "tamaño": "tamaño",
     "marca": "marca", 
@@ -374,15 +355,41 @@ const filtroKeyMap = {
 };
 
 function Cabeceras() {
-    const { sub1, sub2, sub3, sub4 } = useParams(); // 4 niveles para cabeceras
+    const { sub1, sub2, sub3, sub4 } = useParams()
     const location = useLocation();
     const navigate = useNavigate();
     const [productos, setProductos] = useState([]);
     const [loading, setLoading] = useState(true);
     const [filtros, setFiltros] = useState([]);
     const [orden, setOrden] = useState("ultimo");
+    const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
+    const [isFiltersOpen, setIsFiltersOpen] = useState(false);
+    const filtersPanelRef = useRef(null);
+    const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
 
-    // Redirigir a PaginaProducto si hay sub4 (ID del producto)
+    const closeFilters = () => {
+        setIsFiltersOpen(false);
+    };
+
+    const toggleEnvioGratis = () => {
+        setEnvioGratisActivo(!envioGratisActivo);
+    };
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (filtersPanelRef.current && 
+                !filtersPanelRef.current.contains(event.target) &&
+                !event.target.closest('.filters-button-open')) {
+                setIsFiltersOpen(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
+
     useEffect(() => {
         if (sub4) {
             const rutaProducto = `/productos/cabeceras/${sub1}/${sub2}/${sub3}/${sub4}`;
@@ -390,7 +397,6 @@ function Cabeceras() {
         }
     }, [sub4, sub1, sub2, sub3, navigate]);
 
-    // Cargar productos
     useEffect(() => {
         if (sub4) return;
 
@@ -405,7 +411,6 @@ function Cabeceras() {
                     url.startsWith('/assets/json/categorias/cabeceras/')
                 );
 
-                // Filtrar por los 3 niveles de subcategorías
                 if (sub1) {
                     archivosProductos = archivosProductos.filter(
                         url => url.includes(`/cabeceras/${sub1}/`)
@@ -449,7 +454,6 @@ function Cabeceras() {
         cargarProductosCabeceras();
     }, [sub1, sub2, sub3, sub4]);
 
-    // Cargar filtros
     useEffect(() => {
         if (sub4) return;
 
@@ -466,49 +470,52 @@ function Cabeceras() {
         cargarFiltros();
     }, [sub4]);
 
-    // Si hay sub4, no renderizar nada (ya que se redirige)
-    if (sub4) {
-        return null;
-    }
+    const productosFiltrados = useMemo(() => {
+        if (productos.length === 0) return [];
 
-    // Crear queryParams directamente
-    const queryParams = new URLSearchParams(location.search);
+        if (queryParams.entries().length === 0 && !envioGratisActivo) return productos;
 
-    // Filtrar productos
-    const productosFiltrados = productos.filter(producto => {
-        if (queryParams.entries().length === 0) return true;
+        return productos.filter(producto => {
+            if (envioGratisActivo) {
+                if (producto["tipo-de-envio"] !== "Gratis") {
+                    return false;
+                }
+            }
 
-        for (let [paramUrl, valorFiltro] of queryParams.entries()) {
-            const claveJson = filtroKeyMap[paramUrl];
-            if (!claveJson) continue;
+            if (queryParams.entries().length === 0) return true;
 
-            const normalizadoFiltro = normalizarTexto(valorFiltro);
-            const detalles = producto["detalles-del-producto"] || [];
-            
-            const cumpleFiltro = detalles.some(detalle => {
-                const valorProducto = detalle[claveJson];
-                if (!valorProducto) return false;
+            for (let [paramUrl, valorFiltro] of queryParams.entries()) {
+                const claveJson = filtroKeyMap[paramUrl];
+                if (!claveJson) continue;
 
-                const normalizadoProducto = normalizarTexto(valorProducto.toString());
-                return normalizadoProducto === normalizadoFiltro;
-            });
+                const normalizadoFiltro = normalizarTexto(valorFiltro);
+                const detalles = producto["detalles-del-producto"] || [];
+                
+                const cumpleFiltro = detalles.some(detalle => {
+                    const valorProducto = detalle[claveJson];
+                    if (!valorProducto) return false;
 
-            if (!cumpleFiltro) return false;
-        }
-        return true;
-    });
+                    const normalizadoProducto = normalizarTexto(valorProducto.toString());
+                    return normalizadoProducto === normalizadoFiltro;
+                });
 
-    // Ordenar productos
-    const productosOrdenados = [...productosFiltrados].sort((a, b) => {
-        const precioA = a.precioVenta || 0;
-        const precioB = b.precioVenta || 0;
+                if (!cumpleFiltro) return false;
+            }
+            return true;
+        });
+    }, [productos, queryParams, envioGratisActivo]);
 
-        if (orden === "menor-mayor") return precioA - precioB;
-        if (orden === "mayor-menor") return precioB - precioA;
-        return 0;
-    });
+    const productosOrdenados = useMemo(() => {
+        return [...productosFiltrados].sort((a, b) => {
+            const precioA = a.precioVenta || 0;
+            const precioB = b.precioVenta || 0;
 
-    // Función para toggle de filtros
+            if (orden === "menor-mayor") return precioA - precioB;
+            if (orden === "mayor-menor") return precioB - precioA;
+            return 0;
+        });
+    }, [productosFiltrados, orden]);
+
     const toggleFiltro = (nombreFiltro, valor) => {
         const normalizadoValor = normalizarTexto(valor);
         const newParams = new URLSearchParams(location.search);
@@ -524,16 +531,18 @@ function Cabeceras() {
         navigate(`${location.pathname}?${newParams.toString()}`, { replace: true });
     };
 
-    // Verificar si un filtro está activo
     const isFiltroActivo = (nombreFiltro, valor) => {
         const normalizadoValor = normalizarTexto(valor);
         return queryParams.get(nombreFiltro) === normalizadoValor;
     };
 
-    // Limpiar todos los filtros
     const limpiarFiltros = () => {
         navigate(location.pathname, { replace: true });
     };
+
+    if (sub4) {
+        return null;
+    }
 
     return(
         <>
@@ -545,12 +554,24 @@ function Cabeceras() {
                 <Categorias/>
 
                 <div className='products-page-blocks'>
-                    <div className='products-page-left'>
+                    <div className={`products-page-left ${isFiltersOpen ? 'active' : ''}`} ref={filtersPanelRef}>
                         <div className='products-page-filters-container-global'>
                             <div className='d-flex-column gap-20'>
                                 <div className='d-flex-column padding-bottom-20 border-bottom-2-solid-component'>
                                     <p className='block-title color-color-1 uppercase w-100 d-flex'>Homesleep</p>
+                                    <button type='button' className='filters-button-close margin-left' onClick={closeFilters}>
+                                        <span className="material-icons color-color-1">close</span>
+                                    </button>
                                     <p className='uppercase w-100 d-flex'>Las mejores marcas en productos para el descanso</p>
+                                </div>
+
+                                <div className='envio-gratis-button-container'>
+                                    <div className='d-flex-center-center'>
+                                        <p className='weight-bold uppercase color-color-1 font-bold'>Envío gratis</p>
+                                    </div>
+                                    <div type='button' className={`envio-gratis-button ${envioGratisActivo ? 'active' : ''}`} onClick={toggleEnvioGratis}>
+                                        <span></span>
+                                    </div>
                                 </div>
 
                                 <div className='products-page-filters-container d-flex-column gap-20'>
@@ -558,7 +579,6 @@ function Cabeceras() {
                                         const nombreFiltro = Object.keys(filtro)[0];
                                         const valoresFiltro = filtro[nombreFiltro];
 
-                                        // Caso especial para "tamaño" - usar enlaces en lugar de botones
                                         if (nombreFiltro === "tamaño") {
                                             return(
                                                 <div className='products-page-filter' key={index}>
@@ -579,7 +599,6 @@ function Cabeceras() {
                                             );
                                         }
 
-                                        // Manejar filtros agrupados (como diseños o estilos)
                                         if (nombreFiltro === "diseños" || nombreFiltro === "estilos" || nombreFiltro === "modelos") {
                                             return(
                                                 <div className='products-page-filter' key={index}>
@@ -613,7 +632,6 @@ function Cabeceras() {
                                             );
                                         }
 
-                                        // Filtros planos
                                         return(
                                             <div className='products-page-filter' key={index}>
                                                 <p className='filter-title uppercase'>{nombreFiltro}</p>
@@ -633,19 +651,14 @@ function Cabeceras() {
                                             </div>
                                         );
                                     })}
-
-                                    {/* Botón para limpiar filtros - AL FINAL */}
-                                    {queryParams.toString() && (
-                                        <button 
-                                            type="button" 
-                                            className="button-link button-link-2" 
-                                            onClick={limpiarFiltros}
-                                        >
-                                            <span className="material-icons">delete</span>
-                                            <p className="button-link-text">Limpiar filtros</p>
-                                        </button>
-                                    )}
                                 </div>
+
+                                {queryParams.toString() && (
+                                    <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
+                                        <span className="material-icons">delete</span>
+                                        <p className="button-link-text">Limpiar filtros</p>
+                                    </button>
+                                )}
                             </div>
                         </div>
                     </div>
@@ -654,6 +667,10 @@ function Cabeceras() {
                         <FiltrosTop 
                             setOrden={setOrden} 
                             orden={orden} 
+                            toggleFiltro={toggleFiltro} 
+                            isFiltroActivo={isFiltroActivo}
+                            setIsFiltersOpen={setIsFiltersOpen}
+                            isFiltersOpen={isFiltersOpen}
                             productosCount={productosOrdenados.length}
                             totalProductos={productos.length}
                         />
@@ -667,17 +684,17 @@ function Cabeceras() {
                             ) : (
                                 <ul className="products-page-products">
                                     {productosOrdenados.length === 0 ? (
-                                        <div className="no-products">
-                                            <p>No se encontraron productos con los filtros seleccionados.</p>
-                                            {queryParams.toString() && (
-                                                <button 
-                                                    type="button" 
-                                                    className="button-link" 
-                                                    onClick={limpiarFiltros}
-                                                >
-                                                    Limpiar filtros
-                                                </button>
-                                            )}
+                                        <div className='d-grid-1-1'>
+                                            <div className="d-flex-column gap-10">
+                                                <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
+
+                                                {queryParams.toString() && (
+                                                    <button type="button" className="margin-right button-link button-link-2" onClick={limpiarFiltros}>
+                                                        <span className="material-icons">delete</span>
+                                                        <p className='button-link-text'>Limpiar filtros</p>
+                                                    </button>
+                                                )}
+                                            </div>
                                         </div>
                                     ) : (
                                         productosOrdenados.map(producto => (
@@ -690,6 +707,8 @@ function Cabeceras() {
                     </div>
                 </div>
             </main>
+
+            <div className={`filters-layout ${isFiltersOpen ? 'active' : ''}`} onClick={closeFilters}></div>
         </>
     );
 }

@@ -53,9 +53,13 @@
 }
 
 @media screen and (max-width: 600px){
+    .products-page-main{
+        padding: 10px;
+    }
+
     .products-page-blocks{
         grid-template-columns: 1fr;
-        gap: 0;
+        gap: 10px;
     }
 
     .products-page-products{

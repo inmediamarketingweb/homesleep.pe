@@ -1,4 +1,4 @@
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useState, useMemo, useRef } from 'react';
 import { Helmet } from 'react-helmet';
 import { useParams, useLocation, useNavigate, Link } from 'react-router-dom';
 
@@ -30,8 +30,34 @@ function Colchones() {
     const [loading, setLoading] = useState(true);
     const [filtros, setFiltros] = useState([]);
     const [orden, setOrden] = useState("ultimo");
+    const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
     const queryParams = new URLSearchParams(location.search);
     const marcaSeleccionada = queryParams.get('marca');
+    const [isFiltersOpen, setIsFiltersOpen] = useState(false);
+    const filtersPanelRef = useRef(null);
+
+    const closeFilters = () => {
+        setIsFiltersOpen(false);
+    };
+
+    const toggleEnvioGratis = () => {
+        setEnvioGratisActivo(!envioGratisActivo);
+    };
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (filtersPanelRef.current && 
+                !filtersPanelRef.current.contains(event.target) &&
+                !event.target.closest('.filters-button-open')) {
+                setIsFiltersOpen(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
 
     useEffect(() => {
         const cargarProductosColchones = async () => {
@@ -122,6 +148,12 @@ function Colchones() {
     }, [filtros, marcaSeleccionada]);
 
     const productosFiltrados = productos.filter(producto => {
+        if (envioGratisActivo) {
+            if (producto["tipo-de-envio"] !== "Gratis") {
+                return false;
+            }
+        }
+
         if (queryParams.entries().length === 0) return true;
 
         for (let [paramUrl, valorFiltro] of queryParams.entries()) {
@@ -180,16 +212,28 @@ function Colchones() {
                 <title>Colchones | Homesleep</title>
             </Helmet>
 
-            <main className='products-page-main d-flex-column gap-20'>
+            <main className='products-page-main d-flex-column gap-10'>
                 <Categorias/>
 
                 <div className='products-page-blocks'>
-                    <div className='products-page-left'>
+                    <div className={`products-page-left ${isFiltersOpen ? 'active' : ''}`} ref={filtersPanelRef}>
                         <div className='products-page-filters-container-global'>
                             <div className='d-flex-column gap-20'>
                                 <div className='d-flex-column padding-bottom-20 border-bottom-2-solid-component'>
                                     <p className='block-title color-color-1 uppercase w-100 d-flex'>Homesleep</p>
+                                    <button type='button' className='filters-button-close margin-left' onClick={closeFilters}>
+                                        <span className="material-icons color-color-1">close</span>
+                                    </button>
                                     <p className='uppercase w-100 d-flex'>Las mejores marcas en productos para el descanso</p>
+                                </div>
+
+                                <div className='envio-gratis-button-container'>
+                                    <div className='d-flex-center-center'>
+                                        <p className='weight-bold uppercase color-color-1 font-bold'>Envío gratis</p>
+                                    </div>
+                                    <div type='button' className={`envio-gratis-button ${envioGratisActivo ? 'active' : ''}`} onClick={toggleEnvioGratis}>
+                                        <span></span>
+                                    </div>
                                 </div>
 
                                 <div className='products-page-filters-container d-flex-column gap-20'>
@@ -228,7 +272,9 @@ function Colchones() {
                                                             const modelos = grupo[nombreGrupo];
 
                                                             return(
-                                                                <div key={idx} className='filter-subgroup'>
+                                                                <div key={idx} className='filter-subgroup d-flex-column gap-10'>
+                                                                    <p className='sub-title uppercase'>{[nombreGrupo]}</p>
+
                                                                     <ul className='products-page-filter-list'>
                                                                         {modelos.map((modelo, mIdx) => (
                                                                             <li key={mIdx}>
@@ -267,7 +313,7 @@ function Colchones() {
                     </div>
 
                     <div className='products-page-right'>
-                        <FiltrosTop setOrden={setOrden} orden={orden} toggleFiltro={toggleFiltro} isFiltroActivo={isFiltroActivo}/>
+                        <FiltrosTop setOrden={setOrden} orden={orden} toggleFiltro={toggleFiltro} isFiltroActivo={isFiltroActivo} setIsFiltersOpen={setIsFiltersOpen} isFiltersOpen={isFiltersOpen}/>
 
                         <div className='products-page-products-container'>
                             {loading ? (
@@ -290,6 +336,8 @@ function Colchones() {
                     </div>
                 </div>
             </main>
+
+            <div className={`filters-layout ${isFiltersOpen ? 'active' : ''}`} onClick={closeFilters}></div>
         </>
     );
 }

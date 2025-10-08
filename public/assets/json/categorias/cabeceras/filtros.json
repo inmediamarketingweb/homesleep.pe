@@ -32,13 +32,13 @@
             "marca":["El cisne", "Kamas", "Paraiso", "Komfort"]
         },
         {
-            "tipo-de-cabecera":["aérea", "aérea con patas", "pedestal"]
+            "tipo-de-cabecera":["Aérea", "Aérea con patas", "Pedestal"]
         },
         {
-            "diseño-de-cabecera":["infantil", "clásico", "americano", "con marco", "corona", "bloques"]
+            "diseño-de-cabecera":["Infantil", "Clásico", "Americano", "Con marco", "Corona", "Bloques"]
         },
         {
-            "brazos-de-cabecera":["sin brazos", "brazos rectos", "brazos curvos", "brazos p", "brazos seahorse"]
+            "brazos-de-cabecera":["Sin brazos", "Brazos rectos", "Brazos curvos", "Brazos p", "Brazos seahorse"]
         }
     ]
 }

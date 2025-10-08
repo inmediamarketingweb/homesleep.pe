@@ -13,18 +13,20 @@
 //     return texto.toLowerCase().normalize("NFD").replace(/\s+/g, "-");
 // };
 
-// // Mapa de filtros para sofás
 // const filtroKeyMap = {
 //     "tipo": "tipo",
 //     "marca": "marca", 
-//     "línea": "línea",
-//     "configuración": "configuración",
-//     "posición": "posición",
-//     "tamaño": "tamaño"
+//     "tamaño": "tamaño",
+//     "estilo": "estilo",
+//     "categoría": "categoría"
 // };
 
-// function Sofas() {
-//     const { sub1, sub2, sub3, sub4, sub5, marca, configuracion, cuerpos, orientacion, tamaño, id } = useParams();
+// function Complementos() {
+//     const { 
+//         sub1, sub2, sub3, sub4, sub5, 
+//         tamaño, marca, tipo, estilo, id 
+//     } = useParams();
+    
 //     const location = useLocation();
 //     const navigate = useNavigate();
 //     const [productos, setProductos] = useState([]);
@@ -32,111 +34,106 @@
 //     const [filtros, setFiltros] = useState([]);
 //     const [orden, setOrden] = useState("ultimo");
 
-//     // Determinar el tipo de sofá y niveles basado en la ruta actual
+//     // Determinar la estructura basada en la ruta actual
 //     const determinarEstructura = () => {
 //         const path = location.pathname;
         
-//         if (path.includes('/butacas/')) {
-//             return { tipo: 'butacas', niveles: 2 };
-//         } else if (path.includes('/juegos-de-sala/')) {
-//             return { tipo: 'juegos-de-sala', niveles: 3 };
-//         } else if (path.includes('/mecedoras/')) {
-//             return { tipo: 'mecedoras', niveles: 2 };
-//         } else if (path.includes('/reclinables/')) {
-//             return { tipo: 'reclinables', niveles: 3 };
-//         } else if (path.includes('/seccionales/')) {
-//             return { tipo: 'seccionales', niveles: 3 };
-//         } else if (path.includes('/sofa-cama/')) {
-//             return { tipo: 'sofa-cama', niveles: 3 };
+//         if (path.includes('/bases/')) {
+//             return { tipo: 'bases', niveles: 4 }; // /bases/tamaño/marca/tipo
+//         } else if (path.includes('/cama-perro/')) {
+//             return { tipo: 'cama-perro', niveles: 3 }; // /cama-perro/tamaño/marca
+//         } else if (path.includes('/puff/')) {
+//             return { tipo: 'puff', niveles: 3 }; // /puff/estilo/marca
+//         } else if (path.includes('/veladores/')) {
+//             return { tipo: 'veladores', niveles: 2 }; // /veladores/marca
 //         }
         
 //         return { tipo: 'general', niveles: 0 };
 //     };
 
+//     // Determinar si estamos en una página de producto
+//     const esPaginaProducto = () => {
+//         const path = location.pathname;
+//         const partes = path.split('/').filter(Boolean);
+//         const ultimaParte = partes[partes.length - 1];
+//         return !isNaN(ultimaParte);
+//     };
+
+//     // Obtener la ruta exacta para filtrar archivos
+//     const obtenerRutaExacta = () => {
+//         const estructura = determinarEstructura();
+//         const path = location.pathname;
+//         const partes = path.split('/').filter(Boolean);
+        
+//         // Remover "productos" del inicio
+//         const partesRelevantes = partes.slice(1);
+        
+//         console.log('🔍 [Complementos] Partes relevantes de la ruta:', partesRelevantes);
+        
+//         return partesRelevantes.join('/');
+//     };
+
 //     // Redirigir a PaginaProducto si estamos en el último nivel
 //     useEffect(() => {
-//         const estructura = determinarEstructura();
-//         const path = location.pathname;
-        
-//         // Si estamos en una ruta de producto (tiene ID), redirigir
-//         if (id || (sub5 && !isNaN(sub5))) {
-//             navigate(path, { replace: true });
+//         if (esPaginaProducto()) {
+//             navigate(location.pathname, { replace: true });
 //         }
-//     }, [sub1, sub2, sub3, sub4, sub5, marca, id, navigate, location.pathname]);
+//     }, [location.pathname, navigate]);
 
-//     // Cargar productos
+//     // Cargar productos - solo si NO es página de producto
 //     useEffect(() => {
-//         const estructura = determinarEstructura();
-//         const path = location.pathname;
-        
-//         // No cargar si estamos en la página de producto
-//         if (id || (sub5 && !isNaN(sub5))) {
+//         if (esPaginaProducto()) {
 //             return;
 //         }
 
-//         const cargarProductosSofas = async () => {
+//         const cargarProductosComplementos = async () => {
 //             try {
 //                 setLoading(true);
 //                 const manifestResponse = await fetch('/assets/json/manifest.json');
 //                 const manifestData = await manifestResponse.json();
 //                 const archivos = manifestData.files || [];
 
+//                 // Filtrar solo archivos de complementos
 //                 let archivosProductos = archivos.filter(url =>
-//                     url.startsWith('/assets/json/categorias/sofas/')
+//                     url.startsWith('/assets/json/categorias/complementos/')
 //                 );
 
-//                 // Construir la ruta específica basada en los parámetros
-//                 let rutaBuscada = '';
-                
-//                 if (estructura.tipo !== 'general') {
-//                     // Para rutas específicas de tipos de sofá
-//                     switch(estructura.tipo) {
-//                         case 'butacas':
-//                             rutaBuscada = `/sofas/butacas/${marca || ''}`;
-//                             break;
-//                         case 'juegos-de-sala':
-//                             rutaBuscada = `/sofas/juegos-de-sala/${configuracion || ''}/${marca || ''}`;
-//                             break;
-//                         case 'mecedoras':
-//                             rutaBuscada = `/sofas/mecedoras/${marca || ''}`;
-//                             break;
-//                         case 'reclinables':
-//                             rutaBuscada = `/sofas/reclinables/${cuerpos || ''}/${marca || ''}`;
-//                             break;
-//                         case 'seccionales':
-//                             rutaBuscada = `/sofas/seccionales/${orientacion || ''}/${marca || ''}`;
-//                             break;
-//                         case 'sofa-cama':
-//                             rutaBuscada = `/sofas/sofa-cama/${tamaño || ''}/${marca || ''}`;
-//                             break;
-//                         default:
-//                             break;
-//                     }
-//                 } else {
-//                     // Para rutas genéricas
-//                     const params = [sub1, sub2, sub3, sub4].filter(Boolean);
-//                     rutaBuscada = `/sofas/${params.join('/')}`;
-//                 }
+//                 console.log('🔍 [Complementos] Total archivos de complementos:', archivosProductos.length);
 
-//                 // Limpiar la ruta
-//                 rutaBuscada = rutaBuscada.replace(/\/+$/, '');
+//                 // Obtener la ruta exacta actual
+//                 const rutaActual = obtenerRutaExacta();
+//                 console.log('🔍 [Complementos] Ruta actual para filtrar:', rutaActual);
 
-//                 // Filtrar archivos que coincidan con la ruta
-//                 if (rutaBuscada && rutaBuscada !== '/sofas') {
+//                 // Filtrar archivos basado en la ruta exacta
+//                 if (rutaActual) {
 //                     archivosProductos = archivosProductos.filter(url => {
-//                         const urlSinExtension = url.replace('.json', '');
-//                         return urlSinExtension.includes(rutaBuscada);
+//                         // Convertir la URL del archivo a una ruta comparable
+//                         // Ejemplo: "/assets/json/categorias/complementos/bases/queen/kamas/americanas.json"
+//                         // → "complementos/bases/queen/kamas/americanas"
+//                         const rutaArchivo = url
+//                             .replace('/assets/json/categorias/', '')
+//                             .replace('.json', '');
+                        
+//                         console.log('🔍 [Complementos] Comparando:', {
+//                             rutaArchivo,
+//                             rutaActual,
+//                             coincide: rutaArchivo.startsWith(rutaActual)
+//                         });
+
+//                         // Solo incluir archivos que empiecen con la ruta actual
+//                         return rutaArchivo.startsWith(rutaActual);
 //                     });
 //                 }
 
-//                 console.log('Ruta buscada:', rutaBuscada);
-//                 console.log('Archivos a cargar:', archivosProductos);
+//                 console.log('🔍 [Complementos] Archivos después del filtrado:', archivosProductos);
 
 //                 const productosPromesas = archivosProductos.map(async (url) => {
 //                     try {
 //                         const response = await fetch(url);
 //                         const data = await response.json();
-//                         return data.productos || [];
+//                         const productosArchivo = data.productos || [];
+//                         console.log('🔍 [Complementos] Productos de', url, ':', productosArchivo.length);
+//                         return productosArchivo;
 //                     } catch (error) {
 //                         console.error(`Error cargando ${url}:`, error);
 //                         return [];
@@ -146,30 +143,26 @@
 //                 const productosPorArchivo = await Promise.all(productosPromesas);
 //                 const todosProductos = productosPorArchivo.flat();
 
+//                 console.log('🔍 [Complementos] Total de productos cargados:', todosProductos.length);
 //                 setProductos(todosProductos);
 //             } catch (error) {
-//                 console.error("Error cargando productos de sofás:", error);
+//                 console.error("Error cargando productos de complementos:", error);
 //             } finally {
 //                 setLoading(false);
 //             }
 //         };
 
-//         cargarProductosSofas();
-//     }, [sub1, sub2, sub3, sub4, sub5, marca, configuracion, cuerpos, orientacion, tamaño, id, location.pathname]);
+//         cargarProductosComplementos();
+//     }, [location.pathname]);
 
-//     // Cargar filtros
 //     useEffect(() => {
-//         const estructura = determinarEstructura();
-//         const path = location.pathname;
-        
-//         // No cargar filtros si estamos en la página de producto
-//         if (id || (sub5 && !isNaN(sub5))) {
+//         if (esPaginaProducto()) {
 //             return;
 //         }
 
 //         const cargarFiltros = async () => {
 //             try {
-//                 const response = await fetch('/assets/json/categorias/sofas/filtros.json');
+//                 const response = await fetch('/assets/json/categorias/complementos/filtros.json');
 //                 const data = await response.json();
 //                 setFiltros(data.filtros || []);
 //             } catch (error) {
@@ -178,19 +171,14 @@
 //         };
 
 //         cargarFiltros();
-//     }, [sub1, sub2, sub3, sub4, sub5, marca, id, location.pathname]);
+//     }, [location.pathname]);
 
-//     // Si estamos en página de producto, no renderizar
-//     const estructura = determinarEstructura();
-//     const path = location.pathname;
-//     if (id || (sub5 && !isNaN(sub5))) {
+//     if (esPaginaProducto()) {
 //         return null;
 //     }
 
-//     // Crear queryParams directamente
 //     const queryParams = new URLSearchParams(location.search);
 
-//     // Filtrar productos
 //     const productosFiltrados = productos.filter(producto => {
 //         if (queryParams.entries().length === 0) return true;
 
@@ -214,7 +202,6 @@
 //         return true;
 //     });
 
-//     // Ordenar productos
 //     const productosOrdenados = [...productosFiltrados].sort((a, b) => {
 //         const precioA = a.precioVenta || 0;
 //         const precioB = b.precioVenta || 0;
@@ -224,7 +211,6 @@
 //         return 0;
 //     });
 
-//     // Función para toggle de filtros
 //     const toggleFiltro = (nombreFiltro, valor) => {
 //         const normalizadoValor = normalizarTexto(valor);
 //         const newParams = new URLSearchParams(location.search);
@@ -240,13 +226,11 @@
 //         navigate(`${location.pathname}?${newParams.toString()}`, { replace: true });
 //     };
 
-//     // Verificar si un filtro está activo
 //     const isFiltroActivo = (nombreFiltro, valor) => {
 //         const normalizadoValor = normalizarTexto(valor);
 //         return queryParams.get(nombreFiltro) === normalizadoValor;
 //     };
 
-//     // Limpiar todos los filtros
 //     const limpiarFiltros = () => {
 //         navigate(location.pathname, { replace: true });
 //     };
@@ -254,7 +238,7 @@
 //     return(
 //         <>
 //             <Helmet>
-//                 <title>Sofás | Homesleep</title>
+//                 <title>Complementos | Homesleep</title>
 //             </Helmet>
 
 //             <main className='products-page-main d-flex-column gap-20'>
@@ -266,7 +250,7 @@
 //                             <div className='d-flex-column gap-20'>
 //                                 <div className='d-flex-column padding-bottom-20 border-bottom-2-solid-component'>
 //                                     <p className='block-title color-color-1 uppercase w-100 d-flex'>Homesleep</p>
-//                                     <p className='uppercase w-100 d-flex'>Las mejores marcas en productos para el descanso</p>
+//                                     <p className='uppercase w-100 d-flex'>Los mejores complementos para tu descanso</p>
 //                                 </div>
 
 //                                 <div className='products-page-filters-container d-flex-column gap-20'>
@@ -274,15 +258,18 @@
 //                                         const nombreFiltro = Object.keys(filtro)[0];
 //                                         const valoresFiltro = filtro[nombreFiltro];
 
-//                                         if (nombreFiltro === "sofas"){
+//                                         if (nombreFiltro === "complementos") {
 //                                             return(
 //                                                 <div className='products-page-filter' key={index}>
-//                                                     <p className='filter-title uppercase'>Sofás</p>
+//                                                     <p className='filter-title uppercase'>Complementos</p>
 //                                                     <ul className='products-page-filter-list'>
 //                                                         {valoresFiltro.map((item, i) => (
 //                                                             <li key={i}>
-//                                                                 <Link to={item.ruta} className={location.pathname === item.ruta ? "products-page-filter-list-link active" : "products-page-filter-list-link"}>
-//                                                                     <p>{item.sofas}</p>
+//                                                                 <Link 
+//                                                                     to={item.ruta} 
+//                                                                     className={location.pathname === item.ruta ? "products-page-filter-list-link active" : "products-page-filter-list-link"}
+//                                                                 >
+//                                                                     <p>{item.complementos}</p>
 //                                                                 </Link>
 //                                                             </li>
 //                                                         ))}
@@ -338,13 +325,13 @@
 //                             {loading ? (
 //                                 <div className="loading-products d-flex-center-center d-flex-column gap-10">
 //                                     <div className="spinner"></div>
-//                                     <p>Cargando productos...</p>
+//                                     <p>Cargando complementos...</p>
 //                                 </div>
 //                             ) : (
 //                                 <ul className="products-page-products">
 //                                     {productosOrdenados.length === 0 ? (
 //                                         <div className="no-products">
-//                                             <p>No se encontraron productos con los filtros seleccionados.</p>
+//                                             <p>No se encontraron complementos con los filtros seleccionados.</p>
 //                                             {queryParams.toString() && (
 //                                                 <button 
 //                                                     type="button" 
@@ -374,7 +361,7 @@
 //     );
 // }
 
-// export default Sofas;
+// export default Complementos;
 
 import { useEffect, useState, useMemo, useRef } from 'react';
 import { Helmet } from 'react-helmet';
@@ -391,18 +378,20 @@ const normalizarTexto = (texto) => {
     return texto.toLowerCase().normalize("NFD").replace(/\s+/g, "-");
 };
 
-// Mapa de filtros para sofás
 const filtroKeyMap = {
     "tipo": "tipo",
     "marca": "marca", 
-    "línea": "línea",
-    "configuración": "configuración",
-    "posición": "posición",
-    "tamaño": "tamaño"
+    "tamaño": "tamaño",
+    "estilo": "estilo",
+    "categoría": "categoría"
 };
 
-function Sofas() {
-    const { sub1, sub2, sub3, sub4, sub5, marca, configuracion, cuerpos, orientacion, tamaño, id } = useParams();
+function Complementos() {
+    const { 
+        sub1, sub2, sub3, sub4, sub5, 
+        tamaño, marca, tipo, estilo, id 
+    } = useParams();
+    
     const location = useLocation();
     const navigate = useNavigate();
     const [productos, setProductos] = useState([]);
@@ -437,111 +426,106 @@ function Sofas() {
         };
     }, []);
 
-    // Determinar el tipo de sofá y niveles basado en la ruta actual
+    // Determinar la estructura basada en la ruta actual
     const determinarEstructura = () => {
         const path = location.pathname;
         
-        if (path.includes('/butacas/')) {
-            return { tipo: 'butacas', niveles: 2 };
-        } else if (path.includes('/juegos-de-sala/')) {
-            return { tipo: 'juegos-de-sala', niveles: 3 };
-        } else if (path.includes('/mecedoras/')) {
-            return { tipo: 'mecedoras', niveles: 2 };
-        } else if (path.includes('/reclinables/')) {
-            return { tipo: 'reclinables', niveles: 3 };
-        } else if (path.includes('/seccionales/')) {
-            return { tipo: 'seccionales', niveles: 3 };
-        } else if (path.includes('/sofa-cama/')) {
-            return { tipo: 'sofa-cama', niveles: 3 };
+        if (path.includes('/bases/')) {
+            return { tipo: 'bases', niveles: 4 }; // /bases/tamaño/marca/tipo
+        } else if (path.includes('/cama-perro/')) {
+            return { tipo: 'cama-perro', niveles: 3 }; // /cama-perro/tamaño/marca
+        } else if (path.includes('/puff/')) {
+            return { tipo: 'puff', niveles: 3 }; // /puff/estilo/marca
+        } else if (path.includes('/veladores/')) {
+            return { tipo: 'veladores', niveles: 2 }; // /veladores/marca
         }
         
         return { tipo: 'general', niveles: 0 };
     };
 
+    // Determinar si estamos en una página de producto
+    const esPaginaProducto = () => {
+        const path = location.pathname;
+        const partes = path.split('/').filter(Boolean);
+        const ultimaParte = partes[partes.length - 1];
+        return !isNaN(ultimaParte);
+    };
+
+    // Obtener la ruta exacta para filtrar archivos
+    const obtenerRutaExacta = () => {
+        const estructura = determinarEstructura();
+        const path = location.pathname;
+        const partes = path.split('/').filter(Boolean);
+        
+        // Remover "productos" del inicio
+        const partesRelevantes = partes.slice(1);
+        
+        console.log('🔍 [Complementos] Partes relevantes de la ruta:', partesRelevantes);
+        
+        return partesRelevantes.join('/');
+    };
+
     // Redirigir a PaginaProducto si estamos en el último nivel
     useEffect(() => {
-        const estructura = determinarEstructura();
-        const path = location.pathname;
-        
-        // Si estamos en una ruta de producto (tiene ID), redirigir
-        if (id || (sub5 && !isNaN(sub5))) {
-            navigate(path, { replace: true });
+        if (esPaginaProducto()) {
+            navigate(location.pathname, { replace: true });
         }
-    }, [sub1, sub2, sub3, sub4, sub5, marca, id, navigate, location.pathname]);
+    }, [location.pathname, navigate]);
 
-    // Cargar productos
+    // Cargar productos - solo si NO es página de producto
     useEffect(() => {
-        const estructura = determinarEstructura();
-        const path = location.pathname;
-        
-        // No cargar si estamos en la página de producto
-        if (id || (sub5 && !isNaN(sub5))) {
+        if (esPaginaProducto()) {
             return;
         }
 
-        const cargarProductosSofas = async () => {
+        const cargarProductosComplementos = async () => {
             try {
                 setLoading(true);
                 const manifestResponse = await fetch('/assets/json/manifest.json');
                 const manifestData = await manifestResponse.json();
                 const archivos = manifestData.files || [];
 
+                // Filtrar solo archivos de complementos
                 let archivosProductos = archivos.filter(url =>
-                    url.startsWith('/assets/json/categorias/sofas/')
+                    url.startsWith('/assets/json/categorias/complementos/')
                 );
 
-                // Construir la ruta específica basada en los parámetros
-                let rutaBuscada = '';
-                
-                if (estructura.tipo !== 'general') {
-                    // Para rutas específicas de tipos de sofá
-                    switch(estructura.tipo) {
-                        case 'butacas':
-                            rutaBuscada = `/sofas/butacas/${marca || ''}`;
-                            break;
-                        case 'juegos-de-sala':
-                            rutaBuscada = `/sofas/juegos-de-sala/${configuracion || ''}/${marca || ''}`;
-                            break;
-                        case 'mecedoras':
-                            rutaBuscada = `/sofas/mecedoras/${marca || ''}`;
-                            break;
-                        case 'reclinables':
-                            rutaBuscada = `/sofas/reclinables/${cuerpos || ''}/${marca || ''}`;
-                            break;
-                        case 'seccionales':
-                            rutaBuscada = `/sofas/seccionales/${orientacion || ''}/${marca || ''}`;
-                            break;
-                        case 'sofa-cama':
-                            rutaBuscada = `/sofas/sofa-cama/${tamaño || ''}/${marca || ''}`;
-                            break;
-                        default:
-                            break;
-                    }
-                } else {
-                    // Para rutas genéricas
-                    const params = [sub1, sub2, sub3, sub4].filter(Boolean);
-                    rutaBuscada = `/sofas/${params.join('/')}`;
-                }
+                console.log('🔍 [Complementos] Total archivos de complementos:', archivosProductos.length);
 
-                // Limpiar la ruta
-                rutaBuscada = rutaBuscada.replace(/\/+$/, '');
+                // Obtener la ruta exacta actual
+                const rutaActual = obtenerRutaExacta();
+                console.log('🔍 [Complementos] Ruta actual para filtrar:', rutaActual);
 
-                // Filtrar archivos que coincidan con la ruta
-                if (rutaBuscada && rutaBuscada !== '/sofas') {
+                // Filtrar archivos basado en la ruta exacta
+                if (rutaActual) {
                     archivosProductos = archivosProductos.filter(url => {
-                        const urlSinExtension = url.replace('.json', '');
-                        return urlSinExtension.includes(rutaBuscada);
+                        // Convertir la URL del archivo a una ruta comparable
+                        // Ejemplo: "/assets/json/categorias/complementos/bases/queen/kamas/americanas.json"
+                        // → "complementos/bases/queen/kamas/americanas"
+                        const rutaArchivo = url
+                            .replace('/assets/json/categorias/', '')
+                            .replace('.json', '');
+                        
+                        console.log('🔍 [Complementos] Comparando:', {
+                            rutaArchivo,
+                            rutaActual,
+                            coincide: rutaArchivo.startsWith(rutaActual)
+                        });
+
+                        // Solo incluir archivos que empiecen con la ruta actual
+                        return rutaArchivo.startsWith(rutaActual);
                     });
                 }
 
-                console.log('Ruta buscada:', rutaBuscada);
-                console.log('Archivos a cargar:', archivosProductos);
+                console.log('🔍 [Complementos] Archivos después del filtrado:', archivosProductos);
 
                 const productosPromesas = archivosProductos.map(async (url) => {
                     try {
                         const response = await fetch(url);
                         const data = await response.json();
-                        return data.productos || [];
+                        const productosArchivo = data.productos || [];
+                        console.log('🔍 [Complementos] Productos de', url, ':', productosArchivo.length);
+                        return productosArchivo;
                     } catch (error) {
                         console.error(`Error cargando ${url}:`, error);
                         return [];
@@ -551,30 +535,26 @@ function Sofas() {
                 const productosPorArchivo = await Promise.all(productosPromesas);
                 const todosProductos = productosPorArchivo.flat();
 
+                console.log('🔍 [Complementos] Total de productos cargados:', todosProductos.length);
                 setProductos(todosProductos);
             } catch (error) {
-                console.error("Error cargando productos de sofás:", error);
+                console.error("Error cargando productos de complementos:", error);
             } finally {
                 setLoading(false);
             }
         };
 
-        cargarProductosSofas();
-    }, [sub1, sub2, sub3, sub4, sub5, marca, configuracion, cuerpos, orientacion, tamaño, id, location.pathname]);
+        cargarProductosComplementos();
+    }, [location.pathname]);
 
-    // Cargar filtros
     useEffect(() => {
-        const estructura = determinarEstructura();
-        const path = location.pathname;
-        
-        // No cargar filtros si estamos en la página de producto
-        if (id || (sub5 && !isNaN(sub5))) {
+        if (esPaginaProducto()) {
             return;
         }
 
         const cargarFiltros = async () => {
             try {
-                const response = await fetch('/assets/json/categorias/sofas/filtros.json');
+                const response = await fetch('/assets/json/categorias/complementos/filtros.json');
                 const data = await response.json();
                 setFiltros(data.filtros || []);
             } catch (error) {
@@ -583,7 +563,7 @@ function Sofas() {
         };
 
         cargarFiltros();
-    }, [sub1, sub2, sub3, sub4, sub5, marca, id, location.pathname]);
+    }, [location.pathname]);
 
     const productosFiltrados = useMemo(() => {
         if (productos.length === 0) return [];
@@ -631,7 +611,6 @@ function Sofas() {
         });
     }, [productosFiltrados, orden]);
 
-    // Función para toggle de filtros
     const toggleFiltro = (nombreFiltro, valor) => {
         const normalizadoValor = normalizarTexto(valor);
         const newParams = new URLSearchParams(location.search);
@@ -647,28 +626,23 @@ function Sofas() {
         navigate(`${location.pathname}?${newParams.toString()}`, { replace: true });
     };
 
-    // Verificar si un filtro está activo
     const isFiltroActivo = (nombreFiltro, valor) => {
         const normalizadoValor = normalizarTexto(valor);
         return queryParams.get(nombreFiltro) === normalizadoValor;
     };
 
-    // Limpiar todos los filtros
     const limpiarFiltros = () => {
         navigate(location.pathname, { replace: true });
     };
 
-    // Si estamos en página de producto, no renderizar
-    const estructura = determinarEstructura();
-    const path = location.pathname;
-    if (id || (sub5 && !isNaN(sub5))) {
+    if (esPaginaProducto()) {
         return null;
     }
 
     return(
         <>
             <Helmet>
-                <title>Sofás | Homesleep</title>
+                <title>Complementos | Homesleep</title>
             </Helmet>
 
             <main className='products-page-main d-flex-column gap-20'>
@@ -683,7 +657,7 @@ function Sofas() {
                                     <button type='button' className='filters-button-close margin-left' onClick={closeFilters}>
                                         <span className="material-icons color-color-1">close</span>
                                     </button>
-                                    <p className='uppercase w-100 d-flex'>Las mejores marcas en productos para el descanso</p>
+                                    <p className='uppercase w-100 d-flex'>Los mejores complementos para tu descanso</p>
                                 </div>
 
                                 <div className='envio-gratis-button-container'>
@@ -700,15 +674,18 @@ function Sofas() {
                                         const nombreFiltro = Object.keys(filtro)[0];
                                         const valoresFiltro = filtro[nombreFiltro];
 
-                                        if (nombreFiltro === "sofas"){
+                                        if (nombreFiltro === "complementos") {
                                             return(
                                                 <div className='products-page-filter' key={index}>
-                                                    <p className='filter-title uppercase'>Sofás</p>
+                                                    <p className='filter-title uppercase'>Complementos</p>
                                                     <ul className='products-page-filter-list'>
                                                         {valoresFiltro.map((item, i) => (
                                                             <li key={i}>
-                                                                <Link to={item.ruta} className={location.pathname === item.ruta ? "products-page-filter-list-link active" : "products-page-filter-list-link"}>
-                                                                    <p>{item.sofas}</p>
+                                                                <Link 
+                                                                    to={item.ruta} 
+                                                                    className={location.pathname === item.ruta ? "products-page-filter-list-link active" : "products-page-filter-list-link"}
+                                                                >
+                                                                    <p>{item.complementos}</p>
                                                                 </Link>
                                                             </li>
                                                         ))}
@@ -764,14 +741,14 @@ function Sofas() {
                             {loading ? (
                                 <div className="loading-products d-flex-center-center d-flex-column gap-10">
                                     <div className="spinner"></div>
-                                    <p>Cargando productos...</p>
+                                    <p>Cargando complementos...</p>
                                 </div>
                             ) : (
                                 <ul className="products-page-products">
                                     {productosOrdenados.length === 0 ? (
                                         <div className='d-grid-1-1'>
                                             <div className="d-flex-column gap-10">
-                                                <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
+                                                <p className='text'>No se encontraron complementos con los filtros seleccionados.</p>
 
                                                 {queryParams.toString() && (
                                                     <button type="button" className="margin-right button-link button-link-2" onClick={limpiarFiltros}>
@@ -802,4 +779,4 @@ function Sofas() {
     );
 }
 
-export default Sofas;
+export default Complementos;

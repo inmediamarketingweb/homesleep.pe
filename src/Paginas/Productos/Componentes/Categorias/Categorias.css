@@ -5,9 +5,9 @@
 }
 
 .product-page-categories{
-    margin: auto;
+    margin: 0 auto;
     display: flex;
-    width: calc(100% - 40px);
+    width: 100%;
     height: 90px;
     max-width: var(--content-mx-width);
 }
@@ -45,4 +45,27 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media screen and (max-width: 600px){
+    .product-page-categories-container{
+        overflow: hidden;
+        overflow-x: scroll;
+    }
+    
+    .product-page-categories{
+        display: flex;
+        width: 300%;
+    }
+    
+    .product-page-categories ul{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .product-page-categories li a img{
+        width: 180px;
+    }
 }

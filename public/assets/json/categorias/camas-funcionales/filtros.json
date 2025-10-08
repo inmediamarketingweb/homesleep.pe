@@ -3,24 +3,28 @@
         {
             "camas-funcionales":[
                 {
-                    "cama-funcional": "box espacio",
+                    "cama-funcional": "Box espacio",
                     "ruta": "/productos/camas-funcionales/box-espacio/"
                 },
                 {
-                    "cama-funcional": "box con baúl",
+                    "cama-funcional": "Box con baúl",
                     "ruta": "/productos/camas-funcionales/box-con-baúl/"
                 },
                 {
-                    "cama-funcional": "cama divan",
+                    "cama-funcional": "Cama divan",
                     "ruta": "/productos/camas-funcionales/cama-divan/"
                 },
                 {
-                    "cama-funcional": "camarotes",
+                    "cama-funcional": "Camarotes",
                     "ruta": "/productos/camas-funcionales/camarotes/"
                 },
                 {
-                    "cama-funcional": "cunas",
+                    "cama-funcional": "Cunas",
                     "ruta": "/productos/camas-funcionales/cunas/"
+                },
+                {
+                    "cama-funcional": "Ver todos",
+                    "ruta": "/productos/camas-funcionales/"
                 }
             ]
         },

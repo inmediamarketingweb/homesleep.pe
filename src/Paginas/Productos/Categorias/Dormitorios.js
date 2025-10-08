@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo, useRef } from 'react';
 import { Helmet } from 'react-helmet';
 import { useParams, useLocation, useNavigate, Link } from 'react-router-dom';
 
@@ -32,6 +32,33 @@ function Dormitorios() {
     const [loading, setLoading] = useState(true);
     const [filtros, setFiltros] = useState([]);
     const [orden, setOrden] = useState("ultimo");
+    const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
+    const [isFiltersOpen, setIsFiltersOpen] = useState(false);
+    const filtersPanelRef = useRef(null);
+    const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
+
+    const closeFilters = () => {
+        setIsFiltersOpen(false);
+    };
+
+    const toggleEnvioGratis = () => {
+        setEnvioGratisActivo(!envioGratisActivo);
+    };
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (filtersPanelRef.current && 
+                !filtersPanelRef.current.contains(event.target) &&
+                !event.target.closest('.filters-button-open')) {
+                setIsFiltersOpen(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
 
     const mapaMarcasModelos = {
         "el-cisne": "el-cisne",
@@ -147,75 +174,86 @@ function Dormitorios() {
         cargarFiltros();
     }, [sub5]);
 
-    if (sub5) {
-        return null;
-    }
-
-    const queryParams = new URLSearchParams(location.search);
     const marcaSeleccionada = queryParams.get('marca');
 
-    const filtrosFiltrados = filtros.map(filtro => {
-        const nombreFiltro = Object.keys(filtro)[0];
-        const valoresFiltro = filtro[nombreFiltro];
+    const filtrosFiltrados = useMemo(() => {
+        return filtros.map(filtro => {
+            const nombreFiltro = Object.keys(filtro)[0];
+            const valoresFiltro = filtro[nombreFiltro];
 
-        if (nombreFiltro === "modelos" && marcaSeleccionada) {
-            const marcaNormalizada = normalizarTexto(marcaSeleccionada);
-            const grupoModelos = mapaMarcasModelos[marcaNormalizada];
-            
-            if (grupoModelos) {
-                const modelosFiltrados = valoresFiltro.filter(grupo => {
-                    const nombreGrupo = Object.keys(grupo)[0];
-                    const grupoNormalizado = normalizarTexto(nombreGrupo);
-                    return grupoNormalizado === grupoModelos;
-                });
+            if (nombreFiltro === "modelos" && marcaSeleccionada) {
+                const marcaNormalizada = normalizarTexto(marcaSeleccionada);
+                const grupoModelos = mapaMarcasModelos[marcaNormalizada];
                 
-                if (modelosFiltrados.length > 0) {
-                    return { [nombreFiltro]: modelosFiltrados };
+                if (grupoModelos) {
+                    const modelosFiltrados = valoresFiltro.filter(grupo => {
+                        const nombreGrupo = Object.keys(grupo)[0];
+                        const grupoNormalizado = normalizarTexto(nombreGrupo);
+                        return grupoNormalizado === grupoModelos;
+                    });
+                    
+                    if (modelosFiltrados.length > 0) {
+                        return { [nombreFiltro]: modelosFiltrados };
+                    }
+                }
+                
+                return filtro;
+            }
+
+            return filtro;
+        });
+    }, [filtros, marcaSeleccionada]);
+
+    const productosFiltrados = useMemo(() => {
+        if (productos.length === 0) return [];
+
+        if (queryParams.entries().length === 0 && !envioGratisActivo) return productos;
+
+        return productos.filter(producto => {
+            if (envioGratisActivo) {
+                if (producto["tipo-de-envio"] !== "Gratis") {
+                    return false;
                 }
             }
-            
-            return filtro;
-        }
 
-        return filtro;
-    });
+            if (queryParams.entries().length === 0) return true;
 
-    const productosFiltrados = productos.filter(producto => {
-        if (queryParams.entries().length === 0) return true;
+            for (let [paramUrl, valorFiltro] of queryParams.entries()) {
+                const claveJson = filtroKeyMap[paramUrl];
+                if (!claveJson) continue;
 
-        for (let [paramUrl, valorFiltro] of queryParams.entries()) {
-            const claveJson = filtroKeyMap[paramUrl];
-            if (!claveJson) continue;
-
-            const normalizadoFiltro = normalizarTexto(valorFiltro);
-            const detalles = producto["detalles-del-producto"] || [];
-            
-            const cumpleFiltro = detalles.some(detalle => {
-                const valorProducto = detalle[claveJson];
-                if (!valorProducto) return false;
-
-                const normalizadoProducto = normalizarTexto(valorProducto.toString());
-
-                if (paramUrl === "marca" && mapaEquivalenciasMarcas[normalizadoFiltro]) {
-                    return mapaEquivalenciasMarcas[normalizadoFiltro].includes(normalizadoProducto);
-                }
+                const normalizadoFiltro = normalizarTexto(valorFiltro);
+                const detalles = producto["detalles-del-producto"] || [];
                 
-                return normalizadoProducto === normalizadoFiltro;
-            });
+                const cumpleFiltro = detalles.some(detalle => {
+                    const valorProducto = detalle[claveJson];
+                    if (!valorProducto) return false;
 
-            if (!cumpleFiltro) return false;
-        }
-        return true;
-    });
+                    const normalizadoProducto = normalizarTexto(valorProducto.toString());
 
-    const productosOrdenados = [...productosFiltrados].sort((a, b) => {
-        const precioA = a.precioVenta || 0;
-        const precioB = b.precioVenta || 0;
+                    if (paramUrl === "marca" && mapaEquivalenciasMarcas[normalizadoFiltro]) {
+                        return mapaEquivalenciasMarcas[normalizadoFiltro].includes(normalizadoProducto);
+                    }
+                    
+                    return normalizadoProducto === normalizadoFiltro;
+                });
 
-        if (orden === "menor-mayor") return precioA - precioB;
-        if (orden === "mayor-menor") return precioB - precioA;
-        return 0;
-    });
+                if (!cumpleFiltro) return false;
+            }
+            return true;
+        });
+    }, [productos, queryParams, envioGratisActivo]);
+
+    const productosOrdenados = useMemo(() => {
+        return [...productosFiltrados].sort((a, b) => {
+            const precioA = a.precioVenta || 0;
+            const precioB = b.precioVenta || 0;
+
+            if (orden === "menor-mayor") return precioA - precioB;
+            if (orden === "mayor-menor") return precioB - precioA;
+            return 0;
+        });
+    }, [productosFiltrados, orden]);
 
     const toggleFiltro = (nombreFiltro, valor) => {
         const normalizadoValor = normalizarTexto(valor);
@@ -241,6 +279,10 @@ function Dormitorios() {
         navigate(location.pathname, { replace: true });
     };
 
+    if (sub5) {
+        return null;
+    }
+
     return(
         <>
             <Helmet>
@@ -251,12 +293,24 @@ function Dormitorios() {
                 <Categorias/>
 
                 <div className='products-page-blocks'>
-                    <div className='products-page-left'>
+                    <div className={`products-page-left ${isFiltersOpen ? 'active' : ''}`} ref={filtersPanelRef}>
                         <div className='products-page-filters-container-global'>
                             <div className='d-flex-column gap-20'>
                                 <div className='d-flex-column padding-bottom-20 border-bottom-2-solid-component'>
                                     <p className='block-title color-color-1 uppercase w-100 d-flex'>Homesleep</p>
+                                    <button type='button' className='filters-button-close margin-left' onClick={closeFilters}>
+                                        <span className="material-icons color-color-1">close</span>
+                                    </button>
                                     <p className='uppercase w-100 d-flex'>Las mejores marcas en productos para el descanso</p>
+                                </div>
+
+                                <div className='envio-gratis-button-container'>
+                                    <div className='d-flex-center-center'>
+                                        <p className='weight-bold uppercase color-color-1 font-bold'>Envío gratis</p>
+                                    </div>
+                                    <div type='button' className={`envio-gratis-button ${envioGratisActivo ? 'active' : ''}`} onClick={toggleEnvioGratis}>
+                                        <span></span>
+                                    </div>
                                 </div>
 
                                 <div className='products-page-filters-container d-flex-column gap-20'>
@@ -331,24 +385,23 @@ function Dormitorios() {
                                             </div>
                                         );
                                     })}
-
-                                    {/* Botón Limpiar filtros al final de los filtros */}
-                                    {queryParams.toString() && (
-                                        <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
-                                            <span className="material-icons">delete</span>
-                                            <p className="button-link-text">Limpiar filtros</p>
-                                        </button>
-                                    )}
                                 </div>
+
+                                {queryParams.toString() && (
+                                    <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
+                                        <span className="material-icons">delete</span>
+                                        <p className="button-link-text">Limpiar filtros</p>
+                                    </button>
+                                )}
                             </div>
                         </div>
                     </div>
 
                     <div className='products-page-right'>
-                        <FiltrosTop 
-                            setOrden={setOrden} 
-                            orden={orden} 
-                            productosCount={productosOrdenados.length}
+                        <FiltrosTop setOrden={setOrden} orden={orden} 
+                            toggleFiltro={toggleFiltro} isFiltroActivo={isFiltroActivo}
+                            setIsFiltersOpen={setIsFiltersOpen} 
+                            isFiltersOpen={isFiltersOpen} productosCount={productosOrdenados.length}
                             totalProductos={productos.length}
                         />
 
@@ -359,42 +412,33 @@ function Dormitorios() {
                                     <p>Cargando productos...</p>
                                 </div>
                             ) : (
-                                <>
-                                    {queryParams.toString() && (
-                                        <div className="filtros-activos-info">
-                                            <p>
-                                                Mostrando {productosOrdenados.length} de {productos.length} productos
-                                                {queryParams.toString() && " con filtros aplicados"}
-                                            </p>
-                                        </div>
-                                    )}
-                                    
-                                    <ul className="products-page-products">
-                                        {productosOrdenados.length === 0 ? (
-                                            <div className="no-products">
-                                                <p>No se encontraron productos con los filtros seleccionados.</p>
+                                <ul className="products-page-products">
+                                    {productosOrdenados.length === 0 ? (
+                                        <div className='d-grid-1-1'>
+                                            <div className="d-flex-column gap-10">
+                                                <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
+
                                                 {queryParams.toString() && (
-                                                    <button 
-                                                        type="button" 
-                                                        className="button-link" 
-                                                        onClick={limpiarFiltros}
-                                                    >
-                                                        Limpiar filtros
+                                                    <button type="button" className="margin-right button-link button-link-2" onClick={limpiarFiltros}>
+                                                        <span class="material-icons">delete</span>
+                                                        <p className='button-link-text'>Limpiar filtros</p>
                                                     </button>
                                                 )}
                                             </div>
-                                        ) : (
-                                            productosOrdenados.map(producto => (
-                                                <Producto key={producto.sku} producto={producto} />
-                                            ))
-                                        )}
-                                    </ul>
-                                </>
+                                        </div>
+                                    ) : (
+                                        productosOrdenados.map(producto => (
+                                            <Producto key={producto.sku} producto={producto} />
+                                        ))
+                                    )}
+                                </ul>
                             )}
                         </div>
                     </div>
                 </div>
             </main>
+
+            <div className={`filters-layout ${isFiltersOpen ? 'active' : ''}`} onClick={closeFilters}></div>
         </>
     );
 }
