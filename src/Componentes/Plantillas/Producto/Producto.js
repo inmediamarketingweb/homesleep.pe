@@ -8,11 +8,10 @@ import "./Producto.css";
 /**
  * @param {Object} props
  * @param {Object} props.producto
- * @param {function} props.truncate
 **/
 
-export function Producto({ producto = { id: null } , truncate }){
-    const [secondImageError, setSecondImageError] = useState(false);
+export function Producto({ producto = { id: null } }){
+    // const [secondImageError, setSecondImageError] = useState(false);
     // const [favorites, setFavorites] = useState([]);
     const descuento = Math.round( ((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal );
 
@@ -35,21 +34,10 @@ export function Producto({ producto = { id: null } , truncate }){
         };
     }, []);
 
-    // const toggleFavorite = (producto) => {
-    //     const exists = favorites.some((fav) => fav.sku === producto.sku);
-    //     const updatedFavorites = exists
-    //         ? favorites.filter((fav) => fav.sku !== producto.sku)
-    //         : [...favorites, producto];
-    //     setFavorites(updatedFavorites);
-    //     localStorage.setItem("favoritos", JSON.stringify(updatedFavorites));
-    // };
-
     const tipoEnvioClase = producto["tipo-de-envio"] === "Gratis" ? "envio-gratis"
     : producto["tipo-de-envio"] === "Envío preferente" ? "envio-preferente"
     : producto["tipo-de-envio"] === "Envío aplicado" ? "envio-aplicado"
     : "";
-
-    // const isFavorite = favorites.some( (fav) => fav.sku === producto.sku );
 
     const imageSize = isSmallScreen ? 140 : 200;
 
@@ -64,10 +52,6 @@ export function Producto({ producto = { id: null } , truncate }){
                     <a href={producto.ruta} title={producto.nombre}>
                         <LazyImage width={imageSize} height={imageSize} src={`${producto.fotos}1`} alt={producto.nombre} className="product-image"/>
                     </a>
-
-                    {/* <button type="button" className={`product-card-favorite ${isFavorite ? "active" : ""}`} onClick={() => toggleFavorite(producto)} title="Agregar a favoritos" >
-                        <span className="material-icons">favorite</span>
-                    </button> */}
                 </div>
 
                 <a href={producto.ruta} className="product-card-content">
@@ -77,26 +61,7 @@ export function Producto({ producto = { id: null } , truncate }){
                         </div>
                     ) : (
                         <>
-                            {producto.novedades === "si" && (
-                                <div className="product-card-target">
-                                    <span>¡Lo más nuevo!</span>
-                                </div>
-                            )}
-
-                            {producto["solo-por-horas"] === "si" && (
-                                <div className="product-card-stock">
-                                    <span>¡ Solo por horas ⌛ !</span>
-                                </div>
-                            )}
-
-                            {producto.oferta === "si" && (
-                                <div className="product-card-ofert">
-                                    <span>En oferta 🔥</span>
-                                </div>
-                            )}
-
-                            {producto.novedades !== "si" &&
-                                producto["solo-por-horas"] !== "si" && producto.oferta !== "si" && (
+                            {producto.novedades !== "si" && producto["solo-por-horas"] !== "si" && producto.oferta !== "si" && (
                                 <div className={`product-card-tipo-de-envio ${tipoEnvioClase}`}>
                                     <span>
                                         {producto["tipo-de-envio"] === "Gratis"
@@ -109,7 +74,6 @@ export function Producto({ producto = { id: null } , truncate }){
                     )}
 
                     <span className="product-card-brand">{producto.marca}</span>
-                    {/* <h4 className="product-card-name">{truncate(producto.nombre, 79)}</h4> */}
                     <h4 className="product-card-name">{producto.nombre}</h4>
                     <div className="product-card-prices d-flex-center-between">
                         <div className="d-flex-column">

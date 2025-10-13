@@ -75,6 +75,8 @@ function LazyImage({ src, alt, width, height }){
                     setCurrentSrc(`${getBasePath(src)}.webp`);
                 } else if (!attemptedExtensions.includes('.png') && currentSrc !== `${getBasePath(src)}.png`) {
                     setCurrentSrc(`${getBasePath(src)}.png`);
+                } else if (!attemptedExtensions.includes('.avif') && currentSrc !== `${getBasePath(src)}.avif`) {
+                    setCurrentSrc(`${getBasePath(src)}.avif`);
                 }
             }}
         />

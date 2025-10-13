@@ -20,16 +20,12 @@ function SobreNosotros(){
     return(
         <div className='block-container block-container-homepage-about-us'>
             <section className='block-content'>
-                <div className='block-title-container'>
-                    <h2 className='block-title'>Homesleep</h2>
-                </div>
-
                 <div className='d-grid-2-1fr gap-10'>
                     <img src="/assets/imagenes/paginas/nosotros/banner-1.jpg" alt="Nosotros | Homesleep" className='page-banner-img' />
 
                     <div className='d-flex-column gap-20'>
                         <div className='d-flex-column gap-5'>
-                            <p className='title'>Homesleep</p>
+                            <p className='block-title w-100 text-left color-color-1 uppercase'>Homesleep</p>
                             <p className='title'>¡Dormir bien empieza en Homesleep!</p>
                             <p className='text'>En Homesleep llevamos más de 13 años transformando el descanso de miles de familias peruanas.</p>
                             <p className='text'>Somos especialistas en productos de dormitorio y trabajamos con las mejores marcas del mercado, garantizando la mejor calidad al mejor precio.</p>

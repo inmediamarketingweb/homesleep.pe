@@ -31,7 +31,7 @@
     --f-size-small: 14px;
 
     --container-mx-width: 2000px;
-    --content-mx-width: 1600px;
+    --content-mx-width: 1440px;
 
     --t-100ms-linear: all 100ms linear;
     --t-200ms-linear: all 200ms linear;
@@ -60,11 +60,12 @@ main{
     min-height: 50vh;
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .block-container{
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,7 +81,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     grid-column: 1/-1;
 }
 
@@ -89,6 +90,7 @@ main{
     font-weight: bold;
     font-size: 28px;
     color: #333333;
+    letter-spacing: -2px;
 }
 
 .block-title-buttons{
@@ -164,6 +166,14 @@ button{
 
 .color-color-1{
     color: var(--color-1) !important;
+}
+
+.bg-component{
+    background: var(--component);
+}
+
+.border-r-6{
+    border-radius: 6px;
 }
 
 .text{
@@ -303,6 +313,10 @@ button{
     margin-bottom: auto;
 }
 
+.padding-10{
+    padding: 10px;
+}
+
 .padding-bottom-20{
     padding-bottom: 20px;
 }
@@ -329,6 +343,10 @@ button{
 
 .text-center{
     text-align: center;
+}
+
+.text-left{
+    text-align: left !important;
 }
 
 .h-100{
@@ -392,6 +410,59 @@ button{
 
 .button-link-3 .button-link-text{
     color: var(--text);
+}
+
+.brand-link{
+    padding: 3px 6px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand-link p{
+    font-size: 14px;
+}
+
+.el-cisne-button-link{
+    background: var(--black);
+    border: 1px solid var(--black);
+}
+
+.el-cisne-button-link p{
+    color: gold;
+}
+
+.kamas-button-link{
+    background: #AD3362;
+    border: 1px solid #AD3362;
+}
+
+.kamas-button-link p{
+    color: var(--white);
+}
+
+.paraiso-button-link{
+    border: 1px solid crimson;
+    background: crimson;
+}
+
+.paraiso-button-link p{
+    color: var(--white);
+}
+
+.komfort-button-link{
+    border: 1px solid var(--black);
+    background: var(--white);
+}
+
+.komfort-button-link p{
+    display: inline-block;
+    color: var(--black);
+}
+
+.komfort-button-link p::first-letter{
+    color: crimson;
 }
 
 .product-card{
