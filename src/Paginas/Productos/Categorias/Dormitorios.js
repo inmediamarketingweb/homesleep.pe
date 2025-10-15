@@ -31,7 +31,6 @@ function Dormitorios() {
     const [productos, setProductos] = useState([]);
     const [loading, setLoading] = useState(true);
     const [filtros, setFiltros] = useState([]);
-    const [orden, setOrden] = useState("ultimo");
     const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
     const [isFiltersOpen, setIsFiltersOpen] = useState(false);
     const filtersPanelRef = useRef(null);
@@ -63,12 +62,12 @@ function Dormitorios() {
     const mapaMarcasModelos = {
         "el-cisne": "el-cisne",
         "kamas---el-cisne": "el-cisne",
-        
+
         "kamas": "kamas",
-        
+
         "paraiso": "paraiso",
         "kamas---paraiso": "paraiso",
-        
+
         "komfort": "komfort",
         "kamas---komfort": "komfort",
         "komfort---kamas": "komfort"
@@ -77,12 +76,12 @@ function Dormitorios() {
     const mapaEquivalenciasMarcas = {
         "el-cisne": ["el-cisne", "kamas---el-cisne"],
         "kamas---el-cisne": ["el-cisne", "kamas---el-cisne"],
-        
+
         "kamas": ["kamas"],
-        
+
         "paraiso": ["paraiso", "kamas---paraiso"],
         "kamas---paraiso": ["paraiso", "kamas---paraiso"],
-        
+
         "komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
         "kamas---komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
         "komfort---kamas": ["komfort", "kamas---komfort", "komfort---kamas"]
@@ -244,21 +243,9 @@ function Dormitorios() {
         });
     }, [productos, queryParams, envioGratisActivo]);
 
-    const productosOrdenados = useMemo(() => {
-        return [...productosFiltrados].sort((a, b) => {
-            const precioA = a.precioVenta || 0;
-            const precioB = b.precioVenta || 0;
-
-            if (orden === "menor-mayor") return precioA - precioB;
-            if (orden === "mayor-menor") return precioB - precioA;
-            return 0;
-        });
-    }, [productosFiltrados, orden]);
-
     const toggleFiltro = (nombreFiltro, valor) => {
         const normalizadoValor = normalizarTexto(valor);
         const newParams = new URLSearchParams(location.search);
-        
         const valorActual = newParams.get(nombreFiltro);
 
         if (valorActual === normalizadoValor) {
@@ -342,16 +329,16 @@ function Dormitorios() {
                                         if (nombreFiltro === "modelos") {
                                             return(
                                                 <div className='products-page-filter' key={index}>
-                                                    <p className='filter-title uppercase'>Modelos</p>
+                                                    <p className='filter-title'>Modelos</p>
                                                     <div className='filter-subgroups'>
                                                         {valoresFiltro.map((grupo, idx) => {
                                                             const nombreGrupo = Object.keys(grupo)[0];
                                                             const modelos = grupo[nombreGrupo];
 
                                                             return(
-                                                                <div key={idx} className='filter-subgroup'>
+                                                                <div key={idx} className='filter-subgroup d-flex-column gap-5'>
                                                                     {(!marcaSeleccionada || valoresFiltro.length > 1) && (
-                                                                        <p className='filter-subgroup-title'>{nombreGrupo}</p>
+                                                                        <p className='filter-subgroup-title color-color-1 uppercase font-bold'>{nombreGrupo.replace(/-/g, ' ')}</p>
                                                                     )}
                                                                     <ul className='products-page-filter-list'>
                                                                         {modelos.map((modelo, mIdx) => (
@@ -372,7 +359,7 @@ function Dormitorios() {
 
                                         return(
                                             <div className='products-page-filter' key={index}>
-                                                <p className='filter-title uppercase'>{nombreFiltro}</p>
+                                                <p className='filter-title uppercase'>{nombreFiltro.replace(/-/g, ' ')}</p>
                                                 <ul className='products-page-filter-list'>
                                                     {valoresFiltro.map((valor, i) => (
                                                         <li key={i}>
@@ -398,10 +385,8 @@ function Dormitorios() {
                     </div>
 
                     <div className='products-page-right'>
-                        <FiltrosTop setOrden={setOrden} orden={orden} 
-                            toggleFiltro={toggleFiltro} isFiltroActivo={isFiltroActivo}
-                            setIsFiltersOpen={setIsFiltersOpen} 
-                            isFiltersOpen={isFiltersOpen} productosCount={productosOrdenados.length}
+                        <FiltrosTop toggleFiltro={toggleFiltro} isFiltroActivo={isFiltroActivo}
+                            setIsFiltersOpen={setIsFiltersOpen} isFiltersOpen={isFiltersOpen}
                             totalProductos={productos.length}
                         />
 
@@ -413,24 +398,28 @@ function Dormitorios() {
                                 </div>
                             ) : (
                                 <ul className="products-page-products">
-                                    {productosOrdenados.length === 0 ? (
-                                        <div className='d-grid-1-1'>
-                                            <div className="d-flex-column gap-10">
-                                                <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
+                                    {
+                                        productosFiltrados.length === 0 ? (
+                                            <div className='d-grid-1-1'>
+                                                <div className="d-flex-column gap-10">
+                                                    <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
 
-                                                {queryParams.toString() && (
-                                                    <button type="button" className="margin-right button-link button-link-2" onClick={limpiarFiltros}>
-                                                        <span class="material-icons">delete</span>
-                                                        <p className='button-link-text'>Limpiar filtros</p>
-                                                    </button>
-                                                )}
+                                                    {queryParams.toString() && (
+                                                        <button type="button" className="margin-right button-link button-link-2" onClick={limpiarFiltros}>
+                                                            <span class="material-icons">delete</span>
+                                                            <p className='button-link-text'>Limpiar filtros</p>
+                                                        </button>
+                                                    )}
+                                                </div>
                                             </div>
-                                        </div>
-                                    ) : (
-                                        productosOrdenados.map(producto => (
-                                            <Producto key={producto.sku} producto={producto} />
-                                        ))
-                                    )}
+                                        ) : (
+                                            productosFiltrados.map(
+                                                producto => (
+                                                    <Producto key={producto.sku} producto={producto} />
+                                                )
+                                            )
+                                        )
+                                    }
                                 </ul>
                             )}
                         </div>

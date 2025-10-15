@@ -50,8 +50,11 @@ body{
 }
 
 body::-webkit-scrollbar{
-    display: none;
-    transition: all 200ms linear;
+    width: 6px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background: var(--color-1);
 }
 
 main{
