@@ -30,7 +30,13 @@ function PaginaProducto(){
     const [shippingOptions, setShippingOptions] = useState([]);
     const [selectedShipping, setSelectedShipping] = useState({ tipo: null, precio: null });
     const location = useLocation();
-    const [productoData, setProductoData] = useState({ producto: null, imagenes: [], error: false, loading: true});
+    const [productoData, setProductoData] = useState({ 
+        producto: null, 
+        imagenes: [], 
+        descripciones: [],
+        error: false, 
+        loading: true
+    });
     const [selectedColor, setSelectedColor] = useState(null);
     const [quantity, setQuantity] = useState(1);
     const [userName, setUserName] = useState(typeof window !== 'undefined' ? localStorage.getItem('nombre') || '' : '');
@@ -61,7 +67,13 @@ function PaginaProducto(){
                             if (resp.ok) {
                                 const pd = await resp.json();
                                 if (!cancelled) {
-                                    setProductoData({ producto: pd, imagenes: [], error: false, loading: false });
+                                    setProductoData({ 
+                                        producto: pd, 
+                                        imagenes: [], 
+                                        descripciones: pd.descripciones || [], 
+                                        error: false, 
+                                        loading: false 
+                                    });
                                     cargarImagenesOptimizadas(pd.fotos);
                                     return;
                                 }
@@ -70,7 +82,7 @@ function PaginaProducto(){
                     }
                 } catch (errIndex) { }
 
-            if (filesList.length === 0) {
+            if (filesList.length === 0){
                 try{
                     const manifestRes2 = await fetch('/assets/json/manifest.json');
                     if (manifestRes2.ok) {
@@ -87,6 +99,8 @@ function PaginaProducto(){
                 if (candidates.length === 0) candidates = filesList;
 
                 let productoEncontrado = null;
+                let descripcionesEncontradas = [];
+
                 for (const filePath of candidates) {
                     try {
                         const r = await fetch(filePath);
@@ -99,6 +113,7 @@ function PaginaProducto(){
                         });
                         if (found) {
                             productoEncontrado = found;
+                            descripcionesEncontradas = json.descripciones || [];
                             break;
                         }
                     } catch (e) { continue; }
@@ -106,7 +121,13 @@ function PaginaProducto(){
 
                 if (productoEncontrado) {
                     if (!cancelled) {
-                        setProductoData(prev => ({ ...prev, producto: productoEncontrado, loading: false, error: false }));
+                        setProductoData(prev => ({ 
+                            ...prev, 
+                            producto: productoEncontrado, 
+                            descripciones: descripcionesEncontradas,
+                            loading: false, 
+                            error: false 
+                        }));
                         cargarImagenesOptimizadas(productoEncontrado.fotos);
                     }
                     return;
@@ -128,6 +149,7 @@ function PaginaProducto(){
                             });
                             if (foundById) {
                                 productoEncontrado = foundById;
+                                descripcionesEncontradas = json.descripciones || [];
                                 break;
                             }
                         } catch (e) { continue; }
@@ -136,7 +158,13 @@ function PaginaProducto(){
 
                 if (productoEncontrado) {
                     if (!cancelled) {
-                        setProductoData(prev => ({ ...prev, producto: productoEncontrado, loading: false, error: false }));
+                        setProductoData(prev => ({ 
+                            ...prev, 
+                            producto: productoEncontrado, 
+                            descripciones: descripcionesEncontradas,
+                            loading: false, 
+                            error: false 
+                        }));
                         cargarImagenesOptimizadas(productoEncontrado.fotos);
                     }
                     return;
@@ -278,7 +306,7 @@ function PaginaProducto(){
         );
     }
 
-    const { producto, imagenes } = productoData;
+    const { producto, imagenes, descripciones } = productoData;
 
     const handleContinuarClick = (e) => {
         if(!selectedShipping.tipo){
@@ -328,7 +356,7 @@ function PaginaProducto(){
                 <script type="application/ld+json">{JSON.stringify(productSchema)}</script>
             </Helmet>
 
-            <main>
+            <main className='page-main-product-page'>
                 <div className='block-container product-page-block-container'>
                     <section className='block-content product-page-block-content'>
                         <Jerarquia producto={producto} />
@@ -445,11 +473,13 @@ function PaginaProducto(){
                             </div>
                         </div>
 
-                        <Descripcion producto={producto}/>
+                        <Descripcion producto={producto} descripciones={descripciones}/>
                     </section>
                 </div>
 
-                <Suspense fallback={<div className="loading-mas-productos">Cargando productos relacionados...</div>}>
+                <Suspense fallback={
+                    <div className="loading-mas-productos">Cargando productos relacionados...</div>
+                }>
                     <MasProductos categoriaActual={producto.categoria}/>
                 </Suspense>
             </main>

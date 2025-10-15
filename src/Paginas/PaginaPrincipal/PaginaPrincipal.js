@@ -2,9 +2,7 @@ import { Helmet } from 'react-helmet';
 
 import Slider from './Componentes/Slider/Slider';
 import Categorias from './Componentes/Categorias/Categorias';
-// import SoloPorHoras from './Componentes/SoloPorHoras/SoloPorHoras';
-// import UltimasNovedades from './Componentes/UltimasNovedades/UltimasNovedades';
-import Ofertas from './Componentes/Ofertas/Ofertas';
+import Destacados from './Componentes/Destacados/Destacados';
 import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
 import Distribuidores from '../../Componentes/Distribuidores/Distribuidores';
 
@@ -33,15 +31,14 @@ function PaginaPrincipal(){
 
                 <Categorias/>
 
-                {/* <SoloPorHoras/> */}
-
-                {/* <UltimasNovedades/> */}
-                
-                <Ofertas/>
+                <Destacados/>
 
                 <SobreNosotros/>
 
                 <Distribuidores/>
+
+                {/* <script src="https://elfsightcdn.com/platform.js" async></script> */}
+                {/* <div class="elfsight-app-84445f73-7426-41ed-9666-9440e98ca550" data-elfsight-app-lazy></div> */}
             </main>
         </>
     );

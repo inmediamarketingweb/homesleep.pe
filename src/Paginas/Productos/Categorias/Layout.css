@@ -135,6 +135,25 @@
     left: calc(100% - 22px);
 }
 
+.filter-subgroups{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filter-title{
+    color: var(--text);
+    text-transform: uppercase;
+}
+
+.products-page-filter-list li button p{
+    display: inline-block;
+}
+
+.products-page-filter-list li button p::first-letter{
+    text-transform: uppercase;
+}
+
 @media screen and (max-width: 600px){
     .products-page-left{
         position: fixed;

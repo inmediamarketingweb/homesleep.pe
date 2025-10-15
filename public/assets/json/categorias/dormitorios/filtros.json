@@ -32,15 +32,21 @@
             "marca":["El cisne", "Kamas - El cisne", "Kamas", "Paraiso", "Kamas - Paraiso", "Komfort", "Komfort - Kamas"]
         },
         {
-            "línea":["clásicos", "americanos", "americanos con cajones", "europeos", "europeos con cajones"]
+            "línea":["clásicos", "americanos", "americanos con cajones", "europeos", "europeo con cajones"]
         },
         {
             "base-encajonada":["si", "no"]
         },
         {
+            "cajones":["si", "no"]
+        },
+        {
+            "resortes":["Bonell", "Pocket", "Cosisoft"]
+        },
+        {
             "modelos":[
                 {
-                    "el-cisne":["Cisne CEC", "Argus", "RC-418", "Presence pillow", "RC-608", "Argus pocket", "Iconio", "Dynamic", "Valente", "Element"]
+                    "el-cisne":["Pocket plus", "Cisne CEC", "Argus", "RC-418", "Presence pillow", "RC-608", "Argus pocket", "Iconio", "Dynamic", "Valente", "Element"]
                 },
                 {
                     "kamas":["Adel", "Rucay", "Sarki", "Safynnte", "Der prinz", "Thameo pocket", "Ramat", "Nesie", "Norole", "Thaleo pocket", "Konig", "Yurmale"]

@@ -121,7 +121,6 @@
 
         "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/americanas.json",
         "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/americanas-con-cajones.json",
-        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/europeas.json",
 
         "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/clasicas.json",
         "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas.json",
@@ -185,8 +184,6 @@
 
         "/assets/json/categorias/dormitorios/queen/el-cisne/pocket-plus/americanos.json",
 
-        "/assets/json/categorias/dormitorios/queen/el-cisne/rc-608/americanos.json",
-
         "/assets/json/categorias/dormitorios/queen/kamas/der-prinz/americanos.json",
 
         "/assets/json/categorias/dormitorios/queen/kamas/konig/americanos.json",
@@ -222,8 +219,17 @@
 
         "/assets/json/categorias/dormitorios/king/kamas/safynnte/americanos.json",
 
+
+
         "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos-con-cajones.json",
         "/assets/json/categorias/dormitorios/king/kamas/sarki/premium.json",
+
+
+
+        "/assets/json/categorias/dormitorios/king/komfort/saphir/americanos.json",
+
+
 
         "/assets/json/categorias/dormitorios/king/paraiso/royal-abrazzo/americanos.json",
 

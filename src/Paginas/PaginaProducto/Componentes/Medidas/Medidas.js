@@ -11,7 +11,7 @@ function Medidas({producto}){
 
     return(
         <div className="d-flex-column gap-10">
-            <h2 className="title text">En otras medidas:</h2>
+            <h2 className="title text">Otras medidas:</h2>
 
             <ul className="product-page-sizes d-flex-column gap-5">
                 {medidas.map(item => (
