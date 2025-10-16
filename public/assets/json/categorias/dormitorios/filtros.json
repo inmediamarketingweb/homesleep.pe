@@ -32,7 +32,7 @@
             "marca":["El cisne", "Kamas - El cisne", "Kamas", "Paraiso", "Kamas - Paraiso", "Komfort", "Kamas - Komfort"]
         },
         {
-            "línea":["clásicos", "americanos", "americanos con cajones", "europeos", "europeo con cajones"]
+            "línea":["clásicos", "americanos", "americanos con cajones", "europeos", "europeos con cajones"]
         },
         {
             "base-encajonada":["si", "no"]
@@ -52,7 +52,7 @@
                     "kamas":["Adel", "Rucay", "Sarki", "Safynnte", "Der prinz", "Thameo pocket", "Ramat", "Nesie", "Norole", "Thaleo pocket", "Konig", "Yurmale"]
                 },
                 {
-                    "paraiso":["Consul black", "Majestic", "Cancun", "Consul plus", "Eden plus", "Tropical ergo", "Medallon ergosoft", "Su majestad de lujo", "Pocket italiano", "Super star", "Super star negro", "Pocket star", "Royal prince", "Royal elizabeth", "Royal dynasty", "Royal cloud", "Abrazzo"]
+                    "paraiso":["Su majestad", "Consul black", "Majestic", "Cancun", "Consul plus", "Eden plus", "Tropical ergo", "Medallon ergosoft", "Su majestad de lujo", "Pocket italiano", "Super star", "Super star negro", "Pocket star", "Royal prince", "Royal elizabeth", "Royal dynasty", "Royal cloud", "Abrazzo"]
                 },
                 {
                     "komfort":["Saphir"]

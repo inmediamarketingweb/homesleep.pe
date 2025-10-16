@@ -18,10 +18,47 @@ const filtroKeyMap = {
     "marca": "marca",
     "línea": "línea",
     "base-encajonada": "base-encajonada",
+    "cajones": "cajones",
     "modelo": "modelo-de-colchón",
     "tipo-de-cabecera": "tipo-de-cabecera",
     "diseño-de-cabecera": "diseño-de-cabecera",
     "brazos-de-cabecera": "brazos-de-cabecera"
+};
+
+const mapaMarcasModelos = {
+    "el-cisne": "el-cisne",
+    "kamas---el-cisne": "el-cisne",
+
+    "kamas": "kamas",
+
+    "paraiso": "paraiso",
+    "kamas---paraiso": "paraiso",
+
+    "komfort": "komfort",
+    "kamas---komfort": "komfort",
+    "komfort---kamas": "komfort"
+};
+
+const mapaEquivalenciasMarcas = {
+    "el-cisne": ["el-cisne", "kamas---el-cisne"],
+    "kamas---el-cisne": ["el-cisne", "kamas---el-cisne"],
+
+    "kamas": ["kamas"],
+
+    "paraiso": ["paraiso", "kamas---paraiso"],
+    "kamas---paraiso": ["paraiso", "kamas---paraiso"],
+
+    "komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
+    "kamas---komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
+    "komfort---kamas": ["komfort", "kamas---komfort", "komfort---kamas"]
+};
+
+const sonMarcasEquivalentes = (marca1, marca2) => {
+    const normalizada1 = normalizarTexto(marca1);
+    const normalizada2 = normalizarTexto(marca2);
+    if (normalizada1 === normalizada2) return true;
+    const equivalencias1 = mapaEquivalenciasMarcas[normalizada1];
+    return equivalencias1 && equivalencias1.includes(normalizada2);
 };
 
 function Dormitorios() {
@@ -58,34 +95,6 @@ function Dormitorios() {
             document.removeEventListener('mousedown', handleClickOutside);
         };
     }, []);
-
-    const mapaMarcasModelos = {
-        "el-cisne": "el-cisne",
-        "kamas---el-cisne": "el-cisne",
-
-        "kamas": "kamas",
-
-        "paraiso": "paraiso",
-        "kamas---paraiso": "paraiso",
-
-        "komfort": "komfort",
-        "kamas---komfort": "komfort",
-        "komfort---kamas": "komfort"
-    };
-
-    const mapaEquivalenciasMarcas = {
-        "el-cisne": ["el-cisne", "kamas---el-cisne"],
-        "kamas---el-cisne": ["el-cisne", "kamas---el-cisne"],
-
-        "kamas": ["kamas"],
-
-        "paraiso": ["paraiso", "kamas---paraiso"],
-        "kamas---paraiso": ["paraiso", "kamas---paraiso"],
-
-        "komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
-        "kamas---komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
-        "komfort---kamas": ["komfort", "kamas---komfort", "komfort---kamas"]
-    };
 
     useEffect(() => {
         if (sub5) {
@@ -253,6 +262,13 @@ function Dormitorios() {
         const normalizadoValor = normalizarTexto(valor);
         const newParams = new URLSearchParams(location.search);
         const valorActual = newParams.get(nombreFiltro);
+
+        if (nombreFiltro === "marca") {
+            const marcaActual = newParams.get('marca');
+            if (marcaActual && marcaActual !== normalizadoValor && !sonMarcasEquivalentes(marcaActual, normalizadoValor)) {
+                newParams.delete('modelo');
+            }
+        }
 
         if (valorActual === normalizadoValor) {
             newParams.delete(nombreFiltro);

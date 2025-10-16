@@ -5,7 +5,7 @@
             "categoria": "complementos",
             "subcategoria": "bases",
             "marca": "kamas",
-            "linea": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/complementos/bases/king/kamas/americanas-con-cajones/4/",
             "nombre": "BASE SOLA AMERICANA KING + 2 CAJONES AL PIE - PLOMO OSCURO",
@@ -20,7 +20,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "kamas",
-                    "línea": "Americana",
+                    "línea": "americanas",
                     "tamaño": "King"
                 }
             ],
@@ -28,7 +28,7 @@
                 {
                     "marca": "kamas",
                     "sub-categoría": "bases",
-                    "línea": "Americana",
+                    "línea": "americanas",
                     "tamaño": "King",
                     "cajones": "Si",
                     "base-encajonada": "No"
@@ -55,7 +55,7 @@
             "categoria": "complementos",
             "subcategoria": "bases",
             "marca": "kamas",
-            "linea": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/complementos/bases/king/kamas/americanas-con-cajones/5/",
             "nombre": "BASE SOLA AMERICANA KING + 4 CAJONES LATERALES - NEGRO",
@@ -72,7 +72,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "kamas",
-                    "línea": "Americana",
+                    "línea": "americanas",
                     "tamaño": "King"
                 }
             ],
@@ -80,7 +80,7 @@
                 {
                     "marca": "kamas",
                     "sub-categoría": "bases",
-                    "línea": "Americana",
+                    "línea": "americanas",
                     "tamaño": "King",
                     "cajones": "Si",
                     "base-encajonada": "No"

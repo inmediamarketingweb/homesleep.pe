@@ -3,7 +3,7 @@
         {
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/1/",
@@ -37,7 +37,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -53,13 +53,13 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneado"
                 }
@@ -114,7 +114,7 @@
             "id": 2,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/2/",
@@ -144,7 +144,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -160,13 +160,13 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneado 2"
                 }
@@ -221,7 +221,7 @@
             "id": 3,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/3/",
@@ -255,7 +255,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -271,13 +271,13 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneado 2"
                 }
@@ -332,7 +332,7 @@
             "id": 4,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/4/",
@@ -366,7 +366,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -382,13 +382,13 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneado 3"
                 }
@@ -443,7 +443,7 @@
             "id": 5,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/5/",
@@ -469,7 +469,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -485,13 +485,13 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -546,7 +546,7 @@
             "id": 6,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/6/",
@@ -576,7 +576,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -592,13 +592,13 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -653,12 +653,12 @@
             "id": 7,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/7/",
             "nombre": "DORMITORIO KAMAS AMERICANO QUEEN + COLCHÓN EL CISNE RC-608 + CABECERA KAMAS AEREA LINEAL 3 - NEGRO",
-            "fotos": "/assets/imagenes/productos/dormitorios/el-cisne/americanos/king/rc-608/aereas-con-patas/americanas/sin-brazos/lineal-3/1/",
+            "fotos": "/assets/imagenes/productos/dormitorios/el-cisne/americanos/king/rc-608/aereas-con-patas/americanas/sin-brazosineal-3/1/",
             "colores": "si",
             "precioRegular": 2999,
             "precioNormal": 2299,
@@ -687,7 +687,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -703,13 +703,13 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Lineal 3"
                 }
@@ -764,12 +764,12 @@
             "id": 8,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/8/",
             "nombre": "DORMITORIO KAMAS AMERICANO QUEEN + COLCHÓN EL CISNE RC-608 + CABECERA KAMAS AEREA LINEAL 2 - PLATA",
-            "fotos": "/assets/imagenes/productos/dormitorios/el-cisne/americanos/king/rc-608/aereas-con-patas/bloques/sin-brazos/lineal-2/1/",
+            "fotos": "/assets/imagenes/productos/dormitorios/el-cisne/americanos/king/rc-608/aereas-con-patas/bloques/sin-brazosineal-2/1/",
             "colores": "si",
             "precioRegular": 3099,
             "precioNormal": 2399,
@@ -790,7 +790,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -806,7 +806,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -867,7 +867,7 @@
             "id": 9,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/9/",
@@ -897,7 +897,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -913,7 +913,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -974,7 +974,7 @@
             "id": 10,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/10/",
@@ -1004,7 +1004,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -1020,7 +1020,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -1081,7 +1081,7 @@
             "id": 11,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/11/",
@@ -1111,7 +1111,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -1127,7 +1127,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -1188,7 +1188,7 @@
             "id": 12,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/12/",
@@ -1218,7 +1218,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -1234,7 +1234,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -1295,7 +1295,7 @@
             "id": 13,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/13/",
@@ -1325,7 +1325,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -1341,7 +1341,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -1402,7 +1402,7 @@
             "id": 14,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/14/",
@@ -1432,7 +1432,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -1448,7 +1448,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -1509,7 +1509,7 @@
             "id": 15,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/15/",
@@ -1539,7 +1539,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -1555,7 +1555,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -1616,7 +1616,7 @@
             "id": 16,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/16/",
@@ -1646,7 +1646,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -1662,7 +1662,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -1723,7 +1723,7 @@
             "id": 17,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/17/",
@@ -1753,7 +1753,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -1769,7 +1769,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -1830,7 +1830,7 @@
             "id": 18,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/18/",
@@ -1860,7 +1860,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -1870,7 +1870,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -1937,7 +1937,7 @@
             "id": 19,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/19/",
@@ -1967,7 +1967,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -1983,7 +1983,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -2044,7 +2044,7 @@
             "id": 20,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/20/",
@@ -2074,7 +2074,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -2090,7 +2090,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -2151,7 +2151,7 @@
             "id": 21,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/21/",
@@ -2181,7 +2181,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -2197,7 +2197,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -2258,7 +2258,7 @@
             "id": 22,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/22/",
@@ -2288,7 +2288,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -2304,7 +2304,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -2365,7 +2365,7 @@
             "id": 23,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/23/",
@@ -2395,7 +2395,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -2411,7 +2411,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -2472,7 +2472,7 @@
             "id": 24,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/24/",
@@ -2502,7 +2502,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -2518,7 +2518,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -2579,7 +2579,7 @@
             "id": 25,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/25/",
@@ -2609,7 +2609,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -2625,7 +2625,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -2686,7 +2686,7 @@
             "id": 26,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/26/",
@@ -2716,7 +2716,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -2732,7 +2732,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -2793,7 +2793,7 @@
             "id": 27,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/27/",
@@ -2823,7 +2823,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -2839,7 +2839,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -2900,7 +2900,7 @@
             "id": 28,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/28/",
@@ -2930,7 +2930,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -2946,7 +2946,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -3007,7 +3007,7 @@
             "id": 29,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/29/",
@@ -3037,7 +3037,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -3053,7 +3053,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -3114,7 +3114,7 @@
             "id": 30,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/30/",
@@ -3144,7 +3144,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -3160,7 +3160,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -3221,7 +3221,7 @@
             "id": 31,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/31/",
@@ -3251,7 +3251,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -3267,7 +3267,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -3328,7 +3328,7 @@
             "id": 32,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/32/",
@@ -3358,7 +3358,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -3374,7 +3374,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -3435,7 +3435,7 @@
             "id": 33,
             "categoria": "dormitorios",
             "marca": "Kamas - El Cisne",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "queen",
             "modelo": "RC - 608",
             "ruta": "/productos/dormitorios/el-cisne/americanos/queen/rc-608/33/",
@@ -3465,7 +3465,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "modelo-colchón": "RC - 608",
                     "tipo-de-cabecera": "Aérea con patas",
@@ -3481,7 +3481,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
-                    "línea": "Americano",
+                    "línea": "americanos",
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",

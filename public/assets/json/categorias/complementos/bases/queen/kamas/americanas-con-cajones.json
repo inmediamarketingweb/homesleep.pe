@@ -5,7 +5,7 @@
             "categoria": "complementos",
             "subcategoria": "bases",
             "marca": "kamas",
-            "linea": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/complementos/bases/queen/americanas-con-cajones/7/",
             "nombre": "BASE SOLA AMERICANA QUEEN + 2 CAJONES LATERALES - ARENA",
@@ -21,7 +21,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "kamas",
-                    "línea": "Americana",
+                    "línea": "americanas",
                     "tamaño": "Queen"
                 }
             ],
@@ -29,7 +29,7 @@
                 {
                     "marca": "kamas",
                     "sub-categoría": "bases",
-                    "línea": "Americana",
+                    "línea": "americanas",
                     "tamaño": "Queen",
                     "cajones": "Si",
                     "base-encajonada": "No"

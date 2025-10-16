@@ -3,7 +3,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "americanos",
             "tamaño": "queen",
             "ruta": "/productos/camas-funcionales/box-espacios/queen/kamas/americanos/1/",
             "nombre": "BOX ESPACIO AMERICANO QUEEN SIN CABECERA - CHOCOLATE",
@@ -17,14 +17,14 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "americanos",
                     "tamaño": "Queen",
                     "tipo-de-cabecera": "Sin cabecera"
                 }
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "americanos",
                     "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
