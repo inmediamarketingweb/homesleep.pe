@@ -3,12 +3,12 @@
         {
             "categoria": "dormitorios",
             "marca": "Paraiso",
-            "linea": "americanos",
+            "línea": "americanos",
             "tamaño": "king",
             "modelo": "abrazzo",
             "ruta": "/productos/dormitorios/king/paraiso/abrazzo/americanos/1/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ABRAZZO + CABECERA AEREA LINEAL 2 + 1 PUFF - MORO",
-            "fotos": "/assets/imagenes/productos/dormitorios/paraiso/americanos/king/abrazzo/aereas-con-patas/bloques/sin-brazos/lineal-2/1/",
+            "fotos": "/assets/imagenes/productos/dormitorios/paraiso/americanos/king/abrazzo/aereas-con-patas/bloques/sin-brazosineal-2/1/",
             "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
@@ -55,7 +55,7 @@
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Abrazzo",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Lineal 2"
                 }

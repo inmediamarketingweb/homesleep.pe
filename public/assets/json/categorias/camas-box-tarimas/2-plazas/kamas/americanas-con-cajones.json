@@ -18,7 +18,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "kamas",
-                    "línea": "Americana",
+                    "línea": "americanas",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea",
                     "modelo-de-cabecera": "Capitoneada"
@@ -27,12 +27,12 @@
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
-                    "línea": "Americana",
+                    "línea": "americanas",
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }

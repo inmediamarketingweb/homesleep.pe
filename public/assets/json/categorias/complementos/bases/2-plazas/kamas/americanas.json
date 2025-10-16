@@ -5,7 +5,7 @@
             "categoria": "complementos",
             "subcategoria": "bases",
             "marca": "kamas",
-            "linea": "americanas",
+            "línea": "americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/complementos/bases/2-plazas/kamas/americanas/1/",
             "nombre": "BASE SOLA AMERICANA 2 PLAZAS ENCAJONADA - MORO",
@@ -16,13 +16,11 @@
             "precioVenta": 439,
             "stock": 14,
             "sku": "K7221N10",
-            "oferta": "si",
-
             "tipo-de-envio": "Envío aplicado",
             "resumen-del-producto":[
                 {
                     "marca": "kamas",
-                    "línea": "Americana",
+                    "línea": "americanos",
                     "tamaño": "2 plazas"
                 }
             ],
@@ -30,7 +28,7 @@
                 {
                     "marca": "kamas",
                     "sub-categoría": "bases",
-                    "línea": "Americana",
+                    "línea": "americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "Si"

@@ -19,7 +19,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "kamas",
-                    "línea": "Americana",
+                    "línea": "americanas",
                     "tamaño": "L",
                     "tipo-de-cabecera": "Pedestal"
                 }
@@ -32,7 +32,7 @@
                     "cajones": "No",
                     "base-encajonada": "Si",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneado"
                 }
@@ -86,7 +86,7 @@
             "resumen-del-producto":[
                 {
                     "marca": "kamas",
-                    "línea": "Americana",
+                    "línea": "americanas",
                     "tamaño": "L",
                     "tipo-de-cabecera": "Pedestal"
                 }

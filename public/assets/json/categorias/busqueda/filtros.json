@@ -16,18 +16,18 @@
             "tamaño": "King"
         }
     ],
-    "lineas":[
+    "líneas":[
         {
-            "linea": "Americana"
+            "línea": "americanas"
         },
         {
-            "linea": "Americanos con cajones"
+            "línea": "Americanos con cajones"
         },
         {
-            "linea": "Europeos"
+            "línea": "Europeos"
         },
         {
-            "linea": "Europeos con cajones"
+            "línea": "Europeos con cajones"
         }
     ]
 }

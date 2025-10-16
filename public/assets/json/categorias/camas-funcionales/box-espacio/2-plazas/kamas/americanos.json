@@ -3,7 +3,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/1/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - PLOMO AZULADO",
@@ -17,7 +17,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Princesa"
@@ -25,12 +25,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Princesa"
                 }
@@ -68,7 +68,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/2/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - AZUL ELECTRICO",
@@ -82,7 +82,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Princesa"
@@ -90,12 +90,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Princesa"
                 }
@@ -133,7 +133,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/3/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - CAMELL",
@@ -148,7 +148,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Princesa"
@@ -156,12 +156,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Princesa"
                 }
@@ -199,7 +199,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/4/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - BEIGE",
@@ -213,7 +213,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Princesa"
@@ -221,12 +221,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Princesa"
                 }
@@ -264,7 +264,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/5/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - ARENA OSCURO",
@@ -278,7 +278,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Princesa"
@@ -286,12 +286,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Princesa"
                 }
@@ -329,7 +329,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/6/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - COBALTO",
@@ -343,7 +343,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Princesa"
@@ -351,12 +351,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Princesa"
                 }
@@ -394,7 +394,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/7/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - PLOMO RATA",
@@ -408,7 +408,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Princesa"
@@ -416,12 +416,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Princesa"
                 }
@@ -459,7 +459,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/8/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - ROSADO",
@@ -473,7 +473,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Princesa"
@@ -481,12 +481,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Princesa"
                 }
@@ -524,7 +524,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/9/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - NEGRO",
@@ -538,7 +538,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Princesa"
@@ -546,12 +546,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Princesa"
                 }
@@ -589,7 +589,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/10/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - GRIS PLATA",
@@ -603,7 +603,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Princesa"
@@ -611,12 +611,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Princesa"
                 }
@@ -654,7 +654,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/11/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - ROJO",
@@ -668,7 +668,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Princesa"
@@ -676,12 +676,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Princesa"
                 }
@@ -719,7 +719,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/12/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - TURQUESA",
@@ -733,7 +733,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Princesa"
@@ -741,12 +741,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Princesa"
                 }
@@ -784,7 +784,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/13/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA AÉREA PRINCESA - VINO",
@@ -798,7 +798,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Aérea con patas",
                     "modelo-de-cabecera": "Princesa"
@@ -806,12 +806,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Princesa"
                 }
@@ -850,7 +850,7 @@
             "id": 14,
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/34/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA PEDESTAL CAPITONEADO - HUESO",
@@ -864,7 +864,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Capitoneada"
@@ -872,12 +872,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -916,7 +916,7 @@
             "id": 15,
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/35/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA PEDESTAL CAPITONEADO - COBALTO",
@@ -930,7 +930,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Capitoneada"
@@ -938,12 +938,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -982,7 +982,7 @@
             "id": 16,
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/36/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA PEDESTAL CAPITONEADO - CAMELL",
@@ -996,7 +996,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Capitoneada"
@@ -1004,12 +1004,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -1047,7 +1047,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/14/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA PEDESTAL CAPITONEADO - NEGRO",
@@ -1061,7 +1061,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Capitoneada"
@@ -1069,12 +1069,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -1112,7 +1112,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/15/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA PEDESTAL CAPITONEADO - CHOCOLATE",
@@ -1126,7 +1126,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Capitoneada"
@@ -1134,12 +1134,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -1177,7 +1177,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/17/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA PEDESTAL CAPITONEADO - PLOMO RATA",
@@ -1191,7 +1191,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Capitoneada"
@@ -1199,12 +1199,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -1242,7 +1242,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/18/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA PEDESTAL CAPITONEADO - ROSADO BEBÉ",
@@ -1256,7 +1256,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Capitoneada"
@@ -1264,12 +1264,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -1307,7 +1307,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/19/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA PEDESTAL CAPITONEADO - ROJO",
@@ -1321,7 +1321,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Capitoneada"
@@ -1329,12 +1329,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -1372,7 +1372,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/20/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA PEDESTAL CAPITONEADO - TURQUESA",
@@ -1386,7 +1386,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Capitoneada"
@@ -1394,12 +1394,12 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -1437,7 +1437,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/21/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS + CABECERA PEDESTAL CORONA - MORO",
@@ -1451,7 +1451,7 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Pedestal",
                     "modelo-de-cabecera": "Corona"
@@ -1459,7 +1459,7 @@
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -1502,7 +1502,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/22/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS SIN CABECERA - CHOCOLATE",
@@ -1516,14 +1516,14 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Sin cabecera"
                 }
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -1549,7 +1549,7 @@
         {
             "categoria": "camas funcionales",
             "subcategoria": "box espacios",
-            "linea": "americano",
+            "línea": "Americanos",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-funcionales/box-espacio/2-plazas/kamas/americanos/23/",
             "nombre": "BOX ESPACIO AMERICANO 2 PLAZAS SIN CABECERA - PLOMO OSCURO",
@@ -1563,14 +1563,14 @@
             "tipo-de-envio": "Envío preferente",
             "resumen-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "tipo-de-cabecera": "Sin cabecera"
                 }
             ],
             "detalles-del-producto":[
                 {
-                    "línea": "Americana",
+                    "línea": "Americanos",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "No",

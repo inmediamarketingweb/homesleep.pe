@@ -2,7 +2,7 @@
     "productos":[
         {
             "categoria": "dormitorios",
-            "linea": "americanos con cajones",
+            "línea": "americanos con cajones",
             "marca": "kamas",
             "tamaño": "king",
             "modelo": "ramat",
@@ -41,7 +41,7 @@
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Ramat",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -99,7 +99,7 @@
         },
         {
             "categoria": "dormitorios",
-            "linea": "americanos con cajones",
+            "línea": "americanos con cajones",
             "marca": "kamas",
             "tamaño": "king",
             "modelo": "ramat",
@@ -138,7 +138,7 @@
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Ramat",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -196,7 +196,7 @@
         },
         {
             "categoria": "dormitorios",
-            "linea": "americanos con cajones",
+            "línea": "americanos con cajones",
             "marca": "kamas",
             "tamaño": "king",
             "modelo": "ramat",
@@ -235,7 +235,7 @@
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Ramat",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -293,7 +293,7 @@
         },
         {
             "categoria": "dormitorios",
-            "linea": "americanos con cajones",
+            "línea": "americanos con cajones",
             "marca": "kamas",
             "tamaño": "king",
             "modelo": "ramat",
@@ -332,7 +332,7 @@
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Ramat",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -390,7 +390,7 @@
         },
         {
             "categoria": "dormitorios",
-            "linea": "americanos con cajones",
+            "línea": "americanos con cajones",
             "marca": "kamas",
             "tamaño": "king",
             "modelo": "ramat",
@@ -429,7 +429,7 @@
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Ramat",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
                 }
