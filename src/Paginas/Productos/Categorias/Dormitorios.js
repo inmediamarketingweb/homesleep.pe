@@ -138,7 +138,6 @@ function Dormitorios() {
                         const data = await response.json();
                         return data.productos || [];
                     } catch (error) {
-                        console.error(`Error cargando ${url}:`, error);
                         return [];
                     }
                 });
@@ -148,7 +147,6 @@ function Dormitorios() {
 
                 setProductos(todosProductos);
             } catch (error) {
-                console.error("Error cargando productos:", error);
             } finally {
                 setLoading(false);
             }
@@ -166,7 +164,6 @@ function Dormitorios() {
                 const data = await response.json();
                 setFiltros(data.filtros || []);
             } catch (error) {
-                console.error("Error cargando filtros:", error);
             }
         };
 
@@ -226,7 +223,14 @@ function Dormitorios() {
                 
                 const cumpleFiltro = detalles.some(detalle => {
                     const valorProducto = detalle[claveJson];
-                    if (!valorProducto) return false;
+                    if (!valorProducto) {
+                        if (paramUrl === "modelo" && producto.modelo) {
+                            const valorSuperior = producto.modelo;
+                            const normalizadoSuperior = normalizarTexto(valorSuperior.toString());
+                            return normalizadoSuperior === normalizadoFiltro;
+                        }
+                        return false;
+                    }
 
                     const normalizadoProducto = normalizarTexto(valorProducto.toString());
 
@@ -237,7 +241,9 @@ function Dormitorios() {
                     return normalizadoProducto === normalizadoFiltro;
                 });
 
-                if (!cumpleFiltro) return false;
+                if (!cumpleFiltro) {
+                    return false;
+                }
             }
             return true;
         });
@@ -406,7 +412,7 @@ function Dormitorios() {
 
                                                     {queryParams.toString() && (
                                                         <button type="button" className="margin-right button-link button-link-2" onClick={limpiarFiltros}>
-                                                            <span class="material-icons">delete</span>
+                                                            <span className="material-icons">delete</span>
                                                             <p className='button-link-text'>Limpiar filtros</p>
                                                         </button>
                                                     )}

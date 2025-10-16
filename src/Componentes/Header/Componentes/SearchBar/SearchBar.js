@@ -20,15 +20,15 @@ function SearchBar({ isSearchActive, toggleSearch, setIsSearchActive }) {
                 if (!manifestResponse.ok) {
                     throw new Error(`HTTP error! status: ${manifestResponse.status}`);
                 }
-                
+
                 const contentType = manifestResponse.headers.get('content-type');
                 if (!contentType || !contentType.includes('application/json')) {
                     throw new Error('Response is not JSON');
                 }
-                
+
                 const manifestData = await manifestResponse.json();
                 const archivos = manifestData.files || [];
-                
+
                 const productosArrays = await Promise.all(
                     archivos.map(async (archivo) => {
                         try {
@@ -71,7 +71,6 @@ function SearchBar({ isSearchActive, toggleSearch, setIsSearchActive }) {
         }
 
         const normalizeStr = (str = '') => str.toString().normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9\s]/g, '');
-        
         const normalizedSearch = normalizeStr(searchTerm);
         const searchTokens = normalizedSearch.split(/\s+/).filter(Boolean);
         
@@ -106,16 +105,12 @@ function SearchBar({ isSearchActive, toggleSearch, setIsSearchActive }) {
         if (e.key === 'Enter' && searchTerm.trim()) {
             e.preventDefault();
             
-            // Comportamiento al presionar Enter:
             if (filteredProductos.length === 1) {
-                // Si hay un solo producto, redirigir directamente
                 window.location.href = filteredProductos[0].ruta;
             } else if (filteredProductos.length > 1) {
-                // Si hay múltiples productos, ir a la página de búsqueda
                 window.location.href = `/busqueda?query=${encodeURIComponent(searchTerm)}`;
             } else {
-                // Si no hay productos, mantener en la búsqueda
-                // (puedes agregar un mensaje de "no hay resultados" si lo deseas)
+                <p className='text color-color-1'>No encontramos coincidencias</p>
             }
         } else if (e.key === 'Escape') {
             setSearchTerm('');
@@ -126,30 +121,14 @@ function SearchBar({ isSearchActive, toggleSearch, setIsSearchActive }) {
     return(
         <>
             <div className='barra-de-busqueda'>
-                <button 
-                    type='button' 
-                    className='search-bar-button' 
-                    onClick={toggleSearch}
-                >
+                <button type='button' className='search-bar-button' onClick={toggleSearch}>
                     <span className="material-icons">search</span>
                 </button>
 
                 <div className={`search-bar-container ${isSearchActive ? 'active' : ''}`}>
                     <div className='search-bar'>
-                        <input 
-                            ref={inputRef} 
-                            type='text' 
-                            placeholder='Buscar en homesleep.pe' 
-                            value={searchTerm} 
-                            onChange={(e) => setSearchTerm(e.target.value)} 
-                            onKeyDown={handleKeyDown}
-                        />
-                        <span 
-                            className='material-icons close-icon' 
-                            onClick={() => setIsSearchActive(false)}
-                        >
-                            close
-                        </span>
+                        <input ref={inputRef} type='text' placeholder='Buscar en homesleep.pe' value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} onKeyDown={handleKeyDown}/>
+                        <span className='material-icons close-icon' onClick={() => setIsSearchActive(false)}>close</span>
                     </div>
 
                     <div className={`search-bar-items-container ${searchTerm.trim() ? 'active' : ''}`}>
@@ -165,12 +144,8 @@ function SearchBar({ isSearchActive, toggleSearch, setIsSearchActive }) {
                                                     <p className='text'>{producto.nombre}</p>
                                                     <p className="sku">SKU: {producto.sku}</p>
                                                 </div>
-                                                <LazyImage 
-                                                    width={isSmallScreen ? 80 : 60} 
-                                                    height={isSmallScreen ? 80 : 60} 
-                                                    src={`${producto.fotos}/1`} 
-                                                    alt={producto.nombre}
-                                                />
+
+                                                <LazyImage width={isSmallScreen ? 80 : 60} height={isSmallScreen ? 80 : 60} src={`${producto.fotos}/1`} alt={producto.nombre}/>
                                             </a>
                                         </li>
                                     ))
