@@ -29,7 +29,7 @@
             ]
         },
         {
-            "marca":["El cisne", "Kamas - El cisne", "Kamas", "Paraiso", "Kamas - Paraiso", "Komfort", "Komfort - Kamas"]
+            "marca":["El cisne", "Kamas - El cisne", "Kamas", "Paraiso", "Kamas - Paraiso", "Komfort", "Kamas - Komfort"]
         },
         {
             "línea":["clásicos", "americanos", "americanos con cajones", "europeos", "europeo con cajones"]
@@ -52,7 +52,7 @@
                     "kamas":["Adel", "Rucay", "Sarki", "Safynnte", "Der prinz", "Thameo pocket", "Ramat", "Nesie", "Norole", "Thaleo pocket", "Konig", "Yurmale"]
                 },
                 {
-                    "paraiso":["Majestic", "Cancun", "Consul plus", "Eden plus", "Tropical ergo", "Medallon ergosoft", "Su majestad de lujo", "Pocket italiano", "Super star", "Super star negro", "Pocket star", "Royal prince", "Royal elizabeth", "Royal dynasty", "Royal cloud", "Abrazzo"]
+                    "paraiso":["Consul black", "Majestic", "Cancun", "Consul plus", "Eden plus", "Tropical ergo", "Medallon ergosoft", "Su majestad de lujo", "Pocket italiano", "Super star", "Super star negro", "Pocket star", "Royal prince", "Royal elizabeth", "Royal dynasty", "Royal cloud", "Abrazzo"]
                 },
                 {
                     "komfort":["Saphir"]
@@ -63,7 +63,7 @@
             "tipo-de-cabecera":["aérea", "aérea con patas", "pedestal"]
         },
         {
-            "diseño-de-cabecera":["infantil", "clásico", "americano", "con marco", "corona", "bloques"]
+            "diseño-de-cabecera":["infantil", "clásica", "americana", "con marco", "corona", "bloques"]
         },
         {
             "brazos-de-cabecera":["sin brazos", "brazos rectos", "brazos curvos", "brazos p", "brazos seahorse"]

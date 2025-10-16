@@ -10,16 +10,16 @@
         <loc>https://www.homesleep.pe/productos/</loc>
     </url>
     <url>
-        <loc>https://www.homesleep.pe/colchones/</loc>
-    </url>
-    <url>
-        <loc>https://www.homesleep.pe/colchones/paraiso/</loc>
-    </url>
-    <url>
-        <loc>https://www.homesleep.pe/colchones/kamas/</loc>
-    </url>
-    <url>
         <loc>https://www.homesleep.pe/productos/dormitorios/</loc>
+    </url>
+    <url>
+        <loc>https://www.homesleep.pe/productos/dormitorios/el-cisne/</loc>
+    </url>
+    <url>
+        <loc>https://www.homesleep.pe/productos/colchones/</loc>
+    </url>
+    <url>
+        <loc>https://www.homesleep.pe/productos/colchones/el-cisne/</loc>
     </url>
     <url>
         <loc>https://www.homesleep.pe/contacto/</loc>
