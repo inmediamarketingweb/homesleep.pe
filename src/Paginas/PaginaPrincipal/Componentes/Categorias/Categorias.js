@@ -172,7 +172,7 @@ function Categorias(){
                             </div>
 
                             <div className='homepage-categories-target-categorie-list d-flex-column gap-5'>
-                                <p className='title text'>Marcas disponibles:</p>
+                                {/* <p className='title text'>Marcas disponibles:</p> */}
 
                                 <ul className='d-flex gap-5'>
                                     {categoria['marcas'].lista.map((marca, index) => (
