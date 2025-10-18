@@ -19,7 +19,7 @@
 
     --body: #FFFFFF;
 
-    --component: #e6e6e6;
+    --component: #F5F5F5;
 
     --white: #FFFFFF;
     --gray: #434343;
@@ -47,6 +47,7 @@
 
 body{
     background: var(--body);
+    color: var(--text);
 }
 
 body::-webkit-scrollbar{
@@ -55,6 +56,11 @@ body::-webkit-scrollbar{
 
 body::-webkit-scrollbar-thumb{
     background: var(--color-1);
+}
+
+body::selection{
+    background: var(--color-1);
+    color: var(--white);
 }
 
 main{
@@ -171,6 +177,10 @@ button{
     color: var(--color-1) !important;
 }
 
+.color-gray-4{
+    color: #444444;
+}
+
 .bg-component{
     background: var(--component);
 }
@@ -185,8 +195,12 @@ button{
 }
 
 .title{
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 .sub-title{
@@ -317,7 +331,7 @@ button{
 }
 
 .padding-10{
-    padding: 10px;
+    padding: 10px !important;
 }
 
 .padding-bottom-20{
@@ -468,6 +482,14 @@ button{
     color: crimson;
 }
 
+.button-1{
+    width: auto;
+    padding: 5px 10px;
+    border: 1px solid rgba(0 0 0 / 0.1);
+    background: rgba(0 0 0 / 0.05);
+    border-radius: 4px;
+}
+
 .product-card{
     width: 100%;
     max-width: 280px !important;
@@ -551,6 +573,14 @@ button{
     font-style: italic;
 }
 
+.visible-on-desktop-no-mobile{
+    display: unset;
+}
+
+.visible-on-mobile-no-desktop{
+    display: none;
+}
+
 @media screen and (max-width: 800px){
     .d-grid-5-3-2fr{
         grid-template-columns: repeat(3, 1fr);
@@ -560,6 +590,19 @@ button{
 @media screen and (max-width: 600px){
     *{
         cursor: none !important;
+        font-size: 19px;
+    }
+
+    .visible-on-desktop-no-mobile{
+        display: none;
+    }
+
+    .visible-on-mobile-no-desktop{
+        display: unset;
+    }
+
+    .block-container{
+        padding: 0 10px;
     }
 
     .block-title{

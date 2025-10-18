@@ -62,7 +62,7 @@ function Center(){
             <section className='header-center'>
                 <div className='d-flex-center-center gap-20'>
                     <a href='/' title='Homesleep | Las mejores marcar al mejor precio' className='header-logo'>
-                        <img src="/assets/imagenes/SEO/logo-principal.jpg" width={125} height={50} alt="Homesleep"/>
+                        <img src="/assets/imagenes/SEO/logo-principal.webp" width={125} height={50} alt="Homesleep"/>
                     </a>
 
                     <nav className={`menu-container ${isMenuOpen ? 'active' : ''}`}>

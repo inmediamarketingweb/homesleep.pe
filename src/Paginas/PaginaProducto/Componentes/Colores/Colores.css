@@ -1,4 +1,4 @@
-.product-page-colors-button{
+/* .product-page-colors-button{
     position: absolute;
     right: 20px;
     bottom: 120px;
@@ -314,4 +314,12 @@
     .product-page-colors-results{
         grid-template-columns: repeat(2, 1fr);
     }
+} */
+
+.product-page-color-select{
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
