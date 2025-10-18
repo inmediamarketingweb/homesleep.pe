@@ -7,7 +7,8 @@
     gap: 10px;
     padding: 0 20px;
     border-radius: 4px;
-    background: #555555;
+    /* background: #555555; */
+    background: var(--whatsapp);
     position: relative;
     pointer-events: none;
     user-select: none;
@@ -55,8 +56,6 @@
     z-index: 2;
 }
 
-/**/
-
 .whatsapp-message{
     padding: 10px;
     background: rgb(220, 20, 60, 0.05);
@@ -85,15 +84,11 @@
     color: crimson;
 }
 
-/**/
-
 @media screen and (max-width: 800px) {
     .whatsapp-message::before{
         right: 76px;
     }
 }
-
-/**/
 
 @media screen and (max-width: 600px) {
     .whatsapp-message::before{
