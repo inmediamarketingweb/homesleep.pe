@@ -1,9 +1,6 @@
 .benefist-container{
     width: 100%;
     padding: 20px 0;
-    /* padding-right: 10px; */
-    /* background: rgba(0 0 0 / 0.05); */
-    /* border-radius: 4px; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,4 +17,11 @@
 .benefist-container li span{
     color: var(--color-1);
     font-size: 32px;
+}
+
+@media screen and (max-width: 600px){
+    .benefist-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

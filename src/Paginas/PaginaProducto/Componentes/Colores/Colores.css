@@ -323,3 +323,24 @@
     justify-content: center;
     gap: 10px;
 }
+
+.product-page-color-select div img{
+    display: flex;
+    width: 16px;
+    height: auto;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+
+.product-page-color-select div p{
+    text-transform: lowercase;
+    display: inline-block;
+}
+
+.product-page-color-select div p::first-letter{
+    text-transform: uppercase;
+}
+
+.product-page-color-select span{
+    font-size: 18px;
+}

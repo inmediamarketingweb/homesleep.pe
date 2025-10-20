@@ -175,16 +175,16 @@
     padding: 10px;
     overflow: hidden;
     cursor: pointer;
+    position: relative;
+    transition: var(--t-200ms-linear);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
 }
 
-/* .product-page-location-button > div{
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-} */
-
 .product-page-location-button span{
-    font-size: 26px;
+    font-size: 32px;
     color: var(--color-1);
 }
 

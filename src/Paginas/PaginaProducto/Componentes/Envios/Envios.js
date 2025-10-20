@@ -273,7 +273,9 @@ import './Envios.css';
 function Envios(){
     return(
         <div className='product-page-locations d-flex-column gap-10'>
-            <button className='product-page-location-button d-grid-auto-1fr gap-5 button-1 padding-10'>
+            <p className='title color-color-1 uppercase'>Envío</p>
+
+            <button className='product-page-location-button button-1 padding-10'>
                 <span class="material-symbols-outlined">delivery_truck_bolt</span>
                 <div className='d-flex-column w-100'>
                     <p className='title color-color-1'>Lima</p>
@@ -281,7 +283,7 @@ function Envios(){
                 </div>
             </button>
 
-            <button className='product-page-location-button d-grid-auto-1fr gap-5 button-1 padding-10'>
+            <button className='product-page-location-button button-1 padding-10'>
                 <span class="material-symbols-outlined">near_me</span>
                 <div className='d-flex-column'>
                     <p className='title color-color-1'>Provincia</p>
