@@ -486,8 +486,23 @@ button{
     width: auto;
     padding: 5px 10px;
     border: 1px solid rgba(0 0 0 / 0.1);
+    transition: var(--t-200ms-linear);
     background: rgba(0 0 0 / 0.05);
     border-radius: 4px;
+}
+
+.button-1 p,
+.button-1 span{
+    transition: var(--t-200ms-linear) !important;
+}
+
+.button-1:hover{
+    background: var(--color-1);
+}
+
+.button-1:hover p,
+.button-1:hover span{
+    color: var(--white) !important;
 }
 
 .product-card{

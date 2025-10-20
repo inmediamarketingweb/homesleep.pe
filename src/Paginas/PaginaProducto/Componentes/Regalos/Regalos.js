@@ -27,20 +27,14 @@ function Regalos({ producto }) {
     return (
         <div className="product-page-gifts">
             <div className="d-flex gap-5">
-                {/* <span className="material-symbols-outlined">featured_seasonal_and_gifts</span> */}
                 <h2 className="title uppercase color-color-1">Regalos</h2>
             </div>
 
             <ul className="d-flex-column gap-5">
                 {listaDeRegalos.map(item => (
                     <li key={uuidv4()} className="d-flex gap-5">
-                        <button type="button">
-                            <p className="text">{item.texto}</p>
-                        </button>
-
-                        <div>
-                            <img loading="lazy" src={item.foto} alt={item.texto} />
-                        </div>
+                        <img loading="lazy" src={item.foto} alt={item.texto}/>
+                        <p className="text">{item.texto}</p>
                     </li>
                 ))}
             </ul>

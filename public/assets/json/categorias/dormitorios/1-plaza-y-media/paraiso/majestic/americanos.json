@@ -5,35 +5,27 @@
             "categoria": "dormitorios",
             "tamaño": "1 plaza y media",
             "marca": "Kamas / Paraiso",
-            "modelo": "consul black",
+            "modelo": "majestic",
             "línea": "Americanos",
-            "ruta": "/productos/dormitorios/1-plaza-y-media/paraiso/consul-black/americanos/1/",
-            "nombre": "DORMITORIO 1 PLAZA Y MEDIA KAMAS / PARAISO + COLCHÓN PARAISO CONSUL BLACK + CABECERA PEDESTAL LUNAR - NEGRO",
-            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/consul-black/americanos/pedestales/coronas/lunar/1/",
-            "precioRegular": 1899,
-            "precioNormal": 1399,
-            "precioVenta": 749,
+            "ruta": "/productos/dormitorios/1-plaza-y-media/paraiso/majestic/americanos/1/",
+            "nombre": "DORMITORIO 2 PLAZAS KAMAS / PARAISO + COLCHÓN PARAISO MAJESTIC + CABECERA AÉREA CLÁSICA 2 - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/majestic/americanos/aereas-con-patas/clasicas/clasica-2/1/",
+            "precioRegular": 1849,
+            "precioNormal": 1349,
+            "precioVenta": 699,
             "stock": 9,
-            "sku": "H32215255N10",
+            "sku": "H322152252N10",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
                     "foto": "/assets/imagenes/productos/almohadas.webp"
                 }
             ],
             "tamaños-disponibles":[
                 {
                     "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/paraiso/consul-black/americanos/1/"
+                    "ruta": "/productos/dormitorios/2-plazas/paraiso/majestic/americanos/1/"
                 }
             ],
             "detalles-del-producto":[
@@ -43,11 +35,11 @@
                     "tamaño": "1 plaza y media",
                     "cajones": "No",
                     "base-encajonada": "No",
-                    "modelo-de-colchón": "Consul black",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Lineal 1"
+                    "modelo-de-colchón": "majestic",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Clásica",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Clásica 1"
                 }
             ]
         },
@@ -56,35 +48,27 @@
             "categoria": "dormitorios",
             "tamaño": "1 plaza y media",
             "marca": "Kamas / Paraiso",
-            "modelo": "consul black",
+            "modelo": "majestic",
             "línea": "Americanos",
-            "ruta": "/productos/dormitorios/1-plaza-y-media/paraiso/consul-black/americanos/2/",
-            "nombre": "DORMITORIO 1 PLAZA Y MEDIA KAMAS / PARAISO + COLCHÓN PARAISO CONSUL BLACK + CABECERA PEDESTAL LUNAR - GRIS",
-            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/consul-black/americanos/pedestales/coronas/lunar/2/",
-            "precioRegular": 1899,
-            "precioNormal": 1399,
-            "precioVenta": 749,
+            "ruta": "/productos/dormitorios/1-plaza-y-media/paraiso/majestic/americanos/2/",
+            "nombre": "DORMITORIO 1 PLAZA Y MEDIA KAMAS / PARAISO + COLCHÓN PARAISO MAJESTIC + CABECERA AÉREA - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/majestic/americanos/aereas-con-patas/americanas/otros-modelos/1/",
+            "precioRegular": 1849,
+            "precioNormal": 1349,
+            "precioVenta": 699,
             "stock": 9,
-            "sku": "H32215255N11",
+            "sku": "H322152257N10",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
                     "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
                     "foto": "/assets/imagenes/productos/almohadas.webp"
                 }
             ],
             "tamaños-disponibles":[
                 {
                     "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/paraiso/consul-black/americanos/2/"
+                    "ruta": "/productos/dormitorios/2-plazas/paraiso/majestic/americanos/2/"
                 }
             ],
             "detalles-del-producto":[
@@ -94,11 +78,11 @@
                     "tamaño": "1 plaza y media",
                     "cajones": "No",
                     "base-encajonada": "No",
-                    "modelo-de-colchón": "Consul black",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Lineal 1"
+                    "modelo-de-colchón": "majestic",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Otros modelos",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
                 }
             ]
         }
@@ -122,11 +106,11 @@
             "descripcion":[
                 {
                     "resortes": "bonell",
-                    "tela-superior": "poliseda",
-                    "espuma": "doble capa zebra D16",
+                    "tela-superior": "poliseda suave",
+                    "espuma": "zebra D16",
                     "tipo-de-uso": "ambos lados",
-                    "tipo-de-resorte": "Pocket",
                     "marco": "de espuma",
+                    "nivel-de-confort": "intermedio",
                     "sensación": "intermedia",
                     "garantía": "2 años"
                 }
