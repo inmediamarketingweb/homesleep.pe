@@ -2600,6 +2600,946 @@
                     "modelo-de-cabecera": "Capitoneado 1"
                 }
             ]
+        },
+        {
+            "id": 56,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/56/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CORONA LINEAL 1 - ARENA OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/aereas-con-patas/coronas/lineal-1/1/",
+            "precioRegular": 3099,
+            "precioNormal": 2599,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "H3124235N11",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/56/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 1"
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/57/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CORONA LINEAL 1 - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/aereas-con-patas/coronas/lineal-1/2/",
+            "precioRegular": 3099,
+            "precioNormal": 2599,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "H3124235N12",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/57/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 1"
+                }
+            ]
+        },
+        {
+            "id": 58,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/58/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CAPITONEADO 1 - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/americanas/capitoneado-1/1/",
+            "precioRegular": 3179,
+            "precioNormal": 2679,
+            "precioVenta": 1779,
+            "stock": 9,
+            "sku": "H3124233N52",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/58/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/59/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CAPITONEADO 1 - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/americanas/capitoneado-1/2/",
+            "precioRegular": 3179,
+            "precioNormal": 2679,
+            "precioVenta": 1779,
+            "stock": 9,
+            "sku": "H3124233N53",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/59/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 60,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/60/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CAPITONEADO 1 - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/americanas/capitoneado-1/3/",
+            "precioRegular": 3179,
+            "precioNormal": 2679,
+            "precioVenta": 1779,
+            "stock": 9,
+            "sku": "H3124233N54",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/60/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 61,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/61/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CAPITONEADO 1 - PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/americanas/capitoneado-1/4/",
+            "precioRegular": 3179,
+            "precioNormal": 2679,
+            "precioVenta": 1779,
+            "stock": 9,
+            "sku": "H3124233N55",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/61/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/62/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CAPITONEADO 1 - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/americanas/capitoneado-1/5/",
+            "precioRegular": 3179,
+            "precioNormal": 2679,
+            "precioVenta": 1779,
+            "stock": 9,
+            "sku": "H3124233N56",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/62/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 63,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/63/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL BRAZOS SEAHORSE - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/americanas/capitoneado-1/6/",
+            "precioRegular": 3599,
+            "precioNormal": 3099,
+            "precioVenta": 1999,
+            "stock": 9,
+            "sku": "H3124233N57",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/63/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos seahorse",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/64/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL BRAZOS SEAHORSE - ARENA OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/americanas/capitoneado-1/7/",
+            "precioRegular": 3599,
+            "precioNormal": 3099,
+            "precioVenta": 1999,
+            "stock": 9,
+            "sku": "H3124233N58",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/64/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos seahorse",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 65,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/65/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL BRAZOS SEAHORSE - VERDE LORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/americanas/capitoneado-1/8/",
+            "precioRegular": 3599,
+            "precioNormal": 3099,
+            "precioVenta": 1999,
+            "stock": 9,
+            "sku": "H3124233N59",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/65/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos seahorse",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 66,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/66/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - BEIGE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/coronas/lunar/1/",
+            "precioRegular": 3119,
+            "precioNormal": 2619,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H3124235N13",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/66/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/67/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - VERDE LORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/coronas/lunar/2/",
+            "precioRegular": 3119,
+            "precioNormal": 2619,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H3124235N14",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/67/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ]
+        },
+        {
+            "id": 68,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/68/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/coronas/lunar/3/",
+            "precioRegular": 3119,
+            "precioNormal": 2619,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H3124235N15",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/68/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/69/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/coronas/lunar/4/",
+            "precioRegular": 3119,
+            "precioNormal": 2619,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H3124235N16",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/69/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ]
+        },
+        {
+            "id": 70,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/70/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL LUNAR - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/coronas/lunar/5/",
+            "precioRegular": 3119,
+            "precioNormal": 2619,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H3124235N17",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/70/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/71/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA - CUERO NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/coronas/otros-modelos/1/",
+            "precioRegular": 2999,
+            "precioNormal": 2499,
+            "precioVenta": 1599,
+            "stock": 9,
+            "sku": "H3124235N18",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/71/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/72/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL PRINCESA - PLATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/coronas/princesa/1/",
+            "precioRegular": 3299,
+            "precioNormal": 2799,
+            "precioVenta": 1899,
+            "stock": 9,
+            "sku": "H3124235N19",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/72/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Princesa"
+                }
+            ]
+        },
+        {
+            "id": 73,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/73/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL PRINCESA - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/coronas/princesa/2/",
+            "precioRegular": 3299,
+            "precioNormal": 2799,
+            "precioVenta": 1899,
+            "stock": 9,
+            "sku": "H3124235N20",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/73/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Princesa"
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/74/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL PRINCESA - COBALTO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/coronas/princesa/3/",
+            "precioRegular": 3299,
+            "precioNormal": 2799,
+            "precioVenta": 1899,
+            "stock": 9,
+            "sku": "H3124235N21",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/74/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Princesa"
+                }
+            ]
+        },
+        {
+            "id": 75,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/75/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL VESSO - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/coronas/vesso/1/",
+            "precioRegular": 3499,
+            "precioNormal": 2999,
+            "precioVenta": 2099,
+            "stock": 9,
+            "sku": "H3124235N22",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/75/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ]
         }
     ],
     "descripciones":[
