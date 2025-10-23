@@ -160,6 +160,10 @@
         width: 80%;
     }
 
+    .zoom-lens{
+        background-size: 200%;
+    }
+
     .product-page-images-miniatures{
         display: flex;
         flex-direction: row;

@@ -431,8 +431,10 @@ function PaginaProducto(){
                                             </div>
 
                                             <div className='d-flex-column gap-20'>
-                                                <Regalos producto={producto}/>
-                                                <Medidas producto={producto}/>
+                                                <div className='d-grid-1-2fr gap-20-to-10'>
+                                                    <Regalos producto={producto}/>
+                                                    <Medidas producto={producto}/>
+                                                </div>
                                                 <Envios/>
                                             </div>
 
