@@ -55,24 +55,6 @@ export function Producto({ producto = { id: null } }){
                 </div>
 
                 <a href={producto.ruta} className="product-card-content">
-                    {producto.stock === 0 ? (
-                        <div className="product-card-agotado product-card-target">
-                            <span>Sin stock 😥</span>
-                        </div>
-                    ) : (
-                        <>
-                            {producto.novedades !== "si" && producto["solo-por-horas"] !== "si" && producto.oferta !== "si" && (
-                                <div className={`product-card-tipo-de-envio ${tipoEnvioClase}`}>
-                                    <span>
-                                        {producto["tipo-de-envio"] === "Gratis"
-                                            ? "¡ Envío gratis 🚚 !"
-                                            : producto["tipo-de-envio"] || "No especificado"}
-                                    </span>
-                                </div>
-                            )}
-                        </>
-                    )}
-
                     <span className="product-card-brand">{producto.marca}</span>
                     <h4 className="product-card-name">{producto.nombre}</h4>
                     <div className="product-card-prices d-flex-center-between">

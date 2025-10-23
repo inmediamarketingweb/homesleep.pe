@@ -6,9 +6,9 @@
             "tamaño": "king",
             "marca": "kamas",
             "modelo": "der prinz",
-            "línea": "americanas",
+            "línea": "americanos",
             "ruta": "/productos/dormitorios/king/kamas/der-prinz/americanos/1/",
-            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA CAPITONEADA - NEGRO",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA CAPITONEADA 1 - NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/aereas-con-patas/americanas/capitoneado-1/1/",
             "precioRegular": 3149,
             "precioNormal": 2649,
@@ -39,7 +39,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "americanas",
+                    "línea": "americanos",
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -47,7 +47,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneado"
+                    "modelo-de-cabecera": "Capitoneado 1"
                 }
             ]
         },
@@ -57,9 +57,9 @@
             "tamaño": "king",
             "marca": "kamas",
             "modelo": "der prinz",
-            "línea": "americanas",
+            "línea": "americanos",
             "ruta": "/productos/dormitorios/king/kamas/der-prinz/americanos/2/",
-            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA CAPITONEADA - GRIS PLATA",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA CAPITONEADA 1 - PLATA",
             "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/aereas-con-patas/americanas/capitoneado-1/2/",
             "precioRegular": 3149,
             "precioNormal": 2649,
@@ -90,7 +90,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "americanas",
+                    "línea": "americanos",
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -98,7 +98,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneado"
+                    "modelo-de-cabecera": "Capitoneado 1"
                 }
             ]
         },
@@ -108,10 +108,10 @@
             "tamaño": "king",
             "marca": "kamas",
             "modelo": "der prinz",
-            "línea": "americanas",
+            "línea": "americanos",
             "ruta": "/productos/dormitorios/king/kamas/der-prinz/americanos/3/",
-            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA RECTANGULAR 2 - ANTIFLUIDO PLATA",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/aereas-con-patas/americanas/rectangular-2/1/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA CAPITONEADA 1 - COBALTO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/aereas-con-patas/americanas/capitoneado-1/3/",
             "precioRegular": 3149,
             "precioNormal": 2649,
             "precioVenta": 1749,
@@ -141,7 +141,7 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "americanas",
+                    "línea": "americanos",
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
@@ -149,7 +149,7 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Rectangular 2"
+                    "modelo-de-cabecera": "Capitoneado 1"
                 }
             ]
         },
@@ -159,15 +159,15 @@
             "tamaño": "king",
             "marca": "kamas",
             "modelo": "der prinz",
-            "línea": "americanas",
+            "línea": "americanos",
             "ruta": "/productos/dormitorios/king/kamas/der-prinz/americanos/4/",
-            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA SYDNEY - TEJIDO CHOCOLATE",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/aereas-con-patas/bloques/sydney/1/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA RECTANGULAR 2 - ANTIFLUIDO PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/aereas-con-patas/americanas/rectangular-2/1/",
             "precioRegular": 3149,
             "precioNormal": 2649,
             "precioVenta": 1749,
             "stock": 9,
-            "sku": "H3124256N10",
+            "sku": "H3124253N13",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -192,15 +192,15 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "americanas",
+                    "línea": "americanos",
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Der prinz",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Bloques",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Sydney"
+                    "modelo-de-cabecera": "Rectangular 2"
                 }
             ]
         },
@@ -210,15 +210,15 @@
             "tamaño": "king",
             "marca": "kamas",
             "modelo": "der prinz",
-            "línea": "americanas",
+            "línea": "americanos",
             "ruta": "/productos/dormitorios/king/kamas/der-prinz/americanos/5/",
-            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA VIENA - CUERO NEGRO",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/aereas-con-patas/bloques/viena/1/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA V - CUERO CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/aereas-con-patas/bloques/v/1/",
             "precioRegular": 3149,
             "precioNormal": 2649,
             "precioVenta": 1749,
             "stock": 9,
-            "sku": "H3124256N11",
+            "sku": "H3124256N10",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -243,15 +243,15 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "americanas",
+                    "línea": "americanos",
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Der prinz",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Bloques",
+                    "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Viena"
+                    "modelo-de-cabecera": "V"
                 }
             ]
         },
@@ -260,16 +260,16 @@
             "categoria": "dormitorios",
             "tamaño": "king",
             "marca": "kamas",
-            "modelo": "sarki",
-            "línea": "americanas",
+            "modelo": "der prinz",
+            "línea": "americanos",
             "ruta": "/productos/dormitorios/king/kamas/der-prinz/americanos/6/",
-            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA PEDESTAL CORONA LINEAL 6 - CHAMPAGNE",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/pedestales/coronas/lineal-6/1/",
-            "precioRegular": 4149,
-            "precioNormal": 3749,
-            "precioVenta": 2449,
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA V - CUERO NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/aereas-con-patas/bloques/viena/1/",
+            "precioRegular": 3149,
+            "precioNormal": 2649,
+            "precioVenta": 1749,
             "stock": 9,
-            "sku": "H3124255N10",
+            "sku": "H3124255N11",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -278,6 +278,10 @@
                 },
                 {
                     "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "1 puff",
                     "foto": "/assets/imagenes/productos/almohadas.webp"
                 }
             ],
@@ -290,14 +294,237 @@
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "americanas",
+                    "línea": "americanos",
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Der prinz",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Viena"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "der prinz",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/der-prinz/americanos/7/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA AÉREA SYDNEY - TEJIDO CHOCOLATE NEW",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/aereas-con-patas/con-marco/sydney/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2699,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3124255N11",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/der-prinz/americanos/7/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "con marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Sydney"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "der prinz",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/der-prinz/americanos/8/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA PEDESTAL CAPITONEADO 1 - GRIS",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/pedestales/americanas/capitoneado-1/1/",
+            "precioRegular": 3329,
+            "precioNormal": 2829,
+            "precioVenta": 1929,
+            "stock": 9,
+            "sku": "H3124253N14",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/der-prinz/americanos/8/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "der prinz",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/der-prinz/americanos/9/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA PEDESTAL CAPITONEADO 1 - VERDE LORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/pedestales/americanas/capitoneado-1/2/",
+            "precioRegular": 3329,
+            "precioNormal": 2829,
+            "precioVenta": 1929,
+            "stock": 9,
+            "sku": "H3124253N15",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/der-prinz/americanos/9/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "der prinz",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/der-prinz/americanos/10/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA PEDESTAL CAPITONEADO 1 - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/pedestales/americanas/capitoneado-1/3/",
+            "precioRegular": 3329,
+            "precioNormal": 2829,
+            "precioVenta": 1929,
+            "stock": 9,
+            "sku": "H3124253N16",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/der-prinz/americanos/10/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "der prinz",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/der-prinz/americanos/11/",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS DER PRINZ + CABECERA PEDESTAL CORONA LINEAL 6 - CHAMPAGNE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/der-prinz/americanos/pedestales/coronas/lineal-6/1/",
+            "precioRegular": 3499,
+            "precioNormal": 2999,
+            "precioVenta": 2299,
+            "stock": 9,
+            "sku": "H3124255N10",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/kamas/der-prinz/americanos/11/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Der prinz",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Lineal 6"
                 }
             ]

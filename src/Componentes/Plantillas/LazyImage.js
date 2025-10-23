@@ -12,12 +12,12 @@ function LazyImage({ src, alt, width, height }){
 
     useEffect(() => {
         const basePath = getBasePath(src);
-        const extensions = ['.jpg', '.webp', '.png'];
+        const extensions = ['.jpg', '.webp', '.png', '.avif'];
         let active = true;
 
         const tryNextExtension = (index = 0) => {
-            if (index >= extensions.length || !active) {
-                if (active) setCurrentSrc(src);
+            if(index >= extensions.length || !active){
+                if(active) setCurrentSrc(src);
                 return;
             }
 
@@ -25,20 +25,20 @@ function LazyImage({ src, alt, width, height }){
             const testImage = new Image();
 
             testImage.onload = () => {
-                if (active && !attemptedExtensions.includes(extensions[index])){
+                if(active && !attemptedExtensions.includes(extensions[index])){
                     setCurrentSrc(testSrc);
                     setAttemptedExtensions(prev => [...prev, extensions[index]]);
                 }
             };
 
             testImage.onerror = () => {
-                if (active) tryNextExtension(index + 1);
+                if(active) tryNextExtension(index + 1);
             };
 
             testImage.src = testSrc;
         };
 
-        if (isVisible && !currentSrc) {
+        if(isVisible && !currentSrc){
             tryNextExtension();
         }
 
@@ -51,7 +51,7 @@ function LazyImage({ src, alt, width, height }){
         const observer = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
-                    if (entry.isIntersecting) {
+                    if(entry.isIntersecting){
                         setIsVisible(true);
                         observer.disconnect();
                     }
@@ -59,23 +59,20 @@ function LazyImage({ src, alt, width, height }){
             }, { threshold: 0.1 }
         );
 
-        if (imgRef.current) observer.observe(imgRef.current);
+        if(imgRef.current) observer.observe(imgRef.current);
 
         return () => observer.disconnect();
     }, []);
 
     return(
-        <img ref={imgRef} src={isVisible ? currentSrc || src : undefined} alt={alt} width={width} height={height} 
-            loading="lazy" 
-            style={{ backgroundColor: "#FFFFFF" }}
-            onError={(e) => {
-                if (!attemptedExtensions.includes('.jpg') && currentSrc !== `${getBasePath(src)}.jpg`) {
+        <img ref={imgRef} src={isVisible ? currentSrc || src : undefined} alt={alt} width={width} height={height} loading="lazy" style={{ backgroundColor: "#FFFFFF" }} onError={(e) => {
+                if(!attemptedExtensions.includes('.jpg') && currentSrc !== `${getBasePath(src)}.jpg`){
                     setCurrentSrc(`${getBasePath(src)}.jpg`);
-                } else if (!attemptedExtensions.includes('.webp') && currentSrc !== `${getBasePath(src)}.webp`) {
+                } else if(!attemptedExtensions.includes('.webp') && currentSrc !== `${getBasePath(src)}.webp`){
                     setCurrentSrc(`${getBasePath(src)}.webp`);
-                } else if (!attemptedExtensions.includes('.png') && currentSrc !== `${getBasePath(src)}.png`) {
+                } else if(!attemptedExtensions.includes('.png') && currentSrc !== `${getBasePath(src)}.png`){
                     setCurrentSrc(`${getBasePath(src)}.png`);
-                } else if (!attemptedExtensions.includes('.avif') && currentSrc !== `${getBasePath(src)}.avif`) {
+                } else if(!attemptedExtensions.includes('.avif') && currentSrc !== `${getBasePath(src)}.avif`){
                     setCurrentSrc(`${getBasePath(src)}.avif`);
                 }
             }}
