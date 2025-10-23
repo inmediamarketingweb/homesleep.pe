@@ -13,37 +13,38 @@ import Resumen from './Componentes/Resumen/Resumen';
 import Medidas from './Componentes/Medidas/Medidas';
 import Beneficios from './Componentes/Beneficios/Beneficios';
 import Envios from './Componentes/Envios/Envios';
-import TiposDeEnvio from './Componentes/TiposDeEnvio/TiposDeEnvio';
+// import TiposDeEnvio from './Componentes/TiposDeEnvio/TiposDeEnvio';
 import Colores from './Componentes/Colores/Colores';
-import WhatsApp from './Componentes/WhatsApp/WhatsApp';
+// import Cantidad from './Componentes/Cantidad/Cantidad';
+// import WhatsApp from './Componentes/WhatsApp/WhatsApp';
 import Descripcion from './Componentes/Descripcion/Descripcion';
 
 import './PaginaProducto.css';
-import { Color } from '@cloudinary/url-gen/qualifiers';
+// import { Color } from '@cloudinary/url-gen/qualifiers';
 
 const MasProductos = lazy(() => import('./Componentes/MasProductos/MasProductos'));
 
-function normalizePathWithTrailingSlash(p = "") {
+function normalizePathWithTrailingSlash(p = ""){
     if (!p) return "/";
     return p.endsWith("/") ? p : p + "/";
 }
 
 function PaginaProducto(){
-    const [shippingInfo, setShippingInfo] = useState(null);
-    const [shippingOptions, setShippingOptions] = useState([]);
-    const [selectedShipping, setSelectedShipping] = useState({ tipo: null, precio: null });
+    // const [shippingInfo, setShippingInfo] = useState(null);
+    // const [shippingOptions, setShippingOptions] = useState([]);
+    // const [selectedShipping, setSelectedShipping] = useState({ tipo: null, precio: null });
     const location = useLocation();
     const [productoData, setProductoData] = useState({ 
         producto: null, 
         imagenes: [], 
         descripciones: [],
-        mensajes: [], // Agregamos mensajes al estado
+        mensajes: [],
         error: false, 
         loading: true
     });
-    const [selectedColor, setSelectedColor] = useState(null);
+    // const [selectedColor, setSelectedColor] = useState(null);
     const [quantity, setQuantity] = useState(1);
-    const [userName, setUserName] = useState(typeof window !== 'undefined' ? localStorage.getItem('nombre') || '' : '');
+    // const [userName, setUserName] = useState(typeof window !== 'undefined' ? localStorage.getItem('nombre') || '' : '');
     const [isCategoryFallback, setIsCategoryFallback] = useState(false);
     const [categoryProducts, setCategoryProducts] = useState([]);
 
@@ -61,21 +62,21 @@ function PaginaProducto(){
                 let filesList = [];
                 try{
                     const manifestRes = await fetch('/assets/json/manifest.json');
-                    if (manifestRes.ok) {
+                    if (manifestRes.ok){
                         const manifestJson = await manifestRes.json();
                         if (Array.isArray(manifestJson)) filesList = manifestJson;
                         else if (Array.isArray(manifestJson.files)) filesList = manifestJson.files;
-                        else if (typeof manifestJson === 'object' && manifestJson !== null && manifestJson[path]) {
+                        else if (typeof manifestJson === 'object' && manifestJson !== null && manifestJson[path]){
                             const productFilePath = manifestJson[path];
                             const resp = await fetch(productFilePath);
-                            if (resp.ok) {
+                            if (resp.ok){
                                 const pd = await resp.json();
-                                if (!cancelled) {
+                                if (!cancelled){
                                     setProductoData({ 
                                         producto: pd, 
                                         imagenes: [], 
                                         descripciones: pd.descripciones || [],
-                                        mensajes: pd.mensajes || [], // Extraemos mensajes
+                                        mensajes: pd.mensajes || [],
                                         error: false, 
                                         loading: false 
                                     });
@@ -85,17 +86,17 @@ function PaginaProducto(){
                             }
                         }
                     }
-                } catch (errIndex) { }
+                } catch (errIndex){ }
 
             if (filesList.length === 0){
                 try{
                     const manifestRes2 = await fetch('/assets/json/manifest.json');
-                    if (manifestRes2.ok) {
+                    if (manifestRes2.ok){
                         const manifestJson2 = await manifestRes2.json();
                         if (Array.isArray(manifestJson2)) filesList = manifestJson2;
                         else if (Array.isArray(manifestJson2.files)) filesList = manifestJson2.files;
                     }
-                } catch (e) { }
+                } catch (e){ }
             }
 
                 const parts = path.split('/').filter(Boolean);
@@ -105,9 +106,9 @@ function PaginaProducto(){
 
                 let productoEncontrado = null;
                 let descripcionesEncontradas = [];
-                let mensajesEncontrados = []; // Variable para mensajes
+                let mensajesEncontrados = [];
 
-                for (const filePath of candidates) {
+                for(const filePath of candidates){
                     try {
                         const r = await fetch(filePath);
                         if (!r.ok) continue;
@@ -117,22 +118,22 @@ function PaginaProducto(){
                             const pr = String(p.ruta || "").trim();
                             return normalizePathWithTrailingSlash(pr) === path;
                         });
-                        if (found) {
+                        if (found){
                             productoEncontrado = found;
                             descripcionesEncontradas = json.descripciones || [];
-                            mensajesEncontrados = json.mensajes || []; // Extraemos mensajes
+                            mensajesEncontrados = json.mensajes || [];
                             break;
                         }
-                    } catch (e) { continue; }
+                    } catch (e){ continue; }
                 }
 
-                if (productoEncontrado) {
-                    if (!cancelled) {
+                if (productoEncontrado){
+                    if (!cancelled){
                         setProductoData(prev => ({ 
                             ...prev, 
                             producto: productoEncontrado, 
                             descripciones: descripcionesEncontradas,
-                            mensajes: mensajesEncontrados, // Guardamos mensajes
+                            mensajes: mensajesEncontrados,
                             loading: false, 
                             error: false 
                         }));
@@ -143,9 +144,9 @@ function PaginaProducto(){
 
                 const idMatch = path.match(/\/(\d+)\/$/);
 
-                if (idMatch) {
+                if (idMatch){
                     const idStr = idMatch[1];
-                    for (const filePath of candidates) {
+                    for(const filePath of candidates){
                         try{
                             const r = await fetch(filePath);
                             if (!r.ok) continue;
@@ -155,23 +156,23 @@ function PaginaProducto(){
                                 const pr = normalizePathWithTrailingSlash(String(p.ruta || ""));
                                 return pr.endsWith(`/${idStr}/`);
                             });
-                            if (foundById) {
+                            if (foundById){
                                 productoEncontrado = foundById;
                                 descripcionesEncontradas = json.descripciones || [];
-                                mensajesEncontrados = json.mensajes || []; // Extraemos mensajes
+                                mensajesEncontrados = json.mensajes || [];
                                 break;
                             }
-                        } catch (e) { continue; }
+                        } catch (e){ continue; }
                     }
                 }
 
-                if (productoEncontrado) {
-                    if (!cancelled) {
+                if (productoEncontrado){
+                    if (!cancelled){
                         setProductoData(prev => ({ 
                             ...prev, 
                             producto: productoEncontrado, 
                             descripciones: descripcionesEncontradas,
-                            mensajes: mensajesEncontrados, // Guardamos mensajes
+                            mensajes: mensajesEncontrados,
                             loading: false, 
                             error: false 
                         }));
@@ -183,13 +184,13 @@ function PaginaProducto(){
                 const rel = path.replace(/^\/productos\//, '').replace(/\/$/, '');
                 const categoryJsonPath = `/assets/json/categorias/${rel}.json`;
 
-                if (filesList.includes(categoryJsonPath)) {
+                if (filesList.includes(categoryJsonPath)){
                     try {
                         const catRes = await fetch(categoryJsonPath);
-                        if (catRes.ok) {
+                        if (catRes.ok){
                             const catJson = await catRes.json();
-                            if (Array.isArray(catJson.productos) && catJson.productos.length > 0) {
-                                if (!cancelled) {
+                            if (Array.isArray(catJson.productos) && catJson.productos.length > 0){
+                                if (!cancelled){
                                     setIsCategoryFallback(true);
                                     setCategoryProducts(catJson.productos);
                                     setProductoData(prev => ({ ...prev, loading: false, producto: null, error: false }));
@@ -197,14 +198,14 @@ function PaginaProducto(){
                                 return;
                             }
                         }
-                    } catch (e) {
+                    } catch (e){
                     }
                 }
 
-                if (!cancelled) {
+                if (!cancelled){
                     setProductoData(prev => ({ ...prev, error: true, loading: false }));
                 }
-            } catch (error) {
+            } catch (error){
                 console.error("Error al buscar el producto:", error);
                 if (!cancelled) setProductoData(prev => ({ ...prev, error: true, loading: false }));
             }
@@ -224,7 +225,7 @@ function PaginaProducto(){
             (async () => {
                 const primeraImagen = await cargarImagen(1, 'webp') || await cargarImagen(1, 'jpg') || await cargarImagen(1, 'png');
 
-                if (primeraImagen) {
+                if (primeraImagen){
                     setProductoData(prev => ({
                         ...prev,
                         imagenes: [primeraImagen]
@@ -236,8 +237,8 @@ function PaginaProducto(){
                 const promesas = [];
                 const formatos = ['webp', 'jpg'];
 
-                for (let index = 2; index <= 5; index++) {
-                    for (const formato of formatos) {
+                for(let index = 2; index <= 5; index++){
+                    for(const formato of formatos){
                         promesas.push(cargarImagen(index, formato));
                     }
                 }
@@ -265,16 +266,16 @@ function PaginaProducto(){
         }
     }, [productoData.producto]);
 
-    useEffect(() => {
-        if (typeof window === 'undefined') return;
+    // useEffect(() => {
+    //     if (typeof window === 'undefined') return;
 
-        const handleStorageChange = () => {
-            const storedName = localStorage.getItem('nombre') || '';
-            setUserName(storedName);
-        };
-        window.addEventListener('storage', handleStorageChange);
-        return () => window.removeEventListener('storage', handleStorageChange);
-    }, []);
+    //     const handleStorageChange = () => {
+    //         const storedName = localStorage.getItem('nombre') || '';
+    //         setUserName(storedName);
+    //     };
+    //     window.addEventListener('storage', handleStorageChange);
+    //     return () => window.removeEventListener('storage', handleStorageChange);
+    // }, []);
 
     if (isCategoryFallback){
         return (
@@ -304,13 +305,13 @@ function PaginaProducto(){
         );
     }
 
-    if (productoData.error) {
+    if (productoData.error){
         return(
             <NoProducto/>
         );
     }
 
-    if (productoData.loading || !productoData.producto) {
+    if (productoData.loading || !productoData.producto){
         return(
             <SpinnerLoading/>
         );
@@ -320,14 +321,14 @@ function PaginaProducto(){
 
     const descuento = Math.round(((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal);
 
-    const handleContinuarClick = (e) => {
-        if(!selectedShipping.tipo){
-            e.preventDefault();
-        }
-    };
+    // const handleContinuarClick = (e) => {
+    //     if(!selectedShipping.tipo){
+    //         e.preventDefault();
+    //     }
+    // };
 
-    const handleRemove = () => { if (quantity > 0) setQuantity(quantity - 1); };
-    const handleAdd = () => { if (quantity < 10) setQuantity(quantity + 1); };
+    // const handleRemove = () => { if (quantity > 0) setQuantity(quantity - 1); };
+    // const handleAdd = () => { if (quantity < 10) setQuantity(quantity + 1); };
 
     const productSchema = {
         "@context": "https://schema.org/",
@@ -380,11 +381,13 @@ function PaginaProducto(){
                                     <h1 className='product-page-name'>{producto.nombre}</h1>
                                 </div>
 
-                                <Imagenes imagenes={imagenes} producto={producto} onSelectColor={setSelectedColor}/>
+                                <Imagenes imagenes={imagenes} producto={producto}/>
 
                                 <Beneficios/>
 
-                                <Descripcion producto={producto} descripciones={descripciones} mensajes={mensajes}/>
+                                <div className='visible-on-desktop-no-mobile'>
+                                    <Descripcion producto={producto} descripciones={descripciones} mensajes={mensajes}/>
+                                </div>
                             </div>
 
                             <div className='product-page-target product-page-target-2 d-flex-column gap-20'>
@@ -418,7 +421,12 @@ function PaginaProducto(){
 
                                                 <Colores colorName={producto.nombre.split('-').pop().trim() || "Seleccionar color"}/>
 
-                                                <WhatsApp/>
+                                                {/* <div className='visible-on-desktop-no-mobile'>
+                                                    <div className='d-flex gap-10'>
+                                                        <Cantidad/>
+                                                        <WhatsApp/>
+                                                    </div>
+                                                </div> */}
                                                 {/* <WhatsApp producto={producto} selectedShipping={selectedShipping} shippingInfo={shippingInfo} selectedColor={selectedColor} quantity={quantity} handleContinuarClick={handleContinuarClick}/> */}
                                             </div>
 
@@ -426,6 +434,10 @@ function PaginaProducto(){
                                                 <Regalos producto={producto}/>
                                                 <Medidas producto={producto}/>
                                                 <Envios/>
+                                            </div>
+
+                                            <div className='visible-on-mobile-no-desktop'>
+                                                <Descripcion producto={producto} descripciones={descripciones} mensajes={mensajes}/>
                                             </div>
                                         </div>
                                     </div>
@@ -435,7 +447,7 @@ function PaginaProducto(){
                                             setShippingInfo(data); 
                                             setShippingOptions(data.shippingOptions);
 
-                                            if (data.shippingOptions.length === 1) {
+                                            if (data.shippingOptions.length === 1){
                                                 setSelectedShipping({
                                                     tipo: data.shippingOptions[0].tipo,
                                                     precio: data.shippingOptions[0].precio
@@ -503,6 +515,11 @@ function PaginaProducto(){
                         </div>
                     </section>
                 </div>
+
+                {/* <div className='button-continue-container'>
+                    <Cantidad/>
+                    <WhatsApp/>
+                </div> */}
 
                 <Suspense fallback={
                     <div className="loading-mas-productos">Cargando productos relacionados...</div>

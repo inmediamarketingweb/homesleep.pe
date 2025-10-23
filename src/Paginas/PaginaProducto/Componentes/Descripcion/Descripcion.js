@@ -93,7 +93,6 @@ function Descripcion({ producto, descripciones, mensajes }){
     else if (producto?.descripcion) {
         return(
             <div className='d-grid-2-1fr gap-20'>
-                {/* Sección de Mensajes */}
                 {mensajes && mensajes.length > 0 && (
                     <div className='mensajes-section'>
                         <h4 className='title'>Mensajes:</h4>

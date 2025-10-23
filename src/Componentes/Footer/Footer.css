@@ -198,8 +198,6 @@ footer{
     text-decoration: underline;
 }
 
-/**/
-
 .footer-target-1 .footer-list li span{
     color: var(--color-1);
 }
@@ -225,6 +223,11 @@ footer{
 }
 
 @media screen and (max-width: 600px){
+    .whatsapp-button{
+        right: 10px;
+        bottom: 10px;
+    }
+
     footer{
         gap: 0 !important;
     }

@@ -273,21 +273,21 @@ import './Envios.css';
 function Envios(){
     return(
         <div className='product-page-locations d-flex-column gap-10'>
-            <p className='title color-color-1 uppercase'>Envío</p>
+            <p className='title color-color-1 uppercase d-grid-1-1'>Distrito</p>
 
             <button className='product-page-location-button button-1 padding-10'>
-                <span class="material-symbols-outlined">delivery_truck_bolt</span>
+                <span className="material-symbols-outlined">delivery_truck_bolt</span>
                 <div className='d-flex-column w-100'>
                     <p className='title color-color-1'>Lima</p>
-                    <p className='text margin-right'>Entregas el mismo día</p>
+                    <p className='text text-left margin-right'>Entregas el mismo día</p>
                 </div>
             </button>
 
             <button className='product-page-location-button button-1 padding-10'>
-                <span class="material-symbols-outlined">near_me</span>
+                <span className="material-symbols-outlined">near_me</span>
                 <div className='d-flex-column'>
                     <p className='title color-color-1'>Provincia</p>
-                    <p className='text margin-right'>Envíos díarios a nivel nacional</p>
+                    <p className='text text-left margin-right'>Envíos díarios a nivel nacional</p>
                 </div>
             </button>
         </div>
