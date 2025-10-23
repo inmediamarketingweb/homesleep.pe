@@ -142,6 +142,8 @@
         "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/argus/americanos-con-cajones.json",
         "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/argus/europeos.json",
 
+        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/adel/americanos.json",
+
         "/assets/json/categorias/dormitorios/1-plaza-y-media/paraiso/majestic/americanos.json",
 
         "/assets/json/categorias/dormitorios/1-plaza-y-media/paraiso/consul-black/americanos.json",
@@ -152,20 +154,31 @@
         "/assets/json/categorias/dormitorios/2-plazas/el-cisne/argus/americanos-con-cajones.json",
         "/assets/json/categorias/dormitorios/2-plazas/el-cisne/argus/europeos.json",
 
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/adel/americanos.json",
+
         "/assets/json/categorias/dormitorios/2-plazas/paraiso/consul-black/americanos.json",
         "/assets/json/categorias/dormitorios/2-plazas/paraiso/majestic/americanos.json",
 
 
 
-        "/assets/json/categorias/dormitorios/queen/paraiso/pocket-italiano/americanos.json",
+        "/assets/json/categorias/dormitorios/queen/el-cisne/pocket-plus/americanos.json",
+
+        "/assets/json/categorias/dormitorios/queen/kamas/sarki/americanos.json",
+        "/assets/json/categorias/dormitorios/queen/kamas/sarki/americanos-con-cajones.json",
+        "/assets/json/categorias/dormitorios/queen/kamas/sarki/europeos.json",
+        "/assets/json/categorias/dormitorios/queen/kamas/sarki/europeos-con-cajones.json",
+
+        "/assets/json/categorias/dormitorios/queen/kamas/der-prinz/americanos.json",
+        "/assets/json/categorias/dormitorios/queen/kamas/der-prinz/americanos-con-cajones.json",
+        "/assets/json/categorias/dormitorios/queen/kamas/der-prinz/europeos-con-cajones.json",
 
         "/assets/json/categorias/dormitorios/queen/paraiso/su-majestad/americanos.json",
         "/assets/json/categorias/dormitorios/queen/paraiso/su-majestad/europeos.json",
         "/assets/json/categorias/dormitorios/queen/paraiso/su-majestad/europeos-con-cajones.json",
 
-        "/assets/json/categorias/dormitorios/queen/komfort/saphir/americanos.json",
+        "/assets/json/categorias/dormitorios/queen/paraiso/pocket-italiano/americanos.json",
 
-        "/assets/json/categorias/dormitorios/queen/el-cisne/pocket-plus/americanos.json",
+        "/assets/json/categorias/dormitorios/queen/komfort/saphir/americanos.json",
 
 
 
@@ -181,10 +194,12 @@
         "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos-con-cajones.json",
         "/assets/json/categorias/dormitorios/king/kamas/sarki/europeos.json",
         "/assets/json/categorias/dormitorios/king/kamas/sarki/europeos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/king/kamas/sarki/premium.json",
 
 
         "/assets/json/categorias/dormitorios/king/kamas/der-prinz/americanos.json",
+        "/assets/json/categorias/dormitorios/king/kamas/der-prinz/americanos-con-cajones.json",
+        "/assets/json/categorias/dormitorios/king/kamas/der-prinz/europeos.json",
+        "/assets/json/categorias/dormitorios/king/kamas/der-prinz/europeos-con-cajones.json",
 
 
 
