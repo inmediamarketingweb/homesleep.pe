@@ -278,6 +278,11 @@ button{
     grid-template-columns: repeat(2, 1fr);
 }
 
+.d-grid-1-2fr{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .d-grid-auto-1fr{
     display: grid;
     grid-template-columns: auto 1fr;
@@ -352,6 +357,10 @@ button{
 }
 
 .gap-20{
+    gap: 20px;
+}
+
+.gap-20-to-10{
     gap: 20px;
 }
 
@@ -637,9 +646,14 @@ button{
         grid-template-columns: 1fr !important;
     }
 
+    .d-grid-1-2fr,
     .d-grid-5-3-2fr{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .gap-20-to-10{
+        gap: 10px;
     }
 
     .padding-right-20-to-0{

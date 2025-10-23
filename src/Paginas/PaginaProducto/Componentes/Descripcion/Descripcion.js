@@ -31,7 +31,7 @@ function Descripcion({ producto, descripciones, mensajes }){
                         <ul>
                             <li>
                                 <div>
-                                    <strong>SKU</strong>
+                                    <strong>SKU:</strong>
                                 </div>
                                 <div>
                                     <p className='text'>{producto.sku}</p>
