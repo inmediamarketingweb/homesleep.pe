@@ -52,6 +52,7 @@ body{
 
 body::-webkit-scrollbar{
     width: 6px;
+    display: none;
 }
 
 body::-webkit-scrollbar-thumb{
@@ -606,6 +607,10 @@ button{
     *{
         cursor: none !important;
         font-size: 19px;
+    }
+
+    body::-webkit-scrollbar{
+        display: unset;
     }
 
     .visible-on-desktop-no-mobile{

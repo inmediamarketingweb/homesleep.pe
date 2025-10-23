@@ -29,6 +29,7 @@
     position: absolute;
     left: 0;
     top: calc(100% + 10px);
+    width: calc(100% + 100px);
     background: var(--white);
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
