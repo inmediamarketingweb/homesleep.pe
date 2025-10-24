@@ -27,7 +27,7 @@ function Descripcion({ producto, descripciones, mensajes }){
 
                 <div className='d-flex w-100'>
                     <div className='product-details'>
-                        <p className='title uppercase color-color-1 underline'>Detalles:</p>
+                        <p className='title uppercase color-color-1'>Detalles</p>
                         <ul>
                             <li>
                                 <div>
@@ -39,18 +39,14 @@ function Descripcion({ producto, descripciones, mensajes }){
                             </li>
                             {producto['detalles-del-producto'] && producto['detalles-del-producto'].map((detalle, index) =>
                                 Object.entries(detalle).map(([key, value]) => (
-                                    <>
-                                        <span className='color-color-1'>|</span>
-
-                                        <li key={`${index}-${key}`}>
-                                            <div>
-                                                <strong>{formatKey(key)}:</strong>
-                                            </div>
-                                            <div>
-                                                <p className='text'>{value}</p>
-                                            </div>
-                                        </li>
-                                    </>
+                                    <li key={`${index}-${key}`}>
+                                        <div>
+                                            <strong>{formatKey(key)}:</strong>
+                                        </div>
+                                        <div>
+                                            <p className='text'>{value}</p>
+                                        </div>
+                                    </li>
                                 ))
                             )}
                         </ul>
@@ -62,22 +58,18 @@ function Descripcion({ producto, descripciones, mensajes }){
                         <div className='d-flex d-flex-wrap gap-10'>
                             {descripciones.map((grupo, index) => (
                                 <div className='product-details' key={index}>
-                                    <p className='title uppercase underline color-color-1'>{grupo.titulo}:</p>
+                                    <p className='title uppercase color-color-1'>{grupo.titulo}</p>
                                     <ul>
                                         {grupo.descripcion.map(
                                             (item, idx) => Object.entries(item).map(([key, value]) => (
-                                                <>
-                                                    <span className='color-color-1'>|</span>
-
-                                                    <li key={`${idx}-${key}`}>
-                                                        <div>
-                                                            <strong>{formatKey(key)}:</strong>
-                                                        </div>
-                                                        <div>
-                                                            <p className='text'>{value}</p>
-                                                        </div>
-                                                    </li>
-                                                </>
+                                                <li key={`${idx}-${key}`}>
+                                                    <div>
+                                                        <strong>{formatKey(key)}:</strong>
+                                                    </div>
+                                                    <div>
+                                                        <p className='text'>{value}</p>
+                                                    </div>
+                                                </li>
                                             ))
                                         )}
                                     </ul>
