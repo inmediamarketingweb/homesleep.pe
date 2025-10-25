@@ -12,7 +12,7 @@ import Regalos from './Componentes/Regalos/Regalos';
 import Resumen from './Componentes/Resumen/Resumen';
 import Medidas from './Componentes/Medidas/Medidas';
 import Beneficios from './Componentes/Beneficios/Beneficios';
-import Envios from './Componentes/Envios/Envios';
+// import Envios from './Componentes/Envios/Envios';
 // import TiposDeEnvio from './Componentes/TiposDeEnvio/TiposDeEnvio';
 import Colores from './Componentes/Colores/Colores';
 // import Cantidad from './Componentes/Cantidad/Cantidad';
@@ -43,7 +43,7 @@ function PaginaProducto(){
         loading: true
     });
     // const [selectedColor, setSelectedColor] = useState(null);
-    const [quantity, setQuantity] = useState(1);
+    // const [quantity, setQuantity] = useState(1);
     // const [userName, setUserName] = useState(typeof window !== 'undefined' ? localStorage.getItem('nombre') || '' : '');
     const [isCategoryFallback, setIsCategoryFallback] = useState(false);
     const [categoryProducts, setCategoryProducts] = useState([]);
@@ -278,30 +278,8 @@ function PaginaProducto(){
     // }, []);
 
     if (isCategoryFallback){
-        return (
-            <>
-                <Helmet>
-                    <title>leosoplapuco | Homesleep</title>
-                </Helmet>
-
-                <main className="main-category">
-                    <div className="block-container">
-                        <section className="block-content">
-                            <div className="">
-                                <div className="category-page-left">
-                                    <ul className="category-page-products d-flex-column">
-                                        {categoryProducts.map((producto, idx) => (
-                                            <a href={producto.ruta} key={producto.sku || idx}>
-                                                <p>{producto.nombre}</p>
-                                            </a>
-                                        ))}
-                                    </ul>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </main>
-            </>
+        return(
+            <NoProducto/>
         );
     }
 
@@ -318,7 +296,6 @@ function PaginaProducto(){
     }
 
     const { producto, imagenes, descripciones, mensajes } = productoData;
-
     const descuento = Math.round(((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal);
 
     // const handleContinuarClick = (e) => {
@@ -419,7 +396,11 @@ function PaginaProducto(){
 
                                                 <Resumen producto={producto}/>
 
-                                                <Colores colorName={producto.nombre.split('-').pop().trim() || "Seleccionar color"}/>
+                                                {producto.categoria.toLowerCase() !== "colchones" && (
+                                                    <Colores colorName={producto.nombre.split('-').pop().trim() || "Seleccionar color"}/>
+                                                )}
+
+                                                {/* <Colores colorName={producto.nombre.split('-').pop().trim() || "Seleccionar color"}/> */}
 
                                                 {/* <div className='visible-on-desktop-no-mobile'>
                                                     <div className='d-flex gap-10'>
@@ -435,7 +416,8 @@ function PaginaProducto(){
                                                     <Regalos producto={producto}/>
                                                     <Medidas producto={producto}/>
                                                 </div>
-                                                <Envios/>
+
+                                                {/* <Envios/> */}
                                             </div>
 
                                             <div className='visible-on-mobile-no-desktop'>

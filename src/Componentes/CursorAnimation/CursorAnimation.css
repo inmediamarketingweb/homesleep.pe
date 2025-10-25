@@ -21,12 +21,12 @@
     border-radius: 100%;
     transform: scale(0);
     opacity: 1;
-    animation: ripple 500ms linear forwards;
+    animation: ripple 350ms linear forwards;
 }
 
 @keyframes ripple{
     to{
-        transform: translate(-50%, -50%) scale(1.25);
+        transform: translate(-50%, -50%) scale(1.2);
         opacity: 0;
     }
 }

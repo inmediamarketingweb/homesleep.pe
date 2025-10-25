@@ -8,6 +8,8 @@
     background: var(--whatsapp);
     border-radius: 100%;
     z-index: 98;
+
+    display: none;
 }
 
 .whatsapp-button img{

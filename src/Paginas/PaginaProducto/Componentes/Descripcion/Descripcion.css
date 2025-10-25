@@ -7,31 +7,40 @@
 
 .product-details > p{
     padding: 5px 0;
-    /* background: orange; */
     border-top: 2px solid rgba(0 0 0 / 0.10);
 }
 
 .product-details ul{
     display: flex;
     flex-direction: column;
-    /* gap: 10px; */
-    /* flex-wrap: wrap; */
 }
 
 .product-details ul li{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: left;
-    gap: 2px;
+    gap: 10px;
 }
 
-.product-details ul li::before{
+.product-details ul li > div:nth-child(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.product-details ul li > div:nth-child(1)::before{
     content: '🔴';
+    width: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 3px;
     filter: brightness(0);
 }
 
-.product-details ul li div{
+.product-details ul li > div p{
     display: inline-block;
 }
 
