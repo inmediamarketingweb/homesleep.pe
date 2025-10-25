@@ -11,14 +11,7 @@ import "./Producto.css";
 **/
 
 export function Producto({ producto = { id: null } }){
-    // const [secondImageError, setSecondImageError] = useState(false);
-    // const [favorites, setFavorites] = useState([]);
     const descuento = Math.round( ((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal );
-
-    // useEffect(() => {
-    //     const favStorage = JSON.parse(localStorage.getItem("favoritos")) || [];
-    //     setFavorites(favStorage);
-    // }, []);
 
     const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
 
@@ -39,6 +32,14 @@ export function Producto({ producto = { id: null } }){
     : producto["tipo-de-envio"] === "Envío aplicado" ? "envio-aplicado"
     : "";
 
+    // Función para formatear el texto del envío
+    const getTextoEnvio = () => {
+        if (producto["tipo-de-envio"] === "Gratis") {
+            return "Envío gratis";
+        }
+        return producto["tipo-de-envio"];
+    };
+
     const imageSize = isSmallScreen ? 140 : 200;
 
     return(
@@ -52,6 +53,12 @@ export function Producto({ producto = { id: null } }){
                     <a href={producto.ruta} title={producto.nombre}>
                         <LazyImage width={imageSize} height={imageSize} src={`${producto.fotos}1`} alt={producto.nombre} className="product-image"/>
                     </a>
+                    
+                    <div className={`product-card-tipo-de-envio ${tipoEnvioClase}`}>
+                        {producto["tipo-de-envio"] && (
+                            <span>{getTextoEnvio()}</span>
+                        )}
+                    </div>
                 </div>
 
                 <a href={producto.ruta} className="product-card-content">
@@ -79,6 +86,7 @@ Producto.propTypes = {
         fotos: PropTypes.string.isRequired,
         precioNormal: PropTypes.number.isRequired,
         precioVenta: PropTypes.number.isRequired,
+        "tipo-de-envio": PropTypes.string,
     }).isRequired,
     truncate: PropTypes.func.isRequired,
 };

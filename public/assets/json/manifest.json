@@ -172,6 +172,10 @@
 
         "/assets/json/categorias/dormitorios/queen/el-cisne/pocket-plus/americanos.json",
 
+        "/assets/json/categorias/dormitorios/queen/el-cisne/rc-456/americanos.json",
+
+
+
         "/assets/json/categorias/dormitorios/queen/kamas/sarki/americanos.json",
         "/assets/json/categorias/dormitorios/queen/kamas/sarki/americanos-con-cajones.json",
         "/assets/json/categorias/dormitorios/queen/kamas/sarki/europeos.json",
@@ -193,7 +197,11 @@
 
         "/assets/json/categorias/dormitorios/king/el-cisne/rc-608/americanos.json",
 
+        "/assets/json/categorias/dormitorios/king/el-cisne/argus-pocket/americanos.json",
 
+        "/assets/json/categorias/dormitorios/king/el-cisne/dynamic/americanos.json",
+
+        "/assets/json/categorias/dormitorios/king/el-cisne/iconio/americanos.json",
 
         "/assets/json/categorias/dormitorios/king/el-cisne/pocket-plus/americanos.json",
 

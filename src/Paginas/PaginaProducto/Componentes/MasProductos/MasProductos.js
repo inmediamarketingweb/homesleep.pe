@@ -77,7 +77,7 @@ export default function MasProductos({ categoriaActual }) {
                     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
                 }
 
-                setProducts(shuffled.slice(0, 10));
+                setProducts(shuffled.slice(0, 15));
             } catch (err) {
                 if (err.name !== 'AbortError') {
                     console.error('Error al cargar productos:', err);
@@ -136,13 +136,9 @@ export default function MasProductos({ categoriaActual }) {
         );
     }
 
-    return (
+    return(
         <div className='block-container'>
             <div className='block-content'>
-                <div className='block-title-container'>
-                    <h4 className='block-title'>Más productos</h4>
-                </div>
-
                 <div className='d-flex-column gap-20'>
                     <div className="product-page-more-products-container">
                         <nav className="product-page-more-products-content">

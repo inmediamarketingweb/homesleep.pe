@@ -40,14 +40,24 @@ function Colores({ colorName = "Seleccionar color" }){
 
     return(
         <>
-            <button type='button' className='product-page-color-select button-1 d-flex-center-between margin-right'>
-                <div className='d-flex-center-center gap-5'>
-                    {imageSrc && <img src={imageSrc} alt=''/>}
-                    <p className='text'>{colorName}</p>
-                </div>
+            <div className='product-page-color-select d-flex-column gap-5 margin-right'>
+                <p className='color-color-1 title uppercase'>Color</p>
 
-                <span className="material-icons">keyboard_arrow_down</span>
-            </button>
+                <button type='button' className='button-1 d-flex-center-center gap-10'>
+                    <div className='d-flex'>
+                        {imageSrc && <img src={imageSrc} alt=''/>}
+                    </div>
+
+                    <div className='d-flex-center-center'>
+                        <p className='text'>{colorName}</p>
+                        <span className="material-icons">keyboard_arrow_down</span>
+                    </div>
+                </button>
+            </div>
+
+            {/* <div className='product-page-color-layer'></div> */}
+
+            {/* <div className='product-page-color-modal-container'></div> */}
         </>
     )
 }

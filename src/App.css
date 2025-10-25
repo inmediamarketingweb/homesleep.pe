@@ -506,12 +506,15 @@ button{
     transition: var(--t-200ms-linear) !important;
 }
 
-.button-1:hover{
+.button-1:hover,
+.button-1.active{
     background: var(--color-1);
 }
 
 .button-1:hover p,
-.button-1:hover span{
+.button-1:hover span,
+.button-1.active p,
+.button-1.active span{
     color: var(--white) !important;
 }
 

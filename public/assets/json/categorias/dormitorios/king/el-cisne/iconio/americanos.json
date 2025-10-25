@@ -1,0 +1,284 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas + El Cisne",
+            "modelo": "Iconio",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/iconio/americanos/1/",
+            "nombre": "DORMITORIO KING KAMAS - EL CISNE + COLCHÓN EL CISNE ICONIO + CABECERA AÉREA CAPITONEADO 1 - GRIS",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/iconio/americanos/americanas/capitoneado-1/1/",
+            "precioRegular": 3599,
+            "precioNormal": 2899,
+            "precioVenta": 2149,
+            "stock": 9,
+            "sku": "H3324267N10",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/el-cisne/iconio/americanos/1/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Iconio",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas + El Cisne",
+            "modelo": "Iconio",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/iconio/americanos/2/",
+            "nombre": "DORMITORIO KING KAMAS - EL CISNE + COLCHÓN EL CISNE ICONIO + CABECERA AÉREA CAPITONEADO 1 - IVORY",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/iconio/americanos/americanas/capitoneado-1/2/",
+            "precioRegular": 3599,
+            "precioNormal": 2899,
+            "precioVenta": 2149,
+            "stock": 9,
+            "sku": "H3324267N11",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/el-cisne/iconio/americanos/2/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Iconio",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas + El Cisne",
+            "modelo": "Iconio",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/iconio/americanos/3/",
+            "nombre": "DORMITORIO KING KAMAS - EL CISNE + COLCHÓN EL CISNE ICONIO + CABECERA AÉREA CUADROS 1 - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/iconio/americanos/americanas/cuadros-1/1/",
+            "precioRegular": 3599,
+            "precioNormal": 2899,
+            "precioVenta": 2149,
+            "stock": 9,
+            "sku": "H3324267N12",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/el-cisne/iconio/americanos/3/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Iconio",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "cuadros 1"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas + El Cisne",
+            "modelo": "Iconio",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/iconio/americanos/4/",
+            "nombre": "DORMITORIO KING KAMAS - EL CISNE + COLCHÓN EL CISNE ICONIO + CABECERA AÉREA CUADROS 2 - ARENA CLARO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/iconio/americanos/americanas/cuadros-2/1/",
+            "precioRegular": 3599,
+            "precioNormal": 2899,
+            "precioVenta": 2149,
+            "stock": 9,
+            "sku": "H3324267N13",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/el-cisne/iconio/americanos/4/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Iconio",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "cuadros 2"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas + El Cisne",
+            "modelo": "Iconio",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/iconio/americanos/5/",
+            "nombre": "DORMITORIO KING KAMAS - EL CISNE + COLCHÓN EL CISNE ICONIO + CABECERA AÉREA LINEAL 1 - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/iconio/americanos/americanas/lineal-1/1/",
+            "precioRegular": 3599,
+            "precioNormal": 2899,
+            "precioVenta": 2149,
+            "stock": 9,
+            "sku": "H3324267N14",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "Queen",
+                    "ruta": "/productos/dormitorios/queen/el-cisne/iconio/americanos/5/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Iconio",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 1"
+                }
+            ]
+        }
+    ],
+    "descripciones":[
+        {
+            "titulo": "Cama box tarima",
+            "descripcion":[
+                {
+                    "madera": "Pino americano seco al horno.",
+                    "refuerzos": "centrales y laterales.",
+                    "láminas": "MDF de 3mm.",
+                    "tela": "Piel de potro",
+                    "patas": "Cromadas o de madera",
+                    "garantía": "2 años"
+                }
+            ]
+        },
+        {
+            "titulo": "Colchón",
+            "descripcion":[
+                {
+                    "resortes": "396 bicónicos",
+                    "tela": "Pique",
+                    "tratamiento": "Antihongos, antibacterias y antiácaros",
+                    "tipo-de-uso": "un solo lado",
+                    "tipo-de-resorte": "Pocket",
+                    "marco": "Espuma con densidad 20kg/m3",
+                    "capas": "2 láminas fibra no tejida de 300gr. 2 láminas espuma de poliuretano de 1 1/2 con 18kg/m3 y 2 láminas de poliuretano de 1 1/4 con 16kg/m3",
+                    "sensación": "intermedia",
+                    "garantía": "4 años"
+                }
+            ]
+        },
+        {
+            "titulo": "Cabecera",
+            "descripcion":[
+                {
+                    "madera": "Pino americano seco al horno.",
+                    "espuma": "Zebra de alta densidad",
+                    "láminas": "MDF de 3mm.",
+                    "tela": "Piel de potro",
+                    "patas": "De manera",
+                    "botones": "clásicos o acrílicos",
+                    "garantía": "2 años"
+                }
+            ]
+        }
+    ]
+}

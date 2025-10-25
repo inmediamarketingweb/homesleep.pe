@@ -16,7 +16,7 @@
 
 .benefist-container li span{
     color: var(--color-1);
-    font-size: 32px;
+    font-size: 36px;
 }
 
 @media screen and (max-width: 600px){

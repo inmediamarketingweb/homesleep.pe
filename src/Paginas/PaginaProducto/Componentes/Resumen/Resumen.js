@@ -1,3 +1,5 @@
+import './Resumen.css';
+
 function Resumen({ producto }){
     const propiedadesRequeridas = [
         "marca", 
