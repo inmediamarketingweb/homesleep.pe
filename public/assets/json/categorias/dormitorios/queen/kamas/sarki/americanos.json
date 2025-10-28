@@ -910,53 +910,6 @@
             ]
         },
         {
-            "id": 20,
-            "categoria": "dormitorios",
-            "tamaño": "queen",
-            "marca": "kamas",
-            "modelo": "sarki",
-            "línea": "americanos",
-            "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/20/",
-            "nombre": "DORMITORIO KAMAS QUEEN + COLCHÓN KAMAS SARKI + CABECERA AÉREA ROBLO - ANTIFLUIDO BEIGE",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/aereas-con-patas/bloques/roblo/1/",
-            "precioRegular": 3099,
-            "precioNormal": 2299,
-            "precioVenta": 1399,
-            "stock": 9,
-            "sku": "H3123236N21",
-            "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/20/"
-                }
-            ],
-            "detalles-del-producto":[
-                {
-                    "marca": "Kamas",
-                    "línea": "americanos",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "modelo-de-colchón": "Sarki",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Roblo"
-                }
-            ]
-        },
-        {
             "id": 21,
             "categoria": "dormitorios",
             "tamaño": "queen",
