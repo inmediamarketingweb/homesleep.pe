@@ -3,18 +3,18 @@
         {
             "id": 1,
             "categoria": "dormitorios",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "Kamas + El Cisne",
             "modelo": "pocket",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/1/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA CAPITONEADO - ROJO",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/1/",
+            "nombre": "DORMITORIO QUEEN KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA CAPITONEADO - ROJO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/americanas/capitoneado-1/1/",
-            "precioRegular": 2999,
+            "precioRegular": 2799,
             "precioNormal": 2399,
-            "precioVenta": 1699,
+            "precioVenta": 1399,
             "stock": 9,
-            "sku": "H33242283N10",
+            "sku": "H33232283N10",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -32,15 +32,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/1/"
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/1/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "americanos",
-                    "tamaño": "King",
+                    "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket",
@@ -55,18 +55,18 @@
         {
             "id": 2,
             "categoria": "dormitorios",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "Kamas + El Cisne",
             "modelo": "pocket",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/2/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA EGYPT - VINO",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/2/",
+            "nombre": "DORMITORIO QUEEN KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA EGYPT - VINO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/bloques/egypt/1/",
-            "precioRegular": 2999,
+            "precioRegular": 2799,
             "precioNormal": 2399,
-            "precioVenta": 1699,
+            "precioVenta": 1399,
             "stock": 9,
-            "sku": "H33242286N10",
+            "sku": "H33232286N10",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -84,15 +84,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/2/"
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/2/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "americanos",
-                    "tamaño": "King",
+                    "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket",
@@ -107,18 +107,18 @@
         {
             "id": 3,
             "categoria": "dormitorios",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "Kamas + El Cisne",
             "modelo": "pocket",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/3/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA GRID - PLOMO PLATA",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/3/",
+            "nombre": "DORMITORIO QUEEN KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA GRID - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/bloques/grid/1/",
-            "precioRegular": 2999,
+            "precioRegular": 2799,
             "precioNormal": 2399,
-            "precioVenta": 1699,
+            "precioVenta": 1399,
             "stock": 9,
-            "sku": "H33242286N12",
+            "sku": "H33232286N12",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -136,15 +136,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/3/"
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/3/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "americanos",
-                    "tamaño": "King",
+                    "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket",
@@ -159,18 +159,18 @@
         {
             "id": 4,
             "categoria": "dormitorios",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "Kamas + El Cisne",
             "modelo": "pocket",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/4/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA MONSTER - TEJIDO PLATA",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/4/",
+            "nombre": "DORMITORIO QUEEN KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA MONSTER - TEJIDO PLATA",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/bloques/monster/1/",
-            "precioRegular": 2999,
+            "precioRegular": 2799,
             "precioNormal": 2399,
-            "precioVenta": 1699,
+            "precioVenta": 1399,
             "stock": 9,
-            "sku": "H33242286N13",
+            "sku": "H33232286N13",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -188,15 +188,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/4/"
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/4/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "americanos",
-                    "tamaño": "King",
+                    "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket",
@@ -211,18 +211,18 @@
         {
             "id": 5,
             "categoria": "dormitorios",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "Kamas + El Cisne",
             "modelo": "pocket",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/5/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA OBSIDIAN - ARENA",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/5/",
+            "nombre": "DORMITORIO QUEEN KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA OBSIDIAN - ARENA",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/bloques/obsidian/1/",
-            "precioRegular": 2999,
+            "precioRegular": 2799,
             "precioNormal": 2399,
-            "precioVenta": 1699,
+            "precioVenta": 1399,
             "stock": 9,
-            "sku": "H33242286N14",
+            "sku": "H33232286N14",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -240,15 +240,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/5/"
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/5/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "americanos",
-                    "tamaño": "King",
+                    "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket",
@@ -263,18 +263,18 @@
         {
             "id": 6,
             "categoria": "dormitorios",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "Kamas + El Cisne",
             "modelo": "pocket",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/6/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA REPTILIAN - CUERO NEGRO",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/6/",
+            "nombre": "DORMITORIO QUEEN KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA REPTILIAN - CUERO NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/bloques/reptilian/1/",
-            "precioRegular": 2999,
+            "precioRegular": 2799,
             "precioNormal": 2399,
-            "precioVenta": 1699,
+            "precioVenta": 1399,
             "stock": 9,
-            "sku": "H33242286N15",
+            "sku": "H33232286N15",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -292,15 +292,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/6/"
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/6/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "americanos",
-                    "tamaño": "King",
+                    "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket",
@@ -315,18 +315,18 @@
         {
             "id": 7,
             "categoria": "dormitorios",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "Kamas + El Cisne",
             "modelo": "pocket",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/7/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA SYDNEY - TEJIDO CHOCOLATE",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/7/",
+            "nombre": "DORMITORIO QUEEN KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA SYDNEY - TEJIDO CHOCOLATE",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/bloques/sydney/1/",
-            "precioRegular": 2999,
+            "precioRegular": 2799,
             "precioNormal": 2399,
-            "precioVenta": 1699,
+            "precioVenta": 1399,
             "stock": 9,
-            "sku": "H33242286N16",
+            "sku": "H33232286N16",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -344,15 +344,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/7/"
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/7/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "americanos",
-                    "tamaño": "King",
+                    "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket",
@@ -367,18 +367,18 @@
         {
             "id": 8,
             "categoria": "dormitorios",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "Kamas + El Cisne",
             "modelo": "pocket",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/8/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA TORTUN - TEJIDO CHAMPAGNE",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/8/",
+            "nombre": "DORMITORIO QUEEN KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA TORTUN - TEJIDO CHAMPAGNE",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/bloques/tortun/1/",
-            "precioRegular": 2999,
+            "precioRegular": 2799,
             "precioNormal": 2399,
-            "precioVenta": 1699,
+            "precioVenta": 1399,
             "stock": 9,
-            "sku": "H33242286N17",
+            "sku": "H33232286N17",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -396,15 +396,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/8/"
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/8/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "americanos",
-                    "tamaño": "King",
+                    "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket",
@@ -419,18 +419,18 @@
         {
             "id": 9,
             "categoria": "dormitorios",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "Kamas + El Cisne",
             "modelo": "pocket",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/9/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA TORTUN - TEJIDO NEGRO",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/9/",
+            "nombre": "DORMITORIO QUEEN KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA TORTUN - TEJIDO NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/bloques/tortun/2/",
-            "precioRegular": 2999,
+            "precioRegular": 2799,
             "precioNormal": 2399,
-            "precioVenta": 1699,
+            "precioVenta": 1399,
             "stock": 9,
-            "sku": "H33242286N18",
+            "sku": "H33232286N18",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -448,15 +448,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/9/"
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/9/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "americanos",
-                    "tamaño": "King",
+                    "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket",
@@ -471,18 +471,18 @@
         {
             "id": 10,
             "categoria": "dormitorios",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "Kamas + El Cisne",
             "modelo": "pocket",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/10/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA VIENA - CUERO NEGRO",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/10/",
+            "nombre": "DORMITORIO QUEEN KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA VIENA - CUERO NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/bloques/viena/1/",
-            "precioRegular": 2999,
+            "precioRegular": 2799,
             "precioNormal": 2399,
-            "precioVenta": 1699,
+            "precioVenta": 1399,
             "stock": 9,
-            "sku": "H33242286N19",
+            "sku": "H33232286N19",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -500,15 +500,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/10/"
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/10/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "americanos",
-                    "tamaño": "King",
+                    "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket",
@@ -523,18 +523,18 @@
         {
             "id": 11,
             "categoria": "dormitorios",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "Kamas + El Cisne",
             "modelo": "pocket",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/11/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA YACU - CUERO CAMEL",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/11/",
+            "nombre": "DORMITORIO QUEEN KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA YACU - CUERO CAMEL",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/bloques/yacu/1/",
-            "precioRegular": 2999,
+            "precioRegular": 2799,
             "precioNormal": 2399,
-            "precioVenta": 1699,
+            "precioVenta": 1399,
             "stock": 9,
-            "sku": "H33242286N20",
+            "sku": "H33232286N20",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -552,15 +552,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/11/"
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/11/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "americanos",
-                    "tamaño": "King",
+                    "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket",
@@ -575,18 +575,18 @@
         {
             "id": 12,
             "categoria": "dormitorios",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "Kamas + El Cisne",
             "modelo": "pocket",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/12/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA - CUERO NEGRO",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/12/",
+            "nombre": "DORMITORIO QUEEN KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA - CUERO NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/coronas/otros-modelos/1/",
-            "precioRegular": 2999,
+            "precioRegular": 2799,
             "precioNormal": 2399,
-            "precioVenta": 1699,
+            "precioVenta": 1399,
             "stock": 9,
-            "sku": "H33242286N21",
+            "sku": "H33232286N21",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -604,15 +604,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/12/"
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/12/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "americanos",
-                    "tamaño": "King",
+                    "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket",
@@ -627,18 +627,18 @@
         {
             "id": 13,
             "categoria": "dormitorios",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "Kamas + El Cisne",
             "modelo": "pocket",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/13/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA PEDESTAL PRINCESA + PIECERA - CHAMPAGNE",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/13/",
+            "nombre": "DORMITORIO QUEEN KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA PEDESTAL PRINCESA + PIECERA - CHAMPAGNE",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/coronas/princesa/1/",
-            "precioRegular": 3999,
-            "precioNormal": 3299,
-            "precioVenta": 2299,
+            "precioRegular": 3799,
+            "precioNormal": 3099,
+            "precioVenta": 2099,
             "stock": 9,
-            "sku": "H33242285N10",
+            "sku": "H33232285N10",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -656,15 +656,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/13/"
+                    "nombre": "King",
+                    "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/13/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "americanos",
-                    "tamaño": "King",
+                    "tamaño": "Queen",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket",
