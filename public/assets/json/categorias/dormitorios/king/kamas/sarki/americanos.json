@@ -910,53 +910,6 @@
             ]
         },
         {
-            "id": 20,
-            "categoria": "dormitorios",
-            "tamaño": "king",
-            "marca": "kamas",
-            "modelo": "sarki",
-            "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/20/",
-            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA ROBLO - ANTIFLUIDO BEIGE",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/aereas-con-patas/bloques/roblo/1/",
-            "precioRegular": 2999,
-            "precioNormal": 2499,
-            "precioVenta": 1599,
-            "stock": 9,
-            "sku": "H3124236N21",
-            "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/kamas/sarki/americanos/20/"
-                }
-            ],
-            "detalles-del-producto":[
-                {
-                    "marca": "Kamas",
-                    "línea": "americanos",
-                    "tamaño": "King",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "modelo-de-colchón": "Sarki",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Roblo"
-                }
-            ]
-        },
-        {
             "id": 21,
             "categoria": "dormitorios",
             "tamaño": "king",
@@ -1105,7 +1058,7 @@
             "modelo": "sarki",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/24/",
-            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA YACU - CUERO NEGRO",
+            "nombre": "DORMITORIO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA - CUERO NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/aereas-con-patas/bloques/otros-modelos/1/",
             "precioRegular": 2999,
             "precioNormal": 2499,
