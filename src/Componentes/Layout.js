@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 
-import Layer from './Layer/Layer';
+// import Layer from './Layer/Layer';
 import Header from './Header/Header';
 import CursorAnimation from './CursorAnimation/CursorAnimation';
 import Footer from './Footer/Footer';
@@ -10,7 +10,7 @@ function Layout(){
         <>
             <CursorAnimation/>
 
-            <Layer/>
+            {/* <Layer/> */}
 
             <Header/>
 
