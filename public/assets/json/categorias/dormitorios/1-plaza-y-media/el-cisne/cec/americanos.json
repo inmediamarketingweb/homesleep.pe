@@ -3,18 +3,18 @@
         {
             "id": 1,
             "categoria": "dormitorios",
-            "tamaño": "2 plazas",
+            "tamaño": "1 plaza y media",
             "marca": "Kamas + El Cisne",
             "modelo": "CEC",
             "línea": "Americanos",
-            "ruta": "/productos/dormitorios/2-plazas/el-cisne/cec/americanos/1/",
-            "nombre": "DORMITORIO 2 PLAZAS KAMAS / EL CISNE + COLCHÓN EL CISNE CEC + CABECERA AÉREA CAPITONEADO 1 - ARENA OSCURO",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/cec/americanos/1/",
+            "nombre": "DORMITORIO 1 PLAZA Y MEDIA KAMAS / EL CISNE + COLCHÓN EL CISNE CEC + CABECERA AÉREA CAPITONEADO 1 - ARENA OSCURO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/el-cisne/cec/americanos/americanas/capitoneado-1/1/",
-            "precioRegular": 1999,
-            "precioNormal": 1499,
-            "precioVenta": 799,
+            "precioRegular": 1899,
+            "precioNormal": 1399,
+            "precioVenta": 699,
             "stock": 9,
-            "sku": "H3322213N10",
+            "sku": "H33215213N10",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -24,15 +24,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "1 plaza y media",
-                    "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/cec/americanos/1/"
+                    "nombre": "2 plazas",
+                    "ruta": "/productos/dormitorios/2-plazas/el-cisne/cec/americanos/1/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "Americanos",
-                    "tamaño": "2 plazas",
+                    "tamaño": "1 plaza y media",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "cec",
@@ -46,18 +46,18 @@
         {
             "id": 2,
             "categoria": "dormitorios",
-            "tamaño": "2 plazas",
+            "tamaño": "1 plaza y media",
             "marca": "Kamas + El Cisne",
             "modelo": "CEC",
             "línea": "Americanos",
-            "ruta": "/productos/dormitorios/2-plazas/el-cisne/cec/americanos/2/",
-            "nombre": "DORMITORIO 2 PLAZAS KAMAS / EL CISNE + COLCHÓN EL CISNE CEC + CABECERA AÉREA CAPITONEADO 1 - UVA",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/cec/americanos/2/",
+            "nombre": "DORMITORIO 1 PLAZA Y MEDIA KAMAS / EL CISNE + COLCHÓN EL CISNE CEC + CABECERA AÉREA CAPITONEADO 1 - UVA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/el-cisne/cec/americanos/americanas/capitoneado-1/2/",
-            "precioRegular": 1999,
-            "precioNormal": 1499,
-            "precioVenta": 799,
+            "precioRegular": 1899,
+            "precioNormal": 1399,
+            "precioVenta": 699,
             "stock": 9,
-            "sku": "H3322213N11",
+            "sku": "H33215213N11",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -67,15 +67,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "1 plaza y media",
-                    "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/cec/americanos/2/"
+                    "nombre": "2 plazas",
+                    "ruta": "/productos/dormitorios/2-plazas/el-cisne/cec/americanos/2/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "Americanos",
-                    "tamaño": "2 plazas",
+                    "tamaño": "1 plaza y media",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "cec",
@@ -89,18 +89,18 @@
         {
             "id": 3,
             "categoria": "dormitorios",
-            "tamaño": "2 plazas",
+            "tamaño": "1 plaza y media",
             "marca": "Kamas + El Cisne",
             "modelo": "CEC",
             "línea": "Americanos",
-            "ruta": "/productos/dormitorios/2-plazas/el-cisne/cec/americanos/3/",
-            "nombre": "DORMITORIO 2 PLAZAS KAMAS / EL CISNE + COLCHÓN EL CISNE CEC + CABECERA AÉREA PEDESTAL CORONA - CHOCOLATE",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/cec/americanos/3/",
+            "nombre": "DORMITORIO 1 PLAZA Y MEDIA KAMAS / EL CISNE + COLCHÓN EL CISNE CEC + CABECERA AÉREA PEDESTAL CORONA - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/el-cisne/cec/americanos/coronas/princesa/1/",
-            "precioRegular": 2149,
-            "precioNormal": 1649,
-            "precioVenta": 949,
+            "precioRegular": 2049,
+            "precioNormal": 1549,
+            "precioVenta": 849,
             "stock": 9,
-            "sku": "H3322215N10",
+            "sku": "H33215215N10",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -110,15 +110,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "1 plaza y media",
-                    "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/cec/americanos/3/"
+                    "nombre": "2 plazas",
+                    "ruta": "/productos/dormitorios/2-plazas/el-cisne/cec/americanos/3/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "Americanos",
-                    "tamaño": "2 plazas",
+                    "tamaño": "1 plaza y media",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "cec",
@@ -132,18 +132,18 @@
         {
             "id": 4,
             "categoria": "dormitorios",
-            "tamaño": "2 plazas",
+            "tamaño": "1 plaza y media",
             "marca": "Kamas + El Cisne",
             "modelo": "CEC",
             "línea": "Americanos",
-            "ruta": "/productos/dormitorios/2-plazas/el-cisne/cec/americanos/4/",
-            "nombre": "DORMITORIO 2 PLAZAS KAMAS / EL CISNE + COLCHÓN EL CISNE CEC + CABECERA AÉREA PEDESTAL CORONA - DURAZNO PLATA",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/cec/americanos/4/",
+            "nombre": "DORMITORIO 1 PLAZA Y MEDIA KAMAS / EL CISNE + COLCHÓN EL CISNE CEC + CABECERA AÉREA PEDESTAL CORONA - DURAZNO PLATA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/el-cisne/cec/americanos/coronas/princesa/2/",
-            "precioRegular": 2149,
-            "precioNormal": 1649,
-            "precioVenta": 949,
+            "precioRegular": 2049,
+            "precioNormal": 1549,
+            "precioVenta": 849,
             "stock": 9,
-            "sku": "H3322215N11",
+            "sku": "H33215215N11",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -153,15 +153,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "1 plaza y media",
-                    "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/cec/americanos/4/"
+                    "nombre": "2 plazas",
+                    "ruta": "/productos/dormitorios/2-plazas/el-cisne/cec/americanos/4/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "Americanos",
-                    "tamaño": "2 plazas",
+                    "tamaño": "1 plaza y media",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "cec",
@@ -175,18 +175,18 @@
         {
             "id": 5,
             "categoria": "dormitorios",
-            "tamaño": "2 plazas",
+            "tamaño": "1 plaza y media",
             "marca": "Kamas + El Cisne",
             "modelo": "CEC",
             "línea": "Americanos",
-            "ruta": "/productos/dormitorios/2-plazas/el-cisne/cec/americanos/5/",
-            "nombre": "DORMITORIO 2 PLAZAS KAMAS / EL CISNE + COLCHÓN EL CISNE CEC + CABECERA AÉREA PRINCESA - ARENA OSCURO",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/cec/americanos/5/",
+            "nombre": "DORMITORIO 1 PLAZA Y MEDIA KAMAS / EL CISNE + COLCHÓN EL CISNE CEC + CABECERA AÉREA PRINCESA - ARENA OSCURO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/el-cisne/cec/americanos/coronas/princesa/3/",
-            "precioRegular": 1999,
-            "precioNormal": 1499,
-            "precioVenta": 799,
+            "precioRegular": 1899,
+            "precioNormal": 1399,
+            "precioVenta": 699,
             "stock": 9,
-            "sku": "H3322213N12",
+            "sku": "H33215213N12",
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
@@ -196,15 +196,15 @@
             ],
             "tamaños-disponibles":[
                 {
-                    "nombre": "1 plaza y media",
-                    "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/cec/americanos/5/"
+                    "nombre": "2 plazas",
+                    "ruta": "/productos/dormitorios/2-plazas/el-cisne/cec/americanos/5/"
                 }
             ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
                     "línea": "Americanos",
-                    "tamaño": "2 plazas",
+                    "tamaño": "1 plaza y media",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "cec",
