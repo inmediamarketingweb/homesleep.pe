@@ -142,6 +142,10 @@
         "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/argus/americanos-con-cajones.json",
         "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/argus/europeos.json",
 
+        "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/cec/americanos.json",
+        "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/cec/americanos-con-cajones.json",
+        "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/cec/europeos.json",
+
         "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/adel/americanos.json",
 
         "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/rucay/americanos.json",
@@ -161,6 +165,8 @@
         "/assets/json/categorias/dormitorios/2-plazas/el-cisne/argus/europeos.json",
 
         "/assets/json/categorias/dormitorios/2-plazas/el-cisne/cec/americanos.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/cec/americanos-con-cajones.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/cec/europeos.json",
 
 
 
