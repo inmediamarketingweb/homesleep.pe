@@ -43,13 +43,13 @@
         {
             "modelos":[
                 {
-                    "el-cisne":["Pocket", "Pocket plus", "Cisne CEC", "Argus", "RC-418", "RC-456", "Presence pillow", "RC-608", "Argus pocket", "Iconio", "Dynamic", "Valente", "Element"]
+                    "el-cisne":["Pocket", "Pocket plus", "CEC", "Argus", "RC-418", "RC-456", "Presence pillow", "RC-608", "Argus pocket", "Iconio", "Dynamic", "Valente", "Element"]
                 },
                 {
                     "kamas":["Adel", "Rucay", "Sarki", "Safynnte", "Der prinz", "Thameo pocket", "Ramat", "Nesie", "Norole", "Thaleo pocket", "Konig", "Yurmale"]
                 },
                 {
-                    "paraiso":["Su majestad", "Consul black", "Majestic", "Cancun", "Consul plus", "Eden plus", "Tropical ergo", "Medallon ergosoft", "Su majestad de lujo", "Pocket italiano", "Super star", "Super star negro", "Pocket star", "Royal prince", "Royal elizabeth", "Royal dynasty", "Royal cloud", "Abrazzo"]
+                    "paraiso":["Su majestad", "Consul black", "Majestic", "Cancun", "Consul plus", "Eden plus", "Tropical ergo", "Medallon ergosoft", "Su majestad de lujo", "Pocket italiano", "Super star", "Super star negro", "Pocket star", "Royal prince", "Royal elizabeth", "Royal dynasty", "Royal cloud", "Royal abrazzo"]
                 },
                 {
                     "komfort":["Saphir"]
