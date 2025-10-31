@@ -1,0 +1,98 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + El Cisne",
+            "modelo": "presence",
+            "línea": "europeos",
+            "ruta": "/productos/dormitorios/2-plazas/el-cisne/presence/europeos/1/",
+            "nombre": "DORMITORIO 2 PLAZAS KAMAS / EL CISNE + COLCHÓN EL CISNE PRESENCE + CABECERA AÉREA CAPITONEADO 1 - VINO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/el-cisne/presence/europeos/americanas/capitoneado-1/1/",
+            "precioRegular": 2399,
+            "precioNormal": 1999,
+            "precioVenta": 1199,
+            "stock": 9,
+            "sku": "H3332243N10",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "1 plaza y media",
+                    "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/presence/europeos/1/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "europeos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "presence",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        }
+    ],
+    "descripciones":[
+        {
+            "titulo": "Cama box tarima",
+            "descripcion":[
+                {
+                    "madera": "Pino americano seco al horno.",
+                    "refuerzos": "centrales y laterales.",
+                    "láminas": "MDF de 3mm.",
+                    "tela": "Piel de potro",
+                    "patas": "Cromadas o de madera",
+                    "garantía": "2 años"
+                }
+            ]
+        },
+        {
+            "titulo": "Colchón",
+            "descripcion":[
+                {
+                    "resortes": "231 bicónicos",
+                    "tela-superior": "pique",
+                    "espuma": "poliuretano de 1 1/2'",
+                    "soporte": "60kg por persona",
+                    "tipo-de-uso": "ambos lados",
+                    "marco": "de espuma de poliuretano",
+                    "banda": "tela tricop",
+                    "nivel-de-confort": "intermedio",
+                    "grosor": "21 cm",
+                    "sensación": "intermedia",
+                    "garantía": "2 años"
+                }
+            ]
+        },
+        {
+            "titulo": "Cabecera",
+            "descripcion":[
+                {
+                    "madera": "Pino americano seco al horno.",
+                    "espuma": "Zebra de alta densidad",
+                    "láminas": "MDF de 3mm.",
+                    "tela": "Piel de potro",
+                    "patas": "De manera",
+                    "botones": "clásicos o acrílicos",
+                    "garantía": "2 años"
+                }
+            ]
+        }
+    ]
+}
