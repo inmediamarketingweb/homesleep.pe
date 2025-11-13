@@ -9,7 +9,7 @@
             "línea": "americanos",
             "ruta": "/productos/dormitorios/2-plazas/kamas/rucay/americanos/1/",
             "nombre": "DORMITORIO KAMAS 2 PLAZAS + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - UVA",
-            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/1/",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/corona/1/",
             "precioRegular": 2189,
             "precioNormal": 1689,
             "precioVenta": 989,
@@ -18,7 +18,7 @@
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
-                    "texto": "1 almohada",
+                    "texto": "2 almohadas",
                     "foto": "/assets/imagenes/productos/almohada.webp"
                 }
             ],
@@ -56,7 +56,7 @@
             "línea": "americanos",
             "ruta": "/productos/dormitorios/2-plazas/kamas/rucay/americanos/2/",
             "nombre": "DORMITORIO KAMAS 2 PLAZAS + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - VINO",
-            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/2/",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/corona/2/",
             "precioRegular": 2189,
             "precioNormal": 1689,
             "precioVenta": 989,
@@ -65,7 +65,7 @@
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
-                    "texto": "1 almohada",
+                    "texto": "2 almohadas",
                     "foto": "/assets/imagenes/productos/almohada.webp"
                 }
             ],
@@ -102,8 +102,8 @@
             "modelo": "rucay",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/2-plazas/kamas/rucay/americanos/3/",
-            "nombre": "DORMITORIO KAMAS 2 PLAZAS + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - ROJO",
-            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/3/",
+            "nombre": "DORMITORIO KAMAS 2 PLAZAS + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - VERDE CERCETA",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/corona/3/",
             "precioRegular": 2189,
             "precioNormal": 1689,
             "precioVenta": 989,
@@ -112,7 +112,7 @@
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
-                    "texto": "1 almohada",
+                    "texto": "2 almohadas",
                     "foto": "/assets/imagenes/productos/almohada.webp"
                 }
             ],
@@ -150,7 +150,7 @@
             "línea": "americanos",
             "ruta": "/productos/dormitorios/2-plazas/kamas/rucay/americanos/4/",
             "nombre": "DORMITORIO KAMAS 2 PLAZAS + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - VERDE LORO",
-            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/4/",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/corona/4/",
             "precioRegular": 2189,
             "precioNormal": 1689,
             "precioVenta": 989,
@@ -159,7 +159,7 @@
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
-                    "texto": "1 almohada",
+                    "texto": "2 almohadas",
                     "foto": "/assets/imagenes/productos/almohada.webp"
                 }
             ],
@@ -197,7 +197,7 @@
             "línea": "americanos",
             "ruta": "/productos/dormitorios/2-plazas/kamas/rucay/americanos/5/",
             "nombre": "DORMITORIO KAMAS 2 PLAZAS + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - CHOCOLATE",
-            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/5/",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/corona/5/",
             "precioRegular": 2189,
             "precioNormal": 1689,
             "precioVenta": 989,
@@ -206,7 +206,7 @@
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
-                    "texto": "1 almohada",
+                    "texto": "2 almohadas",
                     "foto": "/assets/imagenes/productos/almohada.webp"
                 }
             ],
@@ -253,7 +253,7 @@
             "tipo-de-envio": "Gratis",
             "regalos":[
                 {
-                    "texto": "1 almohada",
+                    "texto": "2 almohadas",
                     "foto": "/assets/imagenes/productos/almohada.webp"
                 }
             ],
