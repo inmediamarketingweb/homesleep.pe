@@ -1,0 +1,92 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "tamaño": "1 plaza  y media",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/europeos/1/",
+            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/europeos/americanas/capitoneado-1/1/",
+            "precioRegular": 2499,
+            "precioNormal": 1999,
+            "precioVenta": 1199,
+            "stock": 9,
+            "sku": "H31315273N10",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "1 almohada",
+                    "foto": "/assets/imagenes/productos/almohada.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "2 plazas",
+                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/europeos/1/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "europeos",
+                    "tamaño": "1 plaza  y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "ramat",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        }
+    ],
+    "descripciones":[
+        {
+            "titulo": "Cama box tarima",
+            "descripcion":[
+                {
+                    "madera": "Pino americano seco al horno.",
+                    "refuerzos": "centrales y laterales.",
+                    "cajones": "melamina 18mm",
+                    "rieles": "telescópicos pesados",
+                    "material-de-cajones": "melamina",
+                    "láminas": "MDF de 3mm.",
+                    "tela": "Piel de potro",
+                    "patas": "Cromadas o de madera",
+                    "garantía": "2 años"
+                }
+            ]
+        },
+        {
+            "titulo": "Colchón",
+            "descripcion":[
+                {
+                    "resortes": "12 filas en forma vertical",
+                    "tela": "Tricop",
+                    "densidad-de-la-espuma": "16kg/m3",
+                    "tipo-de-uso": "Ambos lados",
+                    "soporte-de-peso": "65kg. por persona",
+                    "garantía": "1 año"
+                }
+            ]
+        },
+        {
+            "titulo": "Cabecera",
+            "descripcion":[
+                {
+                    "madera": "Pino americano seco al horno.",
+                    "espuma": "Zebra de alta densidad",
+                    "láminas": "MDF de 3mm.",
+                    "tela": "Piel de potro",
+                    "patas": "De manera",
+                    "botones": "clásicos o acrílicos",
+                    "garantía": "2 años"
+                }
+            ]
+        }
+    ]
+}
