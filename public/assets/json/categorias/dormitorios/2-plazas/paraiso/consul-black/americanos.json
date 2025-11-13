@@ -4,7 +4,7 @@
             "id": 1,
             "categoria": "dormitorios",
             "tamaño": "2 plazas",
-            "marca": "Kamas / Paraiso",
+            "marca": "Kamas + Paraiso",
             "modelo": "consul black",
             "línea": "Americanos",
             "ruta": "/productos/dormitorios/2-plazas/paraiso/consul-black/americanos/1/",
@@ -47,7 +47,7 @@
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Lineal 1"
+                    "modelo-de-cabecera": "Lunar"
                 }
             ]
         },
@@ -55,7 +55,7 @@
             "id": 2,
             "categoria": "dormitorios",
             "tamaño": "2 plazas",
-            "marca": "Kamas / Paraiso",
+            "marca": "Kamas + Paraiso",
             "modelo": "consul black",
             "línea": "Americanos",
             "ruta": "/productos/dormitorios/2-plazas/paraiso/consul-black/americanos/2/",
@@ -98,7 +98,160 @@
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Lineal 1"
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Paraiso",
+            "modelo": "consul black",
+            "línea": "Americanos",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/consul-black/americanos/3/",
+            "nombre": "DORMITORIO 2 PLAZAS KAMAS / PARAISO + COLCHÓN PARAISO CONSUL BLACK + CABECERA PEDESTAL LUNAR - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/consul-black/americanos/pedestales/coronas/lunar/3/",
+            "precioRegular": 1999,
+            "precioNormal": 1499,
+            "precioVenta": 849,
+            "stock": 9,
+            "sku": "H3222255N12",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "1 plaza y media",
+                    "ruta": "/productos/dormitorios/1-plaza-y-media/paraiso/consul-black/americanos/3/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Consul black",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Paraiso",
+            "modelo": "consul black",
+            "línea": "Americanos",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/consul-black/americanos/4/",
+            "nombre": "DORMITORIO 2 PLAZAS KAMAS / PARAISO + COLCHÓN PARAISO CONSUL BLACK + CABECERA PEDESTAL LUNAR - VERDE OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/consul-black/americanos/pedestales/coronas/lunar/4/",
+            "precioRegular": 1999,
+            "precioNormal": 1499,
+            "precioVenta": 849,
+            "stock": 9,
+            "sku": "H3222255N13",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "1 plaza y media",
+                    "ruta": "/productos/dormitorios/1-plaza-y-media/paraiso/consul-black/americanos/4/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Consul black",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Lunar"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Paraiso",
+            "modelo": "consul black",
+            "línea": "Americanos",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/consul-black/americanos/5/",
+            "nombre": "DORMITORIO 2 PLAZAS KAMAS / PARAISO + COLCHÓN PARAISO CONSUL BLACK + CABECERA PEDESTAL LUNAR - LILA BEBÉ",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/consul-black/americanos/pedestales/coronas/lunar/5/",
+            "precioRegular": 1999,
+            "precioNormal": 1499,
+            "precioVenta": 849,
+            "stock": 9,
+            "sku": "H3222255N14",
+            "tipo-de-envio": "Gratis",
+            "regalos":[
+                {
+                    "texto": "3 cojines",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "2 almohadas",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                },
+                {
+                    "texto": "1 puff",
+                    "foto": "/assets/imagenes/productos/almohadas.webp"
+                }
+            ],
+            "tamaños-disponibles":[
+                {
+                    "nombre": "1 plaza y media",
+                    "ruta": "/productos/dormitorios/1-plaza-y-media/paraiso/consul-black/americanos/5/"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Consul black",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Lunar"
                 }
             ]
         }
