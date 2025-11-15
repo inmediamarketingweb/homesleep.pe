@@ -4,12 +4,12 @@
             "id": 1,
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Kamas / Paraiso",
-            "modelo": "su majestad",
+            "marca": "Kamas + Paraiso",
+            "modelo": "su majestad de lujo",
             "línea": "americanas",
-            "ruta": "/productos/dormitorios/king/paraiso/su-majestad/americanos/1/",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/1/",
             "nombre": "DORMITORIO KING KAMAS / PARAISO + COLCHÓN PARAISO SU MAJESTAD + CABECERA AÉREA CUADROS 1 - CHOCOLATE",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/aereas-con-patas/americanas/cuadros-1/1/",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/americanas/cuadros-1/1/",
             "precioRegular": 2949,
             "precioNormal": 2349,
             "precioVenta": 1649,
@@ -33,7 +33,7 @@
             "tamaños-disponibles":[
                 {
                     "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad/americanos/1/"
+                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad-de-lujo/americanos/1/"
                 }
             ],
             "detalles-del-producto":[
@@ -43,7 +43,7 @@
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
-                    "modelo-de-colchón": "Su majestad",
+                    "modelo-de-colchón": "Su majestad de lujo",
                     "resortes": "Cosisoft",
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "americana",
@@ -56,12 +56,12 @@
             "id": 2,
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Kamas / Paraiso",
-            "modelo": "su majestad",
+            "marca": "Kamas + Paraiso",
+            "modelo": "su majestad de lujo",
             "línea": "americanas",
-            "ruta": "/productos/dormitorios/king/paraiso/su-majestad/americanos/2/",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/2/",
             "nombre": "DORMITORIO KING KAMAS / PARAISO + COLCHÓN PARAISO SU MAJESTAD + CABECERA AÉREA CUADROS 2 - CENIZO",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/aereas-con-patas/americanas/cuadros-2/1/",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/americanas/cuadros-2/1/",
             "precioRegular": 2949,
             "precioNormal": 2349,
             "precioVenta": 1649,
@@ -85,7 +85,7 @@
             "tamaños-disponibles":[
                 {
                     "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad/americanos/2/"
+                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad-de-lujo/americanos/2/"
                 }
             ],
             "detalles-del-producto":[
@@ -95,7 +95,7 @@
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
-                    "modelo-de-colchón": "Su majestad",
+                    "modelo-de-colchón": "Su majestad de lujo",
                     "resortes": "Cosisoft",
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "americana",
@@ -108,12 +108,12 @@
             "id": 3,
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Kamas / Paraiso",
-            "modelo": "su majestad",
+            "marca": "Kamas + Paraiso",
+            "modelo": "su majestad de lujo",
             "línea": "americanas",
-            "ruta": "/productos/dormitorios/king/paraiso/su-majestad/americanos/3/",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/3/",
             "nombre": "DORMITORIO KING KAMAS / PARAISO + COLCHÓN PARAISO SU MAJESTAD + CABECERA AÉREA LINEAL 1 - UVA",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/aereas-con-patas/americanas/lineal-1/1/",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/americanas/lineal-1/1/",
             "precioRegular": 2949,
             "precioNormal": 2349,
             "precioVenta": 1649,
@@ -137,7 +137,7 @@
             "tamaños-disponibles":[
                 {
                     "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad/americanos/3/"
+                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad-de-lujo/americanos/3/"
                 }
             ],
             "detalles-del-producto":[
@@ -147,7 +147,7 @@
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
-                    "modelo-de-colchón": "Su majestad",
+                    "modelo-de-colchón": "Su majestad de lujo",
                     "resortes": "Cosisoft",
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "americana",
@@ -160,12 +160,12 @@
             "id": 4,
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Kamas / Paraiso",
-            "modelo": "su majestad",
+            "marca": "Kamas + Paraiso",
+            "modelo": "su majestad de lujo",
             "línea": "americanas",
-            "ruta": "/productos/dormitorios/king/paraiso/su-majestad/americanos/4/",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/4/",
             "nombre": "DORMITORIO KING KAMAS / PARAISO + COLCHÓN PARAISO SU MAJESTAD + CABECERA AÉREA LINEAL HORI - PLATA",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/aereas-con-patas/americanas/lineal-hori/1/",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/americanas/lineal-hori/1/",
             "precioRegular": 2949,
             "precioNormal": 2349,
             "precioVenta": 1649,
@@ -189,7 +189,7 @@
             "tamaños-disponibles":[
                 {
                     "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad/americanos/4/"
+                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad-de-lujo/americanos/4/"
                 }
             ],
             "detalles-del-producto":[
@@ -199,7 +199,7 @@
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
-                    "modelo-de-colchón": "Su majestad",
+                    "modelo-de-colchón": "Su majestad de lujo",
                     "resortes": "Cosisoft",
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "americana",
@@ -212,12 +212,12 @@
             "id": 5,
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Kamas / Paraiso",
-            "modelo": "su majestad",
+            "marca": "Kamas + Paraiso",
+            "modelo": "su majestad de lujo",
             "línea": "americanas",
-            "ruta": "/productos/dormitorios/king/paraiso/su-majestad/americanos/5/",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/5/",
             "nombre": "DORMITORIO KING KAMAS / PARAISO + COLCHÓN PARAISO SU MAJESTAD + CABECERA AÉREA RECTANGULAR 1 - CUERO NEGRO",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/aereas-con-patas/americanas/rectangular-1/1/",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/americanas/rectangular-1/1/",
             "precioRegular": 2949,
             "precioNormal": 2349,
             "precioVenta": 1649,
@@ -241,7 +241,7 @@
             "tamaños-disponibles":[
                 {
                     "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad/americanos/5/"
+                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad-de-lujo/americanos/5/"
                 }
             ],
             "detalles-del-producto":[
@@ -251,7 +251,7 @@
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
-                    "modelo-de-colchón": "Su majestad",
+                    "modelo-de-colchón": "Su majestad de lujo",
                     "resortes": "Cosisoft",
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "americana",
@@ -264,12 +264,12 @@
             "id": 6,
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Kamas / Paraiso",
-            "modelo": "su majestad",
+            "marca": "Kamas + Paraiso",
+            "modelo": "su majestad de lujo",
             "línea": "americanas",
-            "ruta": "/productos/dormitorios/king/paraiso/su-majestad/americanos/6/",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/6/",
             "nombre": "DORMITORIO KING KAMAS / PARAISO + COLCHÓN PARAISO SU MAJESTAD + CABECERA PEDESTAL CAPITONEADO 1 - ARENA OSCURO",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/pedestales/americanas/capitoneado-1/1/",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/americanas/capitoneado-1/1/",
             "precioRegular": 3349,
             "precioNormal": 2799,
             "precioVenta": 1999,
@@ -293,7 +293,7 @@
             "tamaños-disponibles":[
                 {
                     "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad/americanos/6/"
+                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad-de-lujo/americanos/6/"
                 }
             ],
             "detalles-del-producto":[
@@ -303,7 +303,7 @@
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
-                    "modelo-de-colchón": "Su majestad",
+                    "modelo-de-colchón": "Su majestad de lujo",
                     "resortes": "Cosisoft",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "americana",
@@ -316,12 +316,12 @@
             "id": 7,
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Kamas / Paraiso",
-            "modelo": "su majestad",
+            "marca": "Kamas + Paraiso",
+            "modelo": "su majestad de lujo",
             "línea": "americanas",
-            "ruta": "/productos/dormitorios/king/paraiso/su-majestad/americanos/7/",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/7/",
             "nombre": "DORMITORIO KING KAMAS / PARAISO + COLCHÓN PARAISO SU MAJESTAD + CABECERA PEDESTAL VESSO - ROJO",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/pedestales/coronas/capitoneado-1/1/",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/americanos/coronas/capitoneado-1/1/",
             "precioRegular": 3499,
             "precioNormal": 2949,
             "precioVenta": 2149,
@@ -345,7 +345,7 @@
             "tamaños-disponibles":[
                 {
                     "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad/americanos/7/"
+                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad-de-lujo/americanos/7/"
                 }
             ],
             "detalles-del-producto":[
@@ -355,7 +355,7 @@
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
-                    "modelo-de-colchón": "Su majestad",
+                    "modelo-de-colchón": "Su majestad de lujo",
                     "resortes": "Cosisoft",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Corona",

@@ -4,12 +4,12 @@
             "id": 1,
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Kamas / Paraiso",
-            "modelo": "su majestad",
+            "marca": "Kamas + Paraiso",
+            "modelo": "su majestad de lujo",
             "línea": "europeos",
-            "ruta": "/productos/dormitorios/king/paraiso/su-majestad/europeos-con-cajones/1/",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/europeos-con-cajones/1/",
             "nombre": "DORMITORIO KING KAMAS / PARAISO CON 4 CAJONES + COLCHÓN PARAISO SU MAJESTAD + CABECERA PEDESTAL CAPITONEADO - CHOCOLATE",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/europeos-con-cajones/pedestales/americanas/capitoneado-1/1/",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/europeos-con-cajones/americanas/capitoneado-1/1/",
             "precioRegular": 3999,
             "precioNormal": 3499,
             "precioVenta": 2329,
@@ -33,7 +33,7 @@
             "tamaños-disponibles":[
                 {
                     "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad/europeos-con-cajones/1/"
+                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad-de-lujo/europeos-con-cajones/1/"
                 }
             ],
             "detalles-del-producto":[
@@ -43,7 +43,7 @@
                     "tamaño": "King",
                     "cajones": "Si",
                     "base-encajonada": "No",
-                    "modelo-de-colchón": "Su majestad",
+                    "modelo-de-colchón": "Su majestad de lujo",
                     "resortes": "Cosisoft",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "americana",
@@ -56,12 +56,12 @@
             "id": 2,
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Kamas / Paraiso",
-            "modelo": "su majestad",
+            "marca": "Kamas + Paraiso",
+            "modelo": "su majestad de lujo",
             "línea": "europeos",
-            "ruta": "/productos/dormitorios/king/paraiso/su-majestad/europeos-con-cajones/2/",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/europeos-con-cajones/2/",
             "nombre": "DORMITORIO KING KAMAS / PARAISO CON 4 CAJONES + COLCHÓN PARAISO SU MAJESTAD + CABECERA PEDESTAL CAPITONEADO - IVORY",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/europeos-con-cajones/pedestales/americanas/capitoneado-1/2/",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad/europeos-con-cajones/americanas/capitoneado-1/2/",
             "precioRegular": 3999,
             "precioNormal": 3499,
             "precioVenta": 2329,
@@ -85,7 +85,7 @@
             "tamaños-disponibles":[
                 {
                     "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad/europeos-con-cajones/2/"
+                    "ruta": "/productos/dormitorios/queen/paraiso/su-majestad-de-lujo/europeos-con-cajones/2/"
                 }
             ],
             "detalles-del-producto":[
@@ -95,7 +95,7 @@
                     "tamaño": "King",
                     "cajones": "Si",
                     "base-encajonada": "No",
-                    "modelo-de-colchón": "Su majestad",
+                    "modelo-de-colchón": "Su majestad de lujo",
                     "resortes": "Cosisoft",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "americana",
