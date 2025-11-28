@@ -36,9 +36,6 @@ function PaginaPrincipal(){
                 <SobreNosotros/>
 
                 <Distribuidores/>
-
-                {/* <script src="https://elfsightcdn.com/platform.js" async></script> */}
-                {/* <div class="elfsight-app-84445f73-7426-41ed-9666-9440e98ca550" data-elfsight-app-lazy></div> */}
             </main>
         </>
     );

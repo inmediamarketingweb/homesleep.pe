@@ -110,7 +110,7 @@ function Categorias(){
                                 src={categoria['categoria-banner'].src} 
                                 alt={categoria['categoria-banner'].alt}
                                 onError={(e) => {
-                                    e.target.src = 'https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/dormitorios.webp';
+                                    e.target.src = 'https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/dormitorios-1.webp';
                                 }}
                             />
                         </div>
@@ -172,7 +172,6 @@ function Categorias(){
                             </div>
 
                             <div className='homepage-categories-target-categorie-list d-flex-column gap-5'>
-                                {/* <p className='title text'>Marcas disponibles:</p> */}
 
                                 <ul className='d-flex gap-5'>
                                     {categoria['marcas'].lista.map((marca, index) => (
