@@ -3,10 +3,6 @@
         {
             "tamaño":[
                 {
-                    "tamaño": "1 plaza",
-                    "ruta": "/productos/cabeceras/1-plaza/"
-                },
-                {
                     "tamaño": "1 plaza y media",
                     "ruta": "/productos/cabeceras/1-plaza-y-media/"
                 },

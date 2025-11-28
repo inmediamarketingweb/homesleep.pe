@@ -39,6 +39,7 @@
 @media screen and (max-width: 600px){
     .distribuidores-container{
         width: 100%;
+        margin-bottom: 10px;
     }
 
     .distribuidores-content{
