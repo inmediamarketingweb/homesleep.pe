@@ -12,8 +12,6 @@ function CostosDeEnvioPorZonas(){
                 <title>Costos de envios por zonas | Kamas</title>
             </Helmet>
 
-            <Header/>
-
             <main>
                 <div className="block-container">
                     <section className="block-content">
@@ -21,8 +19,6 @@ function CostosDeEnvioPorZonas(){
                     </section>
                 </div>
             </main>
-
-            <Footer/>
         </>
     )
 }
