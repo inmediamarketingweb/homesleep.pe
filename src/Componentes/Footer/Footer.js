@@ -3,7 +3,8 @@ import './Footer.css';
 function Footer(){
     return(
         <>
-            <a href='https://wa.link/97p523' target='_blank' rel="noopener noreferrer" className='whatsapp-button'>
+            {/* <a href='https://wa.link/97p523' target='_blank' rel="noopener noreferrer" className='whatsapp-button'> */}
+            <a href='https://wa.link/nkdenk' target='_blank' rel='noopener noreferrer' className='whatsapp-button'>
                 <img src="/assets/imagenes/iconos/whatsapp-blanco.svg" alt="icono de whatsapp"/>
             </a>
 
@@ -166,7 +167,38 @@ function Footer(){
 
                             <div className='footer-target footer-target-4'>
                                 <div className='d-flex-column gap-10'>
-                                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhomesleep.pe%2Fposts%2Fpfbid0r17q4d4QEkJXT1rWZQbJmQBJtfKg1nBfNgBMbpG4ctEaykk4MzXyPoEdSg9PQ8E8l&show_text=true&width=500" width="100%" height="450" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                                    <div className='face-tag-container'>
+                                        <div className='face-tag-content'>
+                                            <div className='face-tag-content-top'>
+                                                <div className='d-flex-center-left gap-10'>
+                                                    <img src="https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/292533996_407729128041010_7160981179952390103_n.png?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE1Qe0YsnSEeaTQY0SpaRSBNjBRq64dXQI2MFGrrh1dAryMx6bvGtbeSzMCKz0fBXrdE9wIYn25mJy8ZWt5KUJ5&_nc_ohc=TsFAJK_7PhwQ7kNvwEGnEf7&_nc_oc=Adm8UPVPo4mCwOn5iq8EC1NkpafXSua6lD0HltZSsfYip_gX2NeD49p2RLdjR8kCnOw&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&_nc_gid=6m8MEkQQfFjNY3AwXQn2cg&oh=00_AfmJXDSq2LOU-czVB2QGnFRcijSDMTodB1UnTAgkf2q3sw&oe=6938DEC7" alt=''/>
+                                                    <div className='d-flex-column'>
+                                                        <p className='uppercase color-white font-bold'>Homesleep</p>
+                                                        <p className='color-white'>19 de agosto</p>
+                                                    </div>
+                                                </div>
+
+                                                <a href='https://www.facebook.com/share/v/1DBojW61T9/' target='_blank' rel="noopener noreferrer" className='face-tag-icon' title=''>
+                                                    <i class="fa-brands fa-facebook"></i>
+                                                </a>
+                                            </div>
+
+                                            <a href='https://www.facebook.com/share/v/1DBojW61T9/' target='_blank' rel="noopener noreferrer" title='' className=''>
+                                                <img src='/assets/imagenes/componentes/footer/facebook.jpeg' alt=''/>
+                                            </a>
+
+                                            <a href='https://www.facebook.com/share/v/1DBojW61T9/' target='_blank' rel="noopener noreferrer" className='d-flex-column'>
+                                                <p>👑 Lujo y comodidad en tu descanso 👑</p>
+                                                <p>Dormitorio KAMAS / CISNE Pocket King 3 Plazas por S/1699</p>
+                                                <p>✨ Cabeceras exclusivas</p>
+                                                <p>✨ +30 modelos</p>
+                                                <p>✨ +60 colores</p>
+                                                <p>🎁 Incluye: 3 almohadas + 3 cojines + 1 puff</p>
+                                                <p>🚚 Envío GRATIS en Lima y Callao</p>
+                                                <p>🌎 Despachos inmediatos a todo el Perú</p>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </nav>
