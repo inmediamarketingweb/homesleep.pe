@@ -1,18 +1,9 @@
-.product-page-color-select div img{
+.product-page-color-select img{
     display: flex;
-    width: 20px;
-    height: auto;
-    aspect-ratio: 1/1;
-    border-radius: 100%;
-}
-
-.product-page-color-select div p{
-    text-transform: lowercase !important;
-    display: inline-block !important;
-}
-
-.product-page-color-select div p::first-letter{
-    text-transform: uppercase !important;
+    width: 40px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 3px;
 }
 
 .product-page-color-select span{

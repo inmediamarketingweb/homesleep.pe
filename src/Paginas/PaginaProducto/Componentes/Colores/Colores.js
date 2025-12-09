@@ -22,7 +22,7 @@ function Colores({ colorName = "Seleccionar color" }){
             }
 
             const extension = extensions[currentIndex];
-            const imageUrl = `/assets/imagenes/colores/miniatures/${normalizedColorName}.${extension}`;
+            const imageUrl = `/assets/imagenes/colores/${normalizedColorName}.${extension}`;
             const img = new Image();
             img.onload = () => {
                 setImageSrc(imageUrl);
@@ -43,21 +43,14 @@ function Colores({ colorName = "Seleccionar color" }){
             <div className='product-page-color-select d-flex-column gap-5 margin-right'>
                 <p className='color-color-1 title uppercase'>Color</p>
 
-                <button type='button' className='button-1 d-flex-center-center gap-10'>
-                    <div className='d-flex'>
-                        {imageSrc && <img src={imageSrc} alt=''/>}
-                    </div>
+                <p className='text lowercase first-uppercase'>{colorName}</p>
 
-                    <div className='d-flex-center-center'>
-                        <p className='text'>{colorName}</p>
-                        <span className="material-icons">keyboard_arrow_down</span>
-                    </div>
+                <button type='button' className='button-1 d-flex-center-center gap-10 margin-right'>
+                    {imageSrc && <img src={imageSrc} alt=''/>}
+
+                    <span class="material-symbols-outlined">add_circle</span>
                 </button>
             </div>
-
-            {/* <div className='product-page-color-layer'></div> */}
-
-            {/* <div className='product-page-color-modal-container'></div> */}
         </>
     )
 }

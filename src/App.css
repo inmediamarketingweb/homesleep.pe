@@ -46,6 +46,7 @@
 }
 
 body{
+    width: 100vw;
     background: var(--body);
     color: var(--text);
 }
@@ -67,7 +68,7 @@ body::selection{
 main{
     width: 100%;
     margin-top: 110px;
-    min-height: 50vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -205,7 +206,7 @@ button{
 }
 
 .sub-title{
-    font-size: 14px !important;
+    font-size: 16px !important;
     font-weight: bold;
 }
 
@@ -219,6 +220,10 @@ button{
 
 .first-uppercase::first-letter{
     text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase !important;
 }
 
 .d-flex{

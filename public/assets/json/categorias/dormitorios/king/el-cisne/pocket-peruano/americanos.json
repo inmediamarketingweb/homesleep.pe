@@ -8,7 +8,7 @@
             "modelo": "pocket",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/1/",
-            "nombre": "DORMITORIO KING KAMAS / EL CISNE + COLCHÓN EL CISNE POCKET + CABECERA AÉREA CAPITONEADO - ROJO",
+            "nombre": "DORMITORIO KING KAMAS / EL CISNE AMERICANO + COLCHÓN POCKET PERUANO + CABECERA AÉREA CAPITONEADO - ROJO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/americanas/capitoneado-1/1/",
             "precioRegular": 2999,
             "precioNormal": 2399,
@@ -16,25 +16,9 @@
             "stock": 9,
             "sku": "H33242283N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
+            "regalos": ["3 cojines", "1 puff"],
             "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/queen/paraiso/pocket/americanos/1/"
-                }
+                { "nombre": "Queen", "sku": "H33232283N10" }
             ],
             "detalles-del-producto":[
                 {

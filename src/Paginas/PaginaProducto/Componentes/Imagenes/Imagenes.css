@@ -1,3 +1,16 @@
+.image-discount{
+    position: absolute;
+    left: 112px;
+    top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background: var(--color-1);
+    color: var(--white);
+    z-index: 35;
+}
+
 .product-page-image-component{
     display: grid;
     grid-template-columns: auto 1fr;

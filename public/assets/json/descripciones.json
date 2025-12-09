@@ -1,0 +1,62 @@
+{
+    "americana":[
+        {
+            "madera": "Pino americano seco al horno.",
+            "refuerzos": "Centrales y laterales. hjas99999",
+            "láminas": "MDF de 3mm.",
+            "tela": "Piel de potro",
+            "patas": "Cromadas o de madera",
+            "garantía": "2 años"
+        }
+    ],
+    "americano":[
+        {
+            "madera": "Pino americano seco al horno.",
+            "refuerzos": "Centrales y laterales. ++++++++",
+            "láminas": "MDF de 3mm.",
+            "tela": "Piel de potro",
+            "patas": "Cromadas o de madera",
+            "garantía": "2 años"
+        }
+    ],
+    "americano-con-cajones":[
+        {
+            "madera": "Pino americano seco al horno.",
+            "refuerzos": "Centrales y laterales.",
+            "láminas": "MDF de 3mm.",
+            "tela": "Piel de potro",
+            "patas": "Cromadas o de madera",
+            "garantía": "2 años"
+        }
+    ],
+    "europeo":[
+        {
+            "madera": "Pino americano seco al horno.",
+            "refuerzos": "Centrales y laterales.",
+            "láminas": "MDF de 3mm.",
+            "tela": "Piel de potro",
+            "patas": "Cromadas o de madera",
+            "garantía": "2 años"
+        }
+    ],
+    "europeo-con-cajones":[
+        {
+            "madera": "Pino americano seco al horno.",
+            "refuerzos": "Centrales y laterales.",
+            "láminas": "MDF de 3mm.",
+            "tela": "Piel de potro",
+            "patas": "Cromadas o de madera",
+            "garantía": "2 años"
+        }
+    ],
+    "cabecera":[
+        {
+            "madera": "Pino americano seco al horno.",
+            "refuerzos": "Centrales y laterales.",
+            "láminas": "MDF de 3mm.",
+            "tela": "Piel de potro",
+            "patas": "Cromadas o de madera ----------",
+            "garantía": "2 años"
+        }
+    ]
+}
