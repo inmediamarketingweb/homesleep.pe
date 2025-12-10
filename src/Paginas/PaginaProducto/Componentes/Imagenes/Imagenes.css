@@ -1,3 +1,16 @@
+.image-discount{
+    position: absolute;
+    left: 112px;
+    top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    background: var(--color-1);
+    color: var(--white);
+    z-index: 35;
+}
+
 .product-page-image-component{
     display: grid;
     grid-template-columns: auto 1fr;
@@ -142,7 +155,19 @@
     border-radius: 4px;
 }
 
+.product-images-share-button{
+    position: absolute;
+    left: 10px;
+    top: 54px;
+    z-index: 1;
+}
+
 @media screen and (max-width: 600px){
+    .image-discount{
+        left: 10px;
+        top: 10px;
+    }
+
     .product-page-image-component{
         display: flex;
         flex-direction: column-reverse;

@@ -2,8 +2,8 @@ import './Resumen.css';
 
 function Resumen({ producto }){
     const propiedadesRequeridas = [
-        "marca", 
-        "tamaño", 
+        "marca",
+        "tamaño",
         "modelo-de-colchón", 
         "resortes",
         "modelo-de-cabecera"

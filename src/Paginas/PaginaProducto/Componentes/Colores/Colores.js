@@ -22,7 +22,7 @@ function Colores({ colorName = "Seleccionar color" }){
             }
 
             const extension = extensions[currentIndex];
-            const imageUrl = `/assets/imagenes/colores/miniatures/${normalizedColorName}.${extension}`;
+            const imageUrl = `/assets/imagenes/colores/${normalizedColorName}.${extension}`;
             const img = new Image();
             img.onload = () => {
                 setImageSrc(imageUrl);
@@ -39,26 +39,16 @@ function Colores({ colorName = "Seleccionar color" }){
     }, [colorName]);
 
     return(
-        <>
-            <div className='product-page-color-select d-flex-column gap-5 margin-right'>
-                <p className='color-color-1 title uppercase'>Color</p>
-
-                <button type='button' className='button-1 d-flex-center-center gap-10'>
-                    <div className='d-flex'>
-                        {imageSrc && <img src={imageSrc} alt=''/>}
-                    </div>
-
-                    <div className='d-flex-center-center'>
-                        <p className='text'>{colorName}</p>
-                        <span className="material-icons">keyboard_arrow_down</span>
-                    </div>
-                </button>
+        <div className='product-page-color-select d-flex gap-10 margin-right'>
+            <div className='d-flex-center-left gap-5'>
+                <p className='color-color-1 title uppercase'>Color:</p>
+                <p className='text lowercase first-uppercase margin-right'>{colorName}</p>
             </div>
 
-            {/* <div className='product-page-color-layer'></div> */}
-
-            {/* <div className='product-page-color-modal-container'></div> */}
-        </>
+            <a href={imageSrc} title="Ver detalles" target='_blank' rel='noopener noreferrer'>
+                {imageSrc && <img src={imageSrc} alt=''/>}
+            </a>
+        </div>
     )
 }
 

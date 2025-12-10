@@ -161,8 +161,16 @@ function Colchones() {
             if (!claveJson) continue;
 
             const normalizadoFiltro = normalizarTexto(valorFiltro);
-            const detalles = producto["detalles-del-producto"] || [];
-            const cumpleFiltro = detalles.some(detalle => {
+
+            if (producto[claveJson]) {
+                const normalizadoProducto = normalizarTexto(producto[claveJson].toString());
+                if (normalizadoProducto === normalizadoFiltro) {
+                    continue;
+                }
+            }
+
+            const ficha = producto["ficha"] || [];
+            const cumpleEnFicha = ficha.some(detalle => {
                 const valorProducto = detalle[claveJson];
                 if (!valorProducto) return false;
 
@@ -170,7 +178,7 @@ function Colchones() {
                 return normalizadoProducto === normalizadoFiltro;
             });
 
-            if (!cumpleFiltro) return false;
+            if (!cumpleEnFicha) return false;
         }
 
         return true;

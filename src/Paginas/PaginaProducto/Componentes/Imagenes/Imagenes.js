@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react';
 import './Imagenes.css';
 
 import LazyImage from '../../../../Componentes/Plantillas/LazyImage';
-// import Colores from '../Colores/Colores';
+import Compartir from '../Compartir/Compartir';
 
 function Imagenes({ imagenes, producto, onSelectColor }){
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -50,9 +50,13 @@ function Imagenes({ imagenes, producto, onSelectColor }){
         };
     }, []);
 
+    const descuento = Math.round(((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal);
+
     return(
         <div className={`position-relative ${producto.stock === 0 ? 'sin-stock' : ''}`}>
             <div className='sin-stock-message'>Agotado</div>
+
+            <p className='image-discount'>-{descuento}%</p>
 
             <div className='product-page-image-component'>
                 <div className="product-page-images-miniatures-container">
@@ -91,7 +95,9 @@ function Imagenes({ imagenes, producto, onSelectColor }){
                 </div>
             </div>
 
-            {/* {producto.colores && <Colores producto={producto} onSelectColor={onSelectColor} />} */}
+            <div className='visible-on-mobile-no-desktop product-images-share-button'>
+                <Compartir/>
+            </div>
         </div>
     );
 }

@@ -1,67 +1,42 @@
-// import './WhatsApp.css';
-
-// function WhatsApp({producto, selectedShipping, shippingInfo, selectedColor, quantity, handleContinuarClick}) {
-//     if (!producto) return null;
-
-//     const getWhatsAppLink = () => {
-//         if (!selectedShipping.tipo) return "#";
-
-//         const numeroWhatsApp = "+51901451579";
-//         const userName = localStorage.getItem('nombre') || '';
-
-//         const mensaje = `Hola Homesleep 🛌, estoy interesad@ en adquirir este/os producto/s:\n`
-//             + `*${producto.nombre}*\n`
-//             + `https://homesleep.pe${producto.ruta}\n`
-//             + `Tela: ${selectedColor ? selectedColor.tela : 'Sin variación'}\n`
-//             + `Color: ${selectedColor ? selectedColor.color : 'Sin variación'}\n`
-//             + `Precio: S/.${producto.precioVenta}\n\n`
-//             + `Cantidad: ${quantity}\n\n`
-//             + `Cliente: ${userName}\n`
-//             + `Departamento: ${shippingInfo?.locationData?.departamento || ''}\n`
-//             + `Provincia: ${shippingInfo?.locationData?.provincia || ''}\n`
-//             + `Distrito: ${shippingInfo?.locationData?.distrito || ''}\n\n`
-//             + (shippingInfo?.selectedAgency ? `Agencia seleccionada: ${shippingInfo.selectedAgency}\n` : "")
-//             + (shippingInfo?.selectedSede ? `Sede de agencia: ${shippingInfo.selectedSede}\n` : "")
-//             + `Tipo de envío seleccionado: ${selectedShipping.tipo}\n`
-//             + `Costo de envío: S/.${selectedShipping.precio || 0}`;
-    
-//         return `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
-//     };
-
-//     const userName = localStorage.getItem('nombre') || '';
-//     const district = shippingInfo?.locationData?.distrito || '';
-//     const headquarters = shippingInfo?.selectedAgency || shippingInfo?.selectedSede || '';
-    
-//     const hasRequiredFields = Boolean(
-//         userName.trim() && 
-//         (district.trim() || headquarters.trim())
-//     );
-
-//     const buttonClasses = [
-//         'product-page-whatsapp',
-//         hasRequiredFields && 'active',
-//         producto.stock === 0 && 'sin-stock'
-//     ].filter(Boolean).join(' ');
-
-//     return(
-//         <a href={getWhatsAppLink()} className={buttonClasses} target="_blank" rel="noopener noreferrer" onClick={handleContinuarClick}>
-//             <img src="/assets/imagenes/iconos/whatsapp-blanco.svg" alt="WhatsApp | homesleep"/>
-//             <p>Continuar</p>
-//         </a>
-//     )
-// }
-
-// export default WhatsApp;
-
 import './WhatsApp.css';
 
-function WhatsApp(){
+function WhatsApp({ producto, quantity = 1 }) {
+    if (!producto) return null;
+
+    const getWhatsAppLink = () => {
+        const numeroWhatsApp = "+51901451579";
+        const regalos = producto.regalos || [];
+        let regalosTexto = '';
+
+        if (regalos.length > 0) {
+            regalos.forEach(regalo => {
+                regalosTexto += `* ${regalo.nombre || regalo}\n`;
+            });
+        } else {
+            regalosTexto = '* Sin regalos disponibles\n';
+        }
+
+        const mensaje = `*${producto.nombre}*\n\n` +
+                       `_*S/.${producto.precioVenta}*_\n\n` +
+                       `Cantidad: ${quantity}\n\n` +
+                       `🎁 REGALOS:\n` +
+                       `${regalosTexto}\n\n` +
+                       `SKU: ${producto.sku}\n` +
+                       `https://homesleep.pe${producto.ruta}`;
+    
+        return `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
+    };
+
+    const hasStock = producto.stock > 0;
+    const buttonClasses = [ 'product-page-whatsapp', hasStock ? 'active' : 'sin-stock' ].filter(Boolean).join(' ');
+    const buttonText = hasStock ? 'Continuar' : 'Sin stock';
+
     return(
-        <a href='' className='product-page-whatsapp' target="_blank" rel="noopener noreferrer">
+        <a href={hasStock ? getWhatsAppLink() : "#"} className={buttonClasses} target="_blank" rel="noopener noreferrer" onClick={(e) => !hasStock && e.preventDefault()}>
             <img src="/assets/imagenes/iconos/whatsapp-blanco.svg" alt="WhatsApp | homesleep"/>
-            <p>Continuar</p>
+            <p>{buttonText}</p>
         </a>
-    )
+    );
 }
 
 export default WhatsApp;

@@ -2,34 +2,23 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 10px;
 }
 
-.product-details > p{
-    padding: 5px 0;
-    border-top: 2px solid rgba(0 0 0 / 0.10);
-}
-
-.product-details ul{
-    display: flex;
-    flex-direction: column;
-}
-
-.product-details ul li{
+.product-details li{
     display: flex;
     align-items: flex-start;
     justify-content: left;
-    gap: 10px;
+    gap: 5px;
 }
 
-.product-details ul li > div:nth-child(1){
+.product-details li > div:nth-child(1){
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5px;
 }
 
-.product-details ul li > div:nth-child(1)::before{
+.product-details li > div:nth-child(1)::before{
     content: '🔴';
     width: auto;
     height: 100%;
@@ -40,25 +29,80 @@
     filter: brightness(0);
 }
 
-.product-details ul li > div p{
+.product-details li > div p{
     display: inline-block;
 }
 
-.product-details ul li div strong{
+.product-details li div strong{
     color: #000000;
     font-weight: bold;
     display: inline-block;
 }
 
-.product-details ul li div strong::first-letter{
+.product-details li div strong::first-letter{
     text-transform: uppercase;
 }
 
-.product-details ul li div p{
+.product-details li div p{
     color: var(--text);
     display: inline-block;
 }
 
-.product-details ul li div p::first-letter{
+.product-details li div p::first-letter{
     text-transform: uppercase;
+}
+
+.description-top-button-container{
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.description-top-button-container span{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    translate: 0 -50%;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description-top-button-container{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    .description-top-button-container{
+        display: flex;
+    }
+
+    .description-content{
+        width: 100%;
+        height: 0;
+        overflow: hidden;
+        interpolate-size: allow-keywords;
+        padding: 0 10px;
+        transition: var(--t-200ms-linear);
+    }
+
+    .description-content.active{
+        padding-top: 10px;
+        height: auto;
+    }
+
+    .descripcion-seccion > div{
+        gap: 0 !important;
+    }
+
+    .descripcion-seccion > div > p.sub-title{
+        display: none;
+    }
 }

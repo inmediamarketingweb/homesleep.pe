@@ -8,7 +8,7 @@
             "modelo": "pocket plus",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/queen/el-cisne/pocket-plus/americanos/1/",
-            "nombre": "DORMITORIO KAMAS / CISNE QUEEN + COLCHÓN CISNE POCKET PLUS + CABECERA AÉREA CAPITONEADA - GRIS",
+            "nombre": "DORMITORIO KAMAS / CISNE QUEEN AMERICANO + COLCHÓN CISNE POCKET PLUS + CABECERA AÉREA CAPITONEADA - GRIS",
             "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-plus/americanos/americanas/capitoneado-1/1/",
             "precioRegular": 3299,
             "precioNormal": 2849,
@@ -16,20 +16,6 @@
             "stock": 9,
             "sku": "H33232113N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
             "tamaños-disponibles":[
                 {
                     "nombre": "King",
@@ -457,60 +443,6 @@
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Rectangular 1"
                 }
-            ]
-        }
-    ],
-    "descripciones":[
-        {
-            "titulo": "Cama box tarima",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "refuerzos": "centrales y laterales.",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "Cromadas o de madera",
-                    "garantía": "2 años"
-                }
-            ]
-        },
-        {
-            "titulo": "Colchón",
-            "descripcion":[
-                {
-                    "resortes": "396 bicónicos",
-                    "tela": "Pique",
-                    "tratamiento": "Antihongos, antibacterias y antiácaros",
-                    "tipo-de-uso": "un solo lado",
-                    "tipo-de-resorte": "Pocket",
-                    "marco": "Espuma con densidad 20kg/m3",
-                    "capas": "2 láminas fibra no tejida de 300gr. 2 láminas espuma de poliuretano de 1 1/2 con 18kg/m3 y 2 láminas de poliuretano de 1 1/4 con 16kg/m3",
-                    "sensación": "intermedia",
-                    "garantía": "4 años"
-                }
-            ]
-        },
-        {
-            "titulo": "Cabecera",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "espuma": "Zebra de alta densidad",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "De manera",
-                    "botones": "clásicos o acrílicos",
-                    "garantía": "2 años"
-                }
-            ]
-        }
-    ],
-    "mensajes":[
-        {
-            "titulo": "Colchón el cisne pocket plus",
-            "mensajes":[
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-                "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
             ]
         }
     ]

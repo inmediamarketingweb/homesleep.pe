@@ -37,9 +37,9 @@
     /* overflow-y: scroll; */
     border-radius: 5px;
 
-    /* opacity: 0;
+    opacity: 0;
     pointer-events: none;
-    user-select: none; */
+    user-select: none;
 }
 
 .product-page-envios-list-container > div.active{
@@ -55,7 +55,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* flex-direction: column; */
     transition: var(--t-200ms-linear);
 }
 

@@ -432,6 +432,40 @@ function Envios(){
                         </ul>
                     </div>
                 </div>
+
+                <div className='product-page-envios-list-container'>
+                    <input type='text' placeholder='Seleccione agencia'/>
+
+                    <div className=''>
+                        <ul>
+                            {/* <li>
+                                <button type='button'>
+                                    <p className='text'>Ingrese su distrito</p>
+                                </button>
+                            </li> */}
+                            <li>
+                                <button type='button'>
+                                    <div className='d-flex-column'>
+                                        <p className='item-departament'>Departamento, provincia</p>
+                                        <p className='text'>Distrito</p>
+                                    </div>
+
+                                    <span className="material-symbols-outlined">chevron_right</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button type='button'>
+                                    <div className='d-flex-column'>
+                                        <p className='item-departament'>Departamento, provincia</p>
+                                        <p className='text'>Distrito</p>
+                                    </div>
+
+                                    <span className="material-symbols-outlined">chevron_right</span>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     )

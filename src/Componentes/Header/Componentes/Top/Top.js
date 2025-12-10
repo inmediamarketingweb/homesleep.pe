@@ -17,8 +17,14 @@ function Top(){
                         <ul className='d-flex-center-left gap-5'>
                             <li>
                                 <a href='tel: +51901451579' title="Llamar" className='d-flex-center-center gap-5'>
-                                    <img src="/assets/imagenes/iconos/telefono-gris.svg" alt="Teléfono | Dormihogar" />
+                                    <img src="/assets/imagenes/iconos/telefono-gris.svg" alt="Teléfono | Homesleep" />
                                     <h2>901451579</h2>
+                                </a>
+                            </li>
+                            <li>
+                                <a href='tel: +51974317647' title="Llamar" className='d-flex-center-center gap-5'>
+                                    <img src="/assets/imagenes/iconos/telefono-gris.svg" alt="Teléfono | Homesleep" />
+                                    <h2>974317647</h2>
                                 </a>
                             </li>
                         </ul>
@@ -27,8 +33,14 @@ function Top(){
                         <p>|</p>
                     </li>
                     <li>
-                        <a href='https://wa.link/97p523' target='_blank' rel="noopener noreferrer" title="WhatsApp | Dormihogar" className='d-flex-center-center gap-5'>
-                            <img src="/assets/imagenes/iconos/whatsapp-gris.svg" alt="WhatsApp | Dormihogar" />
+                        <a href='https://wa.link/97p523' target='_blank' rel="noopener noreferrer" title="WhatsApp | Homesleep" className='d-flex-center-center gap-5'>
+                            <img src="/assets/imagenes/iconos/whatsapp-gris.svg" alt="WhatsApp | Homesleep" />
+                            <h2>WhatsApp</h2>
+                        </a>
+                    </li>
+                    <li>
+                        <a href='https://wa.link/97p523' target='_blank' rel="noopener noreferrer" title="WhatsApp | Homesleep" className='d-flex-center-center gap-5'>
+                            <img src="/assets/imagenes/iconos/whatsapp-gris.svg" alt="WhatsApp | Homesleep" />
                             <h2>WhatsApp</h2>
                         </a>
                     </li>
