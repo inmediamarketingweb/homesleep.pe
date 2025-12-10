@@ -9,9 +9,10 @@
     border-radius: 4px;
     background: var(--whatsapp);
     position: relative;
-    pointer-events: none;
-    user-select: none;
     overflow: hidden;
+
+    /* pointer-events: none;
+    user-select: none; */
 }
 
 .product-page-whatsapp.active{

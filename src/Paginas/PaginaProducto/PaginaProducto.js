@@ -12,7 +12,6 @@ import Regalos from './Componentes/Regalos/Regalos';
 import Resumen from './Componentes/Resumen/Resumen';
 import Medidas from './Componentes/Medidas/Medidas';
 import Beneficios from './Componentes/Beneficios/Beneficios';
-import Envios from './Componentes/Envios/Envios';
 import Colores from './Componentes/Colores/Colores';
 import Cantidad from './Componentes/Cantidad/Cantidad';
 import WhatsApp from './Componentes/WhatsApp/WhatsApp';
@@ -57,38 +56,55 @@ async function obtenerDescripcionColchonDesdeNombre(nombreProductoCompleto){
             .trim()
             .toLowerCase();
         
-        const tamanos = ['king', 'queen', 'twin', 'full', 'individual'];
+        const tamanos = [
+            'king', 'queen', 'twin', 'full', 'individual',
+            '2-plazas', '2 plazas', '2plazas',
+            '1-plaza-y-media', '1 plaza y media', '1plazaymedia',
+            '1-plaza', '1 plaza', '1plaza'
+        ];
+        
         let tamaño = null;
         
         for (const tam of tamanos) {
-            if (nombreNormalizado.includes(tam)) {
-                tamaño = tam;
-                nombreNormalizado = nombreNormalizado.replace(tam, '').trim();
+            const tamComparar = tam.replace(/-/g, ' ').replace(/\s+/g, '');
+            const nombreComparar = nombreNormalizado.replace(/-/g, ' ').replace(/\s+/g, '');
+            
+            if (nombreComparar.includes(tamComparar)) {
+                tamaño = tam.replace(/\s+/g, '-');
+                nombreNormalizado = nombreNormalizado.replace(
+                    new RegExp(tam.replace(/-/g, '[-\\s]?'), 'i'), 
+                    ''
+                ).trim();
                 break;
             }
         }
         
-        const marca = 'el-cisne';
+        let marca = 'el-cisne';
         
+        if (nombreNormalizado.includes('kamas')) {
+            marca = 'kamas';
+            nombreNormalizado = nombreNormalizado.replace('kamas', '').trim();
+        } else if (nombreNormalizado.includes('paraiso')) {
+            marca = 'paraiso';
+            nombreNormalizado = nombreNormalizado.replace('paraiso', '').trim();
+        } else if (nombreNormalizado.includes('komfort')) {
+            marca = 'komfort';
+            nombreNormalizado = nombreNormalizado.replace('komfort', '').trim();
+        }
+
         let modelo = nombreNormalizado
             .replace(/\s+/g, '-')
             .replace(/[^a-z0-9-]/g, '')
-            .toLowerCase();
+            .toLowerCase()
+            .replace(/^-+|-+$/g, '');
         
         if (!modelo) {
-            if (nombreNormalizado.includes('pocket') && nombreNormalizado.includes('plus')) {
-                modelo = 'pocket-plus';
-            } else if (nombreNormalizado.includes('pocket')) {
-                modelo = 'pocket';
-            }
-        }
-        
-        if (tamaño && modelo) {
-            return `/assets/json/categorias/colchones/${tamaño}/${marca}/${modelo}.json`;
+            console.warn('No se pudo extraer modelo de:', nombreNormalizado);
+            return null;
         }
         
         if (!tamaño) {
-            tamaño = 'king';
+            tamaño = '2-plazas';
         }
         
         return `/assets/json/categorias/colchones/${tamaño}/${marca}/${modelo}.json`;
@@ -111,42 +127,63 @@ async function obtenerDescripcionColchonDesdeNombre(nombreProductoCompleto){
             return null;
         }
 
-        console.log('Ruta del colchón:', rutaColchon);
+        console.log('Ruta del colchón calculada:', rutaColchon);
 
         const respuesta = await fetch(rutaColchon);
         
         if (!respuesta.ok) {
             console.warn('Archivo no encontrado:', rutaColchon);
+            
+            const alternativas = [
+                rutaColchon,
+                rutaColchon.replace('2-plazas', '2 plazas'),
+                rutaColchon.replace('2-plazas', '2plazas'),
+            ];
+            
+            for (const alternativa of alternativas) {
+                try {
+                    const respAlt = await fetch(alternativa);
+                    if (respAlt.ok) {
+                        console.log('Encontrado en ruta alternativa:', alternativa);
+                        const datosColchon = await respAlt.json();
+                        
+                        let productoColchon = null;
+                        let regalosColchon = [];
+                        
+                        if (Array.isArray(datosColchon.productos) && datosColchon.productos.length > 0) {
+                            productoColchon = datosColchon.productos[0];
+                            
+                            if (productoColchon && Array.isArray(productoColchon.regalos)) {
+                                regalosColchon = productoColchon.regalos;
+                            }
+                        }
+                        
+                        return {
+                            ficha: datosColchon.ficha || [],
+                            mensajes: datosColchon.mensajes || [],
+                            producto: productoColchon,
+                            regalos: regalosColchon
+                        };
+                    }
+                } catch (e) {
+                    continue;
+                }
+            }
+            
             return null;
         }
         
-        const datosColchon = await respuesta.json();
-        
-        console.log('Datos del colchón cargados:', datosColchon);
-        
+        const datosColchon = await respuesta.json();        
         let productoColchon = null;
         let regalosColchon = [];
         
         if (Array.isArray(datosColchon.productos) && datosColchon.productos.length > 0) {
-            const nombreBusqueda = nombreColchon.toLowerCase().replace('colchón', '').trim();
-            
-            productoColchon = datosColchon.productos.find(p => {
-                const nombreProducto = p.nombre.toLowerCase();
-                return nombreProducto.includes(nombreBusqueda) || 
-                       nombreBusqueda.includes(p.modelo?.toLowerCase() || '');
-            });
-            
-            if (!productoColchon && datosColchon.productos.length > 0) {
-                productoColchon = datosColchon.productos[0];
-            }
+            productoColchon = datosColchon.productos[0];
             
             if (productoColchon && Array.isArray(productoColchon.regalos)) {
                 regalosColchon = productoColchon.regalos;
             }
         }
-        
-        console.log('Producto colchón encontrado:', productoColchon);
-        console.log('Regalos del colchón:', regalosColchon);
         
         return {
             ficha: datosColchon.ficha || [],
@@ -164,9 +201,6 @@ async function obtenerDescripcionColchonDesdeNombre(nombreProductoCompleto){
 async function obtenerDescripcionTipoDormitorio(nombreProductoCompleto) {
     try {
         const nombreLower = nombreProductoCompleto.toLowerCase();
-
-        console.log('Buscando tipo de dormitorio en:', nombreProductoCompleto);
-
         const rutaDescripciones = '/assets/json/descripciones.json';
         const respuesta = await fetch(rutaDescripciones);
         
@@ -182,16 +216,13 @@ async function obtenerDescripcionTipoDormitorio(nombreProductoCompleto) {
         if (nombreLower.includes('americano')) {
             const contieneCajones = nombreLower.includes('cajones') || nombreLower.includes('cajón');
             tipoDescripcion = contieneCajones ? 'americano-con-cajones' : 'americano';
-            console.log('Tipo detectado:', tipoDescripcion);
         }
         else if (nombreLower.includes('europeo')) {
             const contieneCajones = nombreLower.includes('cajones') || nombreLower.includes('cajón');
             tipoDescripcion = contieneCajones ? 'europeo-con-cajones' : 'europeo';
-            console.log('Tipo detectado:', tipoDescripcion);
         }
 
         if (!tipoDescripcion) {
-            console.log('No se encontró tipo americano/europeo en el nombre');
             return null;
         }
 
@@ -201,8 +232,6 @@ async function obtenerDescripcionTipoDormitorio(nombreProductoCompleto) {
             console.warn(`No se encontró descripción para "${tipoDescripcion}"`);
             return null;
         }
-
-        console.log('Descripción encontrada para', tipoDescripcion);
 
         const fichaFormateada = Array.isArray(descripcion) ? descripcion : [descripcion];
         
@@ -221,15 +250,11 @@ async function obtenerDescripcionCabecera(nombreProductoCompleto) {
     try {
         const nombreLower = nombreProductoCompleto.toLowerCase();
         
-        console.log('Buscando cabecera en:', nombreProductoCompleto);
-        
-        // Solo buscar si contiene "cabecera"
         if (!nombreLower.includes('cabecera')) {
             console.log('Nombre no contiene "cabecera"');
             return null;
         }
         
-        // Cargar el archivo de descripciones
         const rutaDescripciones = '/assets/json/descripciones.json';
         const respuesta = await fetch(rutaDescripciones);
         
@@ -239,7 +264,6 @@ async function obtenerDescripcionCabecera(nombreProductoCompleto) {
         }
         
         const todasDescripciones = await respuesta.json();
-        
         const tipoDescripcion = 'cabecera';
         const descripcion = todasDescripciones[tipoDescripcion];
         
@@ -248,9 +272,6 @@ async function obtenerDescripcionCabecera(nombreProductoCompleto) {
             return null;
         }
         
-        console.log('Descripción de cabecera encontrada');
-        
-        // Formatear la descripción
         const fichaFormateada = Array.isArray(descripcion) ? descripcion : [descripcion];
         
         return {
@@ -281,6 +302,7 @@ function PaginaProducto(){
     const [cargandoColchon, setCargandoColchon] = useState(false);
     const [cargandoTipoDormitorio, setCargandoTipoDormitorio] = useState(false);
     const [cargandoCabecera, setCargandoCabecera] = useState(false);
+    const [cantidad, setCantidad] = useState(1);
 
     useEffect(() => {
         let cancelled = false;
@@ -375,20 +397,15 @@ function PaginaProducto(){
                             error: false 
                         }));
                         cargarImagenesOptimizadas(productoEncontrado.fotos);
-                        
-                        // Cargar todas las descripciones posibles
+
                         if (productoEncontrado.nombre) {
                             const nombre = productoEncontrado.nombre;
                             
-                            // 1. Cargar descripción del colchón si el nombre contiene "+"
                             if (nombre.includes('+')) {
                                 cargarDescripcionColchon(nombre);
                             }
                             
-                            // 2. Cargar descripción de tipo (americano/europeo)
                             cargarDescripcionTipoDormitorio(nombre);
-                            
-                            // 3. Cargar descripción de cabecera si menciona "cabecera"
                             cargarDescripcionCabecera(nombre);
                         }
                     }
@@ -638,51 +655,6 @@ function PaginaProducto(){
         }
     };
 
-    // const renderSeccionColchon = () => {
-    //     if (!descripcionColchon && !cargandoColchon) return null;
-        
-    //     return (
-    //         <div className="seccion-colchon-detalle">
-    //             <h3 className="titulo-seccion-colchon">Especificaciones del Colchón Incluido</h3>
-                
-    //             {cargandoColchon ? (
-    //                 <div className="cargando-colchon">
-    //                     <p>Cargando detalles del colchón...</p>
-    //                 </div>
-    //             ) : (
-    //                 <>
-    //                     {descripcionColchon?.mensajes?.length > 0 && (
-    //                         <div className="mensajes-colchon">
-    //                             <h4>Características del Colchón</h4>
-    //                             {descripcionColchon.mensajes.map((mensaje, index) => (
-    //                                 <p key={index} className="mensaje-colchon">{mensaje}</p>
-    //                             ))}
-    //                         </div>
-    //                     )}
-                        
-    //                     {descripcionColchon?.ficha?.length > 0 && (
-    //                         <div className="ficha-tecnica-colchon">
-    //                             <h4>Ficha Técnica del Colchón</h4>
-    //                             <div className="tabla-ficha">
-    //                                 {descripcionColchon.ficha.map((item, index) => (
-    //                                     <div key={index} className="fila-ficha">
-    //                                         {Object.entries(item).map(([key, value]) => (
-    //                                             <div key={key} className="item-ficha">
-    //                                                 <span className="etiqueta-ficha">{key.replace(/-/g, ' ')}:</span>
-    //                                                 <span className="valor-ficha">{value}</span>
-    //                                             </div>
-    //                                         ))}
-    //                                     </div>
-    //                                 ))}
-    //                             </div>
-    //                         </div>
-    //                     )}
-    //                 </>
-    //             )}
-    //         </div>
-    //     );
-    // };
-
     return(
         <>
             <Helmet>
@@ -731,39 +703,74 @@ function PaginaProducto(){
                                         <h1 className='product-page-name'>{producto.nombre}</h1>
                                     </div>
 
-                                    <div className='d-flex-center-left gap-10 margin-right'>
-                                        <Sku producto={producto}/>
-
-                                        <Compartir/>
+                                    <div className='visible-on-desktop-no-mobile'>
+                                        <div className='d-flex-center-left gap-10 margin-right'>
+                                            <Sku producto={producto}/>
+                                            <Compartir/>
+                                        </div>
                                     </div>
                                 </div>
 
                                 <div>
                                     <div className='d-flex-column gap-20'>
                                         <div className='d-grid-2-1fr gap-10'>
-                                            <div className='d-flex-column gap-20'>
-                                                <Resumen producto={producto}/>
+                                            <div className='d-flex-column gap-20-to-10'>
+                                                <div className='visible-on-mobile-no-desktop'>
+                                                    <div className='page-product-prices'>
+                                                        <div className='d-flex-center-left gap-5'>
+                                                            <p className='page-product-normal-price'>S/.{producto.precioNormal}</p>
+                                                            <span className="product-page-discount">-{descuento}%</span>
+                                                        </div>
 
-                                                {producto.categoria.toLowerCase() !== "colchones" && (
-                                                    <Colores colorName={producto.nombre.split('-').pop().trim() || "Seleccionar color"}/>
-                                                )}
-
-                                                <Regalos producto={producto} descripcionColchon={descripcionColchon}/>
-                                            </div>
-
-                                            <div className='d-flex-column gap-20'>
-                                                <div className='page-product-prices'>
-                                                    <div className='d-flex-center-left gap-5'>
-                                                        <p className='page-product-normal-price'>S/.{producto.precioNormal}</p>
-                                                        <span className="product-page-discount">-{descuento}%</span>
+                                                        <p className='page-product-sale-price'>S/.{producto.precioVenta}</p>
                                                     </div>
-
-                                                    <p className='page-product-sale-price'>S/.{producto.precioVenta}</p>
                                                 </div>
 
-                                                <Medidas producto={producto}/>
+                                                <Resumen producto={producto}/>
 
-                                                <Envios/>
+                                                <div className='visible-on-desktop-no-mobile'>
+                                                    <div className='d-flex-column gap-10'>
+                                                        {producto.categoria.toLowerCase() !== "colchones" && (
+                                                            <Colores colorName={producto.nombre.split('-').pop().trim() || "Seleccionar color"}/>
+                                                        )}
+
+                                                        <Regalos producto={producto} descripcionColchon={descripcionColchon}/>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div className='d-flex-column gap-20-to-10'>
+                                                <div className='visible-on-desktop-no-mobile'>
+                                                    <div className='page-product-prices'>
+                                                        <div className='d-flex-center-left gap-5'>
+                                                            <p className='page-product-normal-price'>S/.{producto.precioNormal}</p>
+                                                            <span className="product-page-discount">-{descuento}%</span>
+                                                        </div>
+
+                                                        <p className='page-product-sale-price'>S/.{producto.precioVenta}</p>
+                                                    </div>
+                                                </div>
+
+                                                <div className='visible-on-mobile-no-desktop'>
+                                                    <div className='d-flex-column gap-10'>
+                                                        <div className='d-flex d-flex-wrap gap-10'>
+                                                            <Regalos producto={producto} descripcionColchon={descripcionColchon}/>
+
+                                                            {producto.categoria.toLowerCase() !== "colchones" && (
+                                                                <Colores colorName={producto.nombre.split('-').pop().trim() || "Seleccionar color"}/>
+                                                            )}
+                                                        </div>
+
+                                                        <Medidas producto={producto}/>
+                                                    </div>
+                                                </div>
+
+                                                <div className='visible-on-desktop-no-mobile'>
+                                                    <div className='button-continue-container'>
+                                                        <Cantidad onChange={setCantidad}/>
+                                                        <WhatsApp producto={producto} quantity={cantidad}/>
+                                                    </div>
+                                                </div>
                                             </div>
 
                                             <div className='visible-on-mobile-no-desktop'>
@@ -775,8 +782,6 @@ function PaginaProducto(){
                                                 />
                                             </div>
                                         </div>
-                                        
-                                        {/* {renderSeccionColchon()} */}
                                     </div>
                                 </div>
                             </div>
@@ -784,9 +789,11 @@ function PaginaProducto(){
                     </section>
                 </div>
 
-                <div className='button-continue-container'>
-                    <Cantidad/>
-                    <WhatsApp/>
+                <div className='visible-on-mobile-no-desktop'>
+                    <div className='button-continue-container'>
+                        <Cantidad onChange={setCantidad}/>
+                        <WhatsApp producto={producto} quantity={cantidad}/>
+                    </div>
                 </div>
 
                 <Suspense fallback={

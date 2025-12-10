@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import './Imagenes.css';
 
 import LazyImage from '../../../../Componentes/Plantillas/LazyImage';
+import Compartir from '../Compartir/Compartir';
 
 function Imagenes({ imagenes, producto, onSelectColor }){
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -92,6 +93,10 @@ function Imagenes({ imagenes, producto, onSelectColor }){
                         <span className="material-icons">chevron_right</span>
                     </button>
                 </div>
+            </div>
+
+            <div className='visible-on-mobile-no-desktop product-images-share-button'>
+                <Compartir/>
             </div>
         </div>
     );

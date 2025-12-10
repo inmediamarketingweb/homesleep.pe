@@ -39,19 +39,16 @@ function Colores({ colorName = "Seleccionar color" }){
     }, [colorName]);
 
     return(
-        <>
-            <div className='product-page-color-select d-flex-column gap-5 margin-right'>
-                <p className='color-color-1 title uppercase'>Color</p>
-
-                <p className='text lowercase first-uppercase'>{colorName}</p>
-
-                <button type='button' className='button-1 d-flex-center-center gap-10 margin-right'>
-                    {imageSrc && <img src={imageSrc} alt=''/>}
-
-                    <span class="material-symbols-outlined">add_circle</span>
-                </button>
+        <div className='product-page-color-select d-flex gap-10 margin-right'>
+            <div className='d-flex-center-left gap-5'>
+                <p className='color-color-1 title uppercase'>Color:</p>
+                <p className='text lowercase first-uppercase margin-right'>{colorName}</p>
             </div>
-        </>
+
+            <a href={imageSrc} title="Ver detalles" target='_blank' rel='noopener noreferrer'>
+                {imageSrc && <img src={imageSrc} alt=''/>}
+            </a>
+        </div>
     )
 }
 

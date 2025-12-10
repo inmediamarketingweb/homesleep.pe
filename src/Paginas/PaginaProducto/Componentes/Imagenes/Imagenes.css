@@ -155,7 +155,19 @@
     border-radius: 4px;
 }
 
+.product-images-share-button{
+    position: absolute;
+    left: 10px;
+    top: 54px;
+    z-index: 1;
+}
+
 @media screen and (max-width: 600px){
+    .image-discount{
+        left: 10px;
+        top: 10px;
+    }
+
     .product-page-image-component{
         display: flex;
         flex-direction: column-reverse;
