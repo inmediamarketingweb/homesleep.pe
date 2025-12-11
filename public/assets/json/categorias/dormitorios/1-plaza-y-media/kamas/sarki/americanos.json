@@ -8,7 +8,7 @@
             "modelo": "sarki",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/sarki/americanos/1/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS SARKI + CABECERA AÉREA CORONA - NEGRO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS SARKI + CABECERA AÉREA CORONA - NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos/coronas/corona/1/",
             "precioRegular": 1999,
             "precioNormal": 1599,
@@ -16,18 +16,6 @@
             "stock": 9,
             "sku": "H31215235N09",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -51,7 +39,7 @@
             "modelo": "sarki",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/sarki/americanos/7/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS SARKI + CABECERA AÉREA CORONA - NEGRO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS SARKI + CABECERA AÉREA CORONA - NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos/coronas/majestad/1/",
             "precioRegular": 2769,
             "precioNormal": 1769,
@@ -59,18 +47,6 @@
             "stock": 9,
             "sku": "H31215235N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos/7/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -94,7 +70,7 @@
             "modelo": "sarki",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/sarki/americanos/8/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL MAJESTAD - PLATA",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL MAJESTAD - PLATA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos/coronas/majestad/2/",
             "precioRegular": 2889,
             "precioNormal": 1889,
@@ -102,18 +78,6 @@
             "stock": 9,
             "sku": "H31215235N11",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos/8/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -137,7 +101,7 @@
             "modelo": "sarki",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/sarki/americanos/9/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL MAJESTAD - CENIZO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL MAJESTAD - CENIZO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos/coronas/majestad/3/",
             "precioRegular": 2889,
             "precioNormal": 1889,
@@ -145,18 +109,6 @@
             "stock": 9,
             "sku": "H31215235N12",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos/9/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -169,49 +121,6 @@
                     "diseño-de-cabecera": "corona",
                     "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "majestad"
-                }
-            ]
-        }
-    ],
-    "descripciones":[
-        {
-            "titulo": "Cama box tarima",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "refuerzos": "centrales y laterales.",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "Cromadas o de madera",
-                    "garantía": "2 años"
-                }
-            ]
-        },
-        {
-            "titulo": "Colchón",
-            "descripcion":[
-                {
-                    "resortes": "9 filas",
-                    "tela": "Algodón tejido en punto",
-                    "densidad-de-espuma": "18kg/m3",
-                    "tipo-de-uso": "Ambos lados",
-                    "marco": "Sellado",
-                    "soporte-de-peso": "65kg. por persona",
-                    "garantía": "2 años"
-                }
-            ]
-        },
-        {
-            "titulo": "Cabecera",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "espuma": "Zebra de alta densidad",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "De manera",
-                    "botones": "clásicos o acrílicos",
-                    "garantía": "2 años"
                 }
             ]
         }

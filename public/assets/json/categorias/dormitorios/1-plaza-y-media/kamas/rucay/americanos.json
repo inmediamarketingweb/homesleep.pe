@@ -8,7 +8,7 @@
             "modelo": "rucay",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/rucay/americanos/1/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - UVA",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - UVA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/corona/1/",
             "precioRegular": 2089,
             "precioNormal": 1589,
@@ -16,18 +16,6 @@
             "stock": 9,
             "sku": "H31215225N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazsa",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/rucay/americanos/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -51,7 +39,7 @@
             "modelo": "rucay",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/rucay/americanos/2/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - VINO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - VINO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/corona/2/",
             "precioRegular": 2089,
             "precioNormal": 1589,
@@ -59,22 +47,6 @@
             "stock": 9,
             "sku": "H31215225N11",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "1 plaza",
-                    "ruta": "/productos/dormitorios/1-plaza/kamas/rucay/americanos/2/"
-                },
-                {
-                    "nombre": "2 plazsa",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/rucay/americanos/2/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -98,7 +70,7 @@
             "modelo": "rucay",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/rucay/americanos/3/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - VERDE CERCETA",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - VERDE CERCETA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/corona/3/",
             "precioRegular": 2089,
             "precioNormal": 1589,
@@ -106,22 +78,6 @@
             "stock": 9,
             "sku": "H31215225N12",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "1 plaza",
-                    "ruta": "/productos/dormitorios/1-plaza/kamas/rucay/americanos/3/"
-                },
-                {
-                    "nombre": "2 plazsa",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/rucay/americanos/3/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -145,7 +101,7 @@
             "modelo": "rucay",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/rucay/americanos/4/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - VERDE LORO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - VERDE LORO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/corona/4/",
             "precioRegular": 2089,
             "precioNormal": 1589,
@@ -153,22 +109,6 @@
             "stock": 9,
             "sku": "H31215225N13",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "1 plaza",
-                    "ruta": "/productos/dormitorios/1-plaza/kamas/rucay/americanos/4/"
-                },
-                {
-                    "nombre": "2 plazsa",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/rucay/americanos/4/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -192,7 +132,7 @@
             "modelo": "rucay",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/rucay/americanos/5/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - CHOCOLATE",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS RUCAY + CABECERA PEDESTAL CORONA - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/coronas/corona/5/",
             "precioRegular": 2089,
             "precioNormal": 1589,
@@ -200,22 +140,6 @@
             "stock": 9,
             "sku": "H31215225N14",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "1 plaza",
-                    "ruta": "/productos/dormitorios/1-plaza/kamas/rucay/americanos/5/"
-                },
-                {
-                    "nombre": "2 plazsa",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/rucay/americanos/5/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -239,7 +163,7 @@
             "modelo": "rucay",
             "línea": "americanos",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/rucay/americanos/6/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS RUCAY + CABECERA AÉREA - CUERO NEGRO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS RUCAY + CABECERA AÉREA - CUERO NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/rucay/americanos/otros-modelos/1/",
             "precioRegular": 1999,
             "precioNormal": 1299,
@@ -247,22 +171,6 @@
             "stock": 9,
             "sku": "H31215225310",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "1 plaza",
-                    "ruta": "/productos/dormitorios/1-plaza/kamas/rucay/americanos/6/"
-                },
-                {
-                    "nombre": "2 plazsa",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/rucay/americanos/6/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -275,49 +183,6 @@
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Otros modelos"
-                }
-            ]
-        }
-    ],
-    "descripciones":[
-        {
-            "titulo": "Cama box tarima",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "refuerzos": "centrales y laterales.",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "Cromadas o de madera",
-                    "garantía": "2 años"
-                }
-            ]
-        },
-        {
-            "titulo": "Colchón",
-            "descripcion":[
-                {
-                    "resortes": "12 filas en forma vertical",
-                    "tela": "Algodón tejido en punto",
-                    "densidad-de-la-espuma": "16kg/m3",
-                    "marco": "Marco sellado",
-                    "tipo-de-uso": "Un solo lado",
-                    "soporte-de-peso": "70kg. por persona",
-                    "garantía": "1 año"
-                }
-            ]
-        },
-        {
-            "titulo": "Cabecera",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "espuma": "Zebra de alta densidad",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "De manera",
-                    "botones": "clásicos o acrílicos",
-                    "garantía": "2 años"
                 }
             ]
         }

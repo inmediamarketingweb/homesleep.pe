@@ -8,7 +8,7 @@
             "modelo": "adel",
             "línea": "europeos",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/adel/europeos/1/",
-            "nombre": "DORMITORIO CAPITONEADO KAMAS 2 PLAZAS + COLCHÓN KAMAS ADEL + CABECERA EMPERATRIZ CAPITONEADO 1 - ROSA PASTEL",
+            "nombre": "DORMITORIO EUROPEO CAPITONEADO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS ADEL + CABECERA EMPERATRIZ CAPITONEADO 1 - ROSA PASTEL",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/adel/europeos/americanas/capitoneado-1/1/",
             "precioRegular": 1999,
             "precioNormal": 1959,
@@ -16,18 +16,6 @@
             "stock": 9,
             "sku": "H31315213N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/adel/europeos/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -40,49 +28,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "capitoneado 1"
-                }
-            ]
-        }
-    ],
-    "descripciones":[
-        {
-            "titulo": "Cama box tarima",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "refuerzos": "centrales y laterales.",
-                    "láminas": "MDF de 3mm.",
-                    "espuma": "zebra d-18",
-                    "tela": "Piel de potro",
-                    "patas": "Cromadas o de madera",
-                    "garantía": "2 años"
-                }
-            ]
-        },
-        {
-            "titulo": "Colchón",
-            "descripcion":[
-                {
-                    "resortes": "12 filas en forma vertical",
-                    "tela": "Tricop",
-                    "densidad-de-la-espuma": "16kg/m3",
-                    "tipo-de-uso": "Ambos lados",
-                    "soporte-de-peso": "65kg. por persona",
-                    "garantía": "1 año"
-                }
-            ]
-        },
-        {
-            "titulo": "Cabecera",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "espuma": "Zebra de alta densidad",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "De manera",
-                    "botones": "clásicos o acrílicos",
-                    "garantía": "2 años"
                 }
             ]
         }

@@ -4,11 +4,11 @@
             "id": 1,
             "categoria": "dormitorios",
             "tamaño": "1 plaza y media",
-            "marca": "Kamas / Paraiso",
+            "marca": "Kamas + Paraiso",
             "modelo": "majestic",
             "línea": "Americanos",
             "ruta": "/productos/dormitorios/1-plaza-y-media/paraiso/majestic/americanos/1/",
-            "nombre": "DORMITORIO 2 PLAZAS KAMAS / PARAISO + COLCHÓN PARAISO MAJESTIC + CABECERA AÉREA CLÁSICA 2 - MORO",
+            "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA KAMAS / PARAISO + COLCHÓN PARAISO MAJESTIC + CABECERA AÉREA CLÁSICA 2 - MORO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/majestic/americanos/clasicas/clasica-2/1/",
             "precioRegular": 1849,
             "precioNormal": 1349,
@@ -16,18 +16,6 @@
             "stock": 9,
             "sku": "H322152252N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/paraiso/majestic/americanos/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - Paraiso",
@@ -47,11 +35,11 @@
             "id": 2,
             "categoria": "dormitorios",
             "tamaño": "1 plaza y media",
-            "marca": "Kamas / Paraiso",
+            "marca": "Kamas + Paraiso",
             "modelo": "majestic",
             "línea": "Americanos",
             "ruta": "/productos/dormitorios/1-plaza-y-media/paraiso/majestic/americanos/2/",
-            "nombre": "DORMITORIO 1 PLAZA Y MEDIA KAMAS / PARAISO + COLCHÓN PARAISO MAJESTIC + CABECERA AÉREA - NEGRO",
+            "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA KAMAS / PARAISO + COLCHÓN PARAISO MAJESTIC + CABECERA AÉREA - NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/majestic/americanos/americanas/otros-modelos/1/",
             "precioRegular": 1849,
             "precioNormal": 1349,
@@ -59,18 +47,6 @@
             "stock": 9,
             "sku": "H322152257N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/paraiso/majestic/americanos/2/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - Paraiso",
@@ -83,50 +59,6 @@
                     "diseño-de-cabecera": "Otros modelos",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Otros modelos"
-                }
-            ]
-        }
-    ],
-    "descripciones":[
-        {
-            "titulo": "Cama box tarima",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "refuerzos": "centrales y laterales.",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "Cromadas o de madera",
-                    "garantía": "2 años"
-                }
-            ]
-        },
-        {
-            "titulo": "Colchón",
-            "descripcion":[
-                {
-                    "resortes": "bonell",
-                    "tela-superior": "poliseda suave",
-                    "espuma": "zebra D16",
-                    "tipo-de-uso": "ambos lados",
-                    "marco": "de espuma",
-                    "nivel-de-confort": "intermedio",
-                    "sensación": "intermedia",
-                    "garantía": "2 años"
-                }
-            ]
-        },
-        {
-            "titulo": "Cabecera",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "espuma": "Zebra de alta densidad",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "De manera",
-                    "botones": "clásicos o acrílicos",
-                    "garantía": "2 años"
                 }
             ]
         }
