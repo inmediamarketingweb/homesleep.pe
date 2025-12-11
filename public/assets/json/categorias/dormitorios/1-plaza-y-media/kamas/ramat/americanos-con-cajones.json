@@ -8,7 +8,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/1/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - PLATA",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - PLATA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/1/",
             "precioRegular": 2399,
             "precioNormal": 1899,
@@ -16,18 +16,6 @@
             "stock": 9,
             "sku": "H31215173N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -51,7 +39,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/2/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - PLOMO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - PLOMO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/2/",
             "precioRegular": 2399,
             "precioNormal": 1899,
@@ -59,18 +47,6 @@
             "stock": 9,
             "sku": "H31215173N11",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/2/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -94,7 +70,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/3/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - CHOCOLATE",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/3/",
             "precioRegular": 2399,
             "precioNormal": 1899,
@@ -102,18 +78,6 @@
             "stock": 9,
             "sku": "H31215173N12",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/3/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -137,7 +101,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/4/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - VERDE",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - VERDE",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/4/",
             "precioRegular": 2399,
             "precioNormal": 1899,
@@ -145,18 +109,6 @@
             "stock": 9,
             "sku": "H31215173N13",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/4/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -180,7 +132,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/5/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - PLOMO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - PLOMO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/5/",
             "precioRegular": 2399,
             "precioNormal": 1899,
@@ -188,18 +140,6 @@
             "stock": 9,
             "sku": "H31215173N14",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/5/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -223,7 +163,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/6/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - CHOCOLATE",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/6/",
             "precioRegular": 2399,
             "precioNormal": 1899,
@@ -231,18 +171,6 @@
             "stock": 9,
             "sku": "H31215173N15",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/6/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -266,7 +194,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/7/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - NEGRO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/7/",
             "precioRegular": 2399,
             "precioNormal": 1899,
@@ -274,18 +202,6 @@
             "stock": 9,
             "sku": "H31215173N16",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/7/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -309,7 +225,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/8/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - PALO ROSA",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - PALO ROSA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/8/",
             "precioRegular": 2399,
             "precioNormal": 1899,
@@ -317,18 +233,6 @@
             "stock": 9,
             "sku": "H31215173N17",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/8/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -352,7 +256,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/9/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - PLATA",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - PLATA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/9/",
             "precioRegular": 2399,
             "precioNormal": 1899,
@@ -360,18 +264,6 @@
             "stock": 9,
             "sku": "H31215173N18",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/9/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -395,7 +287,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/10/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - CAMEL",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA AÉREA CAPITONEADA 1 - CAMEL",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/10/",
             "precioRegular": 2399,
             "precioNormal": 1899,
@@ -403,18 +295,6 @@
             "stock": 9,
             "sku": "H31215173N19",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/10/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -438,7 +318,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/11/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - VINO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - VINO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/11/",
             "precioRegular": 2599,
             "precioNormal": 2099,
@@ -446,18 +326,6 @@
             "stock": 9,
             "sku": "H31215173N20",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/11/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -481,7 +349,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/12/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - PALO ROSA",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - PALO ROSA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/12/",
             "precioRegular": 2599,
             "precioNormal": 2099,
@@ -489,18 +357,6 @@
             "stock": 9,
             "sku": "H31215173N21",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/12/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -524,7 +380,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/13/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - IVORY",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - IVORY",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/13/",
             "precioRegular": 2599,
             "precioNormal": 2099,
@@ -532,18 +388,6 @@
             "stock": 9,
             "sku": "H31215173N22",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/13/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -567,7 +411,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/14/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - ROSADO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - ROSADO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/14/",
             "precioRegular": 2599,
             "precioNormal": 2099,
@@ -575,18 +419,6 @@
             "stock": 9,
             "sku": "H31215173N23",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/14/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -610,7 +442,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/15/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - ARENA OSCURO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - ARENA OSCURO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/1/",
             "precioRegular": 2799,
             "precioNormal": 2249,
@@ -618,18 +450,6 @@
             "stock": 9,
             "sku": "H31215175N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/15/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -653,7 +473,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/16/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - MORO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - MORO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/2/",
             "precioRegular": 2799,
             "precioNormal": 2249,
@@ -661,18 +481,6 @@
             "stock": 9,
             "sku": "H31215175N11",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/16/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -696,7 +504,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/17/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - BEIGE",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - BEIGE",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/3/",
             "precioRegular": 2799,
             "precioNormal": 2249,
@@ -704,18 +512,6 @@
             "stock": 9,
             "sku": "H31215175N12",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/17/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -739,7 +535,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/18/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - FUCSIA",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - FUCSIA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/4/",
             "precioRegular": 2799,
             "precioNormal": 2249,
@@ -747,18 +543,6 @@
             "stock": 9,
             "sku": "H31215175N13",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/18/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -782,7 +566,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/19/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - VINO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - VINO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/6/",
             "precioRegular": 2799,
             "precioNormal": 2249,
@@ -790,18 +574,6 @@
             "stock": 9,
             "sku": "H31215175N14",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/19/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -825,7 +597,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/20/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - VERDE LORO",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - VERDE LORO",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/8/",
             "precioRegular": 2799,
             "precioNormal": 2249,
@@ -833,18 +605,6 @@
             "stock": 9,
             "sku": "H31215175N15",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/20/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -868,7 +628,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/21/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - PALO ROSA",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - PALO ROSA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/9/",
             "precioRegular": 2799,
             "precioNormal": 2249,
@@ -876,18 +636,6 @@
             "stock": 9,
             "sku": "H31215175N16",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/21/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -911,7 +659,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/22/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - VERDE CERCETA",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - VERDE CERCETA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/10/",
             "precioRegular": 2799,
             "precioNormal": 2249,
@@ -919,18 +667,6 @@
             "stock": 9,
             "sku": "H31215175N17",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/22/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -954,7 +690,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/23/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - VERDE JADE",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - VERDE JADE",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/11/",
             "precioRegular": 2799,
             "precioNormal": 2249,
@@ -962,18 +698,6 @@
             "stock": 9,
             "sku": "H31215175N18",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/23/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -997,7 +721,7 @@
             "modelo": "ramat",
             "línea": "americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones/24/",
-            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - UVA",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - UVA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/12/",
             "precioRegular": 2799,
             "precioNormal": 2249,
@@ -1005,18 +729,6 @@
             "stock": 9,
             "sku": "H31215175N19",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/24/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
@@ -1029,51 +741,6 @@
                     "diseño-de-cabecera": "corona",
                     "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Capitoneado 1"
-                }
-            ]
-        }
-    ],
-    "descripciones":[
-        {
-            "titulo": "Cama box tarima",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "refuerzos": "centrales y laterales.",
-                    "cajones": "melamina 18mm",
-                    "rieles": "telescópicos pesados",
-                    "material-de-cajones": "melamina",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "Cromadas o de madera",
-                    "garantía": "2 años"
-                }
-            ]
-        },
-        {
-            "titulo": "Colchón",
-            "descripcion":[
-                {
-                    "resortes": "12 filas en forma vertical",
-                    "tela": "Tricop",
-                    "densidad-de-la-espuma": "16kg/m3",
-                    "tipo-de-uso": "Ambos lados",
-                    "soporte-de-peso": "65kg. por persona",
-                    "garantía": "1 año"
-                }
-            ]
-        },
-        {
-            "titulo": "Cabecera",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "espuma": "Zebra de alta densidad",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "De manera",
-                    "botones": "clásicos o acrílicos",
-                    "garantía": "2 años"
                 }
             ]
         }

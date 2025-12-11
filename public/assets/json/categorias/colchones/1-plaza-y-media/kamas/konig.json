@@ -2,8 +2,9 @@
     "productos":[
         {
             "categoria": "colchones",
+            "tamaño": "1 plaza y media",
             "marca": "kamas",
-            "subcategoria": "konig",
+            "modelo": "konig",
             "ruta": "/productos/colchones/1-plaza-y-media/kamas/konig/",
             "nombre": "COLCHÓN KAMAS EXTRA ORTOPÉDICO KONIG 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/kamas/konig/",
@@ -18,51 +19,28 @@
                     "foto": "/assets/imagenes/productos/almohada.webp"
                 }
             ],
-            "resumen-del-producto":[
-                {
-                    "marca": "kamas",
-                    "modelo-de-colchón": "Konig",
-                    "tamaño": "1 plaza y media",
-                    "línea-de-colchón": "Extra ortopédico",
-                    "nivel-de-confort": "Muy firme"
-                }
-            ],
             "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/colchones/2-plazas/kamas/konig/"
-                },
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/colchones/queen/kamas/konig/"
-                },
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/colchones/king/kamas/konig/"
-                }
+                {"nombre": "2 plazas", "sku": "H11211N10"},
+                {"nombre": "Queen", "sku": "H11311N10"},
+                {"nombre": "King", "sku": "H11411N10"}
             ],
-            "tipo-de-envio": "Envío preferente",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "modelo-de-colchón": "Konig",
-                    "tamaño": "1 plaza y media",
-                    "línea-de-colchón": "Extra ortopédico",
-                    "nivel-de-confort": "Muy firme",
-                    "tipo-de-resorte": "Bonell"
-                }
-            ],
-            "descripcion":[
-                {
-                    "resortes": "12 filas",
-                    "tela": "Algodón tejido en punto",
-                    "densidad-de-la-espuma": "25kg/m3",
-                    "tipo-de-uso": "Ambos lados",
-                    "marco": "Refuerzo de marco sellado",
-                    "soporte-de-peso": "100kg. por persona",
-                    "garantía": "10 años"
-                }
-            ]
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "ficha":[
+        {
+            "marca": "kamas",
+            "modelo-de-colchón": "konig",
+            "línea-de-colchón": "Extra ortopédico",
+            "nivel-de-confort": "Muy firme",
+            "filas-de-resortes": "12 filas",
+            "tela": "Algodón tejido en punto",
+            "densidad-de-la-espuma": "25kg/m3",
+            "resortes": "Bonell",
+            "tipo-de-uso": "Ambos lados",
+            "marco": "Refuerzo de marco sellado",
+            "soporte-de-peso": "100kg. por persona",
+            "garantía": "10 años"
         }
     ]
 }
