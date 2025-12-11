@@ -20,8 +20,10 @@
         }
     ],
     "mensajes":[
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        "Este colchón ofrece un descanso de alto nivel gracias a su panel de 780 resortes pocket, que se adaptan de forma independiente al cuerpo, brindando soporte preciso y reduciendo la transferencia de movimiento. Su espuma Zebra de 1 1/4' (16 kg/m³) aporta suavidad y ergonomía, creando una superficie más confortable y envolvente.",
+        "La cubierta en tela Tricot proporciona frescura, suavidad y un acabado de calidad, mientras que la espuma de 20 kg/m³ añade un confort adicional que mejora la experiencia de descanso. El marco de espuma flexible refuerza la estructura y evita deformaciones, garantizando durabilidad y soporte uniforme.",
+        "Su banda de tela en punto ofrece estilo y resistencia, complementada por una altura de 30 cm, que aporta elegancia, comodidad y fácil acceso.",
+        "Con 6 años de garantía, este colchón es una excelente opción para quienes buscan comodidad, soporte avanzado y larga durabilidad en un solo producto."
     ],
     "ficha":[
         {
@@ -31,14 +33,14 @@
             "línea": "ortopédico",
             "nivel-de-confort": "Intermedio",
             "tipo-de-resortes": "Pocket",
-            "resortes": "300096 bicónicos",
-            "tela": "Pique",
+            "resortes": "780",
+            "grosor": "30cm",
+            "tela": "tricot",
             "tratamiento": "Antihongos, antibacterias y antiácaros",
             "tipo-de-uso": "un solo lado",
             "marco": "Espuma con densidad 20kg/m3",
-            "capas": "2 láminas fibra no tejida de 300gr. 2 láminas espuma de poliuretano de 1 1/2 con 18kg/m3 y 2 láminas de poliuretano de 1 1/4 con 16kg/m3",
             "sensación": "intermedia",
-            "garantía": "4 años"
+            "garantía": "6 años"
         }
     ]
 }
