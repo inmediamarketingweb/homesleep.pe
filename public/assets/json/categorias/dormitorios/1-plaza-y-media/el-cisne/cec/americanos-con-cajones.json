@@ -8,7 +8,7 @@
             "modelo": "CEC",
             "línea": "Americanos con cajones",
             "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/cec/americanos-con-cajones/1/",
-            "nombre": "DORMITORIO 1 PLAZA Y MEDIA KAMAS / EL CISNE CON 2 CAJONES + COLCHÓN EL CISNE CEC + CABECERA AÉREA CLÁSICA - ARENA",
+            "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA KAMAS / EL CISNE CON 2 CAJONES + COLCHÓN CEC + CABECERA AÉREA CLÁSICA - ARENA",
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/el-cisne/cec/americanos-con-cajones/clasicas/clasica-1/1/",
             "precioRegular": 1999,
             "precioNormal": 1499,
@@ -16,18 +16,6 @@
             "stock": 9,
             "sku": "H33115112N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "2 plazas",
-                    "ruta": "/productos/dormitorios/2-plazas/el-cisne/cec/americanos/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El Cisne",
@@ -41,55 +29,6 @@
                     "diseño-de-cabecera": "Clásica",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Clásica 1"
-                }
-            ]
-        }
-    ],
-    "descripciones":[
-        {
-            "titulo": "Cama box tarima",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "refuerzos": "centrales y laterales.",
-                    "material-de-cajones": "melamina",
-                    "rieles": "pesados",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "Cromadas o de madera",
-                    "garantía": "2 años"
-                }
-            ]
-        },
-        {
-            "titulo": "Colchón",
-            "descripcion":[
-                {
-                    "resortes": "231 bicónicos",
-                    "tela-superior": "pique",
-                    "espuma": "poliuretano de 1 1/2'",
-                    "soporte": "60kg por persona",
-                    "tipo-de-uso": "ambos lados",
-                    "marco": "de espuma de poliuretano",
-                    "banda": "tela tricop",
-                    "nivel-de-confort": "intermedio",
-                    "grosor": "21 cm",
-                    "sensación": "intermedia",
-                    "garantía": "2 años"
-                }
-            ]
-        },
-        {
-            "titulo": "Cabecera",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "espuma": "Zebra de alta densidad",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "De manera",
-                    "botones": "clásicos o acrílicos",
-                    "garantía": "2 años"
                 }
             ]
         }
