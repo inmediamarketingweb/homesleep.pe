@@ -12,12 +12,12 @@
             "precioNormal": 1279,
             "precioVenta": 999,
             "stock": 99,
-            "sku": "K11512N10",
+            "sku": "H111512N10",
             "regalos":[ "1 almohada" ],
             "tamaños-disponibles":[
-                { "nombre": "2 plazas", "sku": "K1212N10"},
-                { "nombre": "Queen", "sku": "K1312N10"},
-                { "nombre": "King", "sku": "K1412N10"}
+                { "nombre": "2 plazas", "sku": "H11212N10"},
+                { "nombre": "Queen", "sku": "H11312N10"},
+                { "nombre": "King", "sku": "H11412N10"}
             ],
             "tipo-de-envio": "Envío preferente"
         }

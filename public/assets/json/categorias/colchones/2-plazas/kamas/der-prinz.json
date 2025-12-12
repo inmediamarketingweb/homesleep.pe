@@ -31,7 +31,10 @@
         {
             "marca": "kamas",
             "modelo-de-colchón": "Der Prinz",
-            "resortes": "15 filas",
+            "resortes": "bonell",
+            "nivel-de-confort": "Muy confortable",
+            "línea-de-colchón": "Súper ortopédico",
+            "filas-de-resortes": "15 filas",
             "tela": "Algodón tejido en punto",
             "densidad-de-la-espuma": "20kg/m3",
             "tipo-de-uso": "Un solo lado",
