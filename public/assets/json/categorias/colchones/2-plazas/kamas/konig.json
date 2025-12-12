@@ -29,7 +29,12 @@
     ],
     "ficha":[
         {
-            "resortes": "16 filas",
+            "marca": "kamas",
+            "modelo-de-colchón": "ramat",
+            "resortes": "bonell",
+            "filas-de-resortes": "16 filas",
+            "nivel-de-confort": "extra ortopédico",
+            "línea-de-colchón": "Muy firme",
             "tela": "Algodón tejido en punto",
             "densidad-de-la-espuma": "25kg/m3",
             "tipo-de-uso": "Ambos lados",

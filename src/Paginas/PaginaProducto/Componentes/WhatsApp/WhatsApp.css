@@ -10,16 +10,6 @@
     background: var(--whatsapp);
     position: relative;
     overflow: hidden;
-
-    /* pointer-events: none;
-    user-select: none; */
-}
-
-.product-page-whatsapp.active{
-    background: var(--whatsapp);
-    cursor: pointer;
-    pointer-events: unset;
-    user-select: unset;
 }
 
 .product-page-whatsapp.active::before{

@@ -28,8 +28,8 @@
         {
             "marca": "kamas",
             "modelo-de-colchón": "adel",
-            "tipo-de-resortes": "bonell",
-            "resortes": "12 filas en forma vertical",
+            "resortes": "bonell",
+            "filas-de-resortes": "12 filas en forma vertical",
             "tela": "Tricop",
             "densidad-de-la-espuma": "16kg/m3",
             "tipo-de-uso": "Ambos lados",
