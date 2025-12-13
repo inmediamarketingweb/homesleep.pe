@@ -231,6 +231,11 @@
                 },
                 {
                     "id": 6,
+                    "medida": "4 plazas",
+                    "ruta": "/productos/dormitorios/4-plazas/"
+                },
+                {
+                    "id": 6,
                     "medida": "Ver todos",
                     "ruta": "/productos/dormitorios/"
                 }

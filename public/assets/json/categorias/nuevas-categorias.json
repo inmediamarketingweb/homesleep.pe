@@ -203,6 +203,10 @@
                         "ruta": "/productos/dormitorios/king/"
                     },
                     {
+                        "titulo": "4 plazas",
+                        "ruta": "/productos/dormitorios/4-plazas/"
+                    },
+                    {
                         "titulo": "ver todos",
                         "ruta": "/productos/dormitorios/"
                     }
