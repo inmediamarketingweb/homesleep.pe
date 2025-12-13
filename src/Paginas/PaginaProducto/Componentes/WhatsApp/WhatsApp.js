@@ -1,7 +1,6 @@
 import './WhatsApp.css';
 
 function WhatsApp({ producto, quantity = 1 }) {
-    if (!producto) return null;
 
     const obtenerNumeroSegunHorario = () => {
         const ahora = new Date();
@@ -16,45 +15,32 @@ function WhatsApp({ producto, quantity = 1 }) {
 
         if (esFinDeSemana) {
             return numero2;
-        } else {
-            if (horaActual >= 7.0 && horaActual < 17.5) {
-                return numero1;
-            } else {
-                return numero2;
-            }
         }
+
+        if (horaActual >= 7.0 && horaActual < 13.5) {
+            return numero1;
+        }
+
+        return numero2;
     };
 
     const getWhatsAppLink = () => {
         const numeroWhatsApp = obtenerNumeroSegunHorario();
-        const regalos = producto.regalos || [];
-        let regalosTexto = '';
 
-        if (regalos.length > 0) {
-            regalos.forEach(regalo => {
-                regalosTexto += `* ${regalo.nombre || regalo}\n`;
-            });
-        } else {
-            regalosTexto = '* Sin regalos disponibles\n';
-        }
+        const mensaje =
+            `*${producto.nombre}*\n\n` +
+            `_*S/.${producto.precioVenta}*_\n\n` +
+            `Cantidad: ${quantity}\n\n` +
+            `SKU: ${producto.sku}\n` +
+            `https://homesleep.pe${producto.ruta}`;
 
-        const mensaje = `*${producto.nombre}*\n\n` +
-                       `_*S/.${producto.precioVenta}*_\n\n` +
-                       `Cantidad: ${quantity}\n\n` +
-                       `SKU: ${producto.sku}\n` +
-                       `https://homesleep.pe${producto.ruta}`;
-    
         return `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
     };
 
-    const hasStock = producto.stock > 0;
-    const buttonClasses = [ 'product-page-whatsapp', hasStock ? 'active' : 'sin-stock' ].filter(Boolean).join(' ');
-    const buttonText = hasStock ? 'Continuar' : 'Sin stock';
-
-    return(
-        <a href={hasStock ? getWhatsAppLink() : "#"} className={buttonClasses} target="_blank" rel="noopener noreferrer" onClick={(e) => !hasStock && e.preventDefault()}>
-            <img src="/assets/imagenes/iconos/whatsapp-blanco.svg" alt="WhatsApp | homesleep"/>
-            <p>{buttonText}</p>
+    return (
+        <a href={getWhatsAppLink()} className="product-page-whatsapp active" target="_blank" rel="noopener noreferrer">
+            <img src="/assets/imagenes/iconos/whatsapp-blanco.svg" alt="WhatsApp | Homesleep" />
+            <p>Continuar</p>
         </a>
     );
 }

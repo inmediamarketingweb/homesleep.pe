@@ -270,6 +270,10 @@
 
 
 
+        "/assets/json/categorias/dormitorios/4-plazas/kamas/sarki/americanos.json",
+
+
+
         "/assets/json/categorias/dormitorios/king/el-cisne/pocket-peruano/americanos.json",
         "/assets/json/categorias/dormitorios/king/el-cisne/pocket-peruano/americanos-con-cajones.json",
 
@@ -291,6 +295,7 @@
         "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos-con-cajones.json",
         "/assets/json/categorias/dormitorios/king/kamas/sarki/europeos.json",
         "/assets/json/categorias/dormitorios/king/kamas/sarki/europeos-con-cajones.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/premium.json",
 
 
         "/assets/json/categorias/dormitorios/king/kamas/der-prinz/americanos.json",
