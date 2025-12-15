@@ -14,21 +14,12 @@
             "stock": 99,
             "sku": "H11152N10",
             "regalos":[ "1 almohada" ],
-            "resumen-del-producto":[
-                {
-                    "marca": "kamas",
-                    "modelo-de-colchón": "Rucay",
-                    "tamaño": "1 plaza y media",
-                    "línea-de-colchón": "Anátomico",
-                    "nivel-de-confort": "Confortable"
-                }
-            ],
             "tamaños-disponibles":[
                 { "nombre": "2 plazas", "sku": "H1122N10" },
                 { "nombre": "Queen", "sku": "H1132N10" },
                 { "nombre": "King", "sku": "H1142N10" }
             ],
-            "tipo-de-envio": "Envío preferente"
+            "tipo-de-envio": "Envío aplicado"
         }
     ],
     "mensajes":[
