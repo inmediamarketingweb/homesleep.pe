@@ -1,695 +1,354 @@
 {
     "productos":[
         {
+            "id": 1,
             "categoria": "dormitorios",
             "marca": "kamas",
             "subcategoria": "europeos",
             "tamaño": "king",
             "modelo": "konig",
             "ruta": "/productos/dormitorios/king/kamas/konig/europeos/1/",
-            "nombre": "DORMITORIO EUROPEO KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL BLOQUES - PLOMO",
-            "fotos": "/assets/imagenes/productos/dormitorios/kamas/europeos/king/konig/pedestales/bloques/sin-brazos/otros-modelos/1/",
-            "colores": "si",
-            "precioRegular": 2599,
-            "precioNormal": 3519,
-            "precioVenta": 2549,
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA AEREA REPTILIAN - PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/1/",
+            "precioRegular": 4399,
+            "precioNormal": 3719,
+            "precioVenta": 2649,
             "stock": 23,
-            "sku": "K3342116N10",
+            "sku": "H31242116N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/regalos/cojines/plomo-oscuro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas",
-                    "línea": "Europeo",
-                    "tamaño": "King",
-                    "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ],
+            "regalos": [ "3 cojines" ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Europeo",
+                    "línea": "Europeos",
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
+                    "tipo-de-cabecera": "aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "espuma": "Zebra de alta densidad",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "resortes": "20 filas",
-                            "material-de-resorte": "Acero templado",
-                            "tela": "Algodón tejido en punto",
-                            "densidad-de-espuma": "25kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "grosor": "44cm.",
-                            "incorpora": "Sistema PT",
-                            "refuerzos": "Centrales",
-                            "marco": "De espuma",
-                            "soporte-de-peso": "130kg. por persona",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
+                    "modelo-de-cabecera": "reptilian"
                 }
             ]
         },
         {
+            "id": 2,
             "categoria": "dormitorios",
             "marca": "kamas",
             "subcategoria": "europeos",
             "tamaño": "king",
             "modelo": "konig",
             "ruta": "/productos/dormitorios/king/kamas/konig/europeos/2/",
-            "nombre": "DORMITORIO EUROPEO KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL BLOQUES - ROJO",
-            "fotos": "/assets/imagenes/productos/dormitorios/kamas/europeos/king/konig/pedestales/bloques/sin-brazos/otros-modelos/2/",
-            "colores": "si",
-            "precioRegular": 2599,
-            "precioNormal": 3519,
-            "precioVenta": 2549,
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA AEREA REPTILIAN - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/2/",
+            "precioRegular": 4399,
+            "precioNormal": 3719,
+            "precioVenta": 2649,
             "stock": 23,
-            "sku": "K3342116N11",
+            "sku": "H31242116N11",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/regalos/cojines/rojo.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas",
-                    "línea": "Europeo",
-                    "tamaño": "King",
-                    "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ],
+            "regalos": [ "3 cojines" ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Europeo",
+                    "línea": "Europeos",
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
+                    "tipo-de-cabecera": "aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "espuma": "Zebra de alta densidad",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "resortes": "20 filas en forma vertical",
-                            "material-de-resorte": "Acero templado",
-                            "tela": "Algodón tejido en punto",
-                            "densidad-de-espuma": "25kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "grosor": "44cm.",
-                            "incorpora": "Sistema PT",
-                            "refuerzos": "Centrales",
-                            "marco": "De espuma",
-                            "soporte-de-peso": "130kg. por persona",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
+                    "modelo-de-cabecera": "reptilian"
                 }
             ]
         },
         {
+            "id": 3,
             "categoria": "dormitorios",
             "marca": "kamas",
             "subcategoria": "europeos",
             "tamaño": "king",
             "modelo": "konig",
             "ruta": "/productos/dormitorios/king/kamas/konig/europeos/3/",
-            "nombre": "DORMITORIO EUROPEO KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL BLOQUES - FUCSIA",
-            "fotos": "/assets/imagenes/productos/dormitorios/kamas/europeos/king/konig/pedestales/bloques/sin-brazos/otros-modelos/3/",
-            "colores": "si",
-            "precioRegular": 2599,
-            "precioNormal": 3519,
-            "precioVenta": 2549,
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA AEREA REPTILIAN - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/3/",
+            "precioRegular": 4399,
+            "precioNormal": 3719,
+            "precioVenta": 2649,
             "stock": 23,
-            "sku": "K3342116N12",
+            "sku": "H31242116N12",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/regalos/cojines/fucsia.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas",
-                    "línea": "Europeo",
-                    "tamaño": "King",
-                    "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ],
+            "regalos": [ "3 cojines" ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Europeo",
+                    "línea": "Europeos",
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
+                    "tipo-de-cabecera": "aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "espuma": "Zebra de alta densidad",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "resortes": "20 filas en forma vertical",
-                            "material-de-resorte": "Acero templado",
-                            "tela": "Algodón tejido en punto",
-                            "densidad-de-espuma": "25kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "grosor": "44cm.",
-                            "incorpora": "Sistema PT",
-                            "refuerzos": "Centrales",
-                            "marco": "De espuma",
-                            "soporte-de-peso": "130kg. por persona",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
+                    "modelo-de-cabecera": "reptilian"
                 }
             ]
         },
         {
+            "id": 4,
             "categoria": "dormitorios",
             "marca": "kamas",
             "subcategoria": "europeos",
             "tamaño": "king",
             "modelo": "konig",
             "ruta": "/productos/dormitorios/king/kamas/konig/europeos/4/",
-            "nombre": "DORMITORIO EUROPEO KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL BLOQUES - LILA",
-            "fotos": "/assets/imagenes/productos/dormitorios/kamas/europeos/king/konig/pedestales/bloques/sin-brazos/otros-modelos/4/",
-            "colores": "si",
-            "precioRegular": 2599,
-            "precioNormal": 3519,
-            "precioVenta": 2549,
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA AEREA REPTILIAN - LILA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/4/",
+            "precioRegular": 4399,
+            "precioNormal": 3719,
+            "precioVenta": 2649,
             "stock": 23,
-            "sku": "K3342116N13",
+            "sku": "H31242116N13",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/regalos/cojines/violeta.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas",
-                    "línea": "Europeo",
-                    "tamaño": "King",
-                    "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ],
+            "regalos": [ "3 cojines" ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Europeo",
+                    "línea": "Europeos",
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
+                    "tipo-de-cabecera": "aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "espuma": "Zebra de alta densidad",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "resortes": "20 filas en forma vertical",
-                            "material-de-resorte": "Acero templado",
-                            "tela": "Algodón tejido en punto",
-                            "densidad-de-espuma": "25kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "grosor": "44cm.",
-                            "incorpora": "Sistema PT",
-                            "refuerzos": "Centrales",
-                            "marco": "De espuma",
-                            "soporte-de-peso": "130kg. por persona",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
+                    "modelo-de-cabecera": "reptilian"
                 }
             ]
         },
         {
+            "id": 5,
             "categoria": "dormitorios",
             "marca": "kamas",
             "subcategoria": "europeos",
             "tamaño": "king",
             "modelo": "konig",
             "ruta": "/productos/dormitorios/king/kamas/konig/europeos/5/",
-            "nombre": "DORMITORIO EUROPEO KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL BLOQUES - CHOCOLATE",
-            "fotos": "/assets/imagenes/productos/dormitorios/kamas/europeos/king/konig/pedestales/bloques/sin-brazos/otros-modelos/5/",
-            "colores": "si",
-            "precioRegular": 2599,
-            "precioNormal": 3519,
-            "precioVenta": 2549,
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA AEREA REPTILIAN - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/5/",
+            "precioRegular": 4399,
+            "precioNormal": 3719,
+            "precioVenta": 2649,
             "stock": 23,
-            "sku": "K3342116N14",
+            "sku": "H31242116N14",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/regalos/cojines/chocolate.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas",
-                    "línea": "Europeo",
-                    "tamaño": "King",
-                    "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ],
+            "regalos": [ "3 cojines" ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Europeo",
+                    "línea": "Europeos",
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
+                    "tipo-de-cabecera": "aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "espuma": "Zebra de alta densidad",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "resortes": "20 filas en forma vertical",
-                            "material-de-resorte": "Acero templado",
-                            "tela": "Algodón tejido en punto",
-                            "densidad-de-espuma": "25kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "grosor": "44cm.",
-                            "incorpora": "Sistema PT",
-                            "refuerzos": "Centrales",
-                            "marco": "De espuma",
-                            "soporte-de-peso": "130kg. por persona",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
+                    "modelo-de-cabecera": "reptilian"
                 }
             ]
         },
         {
+            "id": 6,
             "categoria": "dormitorios",
             "marca": "kamas",
             "subcategoria": "europeos",
             "tamaño": "king",
             "modelo": "konig",
             "ruta": "/productos/dormitorios/king/kamas/konig/europeos/6/",
-            "nombre": "DORMITORIO EUROPEO KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL BLOQUES - AZUL ELÉCTRICO",
-            "fotos": "/assets/imagenes/productos/dormitorios/kamas/europeos/king/konig/pedestales/bloques/sin-brazos/otros-modelos/6/",
-            "colores": "si",
-            "precioRegular": 2599,
-            "precioNormal": 3519,
-            "precioVenta": 2549,
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA AEREA REPTILIAN - AZUL ELÉCTRICO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/6/",
+            "precioRegular": 4399,
+            "precioNormal": 3719,
+            "precioVenta": 2649,
             "stock": 23,
-            "sku": "K3342116N15",
+            "sku": "H31242116N15",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/regalos/cojines/azul-electrico.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas",
-                    "línea": "Europeo",
-                    "tamaño": "King",
-                    "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ],
+            "regalos": [ "3 cojines" ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Europeo",
+                    "línea": "Europeos",
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
+                    "tipo-de-cabecera": "aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "espuma": "Zebra de alta densidad",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "resortes": "20 filas en forma vertical",
-                            "material-de-resorte": "Acero templado",
-                            "tela": "Algodón tejido en punto",
-                            "densidad-de-espuma": "25kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "grosor": "44cm.",
-                            "incorpora": "Sistema PT",
-                            "refuerzos": "Centrales",
-                            "marco": "De espuma",
-                            "soporte-de-peso": "130kg. por persona",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
+                    "modelo-de-cabecera": "reptilian"
                 }
             ]
         },
         {
+            "id": 7,
             "categoria": "dormitorios",
             "marca": "kamas",
             "subcategoria": "europeos",
             "tamaño": "king",
             "modelo": "konig",
             "ruta": "/productos/dormitorios/king/kamas/konig/europeos/7/",
-            "nombre": "DORMITORIO EUROPEO KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL BLOQUES - ROJO",
-            "fotos": "/assets/imagenes/productos/dormitorios/kamas/europeos/king/konig/pedestales/bloques/sin-brazos/otros-modelos/7/",
-            "colores": "si",
-            "precioRegular": 2599,
-            "precioNormal": 3519,
-            "precioVenta": 2549,
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA AEREA REPTILIAN - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/7/",
+            "precioRegular": 4399,
+            "precioNormal": 3719,
+            "precioVenta": 2649,
             "stock": 23,
-            "sku": "K3342116N16",
+            "sku": "H31242116N16",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/regalos/cojines/rojo.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas",
-                    "línea": "Europeo",
-                    "tamaño": "King",
-                    "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ],
+            "regalos": [ "3 cojines" ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas",
-                    "línea": "Europeo",
+                    "línea": "Europeos",
                     "tamaño": "King",
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Konig",
-                    "tipo-de-cabecera": "Pedestal",
+                    "tipo-de-cabecera": "aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Otros modelos"
+                    "modelo-de-cabecera": "reptilian"
                 }
-            ],
-            "descripciones":[
+            ]
+        },
+        {
+            "id": 8,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "subcategoria": "europeos",
+            "tamaño": "king",
+            "modelo": "konig",
+            "ruta": "/productos/dormitorios/king/kamas/konig/europeos/8/",
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL REPTILIAN - TURQUESA OPALO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/8/",
+            "precioRegular": 4699,
+            "precioNormal": 4119,
+            "precioVenta": 2929,
+            "stock": 23,
+            "sku": "H31242116N17",
+            "tipo-de-envio": "Gratis",
+            "regalos": [ "3 cojines" ],
+            "detalles-del-producto":[
                 {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "espuma": "Zebra de alta densidad",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
+                    "marca": "Kamas",
+                    "línea": "Europeos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "subcategoria": "europeos",
+            "tamaño": "king",
+            "modelo": "konig",
+            "ruta": "/productos/dormitorios/king/kamas/konig/europeos/9/",
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL REPTILIAN - PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/9/",
+            "precioRegular": 4699,
+            "precioNormal": 4119,
+            "precioVenta": 2929,
+            "stock": 23,
+            "sku": "H31242116N18",
+            "tipo-de-envio": "Gratis",
+            "regalos": [ "3 cojines" ],
+            "detalles-del-producto":[
                 {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "resortes": "20 filas en forma vertical",
-                            "material-de-resorte": "Acero templado",
-                            "tela": "Algodón tejido en punto",
-                            "densidad-de-espuma": "25kg/m3",
-                            "tipo-de-uso": "Ambos lados",
-                            "grosor": "44cm.",
-                            "incorpora": "Sistema PT",
-                            "refuerzos": "Centrales",
-                            "marco": "De espuma",
-                            "soporte-de-peso": "130kg. por persona",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
+                    "marca": "Kamas",
+                    "línea": "Europeos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "subcategoria": "europeos",
+            "tamaño": "king",
+            "modelo": "konig",
+            "ruta": "/productos/dormitorios/king/kamas/konig/europeos/10/",
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL REPTILIAN - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/10/",
+            "precioRegular": 4699,
+            "precioNormal": 4119,
+            "precioVenta": 2929,
+            "stock": 23,
+            "sku": "H31242116N19",
+            "tipo-de-envio": "Gratis",
+            "regalos": [ "3 cojines" ],
+            "detalles-del-producto":[
                 {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
+                    "marca": "Kamas",
+                    "línea": "Europeos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "subcategoria": "europeos",
+            "tamaño": "king",
+            "modelo": "konig",
+            "ruta": "/productos/dormitorios/king/kamas/konig/europeos/11/",
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL REPTILIAN - PALO ROSA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/11/",
+            "precioRegular": 4699,
+            "precioNormal": 4119,
+            "precioVenta": 2929,
+            "stock": 23,
+            "sku": "H31242116N20",
+            "tipo-de-envio": "Gratis",
+            "regalos": [ "3 cojines" ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Europeos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
                 }
             ]
         }

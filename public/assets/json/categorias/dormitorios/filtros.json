@@ -32,12 +32,6 @@
             "marca":["El cisne", "Kamas - El cisne", "Kamas", "Paraiso", "Kamas - Paraiso", "Komfort", "Kamas - Komfort"]
         },
         {
-            "línea":["americanos", "americanos con cajones", "europeos", "europeos con cajones", "premium"]
-        },
-        {
-            "base-encajonada":["si", "no"]
-        },
-        {
             "resortes":["Bonell", "Pocket", "Cosisoft"]
         },
         {
@@ -55,6 +49,9 @@
                     "komfort":["Saphir"]
                 }
             ]
+        },
+        {
+            "línea":["americanos", "americanos con cajones", "europeos", "europeos con cajones", "premium"]
         },
         {
             "tipo-de-cabecera":["aérea", "aérea con patas", "pedestal"]

@@ -1,6 +1,7 @@
 {
     "productos":[
         {
+            "id": 1,
             "categoria": "colchones",
             "tamaño": "1 plaza y media",
             "marca": "kamas",
@@ -13,12 +14,7 @@
             "precioVenta": 899,
             "stock": 99,
             "sku": "H111511N10",
-            "regalos":[
-                {
-                    "texto": "1 almohada",
-                    "foto": "/assets/imagenes/productos/almohada.webp"
-                }
-            ],
+            "regalos":[ "1 almohada" ],
             "tamaños-disponibles":[
                 {"nombre": "2 plazas", "sku": "H11211N10"},
                 {"nombre": "Queen", "sku": "H11311N10"},
@@ -26,6 +22,11 @@
             ],
             "tipo-de-envio": "Envío preferente"
         }
+    ],
+    "mensajes":[
+        "El colchón KAMAS Konig pertenece a la línea Extra Ortopédica y está diseñado para quienes buscan un descanso muy firme, con alto nivel de soporte y durabilidad. Su sistema de resortes Bonell en 12 filas proporciona una base sólida y estable, ideal para mantener una correcta alineación de la columna.",
+        "Cuenta con espuma de alta densidad de 25 kg/m³, que refuerza la estructura interna y garantiza mayor resistencia al uso continuo. El refuerzo de marco sellado aporta firmeza en los bordes y prolonga la vida útil del colchón, mientras que su diseño de uso por ambos lados permite un desgaste uniforme.",
+        "La superficie está recubierta con tela de algodón tejido en punto, suave, fresca y resistente. El KAMAS Konig es una excelente opción para personas que requieren un colchón firme y confiable, con capacidad de soportar hasta 100 kg por persona y una sólida garantía de 10 años, reflejo de su calidad superior."
     ],
     "ficha":[
         {

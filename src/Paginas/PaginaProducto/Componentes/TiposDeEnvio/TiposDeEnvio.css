@@ -1,12 +1,3 @@
-:root{
-    --gratis: #0AC40A;
-    --preferente: blue;
-    --aplicado: orange;
-    --express: orangered;
-}
-
-/**/
-
 .tipo-de-envio{
     border: 1px solid rgba(0 0 0 / 0.1);
     border-radius: 4px;

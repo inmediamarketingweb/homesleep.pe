@@ -24,6 +24,29 @@
     position: relative;
 }
 
+.tipo-de-envio{
+    position: absolute;
+    left: 10px;
+    top: 53px;
+    z-index: 10;
+}
+
+.tipo-de-envio p{
+    font-weight: bold;
+}
+
+.tipo-de-envio.gratis{
+    color: var(--gratis);
+}
+
+.tipo-de-envio.envío-preferente{
+    color: var(--preferente);
+}
+
+.tipo-de-envio.envío-aplicado{
+    color: var(--aplicado);
+}
+
 .product-page-images-content{
     width: 100%;
     aspect-ratio: 1/1;

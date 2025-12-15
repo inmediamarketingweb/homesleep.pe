@@ -5,13 +5,16 @@ import './Imagenes.css';
 import LazyImage from '../../../../Componentes/Plantillas/LazyImage';
 import Compartir from '../Compartir/Compartir';
 
-function Imagenes({ imagenes, producto, onSelectColor }){
+function Imagenes({ imagenes, producto }){
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isDragging, setIsDragging] = useState(false);
     const [dragStartX, setDragStartX] = useState(0);
     const [zoomActive, setZoomActive] = useState(false);
     const [zoomPos, setZoomPos] = useState({ x: 0, y: 0 });
-
+    const tipoEnvio = producto["tipo-de-envio"];
+    const tipoEnvioLower = tipoEnvio.toLowerCase();
+    const textoEnvio = tipoEnvioLower === 'gratis' ? 'Envío gratis' : tipoEnvio;
+    const claseEnvio = tipoEnvioLower.replace(/\s+/g, '-');
     const navigateTo = (idx) => {
         if (idx >= 0 && idx < imagenes.length) setCurrentIndex(idx);
     };
@@ -56,7 +59,7 @@ function Imagenes({ imagenes, producto, onSelectColor }){
         <div className={`position-relative ${producto.stock === 0 ? 'sin-stock' : ''}`}>
             <div className='sin-stock-message'>Agotado</div>
 
-            <p className='image-discount'>-{descuento}%</p>
+            <span className='image-discount'>-{descuento}%</span>
 
             <div className='product-page-image-component'>
                 <div className="product-page-images-miniatures-container">
@@ -70,6 +73,11 @@ function Imagenes({ imagenes, producto, onSelectColor }){
                 </div>
 
                 <div className="product-page-images-container">
+                    <div className={`tipo-de-envio ${claseEnvio} d-flex-center-center gap-5`}>
+                        <span className="material-symbols-outlined">delivery_truck_speed</span>
+                        <p>{textoEnvio}</p>
+                    </div>
+
                     <div className="product-page-images-content" onMouseDown={handleMouseDown} onMouseUp={handleMouseUp} onMouseLeave={(e) => { handleMouseUp(e) }}>
                         <ul className="product-page-images" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
                             {imagenes.map((src, i) => (
