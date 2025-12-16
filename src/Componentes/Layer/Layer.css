@@ -2,19 +2,37 @@
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 1000;
+    z-index: 9999999999;
     width: 100vw;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    gap: 20px;
     background: var(--white);
     transition: var(--t-200ms-linear);
     pointer-events: none;
     user-select: none;
 
-    animation: layer 1s ease-in-out;
+    animation: layer 2s ease-in-out;
     opacity: 0;
+}
+
+.layer-loader{
+    width: 42px;
+    aspect-ratio: 4;
+    --_g: no-repeat radial-gradient(circle closest-side, var(--color-1) 90%, #FFF);
+    background: var(--_g) 0%   50%, var(--_g) 50%  50%, var(--_g) 100% 50%;
+    background-size: calc(100%/3) 100%;
+    animation: l7 1s infinite ease-in-out;
+    transition: var(--t-200ms-linear);
+}
+
+@keyframes l7{
+    33%{background-size:calc(100%/3) 0%  ,calc(100%/3) 100%,calc(100%/3) 100%}
+    50%{background-size:calc(100%/3) 100%,calc(100%/3) 0%  ,calc(100%/3) 100%}
+    66%{background-size:calc(100%/3) 100%,calc(100%/3) 100%,calc(100%/3) 0%  }
 }
 
 @keyframes layer{
