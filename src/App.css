@@ -355,6 +355,10 @@ button{
     padding: 10px !important;
 }
 
+.padding-20-to-0{
+    padding: 20px !important;
+}
+
 .padding-bottom-20{
     padding-bottom: 20px;
 }
@@ -624,6 +628,10 @@ button{
     display: none;
 }
 
+.rotate-270deg{
+    rotate: 270deg;
+}
+
 @media screen and (max-width: 800px){
     .d-grid-5-3-2fr{
         grid-template-columns: repeat(3, 1fr);
@@ -676,5 +684,10 @@ button{
 
     .padding-right-20-to-0{
         padding-right: 0;
+    }
+
+    .padding-20-to-0{
+        padding: 0 !important;
+        padding: 0 0 0 0 !important;
     }
 }
