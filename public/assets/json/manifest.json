@@ -69,6 +69,7 @@
         "/assets/json/categorias/colchones/1-plaza-y-media/paraiso/eden-plus.json",
         "/assets/json/categorias/colchones/1-plaza-y-media/paraiso/majestic.json",
         "/assets/json/categorias/colchones/1-plaza-y-media/paraiso/medallon-ergosoft.json",
+        "/assets/json/categorias/colchones/1-plazas-y-media/paraiso/pocket-italiano.json",
         "/assets/json/categorias/colchones/1-plaza-y-media/paraiso/pocket-star.json",
         "/assets/json/categorias/colchones/1-plaza-y-media/paraiso/royal-abrazzo.json",
         "/assets/json/categorias/colchones/1-plaza-y-media/paraiso/royal-cloud.json",
@@ -83,6 +84,7 @@
         "/assets/json/categorias/colchones/2-plazas/paraiso/eden-plus.json",
         "/assets/json/categorias/colchones/2-plazas/paraiso/majestic.json",
         "/assets/json/categorias/colchones/2-plazas/paraiso/medallon-ergosoft.json",
+        "/assets/json/categorias/colchones/2-plazas/paraiso/pocket-italiano.json",
         "/assets/json/categorias/colchones/2-plazas/paraiso/pocket-star.json",
         "/assets/json/categorias/colchones/2-plazas/paraiso/royal-abrazzo.json",
         "/assets/json/categorias/colchones/2-plazas/paraiso/royal-cloud.json",
@@ -97,7 +99,9 @@
         "/assets/json/categorias/colchones/queen/paraiso/pocket-star.json",
         "/assets/json/categorias/colchones/queen/paraiso/royal-abrazzo.json",
         "/assets/json/categorias/colchones/queen/paraiso/royal-cloud.json",
+        "/assets/json/categorias/colchones/king/paraiso/pocket-italiano.json",
         "/assets/json/categorias/colchones/queen/paraiso/royal-dynasty.json",
+        "/assets/json/categorias/colchones/queen/paraiso/pocket-star.json",
         "/assets/json/categorias/colchones/queen/paraiso/royal-elizabeth.json",
         "/assets/json/categorias/colchones/queen/paraiso/royal-prince.json",
         "/assets/json/categorias/colchones/queen/paraiso/su-majestad-de-lujo.json",
@@ -108,6 +112,7 @@
         "/assets/json/categorias/colchones/king/paraiso/royal-abrazzo.json",
         "/assets/json/categorias/colchones/king/paraiso/royal-cloud.json",
         "/assets/json/categorias/colchones/king/paraiso/royal-dynasty.json",
+        "/assets/json/categorias/colchones/king/paraiso/pocket-italiano.json",
         "/assets/json/categorias/colchones/king/paraiso/royal-elizabeth.json",
         "/assets/json/categorias/colchones/king/paraiso/royal-prince.json",
         "/assets/json/categorias/colchones/king/paraiso/su-majestad-de-lujo.json",
@@ -173,6 +178,10 @@
 
         "/assets/json/categorias/dormitorios/1-plaza-y-media/paraiso/majestic/americanos.json",
 
+        "/assets/json/categorias/dormitorios/1-plaza-y-media/paraiso/pocket-italiano/americanos.json",
+        "/assets/json/categorias/dormitorios/1-plaza-y-media/paraiso/pocket-italiano/americanos-con-cajones.json",
+        "/assets/json/categorias/dormitorios/1-plaza-y-media/paraiso/pocket-italiano/europeos-con-cajones.json",
+
         "/assets/json/categorias/dormitorios/1-plaza-y-media/paraiso/consul-black/americanos.json",
 
 
@@ -214,6 +223,10 @@
         "/assets/json/categorias/dormitorios/2-plazas/kamas/ramat/europeos-con-cajones.json",
 
 
+
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/pocket-italiano/americanos.json",
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/pocket-italiano/americanos-con-cajones.json",
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/pocket-italiano/europeos-con-cajones.json",
 
         "/assets/json/categorias/dormitorios/2-plazas/paraiso/consul-black/americanos.json",
 
@@ -264,7 +277,7 @@
         "/assets/json/categorias/dormitorios/queen/paraiso/pocket-star/americanos-con-cajones.json",
         "/assets/json/categorias/dormitorios/queen/paraiso/pocket-star/europeos-con-cajones.json",
 
-        "/assets/json/categorias/dormitorios/queen/paraiso/pocket-italiano/americanos.json",
+
 
         "/assets/json/categorias/dormitorios/queen/komfort/saphir/americanos.json",
 
