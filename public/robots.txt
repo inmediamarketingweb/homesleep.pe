@@ -13,13 +13,16 @@
         <loc>https://www.homesleep.pe/productos/dormitorios/</loc>
     </url>
     <url>
-        <loc>https://www.homesleep.pe/productos/dormitorios/el-cisne/</loc>
+        <loc>https://www.homesleep.pe/productos/king/</loc>
+    </url>
+    <url>
+        <loc>https://www.homesleep.pe/productos/dormitorios/king/el-cisne/</loc>
     </url>
     <url>
         <loc>https://www.homesleep.pe/productos/colchones/</loc>
     </url>
     <url>
-        <loc>https://www.homesleep.pe/productos/colchones/el-cisne/</loc>
+        <loc>https://www.homesleep.pe/productos/colchones/king/</loc>
     </url>
     <url>
         <loc>https://www.homesleep.pe/contacto/</loc>
