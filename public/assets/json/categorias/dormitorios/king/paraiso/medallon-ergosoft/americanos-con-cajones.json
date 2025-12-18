@@ -4,7 +4,7 @@
             "id": 1,
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas + Paraiso",
             "modelo": "medallon ergosoft",
             "linea": "americanos con cajones",
             "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos-con-cajones/1/",
@@ -14,12 +14,12 @@
             "precioNormal": 2699,
             "precioVenta": 1649,
             "stock": 9,
-            "sku": "D32241263N10",
+            "sku": "H32241263N10",
             "tipo-de-envio": "Gratis",
             "regalos":[ "1 puff" ],
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "Americanos con cajones",
                     "tamaño": "king",
                     "cajones": "No",
