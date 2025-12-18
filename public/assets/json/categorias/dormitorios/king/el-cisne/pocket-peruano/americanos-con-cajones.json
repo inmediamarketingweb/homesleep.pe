@@ -16,20 +16,7 @@
             "stock": 9,
             "sku": "H32241283N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
+            "regalos":[ "3 cojines", "1 puff" ],
             "tamaños-disponibles":[
                 {
                     "nombre": "Queen",
