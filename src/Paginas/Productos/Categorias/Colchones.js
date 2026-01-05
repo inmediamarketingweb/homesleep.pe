@@ -64,7 +64,7 @@ function Colchones() {
             try {
                 setLoading(true);
 
-                const manifestResponse = await fetch('/assets/json/manifest.json');
+                const manifestResponse = await fetch('https://dormihogar.pe/assets/json/manifest.json');
                 const manifestData = await manifestResponse.json();
                 const archivos = manifestData.files || [];
 

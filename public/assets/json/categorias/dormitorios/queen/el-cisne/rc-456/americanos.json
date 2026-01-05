@@ -16,26 +16,6 @@
             "stock": 9,
             "sku": "H3323253N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -67,26 +47,6 @@
             "stock": 9,
             "sku": "H3323253N11",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/2/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -118,26 +78,6 @@
             "stock": 9,
             "sku": "H3323253N12",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/3/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -169,26 +109,6 @@
             "stock": 9,
             "sku": "H3323253N13",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/4/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -220,26 +140,6 @@
             "stock": 9,
             "sku": "H3323253N14",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/5/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -271,26 +171,6 @@
             "stock": 9,
             "sku": "H3323253N15",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/6/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -322,26 +202,6 @@
             "stock": 9,
             "sku": "H3323256N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/7/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -373,26 +233,6 @@
             "stock": 9,
             "sku": "H3323256N11",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/8/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -424,26 +264,6 @@
             "stock": 9,
             "sku": "H3323256N12",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/9/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -475,26 +295,6 @@
             "stock": 9,
             "sku": "H3323256N13",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/10/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -526,26 +326,6 @@
             "stock": 9,
             "sku": "H3323256N14",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/11/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -577,26 +357,6 @@
             "stock": 9,
             "sku": "H3323256N15",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/12/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -628,26 +388,6 @@
             "stock": 9,
             "sku": "H3323256N16",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/13/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -679,26 +419,6 @@
             "stock": 9,
             "sku": "H3323256N17",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/14/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -730,26 +450,6 @@
             "stock": 9,
             "sku": "H3323256N18",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/15/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -781,26 +481,6 @@
             "stock": 9,
             "sku": "H3323256N19",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/16/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -832,26 +512,6 @@
             "stock": 9,
             "sku": "H3323256N20",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/17/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -883,26 +543,6 @@
             "stock": 9,
             "sku": "H3323256N21",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/18/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -934,26 +574,6 @@
             "stock": 9,
             "sku": "H3323254N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/19/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -985,26 +605,6 @@
             "stock": 9,
             "sku": "H3323253N16",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/20/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1036,26 +636,6 @@
             "stock": 9,
             "sku": "H3323253N17",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/21/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1087,26 +667,6 @@
             "stock": 9,
             "sku": "H3323253N18",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/22/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1138,26 +698,6 @@
             "stock": 9,
             "sku": "H3323253N19",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/23/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1189,26 +729,6 @@
             "stock": 9,
             "sku": "H3323253N20",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/24/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1240,26 +760,6 @@
             "stock": 9,
             "sku": "H3323253N21",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/25/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1291,26 +791,6 @@
             "stock": 9,
             "sku": "H3323253N22",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/26/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1342,26 +822,6 @@
             "stock": 9,
             "sku": "H3323253N23",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/27/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1393,26 +853,6 @@
             "stock": 9,
             "sku": "H3323253N24",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/28/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1444,26 +884,6 @@
             "stock": 9,
             "sku": "H3323253N25",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/29/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1495,26 +915,6 @@
             "stock": 9,
             "sku": "H3323253N26",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/30/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1546,26 +946,6 @@
             "stock": 9,
             "sku": "H3323253N27",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/31/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1597,26 +977,6 @@
             "stock": 9,
             "sku": "H3323253N28",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/32/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1648,26 +1008,6 @@
             "stock": 9,
             "sku": "H3323253N29",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/33/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1699,26 +1039,6 @@
             "stock": 9,
             "sku": "H3323253N30",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/34/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1750,26 +1070,6 @@
             "stock": 9,
             "sku": "H3323253N31",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/35/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1801,26 +1101,6 @@
             "stock": 9,
             "sku": "H3323253N32",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/36/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1852,26 +1132,6 @@
             "stock": 9,
             "sku": "H3323253N33",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/37/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1903,26 +1163,6 @@
             "stock": 9,
             "sku": "H3323253N34",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/38/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -1954,26 +1194,6 @@
             "stock": 9,
             "sku": "H3323253N35",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/39/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2005,26 +1225,6 @@
             "stock": 9,
             "sku": "H3323256N22",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/40/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2056,26 +1256,6 @@
             "stock": 9,
             "sku": "H3323256N23",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/41/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2107,26 +1287,6 @@
             "stock": 9,
             "sku": "H3323256N24",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/42/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2158,26 +1318,6 @@
             "stock": 9,
             "sku": "H3323256N25",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/43/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2209,26 +1349,6 @@
             "stock": 9,
             "sku": "H3323256N26",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/44/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2260,26 +1380,6 @@
             "stock": 9,
             "sku": "H3323256N27",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/45/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2311,26 +1411,6 @@
             "stock": 9,
             "sku": "H3323256N28",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/46/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2362,26 +1442,6 @@
             "stock": 9,
             "sku": "H3323256N29",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/47/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2413,26 +1473,6 @@
             "stock": 9,
             "sku": "H3323256N30",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/48/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2464,26 +1504,6 @@
             "stock": 9,
             "sku": "H3323256N31",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/49/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2515,26 +1535,6 @@
             "stock": 9,
             "sku": "H3323256N32",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/50/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2566,26 +1566,6 @@
             "stock": 9,
             "sku": "H3323256N33",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/51/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2617,26 +1597,6 @@
             "stock": 9,
             "sku": "H3323256N34",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/52/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2668,26 +1628,6 @@
             "stock": 9,
             "sku": "H3323256N35",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/53/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2719,26 +1659,6 @@
             "stock": 9,
             "sku": "H3323256N36",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/54/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2770,26 +1690,6 @@
             "stock": 9,
             "sku": "H3323256N37",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/55/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2821,26 +1721,6 @@
             "stock": 9,
             "sku": "H3323256N38",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/56/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2872,26 +1752,6 @@
             "stock": 9,
             "sku": "H3323252N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/57/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2923,26 +1783,6 @@
             "stock": 9,
             "sku": "H3323252N11",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/58/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -2974,26 +1814,6 @@
             "stock": 9,
             "sku": "H3323254N11",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "3 cojines",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/59/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -3025,22 +1845,6 @@
             "stock": 9,
             "sku": "H3323254N12",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/60/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -3072,22 +1876,6 @@
             "stock": 9,
             "sku": "H3323254N13",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/61/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -3119,22 +1907,6 @@
             "stock": 9,
             "sku": "H3323254N14",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/62/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -3166,22 +1938,6 @@
             "stock": 9,
             "sku": "H3323254N15",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/63/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -3213,22 +1969,6 @@
             "stock": 9,
             "sku": "H3323255N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "King",
-                    "ruta": "/productos/dormitorios/king/el-cisne/rc-456/americanos/64/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Kamas - El cisne",
@@ -3241,51 +1981,6 @@
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Lineal 6"
-                }
-            ]
-        }
-    ],
-    "descripciones":[
-        {
-            "titulo": "Cama box tarima",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "refuerzos": "centrales y laterales.",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "Cromadas",
-                    "garantía": "2 años"
-                }
-            ]
-        },
-        {
-            "titulo": "Colchón",
-            "descripcion":[
-                {
-                    "resortes": "608 continuos",
-                    "tela": "Pique",
-                    "tratamiento": "Antihongos, antibacterias y antiácaros",
-                    "tipo-de-uso": "un solo lado",
-                    "tipo-de-resorte": "Pocket",
-                    "espuma": "Poliuretano 1 1/2', 18 Kg/m3",
-                    "alto": "31 cm.",
-                    "sensación": "intermedia",
-                    "garantía": "4 años"
-                }
-            ]
-        },
-        {
-            "titulo": "Cabecera",
-            "descripcion":[
-                {
-                    "madera": "Pino americano seco al horno.",
-                    "espuma": "Zebra de alta densidad",
-                    "láminas": "MDF de 3mm.",
-                    "tela": "Piel de potro",
-                    "patas": "De manera",
-                    "botones": "clásicos o acrílicos",
-                    "garantía": "2 años"
                 }
             ]
         }
