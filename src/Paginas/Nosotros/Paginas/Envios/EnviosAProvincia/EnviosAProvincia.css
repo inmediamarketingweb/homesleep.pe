@@ -315,6 +315,11 @@
     top: calc(100% + 5px);
 }
 
+.envios-pop-up-imagenes ul li:nth-child(2){
+    pointer-events: none;
+    user-select: none;
+}
+
 @media screen and (max-width: 600px){
     .province-top-container{
         flex-direction: column;

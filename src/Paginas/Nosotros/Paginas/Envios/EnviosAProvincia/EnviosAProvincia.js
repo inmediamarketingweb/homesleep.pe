@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation, useSearchParams } from 'react-router-dom';
+
 import './EnviosAProvincia.css';
 
-function EnviosAProvincia() {
+function EnviosAProvincia(){
     const [envios, setEnvios] = useState([]);
     const [searchTerm, setSearchTerm] = useState('');
     const [loading, setLoading] = useState(true);
@@ -11,15 +12,20 @@ function EnviosAProvincia() {
     const [showPopup, setShowPopup] = useState(false);
     const [selectedYear, setSelectedYear] = useState('todos');
     const [availableYears, setAvailableYears] = useState([]);
+    const [imageOrder, setImageOrder] = useState([0, 1]);
     const navigate = useNavigate();
     const location = useLocation();
     const [searchParams] = useSearchParams();
+
+    const normalizeText = (text) => {
+        return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    };
 
     useEffect(() => {
         const loadEnvios = async () => {
             try {
                 const response = await fetch('/assets/json/paginas/envios/envios-a-provincia.json');
-                
+
                 if (!response.ok) {
                     throw new Error('Error al cargar los datos');
                 }
@@ -52,10 +58,8 @@ function EnviosAProvincia() {
                 });
 
                 setEnvios(sortedData);
-
                 const sortedYears = years.sort((a, b) => parseInt(b) - parseInt(a));
                 setAvailableYears(sortedYears);
-
                 setLoading(false);
             } catch (err) {
                 setError(err.message);
@@ -70,15 +74,10 @@ function EnviosAProvincia() {
     useEffect(() => {
         if (!loading) {
             const yearParam = searchParams.get('año');
-            const searchParam = searchParams.get('busqueda');
+            const searchParam = searchParams.get('destino') || searchParams.get('busqueda');
 
-            if (yearParam) {
-                setSelectedYear(yearParam);
-            }
-
-            if (searchParam) {
-                setSearchTerm(searchParam);
-            }
+            if (yearParam) { setSelectedYear(yearParam); }
+            if (searchParam) { setSearchTerm(searchParam); }
         }
     }, [loading, searchParams]);
 
@@ -90,7 +89,7 @@ function EnviosAProvincia() {
         }
 
         if (search) {
-            params.set('busqueda', search);
+            params.set('destino', search);
         }
 
         navigate(`${location.pathname}?${params.toString()}`, { replace: true });
@@ -119,12 +118,14 @@ function EnviosAProvincia() {
     const openPopup = (envio) => {
         setSelectedEnvio(envio);
         setShowPopup(true);
+        setImageOrder([0, 1]);
         document.body.style.overflow = 'hidden';
     };
 
     const closePopup = () => {
         setShowPopup(false);
         setSelectedEnvio(null);
+        setImageOrder([0, 1]);
         document.body.style.overflow = 'auto';
     };
 
@@ -135,8 +136,35 @@ function EnviosAProvincia() {
         };
     };
 
+    const getAllPhotos = (fotosPath) => {
+        return [
+            `${fotosPath}1.jpg`,
+            `${fotosPath}2.jpg`
+        ];
+    };
+
+    const nextImage = () => { setImageOrder((prevOrder) => [prevOrder[1], prevOrder[0]]); };
+    const prevImage = () => { setImageOrder((prevOrder) => [prevOrder[1], prevOrder[0]]); };
+
+    useEffect(() => {
+        const handleKeyDown = (e) => {
+            if (showPopup) {
+                if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+                    setImageOrder((prevOrder) => [prevOrder[1], prevOrder[0]]);
+                } else if (e.key === 'Escape') {
+                    closePopup();
+                }
+            }
+        };
+
+        window.addEventListener('keydown', handleKeyDown);
+        return () => window.removeEventListener('keydown', handleKeyDown);
+    }, [showPopup]);
+
     const filteredEnvios = envios.filter(envio => {
-        const matchesSearch = envio.destino.toLowerCase().includes(searchTerm.toLowerCase());
+        const normalizedDestino = normalizeText(envio.destino);
+        const normalizedSearchTerm = normalizeText(searchTerm);
+        const matchesSearch = normalizedDestino.startsWith(normalizedSearchTerm);
         const matchesYear = selectedYear === 'todos' || envio.año.toString() === selectedYear;
         return matchesSearch && matchesYear;
     });
@@ -147,7 +175,7 @@ function EnviosAProvincia() {
                 <div className='block-container'>
                     <div className='block-content d-flex-column gap-20'>
                         <div className='loading-message'>
-                            Cargando información de envíos...
+                            <p className='text'>Cargando información de envíos...</p>
                         </div>
                     </div>
                 </div>
@@ -161,7 +189,7 @@ function EnviosAProvincia() {
                 <div className='block-container'>
                     <div className='block-content d-flex-column gap-20'>
                         <div className='error-message'>
-                            Error: {error}
+                            <p className='text'>Error: {error}</p>
                         </div>
                     </div>
                 </div>
@@ -182,25 +210,16 @@ function EnviosAProvincia() {
                             <div className='d-flex-center-center gap-10'>
                                 <div className='year-filters'>
                                     {availableYears.map(year => (
-                                        <button 
-                                            key={year} 
-                                            type='button' 
-                                            className={`year-filter-btn ${selectedYear === year.toString() ? 'active' : ''}`}
-                                            onClick={() => handleYearFilter(year.toString())}
-                                        >
+                                        <button key={year} type='button' className={`year-filter-btn ${selectedYear === year.toString() ? 'active' : ''}`} onClick={() => handleYearFilter(year.toString())}>
                                             <p>{year}</p>
                                         </button>
                                     ))}
                                 </div>
 
                                 {hasActiveFilters && (
-                                    <button 
-                                        className='clear-filters-btn' 
-                                        onClick={clearAllFilters} 
-                                        title="Limpiar todos los filtros"
-                                    >
+                                    <button className='clear-filters-btn' onClick={clearAllFilters} title="Limpiar todos los filtros">
                                         <span className="material-symbols-outlined">delete</span>
-                                        <p>Limpiar filtros</p>
+                                        <p className='text'>Limpiar filtros</p>
                                     </button>
                                 )}
                             </div>
@@ -209,14 +228,9 @@ function EnviosAProvincia() {
                         <div className='province-content'>
                             {filteredEnvios.length === 0 ? (
                                 <div className='no-results'>
-                                    <p>
-                                        {searchTerm 
-                                            ? selectedYear === 'todos' 
-                                                ? `No hay envíos para "${searchTerm}"`
-                                                : `No hay envíos para "${searchTerm}" en el año ${selectedYear}`
-                                            : selectedYear === 'todos'
-                                                ? 'No hay envíos disponibles'
-                                                : `No hay envíos en el año ${selectedYear}`
+                                    <p className='text'>
+                                        {
+                                            searchTerm ? selectedYear === 'todos' ? `No hay envíos para "${searchTerm}"` : `No hay envíos para "${searchTerm}" en el año ${selectedYear}` : selectedYear === 'todos' ? 'No hay envíos disponibles' : `No hay envíos en el año ${selectedYear}`
                                         }
                                     </p>
                                     <div className='no-results-actions'>
@@ -231,15 +245,8 @@ function EnviosAProvincia() {
                                 filteredEnvios.map((envio, index) => {
                                     const photos = getPhotoUrls(envio.fotos);
                                     return (
-                                        <div 
-                                            key={`${envio.año}-${envio.id}-${index}`} // Key única para evitar duplicados
-                                            className={`province-tag province-tag-${(index % 3) + 1}`}
-                                        >
-                                            <div 
-                                                className='province-tag-info'
-                                                onClick={() => openPopup(envio)}
-                                                style={{ cursor: 'pointer' }}
-                                            >
+                                        <div key={`${envio.año}-${envio.id}-${index}`} className={`province-tag province-tag-${(index % 3) + 1}`}>
+                                            <div className='province-tag-info' onClick={() => openPopup(envio)} style={{ cursor: 'pointer' }}>
                                                 <div>
                                                     <span className="material-symbols-outlined">location_on</span>
                                                     <div>{envio.destino}</div>
@@ -247,20 +254,8 @@ function EnviosAProvincia() {
                                                 <div>{envio.año}</div>
                                             </div>
 
-                                            <img 
-                                                src={photos.imgOne} 
-                                                alt={`Envío a ${envio.destino} - Imagen 1`} 
-                                                className='image-1'
-                                                onClick={() => openPopup(envio)}
-                                                style={{ cursor: 'pointer' }}
-                                            />
-                                            <img 
-                                                src={photos.imgTwo} 
-                                                alt={`Envío a ${envio.destino} - Imagen 2`} 
-                                                className='image-2'
-                                                onClick={() => openPopup(envio)}
-                                                style={{ cursor: 'pointer' }}
-                                            />
+                                            <img src={photos.imgOne} alt={`Envío a ${envio.destino} - Imagen 1`} className='image-1' onClick={() => openPopup(envio)} style={{ cursor: 'pointer' }}/>
+                                            <img src={photos.imgTwo} alt={`Envío a ${envio.destino} - Imagen 2`} className='image-2' onClick={() => openPopup(envio)} style={{ cursor: 'pointer' }}/>
                                         </div>
                                     );
                                 })
@@ -270,7 +265,6 @@ function EnviosAProvincia() {
                 </div>
             </main>
 
-            {/* Popup */}
             <div className={`envios-layer ${showPopup ? 'active' : ''}`}
                 onClick={(e) => {
                     if (e.target.classList.contains('envios-layer')) {
@@ -281,10 +275,14 @@ function EnviosAProvincia() {
 
             <div className={`envios-pop-up ${showPopup ? 'active' : ''}`}>
                 {selectedEnvio && (() => {
-                    const photos = getPhotoUrls(selectedEnvio.fotos);
+                    const allPhotos = getAllPhotos(selectedEnvio.fotos);
+                    const firstImage = allPhotos[imageOrder[0]];
+                    const secondImage = allPhotos[imageOrder[1]];
+                    const currentImageIsFirst = imageOrder[0] === 0;
+
                     return (
                         <>
-                            <button type="button" className='envios-pop-up-close' onClick={closePopup}>
+                            <button type="button" className='d-flex margin-left envios-pop-up-close' onClick={closePopup}>
                                 <span className="material-symbols-outlined">close</span>
                             </button>
 
@@ -292,19 +290,23 @@ function EnviosAProvincia() {
                                 <div className='d-flex-column gap-10'>
                                     <div className='envios-pop-up-imagenes'>
                                         <ul>
-                                            <li>
-                                                <img src={photos.imgTwo} alt={`Envío a ${selectedEnvio.destino} - Imagen 2`} />
+                                            <li className={imageOrder[0] === 0 ? 'img-1' : 'img-2'}>
+                                                <a href={firstImage} title={`${selectedEnvio.destino}`} target='_blank'>
+                                                    <img src={firstImage} alt={`Envío a ${selectedEnvio.destino} - ${imageOrder[0] === 0 ? 'Imagen 1' : 'Imagen 2'}`}  className={imageOrder[0] === 0 ? 'image-1' : 'image-2'}/>
+                                                </a>
                                             </li>
-                                            <li>
-                                                <img src={photos.imgOne} alt={`Envío a ${selectedEnvio.destino} - Imagen 1`}/>
+                                            <li className={imageOrder[1] === 1 ? 'img-2' : 'img-1'}>
+                                                <a href={secondImage} title={`${selectedEnvio.destino}`} target='_blank'>
+                                                    <img src={secondImage} alt={`Envío a ${selectedEnvio.destino} - ${imageOrder[1] === 1 ? 'Imagen 2' : 'Imagen 1'}`} className={imageOrder[1] === 1 ? 'image-2' : 'image-1'}/>
+                                                </a>
                                             </li>
                                         </ul>
 
-                                        <button type='button' className='envios-pop-up-button envios-pop-up-button-1'>
+                                        <button type='button' className='envios-pop-up-button envios-pop-up-button-1' onClick={prevImage}>
                                             <span className="material-symbols-outlined">chevron_left</span>
                                         </button>
 
-                                        <button type='button' className='envios-pop-up-button envios-pop-up-button-2'>
+                                        <button type='button' className='envios-pop-up-button envios-pop-up-button-2' onClick={nextImage}>
                                             <span className="material-symbols-outlined">chevron_right</span>
                                         </button>
                                     </div>
