@@ -1,5 +1,4 @@
 import { Helmet } from "react-helmet-async";
-// import { useForm, ValidationError } from '@formspree/react';
 import { useForm } from '@formspree/react';
 
 import './Contacto.css';
@@ -33,7 +32,7 @@ function Contacto(){
                                 </div>
 
                                 <div className="d-flex-column">
-                                    <p className="text">En KAMAS estamos listos para ayudarte.</p>
+                                    <p className="text">En Homesleep estamos listos para ayudarte.</p>
                                     <p className="text">Nuestro equipo de atención al cliente está disponible de lunes a sábado de 8:00 a.m. a 8:00 p.m.</p>
                                 </div>
 
@@ -44,7 +43,7 @@ function Contacto(){
                                             <img src="/" alt="" />
                                         </li>
                                         <li>
-                                            <a href="tel: +51901451579" title="Teléfono | Kamas" className="">
+                                            <a href="tel: +51901451579" title="Teléfono | Homesleep" className="">
                                                 <p>901451579</p>
                                             </a>
                                         </li>
@@ -67,25 +66,25 @@ function Contacto(){
 
                                     <ul className="social-networks">
                                         <li>
-                                            <a href="/" title="| Kamas" className="">
+                                            <a href="/" title="| Homesleep" className="">
                                                 <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
                                                 <p>Facebook</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/" title="| Kamas" className="">
+                                            <a href="/" title="| Homesleep" className="">
                                                 <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
                                                 <p>Instagram</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/" title="| Kamas" className="">
+                                            <a href="/" title="| Homesleep" className="">
                                                 <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
                                                 <p>Tik Tok</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="/" title="| Kamas" className="">
+                                            <a href="/" title="| Homesleep" className="">
                                                 <img src="/assets/imagenes/iconos/facebook-blanco.svg" alt="" className=""/>
                                                 <p>You Tube</p>
                                             </a>
@@ -124,7 +123,7 @@ function Contacto(){
                                 <div className="d-flex">
                                     <button type="submit" className="form-submit margin-left button-link button-link-2 gap-10">
                                         <p className="button-link-text">Enviar</p>
-                                        <span class="material-icons">mail</span>
+                                        <span className="material-icons">mail</span>
                                     </button>
                                 </div>
                             </form>

@@ -3,7 +3,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "queen",
-            "marca": "Paraiso",
+            "marca": "Kamas + Paraiso",
             "modelo": "Royal Elizabeth",
             "linea": "Europeos",
             "ruta": "/productos/dormitorios/queen/paraiso/royal-elizabeth/europeos/1/",
@@ -17,7 +17,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "Europeos",
                     "tamaño": "queen",
                     "cajones": "no",
@@ -46,7 +46,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "Europeos",
                     "tamaño": "queen",
                     "cajones": "no",
@@ -62,7 +62,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "queen",
-            "marca": "Paraiso",
+            "marca": "Kamas + Paraiso",
             "modelo": "Royal Elizabeth",
             "linea": "Europeos",
             "ruta": "/productos/dormitorios/queen/paraiso/royal-elizabeth/europeos/3/",
@@ -76,7 +76,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "Europeos",
                     "tamaño": "queen",
                     "cajones": "no",

@@ -179,7 +179,7 @@ function Footer(){
                                                 </div>
 
                                                 <a href='https://www.facebook.com/share/v/1DBojW61T9/' target='_blank' rel="noopener noreferrer" className='face-tag-icon' title=''>
-                                                    <i class="fa-brands fa-facebook"></i>
+                                                    <i className="fa-brands fa-facebook"></i>
                                                 </a>
                                             </div>
 
