@@ -336,7 +336,7 @@ button{
 }
 
 .margin-left{
-    margin-left: auto;
+    margin-left: auto !important;
 }
 
 .margin-right{
