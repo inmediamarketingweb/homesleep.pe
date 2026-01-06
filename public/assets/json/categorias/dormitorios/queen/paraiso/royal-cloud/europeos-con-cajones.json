@@ -1,12 +1,13 @@
 {
     "productos":[
-        {   
+        {
+            "id": 1,
             "categoria": "dormitorios",
-            "marca": "Paraiso",
+            "marca": "Kamas + Paraiso",
             "linea": "europeos con cajones",
-            "tamaño": "king",
+            "tamaño": "queen",
             "modelo": "Royal Cloud",
-            "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/europeos-con-cajones/1/",
+            "ruta": "/productos/dormitorios/queen/paraiso/royal-cloud/europeos-con-cajones/1/",
             "nombre": "DORMITORIO AMERICANO QUEEN KAMAS + COLCHÓN PARAISO POCKET STAR + CABECERA PEDESTAL CAPITONEADO 1 + 2 CAJONES AL PIE - BEIGE",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/europeos-con-cajones/pedestal/emperatriz/1/",
             "precioRegular": 4999,
@@ -17,9 +18,9 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "europeos con cajones",
-                    "tamaño": "king",
+                    "tamaño": "queen",
                     "cajones": "Si",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Royal Cloud",

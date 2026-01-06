@@ -1,13 +1,14 @@
 {
     "productos":[
-        {   
+        {
+            "id": 1,
             "categoria": "dormitorios",
-            "marca": "Paraiso",
+            "marca": "Kamas + Paraiso",
             "linea": "americanos con cajones",
             "tamaño": "queen",
             "modelo": "Royal Cloud",
             "ruta": "/productos/dormitorios/queen/paraiso/royal-cloud/americanos-con-cajones/1/",
-            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD  + CABECERA PEDESTAL CORONA CAPITONEADO 1 + 2 CAJONES - BEIGE",
+            "nombre": "DORMITORIO KAMAS AMERICANO QUEEN + COLCHÓN PARAISO ROYAL CLOUD + CABECERA PEDESTAL CORONA CAPITONEADO 1 + 2 CAJONES - BEIGE",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos-con-cajones/coronas/otros-modelos/1/",
             "precioRegular": 4999,
             "precioNormal": 3999,
@@ -17,7 +18,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos con cajones",
                     "tamaño": "queen",
                     "cajones": "Si",
@@ -30,14 +31,15 @@
                 }
             ]
         },
-        {   
+        {
+            "id": 2,
             "categoria": "dormitorios",
-            "marca": "Paraiso",
+            "marca": "Kamas + Paraiso",
             "linea": "americanos con cajones",
             "tamaño": "queen",
             "modelo": "Royal Cloud",
             "ruta": "/productos/dormitorios/queen/paraiso/royal-cloud/americanos-con-cajones/2/",
-            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD  + CABECERA PEDESTAL EMPERATRIZ + 4 CAJONES - COBALTO",
+            "nombre": "DORMITORIO KAMAS AMERICANO QUEEN + COLCHÓN PARAISO ROYAL CLOUD + CABECERA PEDESTAL EMPERATRIZ + 4 CAJONES - COBALTO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos-con-cajones/pedestales/emperatriz/1/",
             "precioRegular": 4999,
             "precioNormal": 3999,
@@ -47,7 +49,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos con cajones",
                     "tamaño": "queen",
                     "cajones": "Si",
@@ -60,14 +62,15 @@
                 }
             ]
         },
-        {   
+        {
+            "id": 3,
             "categoria": "dormitorios",
-            "marca": "Paraiso",
+            "marca": "Kamas + Paraiso",
             "linea": "americanos con cajones",
             "tamaño": "queen",
             "modelo": "Royal Cloud",
             "ruta": "/productos/dormitorios/queen/paraiso/royal-cloud/americanos-con-cajones/3/",
-            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD  + CABECERA PEDESTAL EMPERATRIZ + 4 CAJONES - NEGRO",
+            "nombre": "DORMITORIO KAMAS AMERICANO QUEEN + COLCHÓN PARAISO ROYAL CLOUD + CABECERA PEDESTAL EMPERATRIZ + 4 CAJONES - NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos-con-cajones/pedestales/emperatriz/2/",
             "precioRegular": 4999,
             "precioNormal": 3999,
@@ -77,7 +80,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos con cajones",
                     "tamaño": "queen",
                     "cajones": "Si",

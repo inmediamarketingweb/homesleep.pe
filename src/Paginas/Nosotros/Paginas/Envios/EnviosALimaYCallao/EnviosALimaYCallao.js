@@ -47,7 +47,7 @@ function EnviosALimaYCallao(){
 
                         <div className="envios-page">
                             <div className="d-flex-column gap-10">
-                                <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@homesleep.pe/video/7408317289155611909" data-video-id="7408317289155611909">
+                                <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@homesleep.pe/video/7408317289155611909" data-video-id="7408317289155611909">
                                     <section>
                                         <a target="_blank" title="@homesleep.pe" href="https://www.tiktok.com/@homesleep.pe?refer=embed">@homesleep.pe</a>
                                         Dormitorio Kamas&#47;Cisne King 3 plazas a tan solo 1649 soles 🥰

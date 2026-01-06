@@ -1,3 +1,8 @@
+.page-search-content{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
 .filters-container{
     display: flex;
     flex-direction: column;
@@ -19,6 +24,41 @@
 
 .search-products li .product-card{
     max-width: none !important;
+}
+
+.pagination-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pagination-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagination-arrow span{
+    font-size: 30px;
+    color: var(--text);
+}
+
+.pagination-page{
+    width: 36px;
+    height: auto;
+    aspect-ratio: 1/1;
+    background: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--t-200ms-linear);
+    border-radius: 4px;
+}
+
+.pagination-page.active{
+    background: var(--color-2);
+    color: var(--white);
 }
 
 @media screen and (max-width: 600px){

@@ -46,7 +46,7 @@ function Favoritos(){
                                             <div className="product-card">
                                                 <div className="product-card-images">
                                                     <button type="button" className="remove-favorite" onClick={() => removeFavorite(producto)} title="Eliminar de favoritos">
-                                                        <span class="material-icons">delete</span>
+                                                        <span className="material-icons">delete</span>
                                                     </button>
 
                                                     <a href={producto.ruta}>
