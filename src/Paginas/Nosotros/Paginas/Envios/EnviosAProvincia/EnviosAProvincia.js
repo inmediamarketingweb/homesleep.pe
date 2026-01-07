@@ -236,7 +236,7 @@ function EnviosAProvincia(){
                                     <div className='no-results-actions'>
                                         <button className='clear-filters-btn-secondary' onClick={clearAllFilters}>
                                             <span className="material-symbols-outlined">refresh</span>
-                                            Limpiar filtros y ver todos
+                                            <p className='text'>Limpiar filtros y ver todos</p>
                                         </button>
                                     </div>
                                     <img src="/assets/imagenes/otros/ser-el-primero.jpg" alt="Sé el primero de tu zona en tener un dormitorio King" />
@@ -249,9 +249,9 @@ function EnviosAProvincia(){
                                             <div className='province-tag-info' onClick={() => openPopup(envio)} style={{ cursor: 'pointer' }}>
                                                 <div>
                                                     <span className="material-symbols-outlined">location_on</span>
-                                                    <div>{envio.destino}</div>
+                                                    <div className='text'>{envio.destino}</div>
                                                 </div>
-                                                <div>{envio.año}</div>
+                                                <div className='text'>{envio.año}</div>
                                             </div>
 
                                             <img src={photos.imgOne} alt={`Envío a ${envio.destino} - Imagen 1`} className='image-1' onClick={() => openPopup(envio)} style={{ cursor: 'pointer' }}/>
