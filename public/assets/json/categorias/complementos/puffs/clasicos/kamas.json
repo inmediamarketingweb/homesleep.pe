@@ -9,21 +9,12 @@
             "ruta": "/productos/complementos/puffs/kamas/1/",
             "nombre": "PUFF CLÁSICO - ARENA",
             "fotos": "/assets/imagenes/productos/complementos/puffs/1/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N10",
+            "sku": "H74N10",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -32,22 +23,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -60,21 +35,12 @@
             "ruta": "/productos/complementos/puffs/kamas/2/",
             "nombre": "PUFF CLÁSICO - AZUL",
             "fotos": "/assets/imagenes/productos/complementos/puffs/2/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N11",
+            "sku": "H74N11",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -83,22 +49,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -111,21 +61,12 @@
             "ruta": "/productos/complementos/puffs/kamas/3/",
             "nombre": "PUFF CLÁSICO - AZUL NOCHE",
             "fotos": "/assets/imagenes/productos/complementos/puffs/3/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N12",
+            "sku": "H74N12",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -134,22 +75,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -162,21 +87,12 @@
             "ruta": "/productos/complementos/puffs/kamas/4/",
             "nombre": "PUFF CLÁSICO - BEIGE CLARO",
             "fotos": "/assets/imagenes/productos/complementos/puffs/4/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N13",
+            "sku": "H74N13",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -185,22 +101,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -213,21 +113,12 @@
             "ruta": "/productos/complementos/puffs/kamas/5/",
             "nombre": "PUFF CLÁSICO - ARENA OSCURO",
             "fotos": "/assets/imagenes/productos/complementos/puffs/5/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N14",
+            "sku": "H74N14",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -236,22 +127,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -264,21 +139,12 @@
             "ruta": "/productos/complementos/puffs/kamas/6/",
             "nombre": "PUFF CLÁSICO - BEIGE",
             "fotos": "/assets/imagenes/productos/complementos/puffs/6/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N15",
+            "sku": "H74N15",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -287,22 +153,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -315,21 +165,12 @@
             "ruta": "/productos/complementos/puffs/kamas/7/",
             "nombre": "PUFF CLÁSICO - COBALTO",
             "fotos": "/assets/imagenes/productos/complementos/puffs/7/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N16",
+            "sku": "H74N16",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -338,22 +179,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -366,21 +191,12 @@
             "ruta": "/productos/complementos/puffs/kamas/8/",
             "nombre": "PUFF CLÁSICO - FUCSIA",
             "fotos": "/assets/imagenes/productos/complementos/puffs/8/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N17",
+            "sku": "H74N17",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -389,22 +205,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -417,21 +217,12 @@
             "ruta": "/productos/complementos/puffs/kamas/9/",
             "nombre": "PUFF CLÁSICO - LILA",
             "fotos": "/assets/imagenes/productos/complementos/puffs/9/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N18",
+            "sku": "H74N18",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -440,22 +231,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -468,21 +243,12 @@
             "ruta": "/productos/complementos/puffs/kamas/10/",
             "nombre": "PUFF CLÁSICO - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/complementos/puffs/10/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N19",
+            "sku": "H74N19",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -491,22 +257,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -519,21 +269,12 @@
             "ruta": "/productos/complementos/puffs/kamas/11/",
             "nombre": "PUFF CLÁSICO - TURQUESA ÓPALO",
             "fotos": "/assets/imagenes/productos/complementos/puffs/11/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N20",
+            "sku": "H74N20",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -542,22 +283,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -570,21 +295,12 @@
             "ruta": "/productos/complementos/puffs/kamas/12/",
             "nombre": "PUFF CLÁSICO - VERDE",
             "fotos": "/assets/imagenes/productos/complementos/puffs/12/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N21",
+            "sku": "H74N21",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -593,22 +309,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Antifluido",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -621,21 +321,12 @@
             "ruta": "/productos/complementos/puffs/kamas/13/",
             "nombre": "PUFF CLÁSICO - VERDE LORO",
             "fotos": "/assets/imagenes/productos/complementos/puffs/13/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N22",
+            "sku": "H74N22",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -644,22 +335,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -672,21 +347,12 @@
             "ruta": "/productos/complementos/puffs/kamas/14/",
             "nombre": "PUFF CLÁSICO - VINO",
             "fotos": "/assets/imagenes/productos/complementos/puffs/14/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N23",
+            "sku": "H74N23",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -695,22 +361,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -723,21 +373,12 @@
             "ruta": "/productos/complementos/puffs/kamas/15/",
             "nombre": "PUFF CLÁSICO - MELÓN",
             "fotos": "/assets/imagenes/productos/complementos/puffs/15/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N24",
+            "sku": "H74N24",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -746,22 +387,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -774,21 +399,12 @@
             "ruta": "/productos/complementos/puffs/kamas/16/",
             "nombre": "PUFF CLÁSICO - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/complementos/puffs/16/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N25",
+            "sku": "H74N25",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -797,22 +413,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -825,21 +425,12 @@
             "ruta": "/productos/complementos/puffs/kamas/17/",
             "nombre": "PUFF CLÁSICO - NEGRO",
             "fotos": "/assets/imagenes/productos/complementos/puffs/17/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N26",
+            "sku": "H74N26",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -848,22 +439,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -876,21 +451,12 @@
             "ruta": "/productos/complementos/puffs/kamas/18/",
             "nombre": "PUFF CLÁSICO - ROSADO BEBÉ",
             "fotos": "/assets/imagenes/productos/complementos/puffs/18/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N27",
+            "sku": "H74N27",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -899,22 +465,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -927,21 +477,12 @@
             "ruta": "/productos/complementos/puffs/kamas/19/",
             "nombre": "PUFF CLÁSICO - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/complementos/puffs/19/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N28",
+            "sku": "H74N28",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -950,22 +491,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -978,21 +503,12 @@
             "ruta": "/productos/complementos/puffs/kamas/20/",
             "nombre": "PUFF CLÁSICO - UVA",
             "fotos": "/assets/imagenes/productos/complementos/puffs/20/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N29",
+            "sku": "H74N29",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -1001,22 +517,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },     
@@ -1029,21 +529,12 @@
             "ruta": "/productos/complementos/puffs/kamas/21/",
             "nombre": "PUFF CLÁSICO - VERDE",
             "fotos": "/assets/imagenes/productos/complementos/puffs/21/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N30",
+            "sku": "H74N30",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -1052,22 +543,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -1080,21 +555,12 @@
             "ruta": "/productos/complementos/puffs/kamas/22/",
             "nombre": "PUFF CLÁSICO - PALO ROSA",
             "fotos": "/assets/imagenes/productos/complementos/puffs/22/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N31",
+            "sku": "H74N31",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -1103,22 +569,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -1131,21 +581,12 @@
             "ruta": "/productos/complementos/puffs/kamas/23/",
             "nombre": "PUFF CLÁSICO - ROJO",
             "fotos": "/assets/imagenes/productos/complementos/puffs/23/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N32",
+            "sku": "H74N32",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -1154,22 +595,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         },
@@ -1182,21 +607,12 @@
             "ruta": "/productos/complementos/puffs/kamas/24/",
             "nombre": "PUFF CLÁSICO - PLOMO",
             "fotos": "/assets/imagenes/productos/complementos/puffs/24/",
-            "colores": "si",
             "precioRegular": 129,
             "precioNormal": 99,
             "precioVenta": 79,
             "stock": 14,
-            "sku": "K74N33",
+            "sku": "H74N33",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "sub-categoría": "Puffs",
@@ -1205,22 +621,6 @@
                     "alto": 37,
                     "largo": 27,
                     "ancho": 37
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Puff clásico",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos",
-                            "garantía": "1 año"
-                        }
-                    ]
                 }
             ]
         }

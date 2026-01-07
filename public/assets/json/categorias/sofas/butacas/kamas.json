@@ -7,38 +7,18 @@
             "ruta": "/productos/sofas/butacas/kamas/1/",
             "nombre": "2 BUTACAS CLASIC -  NEGRO Y PLATA",
             "fotos": "/assets/imagenes/productos/sofas/butacas/1/",
-            "colores": "si",
             "precioRegular": 1289,
             "precioNormal": 1059,
             "precioVenta": 899,
             "stock": 9,
-            "sku": "K6721N10",
+            "sku": "H6721N10",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "marca": "kamas",
-                    "tela": "Piel de durazno",
-                    "diseño": "Clasic"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
                     "modelo": "Butacas",
                     "tela": "Piel de durazno",
                     "diseño": "Clasic"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Butaca",
-                    "descripcion":[
-                        {
-                            "madera": "Tornillo",
-                            "tapizado": "Piel de potro",
-                            "espuma": "Zebra 25kg/m3"
-                        }
-                    ]
                 }
             ]
         },
@@ -49,38 +29,18 @@
             "ruta": "/productos/sofas/butacas/kamas/2/",
             "nombre": "BUTACA CLASIC - PLATA",
             "fotos": "/assets/imagenes/productos/sofas/butacas/2/",
-            "colores": "si",
             "precioRegular": 1289,
             "precioNormal": 589,
             "precioVenta": 469,
             "stock": 9,
-            "sku": "K6721N11",
+            "sku": "H6721N11",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "marca": "kamas",
-                    "tela": "Piel de durazno",
-                    "diseño": "Clasic"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
                     "modelo": "Butacas",
                     "tela": "Piel de durazno",
                     "diseño": "Clasic"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Butaca",
-                    "descripcion":[
-                        {
-                            "madera": "Tornillo",
-                            "tapizado": "Piel de potro",
-                            "espuma": "Zebra 25kg/m3"
-                        }
-                    ]
                 }
             ]
         },
@@ -92,38 +52,18 @@
             "ruta": "/productos/sofas/butacas/kamas/3/",
             "nombre": "BUTACA CLASIC - MORO",
             "fotos": "/assets/imagenes/productos/sofas/butacas/3/",
-            "colores": "si",
             "precioRegular": 1289,
             "precioNormal": 549,
             "precioVenta": 439,
             "stock": 9,
-            "sku": "K6721N12",
+            "sku": "H6721N12",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "marca": "kamas",
-                    "tela": "Piel de durazno",
-                    "diseño": "Clasic"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
                     "modelo": "Butacas",
                     "tela": "Piel de durazno",
                     "diseño": "Clasic"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Butaca",
-                    "descripcion":[
-                        {
-                            "madera": "Tornillo",
-                            "tapizado": "Piel de potro",
-                            "espuma": "Zebra 25kg/m3"
-                        }
-                    ]
                 }
             ]
         },
@@ -140,33 +80,14 @@
             "precioNormal": 739,
             "precioVenta": 599,
             "stock": 9,
-            "sku": "K6721N13",
+            "sku": "H6721N13",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "marca": "kamas",
-                    "tela": "Piel de durazno",
-                    "diseño": "Clasic"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
                     "modelo": "Butacas",
                     "tela": "Piel de durazno",
                     "diseño": "Clasic"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Butaca",
-                    "descripcion":[
-                        {
-                            "madera": "Tornillo",
-                            "tapizado": "Piel de potro",
-                            "espuma": "Zebra 25kg/m3"
-                        }
-                    ]
                 }
             ]
         },
@@ -183,33 +104,14 @@
             "precioNormal": 589,
             "precioVenta": 469,
             "stock": 9,
-            "sku": "K6721N14",
+            "sku": "H6721N14",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "marca": "kamas",
-                    "tela": "Piel de durazno",
-                    "diseño": "Clasic"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
                     "modelo": "Butacas",
                     "tela": "Piel de durazno",
                     "diseño": "Clasic"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Butaca",
-                    "descripcion":[
-                        {
-                            "madera": "Tornillo",
-                            "tapizado": "Piel de potro",
-                            "espuma": "Zebra 25kg/m3"
-                        }
-                    ]
                 }
             ]
         },
@@ -226,33 +128,14 @@
             "precioNormal": 589,
             "precioVenta": 469,
             "stock": 9,
-            "sku": "K6721N15",
+            "sku": "H6721N15",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "marca": "kamas",
-                    "tela": "Piel de durazno",
-                    "diseño": "Clasic"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
                     "modelo": "Butacas",
                     "tela": "Piel de durazno",
                     "diseño": "Clasic"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Butaca",
-                    "descripcion":[
-                        {
-                            "madera": "Tornillo",
-                            "tapizado": "Piel de potro",
-                            "espuma": "Zebra 25kg/m3"
-                        }
-                    ]
                 }
             ]
         }
