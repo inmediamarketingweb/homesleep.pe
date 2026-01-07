@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import { useState, useEffect } from 'react';
 import { useNavigate, useLocation, useSearchParams } from 'react-router-dom';
 
@@ -199,6 +200,10 @@ function EnviosAProvincia(){
 
     return(
         <>
+            <Helmet>
+                <title>Envíos a provincia | Homesleep</title>
+            </Helmet>
+
             <main className='padding-20-to-0'>
                 <div className='block-container'>
                     <div className='block-content d-flex-column gap-20'>

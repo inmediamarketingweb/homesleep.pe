@@ -83,32 +83,46 @@
                 "agencia": "Framel"
             },
             {
-                "id": 12,
+                "id": 5,
                 "fotos": "/assets/imagenes/paginas/envios/provincia/2022/setiembre/FRAMEL/2/",
 
                 "destino": "Chachapoyas",
                 "agencia": "Framel"
             },
             {
-                "id": 13,
+                "id": 6,
                 "fotos": "/assets/imagenes/paginas/envios/provincia/2022/octubre/CHEXPRESS/1/",
 
                 "destino": "Arequipa",
                 "agencia": "Chexpress"
             },
             {
-                "id": 14,
+                "id": 7,
                 "fotos": "/assets/imagenes/paginas/envios/provincia/2022/octubre/EMTRAFESA/1/",
 
                 "destino": "Chocope",
                 "agencia": "Emtrafesa"
             },
             {
-                "id": 15,
+                "id": 8,
                 "fotos": "/assets/imagenes/paginas/envios/provincia/2022/octubre/PECHITO-CARGO-EXPRESS/1/",
 
                 "destino": "Huánuco",
                 "agencia": "Pechito cargo express"
+            },
+            {
+                "id": 9,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2022/julio/TRANSPORTE-JULIO-CESAR/2/",
+
+                "destino": "Yungay",
+                "agencia": "Transportes Julio Cesar"
+            },
+            {
+                "id": 10,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2022/noviembre/EUROCHANKA/1/",
+
+                "destino": "Andahuaylas",
+                "agencia": "Eurochankas"
             }
         ]
     }

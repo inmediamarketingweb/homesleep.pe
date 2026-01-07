@@ -205,11 +205,6 @@
             ],
             "medidas":[
                 {
-                    "id": 1,
-                    "medida": "1 plaza",
-                    "ruta": "/productos/dormitorios/1-plaza/"
-                },
-                {
                     "id": 2,
                     "medida": "1 plaza y media",
                     "ruta": "/productos/dormitorios/1-plaza-y-media/"
