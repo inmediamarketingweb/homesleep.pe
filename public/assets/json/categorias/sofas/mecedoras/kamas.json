@@ -7,36 +7,17 @@
             "ruta": "/productos/sofas/mecedoras/kamas/1/",
             "nombre": "MECEDORA CAPITONEADA - BEIGE",
             "fotos": "/assets/imagenes/productos/sofas/mecedoras/1/",
-            "colores": "si",
             "precioRegular": 999,
             "precioNormal": 799,
             "precioVenta": 599,
             "stock": 9,
-            "sku": "K6621N10",
+            "sku": "H6621N10",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "tela": "Piel de potro",
-                    "diseño": "Capitoneado"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "modelo": "Mecedoras",
                     "tela": "Piel de potro",
                     "diseño": "Capitoneado"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Mecedoras",
-                    "descripcion":[
-                        {
-                            "madera": "Tornillo",
-                            "tapizado": "Piel de potro",
-                            "espuma": "Zebra 25kg/m3"
-                        }
-                    ]
                 }
             ]
         },
@@ -47,36 +28,17 @@
             "ruta": "/productos/sofas/mecedoras/kamas/2/",
             "nombre": "MECEDORA CAPITONEADA - CELESTE",
             "fotos": "/assets/imagenes/productos/sofas/mecedoras/2/",
-            "colores": "si",
             "precioRegular": 999,
             "precioNormal": 799,
             "precioVenta": 599,
             "stock": 9,
-            "sku": "K6621N11",
+            "sku": "H6621N11",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "tela": "Piel de potro",
-                    "diseño": "Capitoneado"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "modelo": "Mecedoras",
                     "tela": "Piel de potro",
                     "diseño": "Capitoneado"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Mecedoras",
-                    "descripcion":[
-                        {
-                            "madera": "Tornillo",
-                            "tapizado": "Piel de potro",
-                            "espuma": "Zebra 25kg/m3"
-                        }
-                    ]
                 }
             ]
         },
@@ -87,36 +49,17 @@
             "ruta": "/productos/sofas/mecedoras/kamas/3/",
             "nombre": "MECEDORA CAPITONEADA - VERDE LORO",
             "fotos": "/assets/imagenes/productos/sofas/mecedoras/3/",
-            "colores": "si",
             "precioRegular": 999,
             "precioNormal": 799,
             "precioVenta": 599,
             "stock": 9,
-            "sku": "K6621N12",
+            "sku": "H6621N12",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "tela": "Piel de potro",
-                    "diseño": "Capitoneado"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "modelo": "Mecedoras",
                     "tela": "Piel de potro",
                     "diseño": "Capitoneado"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Mecedoras",
-                    "descripcion":[
-                        {
-                            "madera": "Tornillo",
-                            "tapizado": "Piel de potro",
-                            "espuma": "Zebra 25kg/m3"
-                        }
-                    ]
                 }
             ]
         }

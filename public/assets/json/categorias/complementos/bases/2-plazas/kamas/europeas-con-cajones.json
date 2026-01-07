@@ -10,19 +10,12 @@
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas-con-cajones/15/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/1/",
-            "colores": "si",
             "precioRegular": 1430,
             "precioNormal": 629,
             "precioVenta": 499,
             "stock": 14,
-            "sku": "K7324N10",
+            "sku": "H7324N10",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "línea": "europeas con cajones",
-                    "tamaño": "2 plazas"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
@@ -31,21 +24,6 @@
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -59,19 +37,12 @@
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas-con-cajones/16/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - VINO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/2/",
-            "colores": "si",
             "precioRegular": 1430,
             "precioNormal": 629,
             "precioVenta": 499,
             "stock": 14,
-            "sku": "K7324N11",
+            "sku": "H7324N11",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "línea": "europeas con cajones",
-                    "tamaño": "2 plazas"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
@@ -80,21 +51,6 @@
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -108,19 +64,12 @@
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas-con-cajones/17/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - FUCSIA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/3/",
-            "colores": "si",
             "precioRegular": 1430,
             "precioNormal": 629,
             "precioVenta": 499,
             "stock": 14,
-            "sku": "K7324N12",
+            "sku": "H7324N12",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "línea": "europeas con cajones",
-                    "tamaño": "2 plazas"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
@@ -129,21 +78,6 @@
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -157,20 +91,13 @@
             "ruta": "/ofertas/solo-por-horas/complementos/bases/europeas-con-cajones/2-plazas/18/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES AL PIE - GRIS PLATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/4/",
-            "colores": "si",
             "precioRegular": 1430,
             "precioNormal": 629,
             "precioVenta": 499,
             "stock": 14,
-            "sku": "K7324N13",
+            "sku": "H7324N13",
             "solo-por-horas": "si",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "línea": "europeas con cajones",
-                    "tamaño": "2 plazas"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
@@ -179,21 +106,6 @@
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -207,19 +119,12 @@
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas-con-cajones/19/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - ROJO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/5/",
-            "colores": "si",
             "precioRegular": 1430,
             "precioNormal": 629,
             "precioVenta": 499,
             "stock": 14,
-            "sku": "K7324N14",
+            "sku": "H7324N14",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "línea": "europeas con cajones",
-                    "tamaño": "2 plazas"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
@@ -228,21 +133,6 @@
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -256,20 +146,13 @@
             "ruta": "/ofertas/solo-por-horas/complementos/bases/europeas-con-cajones/2-plazas/20/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - ROSADO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/6/",
-            "colores": "si",
             "precioRegular": 1430,
             "precioNormal": 629,
             "precioVenta": 499,
             "stock": 14,
-            "sku": "K7324N15",
+            "sku": "H7324N15",
             "solo-por-horas": "si",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "línea": "europeas con cajones",
-                    "tamaño": "2 plazas"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
@@ -278,21 +161,6 @@
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -306,19 +174,12 @@
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas-con-cajones/21/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/7/",
-            "colores": "si",
             "precioRegular": 1430,
             "precioNormal": 629,
             "precioVenta": 499,
             "stock": 14,
-            "sku": "K7324N16",
+            "sku": "H7324N16",
             "tipo-de-envio": "Envío preferente",
-            "resumen-del-producto":[
-                {
-                    "línea": "europeas con cajones",
-                    "tamaño": "2 plazas"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
@@ -327,21 +188,6 @@
                     "tamaño": "2 plazas",
                     "cajones": "Si",
                     "base-encajonada": "No"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         }

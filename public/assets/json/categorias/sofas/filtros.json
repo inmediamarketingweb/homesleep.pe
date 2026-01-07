@@ -38,21 +38,6 @@
         },
         {
             "marca":["El cisne", "Kamas", "Paraiso", "Komfort"]
-        },
-        {
-            "línea":["clásica", "americanas", "americana con cajones", "europea", "europea con cajones"]
-        },
-        {
-            "base-encajonada":["si", "no"]
-        },
-        {
-            "tipo-de-cabecera":["aérea", "aérea con patas", "pedestal"]
-        },
-        {
-            "diseño-de-cabecera":["infantil", "clásico", "americano", "con marco", "corona", "bloques"]
-        },
-        {
-            "brazos-de-cabecera":["sin brazos", "brazos rectos", "brazos curvos", "brazos p", "brazos seahorse"]
         }
     ]
 }
