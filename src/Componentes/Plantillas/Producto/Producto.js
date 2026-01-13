@@ -12,7 +12,6 @@ import "./Producto.css";
 
 export function Producto({ producto = { id: null } }){
     const descuento = Math.round( ((producto.precioNormal - producto.precioVenta) * 100) / producto.precioNormal );
-
     const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
 
     useEffect(() => {
@@ -27,12 +26,8 @@ export function Producto({ producto = { id: null } }){
         };
     }, []);
 
-    const tipoEnvioClase = producto["tipo-de-envio"] === "Gratis" ? "envio-gratis"
-    : producto["tipo-de-envio"] === "Envío preferente" ? "envio-preferente"
-    : producto["tipo-de-envio"] === "Envío aplicado" ? "envio-aplicado"
-    : "";
+    const tipoEnvioClase = producto["tipo-de-envio"] === "Gratis" ? "envio-gratis" : producto["tipo-de-envio"] === "Envío preferente" ? "envio-preferente" : producto["tipo-de-envio"] === "Envío aplicado" ? "envio-aplicado" : "";
 
-    // Función para formatear el texto del envío
     const getTextoEnvio = () => {
         if (producto["tipo-de-envio"] === "Gratis") {
             return "Envío gratis";
@@ -43,8 +38,8 @@ export function Producto({ producto = { id: null } }){
     const imageSize = isSmallScreen ? 140 : 200;
 
     return(
-        <li>
-            <div className={`product-card ${producto.stock === 0 ? "agotado" : ""}`} title={producto.nombre}>
+        <li className={`product-card-li ${producto.stock === 0 ? "agotado" : ""}`} title={producto.nombre}>
+            <div className='product-card'>
                 <div className="product-card-images">
                     {descuento > 0 && (
                         <span className="product-card-discount">-{descuento}%</span>

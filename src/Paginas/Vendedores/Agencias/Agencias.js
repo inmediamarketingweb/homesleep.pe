@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { Helmet } from 'react-helmet';
+import { useSearchParams } from 'react-router-dom';
 
 import './Agencias.css';
 
@@ -21,6 +22,10 @@ const useMobile = () => {
     return isMobile;
 };
 
+const normalizeText = (text) => {
+    return text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').trim();
+};
+
 function Agencias(){
     const [datos, setDatos] = useState(null);
     const [searchTerm, setSearchTerm] = useState('');
@@ -33,6 +38,8 @@ function Agencias(){
     const [expandedAgencias, setExpandedAgencias] = useState({});
     const searchRef = useRef(null);
     const isMobile = useMobile();
+    const [searchParams, setSearchParams] = useSearchParams();
+    const [initialLoad, setInitialLoad] = useState(true);
 
     useEffect(() => {
         const cargarDatos = async () => {
@@ -58,14 +65,49 @@ function Agencias(){
         cargarDatos();
     }, []);
 
+    useEffect(() => {
+        if (!datos || !initialLoad) return;
+
+        const destino = searchParams.get('destino');
+        if (destino && destino.trim() !== '') {
+            const destinoNormalized = normalizeText(destino);
+            const resultados = buscarDistritosFromURL(destinoNormalized);
+            
+            if (resultados.length > 0) {
+                if (resultados.length === 1) {
+                    seleccionarDistrito(resultados[0]);
+                } else {
+                    setSearchTerm(destino);
+                    setSearchResults(resultados);
+                }
+            } else {
+                setSearchTerm(destino);
+            }
+        }
+        setInitialLoad(false);
+    }, [datos]);
+
     const buscarDistritos = (term) => {
         if (!datos) return [];
-        const termLower = term.toLowerCase();
+        
+        const termNormalized = normalizeText(term);
+        const resultados = buscarDistritosFromURL(termNormalized);
+        
+        setSearchResults(resultados);
+        return resultados;
+    };
+
+    const buscarDistritosFromURL = (termNormalized) => {
         const resultados = [];
+        
         datos.departamentos.forEach(depto => {
             depto.provincias.forEach(prov => {
                 prov.distritos.forEach(dist => {
-                    if (dist.distrito.toLowerCase().includes(termLower)) {
+                    const distritoNormalized = normalizeText(dist.distrito);
+                    const provinciaNormalized = normalizeText(prov.provincia);
+                    const departamentoNormalized = normalizeText(depto.departamento);
+                    
+                    if ( distritoNormalized.includes(termNormalized) || provinciaNormalized.includes(termNormalized) || departamentoNormalized.includes(termNormalized) ) {
                         resultados.push({
                             ...dist,
                             departamento: depto.departamento,
@@ -75,7 +117,7 @@ function Agencias(){
                 });
             });
         });
-        setSearchResults(resultados);
+        
         return resultados;
     };
 
@@ -85,9 +127,17 @@ function Agencias(){
         if (value.length >= 2) {
             buscarDistritos(value);
             setShowSearchResults(true);
+            if (value.trim() !== '') {
+                setSearchParams({ destino: value });
+            } else {
+                setSearchParams({});
+            }
         } else {
             setShowSearchResults(false);
             setSearchResults([]);
+            if (value === '') {
+                setSearchParams({});
+            }
         }
     };
 
@@ -96,10 +146,20 @@ function Agencias(){
             const resultados = buscarDistritos(searchTerm);
             setShowSearchResults(true);
             
+            if (searchTerm.trim() !== '') {
+                setSearchParams({ destino: searchTerm });
+            }
+            
             if (resultados.length === 1) {
                 seleccionarDistrito(resultados[0]);
                 setShowSearchResults(false);
             }
+        }
+    };
+
+    const handleInputFocus = () => {
+        if (searchTerm.length >= 2 && searchResults.length > 0) {
+            setShowSearchResults(true);
         }
     };
 
@@ -111,6 +171,14 @@ function Agencias(){
             } else {
                 handleSearchClick();
             }
+        } else if (e.key === 'Escape') {
+            setSearchTerm('');
+            setShowSearchResults(false);
+            setSearchResults([]);
+            setSelectedDistrito(null);
+            setSelectedAgencia(null);
+            setExpandedAgencias({});
+            setSearchParams({});
         }
     };
 
@@ -120,6 +188,7 @@ function Agencias(){
         setSearchTerm(dist.distrito);
         setShowSearchResults(false);
         setExpandedAgencias({});
+        setSearchParams({ destino: dist.distrito });
     };
 
     const seleccionarAgencia = (agencia, sede) => {
@@ -143,6 +212,16 @@ function Agencias(){
 
     const hasEnvioDirecto = (distrito) => {
         return distrito['envio-directo'] && parseFloat(distrito['envio-directo']) > 0;
+    };
+
+    const handleClearSearch = () => {
+        setSearchTerm('');
+        setShowSearchResults(false);
+        setSearchResults([]);
+        setSelectedDistrito(null);
+        setSelectedAgencia(null);
+        setExpandedAgencias({});
+        setSearchParams({});
     };
 
     useEffect(() => {
@@ -213,10 +292,24 @@ function Agencias(){
                             <div className='d-flex-column gap-10'>
                                 <div className='position-relative' ref={searchRef}>
                                     <div className='agencias-search-bar-container'>
-                                        <input type='text' placeholder='Busca tu distrito'value={searchTerm} onChange={handleSearchChange} onKeyDown={handleKeyDown}/>
-                                        <button type='button' onClick={handleSearchClick}>
-                                            <span className="material-icons">search</span>
-                                        </button>
+                                        <input 
+                                            type='text' 
+                                            placeholder='Busca tu distrito'
+                                            value={searchTerm} 
+                                            onChange={handleSearchChange}
+                                            onFocus={handleInputFocus}
+                                            onKeyDown={handleKeyDown}
+                                        />
+                                        <div className='search-buttons'>
+                                            {searchTerm && (
+                                                <button type='button' className='clear-button' onClick={handleClearSearch}>
+                                                    <span className="material-icons">close</span>
+                                                </button>
+                                            )}
+                                            <button type='button' onClick={handleSearchClick}>
+                                                <span className="material-icons">search</span>
+                                            </button>
+                                        </div>
                                     </div>
 
                                     {showSearchResults && (
@@ -311,7 +404,7 @@ function Agencias(){
                                                                                                <p className="text">Envío gratis para Lima y Callao</p>
                                                                                             </div>
                                                                                         ) : (
-                                                                                            `S/.${selectedDistrito['envio-directo']}`
+                                                                                            <span>S/.{selectedDistrito['envio-directo']}</span>
                                                                                         )}
                                                                                     </p>
                                                                                 </div>
@@ -350,7 +443,7 @@ function Agencias(){
                             </div>
 
                             <div className='d-flex-column gap-20'>
-                                <img src="/assets/imagenes/paginas/envios/envios-a-provincia.jpg" alt="Envíos a provincia" className='page-banner-img' />
+                                <img src="/assets/imagenes/paginas/envios/envios-a-provincia.webp" alt="Envíos a provincia" className='page-banner-img' />
 
                                 {selectedAgencia ? (
                                     <div className='agencia-details'>
@@ -406,7 +499,7 @@ function Agencias(){
                                                                         <p className="text">Envío gratis para Lima y Callao</p>
                                                                     </div>
                                                                 ) : (
-                                                                    `S/.${selectedDistrito['envio-directo']}`
+                                                                    <span>S/.{selectedDistrito['envio-directo']}</span>
                                                                 )}
                                                             </p>
                                                         </div>
@@ -440,7 +533,7 @@ function Agencias(){
                                                                     <p>Envío gratis para Lima y Callao</p>
                                                                 </div>
                                                             ) : (
-                                                                `S/.${selectedDistrito['envio-directo']}`
+                                                                <span>S/.{selectedDistrito['envio-directo']}</span>
                                                             )}
                                                         </p>
                                                     </div>

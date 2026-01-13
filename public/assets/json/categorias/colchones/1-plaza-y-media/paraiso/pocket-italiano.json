@@ -33,6 +33,8 @@
         {
             "marca": "paraiso",
             "modelo-de-colchón": "pocket italiano",
+            "nivel-de-confort": "Confortable",
+            "línea-de-colchón": "Ortopédico",
             "tela": "Tejido de punto",
             "resortes": "pocket",
             "cantidad-de-resortes": "754",

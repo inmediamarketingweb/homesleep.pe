@@ -124,37 +124,37 @@ function Productos() {
                                 <div className='products-page-categories-container'>
                                     <ul className='products-page-categories-list'>
                                         <li>
-                                            <a href='/colchones/' title='' className=''>
+                                            <a href='/colchones/' title='Colchones | Homesleep' className=''>
                                                 <p>Colchones</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href='/productos/camas-box-tarimas/' title='' className=''>
+                                            <a href='/productos/camas-box-tarimas/' title='Camas box tarimas | Homesleep' className=''>
                                                 <p>Camas box tarimas</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href='/productos/dormitorios/' title='' className=''>
+                                            <a href='/productos/dormitorios/' title='Dormitorios | Homesleep' className=''>
                                                 <p>Dormitorios</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href='/productos/camas-funcionales/' title='' className=''>
+                                            <a href='/productos/camas-funcionales/' title='Camas funcionales | Homesleep' className=''>
                                                 <p>Camas funcionales</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href='/productos/cabeceras/' title='' className=''>
+                                            <a href='/productos/cabeceras/' title='Cabeceras | Homesleep' className=''>
                                                 <p>Cabeceras</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href='/productos/sofas/' title='' className=''>
+                                            <a href='/productos/sofas/' title='Sofás | Homesleep' className=''>
                                                 <p>Sofás</p>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href='/productos/complementos/' title='' className=''>
+                                            <a href='/productos/complementos/' title='Complementos | Homesleep' className=''>
                                                 <p>Complementos</p>
                                             </a>
                                         </li>
@@ -165,14 +165,10 @@ function Productos() {
                     </div>
                     
                     <div className='products-page-right'>
-                        <FiltrosTop 
-                            setOrden={handleOrdenChange} 
-                            orden={orden}
-                            productosCount={productosOrdenados.length}
-                            totalProductos={productos.length}
-                            currentPage={currentPage}
-                            itemsPerPage={itemsPerPage}
-                            startIndex={startIndex}
+                        <FiltrosTop setOrden={handleOrdenChange} 
+                            orden={orden} productosCount={productosOrdenados.length}
+                            totalProductos={productos.length} currentPage={currentPage}
+                            itemsPerPage={itemsPerPage} startIndex={startIndex}
                             endIndex={endIndex}
                         />
 
@@ -207,13 +203,7 @@ function Productos() {
                                             <div className="d-flex-center-center gap-10">
                                                 {getVisiblePages().map((page, index) => 
                                                     typeof page === 'number' ? (
-                                                        <button 
-                                                            key={index} 
-                                                            className={`pagination-page ${currentPage === page ? 'active' : ''}`} 
-                                                            onClick={() => handlePageChange(page)}
-                                                        >
-                                                            {page}
-                                                        </button>
+                                                        <button key={index} className={`pagination-page ${currentPage === page ? 'active' : ''}`} onClick={() => handlePageChange(page)}>{page}</button>
                                                     ) : (
                                                         <span key={index} className="pagination-ellipsis">...</span>
                                                     )
