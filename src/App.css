@@ -19,12 +19,13 @@
 
     --body: #FFFFFF;
 
-    --component: #F5F5F5;
+    --component: #E9E9E9;
 
     --gratis: #0AC40A;
     --preferente: blue;
     --aplicado: orange;
     --express: orangered;
+    --directo: crimson;
 
     --white: #FFFFFF;
     --gray: #434343;
@@ -36,7 +37,7 @@
     --f-size-small: 14px;
 
     --container-mx-width: 2000px;
-    --content-mx-width: 1440px;
+    --content-mx-width: 1600px;
 
     --t-100ms-linear: all 100ms linear;
     --t-200ms-linear: all 200ms linear;
@@ -72,7 +73,7 @@ body::selection{
 
 main{
     width: 100%;
-    margin-top: 110px;
+    margin-top: 130px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -220,7 +221,7 @@ button{
 }
 
 .font-bold{
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .first-uppercase::first-letter{
@@ -288,6 +289,16 @@ button{
     grid-template-columns: repeat(2, 1fr);
 }
 
+.d-grid-3-1fr{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.d-grid-3-auto-1fr{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
 .d-grid-1-2fr{
     display: grid;
     grid-template-columns: 1fr;
@@ -353,6 +364,14 @@ button{
 
 .margin-bottom{
     margin-bottom: auto;
+}
+
+.margin-bottom-5{
+    margin-bottom: 5px !important;
+}
+
+.margin-bottom-10{
+    margin-bottom: 10px !important;
 }
 
 .padding-10{
@@ -543,7 +562,7 @@ button{
 
 .product-card{
     width: 100%;
-    max-width: 280px !important;
+    /* max-width: 280px !important; */
     display: flex;
     flex-direction: column;
     border: 1px solid rgba(0 0 0 / 0.2);
@@ -660,6 +679,10 @@ button{
         display: unset;
     }
 
+    main{
+        margin-top: 110px;
+    }
+
     .block-container{
         padding: 0 10px;
     }
@@ -672,7 +695,9 @@ button{
     .d-grid-2-1fr,
     .d-grid-3-2-1fr,
     .d-grid-auto-1fr,
-    .d-grid-1-3fr{
+    .d-grid-1-3fr,
+    .d-grid-3-1fr,
+    .d-grid-3-auto-1fr{
         grid-template-columns: 1fr !important;
     }
 

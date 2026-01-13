@@ -1,0 +1,51 @@
+{
+    "productos":[
+        {
+            "categoria": "colchones",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "der prinz",
+            "ruta": "/productos/colchones/4-plazas/kamas/der-prinz/",
+            "nombre": "COLCHÓN KAMAS 4 PLAZAS SÚPER ORTOPÉDICO DER PRINZ",
+            "fotos": "/assets/imagenes/productos/colchones/kamas/der-prinz/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1649,
+            "stock": 13,
+            "sku": "H1147N10",
+            "regalos":[ "2 almohadas" ],
+            "tamaños-disponibles":[
+                { "nombre": "1 plaza y media", "sku": "H11157N10" },
+                { "nombre": "2 plazas", "sku": "H1127N10" },
+                { "nombre": "Queen", "sku": "H1137N10" }
+            ],
+            "tipo-de-envio": "Gratis"
+        }
+    ],
+    "mensajes":[
+        "El colchón Kamas Der Prinz, de línea súper ortopédica, ofrece un descanso muy confortable gracias a sus resortes bonell de acero templado distribuidos en 19 filas y reforzados al centro.",
+        "Combina espuma de 20 kg/m³, marco de espuma, uso de un solo lado y un sistema One Size para mayor estabilidad. Su tela de algodón tejido en punto, 30 cm de grosor y soporte de 90 kg por persona lo hacen firme, resistente y duradero.",
+        "Ideal para quienes buscan soporte superior y confort profundo."
+    ],
+    "ficha":[
+        {
+            "marca": "kamas",
+            "modelo-de-colchón": "Der Prinz",
+            "tamaño": "King",
+            "línea-de-colchón": "Súper ortopédico",
+            "nivel-de-confort": "Muy confortable",
+            "resortes": "bonell",
+            "filas-de-resortes": "22",
+            "material-de-resorte": "Acero templado",
+            "tela": "Algodón tejido en punto",
+            "densidad-de-la-espuma": "20kg/m3",
+            "tipo-de-uso": "Un solo lado",
+            "incorpora": "Sistema one size",
+            "refuerzos": "Centrales",
+            "marco": "Marco de espuma",
+            "grosor": "30cm.",
+            "soporte-de-peso": "90kg. por persona",
+            "garantía": "6 años"
+        }
+    ]
+}

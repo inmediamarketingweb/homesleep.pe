@@ -31,6 +31,8 @@
     "ficha":[
         {
             "marca": "paraiso",
+            "nivel-de-confort": "confortable",
+            "línea-de-colchón": "ortópedico",
             "modelo-de-colchón": "pocket star",
             "tela": "Tejido de punto",
             "tratamiento": "Antihongos, antibacterias y antiácaros",

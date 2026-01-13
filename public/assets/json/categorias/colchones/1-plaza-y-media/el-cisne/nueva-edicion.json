@@ -27,10 +27,12 @@
         {
             "marca": "el cisne",
             "resortes": "255 bicónicos",
+            "línea-de-colchón": "Anátomico",
+            "nivel-de-confort": "ortopédico",
             "tela": "Pique",
             "marco": "Espuma con densidad 16kg/m3",
             "capas": "2 láminas de poliuretano de alta densidad y 2 láminas de espuma de poliuretano de 1 1/4'' a 16kg/m3",
-            "sensación": "intermedia",
+            "sensación": "intermedio",
             "garantía": "3 años"
         }
     ]

@@ -28,10 +28,12 @@
         "El marco sellado reforzado mejora la durabilidad del colchón y evita deformaciones, garantizando un soporte seguro de hasta 70 kg por persona.",
         "Respaldado por 6 años de garantía, el Der Prinz es una opción confiable para quienes buscan un colchón resistente, estable y duradero."
     ],
-    "descripcion":[
+    "ficha":[
         {
             "marca" :"kamas",
             "modelo-de-colchón": "der prinz",
+            "línea-de-colchón": "Súper ortopédico",
+            "nivel-de-confort": "Muy confortable",
             "resortes": "bonell",
             "filas-de-resortes": "11 filas",
             "tela": "Algodón tejido en punto",

@@ -27,7 +27,11 @@
     ],
     "ficha":[
         {
-            "resortes": "8 filas en forma vertical",
+            "marca": "kamas",
+            "línea-de-colchón": "semi ortopédico",
+            "nivel-de-confort": "confortable",
+            "resortes": "bonell",
+            "cantidad-de-resortes": "8 filas en forma vertical",
             "tela": "Tricop",
             "densidad-de-la-espuma": "16kg/m3",
             "tipo-de-uso": "Ambos lados",

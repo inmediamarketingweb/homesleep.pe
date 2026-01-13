@@ -25,8 +25,11 @@
     ],
     "ficha":[
         {
+            "marca": "el cisne",
             "resortes": "608 continuos",
             "tela": "Pique",
+            "línea-de-colchón": "ortopédico",
+            "nivel-de-confort": "confortable",
             "tratamiento": "Antihongos, antibacterias y antiácaros",
             "tipo-de-uso": "un solo lado",
             "tipo-de-resorte": "Pocket",
