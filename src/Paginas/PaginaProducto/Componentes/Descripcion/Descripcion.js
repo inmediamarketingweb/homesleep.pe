@@ -116,7 +116,7 @@ function Descripcion({
         }
 
         const esColchonIndividual = producto?.categoria?.toLowerCase() === 'colchones' && !descripcionColchon;
-        const titulo = esColchonIndividual ? "Colchón" : "Ficha técnica";
+        const titulo = esColchonIndividual ? "Ficha técnica" : "Ficha técnica";
 
         return(
             <div className="ficha-producto-container d-flex-column gap-10">
@@ -270,7 +270,7 @@ function Descripcion({
         
         const getColchonTitle = () => {
             const nombreProducto = producto?.nombre?.toLowerCase() || '';
-            let titulo = "Colchón";
+            let titulo = "Ficha técnica";
 
             if (descripcionColchon?.producto?.marca) {
                 const marca = descripcionColchon.producto.marca;

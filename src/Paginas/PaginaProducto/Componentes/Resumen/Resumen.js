@@ -4,13 +4,14 @@ function Resumen({ producto, ficha = [] }){
     const propiedadesProducto = [
         { clave: "marca", etiqueta: "Marca" },
         { clave: "tamaño", etiqueta: "Tamaño" },
-        { clave: "modelo", etiqueta: "Modelo" },
-        { clave: "tipo-de-envio", etiqueta: "Envío" }
+        { clave: "modelo-de-colchón", etiqueta: "Modelo de colchón" },
+        { clave: "línea", etiqueta: "Línea" }
     ];
 
     const propiedadesFichaImportantes = [
         "garantía",
         "resortes",
+        "línea-de-colchón",
         "nivel-de-confort",
         "sensación"
     ];
