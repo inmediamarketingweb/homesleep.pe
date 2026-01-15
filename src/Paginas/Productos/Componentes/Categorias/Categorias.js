@@ -21,7 +21,7 @@ function Categorias(){
                     </li>
                     <li>
                         <Link className="product-page-categories-link" to='/productos/dormitorios/' title='Dormitorios | Homesleep'>
-                            <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/dormitorios.webp' alt='Dormitorios | Homesleep'/>
+                            <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/dormitorios-2.webp' alt='Dormitorios | Homesleep'/>
                             <p>Dormitorios</p>
                         </Link>
                     </li>
