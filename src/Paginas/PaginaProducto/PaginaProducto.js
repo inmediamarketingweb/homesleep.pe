@@ -324,7 +324,6 @@ function PaginaProducto(){
                             if (resp.ok){
                                 const pd = await resp.json();
                                 if (!cancelled){
-                                    // ACTUALIZADO: Extraer mensajes y ficha correctamente
                                     setProductoData({ 
                                         producto: pd.productos?.[0] || pd, 
                                         imagenes: [], 
@@ -736,10 +735,10 @@ function PaginaProducto(){
                                                 <Resumen producto={producto} ficha={ficha} />
 
                                                 <div className='visible-on-desktop-no-mobile'>
-                                                    <div className='d-flex-column gap-10'>
-                                                        {producto.categoria.toLowerCase() !== "colchones" && (
+                                                    <div className='d-flex-column gap-20'>
+                                                        {/* {producto.categoria.toLowerCase() !== "colchones" && (
                                                             <Colores colorName={producto.nombre.split('-').pop().trim() || "Seleccionar color"}/>
-                                                        )}
+                                                        )} */}
 
                                                         <Regalos producto={producto} descripcionColchon={descripcionColchon}/>
                                                     </div>
@@ -767,9 +766,9 @@ function PaginaProducto(){
                                                         <div className='d-flex d-flex-wrap gap-10'>
                                                             <Regalos producto={producto} descripcionColchon={descripcionColchon}/>
 
-                                                            {producto.categoria.toLowerCase() !== "colchones" && (
+                                                            {/* {producto.categoria.toLowerCase() !== "colchones" && (
                                                                 <Colores colorName={producto.nombre.split('-').pop().trim() || "Seleccionar color"}/>
-                                                            )}
+                                                            )} */}
                                                         </div>
 
                                                         <Medidas producto={producto}/>
