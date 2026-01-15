@@ -655,6 +655,21 @@ button{
     rotate: 270deg;
 }
 
+.button-small-style-gray{
+    border-radius: 3px;
+    border: 1px solid #D9D9D9;
+    background: var(--component);
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-small-style-gray p{
+    color: var(--text);
+    font-size: 11px;
+}
+
 @media screen and (max-width: 800px){
     .d-grid-5-3-2fr{
         grid-template-columns: repeat(3, 1fr);

@@ -33,3 +33,40 @@
     border-radius: 10px 10px 0 0;
     z-index: 102;
 }
+
+.all-colors-miniatures{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    width: calc(100% - 40px);
+    max-width: var(--content-mx-width);
+    height: auto;
+    background: var(--body);
+    border: 1px solid var(--component);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    border-radius: 8px;
+    z-index: 999 !important;
+    padding: 20px;
+
+    display: none !important;
+}
+
+.all-colors-miniatures > div > img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.colors-layer{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    z-index: 9999 !important;
+    background: rgba(0 0 0 / 0.25);
+}

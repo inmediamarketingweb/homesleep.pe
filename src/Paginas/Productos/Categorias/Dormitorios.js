@@ -22,7 +22,8 @@ const filtroKeyMap = {
     "modelo": "modelo-de-colchón",
     "tipo-de-cabecera": "tipo-de-cabecera",
     "diseño-de-cabecera": "diseño-de-cabecera",
-    "brazos-de-cabecera": "brazos-de-cabecera"
+    "brazos-de-cabecera": "brazos-de-cabecera",
+    "resortes": "resortes",
 };
 
 const mapaMarcasModelos = {

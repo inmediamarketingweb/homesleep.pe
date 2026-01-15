@@ -149,7 +149,7 @@ function Footer(){
 
                                 <div className='d-flex-column gap-10'>
                                     <p className='title'>Siguenos:</p>
-                                    
+
                                     <ul className='d-flex-center-left gap-5 social-networks'>
                                         <li>
                                             <a href='https://www.facebook.com/homesleep.pe' target='_blank' rel="noopener noreferrer" title='Facebook | Homesleep'>
@@ -171,7 +171,7 @@ function Footer(){
                                         <div className='face-tag-content'>
                                             <div className='face-tag-content-top'>
                                                 <div className='d-flex-center-left gap-10'>
-                                                    <img src="https://scontent.flim38-1.fna.fbcdn.net/v/t39.30808-6/292533996_407729128041010_7160981179952390103_n.png?_nc_cat=108&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeE1Qe0YsnSEeaTQY0SpaRSBNjBRq64dXQI2MFGrrh1dAryMx6bvGtbeSzMCKz0fBXrdE9wIYn25mJy8ZWt5KUJ5&_nc_ohc=TsFAJK_7PhwQ7kNvwEGnEf7&_nc_oc=Adm8UPVPo4mCwOn5iq8EC1NkpafXSua6lD0HltZSsfYip_gX2NeD49p2RLdjR8kCnOw&_nc_zt=23&_nc_ht=scontent.flim38-1.fna&_nc_gid=6m8MEkQQfFjNY3AwXQn2cg&oh=00_AfmJXDSq2LOU-czVB2QGnFRcijSDMTodB1UnTAgkf2q3sw&oe=6938DEC7" alt=''/>
+                                                    <img src="/assets/imagenes/componentes/footer/profile.png" alt=''/>
                                                     <div className='d-flex-column'>
                                                         <p className='uppercase color-white font-bold'>Homesleep</p>
                                                         <p className='color-white'>19 de agosto</p>
