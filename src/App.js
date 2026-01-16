@@ -3,10 +3,8 @@ import { HelmetProvider } from 'react-helmet-async';
 
 import Layout from "./Componentes/Layout";
 
-//Página principal
 import PaginaPrincipal from "./Paginas/PaginaPrincipal/PaginaPrincipal";
 
-//Páginas para los productos
 import Productos from './Paginas/Productos/Productos';
 
 import Colchones from './Paginas/Productos/Categorias/Colchones';
@@ -20,15 +18,9 @@ import Complementos from './Paginas/Productos/Categorias/Complementos';
 import PaginaProducto from './Paginas/PaginaProducto/PaginaProducto';
 
 import Ofertas from "./Paginas/Ofertas/Ofertas";
-
-//Página para productos favoritos en localstorage
 import Favoritos from "./Paginas/Favoritos/Favoritos";
-
-//Páginas de nosotros y contenido adicional
 import Nosotros from "./Paginas/Nosotros/Nosotros";
-
 import ProyectosYAlianzas from "./Paginas/ProyectosYAlianzas/ProyectosYAlianzas";
-
 import PropiedadIntelectual from "./Paginas/Nosotros/Paginas/PropiedadIntelectual";
 import RazonesParaComprar from "./Paginas/Nosotros/Paginas/RazonesParaComprar";
 import MediosDePago from './Paginas/ServicioAlCliente/MediosDePago';
@@ -46,24 +38,13 @@ import TerminosYCondiciones from './Paginas/ServicioAlCliente/TerminosYCondicion
 import HorariosDeEntrega from './Paginas/ServicioAlCliente/HorariosDeEntrega';
 import ProgramaDeInfluencers from './Paginas/Novedades/ProgramaDeInfluencers';
 import ProgramaDeReferencias from './Paginas/Novedades/ProgramaDeReferencias';
-
-//Páginas de envios
 import EnviosALimaYCallao from "./Paginas/Nosotros/Paginas/Envios/EnviosALimaYCallao/EnviosALimaYCallao";
 import EnviosAProvincia from './Paginas/Nosotros/Paginas/Envios/EnviosAProvincia/EnviosAProvincia';
-
 import CostosDeEnvioPorZonas from "./Paginas/Nosotros/Paginas/CostosDeEnvioPorZonas/CostosDeEnvioPorZonas";
-
-//Páginas de contacto
 import Contacto from "./Paginas/Contacto/Contacto";
 import LibroDeReclamaciones from "./Paginas/Contacto/LibroDeReclamaciones/LibroDeReclamaciones";
-
-//Página para resultado de búsquedas
 import Busqueda from "./Paginas/Busqueda/Busqueda";
-
-//Página para control de error 404
 import Error404 from "./Paginas/Error404/Error404";
-
-//Páginas para los vendedores
 import Colores from './Paginas/Vendedores/Colores/Colores';
 import Agencias from './Paginas/Vendedores/Agencias/Agencias';
 
@@ -101,13 +82,11 @@ function App(){
 
                         <Route path="/productos/sofas/" element={<Sofas />} />
 
-                        {/* Rutas específicas de sofa-cama - DEBEN IR PRIMERO */}
                         <Route path="/productos/sofas/sofa-cama/:tamaño/:marca/:id/" element={<PaginaProducto />} />
                         <Route path="/productos/sofas/sofa-cama/:tamaño/:marca/" element={<Sofas />} />
                         <Route path="/productos/sofas/sofa-cama/:tamaño/" element={<Sofas />} />
                         <Route path="/productos/sofas/sofa-cama/" element={<Sofas />} />
 
-                        {/* Otras rutas específicas de tipos de sofá */}
                         <Route path="/productos/sofas/butacas/:marca/:id/" element={<PaginaProducto />} />
                         <Route path="/productos/sofas/butacas/:marca/" element={<Sofas />} />
                         <Route path="/productos/sofas/butacas/" element={<Sofas />} />
@@ -137,6 +116,53 @@ function App(){
                         <Route path="/productos/sofas/:sub1/:sub2/" element={<Sofas />} />
                         <Route path="/productos/sofas/:sub1/" element={<Sofas />} />
 
+                        <Route path="/productos/complementos/cama-perro/kamas/s/:id" element={<PaginaProducto />} />
+                        <Route path="/productos/complementos/cama-perro/kamas/m/:id" element={<PaginaProducto />} />
+                        <Route path="/productos/complementos/cama-perro/kamas/l/:id" element={<PaginaProducto />} />
+                        <Route path="/productos/complementos/cama-perro/kamas/xl/:id" element={<PaginaProducto />} />
+                        <Route path="/productos/complementos/cama-perro/kamas/xxl/:id" element={<PaginaProducto />} />
+                        
+                        <Route path="/productos/complementos/cama-perro/kamas/:tamaño/:id" element={<PaginaProducto />} />
+                        
+                        <Route path="/productos/complementos/puffs/kamas/clasicos/:id" element={<PaginaProducto />} />
+                        <Route path="/productos/complementos/puffs/kamas/modernos/:id" element={<PaginaProducto />} />
+                        <Route path="/productos/complementos/puffs/kamas/vintage/:id" element={<PaginaProducto />} />
+                        
+                        <Route path="/productos/complementos/puffs/kamas/:estilo/:id" element={<PaginaProducto />} />
+
+                        <Route path="/productos/complementos/bases/:tamaño/:marca/:tipo/:id" element={<PaginaProducto />} />
+
+                        <Route path="/productos/complementos/cama-perro/:tamaño/:marca/:id" element={<PaginaProducto />} />
+
+                        <Route path="/productos/complementos/puffs/:marca/:id" element={<PaginaProducto />} />
+                        <Route path="/productos/complementos/puff/:estilo/:marca/:id" element={<PaginaProducto />} />
+
+                        <Route path="/productos/complementos/veladores/:marca/:id" element={<PaginaProducto />} />
+
+                        <Route path="/productos/complementos/:sub1/:sub2/:sub3/:sub4/:sub5/:id" element={<PaginaProducto />} />
+                        <Route path="/productos/complementos/:sub1/:sub2/:sub3/:sub4/:id" element={<PaginaProducto />} />
+                        <Route path="/productos/complementos/:sub1/:sub2/:sub3/:id" element={<PaginaProducto />} />
+                        <Route path="/productos/complementos/:sub1/:sub2/:id" element={<PaginaProducto />} />
+                        <Route path="/productos/complementos/:sub1/:id" element={<PaginaProducto />} />
+
+                        <Route path="/productos/complementos/cama-perro/kamas/s/" element={<Complementos />} />
+                        <Route path="/productos/complementos/cama-perro/kamas/m/" element={<Complementos />} />
+                        <Route path="/productos/complementos/cama-perro/kamas/l/" element={<Complementos />} />
+                        <Route path="/productos/complementos/cama-perro/kamas/xl/" element={<Complementos />} />
+                        <Route path="/productos/complementos/cama-perro/kamas/xxl/" element={<Complementos />} />
+
+                        <Route path="/productos/complementos/cama-perro/kamas/:tamaño/" element={<Complementos />} />
+
+                        <Route path="/productos/complementos/cama-perro/kamas/" element={<Complementos />} />
+
+                        <Route path="/productos/complementos/puffs/kamas/clasicos/" element={<Complementos />} />
+                        <Route path="/productos/complementos/puffs/kamas/modernos/" element={<Complementos />} />
+                        <Route path="/productos/complementos/puffs/kamas/vintage/" element={<Complementos />} />
+
+                        <Route path="/productos/complementos/puffs/kamas/:estilo/" element={<Complementos />} />
+
+                        <Route path="/productos/complementos/puffs/kamas/" element={<Complementos />} />
+
                         <Route path="/productos/complementos/bases/:tamaño/:marca/:tipo/" element={<Complementos />} />
                         <Route path="/productos/complementos/bases/:tamaño/:marca/" element={<Complementos />} />
                         <Route path="/productos/complementos/bases/:tamaño/" element={<Complementos />} />
@@ -149,16 +175,14 @@ function App(){
                         <Route path="/productos/complementos/puff/:estilo/:marca/" element={<Complementos />} />
                         <Route path="/productos/complementos/puff/:estilo/" element={<Complementos />} />
                         <Route path="/productos/complementos/puff/" element={<Complementos />} />
+                        <Route path="/productos/complementos/puffs/:estilo/:marca/" element={<Complementos />} />
+                        <Route path="/productos/complementos/puffs/:estilo/" element={<Complementos />} />
+                        <Route path="/productos/complementos/puffs/" element={<Complementos />} />
 
                         <Route path="/productos/complementos/veladores/:marca/" element={<Complementos />} />
                         <Route path="/productos/complementos/veladores/" element={<Complementos />} />
 
-                        <Route path="/productos/complementos/bases/:tamaño/:marca/:tipo/:id" element={<PaginaProducto />} />
-                        <Route path="/productos/complementos/cama-perro/:tamaño/:marca/:id" element={<PaginaProducto />} />
-                        <Route path="/productos/complementos/puff/:estilo/:marca/:id" element={<PaginaProducto />} />
-                        <Route path="/productos/complementos/veladores/:marca/:id" element={<PaginaProducto />} />
-
-                        <Route path="/productos/complementos/:sub1/:sub2/:sub3/:sub4/:sub5" element={<PaginaProducto />} />
+                        <Route path="/productos/complementos/:sub1/:sub2/:sub3/:sub4/:sub5/" element={<Complementos />} />
                         <Route path="/productos/complementos/:sub1/:sub2/:sub3/:sub4/" element={<Complementos />} />
                         <Route path="/productos/complementos/:sub1/:sub2/:sub3/" element={<Complementos />} />
                         <Route path="/productos/complementos/:sub1/:sub2/" element={<Complementos />} />
