@@ -12,7 +12,7 @@ import Resumen from './Componentes/Resumen/Resumen';
 import Medidas from './Componentes/Medidas/Medidas';
 import Envios from './Componentes/Envios/Envios';
 import Beneficios from './Componentes/Beneficios/Beneficios';
-import Colores from './Componentes/Colores/Colores';
+// import Colores from './Componentes/Colores/Colores';
 import Cantidad from './Componentes/Cantidad/Cantidad';
 import WhatsApp from './Componentes/WhatsApp/WhatsApp';
 import Descripcion from './Componentes/Descripcion/Descripcion';
