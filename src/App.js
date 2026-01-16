@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from 'react-helmet-async';
 
+import './App.css';
+
 import Layout from "./Componentes/Layout";
 
 import PaginaPrincipal from "./Paginas/PaginaPrincipal/PaginaPrincipal";
-
 import Productos from './Paginas/Productos/Productos';
-
 import Colchones from './Paginas/Productos/Categorias/Colchones';
 import CamasBoxTarimas from './Paginas/Productos/Categorias/CamasBoxTarimas';
 import Dormitorios from "./Paginas/Productos/Categorias/Dormitorios";
@@ -14,9 +14,7 @@ import CamasFuncionales from './Paginas/Productos/Categorias/CamasFuncionales';
 import Cabeceras from './Paginas/Productos/Categorias/Cabeceras';
 import Sofas from './Paginas/Productos/Categorias/Sofas';
 import Complementos from './Paginas/Productos/Categorias/Complementos';
-
 import PaginaProducto from './Paginas/PaginaProducto/PaginaProducto';
-
 import Ofertas from "./Paginas/Ofertas/Ofertas";
 import Favoritos from "./Paginas/Favoritos/Favoritos";
 import Nosotros from "./Paginas/Nosotros/Nosotros";
@@ -47,8 +45,6 @@ import Busqueda from "./Paginas/Busqueda/Busqueda";
 import Error404 from "./Paginas/Error404/Error404";
 import Colores from './Paginas/Vendedores/Colores/Colores';
 import Agencias from './Paginas/Vendedores/Agencias/Agencias';
-
-import './App.css';
 
 function App(){
     return(
@@ -116,53 +112,20 @@ function App(){
                         <Route path="/productos/sofas/:sub1/:sub2/" element={<Sofas />} />
                         <Route path="/productos/sofas/:sub1/" element={<Sofas />} />
 
-                        <Route path="/productos/complementos/cama-perro/kamas/s/:id" element={<PaginaProducto />} />
-                        <Route path="/productos/complementos/cama-perro/kamas/m/:id" element={<PaginaProducto />} />
-                        <Route path="/productos/complementos/cama-perro/kamas/l/:id" element={<PaginaProducto />} />
-                        <Route path="/productos/complementos/cama-perro/kamas/xl/:id" element={<PaginaProducto />} />
-                        <Route path="/productos/complementos/cama-perro/kamas/xxl/:id" element={<PaginaProducto />} />
-                        
-                        <Route path="/productos/complementos/cama-perro/kamas/:tamaño/:id" element={<PaginaProducto />} />
-                        
-                        <Route path="/productos/complementos/puffs/kamas/clasicos/:id" element={<PaginaProducto />} />
-                        <Route path="/productos/complementos/puffs/kamas/modernos/:id" element={<PaginaProducto />} />
-                        <Route path="/productos/complementos/puffs/kamas/vintage/:id" element={<PaginaProducto />} />
-                        
-                        <Route path="/productos/complementos/puffs/kamas/:estilo/:id" element={<PaginaProducto />} />
-
                         <Route path="/productos/complementos/bases/:tamaño/:marca/:tipo/:id" element={<PaginaProducto />} />
-
+                        
                         <Route path="/productos/complementos/cama-perro/:tamaño/:marca/:id" element={<PaginaProducto />} />
-
+                        
                         <Route path="/productos/complementos/puffs/:marca/:id" element={<PaginaProducto />} />
-                        <Route path="/productos/complementos/puff/:estilo/:marca/:id" element={<PaginaProducto />} />
-
+                        <Route path="/productos/complementos/puffs/:marca/:id" element={<PaginaProducto />} />
+                        
                         <Route path="/productos/complementos/veladores/:marca/:id" element={<PaginaProducto />} />
-
-                        <Route path="/productos/complementos/:sub1/:sub2/:sub3/:sub4/:sub5/:id" element={<PaginaProducto />} />
+                        
                         <Route path="/productos/complementos/:sub1/:sub2/:sub3/:sub4/:id" element={<PaginaProducto />} />
                         <Route path="/productos/complementos/:sub1/:sub2/:sub3/:id" element={<PaginaProducto />} />
                         <Route path="/productos/complementos/:sub1/:sub2/:id" element={<PaginaProducto />} />
                         <Route path="/productos/complementos/:sub1/:id" element={<PaginaProducto />} />
-
-                        <Route path="/productos/complementos/cama-perro/kamas/s/" element={<Complementos />} />
-                        <Route path="/productos/complementos/cama-perro/kamas/m/" element={<Complementos />} />
-                        <Route path="/productos/complementos/cama-perro/kamas/l/" element={<Complementos />} />
-                        <Route path="/productos/complementos/cama-perro/kamas/xl/" element={<Complementos />} />
-                        <Route path="/productos/complementos/cama-perro/kamas/xxl/" element={<Complementos />} />
-
-                        <Route path="/productos/complementos/cama-perro/kamas/:tamaño/" element={<Complementos />} />
-
-                        <Route path="/productos/complementos/cama-perro/kamas/" element={<Complementos />} />
-
-                        <Route path="/productos/complementos/puffs/kamas/clasicos/" element={<Complementos />} />
-                        <Route path="/productos/complementos/puffs/kamas/modernos/" element={<Complementos />} />
-                        <Route path="/productos/complementos/puffs/kamas/vintage/" element={<Complementos />} />
-
-                        <Route path="/productos/complementos/puffs/kamas/:estilo/" element={<Complementos />} />
-
-                        <Route path="/productos/complementos/puffs/kamas/" element={<Complementos />} />
-
+                        
                         <Route path="/productos/complementos/bases/:tamaño/:marca/:tipo/" element={<Complementos />} />
                         <Route path="/productos/complementos/bases/:tamaño/:marca/" element={<Complementos />} />
                         <Route path="/productos/complementos/bases/:tamaño/" element={<Complementos />} />
@@ -182,7 +145,6 @@ function App(){
                         <Route path="/productos/complementos/veladores/:marca/" element={<Complementos />} />
                         <Route path="/productos/complementos/veladores/" element={<Complementos />} />
 
-                        <Route path="/productos/complementos/:sub1/:sub2/:sub3/:sub4/:sub5/" element={<Complementos />} />
                         <Route path="/productos/complementos/:sub1/:sub2/:sub3/:sub4/" element={<Complementos />} />
                         <Route path="/productos/complementos/:sub1/:sub2/:sub3/" element={<Complementos />} />
                         <Route path="/productos/complementos/:sub1/:sub2/" element={<Complementos />} />
