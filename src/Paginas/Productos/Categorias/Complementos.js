@@ -1,4 +1,4 @@
-// import { useEffect, useState, useMemo, useRef } from 'react';
+// import { useEffect, useState, useMemo, useRef, useCallback } from 'react';
 // import { Helmet } from 'react-helmet';
 // import { useParams, useLocation, useNavigate, Link } from 'react-router-dom';
 
@@ -21,11 +21,10 @@
 //     "categoría": "categoría"
 // };
 
-// function Complementos() {
-//     const { 
-//         sub1, sub2, sub3, sub4, sub5, 
-//         tamaño, marca, tipo, estilo, id 
-//     } = useParams();
+// function Complementos(){
+//     // Si realmente no necesitas estos parámetros, puedes dejar el useParams vacío
+//     // o simplemente eliminarlo si no se usa para nada
+//     const params = useParams();
     
 //     const location = useLocation();
 //     const navigate = useNavigate();
@@ -42,7 +41,10 @@
 
 //     const closeFilters = () => { setIsFiltersOpen(false); };
 
-//     const toggleEnvioGratis = () => { setEnvioGratisActivo(!envioGratisActivo); setCurrentPage(1); };
+//     const toggleEnvioGratis = () => { 
+//         setEnvioGratisActivo(!envioGratisActivo); 
+//         setCurrentPage(1); 
+//     };
 
 //     useEffect(() => {
 //         const handleClickOutside = (event) => {
@@ -59,49 +61,16 @@
 //         };
 //     }, []);
 
-//     const determinarEstructura = () => {
-//         const path = location.pathname;
-        
-//         if (path.includes('/bases/')) {
-//             return { tipo: 'bases', niveles: 4 };
-//         } else if (path.includes('/cama-perro/')) {
-//             return { tipo: 'cama-perro', niveles: 3 };
-//         } else if (path.includes('/puff/')) {
-//             return { tipo: 'puff', niveles: 3 };
-//         } else if (path.includes('/veladores/')) {
-//             return { tipo: 'veladores', niveles: 2 };
-//         }
-        
-//         return { tipo: 'general', niveles: 0 };
-//     };
-
-//     const esPaginaProducto = () => {
-//         const path = location.pathname;
-//         const partes = path.split('/').filter(Boolean);
-//         const ultimaParte = partes[partes.length - 1];
-//         return !isNaN(ultimaParte);
-//     };
-
-//     const obtenerRutaExacta = () => {
-//         const estructura = determinarEstructura();
+//     // Usar useCallback para memoizar la función y evitar recrearla en cada render
+//     const obtenerRutaExacta = useCallback(() => {
 //         const path = location.pathname;
 //         const partes = path.split('/').filter(Boolean);
 //         const partesRelevantes = partes.slice(1);
 
 //         return partesRelevantes.join('/');
-//     };
+//     }, [location.pathname]); // Dependencia de location.pathname
 
 //     useEffect(() => {
-//         if (esPaginaProducto()) {
-//             navigate(location.pathname, { replace: true });
-//         }
-//     }, [location.pathname, navigate]);
-
-//     useEffect(() => {
-//         if (esPaginaProducto()) {
-//             return;
-//         }
-
 //         const cargarProductosComplementos = async () => {
 //             try {
 //                 setLoading(true);
@@ -150,13 +119,9 @@
 //         };
 
 //         cargarProductosComplementos();
-//     }, [location.pathname]);
+//     }, [location.pathname, obtenerRutaExacta]); // Ahora incluye obtenerRutaExacta en las dependencias
 
 //     useEffect(() => {
-//         if (esPaginaProducto()) {
-//             return;
-//         }
-
 //         const cargarFiltros = async () => {
 //             try {
 //                 const response = await fetch('/assets/json/categorias/complementos/filtros.json');
@@ -280,10 +245,6 @@
 //         setCurrentPage(1);
 //         navigate(location.pathname, { replace: true });
 //     };
-
-//     if (esPaginaProducto()) {
-//         return null;
-//     }
 
 //     return(
 //         <>
@@ -454,9 +415,9 @@
 
 // export default Complementos;
 
-import { useEffect, useState, useMemo, useRef } from 'react';
+import { useEffect, useState, useMemo, useRef, useCallback } from 'react';
 import { Helmet } from 'react-helmet';
-import { useParams, useLocation, useNavigate, Link } from 'react-router-dom';
+import { useLocation, useNavigate, Link } from 'react-router-dom';
 
 import '../Productos.css';
 import './Layout.css';
@@ -477,12 +438,7 @@ const filtroKeyMap = {
     "categoría": "categoría"
 };
 
-function Complementos() {
-    const { 
-        sub1, sub2, sub3, sub4, sub5, 
-        tamaño, marca, tipo, estilo, id 
-    } = useParams();
-    
+function Complementos(){
     const location = useLocation();
     const navigate = useNavigate();
     const [productos, setProductos] = useState([]);
@@ -498,7 +454,10 @@ function Complementos() {
 
     const closeFilters = () => { setIsFiltersOpen(false); };
 
-    const toggleEnvioGratis = () => { setEnvioGratisActivo(!envioGratisActivo); setCurrentPage(1); };
+    const toggleEnvioGratis = () => { 
+        setEnvioGratisActivo(!envioGratisActivo); 
+        setCurrentPage(1); 
+    };
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -515,13 +474,13 @@ function Complementos() {
         };
     }, []);
 
-    const obtenerRutaExacta = () => {
+    const obtenerRutaExacta = useCallback(() => {
         const path = location.pathname;
         const partes = path.split('/').filter(Boolean);
         const partesRelevantes = partes.slice(1);
 
         return partesRelevantes.join('/');
-    };
+    }, [location.pathname]);
 
     useEffect(() => {
         const cargarProductosComplementos = async () => {
@@ -572,7 +531,7 @@ function Complementos() {
         };
 
         cargarProductosComplementos();
-    }, [location.pathname]);
+    }, [location.pathname, obtenerRutaExacta]);
 
     useEffect(() => {
         const cargarFiltros = async () => {
