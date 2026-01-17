@@ -9,43 +9,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/1/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA CAPITONEADO 1 - GRIS",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/americanas/capitoneado-1/1/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242223N10",
+            "sku": "H32242223N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Capitoneado 1"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -58,44 +27,6 @@
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneado 1"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -108,43 +39,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/2/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA CAPITONEADO 1 - PLATA",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/americanas/capitoneado-1/2/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242223N11",
+            "sku": "H32242223N11",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Capitoneado 1"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -157,44 +57,6 @@
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneado 1"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -207,43 +69,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/3/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA CAPITONEADO 1 - PALO ROSA",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/americanas/capitoneado-1/3/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242223N12",
+            "sku": "H32242223N12",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Capitoneado 1"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -256,44 +87,6 @@
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneado 1"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -306,43 +99,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/4/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA CUADROS 1 - CAMEL",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/americanas/cuadros-1/1/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242223N13",
+            "sku": "H32242223N13",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Cuadros 1"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -355,44 +117,6 @@
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 1"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -405,43 +129,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/5/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA CUADROS 1 - VERDE CERCETA",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/americanas/cuadros-1/2/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242223N14",
+            "sku": "H32242223N14",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Cuadros 1"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -454,44 +147,6 @@
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 1"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -504,43 +159,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/6/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA CUADROS 2 - VERDE CERCETA",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/americanas/cuadros-2/1/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242223N15",
+            "sku": "H32242223N15",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Cuadros 2"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -553,44 +177,6 @@
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -603,43 +189,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/7/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA CUADROS 2 - AZUL",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/americanas/cuadros-2/2/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242223N16",
+            "sku": "H32242223N16",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Cuadros 2"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -652,44 +207,6 @@
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -702,43 +219,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/8/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA LINEAL 1 - FUCSIA",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/americanas/lineal-1/1/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242223N17",
+            "sku": "H32242223N17",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Lineal 1"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -751,44 +237,6 @@
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Lineal 1"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -801,43 +249,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/9/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA LINEAL 1 - ROJO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/americanas/lineal-1/2/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242223N18",
+            "sku": "H32242223N18",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Lineal 1"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -850,44 +267,6 @@
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Lineal 1"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -900,43 +279,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/10/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA LINEAL 4 - PLATA",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/americanas/lineal-4/1/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242223N19",
+            "sku": "H32242223N19",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Lineal 4"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -950,44 +298,6 @@
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Lineal 4"
                 }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
             ]
         },
         {   
@@ -999,43 +309,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/11/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA LINEAL HORIZONTAL - NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/bloques/lineal-horizontal/2/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242226N20",
+            "sku": "H32242226N20",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Lineal Horizontal"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -1048,44 +327,6 @@
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Lineal 4"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -1098,43 +339,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/12/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA LINEAL HORIZONTAL - COBALTO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/bloques/lineal-horizontal/1/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242226N21",
+            "sku": "H32242226N21",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Lineal Horizontal"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -1148,44 +358,6 @@
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Lineal 4"
                 }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
             ]
         },
         {   
@@ -1197,43 +369,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/13/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA MESHLOCK - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/bloques/meshlock/1/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242226N22",
+            "sku": "H32242226N22",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Meshlock"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -1246,44 +387,6 @@
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Meshlock"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -1296,43 +399,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/14/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA MESHLOCK - PLATA",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/bloques/meshlock/2/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242226N23",
+            "sku": "H32242226N23",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Meshlock"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -1345,44 +417,6 @@
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Meshlock"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -1395,43 +429,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/15/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA HEXALINE ",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/bloques/hexaline/1/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242226N24",
+            "sku": "H32242226N24",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Hexaline"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -1444,44 +447,6 @@
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Hexaline"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -1494,43 +459,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/16/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA V - MORO ",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/bloques/v/1/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3399,
             "precioVenta": 2649,
             "stock": 9,
-            "sku": "D32242226N25",
+            "sku": "H32242226N25",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "V"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/Pocket-star/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -1543,44 +477,6 @@
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "V"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -1593,43 +489,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/17/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA CAPITONEADO 1 CON MARCO - BEIGE ",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/con-marco/otros-modelos/1/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3699,
             "precioVenta": 2799,
             "stock": 9,
-            "sku": "D32242224N10",
+            "sku": "H32242224N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Capitoneado 1"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/royal-cloud/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -1643,44 +508,6 @@
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneado 1"
                 }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
             ]
         },
         {   
@@ -1692,43 +519,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/18/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA CORONA LINEAL - CHOCOLATE ",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/coronas/otros-modelos/1/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3699,
             "precioVenta": 2799,
             "stock": 9,
-            "sku": "D32242225N10",
+            "sku": "H32242225N10",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Lineal"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/royal-cloud/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -1742,44 +538,6 @@
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Lineal"
                 }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
-                }
             ]
         },
         {   
@@ -1791,43 +549,12 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/19/",
             "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA PEDESTAL SEAHORSE CAPITONEADA - PLATA ",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/coronas/sea-horse/1/",
-            "colores": "si",
             "precioRegular": 4999,
             "precioNormal": 3699,
             "precioVenta": 2999,
             "stock": 9,
-            "sku": "D32242225N11",
+            "sku": "H32242225N11",
             "tipo-de-envio": "Gratis",
-            "regalos":[
-                {
-                    "texto": "2 almohadas",
-                    "foto": "/assets/imagenes/productos/almohadas.webp"
-                },
-                {
-                    "texto": "1 protector",
-                    "foto": "/assets/imagenes/productos/protector.jpg"
-                },
-                {
-                    "texto": "1 puff",
-                    "foto": "/assets/imagenes/productos/regalos/puff/moro.webp"
-                }
-            ],
-            "resumen-del-producto":[
-                {
-                    "marca": "Kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "modelo-colchón": "Royal Cloud",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Capitoneada"
-                }
-            ],
-            "tamaños-disponibles":[
-                {
-                    "nombre": "Queen",
-                    "ruta": "/productos/dormitorios/paraiso/americanos/queen/royal-cloud/1/"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "marca": "Paraiso",
@@ -1840,44 +567,6 @@
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Capitoneada"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama box tarima",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Colchón",
-                    "descripcion":[
-                        {
-                            "tratamiento": "Antihongos, antibacterias y antiacaros",
-                            "tela": "Tejido de punto higroscópica con diseño 3D",
-                            "espuma": "Viscoelástica D70",
-                            "capas": "De espuma zebra 35 HR y 35 HD",
-                            "garantía": "10 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         }
