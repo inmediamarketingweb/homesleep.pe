@@ -123,6 +123,223 @@
 
                 "destino": "Andahuaylas",
                 "agencia": "Eurochankas"
+            },
+            {
+                "id": 11,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/abril/EXPRESSO-MARVISUR/1/",
+
+                "destino": "Cañete",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 12,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/abril/EXPRESSO-MARVISUR/2/",
+
+                "destino": "Talara",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 13,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/abril/EXPRESSO-MARVISUR/3/",
+
+                "destino": "Victor Larco Herrera",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 14,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/abril/EXPRESSO-MARVISUR/4/",
+
+                "destino": "Trujillo",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 15,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/abril/GRAEL-EXPRESS/1/",
+
+                "destino": "Chala",
+                "agencia": "Grael Express"
+            },
+            {
+                "id": 16,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/abril/ROYAL-BUSS-CARGO/1/",
+
+                "destino": "La Unión",
+                "agencia": "Royal Buss Cargo"
+            },
+            {
+                "id": 17,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/agosto/EMTRAFESA/1/",
+
+                "destino": "Chao",
+                "agencia": "Emtrafesa"
+            },
+            {
+                "id": 18,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/agosto/EXPRESSO-MARVISUR/1/",
+
+                "destino": "Pacasmayo",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 19,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/agosto/EXPRESSO-MARVISUR/2/",
+
+                "destino": "Satipo",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 20,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/agosto/EXPRESSO-MARVISUR/3/",
+
+                "destino": "Apurimac",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 21,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/agosto/EXPRESSO-MARVISUR/4/",
+
+                "destino": "San Miguel",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 22,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/agosto/EXPRESSO-MARVISUR/5/",
+
+                "destino": "Huancavelica",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 23,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/agosto/EXPRESSO-MARVISUR/6/",
+
+                "destino": "Ilo",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 24,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/agosto/EXPRESSO-MARVISUR/7/",
+
+                "destino": "Chiclayo",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 25,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/agosto/EXPRESSO-MARVISUR/10/",
+
+                "destino": "Mollendo",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 26,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/agosto/EXPRESSO-MARVISUR/11/",
+
+                "destino": "Chiclayo",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 27,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/agosto/EXPRESSO-MARVISUR/12/",
+
+                "destino": "Puno",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 28,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/agosto/PECHITO-CARGO-EXPRESS/1/",
+
+                "destino": "Huanuco",
+                "agencia": "Pechito cargo express"
+            },
+            {
+                "id": 29,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/agosto/TUNESA-EXPRESS/1/",
+
+                "destino": "Huamachuco",
+                "agencia": "Tunesa Express"
+            },
+            {
+                "id": 30,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/AREQUIPA-EXPRESS-COMITE/1/",
+
+                "destino": "Chala",
+                "agencia": "Arequipa Express Comite"
+            },
+            {
+                "id": 31,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/ATAHUALPA/1/",
+
+                "destino": "Cutervo",
+                "agencia": "Atahualpa"
+            },
+            {
+                "id": 32,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/CARGO-EXPRESS-AMERICANO/1/",
+
+                "destino": "Chiclayo",
+                "agencia": "Cargo Express Americano"
+            },
+            {
+                "id": 33,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/CARGO-EXPRESS-AMERICANO/2/",
+
+                "destino": "Chiclayo",
+                "agencia": "Cargo Express Americano"
+            },
+            {
+                "id": 34,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/CRUCERO-EXPRESS-MULTISERVICIOS/1/",
+
+                "destino": "Sayan",
+                "agencia": "Crucero Express Multiservicios"
+            },
+            {
+                "id": 35,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/DIVINO-CARGO/1/",
+
+                "destino": "Bagua",
+                "agencia": "Divino Cargo"
+            },
+            {
+                "id": 36,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/EXPRESO-NACIONAL/1/",
+
+                "destino": "Huancayo",
+                "agencia": "Expresso Nacional"
+            },
+            {
+                "id": 37,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/EXPRESO-NACIONAL/2/",
+
+                "destino": "Huancayo",
+                "agencia": "Expresso Nacional"
+            },
+            {
+                "id": 38,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/EXPRESSO-MARVISUR/1/",
+
+                "destino": "Mollendo",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 39,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/EXPRESSO-MARVISUR/2/",
+
+                "destino": "Cajamarca",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 40,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/EXPRESSO-MARVISUR/3/",
+
+                "destino": "Apurimac",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 41,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/LUREN-EXPRESS/1/",
+
+                "destino": "Chancay",
+                "agencia": "Luren Express"
             }
         ]
     }
