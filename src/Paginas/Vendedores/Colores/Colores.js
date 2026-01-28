@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react'; // Añade useCallback
 import { Helmet } from 'react-helmet';
 import { useLocation, useNavigate } from 'react-router-dom';
 
@@ -13,7 +13,6 @@ function Colores(){
     const navigate = useNavigate();
     const [fabricData, setFabricData] = useState(null);
     const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
     const [selectedCategory, setSelectedCategory] = useState(null);
     const [selectedFabric, setSelectedFabric] = useState(null);
     const [selectedColor, setSelectedColor] = useState(null);
@@ -47,7 +46,7 @@ function Colores(){
                 if (!response.ok) throw new Error('Error al cargar datos');
                 setFabricData(await response.json());
             } catch (err) {
-                setError(err.message);
+                console.error(err.message);
             } finally {
                 setLoading(false);
             }
@@ -56,7 +55,7 @@ function Colores(){
         fetchData();
     }, []);
 
-    const findColorOrigin = (colorName) => {
+    const findColorOrigin = useCallback((colorName) => {
         if (!fabricData) return { category: null, fabric: null };
 
         for (const category in fabricData.telas[0]) {
@@ -69,7 +68,7 @@ function Colores(){
             }
         }
         return { category: null, fabric: null };
-    };
+    }, [fabricData]);
 
     useEffect(() => {
         if (!fabricData) return;
@@ -101,7 +100,7 @@ function Colores(){
                 }
             }
         }
-    }, [selectedCategory, selectedFabric, selectedColor, fabricData, navigate]);
+    }, [selectedCategory, selectedFabric, selectedColor, fabricData, navigate, findColorOrigin]); // Añade findColorOrigin como dependencia
 
     useEffect(() => {
         if (selectedColor && fabricData && selectedColor.original){
@@ -167,13 +166,6 @@ function Colores(){
             }
         }
         return [];
-    };
-
-    const getCategoryShort = (category) => {
-        for (const obj of fabricData.telas) {
-            if (obj[category]) return obj[category].short || '';
-        }
-        return '';
     };
 
     const getColorsForFabric = (category, fabricType) => {
@@ -254,12 +246,6 @@ function Colores(){
                                                     </button>
                                                 </li>
                                             ))}
-
-                                            {/* <li>
-                                                <button className={!selectedFabric ? 'page-colors-filters-button active' : 'page-colors-filters-button'} onClick={() => handleFabricSelect(null)} >
-                                                    <h3>Todas las telas</h3>
-                                                </button>
-                                            </li> */}
                                         </ul>
                                     </div>
                                 )}
