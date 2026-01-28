@@ -99,7 +99,7 @@ function Colchones() {
 
                     const productosConFicha = data.productos?.map(producto => ({
                         ...producto,
-                        fichaTecnica: data.ficha?.[0] || {} // Tomar el primer objeto de ficha
+                        fichaTecnica: data.ficha?.[0] || {}
                     })) || [];
                     
                     return productosConFicha;

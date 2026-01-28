@@ -1,6 +1,7 @@
 .page-colors-container{
+    padding: 20px 0;
     display: grid;
-    grid-template-columns: 300px 1fr 280px;
+    grid-template-columns: 300px 1fr 320px;
     gap: 20px;
 }
 
@@ -198,6 +199,7 @@
 
 @media screen and (max-width: 600px){
     .page-colors-container{
+        padding: 10px 0;
         grid-template-columns: 1fr;
     }
 
