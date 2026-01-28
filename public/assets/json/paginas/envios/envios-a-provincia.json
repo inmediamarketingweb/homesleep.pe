@@ -73,7 +73,7 @@
                 "fotos": "/assets/imagenes/paginas/envios/provincia/2022/julio/TRANSPORTE-JULIO-CESAR/1/",
 
                 "destino": "Yungay",
-                "agencia": "Transportes Julio Cesar"
+                "agencia": "Transporte Julio Cesar"
             },
             {
                 "id": 4,
@@ -115,7 +115,7 @@
                 "fotos": "/assets/imagenes/paginas/envios/provincia/2022/julio/TRANSPORTE-JULIO-CESAR/2/",
 
                 "destino": "Yungay",
-                "agencia": "Transportes Julio Cesar"
+                "agencia": "Transporte Julio Cesar"
             },
             {
                 "id": 10,
@@ -123,7 +123,11 @@
 
                 "destino": "Andahuaylas",
                 "agencia": "Eurochankas"
-            },
+            }
+        ]
+    },
+    {
+        "2023":[
             {
                 "id": 11,
                 "fotos": "/assets/imagenes/paginas/envios/provincia/2023/abril/EXPRESSO-MARVISUR/1/",
@@ -340,6 +344,69 @@
 
                 "destino": "Chancay",
                 "agencia": "Luren Express"
+            },
+            {
+                "id": 42,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/LUREN-EXPRESS/2/",
+
+                "destino": "Chancay",
+                "agencia": "Luren Express"
+            },
+            {
+                "id": 43,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/LUREN-EXPRESS/5/",
+
+                "destino": "Pisco",
+                "agencia": "Luren Express"
+            },
+            {
+                "id": 44,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/TERRA-LUJO-EXPRESS/1/",
+
+                "destino": "Juliaca",
+                "agencia": "Terra Lujo Express"
+            },
+            {
+                "id": 45,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/TRANSPORTE-JULIO-CESAR/1/",
+
+                "destino": "San Marcos",
+                "agencia": "Transporte Julio Cesar"
+            },
+            {
+                "id": 46,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/TRANSPORTE-JULIO-CESAR/2/",
+
+                "destino": "Caraz",
+                "agencia": "Transporte Julio Cesar"
+            },
+            {
+                "id": 47,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/XIAR-EXPRESS/1/",
+
+                "destino": "Ayacucho",
+                "agencia": "Xiar Express"
+            },
+            {
+                "id": 48,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/diciembre/ZURITA/1/",
+
+                "destino": "Pucallpa",
+                "agencia": "Zurita"
+            },
+            {
+                "id": 49,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/enero/EXPRESSO-MARVISUR/1/",
+
+                "destino": "Santa María",
+                "agencia": "Expresso Marvisur"
+            },
+            {
+                "id": 50,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2023/enero/TRANSPORTE-JULIO-CESAR/1/",
+
+                "destino": "Chavin de Huantar",
+                "agencia": "Transporte Julio Cesar"
             }
         ]
     }
