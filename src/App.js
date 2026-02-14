@@ -39,6 +39,9 @@ import ProgramaDeReferencias from './Paginas/Novedades/ProgramaDeReferencias';
 import EnviosALimaYCallao from "./Paginas/Nosotros/Paginas/Envios/EnviosALimaYCallao/EnviosALimaYCallao";
 import EnviosAProvincia from './Paginas/Nosotros/Paginas/Envios/EnviosAProvincia/EnviosAProvincia';
 import CostosDeEnvioPorZonas from "./Paginas/Nosotros/Paginas/CostosDeEnvioPorZonas/CostosDeEnvioPorZonas";
+import LimaYCallao from "./Paginas/Nosotros/Paginas/CostosDeEnvioPorZonas/sub-paginas/LimaYCallao";
+import NorteChico from "./Paginas/Nosotros/Paginas/CostosDeEnvioPorZonas/sub-paginas/NorteChico";
+import SurChico from "./Paginas/Nosotros/Paginas/CostosDeEnvioPorZonas/sub-paginas/SurChico";
 import Contacto from "./Paginas/Contacto/Contacto";
 import LibroDeReclamaciones from "./Paginas/Contacto/LibroDeReclamaciones/LibroDeReclamaciones";
 import Busqueda from "./Paginas/Busqueda/Busqueda";
@@ -168,6 +171,9 @@ function App(){
                         <Route path="/paleta-de-colores/" element={<Colores/>}/>
                         <Route path="/servicio-al-cliente/medios-de-pago/" element={<MediosDePago/>}/>
                         <Route path="/servicio-al-cliente/costos-de-envio-por-zona/" element={<CostosDeEnvioPorZonas/>}/>
+                        <Route path="/servicio-al-cliente/costos-de-envio-por-zona/lima-y-callao/" element={<LimaYCallao/>}/>
+                        <Route path="/servicio-al-cliente/costos-de-envio-por-zona/norte-chico/" element={<NorteChico/>}/>
+                        <Route path="/servicio-al-cliente/costos-de-envio-por-zona/sur-chico/" element={<SurChico/>}/>
                         <Route path="/servicio-al-cliente/garantia-de-productos/" element={<GarantiaDeProductos/>}/>
                         <Route path="/servicio-al-cliente/garantia-de-productos/colchones/" element={<GarantiaColchones/>}/>
                         <Route path="/servicio-al-cliente/garantia-de-productos/box-tarimas/" element={<GarantiaTarimas/>}/>

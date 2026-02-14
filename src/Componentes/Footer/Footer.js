@@ -31,6 +31,7 @@ function Footer(){
                                         <span className="material-icons">call</span>
                                         <div>
                                             <b>Teléfono:</b>
+                                            <p>974317647</p>
                                             <p>901451579</p>
                                         </div>
                                     </li>
