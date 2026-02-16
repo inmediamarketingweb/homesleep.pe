@@ -26,8 +26,8 @@ function SurChico() {
 
             <main>
                 <div className="block-container">
-                    <section className="block-content costos-tables">
-                        <h2 className="d-grid-1-1-full-row">Sur chico</h2>
+                    <section className="block-content costos-tables margin-top-10 margin-bottom-10">
+                        <h2 className="d-grid-1-1-full-row title">Sur chico</h2>
 
                         {surChico.map((provinciaData, index) => (
                             <div key={index} className="provincia-block">
