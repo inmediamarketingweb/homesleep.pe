@@ -178,6 +178,7 @@ function Contacto(){
                                     <input
                                         type="text"
                                         name="Nombres"
+                                        placeholder="Nombres"
                                         value={formData.Nombres}
                                         onChange={handleChange}
                                     />
@@ -189,6 +190,7 @@ function Contacto(){
                                     <input
                                         type="text"
                                         name="Telefono"
+                                        placeholder="Teléfono"
                                         value={formData.Telefono}
                                         onChange={handleChange}
                                         maxLength={9}
@@ -201,6 +203,7 @@ function Contacto(){
                                     <span className="material-symbols-outlined">mail</span>
                                     <input
                                         type="text"
+                                        placeholder="Correo"
                                         name="Correo"
                                         value={formData.Correo}
                                         onChange={handleChange}
@@ -213,6 +216,7 @@ function Contacto(){
                                     <input
                                         type="text"
                                         name="Ciudad"
+                                        placeholder="Ciudad"
                                         value={formData.Ciudad}
                                         onChange={handleChange}
                                     />
@@ -223,6 +227,7 @@ function Contacto(){
                                     <span className="material-symbols-outlined">message</span>
                                     <textarea
                                         name="Mensaje"
+                                        placeholder="Mensaje"
                                         value={formData.Mensaje}
                                         onChange={handleChange}
                                     />
