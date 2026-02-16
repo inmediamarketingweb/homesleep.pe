@@ -30,12 +30,12 @@ function LimaYCallao(){
 
             <main>
                 <div className="block-container">
-                    <section className="block-content costos-tables">
+                    <section className="block-content costos-tables margin-bottom-10">
                         {Object.entries(zonas)
                             .filter(([titulo]) => zonasPermitidas.includes(titulo))
                             .map(([titulo, distritos]) => (
                                 <div key={titulo} className="zona-block">
-                                    <h2>{titulo}</h2>
+                                    <h2 className="title margin-top-10">{titulo}</h2>
 
                                     <table className="tabla-envios">
                                         <thead>

@@ -342,6 +342,10 @@ button{
     grid-column: 2/3;
 }
 
+.d-grid-1-1-full-row{
+    grid-column: 1/-1;
+}
+
 .margin-auto{
     margin: auto;
 }
@@ -356,6 +360,10 @@ button{
 
 .margin-top{
     margin-top: auto;
+}
+
+.margin-top-10{
+    margin-top: 10px;
 }
 
 .margin-top-20{
