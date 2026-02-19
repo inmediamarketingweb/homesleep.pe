@@ -48,6 +48,7 @@ import Busqueda from "./Paginas/Busqueda/Busqueda";
 import Error404 from "./Paginas/Error404/Error404";
 import Colores from './Paginas/Vendedores/Colores/Colores';
 import Agencias from './Paginas/Vendedores/Agencias/Agencias';
+import Manual from './Paginas/Manual/Manual';
 
 function App(){
     return(
@@ -192,6 +193,8 @@ function App(){
                         <Route path="/servicio-al-cliente/terminos-y-condiciones/" element={<TerminosYCondiciones/>}/>
 
                         <Route path="/servicio-al-cliente/horarios-de-entrega-y-envios/" element={<HorariosDeEntrega/>}/>
+
+                        <Route path="/manual-de-instalacion/" element={<Manual/>}/>
 
                         <Route path="/novedades/programa-de-influencers/" element={<ProgramaDeInfluencers/>}/>
                         <Route path="/novedades/programa-de-referencias/" element={<ProgramaDeReferencias/>}/>
