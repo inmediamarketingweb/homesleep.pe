@@ -3,7 +3,6 @@ import './Footer.css';
 function Footer(){
     return(
         <>
-            {/* <a href='https://wa.link/97p523' target='_blank' rel="noopener noreferrer" className='whatsapp-button'> */}
             <a href='https://wa.link/nkdenk' target='_blank' rel='noopener noreferrer' className='whatsapp-button'>
                 <img src="/assets/imagenes/iconos/whatsapp-blanco.svg" alt="icono de whatsapp"/>
             </a>
@@ -48,6 +47,11 @@ function Footer(){
                             <div className='footer-target footer-target-2'>
                                 <p className='title'>Servicio al cliente</p>
                                 <ul className='footer-list'>
+                                    <li>
+                                        <a href='/manual-de-instalacion/' title='Manual de instalación | Homesleep'>
+                                            <p>Manual de instalación</p>
+                                        </a>
+                                    </li>
                                     <li>
                                         <a href='/paleta-de-colores/' title='Paleta de colores | Homesleep'>
                                             <p>Paleta de colores</p>
