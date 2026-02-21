@@ -162,11 +162,22 @@ function EnviosAProvincia(){
         return () => window.removeEventListener('keydown', handleKeyDown);
     }, [showPopup]);
 
+    const extractRuta = (destino) => {
+        if (!destino) return '';
+        const partes = destino.split(',').map(parte => parte.trim());
+        if (partes.length <= 1) return '';
+        return partes.slice(1).join(', ');
+    };
+
     const filteredEnvios = envios.filter(envio => {
         const normalizedDestino = normalizeText(envio.destino);
+        const normalizedRuta = normalizeText(extractRuta(envio.destino));
         const normalizedSearchTerm = normalizeText(searchTerm);
-        const matchesSearch = normalizedDestino.startsWith(normalizedSearchTerm);
+        const matchesDestino = normalizedDestino.includes(normalizedSearchTerm);
+        const matchesRuta = normalizedRuta.includes(normalizedSearchTerm);
+        const matchesSearch = matchesDestino || matchesRuta;
         const matchesYear = selectedYear === 'todos' || envio.año.toString() === selectedYear;
+
         return matchesSearch && matchesYear;
     });
 
@@ -209,13 +220,14 @@ function EnviosAProvincia(){
                     <div className='block-content d-flex-column gap-20'>
                         <div className='province-top-container'>
                             <div className='search-container'>
-                                <input placeholder='Busca tu provincia o distrito' value={searchTerm} onChange={handleSearchChange} className='province-search-input'/>
+                                <span class="material-icons">search</span>
+                                <input placeholder='Busca tu provincia, distrito o ruta' value={searchTerm} onChange={handleSearchChange} className='province-search-input'/>
                             </div>
 
                             <div className='d-flex-center-center gap-10'>
                                 <div className='year-filters'>
                                     {availableYears.map(year => (
-                                        <button key={year} type='button' className={`year-filter-btn ${selectedYear === year.toString() ? 'active' : ''}`} onClick={() => handleYearFilter(year.toString())}>
+                                        <button key={year} type='button' className={`year-filter-btn ${selectedYear === year.toString() ? 'active' : ''}`}  onClick={() => handleYearFilter(year.toString())}>
                                             <p>{year}</p>
                                         </button>
                                     ))}
@@ -283,7 +295,6 @@ function EnviosAProvincia(){
                     const allPhotos = getAllPhotos(selectedEnvio.fotos);
                     const firstImage = allPhotos[imageOrder[0]];
                     const secondImage = allPhotos[imageOrder[1]];
-                    const currentImageIsFirst = imageOrder[0] === 0;
 
                     return (
                         <>
@@ -296,12 +307,12 @@ function EnviosAProvincia(){
                                     <div className='envios-pop-up-imagenes'>
                                         <ul>
                                             <li className={imageOrder[0] === 0 ? 'img-1' : 'img-2'}>
-                                                <a href={firstImage} title={`${selectedEnvio.destino}`} target='_blank'>
+                                                <a href={firstImage} title={`${selectedEnvio.destino}`} target='_blank' rel="noreferrer">
                                                     <img src={firstImage} alt={`Envío a ${selectedEnvio.destino} - ${imageOrder[0] === 0 ? 'Imagen 1' : 'Imagen 2'}`}  className={imageOrder[0] === 0 ? 'image-1' : 'image-2'}/>
                                                 </a>
                                             </li>
                                             <li className={imageOrder[1] === 1 ? 'img-2' : 'img-1'}>
-                                                <a href={secondImage} title={`${selectedEnvio.destino}`} target='_blank'>
+                                                <a href={secondImage} title={`${selectedEnvio.destino}`} target='_blank' rel="noreferrer">
                                                     <img src={secondImage} alt={`Envío a ${selectedEnvio.destino} - ${imageOrder[1] === 1 ? 'Imagen 2' : 'Imagen 1'}`} className={imageOrder[1] === 1 ? 'image-2' : 'image-1'}/>
                                                 </a>
                                             </li>
