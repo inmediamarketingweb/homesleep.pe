@@ -1,7 +1,7 @@
 {
     "productos":[
         {
-            "id": 2,
+            "id": 1,
             "categoria": "complementos",
             "subcategoria": "bases",
             "marca": "kamas",
@@ -9,12 +9,39 @@
             "tamaño": "king",
             "ruta": "/productos/complementos/bases/king/kamas/americanas/1/",
             "nombre": "BASE SOLA AMERICANA KING - NEGRO",
-            "fotos": "/assets/imagenes/productos/complementos/bases/americanas/king/1/",
+            "fotos": "/assets/imagenes/productos/complementos/bases/americanas/king/kamas/1/",
             "precioRegular": 1430,
             "precioNormal": 879,
             "precioVenta": 699,
             "stock": 14,
             "sku": "H7341N10",
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "sub-categoría": "bases",
+                    "línea": "americanas",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoria": "complementos",
+            "subcategoria": "bases",
+            "marca": "kamas",
+            "línea": "americanas",
+            "tamaño": "king",
+            "ruta": "/productos/complementos/bases/king/kamas/americanas/2/",
+            "nombre": "BASE SOLA AMERICANA KING - PLOMO PLATA",
+            "fotos": "/assets/imagenes/productos/complementos/bases/americanas/king/kamas/2/",
+            "precioRegular": 1430,
+            "precioNormal": 879,
+            "precioVenta": 699,
+            "stock": 14,
+            "sku": "H7341N11",
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
@@ -34,36 +61,9 @@
             "marca": "kamas",
             "línea": "americanas",
             "tamaño": "king",
-            "ruta": "/productos/complementos/bases/king/kamas/americanas/2/",
-            "nombre": "BASE SOLA AMERICANA KING - PLOMO PLATA",
-            "fotos": "/assets/imagenes/productos/complementos/bases/americanas/king/2/",
-            "precioRegular": 1430,
-            "precioNormal": 879,
-            "precioVenta": 699,
-            "stock": 14,
-            "sku": "H7341N11",
-            "tipo-de-envio": "Envío preferente",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "americanas",
-                    "tamaño": "King",
-                    "cajones": "No",
-                    "base-encajonada": "No"
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "categoria": "complementos",
-            "subcategoria": "bases",
-            "marca": "kamas",
-            "línea": "americanas",
-            "tamaño": "king",
             "ruta": "/productos/complementos/bases/king/kamas/americanas/3/",
             "nombre": "BASE SOLA AMERICANA KING - CHOCOLATE",
-            "fotos": "/assets/imagenes/productos/complementos/bases/americanas/king/3/",
+            "fotos": "/assets/imagenes/productos/complementos/bases/americanas/king/kamas/3/",
             "precioRegular": 1430,
             "precioNormal": 879,
             "precioVenta": 699,
