@@ -958,5 +958,369 @@
                 "agencia": "ZURITA"
             }
         ]
+    },
+    {
+        "2024":[
+            {
+                "id": 151,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/EXPRESSO-MARVISUR/1/",
+                "destino": "Juliaca",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 152,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/EXPRESSO-MARVISUR/2/",
+                "destino": "Cañete",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 153,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/EXPRESSO-MARVISUR/3/",
+                "destino": "Talara",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 154,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/EXPRESSO-MARVISUR/4/",
+                "destino": "Victor Larco Herrera",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 155,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/EXPRESSO-MARVISUR/5/",
+                "destino": "Trujillo",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 156,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/ARMONIA-CARGO/1/",
+                "destino": "Leticia - Llata",
+                "agencia": "AMRONIA CARGO"
+            },
+            {
+                "id": 157,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/CARGO-EXPRESS-AMERICANO/1/",
+                "destino": "La Marina",
+                "agencia": "CARGO EXPRESS AMERICANO"
+            },
+            {
+                "id": 158,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/CAVASA-CARGO-EXPRESS/1/",
+                "destino": "Carhuaz",
+                "agencia": "CAVASA CARGO EXPRESS"
+            },
+            {
+                "id": 159,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/CHANKAS-CARGA/1/",
+                "destino": "Huancaro",
+                "agencia": "CHANKAS CARGA"
+            },
+            {
+                "id": 160,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/EXPRESO-EL-ALTIPLANO/1/",
+                "destino": "Desahuadero",
+                "agencia": "EXPRESO EL ALTIPLANO"
+            },
+            {
+                "id": 161,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/EXPRESO-EL-ALTIPLANO/2/",
+                "destino": "Juliaca",
+                "agencia": "EXPRESO EL ALTIPLANO"
+            },
+            {
+                "id": 162,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GILGAL-CARGO/1/",
+                "destino": "Chiclayo",
+                "agencia": "GILGAL CARGO"
+            },
+            {
+                "id": 163,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GRAEL-EXPRESS/1/",
+                "destino": "Tacna",
+                "agencia": "GRAEL EXPRESS"
+            },
+            {
+                "id": 164,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GRAEL-EXPRESS/2/",
+                "destino": "Mollendo",
+                "agencia": "GRAEL EXPRESS"
+            },
+            {
+                "id": 165,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GRAEL-EXPRESS/3/",
+                "destino": "Chala",
+                "agencia": "GRAEL EXPRESS"
+            },
+            {
+                "id": 166,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GRAEL-EXPRESS/4/",
+                "destino": "Iquitos",
+                "agencia": "GRAEL EXPRESS"
+            },
+            {
+                "id": 167,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GRAEL-EXPRESS/5/",
+                "destino": "Espinar",
+                "agencia": "GRAEL EXPRESS"
+            },
+            {
+                "id": 168,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GRAEL-EXPRESS/6/",
+                "destino": "Camana",
+                "agencia": "GRAEL EXPRESS"
+            },
+            {
+                "id": 169,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GRAEL-EXPRESS/7/",
+                "destino": "Chulucanas",
+                "agencia": "GRAEL EXPRESS"
+            },
+            {
+                "id": 170,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GRAEL-EXPRESS/8/",
+                "destino": "Tacna",
+                "agencia": "GRAEL EXPRESS"
+            },
+            {
+                "id": 171,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GRAEL-EXPRESS/9/",
+                "destino": "Tacna",
+                "agencia": "GRAEL EXPRESS"
+            },
+            {
+                "id": 172,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GRAEL-EXPRESS/10/",
+                "destino": "Ilo",
+                "agencia": "GRAEL EXPRESS"
+            },
+            {
+                "id": 173,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GRAEL-EXPRESS/11/",
+                "destino": "Ilo",
+                "agencia": "GRAEL EXPRESS"
+            },
+            {
+                "id": 174,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GRUPO-HUGAMOR/1/",
+                "destino": "Tingo María",
+                "agencia": "GRUPO HUGAMOR"
+            },
+            {
+                "id": 175,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/GRUPO-HUGAMOR/2/",
+                "destino": "Tingo María",
+                "agencia": "GRUPO HUGAMOR"
+            },
+            {
+                "id": 176,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/JATSA-SERVICIOS/1/",
+                "destino": "Ayaviri",
+                "agencia": "JATSA SERVICIOS"
+            },
+            {
+                "id": 177,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/SEÑOR-DE-LUREN-EXPRESS/1/",
+                "destino": "Chincha",
+                "agencia": "SEÑOR DE LUREN EXPRESS"
+            },
+            {
+                "id": 178,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/SHALOM/1/",
+                "destino": "Chancay",
+                "agencia": "SHALOM"
+            },
+            {
+                "id": 179,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/SHALOM/2/",
+                "destino": "Chimbote",
+                "agencia": "SHALOM"
+            },
+            {
+                "id": 180,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/TRANSPORTE-JULIO-CESAR/1/",
+                "destino": "Huaraz",
+                "agencia": "TRANSPORTE JULIO CESAR"
+            },
+            {
+                "id": 181,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/TRANSPORTES-CESPEDES/1/",
+                "destino": "Auca",
+                "agencia": "TRANSPORTES CESPEDES"
+            },
+            {
+                "id": 182,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/TURISMO-INTERNACIONAL-PALOMINO/1/",
+                "destino": "Andahuaylas",
+                "agencia": "TURISMO INTERNACIONAL PALOMINO"
+            },
+            {
+                "id": 183,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/TURISMO-INTERNACIONAL-PALOMINO/2/",
+                "destino": "Ica",
+                "agencia": "TURISMO INTERNACIONAL PALOMINO"
+            },
+            {
+                "id": 184,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/VIRGEN-DE-CHAPI/1/",
+                "destino": "Bella Union",
+                "agencia": "VIRGEN DE CHAPI"
+            },
+            {
+                "id": 185,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/VIRGEN-DE-CHAPI/2/",
+                "destino": "Marcona",
+                "agencia": "Virgen de Chapi"
+            },
+            {
+                "id": 186,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/XIAR-EXPRESS/1/",
+                "destino": "Ayacucho",
+                "agencia": "XIAR EXPRESS"
+            },
+            {
+                "id": 187,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/XIAR-EXPRESS/2/",
+                "destino": "Ayacucho",
+                "agencia": "XIAR EXPRESS"
+            },
+            {
+                "id": 188,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/abril/ZURITA/1/",
+                "destino": "Iquitos",
+                "agencia": "ZURITA"
+            },
+            {
+                "id": 189,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/EXPRESSO-MARVISUR/1/",
+                "destino": "Pacasmayo",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 190,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/EXPRESSO-MARVISUR/2/",
+                "destino": "Satipo",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 191,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/EXPRESSO-MARVISUR/3/",
+                "destino": "San Miguel - Puno",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 192,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/EXPRESSO-MARVISUR/4/",
+                "destino": "Huancavelica",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 193,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/EXPRESSO-MARVISUR/5/",
+                "destino": "Ilo",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 194,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/EXPRESSO-MARVISUR/6/",
+                "destino": "Ilo",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 195,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/EXPRESSO-MARVISUR/7/",
+                "destino": "Chiclayo",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 196,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/EXPRESSO-MARVISUR/8/",
+                "destino": "Arequipa",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 197,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/EXPRESSO-MARVISUR/9/",
+                "destino": "Espinar",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 198,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/EXPRESSO-MARVISUR/10/",
+                "destino": "Mollendo",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 199,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/EXPRESSO-MARVISUR/11/",
+                "destino": "Chiclayo",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 200,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/EXPRESSO-MARVISUR/12/",
+                "destino": "Puno",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 201,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/EXPRESSO-MARVISUR/13/",
+                "destino": "Tumbes",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 202,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/agosto/TUNESA-EXPRESS/1/",
+                "destino": "Huamachuco",
+                "agencia": "TUNESA EXPRESS"
+            },
+            {
+                "id": 203,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/diciembre/CARGO-EXPRESS-AMERICANO/1/",
+                "destino": "Chiclayo",
+                "agencia": "CARGO EXPRESS AMERICANO"
+            },
+            {
+                "id": 204,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/diciembre/CARGO-EXPRESS-AMERICANO/2/",
+                "destino": "Chiclayo",
+                "agencia": "CARGO EXPRESS AMERICANO"
+            },
+            {
+                "id": 205,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/diciembre/EXPRESO-NACIONAL/1/",
+                "destino": "Huancayo",
+                "agencia": "EXPRESO NACIONAL"
+            },
+            {
+                "id": 206,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/diciembre/EXPRESO-NACIONAL/2/",
+                "destino": "Huancayo",
+                "agencia": "EXPRESO NACIONAL"
+            },
+            {
+                "id": 207,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/diciembre/EXPRESSO-MARVISUR/1/",
+                "destino": "Mollendo",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 208,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/diciembre/EXPRESSO-MARVISUR/2/",
+                "destino": "Cajamarca",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 209,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/diciembre/EXPRESSO-MARVISUR/3/",
+                "destino": "Apurimac",
+                "agencia": "EXPRESSO MARVISUR"
+            },
+            {
+                "id": 210,
+                "fotos": "/assets/imagenes/paginas/envios/provincia/2024/diciembre/EXPRESSO-MARVISUR/4/",
+                "destino": "Apurimac",
+                "agencia": "EXPRESSO MARVISUR"
+            }
+        ]
     }
 ]
