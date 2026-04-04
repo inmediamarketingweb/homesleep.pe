@@ -1,6 +1,7 @@
 {
     "productos":[
-        {   
+        {
+            "id": 1,
             "categoria": "dormitorios",
             "marca": "Paraiso",
             "linea": "Europeos",
@@ -9,9 +10,9 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/europeos/1/",
             "nombre": "DORMITORIO KAMAS EUROPEO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA CAPITONEADO 1 - GRIS",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/europeos/americanas/capitoneados-1/1/",
-            "precioRegular": 4999,
-            "precioNormal": 3399,
-            "precioVenta": 2849,
+            "precioRegular": 5399,
+            "precioNormal": 3599,
+            "precioVenta": 3049,
             "stock": 9,
             "sku": "H32342223N10",
             "tipo-de-envio": "Gratis",
@@ -23,6 +24,7 @@
                     "cajones": "Si",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Royal Cloud",
+                    "resortes": "Pocket",
                     "tipo-de-cabecera": "Americano",
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin Brazos",
@@ -30,7 +32,8 @@
                 }
             ]
         },
-        {   
+        {
+            "id": 2,
             "categoria": "dormitorios",
             "marca": "Paraiso",
             "linea": "Europeos",
@@ -39,9 +42,9 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/europeos/2/",
             "nombre": "DORMITORIO KAMAS EUROPEO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA CAPITONEADO 1 - ROJO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/europeos/americanas/capitoneados-1/2/",
-            "precioRegular": 4999,
-            "precioNormal": 3399,
-            "precioVenta": 2849,
+            "precioRegular": 5399,
+            "precioNormal": 3599,
+            "precioVenta": 3049,
             "stock": 9,
             "sku": "H32342223N11",
             "tipo-de-envio": "Gratis",
@@ -53,6 +56,7 @@
                     "cajones": "Si",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Royal Cloud",
+                    "resortes": "Pocket",
                     "tipo-de-cabecera": "Americano",
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin Brazos",
@@ -60,7 +64,8 @@
                 }
             ]
         },
-        {   
+        {
+            "id": 3,
             "categoria": "dormitorios",
             "marca": "Paraiso",
             "linea": "Europeos",
@@ -69,9 +74,9 @@
             "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/europeos/3/",
             "nombre": "DORMITORIO KAMAS EUROPEO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA CAPITONEADO 1 - ARENA CLARO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/europeos/americanas/capitoneados-1/3/",
-            "precioRegular": 4999,
-            "precioNormal": 3399,
-            "precioVenta": 2849,
+            "precioRegular": 5399,
+            "precioNormal": 3599,
+            "precioVenta": 3049,
             "stock": 9,
             "sku": "H32342223N12",
             "tipo-de-envio": "Gratis",
@@ -83,6 +88,7 @@
                     "cajones": "Si",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Royal Cloud",
+                    "resortes": "Pocket",
                     "tipo-de-cabecera": "Americano",
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin Brazos",
