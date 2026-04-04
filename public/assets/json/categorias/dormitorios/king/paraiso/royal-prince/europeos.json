@@ -1,6 +1,7 @@
 {
     "productos":[
-        {   
+        {
+            "id": 1,
             "categoria": "dormitorios",
             "tamaño": "king",
             "marca": "kamas + Paraiso",
@@ -10,8 +11,8 @@
             "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN PARAISO ROYAL PRINCE + CABECERA AEREA CAPITONEADO 1 - PLOMO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-prince/europeos/americanas/capitoneados-1/1/",
             "precioRegular": 4999,
-            "precioNormal": 3699,
-            "precioVenta": 2449,
+            "precioNormal": 3799,
+            "precioVenta": 2649,
             "stock": 9,
             "sku": "H32342153N10",
             "tipo-de-envio": "Gratis",
@@ -23,6 +24,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Royal Prince",
+                    "resortes": "Pocket",
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
