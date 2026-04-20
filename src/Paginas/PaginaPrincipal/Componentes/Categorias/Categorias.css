@@ -1,6 +1,10 @@
+.hp-categories-block-container{
+    padding: 20px 20px;
+}
+
 .homepage-categories{
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1fr auto;
     gap: 10px;
 }
 
@@ -12,7 +16,7 @@
 }
 
 .homepage-categories-target-1{
-    max-width: 864px;
+    max-width: 800px;
     position: relative;
 }
 
@@ -44,7 +48,7 @@
 }
 
 :root{
-    --width-tag-categories-list: 200px;
+    --width-tag-categories-list: 192.5px;
     --height-tag-categories-list: 100px;
 }
 

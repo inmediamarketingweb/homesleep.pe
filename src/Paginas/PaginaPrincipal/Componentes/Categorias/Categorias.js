@@ -101,7 +101,7 @@ function Categorias(){
     const categoria = categorias[categoriaActiva];
 
     return(
-        <div className='block-container'>
+        <div className='block-container hp-categories-block-container'>
             <section className='block-content'>
                 <div className='homepage-categories'>
                     <div className='homepage-categories-target homepage-categories-target-1'>
@@ -162,17 +162,16 @@ function Categorias(){
                     </div>
 
                     <div className='homepage-categories-target homepage-categories-target-2 d-flex-column gap-10'>
-                        <div className='bg-component padding-10 border-r-6 d-flex-column gap-10'>
+                        <div className='d-flex-column gap-10'>
                             <p className='block-title color-color-1 text-left'>{categoria.categoria}</p>
 
-                            <div className='text'>
+                            <div className='text margin-bottom-10'>
                                 {categoria['categoria-mensaje']?.map((mensaje, index) => (
                                     <p key={index}>{mensaje}</p>
                                 ))}
                             </div>
 
                             <div className='homepage-categories-target-categorie-list d-flex-column gap-5'>
-
                                 <ul className='d-flex gap-5'>
                                     {categoria['marcas'].lista.map((marca, index) => (
                                         <li key={index}>
@@ -189,9 +188,9 @@ function Categorias(){
                             </div>
                         </div>
                         
-                        <a href={categoria.ruta} className='button-link button-link-2 margin-left' title={`${categoria.categoria} | Homesleep`}>
+                        {/* <a href={categoria.ruta} className='button-link button-link-2 margin-left' title={`${categoria.categoria} | Homesleep`}>
                             <p className='button-link-text'>Ver todos</p>
-                        </a>
+                        </a> */}
                     </div>
                 </div>
             </section>
