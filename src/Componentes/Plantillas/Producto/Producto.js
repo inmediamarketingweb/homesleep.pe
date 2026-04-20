@@ -128,6 +128,10 @@ export function Producto({ producto = { id: null } }){
     return(
         <li className={`product-card-li ${producto.stock === 0 ? "agotado" : ""}`} title={producto.nombre}>
             <div className='product-card'>
+                <button type="button" className='product-card-button-fav'>
+                    <span class="material-symbols-outlined">favorite</span>
+                </button>
+
                 <div className="product-card-images">
                     {descuento > 0 && (
                         <span className="product-card-discount">-{descuento}%</span>

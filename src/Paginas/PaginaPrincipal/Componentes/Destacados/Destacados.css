@@ -1,10 +1,31 @@
+.block-container-destacados{
+    padding: 40px 20px;
+    background: var(--color-1);
+}
+
+.block-content-destacados > div > h4{
+    margin: auto !important;
+    /* background: var(--white); */
+    color: var(--white) !important;
+}
+
+.block-content-destacados > div > h4::selection{
+    background: var(--white);
+    color: var(--color-1);
+}
+
 .destacados-productos{
+    /* margin-top: 10px; */
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
 }
 
 @media screen and (max-width: 600px){
+    .block-container-destacados{
+        padding: 20px 10px !important;
+    }
+
     .destacados-productos{
         grid-template-columns: repeat(2, 1fr);
     }

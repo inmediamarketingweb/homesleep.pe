@@ -7,6 +7,7 @@
     height: auto;
     display: flex;
     border-radius: 6px;
+    background: var(--body);
     border: 1px solid transparent !important;
     transition: var(--t-200ms-linear) !important;
     overflow: hidden;
@@ -24,6 +25,50 @@
     min-height: 280px;
     background: var(--producto);
     overflow: hidden !important;
+    position: relative;
+}
+
+.product-card-button-fav{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: rgba(0 0 0 / 0.025);
+    transition: var(--t-200ms-linear);
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+    z-index: 10;
+}
+
+.product-card-li:hover .product-card .product-card-button-fav{
+    opacity: 1;
+    pointer-events: unset;
+    user-select: unset;
+}
+
+.product-card-button-fav span{
+    font-size: 20px;
+    color: var(--color-1);
+    transition: var(--t-200ms-linear);
+}
+
+.product-card-button-fav:hover,
+.product-card-button-fav.active{
+    opacity: 1;
+    pointer-events: unset;
+    user-select: unset;
+    background: crimson;
+}
+
+.product-card-button-fav:hover span,
+.product-card-button-fav.active span{
+    color: var(--white);
 }
 
 .product-card-images{
@@ -60,6 +105,11 @@
     max-width: 200px;
     height: auto;
     object-fit: contain;
+    transition: var(--t-200ms-linear);
+}
+
+.product-card:hover .product-card-images > a img{
+    scale: 1.05;
 }
 
 .product-card-content{
@@ -107,8 +157,9 @@
 }
 
 .product-card-regular-price{
-    font-size: 14px;
-    color: #000;
+    font-weight: bold;
+    font-size: 13px;
+    color: crimson;
 }
 
 .product-card-regular-price,
@@ -117,13 +168,13 @@
 }
 
 .product-card-normal-price{
-    font-size: 17px;
-    color: var(--text);
+    font-size: 19px;
+    color: #777;
 }
 
 .product-card-sale-price{
     color: var(--color-1);
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     margin-left: auto;
 }
@@ -261,7 +312,8 @@
 .product-card-name{
     font-size: 14px;
     transition: var(--t-200ms-linear);
-    color: var(--text);
+    color: #333333;
+    /* font-weight: bold; */
 }
 
 .product-card:hover .product-card-content .product-card-name{

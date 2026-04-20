@@ -71,7 +71,7 @@ function Destacados(){
             <section className="block-container block-container-destacados">
                 <div className="block-content block-content-destacados d-flex-column">
                     <div className='block-title-container'>
-                        <h4 className="block-title color-color-1 d-flex w-100 tex-left">Destacados</h4>
+                        <h4 className="block-title color-color-1 d-flex tex-left">Destacados</h4>
                     </div>
                     <div className="loading">Cargando productos destacados...</div>
                 </div>
@@ -84,7 +84,7 @@ function Destacados(){
             <section className="block-container block-container-destacados">
                 <div className="block-content block-content-destacados d-flex-column">
                     <div className='block-title-container'>
-                        <h4 className="block-title color-color-1 d-flex w-100 tex-left">Destacados</h4>
+                        <h4 className="block-title color-color-1 d-flex">Destacados</h4>
                     </div>
                     <div className="error">{error}</div>
                 </div>
@@ -96,7 +96,7 @@ function Destacados(){
         <section className="block-container block-container-destacados">
             <div className="block-content block-content-destacados d-flex-column">
                 <div className='block-title-container'>
-                    <h4 className="block-title color-color-1 d-flex w-100 tex-left uppercase">Destacados</h4>
+                    <h4 className="block-title color-white d-flex text-center uppercase">Destacados</h4>
                 </div>
 
                 {productos.length > 0 ? (

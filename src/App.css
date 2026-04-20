@@ -21,6 +21,8 @@
 
     --component: #E9E9E9;
 
+    --product: #E9E9E9;
+
     --gratis: #0AC40A;
     --preferente: blue;
     --aplicado: orange;
@@ -419,7 +421,7 @@ button{
 }
 
 .text-center{
-    text-align: center;
+    text-align: center !important;
 }
 
 .text-left{
@@ -707,7 +709,7 @@ button{
     }
 
     .block-container{
-        padding: 0 10px;
+        padding: 0 10px !important;
     }
 
     .block-title{
