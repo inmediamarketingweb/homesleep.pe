@@ -1,8 +1,9 @@
 import { Helmet } from 'react-helmet';
 
 import Slider from './Componentes/Slider/Slider';
-import Categorias from './Componentes/Categorias/Categorias';
-import Destacados from './Componentes/Destacados/Destacados';
+// import Categorias from './Componentes/Categorias/Categorias';
+// import Destacados from './Componentes/Destacados/Destacados';
+import Dormitorios from './Componentes/Destacados/Dormitorios';
 import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
 import Distribuidores from '../../Componentes/Distribuidores/Distribuidores';
 
@@ -29,9 +30,37 @@ function PaginaPrincipal(){
             <main>
                 <Slider/>
 
-                <Categorias/>
+                <div className='block-container'>
+                    <div className='block-content'>
+                        <a href='/  ' className='d-flex banner-link-img'>
+                            <img src="https://img.freepik.com/foto-gratis/desenfoque-lujo-abstracto-gradiente-color-gris-utilizado-como-pared-estudio-fondo-exhibir-sus-productos_1258-54649.jpg?semt=ais_hybrid&w=740&q=80" alt=""/>
+                        </a>
+                    </div>
+                </div>
 
-                <Destacados/>
+                <Dormitorios/>
+
+                <div className='block-container'>
+                    <div className='block-content'>
+                        <div className='d-grid-2-1fr gap-10'>
+                            <div className='d-flex w-100'>
+                                <a href='/' className='d-flex w-100 banner-link-img-50w'>
+                                    <img src="https://img.freepik.com/foto-gratis/desenfoque-lujo-abstracto-gradiente-color-gris-utilizado-como-pared-estudio-fondo-exhibir-sus-productos_1258-54649.jpg?semt=ais_hybrid&w=740&q=80" alt=""/>
+                                </a>
+                            </div>
+                        
+                            <div className='d-flex w-100'>
+                                <a href='/' className='d-flex w-100 banner-link-img-50w'>
+                                    <img src="https://img.freepik.com/foto-gratis/desenfoque-lujo-abstracto-gradiente-color-gris-utilizado-como-pared-estudio-fondo-exhibir-sus-productos_1258-54649.jpg?semt=ais_hybrid&w=740&q=80" alt=""/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* <Categorias/> */}
+
+                {/* <Destacados/> */}
 
                 <SobreNosotros/>
 
