@@ -155,6 +155,13 @@ option{
     border-radius: 6px;
 }
 
+.banner-link-img-50w img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
 button{
     width: auto;
     border: 0;
@@ -544,6 +551,96 @@ button{
     color: crimson;
 }
 
+.brand-button{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 8px;
+    transition: var(--t-200ms-linear);
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.brand-button span,
+.brand-button p{
+    transition: var(--t-200ms-linear);
+    display: inline-block;
+}
+
+.brand-button p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.brand-button.el-cisne{
+    border: 1px solid var(--black);
+}
+
+.brand-button.el-cisne p{
+    color: var(--black);
+}
+
+.brand-button.el-cisne:hover {
+    background: var(--black);
+}
+
+.brand-button.el-cisne:hover span,
+.brand-button.el-cisne:hover p{
+    color: gold;
+}
+
+.brand-button.kamas{
+    border: 1px solid var(--kamas-1);
+}
+
+.brand-button.kamas p{
+    color: var(--kamas-1);
+}
+
+.brand-button.kamas:hover {
+    background: var(--kamas-1);
+}
+
+.brand-button.kamas:hover span,
+.brand-button.kamas:hover p{
+    color: var(--white);
+}
+
+.brand-button.paraiso{
+    border: 1px solid crimson;
+}
+
+.brand-button.paraiso p{
+    color: crimson;
+}
+
+.brand-button.paraiso:hover {
+    background: crimson;
+}
+
+.brand-button.paraiso:hover span,
+.brand-button.paraiso:hover p{
+    color: var(--white);
+}
+
+.brand-button.komfort{
+    border: 1px solid crimson;
+}
+
+.brand-button.komfort p::first-letter{
+    color: crimson;
+}
+
+.brand-button.komfort:hover {
+    background: var(--black);
+}
+
+.brand-button.komfort:hover span,
+.brand-button.komfort:hover p{
+    color: var(--white);
+}
+
 .button-1{
     width: auto;
     padding: 5px 10px;
@@ -680,6 +777,18 @@ button{
     font-size: 11px;
 }
 
+.banner-link-img{
+    width: 100%;
+}
+
+.banner-link-img img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 440px;
+    border-radius: 4px;
+}
+
 @media screen and (max-width: 800px){
     .d-grid-5-3-2fr{
         grid-template-columns: repeat(3, 1fr);
@@ -743,5 +852,9 @@ button{
     .padding-20-to-0{
         padding: 0 !important;
         padding: 0 0 0 0 !important;
+    }
+
+    .banner-link-img img{
+        height: 160px;
     }
 }
