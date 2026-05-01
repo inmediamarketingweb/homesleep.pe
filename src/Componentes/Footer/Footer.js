@@ -10,7 +10,7 @@ function Footer(){
             <footer className='w-100 d-flex-column gap-20'>
                 <div className='footer-block-container'>
                     <section className='footer-block-content'>
-                        <div className='block-title-container'>
+                        <div className='block-title-container margin-bottom-40'>
                             <p className='block-title'>Homesleep</p>
                         </div>
 
