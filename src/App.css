@@ -391,6 +391,14 @@ button{
     margin-bottom: 10px !important;
 }
 
+.margin-bottom-20{
+    margin-bottom: 20px !important;
+}
+
+.margin-bottom-40{
+    margin-bottom: 40px !important;
+}
+
 .padding-10{
     padding: 10px !important;
 }
@@ -560,6 +568,7 @@ button{
     transition: var(--t-200ms-linear);
     border: 1px solid transparent;
     border-radius: 3px;
+    position: relative;
 }
 
 .brand-button span,
@@ -573,6 +582,31 @@ button{
     font-weight: bold;
 }
 
+.brand-button::before{
+    content: 'x';
+    position: absolute;
+    right: -6px;
+    top: -6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: normal;
+    border-radius: 100%;
+    z-index: 1;
+    width: 12px;
+    height: 12px;
+    font-size: 7px;
+    color: var(--white);
+    opacity: 0;
+    pointer-events: none;
+    user-select: none;
+    transition: var(--t-200ms-linear);
+}
+
+.brand-button.active::before{
+    opacity: 1 !important;
+}
+
 .brand-button.el-cisne{
     border: 1px solid var(--black);
 }
@@ -581,13 +615,20 @@ button{
     color: var(--black);
 }
 
+.brand-button.el-cisne.active,
 .brand-button.el-cisne:hover {
     background: var(--black);
 }
 
+.brand-button.el-cisne.active span,
+.brand-button.el-cisne.active p,
 .brand-button.el-cisne:hover span,
 .brand-button.el-cisne:hover p{
     color: gold;
+}
+
+.brand-button.el-cisne::before{
+    background: var(--black);
 }
 
 .brand-button.kamas{
@@ -598,10 +639,17 @@ button{
     color: var(--kamas-1);
 }
 
+.brand-button.kamas.active,
 .brand-button.kamas:hover {
     background: var(--kamas-1);
 }
 
+.brand-button.kamas::before{
+    background: var(--kamas-1);
+}
+
+.brand-button.kamas.active span,
+.brand-button.kamas.active p,
 .brand-button.kamas:hover span,
 .brand-button.kamas:hover p{
     color: var(--white);
@@ -615,13 +663,20 @@ button{
     color: crimson;
 }
 
+.brand-button.paraiso.active,
 .brand-button.paraiso:hover {
     background: crimson;
 }
 
+.brand-button.paraiso.active span,
+.brand-button.paraiso.active p,
 .brand-button.paraiso:hover span,
 .brand-button.paraiso:hover p{
     color: var(--white);
+}
+
+.brand-button.paraiso::before{
+    background: crimson;
 }
 
 .brand-button.komfort{
@@ -632,13 +687,20 @@ button{
     color: crimson;
 }
 
+.brand-button.komfort.active,
 .brand-button.komfort:hover {
     background: var(--black);
 }
 
+.brand-button.komfort.active span,
+.brand-button.komfort.active p,
 .brand-button.komfort:hover span,
 .brand-button.komfort:hover p{
     color: var(--white);
+}
+
+.brand-button.komfort::before{
+    background: crimson;
 }
 
 .button-1{
@@ -778,7 +840,10 @@ button{
 }
 
 .banner-link-img{
+    display: flex;
     width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
 }
 
 .banner-link-img img{
@@ -786,7 +851,6 @@ button{
     height: auto;
     object-fit: cover;
     height: 440px;
-    border-radius: 4px;
 }
 
 @media screen and (max-width: 800px){
