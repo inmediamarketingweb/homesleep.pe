@@ -1,10 +1,10 @@
 import { Helmet } from 'react-helmet';
 
 import Slider from './Componentes/Slider/Slider';
-// import Categorias from './Componentes/Categorias/Categorias';
+import Categorias from './Componentes/Categorias/Categorias';
 // import Destacados from './Componentes/Destacados/Destacados';
 import Dormitorios from './Componentes/Destacados/Dormitorios';
-// import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
+import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
 // import Distribuidores from '../../Componentes/Distribuidores/Distribuidores';
 
 import './PaginaPrincipal.css';
@@ -33,36 +33,36 @@ function PaginaPrincipal(){
                 <div className='block-container'>
                     <div className='block-content'>
                         <a href='https://homesleep.pe/productos/dormitorios/king/?marca=kamas---el-cisne&resortes=pocket&modelo=pocket' className='d-flex banner-link-img'>
-                            <img src="https://homesleep.pe/assets/imagenes/paginas/pagina-principal/slider/slider-1.webp" alt="Las mejores ofertas en dormitorios king el cisne"/>
+                            <img src="/assets/imagenes/paginas/pagina-principal/hp-banner-1.jpg" alt="Las mejores ofertas en dormitorios king el cisne"/>
                         </a>
                     </div>
                 </div>
 
                 <Dormitorios/>
 
+                <Categorias/>
+
                 <div className='block-container'>
                     <div className='block-content'>
                         <div className='d-grid-2-1fr gap-10'>
                             <div className='d-flex w-100'>
                                 <a href='https://homesleep.pe/productos/dormitorios/queen/' className='d-flex w-100 banner-link-img-50w'>
-                                    <img src="https://img.freepik.com/foto-gratis/desenfoque-lujo-abstracto-gradiente-color-gris-utilizado-como-pared-estudio-fondo-exhibir-sus-productos_1258-54649.jpg?semt=ais_hybrid&w=740&q=80" alt=""/>
+                                    <img src="/assets/imagenes/paginas/pagina-principal/queen.jpg" alt=""/>
                                 </a>
                             </div>
-                        
+
                             <div className='d-flex w-100'>
                                 <a href='https://homesleep.pe/productos/dormitorios/2-plazas/' className='d-flex w-100 banner-link-img-50w'>
-                                    <img src="https://img.freepik.com/foto-gratis/desenfoque-lujo-abstracto-gradiente-color-gris-utilizado-como-pared-estudio-fondo-exhibir-sus-productos_1258-54649.jpg?semt=ais_hybrid&w=740&q=80" alt=""/>
+                                    <img src="/assets/imagenes/paginas/pagina-principal/2-plazas.jpg" alt=""/>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                {/* <Categorias/> */}
-
                 {/* <Destacados/> */}
 
-                {/* <SobreNosotros/> */}
+                <SobreNosotros/>
 
                 {/* <Distribuidores/> */}
             </main>
