@@ -1,34 +1,3 @@
-/* .block-container-destacados{
-    padding: 40px 20px;
-    background: var(--color-1);
-}
-
-.block-content-destacados > div > h4{
-    margin: auto !important;
-    color: var(--white) !important;
-}
-
-.block-content-destacados > div > h4::selection{
-    background: var(--white);
-    color: var(--color-1);
-}
-
-.destacados-productos{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-}
-
-@media screen and (max-width: 600px){
-    .block-container-destacados{
-        padding: 20px 10px !important;
-    }
-
-    .destacados-productos{
-        grid-template-columns: repeat(2, 1fr);
-    }
-} */
-
 .featured-products-block-container{
     padding: 40px 20px;
     background: rgba(0 0 0 / 0.075);
@@ -44,11 +13,7 @@
 .featured-products-container{
     width: 100%;
     overflow: hidden;
-    overflow-x: scroll;
-}
-
-.featured-products-container::-webkit-scrollbar{
-    display: none;
+    /* overflow-x: scroll; */
 }
 
 .featured-products{
@@ -61,4 +26,46 @@
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .featured-products-block-container{
+        padding: 20px 10px !important;
+    }
+
+    .featured-products-block-container .d-flex-center-between.gap-10{
+        flex-direction: column;
+    }
+
+    .banner-title{
+        font-size: 32px;
+    }
+
+    .featured-products-block-container .d-flex-center-between.gap-10 .d-flex.gap-5{
+        margin-right: auto;
+    }
+
+    .featured-products-block-container .d-flex-center-between.gap-10 .button-link{
+        margin-left: auto;
+    }
+
+    .featured-products-container{
+        overflow-x: scroll;
+        padding-bottom: 10px
+    }
+
+    .featured-products-container::-webkit-scrollbar{
+        height: 5px;
+        background: var(--body);
+        border-radius: 2px;
+    }
+
+    .featured-products-container::-webkit-scrollbar-thumb{
+        background: var(--color-1);
+        border-radius: 2px;
+    }
+
+    .featured-products{
+        width: 360%;
+    }
 }
