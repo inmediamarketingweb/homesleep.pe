@@ -690,37 +690,6 @@
             "marca": "kamas + Paraiso",
             "modelo": "Super star negro",
             "linea": "americanos",
-            "ruta": "/productos/dormitorios/king/paraiso/super-star-negro/americanos/23/",
-            "nombre": "DORMITORIO AMERICANO KING KAMAS + COLCHÓN PARAISO SUPER STAR NEGRO + CABECERA AEREA PISSAC - PLATA + TURQUESA ÓPALO",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/super-star-negro/americanos/bloques/pissac/2/",
-            "precioRegular": 4009,
-            "precioNormal": 3299,
-            "precioVenta": 2049,
-            "stock": 9,
-            "sku": "H32242196N16",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas - Paraiso",
-                    "línea": "americanos",
-                    "tamaño": "king",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "modelo-de-colchón": "Super star Negro",
-                    "resortes": "Cosisoft",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Pissac"
-                }
-            ]
-        },
-        {
-            "categoria": "dormitorios",
-            "tamaño": "king",
-            "marca": "kamas + Paraiso",
-            "modelo": "Super star negro",
-            "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/super-star-negro/americanos/24/",
             "nombre": "DORMITORIO AMERICANO KING KAMAS + COLCHÓN PARAISO SUPER STAR NEGRO + CABECERA AEREA VELUTO 1 - NEGRO",
             "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/super-star-negro/americanos/bloques/veluto/1/",

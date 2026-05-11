@@ -200,7 +200,7 @@ function Productos() {
                                                 <span className="material-icons">chevron_left</span>
                                             </button>
 
-                                            <div className="d-flex-center-center gap-10">
+                                            <div className="d-flex-center-center gap-5">
                                                 {getVisiblePages().map((page, index) => 
                                                     typeof page === 'number' ? (
                                                         <button key={index} className={`pagination-page ${currentPage === page ? 'active' : ''}`} onClick={() => handlePageChange(page)}>{page}</button>

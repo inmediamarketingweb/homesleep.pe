@@ -288,31 +288,26 @@
             "medidas":[
                 {
                     "id": 1,
-                    "medida": "1 plaza",
-                    "ruta": "/productos/camas-funcionales/1-plaza/"
-                },
-                {
-                    "id": 2,
                     "medida": "1 plaza y media",
                     "ruta": "/productos/camas-funcionales/1-plaza-y-media/"
                 },
                 {
-                    "id": 3,
+                    "id": 2,
                     "medida": "2 plazas",
                     "ruta": "/productos/camas-funcionales/2-plazas/"
                 },
                 {
-                    "id": 4,
+                    "id": 3,
                     "medida": "Queen",
                     "ruta": "/productos/camas-funcionales/queen/"
                 },
                 {
-                    "id": 5,
+                    "id": 4,
                     "medida": "King",
                     "ruta": "/productos/camas-funcionales/king/"
                 },
                 {
-                    "id": 6,
+                    "id": 5,
                     "medida": "Ver todos",
                     "ruta": "/productos/camas-funcionales/"
                 }

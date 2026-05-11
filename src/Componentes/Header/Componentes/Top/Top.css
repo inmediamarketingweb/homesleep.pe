@@ -1,13 +1,14 @@
 .header-top-container{
-    background: var(--color-1);
+    background: #585858;
     width: 100%;
     height: 40px;
     padding: 0 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-top{
-    margin: 0 auto;
     width: 100%;
     max-width: var(--content-mx-width);
 }

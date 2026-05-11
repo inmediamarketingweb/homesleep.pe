@@ -15,22 +15,22 @@ function Marcas(){
 
                         <ul className='homepage-brands'>
                             <li>
-                                <a href='' className=''>
+                                <a href='/' className=''>
                                     <p>El cisne</p>
                                 </a>
                             </li>
                             <li>
-                                <a href='' className=''>
+                                <a href='/' className=''>
                                     <p>Kamas</p>
                                 </a>
                             </li>
                             <li>
-                                <a href='' className=''>
+                                <a href='/' className=''>
                                     <p>Paraiso</p>
                                 </a>
                             </li>
                             <li>
-                                <a href='' className=''>
+                                <a href='/' className=''>
                                     <p>Komfort</p>
                                 </a>
                             </li>
