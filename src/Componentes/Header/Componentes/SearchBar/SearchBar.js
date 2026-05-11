@@ -158,8 +158,7 @@ function SearchBar({ isSearchActive, toggleSearch, setIsSearchActive }) {
                 </div>
             </div>
 
-            <div 
-                className={`search-bar-layer ${isSearchActive ? 'active' : ''}`} 
+            <div className={`search-bar-layer ${isSearchActive ? 'active' : ''}`} 
                 onClick={() => setIsSearchActive(false)} 
             />
         </>

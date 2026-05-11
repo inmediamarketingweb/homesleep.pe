@@ -21,7 +21,7 @@
 
     --component: #E9E9E9;
 
-    --product: #E9E9E9;
+    --product: #FFFFFF;
 
     --gratis: #0AC40A;
     --preferente: blue;
@@ -39,7 +39,8 @@
     --f-size-small: 14px;
 
     --container-mx-width: 2000px;
-    --content-mx-width: 1440px;
+    --content-mx-width: 1560px;
+    --submenu-img: 450px;
 
     --t-100ms-linear: all 100ms linear;
     --t-200ms-linear: all 200ms linear;
@@ -50,6 +51,12 @@
 @font-face{
     font-family: 'DM Sans';
     src: url('../public/assets/fonts/DM_Sans/DMSans.ttf') format('truetype');
+    font-display: swap;
+}
+
+@font-face{
+    font-family: 'Anton';
+    src: url('../public/assets/fonts/Anton/AntonSC-Regular.ttf') format('truetype');
     font-display: swap;
 }
 
@@ -75,7 +82,7 @@ body::selection{
 
 main{
     width: 100%;
-    margin-top: 110px;
+    margin-top: 90px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -106,10 +113,11 @@ main{
 
 .block-title{
     text-align: center;
-    font-weight: bold;
-    font-size: 28px;
+    font-size: 32px;
     color: #333333;
-    letter-spacing: -2px;
+    font-family: 'Anton';
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
 }
 
 .block-title-buttons{
@@ -152,21 +160,19 @@ option{
     width: 100%;
     height: auto;
     object-fit: contain;
-    border-radius: 6px;
+    border-radius: 20px;
 }
 
 .banner-link-img-50w{
     width: 100%;
-    /* height: 300px; */
     display: flex;
     overflow: hidden;
-    border-radius: 6px;
+    border-radius: 20px;
 }
 
 .banner-link-img-50w img{
     width: 100%;
     height: auto;
-    /* object-fit: cover; */
 }
 
 button{
@@ -741,44 +747,6 @@ button{
     color: var(--white) !important;
 }
 
-.product-card{
-    width: 100%;
-    /* max-width: 280px !important; */
-    display: flex;
-    flex-direction: column;
-    border: 1px solid rgba(0 0 0 / 0.2);
-    background: var(--white);
-    border-radius: 6px;
-    overflow: hidden;
-    transition: var(--t-200ms-linear);
-}
-
-.product-card:hover{
-    border: 1px solid var(--color-1);
-}
-
-.product-card.agotado:hover{
-    border: 1px solid #FF0000;
-}
-
-.product-card-agotado{
-    background: #FF0000;
-}
-
-.product-card-agotado span{
-    color: var(--white);
-}
-
-.product-card-name{
-    transition: var(--t-200ms-linear);
-    color: var(--text);
-    font-size: 14px;
-}
-
-.product-card:hover .product-card-content .product-card-name{
-    color: var(--black);
-}
-
 .message{
     width: 100%;
     display: flex;
@@ -855,7 +823,7 @@ button{
     display: flex;
     width: 100%;
     overflow: hidden;
-    border-radius: 6px;
+    border-radius: 20px;
 }
 
 .banner-link-img img{
@@ -881,11 +849,11 @@ button{
     }
 
     .visible-on-desktop-no-mobile{
-        display: none;
+        display: none !important;
     }
 
     .visible-on-mobile-no-desktop{
-        display: unset;
+        display: block !important;
     }
 
     main{

@@ -1,12 +1,30 @@
 import { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from "uuid";
 
+import SearchBar from '../SearchBar/SearchBar';
+
 import './Bottom.css';
 
-function Bottom({ isMenuOpen }){
+function Bottom(){
     const [activeCategory, setActiveCategory] = useState(null);
     const [categories, setCategories] = useState(null);
     const [error, setError] = useState(null);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const [isSearchActive, setIsSearchActive] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMenuOpen(prev => {
+            if (!prev) setIsSearchActive(false);
+            return !prev;
+        });
+    };
+
+    const toggleSearch = () => {
+        setIsSearchActive(prev => {
+            if (!prev) setIsMenuOpen(false);
+            return !prev;
+        });
+    };
 
     useEffect(() => {
         const fetchCategories = async () => {
@@ -39,9 +57,13 @@ function Bottom({ isMenuOpen }){
     };
 
     return(
-        <div className={`header-bottom-container ${isMenuOpen ? 'active' : ''}`}>
-            <section className='header-bottom'>
-                <nav className='menu-container'>
+        <div className='header-center-container d-flex w-100'>
+            <section className='header-center'>
+                <a href='/' title='Homesleep | Las mejores marcar al mejor precio' className='header-logo'>
+                    <img src="/assets/imagenes/SEO/logo-principal.webp" width={125} height={50} alt="Homesleep"/>
+                </a>
+
+                <nav className={`menu-container ${isMenuOpen ? 'active' : ''}`}>
                     <ul className='menu'>
                         {categories.categorias.map((categoria) => (
                             <li key={uuidv4()} className={`menu-li ${activeCategory === categoria.id ? 'active' : ''}`} onClick={() => categoria.subCategorias && handleCategoryClick(categoria.id)}>
@@ -59,74 +81,77 @@ function Bottom({ isMenuOpen }){
 
                                 {categoria.subCategorias && (
                                     <div className={`submenu-container ${activeCategory === categoria.id ? 'active' : ''}`}>
-                                        <nav className='submenu'>
-                                            {categoria.menuMensaje && (
-                                                <div className='submenu-target submenu-target-1'>
-                                                    <h3 className='submenu-target-title'>{categoria.categoria}</h3>
-                                                    <p className='text'>{categoria.menuMensaje[0]?.text}</p>
+                                        <div className='submenu'>
+                                            {categoria.menuImg && (
+                                                <div className='submenu-target submenu-target-4'>
+                                                    {/* <img src="https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/colchones.webp" width={450} height={160} loading='lazy' alt="" /> */}
+                                                    <img width={450} height={160} loading='lazy' src={categoria.menuImg[0]?.imgSrc} alt={categoria.menuImg[0]?.imgAlt || categoria.categoria}/>
                                                 </div>
                                             )}
 
-                                        {categoria.subCategorias && (
-                                            <div className='submenu-target submenu-target-2'>
-                                                <h3 className='submenu-target-title'>{categoria.subCategoriasTitulo?.[0]?.text || 'Subcategorías'}:</h3>
-                                                <ul>
-                                                    {categoria.subCategorias.map((sub) => (
-                                                        <li key={uuidv4()}>
-                                                            <a href={sub.ruta} title={sub.subcategoria}>
-                                                                <h4>{sub.subcategoria}</h4>
-                                                            </a>
-                                                        </li>
-                                                    ))}
-                                                </ul>
-                                            </div>
-                                        )}
+                                            <nav className='submenu-nav'>
+                                                {categoria.medidas && (
+                                                        <div className='submenu-target submenu-target-3'>
+                                                            <h3 className='submenu-target-title'>Medidas</h3>
+                                                            <ul>
+                                                                {categoria.medidas.map((medida) => (
+                                                                    <li key={uuidv4()}>
+                                                                        <a href={medida.ruta} title={medida.medida}>
+                                                                            <h4>{medida.medida}</h4>
+                                                                        </a>
+                                                                    </li>
+                                                                ))}
+                                                            </ul>
+                                                        </div>
+                                                )}
 
-                                        {categoria.medidas && (
-                                            <div className='submenu-target submenu-target-3'>
-                                                <h3 className='submenu-target-title'>Medidas:</h3>
-                                                <ul>
-                                                    {categoria.medidas.map((medida) => (
-                                                        <li key={uuidv4()}>
-                                                            <a href={medida.ruta} title={medida.medida}>
-                                                                <h4>{medida.medida}</h4>
-                                                            </a>
-                                                        </li>
-                                                    ))}
-                                                </ul>
-                                            </div>
-                                        )}
+                                                {categoria.subCategorias && (
+                                                    <div className='submenu-target submenu-target-2'>
+                                                        <h3 className='submenu-target-title'>{categoria.subCategoriasTitulo?.[0]?.text || 'Subcategorías'}</h3>
+                                                        <ul>
+                                                            {categoria.subCategorias.map((sub) => (
+                                                                <li key={uuidv4()}>
+                                                                    <a href={sub.ruta} title={sub.subcategoria}>
+                                                                        <h4>{sub.subcategoria}</h4>
+                                                                    </a>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+                                                    </div>
+                                                )}
 
-                                        {categoria.modelos && (
-                                            <div className='submenu-target submenu-target-3'>
-                                                <h3 className='submenu-target-title'>Modelos:</h3>
-                                                <ul>
-                                                    {categoria.modelos.map((modelo) => (
-                                                        <li key={uuidv4()}>
-                                                            <a href={modelo.ruta} title={modelo.modelo}>
-                                                                <h4>{modelo.modelo}</h4>
-                                                            </a>
-                                                        </li>
-                                                    ))}
-                                                </ul>
-                                            </div>
-                                        )}
-
-                                        {categoria.menuImg && (
-                                            <div className='submenu-target submenu-target-4'>
-                                                <img width={280} height={280} loading='lazy' src={categoria.menuImg[0]?.imgSrc} alt={categoria.menuImg[0]?.imgAlt || categoria.categoria}/>
-                                            </div>
-                                        )}
-                                        </nav>
+                                                {categoria.modelos && (
+                                                    <div className='submenu-target submenu-target-3'>
+                                                        <h3 className='submenu-target-title'>Modelos</h3>
+                                                        <ul>
+                                                            {categoria.modelos.map((modelo) => (
+                                                                <li key={uuidv4()}>
+                                                                    <a href={modelo.ruta} title={modelo.modelo}>
+                                                                        <h4>{modelo.modelo}</h4>
+                                                                    </a>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+                                                    </div>
+                                                )}
+                                            </nav>
+                                        </div>
                                     </div>
                                 )}
                             </li>
                         ))}
                     </ul>
                 </nav>
+
+                <SearchBar isSearchActive={isSearchActive} toggleSearch={toggleSearch} setIsSearchActive={setIsSearchActive} />
+
+                <button type='button' className={`menu-button ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
+                    <span className="material-icons menu-button-open">menu</span>
+                    <span className="material-icons menu-button-close">close</span>
+                </button>
             </section>
         </div>
-    );
+    )
 }
 
 export default Bottom;

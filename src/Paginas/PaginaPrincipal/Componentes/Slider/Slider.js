@@ -1,67 +1,138 @@
-import { useState, useRef, useEffect } from 'react';
-
+import { useState, useEffect, useRef } from 'react';
 import './Slider.css';
 
 function Slider() {
-    const totalSlides = 5;
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 600);
-    const sliderRef = useRef(null);
+    const [direction, setDirection] = useState(1);
+    const autoPlayRef = useRef(null);
+    const totalSlides = 4;
 
-    useEffect(() => {
-        const handleResize = () => {
-            setIsSmallScreen(window.innerWidth < 600);
-        };
-        window.addEventListener('resize', handleResize);
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
-        }, 10000);
-        return () => clearInterval(interval);
-    }, [totalSlides]);
-
-    const goToNextSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % totalSlides);
-    };
-
-    const goToPrevSlide = () => {
-        setCurrentIndex((prevIndex) => (prevIndex - 1 + totalSlides) % totalSlides);
-    };
-
-    const visibleIndexes = [
-        (currentIndex - 1 + totalSlides) % totalSlides, currentIndex, (currentIndex + 1) % totalSlides
+    const slides = [
+        { id: 1, img: '/assets/imagenes/paginas/pagina-principal/hp-banner-1.webp', title: 'Slide 1', link: '/' },
+        { id: 2, img: '/assets/imagenes/paginas/pagina-principal/hp-banner-1.webp', title: 'Slide 2', link: '/' },
+        { id: 3, img: '/assets/imagenes/paginas/pagina-principal/hp-banner-1.webp', title: 'Slide 3', link: '/' },
+        { id: 4, img: '/assets/imagenes/paginas/pagina-principal/hp-banner-1.webp', title: 'Slide 4', link: '/' }
     ];
 
-    return(
-        <div className="slider-general-container d-flex-column">
-            <div className="hero-container">
-                <section className="hero">
-                    <div className="slider-container">
-                        <ul className="slider" ref={sliderRef} style={{ marginLeft: `-${currentIndex * 100}%` }}>
-                            {Array.from({ length: totalSlides }).map((_, index) => (
-                                <li key={index}>
-                                    {visibleIndexes.includes(index) && (
-                                        <img width={isSmallScreen ? 400 : 2000} height={isSmallScreen ? 180 : 600} {...(index !== 0 ? { loading: "lazy" } : {})} src={`/assets/imagenes/paginas/pagina-principal/slider/${isSmallScreen ? 'thumb/' : ''}slider-${index + 1}.webp`} alt="Homesleep | Las mejores marcas en dormitorios" />
-                                    )}
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                </section>
+    const nextSlide = () => {
+        if (currentIndex === totalSlides - 1) {
+            setDirection(-1);
+            setCurrentIndex(currentIndex - 1);
+        } else if (currentIndex === 0 && direction === -1) {
+            setDirection(1);
+            setCurrentIndex(currentIndex + 1);
+        } else {
+            setCurrentIndex(currentIndex + direction);
+        }
+        resetAutoPlay();
+    };
 
-                <button type="button" className="hero-slider-button hero-slider-button-1" onClick={goToPrevSlide}>
-                    <span className="material-icons">chevron_left</span>
+    const prevSlide = () => {
+        if (currentIndex === 0) {
+            setDirection(1);
+            setCurrentIndex(currentIndex + 1);
+        } else if (currentIndex === totalSlides - 1 && direction === 1) {
+            setDirection(-1);
+            setCurrentIndex(currentIndex - 1);
+        } else {
+            setCurrentIndex(currentIndex - direction);
+        }
+        resetAutoPlay();
+    };
+
+    const goToSlide = (index) => {
+        setCurrentIndex(index);
+        if (index > currentIndex) {
+            setDirection(1);
+        } else if (index < currentIndex) {
+            setDirection(-1);
+        }
+        resetAutoPlay();
+    };
+
+    const resetAutoPlay = () => {
+        if (autoPlayRef.current) {
+            clearInterval(autoPlayRef.current);
+        }
+        startAutoPlay();
+    };
+
+    const startAutoPlay = () => {
+        autoPlayRef.current = setInterval(() => {
+            setCurrentIndex((prevIndex) => {
+                let newIndex;
+                
+                if (prevIndex === totalSlides - 1) {
+                    setDirection(-1);
+                    newIndex = prevIndex - 1;
+                } else if (prevIndex === 0 && direction === -1) {
+                    setDirection(1);
+                    newIndex = prevIndex + 1;
+                } else {
+                    newIndex = prevIndex + direction;
+                }
+                
+                return newIndex;
+            });
+        }, 5000);
+    };
+
+    const handleMouseEnter = () => {
+        if (autoPlayRef.current) {
+            clearInterval(autoPlayRef.current);
+            autoPlayRef.current = null;
+        }
+    };
+
+    const handleMouseLeave = () => {
+        startAutoPlay();
+    };
+
+    useEffect(() => {
+        startAutoPlay();
+
+        return () => {
+            if (autoPlayRef.current) {
+                clearInterval(autoPlayRef.current);
+            }
+        };
+    }, []);
+
+    const slideWidth = 100 / totalSlides;
+    const transformValue = -currentIndex * slideWidth;
+
+    return (
+        <div className='block-container hp-slider-container d-flex-column gap-10'>
+            <section className='block-content hp-slider-content' onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                <div>
+                    <ul style={{
+                        transform: `translateX(${transformValue}%)`,
+                        transition: 'transform 500ms linear'
+                    }}>
+                        {slides.map((slide) => (
+                            <li key={slide.id}>
+                                <a href={slide.link} title={slide.title}>
+                                    <img src={slide.img} alt={slide.title} />
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+
+                <button type='button' className='hp-slider-button-1' onClick={prevSlide}>
+                    <span className="material-symbols-outlined">keyboard_arrow_left</span>
                 </button>
 
-                <button type="button" className="hero-slider-button hero-slider-button-2" onClick={goToNextSlide}>
-                    <span className="material-icons">chevron_right</span>
+                <button type='button' className='hp-slider-button-2' onClick={nextSlide}>
+                    <span className="material-symbols-outlined">keyboard_arrow_right</span>
                 </button>
+            </section>
+
+            <div className='hp-slider-buttons'>
+                {slides.map((_, index) => (
+                    <button key={index} className={currentIndex === index ? 'active' : ''} onClick={() => goToSlide(index)}/>
+                ))}
             </div>
-
-            <img width={isSmallScreen ? 425 : 1200} height={isSmallScreen ? 20 : 50} src="assets/imagenes/paginas/pagina-principal/slider/banner-1.png" alt="Homsleep | Las mejores marcas de dormitorios" />
         </div>
     );
 }

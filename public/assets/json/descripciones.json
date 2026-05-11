@@ -49,7 +49,67 @@
             "garantía": "2 años"
         }
     ],
-    "cabecera":[
+    "cabecera-aérea":[
+        {
+            "madera": "Pino americano secado al horno",
+            "espuma": "zebra de alta densidad",
+            "láminas": "MDF de 3mm.",
+            "tapizado": "En tela de algodón",
+            "tratamiento": "Hipoalergénico",
+            "garantía": "2 años"
+        }
+    ],
+    "cabecera-pedestal":[
+        {
+            "madera": "Pino americano secado al horno",
+            "espuma": "zebra de alta densidad",
+            "láminas": "MDF de 3mm.",
+            "tapizado": "En tela de algodón",
+            "tratamiento": "Hipoalergénico",
+            "garantía": "2 años"
+        }
+    ],
+    "baúl-clásico":[
+        {
+            "madera": "Pino americano secado al horno",
+            "espuma": "zebra de alta densidad",
+            "láminas": "MDF de 3mm.",
+            "tapizado": "En tela de algodón",
+            "tratamiento": "Hipoalergénico",
+            "garantía": "2 años"
+        }
+    ],
+    "baúl-sofá":[
+        {
+            "madera": "Pino americano secado al horno",
+            "espuma": "zebra de alta densidad",
+            "láminas": "MDF de 3mm.",
+            "tapizado": "En tela de algodón",
+            "tratamiento": "Hipoalergénico",
+            "garantía": "2 años"
+        }
+    ],
+    "velador-clásico":[
+        {
+            "madera": "Pino americano secado al horno",
+            "espuma": "zebra de alta densidad",
+            "láminas": "MDF de 3mm.",
+            "tapizado": "En tela de algodón",
+            "tratamiento": "Hipoalergénico",
+            "garantía": "2 años"
+        }
+    ],
+    "velador-vintage":[
+        {
+            "madera": "Pino americano secado al horno",
+            "espuma": "zebra de alta densidad",
+            "láminas": "MDF de 3mm.",
+            "tapizado": "En tela de algodón",
+            "tratamiento": "Hipoalergénico",
+            "garantía": "2 años"
+        }
+    ],
+    "velador-shelter":[
         {
             "madera": "Pino americano secado al horno",
             "espuma": "zebra de alta densidad",

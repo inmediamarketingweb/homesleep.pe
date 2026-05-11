@@ -1,46 +1,17 @@
-import { useState } from "react";
-
 import './Categorias.css';
 
 function Categorias(){
-  const videos = [
-        "/assets/imagenes/paginas/pagina-principal/categorias/videos/video-1.mp4",
-        "/assets/imagenes/paginas/pagina-principal/categorias/videos/video-2.mp4",
-        "/assets/imagenes/paginas/pagina-principal/categorias/videos/video-3.mp4"
-    ];
-
-    const [index, setIndex] = useState(0);
-    const max = videos.length - 1;
-
-    const next = () => {
-        setIndex((prev) => (prev < max ? prev + 1 : prev));
-    };
-
-    const prev = () => {
-        setIndex((prev) => (prev > 0 ? prev - 1 : prev));
-    };
-
     return(
         <div className='block-container'>
             <section className='block-content'>
                 <div className='block-title-container'>
-                    <h2 className='block-title'>Categorías</h2>
+                    <h2 className='block-title margin-auto color-color-1'>Categorías</h2>
                 </div>
 
                 <div className='homepage-categories'>
-                <div className='homepage-categories-target-1'>
-                    <div className='videos-tiktok'>
-                        <video key={index} src={videos[index]} controls autoPlay loop muted playsInline width="300"/>
+                    <div className='homepage-categories-target-1 d-flex'>
+                        <video src="/assets/imagenes/paginas/pagina-principal/categorias/videos/video-1.mp4" controls autoPlay muted/>
                     </div>
-
-                    <button onClick={prev} className='hp-cat-vid-tk-button hp-cat-vid-tk-button-left'>
-                        <span className="material-symbols-outlined">chevron_left</span>
-                    </button>
-
-                    <button onClick={next} className='hp-cat-vid-tk-button hp-cat-vid-tk-button-right'>
-                        <span className="material-symbols-outlined">chevron_right</span>
-                    </button>
-                </div>
 
                     <div className='homepage-categories-target-2'>
                         <nav>
@@ -85,6 +56,12 @@ function Categorias(){
                                     <a href='/' title='' className='hp-cat-link hp-cat-link-1'>
                                         <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/complementos.webp' alt=''/>
                                         <p>Complementos</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href='/' title='' className='hp-cat-link hp-cat-link-1'>
+                                        <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/complementos.webp' alt=''/>
+                                        <p>Ver todos</p>
                                     </a>
                                 </li>
                             </ul>

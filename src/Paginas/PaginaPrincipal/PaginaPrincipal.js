@@ -2,10 +2,9 @@ import { Helmet } from 'react-helmet';
 
 import Slider from './Componentes/Slider/Slider';
 import Categorias from './Componentes/Categorias/Categorias';
-// import Destacados from './Componentes/Destacados/Destacados';
+import StockUnico from './Componentes/StockUnico/StockUnico';
 import Dormitorios from './Componentes/Destacados/Dormitorios';
-import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
-// import Distribuidores from '../../Componentes/Distribuidores/Distribuidores';
+// import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
 
 import './PaginaPrincipal.css';
 
@@ -13,10 +12,10 @@ function PaginaPrincipal(){
     return(
         <>
             <Helmet>
-                <title>Homesleep | Las mejores marcas en dormitorios</title>
+                <title>Dormitorios El Cisne, Paraiso, Kamas y Komfort | Homesleep</title>
                 <meta name="description" content="Fabricantes de colchones, camas, box tarimas y juegos de dormitorios con más de 15 años en el mercado peruano ofreciendo calidad y confort para tu descanso." />
 
-                <meta property="og:title" content="Homesleep | Las mejores marcas en dormitorios"/>
+                <meta property="og:title" content="Dormitorios El Cisne, Paraiso, Kamas y Komfort | Homesleep"/>
                 <meta property="og:description" content="Homesleep encintrarás las mejores marcas para tu descanso, kamas, paraiso y el cisne."/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:url" content="https://www.homesleep.pe/"/>
@@ -30,14 +29,6 @@ function PaginaPrincipal(){
             <main>
                 <Slider/>
 
-                <div className='block-container'>
-                    <div className='block-content'>
-                        <a href='https://homesleep.pe/productos/dormitorios/king/?marca=kamas---el-cisne&resortes=pocket&modelo=pocket' className='d-flex banner-link-img'>
-                            <img src="/assets/imagenes/paginas/pagina-principal/hp-banner-1.jpg" alt="Las mejores ofertas en dormitorios king el cisne"/>
-                        </a>
-                    </div>
-                </div>
-
                 <Dormitorios/>
 
                 <Categorias/>
@@ -45,26 +36,52 @@ function PaginaPrincipal(){
                 <div className='block-container'>
                     <div className='block-content'>
                         <div className='d-grid-2-1fr gap-10'>
-                            <div className='d-flex w-100'>
-                                <a href='https://homesleep.pe/productos/dormitorios/queen/' className='d-flex w-100 banner-link-img-50w'>
-                                    <img src="/assets/imagenes/paginas/pagina-principal/queen.jpg" alt=""/>
-                                </a>
+                            <div className="visible-on-desktop-no-mobile">
+                                <div className='d-flex w-100'>
+                                    <a href='https://homesleep.pe/productos/dormitorios/queen/' className='d-flex w-100 banner-link-img-50w'>
+                                        <img src="/assets/imagenes/paginas/pagina-principal/queen.webp" alt=""/>
+                                    </a>
+                                </div>
                             </div>
 
-                            <div className='d-flex w-100'>
-                                <a href='https://homesleep.pe/productos/dormitorios/2-plazas/' className='d-flex w-100 banner-link-img-50w'>
-                                    <img src="/assets/imagenes/paginas/pagina-principal/2-plazas.jpg" alt=""/>
-                                </a>
+                            <div className="visible-on-mobile-no-desktop">
+                                <div className='d-flex w-100'>
+                                    <a href='https://homesleep.pe/productos/dormitorios/queen/' className='d-flex w-100 banner-link-img-50w'>
+                                        <img src="/assets/imagenes/paginas/pagina-principal/thumb/queen.webp" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="visible-on-desktop-no-mobile">
+                                <div className='d-flex w-100'>
+                                    <a href='https://homesleep.pe/productos/dormitorios/2-plazas/' className='d-flex w-100 banner-link-img-50w'>
+                                        <img src="/assets/imagenes/paginas/pagina-principal/2-plazas.webp" alt=""/>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="visible-on-mobile-no-desktop">
+                                <div className='d-flex w-100'>
+                                    <a href='https://homesleep.pe/productos/dormitorios/2-plazas/' className='d-flex w-100 banner-link-img-50w'>
+                                        <img src="/assets/imagenes/paginas/pagina-principal/thumb/2-plazas.webp" alt=""/>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                {/* <Destacados/> */}
+                {/* <SobreNosotros/> */}
 
-                <SobreNosotros/>
+                <div className="block-container">
+                    <section className='block-content'>
+                        <a href='https://homesleep.pe/productos/colchones/?marca=paraiso' className='d-flex banner-link-img' title='Línea royal de Paraiso | Homesleep'>
+                            <img src="/assets/imagenes/paginas/pagina-principal/hp-banner-2.webp" alt="COLCHONES LINEA ROYAL PARAISO"/>
+                        </a>
+                    </section>
+                </div>
 
-                {/* <Distribuidores/> */}
+                <StockUnico/>
             </main>
         </>
     );

@@ -1,13 +1,27 @@
+import { useEffect, useState } from 'react';
+
 import Top from './Componentes/Top/Top';
-import Center from './Componentes/Center/Center';
+import Bottom from './Componentes/Bottom/Bottom';
 
 import './Header.css';
 
 function Header(){
+    const [active, setActive] = useState(false);
+    useEffect(() => {
+        const handleScroll = () => {
+            setActive(window.scrollY > 0);
+        };
+        window.addEventListener('scroll', handleScroll);
+        handleScroll();
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return(
-        <header>
+        <header className={active ? 'active' : ''}>
             <Top/>
-            <Center/>
+            <Bottom/>
         </header>
     );
 }

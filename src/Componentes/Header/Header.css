@@ -4,6 +4,9 @@ header{
     top: 0;
     width: 100%;
     background: var(--header);
-    border-bottom: 1px solid var(--component);
     z-index: 100;
+}
+
+header.active{
+    border-bottom: 1px solid var(--component);
 }

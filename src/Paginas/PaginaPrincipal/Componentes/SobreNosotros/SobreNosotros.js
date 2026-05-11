@@ -48,11 +48,11 @@ function SobreNosotros(){
                         </nav>
                     </div>
 
-                    <div className='d-grid-4-1fr gap-10'>
-                        <img src="https://img.magnific.com/foto-gratis/desenfoque-lujo-abstracto-gradiente-color-gris-utilizado-como-pared-estudio-fondo-exhibir-sus-productos_1258-54649.jpg?semt=ais_hybrid&w=740&q=80" alt="" className='w-100'/>
-                        <img src="https://img.magnific.com/foto-gratis/desenfoque-lujo-abstracto-gradiente-color-gris-utilizado-como-pared-estudio-fondo-exhibir-sus-productos_1258-54649.jpg?semt=ais_hybrid&w=740&q=80" alt="" className='w-100'/>
-                        <img src="https://img.magnific.com/foto-gratis/desenfoque-lujo-abstracto-gradiente-color-gris-utilizado-como-pared-estudio-fondo-exhibir-sus-productos_1258-54649.jpg?semt=ais_hybrid&w=740&q=80" alt="" className='w-100'/>
-                        <img src="https://img.magnific.com/foto-gratis/desenfoque-lujo-abstracto-gradiente-color-gris-utilizado-como-pared-estudio-fondo-exhibir-sus-productos_1258-54649.jpg?semt=ais_hybrid&w=740&q=80" alt="" className='w-100'/>
+                    <div className='d-grid-4-1fr gap-5'>
+                        <img src="/assets/imagenes/paginas/pagina-principal/sobre-nosotros/paraiso.webp" alt="" className='w-100'/>
+                        <img src="/assets/imagenes/paginas/pagina-principal/sobre-nosotros/el-cisne.webp" alt="" className='w-100'/>
+                        <img src="/assets/imagenes/paginas/pagina-principal/sobre-nosotros/kamas.webp" alt="" className='w-100'/>
+                        <img src="/assets/imagenes/paginas/pagina-principal/sobre-nosotros/komfort.webp" alt="" className='w-100'/>
                     </div>
                 </div>
             </section>
