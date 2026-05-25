@@ -37,7 +37,8 @@ function EnviosALimaYCallao(){
     return(
         <>
             <Helmet>
-                <title>Envíos para Lima y Callao | Homesleep</title>
+                <title>Envíos Lima y Callao | Homesleep</title>
+                <meta name="description" content="Revisa si hemos hecho envíos a tu distrito y realiza tu pedido ¡Hoy mismo! y aprovecha el delivry gratis" />
             </Helmet>
 
             <main>
@@ -49,15 +50,15 @@ function EnviosALimaYCallao(){
                             <div className="d-flex-column gap-10">
                                 <blockquote className="tiktok-embed" cite="https://www.tiktok.com/@homesleep.pe/video/7408317289155611909" data-video-id="7408317289155611909">
                                     <section>
-                                        <a target="_blank" title="@homesleep.pe" href="https://www.tiktok.com/@homesleep.pe?refer=embed">@homesleep.pe</a>
+                                        <a rel="noreferrer" target="_blank" title="@homesleep.pe" href="https://www.tiktok.com/@homesleep.pe?refer=embed">@homesleep.pe</a>
                                         Dormitorio Kamas&#47;Cisne King 3 plazas a tan solo 1649 soles 🥰
-                                        <a title="homesleep" target="_blank" href="https://www.tiktok.com/tag/homesleep?refer=embed">#Homesleep</a>
+                                        <a title="homesleep" target="_blank" rel="noreferrer" href="https://www.tiktok.com/tag/homesleep?refer=embed">#Homesleep</a>
                                         ¡Líder en productos de dormitorio! 💙
-                                        <a title="dormitorios" target="_blank" href="https://www.tiktok.com/tag/dormitorios?refer=embed">#dormitorios</a>
-                                        <a title="colchonescisne" target="_blank" href="https://www.tiktok.com/tag/colchonescisne?refer=embed">#colchonescisne</a>
-                                        <a title="kamas" target="_blank" href="https://www.tiktok.com/tag/kamas?refer=embed">#kamas</a>
-                                        <a title="ofertas" target="_blank" href="https://www.tiktok.com/tag/ofertas?refer=embed">#ofertas</a>
-                                        <a target="_blank" title="♬ sonido original - Homesleep" href="https://www.tiktok.com/music/sonido-original-7408317286384536325?refer=embed">♬ sonido original - Homesleep</a>
+                                        <a title="dormitorios" rel="noreferrer" target="_blank" href="https://www.tiktok.com/tag/dormitorios?refer=embed">#dormitorios</a>
+                                        <a title="colchonescisne" rel="noreferrer" target="_blank" href="https://www.tiktok.com/tag/colchonescisne?refer=embed">#colchonescisne</a>
+                                        <a title="kamas" rel="noreferrer" target="_blank" href="https://www.tiktok.com/tag/kamas?refer=embed">#kamas</a>
+                                        <a title="ofertas" rel="noreferrer" target="_blank" href="https://www.tiktok.com/tag/ofertas?refer=embed">#ofertas</a>
+                                        <a target="_blank" rel="noreferrer" title="♬ sonido original - Homesleep" href="https://www.tiktok.com/music/sonido-original-7408317286384536325?refer=embed">♬ sonido original - Homesleep</a>
                                     </section>
                                 </blockquote>
                                 <script async src="https://www.tiktok.com/embed.js"></script>

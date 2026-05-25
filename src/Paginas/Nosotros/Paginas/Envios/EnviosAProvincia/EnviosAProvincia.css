@@ -377,6 +377,29 @@
     user-select: none;
 }
 
+.load-more-container{
+    width: 100%;
+    padding: 5px;
+    grid-column: 1/-1;
+    display: flex;
+}
+
+.load-more-btn{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.load-more-btn span,
+.load-more-btn p{
+    color: var(--color-1);
+}
+
+.load-more-btn p{
+    font-size: 14px;
+}
+
 @media screen and (max-width: 600px){
     .province-top-container{
         flex-direction: column;

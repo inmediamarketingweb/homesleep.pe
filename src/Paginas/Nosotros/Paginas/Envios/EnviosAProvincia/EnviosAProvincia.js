@@ -14,6 +14,7 @@ function EnviosAProvincia(){
     const [selectedYear, setSelectedYear] = useState('todos');
     const [availableYears, setAvailableYears] = useState([]);
     const [imageOrder, setImageOrder] = useState([0, 1]);
+    const [visibleItems, setVisibleItems] = useState(20);
     const navigate = useNavigate();
     const location = useLocation();
     const [searchParams] = useSearchParams();
@@ -82,6 +83,10 @@ function EnviosAProvincia(){
         }
     }, [loading, searchParams]);
 
+    useEffect(() => {
+        setVisibleItems(20);
+    }, [searchTerm, selectedYear]);
+
     const updateUrlParams = (year, search) => {
         const params = new URLSearchParams();
 
@@ -115,6 +120,10 @@ function EnviosAProvincia(){
     };
 
     const hasActiveFilters = searchTerm || selectedYear !== 'todos';
+
+    const loadMoreItems = () => {
+        setVisibleItems(prevVisible => prevVisible + 20);
+    };
 
     const openPopup = (envio) => {
         setSelectedEnvio(envio);
@@ -181,6 +190,9 @@ function EnviosAProvincia(){
         return matchesSearch && matchesYear;
     });
 
+    const visibleEnvios = filteredEnvios.slice(0, visibleItems);
+    const hasMoreItems = visibleItems < filteredEnvios.length;
+
     if (loading) {
         return (
             <main className='padding-20-to-0'>
@@ -213,6 +225,7 @@ function EnviosAProvincia(){
         <>
             <Helmet>
                 <title>Envíos a provincia | Homesleep</title>
+                <meta name="description" content="Revisa si hemos hecho envíos a tu departamento, provincia y distrito y realiza tu pedido ¡Hoy mismo!" />
             </Helmet>
 
             <main className='padding-20-to-0'>
@@ -243,7 +256,7 @@ function EnviosAProvincia(){
                         </div>
 
                         <div className='province-content'>
-                            {filteredEnvios.length === 0 ? (
+                            {visibleEnvios.length === 0 ? (
                                 <div className='no-results'>
                                     <p className='text'>
                                         {
@@ -259,23 +272,34 @@ function EnviosAProvincia(){
                                     <img src="/assets/imagenes/otros/ser-el-primero.jpg" alt="Sé el primero de tu zona en tener un dormitorio King" />
                                 </div>
                             ) : (
-                                filteredEnvios.map((envio, index) => {
-                                    const photos = getPhotoUrls(envio.fotos);
-                                    return (
-                                        <div key={`${envio.año}-${envio.id}-${index}`} className={`province-tag province-tag-${(index % 3) + 1}`}>
-                                            <div className='province-tag-info' onClick={() => openPopup(envio)} style={{ cursor: 'pointer' }}>
-                                                <div>
-                                                    <span className="material-symbols-outlined">location_on</span>
-                                                    <div className='text'>{envio.destino}</div>
+                                <>
+                                    {visibleEnvios.map((envio, index) => {
+                                        const photos = getPhotoUrls(envio.fotos);
+                                        return (
+                                            <div key={`${envio.año}-${envio.id}-${index}`} className={`province-tag province-tag-${(index % 3) + 1}`}>
+                                                <div className='province-tag-info' onClick={() => openPopup(envio)} style={{ cursor: 'pointer' }}>
+                                                    <div>
+                                                        <span className="material-symbols-outlined">location_on</span>
+                                                        <div className='text'>{envio.destino}</div>
+                                                    </div>
+                                                    <div className='text'>{envio.año}</div>
                                                 </div>
-                                                <div className='text'>{envio.año}</div>
-                                            </div>
 
-                                            <img src={photos.imgOne} alt={`Envío a ${envio.destino} - Imagen 1`} className='image-1' onClick={() => openPopup(envio)} style={{ cursor: 'pointer' }}/>
-                                            <img src={photos.imgTwo} alt={`Envío a ${envio.destino} - Imagen 2`} className='image-2' onClick={() => openPopup(envio)} style={{ cursor: 'pointer' }}/>
+                                                <img src={photos.imgOne} alt={`Envío a ${envio.destino} - Imagen 1`} className='image-1' onClick={() => openPopup(envio)} style={{ cursor: 'pointer' }}/>
+                                                <img src={photos.imgTwo} alt={`Envío a ${envio.destino} - Imagen 2`} className='image-2' onClick={() => openPopup(envio)} style={{ cursor: 'pointer' }}/>
+                                            </div>
+                                        );
+                                    })}
+                                    
+                                    {hasMoreItems && (
+                                        <div className='load-more-container'>
+                                            <button type='button' className='load-more-btn' onClick={loadMoreItems}>
+                                                <p>Cargar más</p>
+                                                <span className="material-icons">expand_more</span>
+                                            </button>
                                         </div>
-                                    );
-                                })
+                                    )}
+                                </>
                             )}
                         </div>
                     </div>
