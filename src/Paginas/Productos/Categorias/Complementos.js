@@ -403,15 +403,9 @@ function Complementos(){
                                     <ul className="products-page-products">
                                         {productosPagina.length === 0 ? (
                                             <div className='d-grid-1-1'>
-                                                <div className="d-flex-column gap-10">
-                                                    <p className='text'>No se encontraron complementos con los filtros seleccionados.</p>
-
-                                                    {hayFiltrosActivos && (
-                                                        <button type="button" className="margin-right button-link button-link-2" onClick={limpiarFiltros}>
-                                                            <span className="material-icons">delete</span>
-                                                            <p className='button-link-text'>Limpiar filtros</p>
-                                                        </button>
-                                                    )}
+                                                <div className="w-100 d-flex-column d-flex-center-center gap-10">
+                                                    <img src="/assets/imagenes/paginas/not-found.svg" alt="" width={320} />
+                                                    <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
                                                 </div>
                                             </div>
                                         ) : (
