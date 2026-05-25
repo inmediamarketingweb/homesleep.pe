@@ -196,6 +196,9 @@
     align-items: center;
     justify-content: center;
     gap: 2px;
+
+    pointer-events: none;
+    user-select: none;
 }
 
 .hot-sale span{

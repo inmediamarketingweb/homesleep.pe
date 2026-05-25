@@ -31,12 +31,17 @@ function Colchones() {
     const [filtros, setFiltros] = useState([]);
     const [orden, setOrden] = useState("ultimo");
     const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
+    const [isHotSaleActive, setIsHotSaleActive] = useState(() => {
+        const saved = localStorage.getItem('hotSaleActive');
+        return saved === 'true';
+    });
+    const [hotSaleSKUs, setHotSaleSKUs] = useState([]);
     const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
     const marcaSeleccionada = queryParams.get('marca');
     const [isFiltersOpen, setIsFiltersOpen] = useState(false);
     const filtersPanelRef = useRef(null);
     const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 20;
+    const itemsPerPage = 32;
 
     const closeFilters = () => {
         setIsFiltersOpen(false);
@@ -44,6 +49,13 @@ function Colchones() {
 
     const toggleEnvioGratis = () => {
         setEnvioGratisActivo(!envioGratisActivo);
+        setCurrentPage(1);
+    };
+
+    const handleHotSaleToggle = () => {
+        const newState = !isHotSaleActive;
+        setIsHotSaleActive(newState);
+        localStorage.setItem('hotSaleActive', newState);
         setCurrentPage(1);
     };
 
@@ -60,6 +72,21 @@ function Colchones() {
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
+    }, []);
+
+    useEffect(() => {
+        const cargarHotSaleSKUs = async () => {
+            try {
+                const response = await fetch('/assets/json/mas-vendidos.json');
+                const skus = await response.json();
+                setHotSaleSKUs(skus);
+            } catch (error) {
+                console.error("Error cargando mas-vendidos.json:", error);
+                setHotSaleSKUs([]);
+            }
+        };
+        
+        cargarHotSaleSKUs();
     }, []);
 
     useEffect(() => {
@@ -160,7 +187,7 @@ function Colchones() {
     const productosFiltrados = useMemo(() => {
         if (productos.length === 0) return [];
 
-        const filtrados = productos.filter(producto => {
+        let filtrados = productos.filter(producto => {
             if (envioGratisActivo) {
                 if (producto["tipo-de-envio"] !== "Gratis") {
                     return false;
@@ -221,12 +248,16 @@ function Colchones() {
                 }
             }
 
-            // Todos los filtros se cumplieron
             return true;
         });
 
+        // Aplicar filtro de Hot Sale si está activo
+        if (isHotSaleActive && hotSaleSKUs.length > 0) {
+            filtrados = filtrados.filter(producto => hotSaleSKUs.includes(producto.sku));
+        }
+
         return filtrados;
-    }, [productos, queryParams, envioGratisActivo]);
+    }, [productos, queryParams, envioGratisActivo, isHotSaleActive, hotSaleSKUs]);
 
     const productosOrdenados = useMemo(() => {
         return [...productosFiltrados].sort((a, b) => {
@@ -293,13 +324,20 @@ function Colchones() {
 
     const limpiarFiltros = () => {
         setCurrentPage(1);
+        setIsHotSaleActive(false);
+        localStorage.setItem('hotSaleActive', 'false');
+        setEnvioGratisActivo(false);
         navigate(location.pathname);
     };
+
+    const hayFiltrosActivos = queryParams.toString() || envioGratisActivo || isHotSaleActive;
 
     return(
         <>
             <Helmet>
                 <title>Colchones | Homesleep</title>
+                <meta name="description" content="Encuentra el colchón ideal para ti, compara marcas, precios, modelos, confort y encuentra tu colchón ideal." />
+                <meta property="og:title" content="Colchones | Homesleep"/>
             </Helmet>
 
             <main className='products-page-main d-flex-column gap-10'>
@@ -307,7 +345,7 @@ function Colchones() {
 
                 <div className='products-page-blocks'>
                     <div className={`products-page-left ${isFiltersOpen ? 'active' : ''}`} ref={filtersPanelRef}>
-                        <div className='products-page-filters-container-global'>
+                        <div className='products-page-filters-container-global d-flex-column gap-10'>
                             <div className='d-flex-column gap-20'>
                                 <div className='d-flex-column padding-bottom-20 border-bottom-2-solid-component'>
                                     <p className='block-title color-color-1 uppercase w-100 d-flex'>Homesleep</p>
@@ -325,6 +363,17 @@ function Colchones() {
                                         <span></span>
                                     </div>
                                 </div>
+
+                                <button type='button' className={`filter-hot-sale ${isHotSaleActive ? 'active' : ''}`} onClick={handleHotSaleToggle}>
+                                    <div className='d-flex-center-left'>
+                                        <span className="material-symbols-outlined">local_fire_department</span>
+                                        <div className='d-flex-column'>
+                                            <p className='title color-gray-dark'>Hot sale</p>
+                                            <span className='color-gray-dark'>(Más vendidos)</span>
+                                        </div>
+                                    </div>
+                                    <div className='switch'></div>
+                                </button>
 
                                 <div className='products-page-filters-container d-flex-column gap-20'>
                                     {filtrosFiltrados.map((filtro, index) => {
@@ -363,7 +412,7 @@ function Colchones() {
 
                                                             return(
                                                                 <div key={idx} className='filter-subgroup d-flex-column gap-10'>
-                                                                    <p className='sub-title uppercase'>{[nombreGrupo]}</p>
+                                                                    <p className='sub-title uppercase'>{nombreGrupo}</p>
 
                                                                     <ul className='products-page-filter-list'>
                                                                         {modelos.map((modelo, mIdx) => (
@@ -399,22 +448,35 @@ function Colchones() {
                                     })}
                                 </div>
 
-                                {queryParams.toString() && (
+                                {hayFiltrosActivos && (
                                     <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
                                         <span className="material-icons">delete</span>
                                         <p className="button-link-text">Limpiar filtros</p>
                                     </button>
                                 )}
                             </div>
+
+                            <img src="https://neliosoftware.com/es/wp-content/uploads/sites/3/2018/07/aziz-acharki-549137-unsplash-1200x775.jpg" className='w-100 d-flex margin-bottom-10 border-radius-15' alt=""/>
                         </div>
                     </div>
 
                     <div className='products-page-right'>
-                        <FiltrosTop setOrden={setOrden} orden={orden} toggleFiltro={toggleFiltro} 
+                        {/* <FiltrosTop setOrden={setOrden} orden={orden} toggleFiltro={toggleFiltro} 
                             isFiltroActivo={isFiltroActivo} setIsFiltersOpen={setIsFiltersOpen} 
                             isFiltersOpen={isFiltersOpen} productosCount={productosOrdenados.length}
                             totalProductos={productos.length} currentPage={currentPage}
                             itemsPerPage={itemsPerPage} startIndex={startIndex} endIndex={endIndex}
+                        /> */}
+
+                        <FiltrosTop 
+                            setOrden={setOrden} 
+                            orden={orden}
+                            setIsFiltersOpen={setIsFiltersOpen} 
+                            isFiltersOpen={isFiltersOpen}
+                            productosCount={productosOrdenados.length}
+                            totalProductos={productos.length}
+                            startIndex={startIndex}
+                            endIndex={endIndex}
                         />
 
                         <div className='products-page-products-container'>
@@ -431,7 +493,7 @@ function Colchones() {
                                                 <div className="d-flex-column gap-10">
                                                     <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
 
-                                                    {queryParams.toString() && (
+                                                    {hayFiltrosActivos && (
                                                         <button type="button" className="margin-right button-link button-link-2" onClick={limpiarFiltros}>
                                                             <span className="material-icons">delete</span>
                                                             <p className='button-link-text'>Limpiar filtros</p>
@@ -455,7 +517,7 @@ function Colchones() {
                                             <div className="d-flex-center-center gap-10">
                                                 {getVisiblePages().map((page, index) => 
                                                     typeof page === 'number' ? (
-                                                        <button key={index} className={`pagination-page ${currentPage === page ? 'active' : ''}`}  onClick={() => handlePageChange(page)}>{page}</button>
+                                                        <button key={index} className={`pagination-page ${currentPage === page ? 'active' : ''}`} onClick={() => handlePageChange(page)}>{page}</button>
                                                     ) : (
                                                         <span key={index} className="pagination-ellipsis">...</span>
                                                     )

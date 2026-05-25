@@ -70,11 +70,18 @@ function Dormitorios() {
     const [loading, setLoading] = useState(true);
     const [filtros, setFiltros] = useState([]);
     const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
+    const [isHotSaleActive, setIsHotSaleActive] = useState(() => {
+        const saved = localStorage.getItem('hotSaleActive');
+        return saved === 'true';
+    });
+    const [hotSaleSKUs, setHotSaleSKUs] = useState([]);
     const [isFiltersOpen, setIsFiltersOpen] = useState(false);
     const filtersPanelRef = useRef(null);
     const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
     const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 20;
+    const itemsPerPage = 32;
+
+    const [orden, setOrden] = useState("ultimo");
 
     const shuffleArray = (array) => {
         const shuffled = [...array];
@@ -94,6 +101,13 @@ function Dormitorios() {
         setCurrentPage(1);
     };
 
+    const handleHotSaleToggle = () => {
+        const newState = !isHotSaleActive;
+        setIsHotSaleActive(newState);
+        localStorage.setItem('hotSaleActive', newState);
+        setCurrentPage(1);
+    };
+
     useEffect(() => {
         const handleClickOutside = (event) => {
             if (filtersPanelRef.current && 
@@ -107,6 +121,22 @@ function Dormitorios() {
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
+    }, []);
+
+    // Cargar SKUs de Hot Sale (más vendidos)
+    useEffect(() => {
+        const cargarHotSaleSKUs = async () => {
+            try {
+                const response = await fetch('/assets/json/mas-vendidos.json');
+                const skus = await response.json();
+                setHotSaleSKUs(skus);
+            } catch (error) {
+                console.error("Error cargando mas-vendidos.json:", error);
+                setHotSaleSKUs([]);
+            }
+        };
+        
+        cargarHotSaleSKUs();
     }, []);
 
     useEffect(() => {
@@ -168,7 +198,7 @@ function Dormitorios() {
                 const todosProductos = productosPorArchivo.flat();
 
                 setProductos(todosProductos);
-                setCurrentPage(1); // Resetear a primera página al cargar nuevos productos
+                setCurrentPage(1);
             } catch (error) {
             } finally {
                 setLoading(false);
@@ -228,7 +258,7 @@ function Dormitorios() {
 
         let productosFiltradosTemp = productos;
 
-        if (queryParams.entries().length === 0 && !envioGratisActivo) {
+        if (queryParams.entries().length === 0 && !envioGratisActivo && !isHotSaleActive) {
             productosFiltradosTemp = productos;
         } else {
             productosFiltradosTemp = productos.filter(producto => {
@@ -275,8 +305,15 @@ function Dormitorios() {
             });
         }
 
+        // Aplicar filtro de Hot Sale si está activo
+        if (isHotSaleActive && hotSaleSKUs.length > 0) {
+            productosFiltradosTemp = productosFiltradosTemp.filter(producto => 
+                hotSaleSKUs.includes(producto.sku)
+            );
+        }
+
         return shuffleArray(productosFiltradosTemp);
-    }, [productos, queryParams, envioGratisActivo]);
+    }, [productos, queryParams, envioGratisActivo, isHotSaleActive, hotSaleSKUs]);
 
     const totalItems = productosFiltrados.length;
     const totalPages = Math.ceil(totalItems / itemsPerPage);
@@ -337,8 +374,13 @@ function Dormitorios() {
 
     const limpiarFiltros = () => {
         setCurrentPage(1);
+        setIsHotSaleActive(false);
+        localStorage.setItem('hotSaleActive', 'false');
+        setEnvioGratisActivo(false);
         navigate(location.pathname, { replace: true });
     };
+
+    const hayFiltrosActivos = queryParams.toString() || envioGratisActivo || isHotSaleActive;
 
     if (sub5) {
         return null;
@@ -348,6 +390,8 @@ function Dormitorios() {
         <>
             <Helmet>
                 <title>Dormitorios | Homesleep</title>
+                <meta name="description" content="Las mejores marcas de colchones y box tarimas, en el mismo lugar. Paraiso, Kamas, El Cisne, Komfort y muchas más." />
+                <meta property="og:title" content="Dormitorios | Homesleep"/>
             </Helmet>
 
             <main className='products-page-main d-flex-column gap-20'>
@@ -373,6 +417,18 @@ function Dormitorios() {
                                         <span></span>
                                     </div>
                                 </div>
+
+                                {/* Hot Sale Toggle */}
+                                <button type='button' className={`filter-hot-sale ${isHotSaleActive ? 'active' : ''}`} onClick={handleHotSaleToggle}>
+                                    <div className='d-flex-center-left'>
+                                        <span className="material-symbols-outlined">local_fire_department</span>
+                                        <div className='d-flex-column'>
+                                            <p className='title color-gray-dark'>Hot sale</p>
+                                            <span className='color-gray-dark'>(Más vendidos)</span>
+                                        </div>
+                                    </div>
+                                    <div className='switch'></div>
+                                </button>
 
                                 <div className='products-page-filters-container d-flex-column gap-20'>
                                     {filtrosFiltrados.map((filtro, index) => {
@@ -448,7 +504,7 @@ function Dormitorios() {
                                     })}
                                 </div>
 
-                                {queryParams.toString() && (
+                                {hayFiltrosActivos && (
                                     <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
                                         <span className="material-icons">delete</span>
                                         <p className="button-link-text">Limpiar filtros</p>
@@ -460,6 +516,8 @@ function Dormitorios() {
 
                     <div className='products-page-right'>
                         <FiltrosTop 
+                            setOrden={setOrden}
+                            orden={orden}
                             toggleFiltro={toggleFiltro} 
                             isFiltroActivo={isFiltroActivo}
                             setIsFiltersOpen={setIsFiltersOpen} 
@@ -486,7 +544,7 @@ function Dormitorios() {
                                                     <div className="d-flex-column gap-10">
                                                         <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
 
-                                                        {queryParams.toString() && (
+                                                        {hayFiltrosActivos && (
                                                             <button type="button" className="margin-right button-link button-link-2" onClick={limpiarFiltros}>
                                                                 <span className="material-icons">delete</span>
                                                                 <p className='button-link-text'>Limpiar filtros</p>

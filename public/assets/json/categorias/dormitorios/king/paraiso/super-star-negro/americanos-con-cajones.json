@@ -18,7 +18,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos con cajones",
                     "tamaño": "king",
                     "cajones": "No",
@@ -50,7 +50,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos con cajones",
                     "tamaño": "king",
                     "cajones": "No",
@@ -61,38 +61,6 @@
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos curvos",
                     "modelo-de-cabecera": "Majestad"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "categoria": "dormitorios",
-            "tamaño": "king",
-            "marca": "Paraiso",
-            "modelo": "Super star negro",
-            "linea": "americanos con cajones",
-            "ruta": "/productos/dormitorios/king/paraiso/super-star-negro/americanos-con-cajones/3/",
-            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO SUPER STAR NEGRO + CABECERA PEDESTAL CAPITONEADO + 4 CAJONES - PLATA",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/super-star-negro/americanos-con-cajones/pedestales/emperatriz/1/",
-            "precioRegular": 4999,
-            "precioNormal": 3049,
-            "precioVenta": 2399,
-            "stock": 9,
-            "sku": "H32241193N12",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "Paraiso",
-                    "línea": "americanos con cajones",
-                    "tamaño": "king",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "modelo-de-colchón": "Super star Negro",
-                    "resortes": "Cosisoft",
-                    "tipo-de-cabecera": "Pedestales",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Capitoneado 1"
                 }
             ]
         }

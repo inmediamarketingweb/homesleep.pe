@@ -1,0 +1,28 @@
+{
+    "marcas":[
+        {
+            "id": 1,
+            "marca": "El Cisne",
+            "image-png": "https://colchonescisne.vtexassets.com/assets/vtex.file-manager-graphql/images/c8752021-5cc5-4e68-89e2-473d40deaa89___19295168a6b42c42e187cd6c473942ca.svg",
+            "image-alt": ""
+        },
+        {
+            "id": 2,
+            "marca": "Kamas",
+            "image-png": "https://www.kamas.pe/assets/imagenes/kamas/logo-principal-kamas.jpg",
+            "image-alt": ""
+        },
+        {
+            "id": 3,
+            "marca": "Paraiso",
+            "image-png": "https://paraisoperu.vtexassets.com/arquivos/Symbols.png",
+            "image-alt": ""
+        },
+        {
+            "id": 4,
+            "marca": "Komfort",
+            "image-png": "https://www.dormihogar.pe/assets/imagenes/componentes/distribuidores/komfort.png",
+            "image-alt": ""
+        }
+    ]
+}

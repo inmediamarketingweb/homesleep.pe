@@ -31,6 +31,7 @@
 
     --white: #FFFFFF;
     --gray: #434343;
+    --dark-gray: #222;
     --black: #000000;
 
     --whatsapp: #25D366;
@@ -60,8 +61,15 @@
     font-display: swap;
 }
 
+.anton{
+    font-family: 'Anton';
+    font-weight: normal !important;
+    text-transform: uppercase;
+}
+
 body{
     width: 100vw;
+    height: auto;
     background: var(--body);
     color: var(--text);
 }
@@ -82,8 +90,8 @@ body::selection{
 
 main{
     width: 100%;
-    margin-top: 90px;
-    min-height: 100vh;
+    margin-top: 100px;
+    min-height: 50vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -211,12 +219,20 @@ button{
     color: #444444;
 }
 
+.color-dark-gray{
+    color: var(--dark-gray);
+}
+
 .bg-component{
     background: var(--component);
 }
 
 .border-r-6{
     border-radius: 6px;
+}
+
+.border-b-1-777{
+    border-bottom: 1px solid #999;
 }
 
 .text{
@@ -397,6 +413,10 @@ button{
     margin-top: 20px;
 }
 
+.margin-bottom-0{
+    margin-bottom: 0 !important;
+}
+
 .margin-bottom{
     margin-bottom: auto;
 }
@@ -419,6 +439,10 @@ button{
 
 .padding-10{
     padding: 10px !important;
+}
+
+.padding-bottom-10{
+    padding-bottom: 10px !important
 }
 
 .padding-20-to-0{
@@ -830,6 +854,33 @@ button{
     width: 100%;
     height: auto;
     object-fit: contain;
+}
+
+.button-point{
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    border: 1px solid var(--component);
+    border-radius: 20px;
+}
+
+.button-point-1{
+    gap: 20px;
+}
+
+.border-radius-15{
+    border-radius: 15px;
+}
+
+.border-radius-20{
+    border-radius: 20px;
+}
+
+.border-radius-25{
+    border-radius: 25px;
 }
 
 @media screen and (max-width: 800px){

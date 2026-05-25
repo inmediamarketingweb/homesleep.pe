@@ -108,6 +108,12 @@
     color: var(--white);
     padding: 3px 5px;
     border-radius: 5px 5px 0 0;
+    font-size: 14px;
+}
+
+.homepage-categories-target-2 ul li:nth-child(2) .hp-cat-link p,
+.homepage-categories-target-2 ul li:nth-child(4) .hp-cat-link p{
+    width: 140px;
 }
 
 @media screen and (max-width: 600px){

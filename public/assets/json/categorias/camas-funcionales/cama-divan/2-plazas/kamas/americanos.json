@@ -4,6 +4,7 @@
             "categoria": "camas funcionales",
             "subcategoria": "cama divan",
             "tamaño": "2 plazas",
+            "marca": "Kamas",
             "ruta": "/productos/camas-funcionales/cama-divan/2-plazas/kamas/americanos/1/",
             "nombre": "CAMA DIVAN 2 PLAZAS + 1 PLAZA Y MEDIA + CABECERA PEDESTAL EMPERATRIZ - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-funcionales/kamas/divanes/americanos/2-plazas/pedestales/americanas/brazos-rectos/emperatriz/1/",
@@ -14,14 +15,6 @@
             "stock": 9,
             "sku": "K43212N10",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -32,37 +25,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -81,14 +43,6 @@
             "stock": 9,
             "sku": "K43212N11",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -99,37 +53,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -148,14 +71,6 @@
             "stock": 9,
             "sku": "K43212N12",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -166,37 +81,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -215,14 +99,6 @@
             "stock": 9,
             "sku": "K43212N13",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -233,37 +109,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -282,14 +127,6 @@
             "stock": 9,
             "sku": "K43212N14",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -300,37 +137,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -349,14 +155,6 @@
             "stock": 9,
             "sku": "K43212N15",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -367,37 +165,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -416,14 +183,6 @@
             "stock": 9,
             "sku": "K43212N16",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -434,37 +193,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -483,14 +211,6 @@
             "stock": 9,
             "sku": "K43212N17",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -501,37 +221,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -550,14 +239,6 @@
             "stock": 9,
             "sku": "K43212N18",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -568,37 +249,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -617,14 +267,6 @@
             "stock": 9,
             "sku": "K43212N19",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -635,37 +277,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -684,14 +295,6 @@
             "stock": 9,
             "sku": "K43212N20",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -702,37 +305,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -751,14 +323,6 @@
             "stock": 9,
             "sku": "K43212N21",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -769,37 +333,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -818,14 +351,6 @@
             "stock": 9,
             "sku": "K43212N22",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -836,37 +361,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -885,14 +379,6 @@
             "stock": 9,
             "sku": "K43212N23",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -903,37 +389,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -952,14 +407,6 @@
             "stock": 9,
             "sku": "K43212N24",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -970,37 +417,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -1019,14 +435,6 @@
             "stock": 9,
             "sku": "K43212N25",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -1037,37 +445,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -1086,14 +463,6 @@
             "stock": 9,
             "sku": "K43212N26",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -1104,37 +473,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -1153,14 +491,6 @@
             "stock": 9,
             "sku": "K43212N27",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -1171,37 +501,6 @@
                     "diseño-de-cabecera": "americana",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "madera": "Pino radiata secado al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "refuerzos": "centrales y laterales.",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "soporte": "2 garruchas",
-                            "patas": "Cromadas",
-                            "garantía": "2 años"
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                        }
-                    ]
                 }
             ]
         },
@@ -1220,14 +519,6 @@
             "stock": 9,
             "sku": "K43212N28",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -1287,14 +578,6 @@
             "stock": 9,
             "sku": "K43212N29",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -1353,14 +636,6 @@
             "stock": 9,
             "sku": "K43212N30",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -1419,14 +694,6 @@
             "stock": 9,
             "sku": "K43212N31",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -1485,14 +752,6 @@
             "stock": 9,
             "sku": "K43212N32",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -1551,14 +810,6 @@
             "stock": 9,
             "sku": "K43212N33",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",
@@ -1617,14 +868,6 @@
             "stock": 9,
             "sku": "K43212N34",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
             "detalles-del-producto":[
                 {
                     "línea": "americanas",

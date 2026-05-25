@@ -30,6 +30,11 @@ function CamasFuncionales() {
     const [filtros, setFiltros] = useState([]);
     const [orden, setOrden] = useState("ultimo");
     const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
+    const [isHotSaleActive, setIsHotSaleActive] = useState(() => {
+        const saved = localStorage.getItem('hotSaleActive');
+        return saved === 'true';
+    });
+    const [hotSaleSKUs, setHotSaleSKUs] = useState([]);
     const [isFiltersOpen, setIsFiltersOpen] = useState(false);
     const filtersPanelRef = useRef(null);
     const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
@@ -39,6 +44,13 @@ function CamasFuncionales() {
 
     const toggleEnvioGratis = () => {
         setEnvioGratisActivo(!envioGratisActivo);
+        setCurrentPage(1);
+    };
+
+    const handleHotSaleToggle = () => {
+        const newState = !isHotSaleActive;
+        setIsHotSaleActive(newState);
+        localStorage.setItem('hotSaleActive', newState);
         setCurrentPage(1);
     };
 
@@ -55,6 +67,22 @@ function CamasFuncionales() {
         return () => {
             document.removeEventListener('mousedown', handleClickOutside);
         };
+    }, []);
+
+    // Cargar SKUs de Hot Sale (más vendidos)
+    useEffect(() => {
+        const cargarHotSaleSKUs = async () => {
+            try {
+                const response = await fetch('/assets/json/mas-vendidos.json');
+                const skus = await response.json();
+                setHotSaleSKUs(skus);
+            } catch (error) {
+                console.error("Error cargando mas-vendidos.json:", error);
+                setHotSaleSKUs([]);
+            }
+        };
+        
+        cargarHotSaleSKUs();
     }, []);
 
     useEffect(() => {
@@ -147,37 +175,50 @@ function CamasFuncionales() {
     const productosFiltrados = useMemo(() => {
         if (productos.length === 0) return [];
 
-        if (queryParams.entries().length === 0 && !envioGratisActivo) return productos;
+        let productosFiltradosTemp = productos;
 
-        return productos.filter(producto => {
-            if (envioGratisActivo) {
-                if (producto["tipo-de-envio"] !== "Gratis") {
-                    return false;
+        if (queryParams.entries().length === 0 && !envioGratisActivo && !isHotSaleActive) {
+            productosFiltradosTemp = productos;
+        } else {
+            productosFiltradosTemp = productos.filter(producto => {
+                if (envioGratisActivo) {
+                    if (producto["tipo-de-envio"] !== "Gratis") {
+                        return false;
+                    }
                 }
-            }
 
-            if (queryParams.entries().length === 0) return true;
+                if (queryParams.entries().length === 0) return true;
 
-            for (let [paramUrl, valorFiltro] of queryParams.entries()) {
-                const claveJson = filtroKeyMap[paramUrl];
-                if (!claveJson) continue;
+                for (let [paramUrl, valorFiltro] of queryParams.entries()) {
+                    const claveJson = filtroKeyMap[paramUrl];
+                    if (!claveJson) continue;
 
-                const normalizadoFiltro = normalizarTexto(valorFiltro);
-                const detalles = producto["detalles-del-producto"] || [];
-                
-                const cumpleFiltro = detalles.some(detalle => {
-                    const valorProducto = detalle[claveJson];
-                    if (!valorProducto) return false;
+                    const normalizadoFiltro = normalizarTexto(valorFiltro);
+                    const detalles = producto["detalles-del-producto"] || [];
+                    
+                    const cumpleFiltro = detalles.some(detalle => {
+                        const valorProducto = detalle[claveJson];
+                        if (!valorProducto) return false;
 
-                    const normalizadoProducto = normalizarTexto(valorProducto.toString());
-                    return normalizadoProducto === normalizadoFiltro;
-                });
+                        const normalizadoProducto = normalizarTexto(valorProducto.toString());
+                        return normalizadoProducto === normalizadoFiltro;
+                    });
 
-                if (!cumpleFiltro) return false;
-            }
-            return true;
-        });
-    }, [productos, queryParams, envioGratisActivo]);
+                    if (!cumpleFiltro) return false;
+                }
+                return true;
+            });
+        }
+
+        // Aplicar filtro de Hot Sale si está activo
+        if (isHotSaleActive && hotSaleSKUs.length > 0) {
+            productosFiltradosTemp = productosFiltradosTemp.filter(producto => 
+                hotSaleSKUs.includes(producto.sku)
+            );
+        }
+
+        return productosFiltradosTemp;
+    }, [productos, queryParams, envioGratisActivo, isHotSaleActive, hotSaleSKUs]);
 
     const productosOrdenados = useMemo(() => {
         return [...productosFiltrados].sort((a, b) => {
@@ -242,8 +283,13 @@ function CamasFuncionales() {
 
     const limpiarFiltros = () => {
         setCurrentPage(1);
+        setIsHotSaleActive(false);
+        localStorage.setItem('hotSaleActive', 'false');
+        setEnvioGratisActivo(false);
         navigate(location.pathname, { replace: true });
     };
+
+    const hayFiltrosActivos = queryParams.toString() || envioGratisActivo || isHotSaleActive;
 
     if (sub5) {
         return null;
@@ -278,6 +324,18 @@ function CamasFuncionales() {
                                         <span></span>
                                     </div>
                                 </div>
+
+                                {/* Hot Sale Toggle */}
+                                <button type='button' className={`filter-hot-sale ${isHotSaleActive ? 'active' : ''}`} onClick={handleHotSaleToggle}>
+                                    <div className='d-flex-center-left'>
+                                        <span className="material-symbols-outlined">local_fire_department</span>
+                                        <div className='d-flex-column'>
+                                            <p className='title color-gray-dark'>Hot sale</p>
+                                            <span className='color-gray-dark'>(Más vendidos)</span>
+                                        </div>
+                                    </div>
+                                    <div className='switch'></div>
+                                </button>
 
                                 <div className='products-page-filters-container d-flex-column gap-20'>
                                     {filtros.map((filtro, index) => {
@@ -351,7 +409,7 @@ function CamasFuncionales() {
                                     })}
                                 </div>
 
-                                {queryParams.toString() && (
+                                {hayFiltrosActivos && (
                                     <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
                                         <span className="material-icons">delete</span>
                                         <p className="button-link-text">Limpiar filtros</p>
@@ -385,7 +443,7 @@ function CamasFuncionales() {
                                                 <div className="d-flex-column gap-10">
                                                     <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
 
-                                                    {queryParams.toString() && (
+                                                    {hayFiltrosActivos && (
                                                         <button type="button" className="margin-right button-link button-link-2" onClick={limpiarFiltros}>
                                                             <span className="material-icons">delete</span>
                                                             <p className='button-link-text'>Limpiar filtros</p>
