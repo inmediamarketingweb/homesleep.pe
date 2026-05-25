@@ -483,7 +483,7 @@ function Colchones() {
                                     <ul className="products-page-products">
                                         {productosPagina.length === 0 ? (
                                             <div className='d-grid-1-1'>
-                                                <div className="w-100 d-flex-column d-flex-center-center gap-10">
+                                                <div className="w-100 d-flex-column d-flex-center-center text-center gap-10">
                                                     <img src="/assets/imagenes/paginas/not-found.svg" alt="" width={320} />
                                                     <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
                                                 </div>
