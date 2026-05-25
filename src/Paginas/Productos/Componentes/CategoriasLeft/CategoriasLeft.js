@@ -68,7 +68,7 @@ function CategoriasLeft({ onHotSaleChange }) {
                     ))}
                 </ul>
 
-                <img src="https://neliosoftware.com/es/wp-content/uploads/sites/3/2018/07/aziz-acharki-549137-unsplash-1200x775.jpg" className='w-100 d-flex margin-bottom-10 border-radius-15' alt=""/>
+                <img src="/assets/imagenes/productos/oferta-left.jpg" className='w-100 d-flex margin-bottom-10 border-radius-15' alt="En Homesleep encontrarás las mejores ofertas en productos de dormitorios"/>
             </nav>
         </div>
     )

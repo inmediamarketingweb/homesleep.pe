@@ -510,6 +510,10 @@ function Dormitorios() {
                                         <p className="button-link-text">Limpiar filtros</p>
                                     </button>
                                 )}
+
+                                <a href='https://homesleep.pe/productos/dormitorios/king/paraiso/abrazzo/americanos/20/' className='d-flex' title='PROMOCIÓN POR EL DIA DE MAMÁ - DORMITORIO KAMAS ROYAL ABRAZZO'>
+                                    <img src="/assets/imagenes/productos/oferta-left.jpg" className='w-100 d-flex border-radius-10' alt="En Homesleep encontrarás las mejores ofertas en productos de dormitorios"/>
+                                </a>
                             </div>
                         </div>
                     </div>
