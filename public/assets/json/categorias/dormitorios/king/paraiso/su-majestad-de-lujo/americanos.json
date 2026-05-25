@@ -2,7 +2,7 @@
     "productos":[
         {
             "categoria": "dormitorios",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "linea": "americanos",
             "modelo": "Su majestad de lujo",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/1/",
@@ -16,7 +16,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -33,7 +33,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/2/",
@@ -47,7 +47,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -64,7 +64,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/3/",
@@ -78,7 +78,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -95,7 +95,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/4/",
@@ -109,7 +109,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -126,7 +126,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/5/",
@@ -140,7 +140,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -157,7 +157,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/6/",
@@ -171,7 +171,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -188,7 +188,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/7/",
@@ -202,7 +202,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -219,7 +219,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/8/",
@@ -233,7 +233,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -250,7 +250,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/9/",
@@ -264,7 +264,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -281,7 +281,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/10/",
@@ -295,7 +295,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -312,7 +312,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/11/",
@@ -326,7 +326,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -343,7 +343,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/12/",
@@ -357,7 +357,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -374,7 +374,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/13/",
@@ -388,7 +388,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -405,7 +405,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/14/",
@@ -419,7 +419,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -436,7 +436,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/15/",
@@ -450,7 +450,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -467,7 +467,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/16/",
@@ -481,7 +481,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -498,7 +498,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/17/",
@@ -512,7 +512,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -529,7 +529,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/18/",
@@ -543,7 +543,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -560,7 +560,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/19/",
@@ -574,7 +574,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -591,7 +591,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/20/",
@@ -605,7 +605,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -622,7 +622,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/21/",
@@ -636,7 +636,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -653,7 +653,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/22/",
@@ -667,7 +667,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -684,7 +684,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/23/",
@@ -698,7 +698,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -715,7 +715,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/24/",
@@ -729,7 +729,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -746,7 +746,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/25/",
@@ -760,7 +760,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -777,7 +777,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/26/",
@@ -791,7 +791,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -808,7 +808,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/27/",
@@ -822,7 +822,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -839,7 +839,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/28/",
@@ -853,7 +853,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -870,7 +870,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/29/",
@@ -884,7 +884,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -901,7 +901,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/30/",
@@ -915,7 +915,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -932,7 +932,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/31/",
@@ -946,7 +946,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -963,7 +963,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/32/",
@@ -977,7 +977,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -994,7 +994,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/33/",
@@ -1008,7 +1008,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1025,7 +1025,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/34/",
@@ -1039,7 +1039,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1056,7 +1056,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/35/",
@@ -1070,7 +1070,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1087,7 +1087,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/36/",
@@ -1101,7 +1101,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1118,7 +1118,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/37/",
@@ -1132,7 +1132,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1149,7 +1149,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/38/",
@@ -1163,7 +1163,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1180,7 +1180,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/39/",
@@ -1194,7 +1194,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1211,7 +1211,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/40/",
@@ -1225,7 +1225,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "Si",
@@ -1242,7 +1242,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/41/",
@@ -1256,7 +1256,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1273,7 +1273,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/42/",
@@ -1287,7 +1287,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1304,7 +1304,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/43/",
@@ -1318,7 +1318,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1335,7 +1335,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/44/",
@@ -1349,7 +1349,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1366,7 +1366,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/45/",
@@ -1380,7 +1380,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1397,7 +1397,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/46/",
@@ -1411,7 +1411,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1428,7 +1428,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/47/",
@@ -1442,7 +1442,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1459,7 +1459,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/48/",
@@ -1473,7 +1473,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",
@@ -1490,7 +1490,7 @@
         {
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Su majestad de lujo",
             "linea": "americanos",
             "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/49/",
@@ -1504,7 +1504,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos",
                     "tamaño": "king",
                     "cajones": "No",

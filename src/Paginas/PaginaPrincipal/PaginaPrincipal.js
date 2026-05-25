@@ -13,10 +13,10 @@ function PaginaPrincipal(){
         <>
             <Helmet>
                 <title>Dormitorios El Cisne, Paraiso, Kamas y Komfort | Homesleep</title>
-                <meta name="description" content="Fabricantes de colchones, camas, box tarimas y juegos de dormitorios con más de 15 años en el mercado peruano ofreciendo calidad y confort para tu descanso." />
+                <meta name="description" content="Tienda mayorista en productos para dormitorio, contamos con productos El Cisne, Paraiso, Kamas, Komfort y muchas marcas más." />
 
                 <meta property="og:title" content="Dormitorios El Cisne, Paraiso, Kamas y Komfort | Homesleep"/>
-                <meta property="og:description" content="Homesleep encintrarás las mejores marcas para tu descanso, kamas, paraiso y el cisne."/>
+                <meta property="og:description" content="Homesleep encontrarás las mejores marcas para tu descanso, kamas, paraiso y el cisne."/>
                 <meta property="og:type" content="website"/>
                 <meta property="og:url" content="https://www.homesleep.pe/"/>
                 <meta property="og:image" content="/assets/imagenes/paginas/pagina-principal/homepage-video.jpg"/>

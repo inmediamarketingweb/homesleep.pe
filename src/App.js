@@ -7,6 +7,7 @@ import Layout from "./Componentes/Layout";
 
 import PaginaPrincipal from "./Paginas/PaginaPrincipal/PaginaPrincipal";
 import Productos from './Paginas/Productos/Productos';
+// import LayoutP from './Paginas/Productos/Componentes/Layout';
 import Colchones from './Paginas/Productos/Categorias/Colchones';
 import CamasBoxTarimas from './Paginas/Productos/Categorias/CamasBoxTarimas';
 import Dormitorios from "./Paginas/Productos/Categorias/Dormitorios";
@@ -59,6 +60,7 @@ function App(){
                         <Route path="/" element={<PaginaPrincipal/>} />
 
                         <Route path="/productos/" element={<Productos />} />
+                        {/* <Route path="/productos/" element={<LayoutP />} /> */}
 
                         <Route path="/productos/colchones/" element={<Colchones />} />
                         <Route path="/productos/colchones/:sub1/:sub2/:sub3/" element={<PaginaProducto />} />

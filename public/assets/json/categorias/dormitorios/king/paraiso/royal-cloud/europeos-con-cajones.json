@@ -3,7 +3,7 @@
         {   
             "id": 1,
             "categoria": "dormitorios",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "linea": "europeos con cajones",
             "tamaño": "king",
             "modelo": "Royal Cloud",
@@ -18,7 +18,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "europeos con cajones",
                     "tamaño": "king",
                     "cajones": "Si",

@@ -4,7 +4,7 @@
             "id": 1,
             "tamaño": "king",
             "categoria": "dormitorios",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Royal Dynasty",
             "linea": "europeos con cajones",
             "ruta": "/productos/dormitorios/king/paraiso/royal-dynasty/europeos-con-cajones/1/",
@@ -18,7 +18,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "europeos con cajones",
                     "tamaño": "king",
                     "cajones": "Si",

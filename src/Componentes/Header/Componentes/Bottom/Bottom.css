@@ -152,6 +152,7 @@
 
 .menu-li-div:hover .menu-link-button span{
     opacity: 1;
+    rotate: 180deg;
 }
 
 .submenu-container{
@@ -178,6 +179,10 @@
     pointer-events: unset;
     user-select: unset;
     box-shadow: 0 6px 6px rgba(0 0 0 / 0.25);
+}
+
+.menu-li.active span{
+    rotate: 180deg;
 }
 
 .submenu{

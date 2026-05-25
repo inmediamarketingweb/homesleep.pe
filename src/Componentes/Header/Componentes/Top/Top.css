@@ -1,7 +1,7 @@
 .header-top-container{
     background: #585858;
     width: 100%;
-    height: 40px;
+    height: 36px;
     padding: 0 20px;
     display: flex;
     align-items: center;
@@ -17,7 +17,7 @@
 .header-top-left > li > a h2,
 .header-top-left > li > ul li a h2{
     color: var(--white);
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .header-top-left > li a img,
@@ -34,6 +34,7 @@
 
 .location p{
     color: var(--white);
+    font-size: 14px;
 }
 
 .location span{

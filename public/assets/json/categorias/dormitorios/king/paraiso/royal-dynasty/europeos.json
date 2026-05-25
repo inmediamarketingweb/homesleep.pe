@@ -4,7 +4,7 @@
             "id": 1,
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Royal Dynasty",
             "linea": "Europeos",
             "ruta": "/productos/dormitorios/king/paraiso/royal-dynasty/europeos/1/",
@@ -18,7 +18,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "Europeos",
                     "tamaño": "king",
                     "cajones": "no",
@@ -35,7 +35,7 @@
         {
             "id": 2,
             "categoria": "dormitorios",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "linea": "Europeos",
             "tamaño": "king",
             "modelo": "Royal Dynasty",
@@ -50,7 +50,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "Europeos",
                     "tamaño": "king",
                     "cajones": "no",

@@ -1,5 +1,6 @@
 .products-page-main{
     padding: 20px;
+    padding-top: 0;
     width: 100%;
 }
 
@@ -14,8 +15,8 @@
 
 .products-page-left{
     display: flex;
-    width: 300px;
-    height: 100%;
+    width: 100%;
+    max-width: 280px;
 }
 
 .products-page-categories-list{

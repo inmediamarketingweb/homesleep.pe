@@ -12,13 +12,9 @@
                 "segundo mensaje jaskdajslll",
                 "3er mensaje"
             ],
-            "lista-uno":{
+            "medidas":{
                 "titulo": "Medidas",
                 "lista":[
-                    {
-                        "titulo": "1 plaza",
-                        "ruta": "/productos/colchones/1-plaza/"
-                    },
                     {
                         "titulo": "1 plaza y media",
                         "ruta": "/productos/colchones/1-plaza-y-media/"
@@ -96,7 +92,7 @@
                 "segundo mensaje jaskdajslll",
                 "3er mensaje"
             ],
-            "lista-1":{
+            "medidas":{
                 "titulo": "Medidas",
                 "lista":[
                     {
@@ -179,7 +175,7 @@
                 "segundo mensaje jaskdajslll",
                 "3er mensaje"
             ],
-            "lista-1":{
+            "medidas":{
                 "titulo": "Medidas",
                 "lista":[
                     {
@@ -267,7 +263,7 @@
                 "segundo mensaje jaskdajslll",
                 "3er mensaje"
             ],
-            "lista-1":{
+            "medidas":{
                 "titulo": "Medidas",
                 "lista":[
                     {
@@ -350,7 +346,7 @@
                 "segundo mensaje jaskdajslll",
                 "3er mensaje"
             ],
-            "lista-1":{
+            "medidas":{
                 "titulo": "Medidas",
                 "lista":[
                     {

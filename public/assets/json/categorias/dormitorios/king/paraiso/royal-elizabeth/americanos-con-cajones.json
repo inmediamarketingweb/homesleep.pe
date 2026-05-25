@@ -4,7 +4,7 @@
             "id": 1,
             "categoria": "dormitorios",
             "tamaño": "king",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "modelo": "Royal Elizabeth",
             "linea": "americanos con cajones",
             "ruta": "/productos/dormitorios/king/paraiso/royal-elizabeth/americanos-con-cajones/1/",
@@ -18,7 +18,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos con cajones",
                     "tamaño": "king",
                     "cajones": "Si",

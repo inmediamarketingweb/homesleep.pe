@@ -171,7 +171,7 @@
     .search-bar-container{
         position: fixed;
         left: 0;
-        top: 110px;
+        top: 100px;
         width: 100vw;
     }
 
@@ -185,6 +185,10 @@
     .search-bar-button span{
         font-size: 32px;
         color: var(--color-1);
+    }
+
+    .search-bar input{
+        height: 60px;
     }
 
     .search-bar-items-container{

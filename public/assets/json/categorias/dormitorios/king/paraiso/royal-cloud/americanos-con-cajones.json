@@ -3,7 +3,7 @@
         {   
             "id": 1,
             "categoria": "dormitorios",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "linea": "americanos con cajones",
             "tamaño": "king",
             "modelo": "Royal Cloud",
@@ -18,7 +18,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos con cajones",
                     "tamaño": "king",
                     "cajones": "Si",
@@ -35,7 +35,7 @@
         {   
             "id": 2,
             "categoria": "dormitorios",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "linea": "americanos con cajones",
             "tamaño": "king",
             "modelo": "Royal Cloud",
@@ -50,7 +50,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos con cajones",
                     "tamaño": "king",
                     "cajones": "Si",
@@ -67,7 +67,7 @@
         {   
             "id": 3,
             "categoria": "dormitorios",
-            "marca": "Paraiso",
+            "marca": "Kamas - Paraiso",
             "linea": "americanos con cajones",
             "tamaño": "king",
             "modelo": "Royal Cloud",
@@ -82,7 +82,7 @@
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
-                    "marca": "Paraiso",
+                    "marca": "Kamas - Paraiso",
                     "línea": "americanos con cajones",
                     "tamaño": "king",
                     "cajones": "Si",
