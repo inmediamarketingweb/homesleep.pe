@@ -871,6 +871,18 @@ button{
     gap: 20px;
 }
 
+.border-radius-5{
+    border-radius: 5px;
+}
+
+.border-radius-6{
+    border-radius: 6px;
+}
+
+.border-radius-10{
+    border-radius: 10px;
+}
+
 .border-radius-15{
     border-radius: 15px;
 }
