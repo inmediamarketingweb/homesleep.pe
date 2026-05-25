@@ -158,7 +158,7 @@
 .submenu-container{
     position: fixed;
     left: 0;
-    top: 100px;
+    top: 96px;
     width: 100%;
     height: auto;
     padding-bottom: 20px;
@@ -297,11 +297,10 @@
     .menu-container{
         position: fixed;
         left: 0;
-        top: 100px;
+        top: 96px;
         background: var(--white);
-        /* background: red; */
         width: 100vw;
-        height: calc(100vh - 100px);
+        height: calc(100vh - 96px);
         overflow-y: scroll;
 
         opacity: 0;
