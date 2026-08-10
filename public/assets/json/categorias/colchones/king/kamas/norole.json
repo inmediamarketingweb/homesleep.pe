@@ -12,7 +12,7 @@
             "precioNormal": 1999,
             "precioVenta": 1399,
             "stock": 99,
-            "sku": "H1149N10",
+            "sku": "D1149N10",
             "regalos":[ "2 almohadas" ],
             "tamaños-disponibles":[
                 { "nombre": "1 plaza y media", "ruta": "H11159N10"},
@@ -29,7 +29,7 @@
         {
             "marca": "kamas",
             "modelo-de-colchón": "Norole",
-            "línea-de-colchón": "Extra ortopédico",
+            "línea-de-colchón": "Extra ortopédicos",
             "nivel-de-confort": "Muy firme",
             "resortes": "Bonell",
             "filas-de-resortes": "20 filas",

@@ -12,12 +12,12 @@
             "precioNormal": 1409,
             "precioVenta": 1099,
             "stock": 99,
-            "sku": "H1148N10",
+            "sku": "D1148N10",
             "regalos":[ "2 almohadas" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "H11158N10" },
-                { "nombre": "2 plazas", "sku": "H1128N10" },
-                { "nombre": "Queen", "sku": "H1138N10" }
+                { "nombre": "1 plaza y media", "sku": "D11158N10" },
+                { "nombre": "2 plazas", "sku": "D1128N10" },
+                { "nombre": "Queen", "sku": "D1138N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -31,7 +31,7 @@
         {
             "marca": "kamas",
             "modelo-de-colchón": "Thameo pocket",
-            "línea-de-colchón": "Súper ortopédico",
+            "línea-de-colchón": "Súper ortopédicos",
             "nivel-de-confort": "Muy confortable",
             "resortes": "Pocket",
             "cantiad-de-resortes": "600 resortes pocket",

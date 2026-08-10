@@ -9,16 +9,17 @@
             "ruta": "/productos/colchones/queen/kamas/der-prinz/",
             "nombre": "COLCHÓN QUEEN KAMAS SUPER ORTOPÉDICO DER PRINZ",
             "fotos": "/assets/imagenes/productos/colchones/kamas/der-prinz/",
+            "tipo-de-envio": "Envío preferente",
             "precioRegular": 1569,
             "precioNormal": 1149,
             "precioVenta": 799,
             "stock": 25,
-            "sku": "H1137N10",
+            "sku": "D1137N10",
             "incluye":[ "2 almohadas" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "H11157N10" },
-                { "nombre": "2 plazas", "sku": "H1127N10" },
-                { "nombre": "King", "sku": "H1147N10" }
+                { "nombre": "1 plaza y media", "sku": "D11157N10" },
+                { "nombre": "2 plazas", "sku": "D1127N10" },
+                { "nombre": "King", "sku": "D1147N10" }
             ]
         }
     ],
@@ -31,7 +32,7 @@
         {
             "marca": "kamas",
             "modelo-de-colchón": "Der Prinz",
-            "línea-de-colchón": "Super ortopédico",
+            "línea-de-colchón": "Súper ortopédicos",
             "nivel-de-confort": "Muy confortable",
             "resortes": "bonell",
             "filas-de-resortes": "17",

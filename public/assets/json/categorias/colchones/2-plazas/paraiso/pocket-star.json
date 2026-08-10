@@ -11,14 +11,14 @@
             "fotos": "/assets/imagenes/productos/colchones/paraiso/pocket-star/",
             "precioRegular": 1641,
             "precioNormal": 1164,
-            "precioVenta": 559,
+            "precioVenta": 629,
             "stock": 14,
-            "sku": "H12214N10",
+            "sku": "D12214N10",
             "regalos":[ "2 almohadas", "1 protector de colchón" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "H121514N10" },
-                { "nombre": "Queen", "sku": "H12314N10" },
-                { "nombre": "King", "sku": "H12414N10" }
+                { "nombre": "1 plaza y media", "sku": "D121514N10" },
+                { "nombre": "Queen", "sku": "D12314N10" },
+                { "nombre": "King", "sku": "D12414N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -31,11 +31,10 @@
     ],
     "ficha":[
         {
-            "marca": "Paraiso",
+            "marca": "paraiso",
             "modelo-de-colchón": "Pocket star",
             "tamaño": "2 plazas",
             "nivel-de-confort": "Intermedio",
-            "línea-de-colchón": "ortopédico",
             "resortes": "Pocket",
             "tela": "Tejido de punto",
             "tratamiento": "Antihongos, antibacterias y antiácaros",

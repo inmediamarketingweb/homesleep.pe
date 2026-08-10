@@ -12,7 +12,7 @@
             "precioNormal": 699,
             "precioVenta": 499,
             "stock": 14,
-            "sku": "H133N10",
+            "sku": "D133N10",
             "regalos":["2 almohadas"],
             "tipo-de-envio": "Envío preferente"
         }
@@ -27,8 +27,6 @@
             "marca":"el cisne",
             "modelo-de-colchón": "RC-418",
             "resortes": "418 continuos ACC",
-            "línea-de-colchón": "ortopédico",
-            "nivel-de-confort": "anátomico",
             "tela": "Pique",
             "tipo-de-uso": "un solo lado",
             "tipo-de-resorte": "Pocket",

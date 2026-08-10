@@ -32,7 +32,7 @@
             "marca":["El cisne", "Kamas - El cisne", "Kamas", "Paraiso", "Kamas - Paraiso", "Komfort", "Kamas - Komfort"]
         },
         {
-            "resortes":["Bonell", "Pocket", "Cosisoft"]
+            "resortes":["Bonell", "Pocket", "Cosisoft", "Espuma"]
         },
         {
             "modelos":[
@@ -51,7 +51,7 @@
             ]
         },
         {
-            "línea":["cama nube", "americanos", "americanos con cajones", "europeos", "europeos con cajones", "premium"]
+            "línea":["americanos", "europeos", "nube", "circulares", "clásicos"]
         },
         {
             "tipo-de-cabecera":["aérea", "aérea con patas", "pedestal"]

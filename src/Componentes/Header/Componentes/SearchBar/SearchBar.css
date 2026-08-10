@@ -36,7 +36,6 @@
 }
 
 .search-bar-input-container input::placeholder{
-    /* color: var(--component); */
     color: #D0D0D0;
     font-size: 15px;
 }
@@ -62,6 +61,8 @@
     display: none;
     user-select: none;
     pointer-events: none;
+
+    transition: var(--t-200ms-linear);
 }
 
 .search-bar-results-container.active{
@@ -153,4 +154,10 @@
 
 .search-bar-empty-message{
     padding: 20px 10px;
+}
+
+@media screen and (max-width: 600px){
+    .search-bar-container{
+        display: none;
+    }
 }

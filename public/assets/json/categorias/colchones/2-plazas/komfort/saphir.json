@@ -4,19 +4,19 @@
             "categoria": "colchones",
             "tamaño": "2 plazas",
             "marca": "komfort",
-            "modelo": "spahir",
+            "modelo": "saphir",
             "ruta": "/productos/colchones/2-plazas/komfort/saphir/",
             "nombre": "COLCHÓN KOMFORT POCKET SAPHIR 2 PLAZAS",
-            "fotos": "/assets/imagenes/productos/colchones/komfort/saphir/",
+            "fotos": "/assets/imagenes/productos/colchones/komfort/pocket-saphir/",
             "precioRegular": 1319,
             "precioNormal": 999,
             "precioVenta": 599,
             "stock": 14,
-            "sku": "H1421N10",
+            "sku": "D1421N10",
             "regalos":[ "2 almohadas", "1 protector de colchón" ],
             "tamaños-disponibles": [
-                { "nombre": "queen", "sku": "H1431N10" },
-                { "nombre": "king", "sku": "H1441N10" }
+                { "nombre": "queen", "sku": "D1431N10" },
+                { "nombre": "king", "sku": "D1441N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }

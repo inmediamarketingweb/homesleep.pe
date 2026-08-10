@@ -9,16 +9,16 @@
             "ruta": "/productos/colchones/1-plaza-y-media/paraiso/pocket-italiano/",
             "nombre": "COLCHÓN PARAISO 1 PLAZA Y MEDIA POCKET ITALIANO",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/pocket-italiano/",
-            "precioRegular": 1299,
-            "precioNormal": 899,
+            "precioRegular": 2419,
+            "precioNormal": 1806,
             "precioVenta": 549,
             "stock": 14,
-            "sku": "H121526N10",
+            "sku": "D121526N10",
             "regalos":[ "1 almohada", "1 protector de colchón" ],
             "tamaños-disponibles":[
-                { "nombre": "2 plazas", "sku": "H12226N10"},
-                { "nombre": "queen", "sku": "H12326N10"},
-                { "nombre": "king", "sku": "H12426N10"}
+                { "nombre": "2 plazas", "sku": "D12226N10"},
+                { "nombre": "queen", "sku": "D12326N10"},
+                { "nombre": "king", "sku": "D12426N10"}
             ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -33,8 +33,6 @@
         {
             "marca": "paraiso",
             "modelo-de-colchón": "pocket italiano",
-            "nivel-de-confort": "Confortable",
-            "línea-de-colchón": "Ortopédico",
             "tela": "Tejido de punto",
             "resortes": "pocket",
             "cantidad-de-resortes": "754",

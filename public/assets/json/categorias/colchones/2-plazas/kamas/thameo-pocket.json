@@ -12,7 +12,7 @@
             "precioNormal": 699,
             "precioVenta": 549,
             "stock": 99,
-            "sku": "H1128N10",
+            "sku": "D1128N10",
             "regalos":[ "1 almohada" ],
             "tamaños-disponibles":[
                 { "nombre": "1 plaza y media", "ruta": "H11158N10" },
@@ -31,7 +31,7 @@
         {
             "marca": "kamas",
             "modelo-de-colchón": "Thameo pocket",
-            "línea-de-colchón": "Súper ortopédico",
+            "línea-de-colchón": "Súper ortopédicos",
             "nivel-de-confort": "Muy confortable",
             "resortes": "pocket",
             "cantidad-de-resortes": "494 resortes pocket",

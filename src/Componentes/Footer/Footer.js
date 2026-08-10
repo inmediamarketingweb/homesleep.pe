@@ -189,7 +189,7 @@ function Footer(){
 
                                     <a href='https://www.facebook.com/share/v/1DBojW61T9/' target='_blank' rel="noopener noreferrer" className='d-flex-column'>
                                         <p>👑 Lujo y comodidad en tu descanso 👑</p>
-                                        <p>Dormitorio KAMAS / CISNE Pocket King 3 Plazas por S/1699</p>
+                                        <p>Dormitorio KAMAS / CISNE Pocket King 3 Plazas por s/1799</p>
                                         <p>✨ Cabeceras exclusivas</p>
                                         <p>✨ +30 modelos</p>
                                         <p>✨ +60 colores</p>

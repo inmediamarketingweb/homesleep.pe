@@ -12,7 +12,7 @@
             "precioNormal": 1399,
             "precioVenta": 999,
             "stock": 14,
-            "sku": "H13413N10",
+            "sku": "D13413N10",
             "regalos":[ "3 almohadas" ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -29,7 +29,7 @@
             "modelo-de-colchón": "Pocket peruano",
             "tamaño": "King",
             "línea": "ortopédico",
-            "nivel-de-confort": "confortable",
+            "nivel-de-confort": "Intermedio",
             "tipo-de-resortes": "Pocket",
             "resortes": "702 resortes pocket",
             "tela": "Pique",

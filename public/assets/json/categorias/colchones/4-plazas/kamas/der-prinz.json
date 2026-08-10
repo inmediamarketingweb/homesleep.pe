@@ -2,22 +2,23 @@
     "productos":[
         {
             "categoria": "colchones",
-            "tamaño": "king",
+            "tamaño": "4 plazas",
             "marca": "kamas",
             "modelo": "der prinz",
             "ruta": "/productos/colchones/4-plazas/kamas/der-prinz/",
-            "nombre": "COLCHÓN KAMAS 4 PLAZAS SÚPER ORTOPÉDICO DER PRINZ",
+            "nombre": "COLCHÓN KAMAS ORTOPÉDICO DER PRINZ 4 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/kamas/der-prinz/",
-            "precioRegular": 3199,
-            "precioNormal": 2399,
-            "precioVenta": 1649,
-            "stock": 13,
-            "sku": "H1147N10",
-            "regalos":[ "2 almohadas" ],
+            "precioRegular": 2799,
+            "precioNormal": 2299,
+            "precioVenta": 1599,
+            "stock": 99,
+            "sku": "D1163N10",
+            "regalos":[ "4 almohadas" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "H11157N10" },
-                { "nombre": "2 plazas", "sku": "H1127N10" },
-                { "nombre": "Queen", "sku": "H1137N10" }
+                { "nombre": "1 plaza y media", "sku": "D11153N10" },
+                { "nombre": "2 plazas", "sku": "D1123N10" },
+                { "nombre": "Queen", "sku": "D1133N10" },
+                { "nombre": "King", "sku": "D1143N10" }
             ],
             "tipo-de-envio": "Gratis"
         }
@@ -31,19 +32,18 @@
         {
             "marca": "kamas",
             "modelo-de-colchón": "Der Prinz",
-            "tamaño": "King",
+            "tamaño": "4 plazas",
             "línea-de-colchón": "Súper ortopédico",
             "nivel-de-confort": "Muy confortable",
-            "resortes": "bonell",
-            "filas-de-resortes": "22",
+            "resortes": "Bonell",
+            "filas-de-resortes": " 27 filas",
             "material-de-resorte": "Acero templado",
             "tela": "Algodón tejido en punto",
-            "densidad-de-la-espuma": "20kg/m3",
+            "densidad-de-espuma": "20kg/m3",
             "tipo-de-uso": "Un solo lado",
-            "incorpora": "Sistema one size",
             "refuerzos": "Centrales",
-            "marco": "Marco de espuma",
-            "grosor": "30cm.",
+            "marco": "Sellado",
+            "grosor": "31cm.",
             "soporte-de-peso": "90kg. por persona",
             "garantía": "6 años"
         }

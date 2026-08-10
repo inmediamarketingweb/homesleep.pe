@@ -10,9 +10,9 @@
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/presence/",
             "precioRegular": 1999,
             "precioNormal": 1149,
-            "precioVenta": 899,
+            "precioVenta": 649,
             "stock": 14,
-            "sku": "H134N10",
+            "sku": "D134N10",
             "regalos":["2 almohadas"],
             "tipo-de-envio": "Envío preferente"
         }
@@ -28,8 +28,6 @@
             "modelo-de-colchón": "Presence",
             "resortes": "255 resortes bicónicos ACC",
             "tela": "tricot",
-            "nivel-de-confort": "Muy confortable",
-            "línea-de-colchón": "súper ortopédico",
             "marco": "Espuma con densidad 16kg/m3",
             "grosor": "37cm",
             "capas": "2 láminas de poliuretano de alta densidad y 2 láminas de espuma de poliuretano de 1 1/4'' a 16kg/m3",

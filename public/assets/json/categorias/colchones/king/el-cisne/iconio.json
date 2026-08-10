@@ -2,7 +2,7 @@
     "productos":[
         {
             "categoria": "colchones",
-            "tamaño": "King",
+            "tamaño": "king",
             "marca": "el cisne",
             "modelo": "iconio",
             "ruta": "/productos/colchones/king/el-cisne/iconio/",
@@ -12,7 +12,7 @@
             "precioNormal": 2089,
             "precioVenta": 1399,
             "stock": 14,
-            "sku": "H1347N10",
+            "sku": "D1347N10",
             "regalos":["2 almohadas viscoelásticas", "1 protector de colchón"],
             "tipo-de-envio": "Envío preferente"
         }
@@ -25,11 +25,8 @@
     ],
     "ficha":[
         {
-            "marca": "el cisne",
             "resortes": "396 bicónicos",
             "tela": "Pique",
-            "línea-de-colchón": "súper ortopédico",
-            "nivel-de-confort": "muy confortable",
             "tratamiento": "Antihongos, antibacterias y antiácaros",
             "tipo-de-uso": "un solo lado",
             "tipo-de-resorte": "Pocket",

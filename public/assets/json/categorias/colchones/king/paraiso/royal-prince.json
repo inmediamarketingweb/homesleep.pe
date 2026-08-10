@@ -11,9 +11,9 @@
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-prince/",
             "precioRegular": 2999,
             "precioNormal": 2508,
-            "precioVenta": 1129,
+            "precioVenta": 1199,
             "stock": 14,
-            "sku": "H12423N10",
+            "sku": "D12423N10",
             "regalos":[ "1 almohada viscoelástica", "1 protector de colchón" ],
             "tamaños-disponibles":[
                 { "nombre": "1 plaza y media", "ruta": "H121523N10" },
@@ -25,10 +25,9 @@
     ],
     "ficha":[
         {
-            "marca": "Paraiso",
+            "marca": "paraiso",
             "modelo-de-colchón": "Royal prince",
             "nivel-de-confort": "Firme",
-            "línea-de-colchón": "anatómico",
             "resortes": "Pocket",
             "tela": "Tejido de punto higroscópica que absorde la húmedad",
             "sistema": "one side",

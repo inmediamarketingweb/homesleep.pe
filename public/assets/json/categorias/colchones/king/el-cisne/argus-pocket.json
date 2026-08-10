@@ -2,7 +2,7 @@
     "productos":[
         {
             "categoria": "colchones",
-            "tamaño": "King",
+            "tamaño": "king",
             "marca": "el cisne",
             "modelo": "dynamic",
             "ruta": "/productos/colchones/king/el-cisne/dynamic/",
@@ -12,7 +12,7 @@
             "precioNormal": 2389,
             "precioVenta": 1699,
             "stock": 14,
-            "sku": "H1348N10",
+            "sku": "D1348N10",
             "regalos":["2 almohadas viscoelásticas", "1 protector de colchón"],
             "tipo-de-envio": "Envío preferente"
         }
@@ -29,8 +29,6 @@
             "modelo-de-colchón": "Dynamic",
             "resortes": "780 pocket",
             "tela": "Pique",
-            "línea-de-colchón": "ortopédico",
-            "nivel-de-confort": "confortable",
             "tratamiento": "Antihongos, antibacterias y antiácaros",
             "tipo-de-uso": "un solo lado",
             "tipo-de-resorte": "Pocket",

@@ -13,12 +13,12 @@
             "precioNormal": 733,
             "precioVenta": 599,
             "stock": 14,
-            "sku": "H12226N10",
+            "sku": "D12226N10",
             "regalos":[ "2 almohadas", "1 protector de colchón" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "H121526N10" },
-                { "nombre": "Queen", "sku": "H12326N10" },
-                { "nombre": "king", "sku": "H12426N10" }
+                { "nombre": "1 plaza y media", "sku": "D121526N10" },
+                { "nombre": "Queen", "sku": "D12326N10" },
+                { "nombre": "king", "sku": "D12426N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -30,9 +30,8 @@
     ],
     "ficha":[
         {
-            "marca": "Paraiso",
+            "marca": "paraiso",
             "modelo-de-colchón": "pocket italiano",
-            "línea-de-colchón": "ortopédico",
             "nivel-de-confort": "Intermedio",
             "resortes": "pocket",
             "cantidad-de-resortes": "450 resortes",

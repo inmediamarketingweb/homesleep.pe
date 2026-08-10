@@ -3,6 +3,14 @@
         {
             "tamaño":[
                 {
+                    "tamaño": "Cuna",
+                    "ruta": "/productos/colchones/cuna/"
+                },
+                {
+                    "tamaño": "1 plaza",
+                    "ruta": "/productos/colchones/1-plaza/"
+                },
+                {
                     "tamaño": "1 plaza y media",
                     "ruta": "/productos/colchones/1-plaza-y-media/"
                 },
