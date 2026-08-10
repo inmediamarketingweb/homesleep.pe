@@ -29,7 +29,7 @@ function Bottom(){
     useEffect(() => {
         const fetchCategories = async () => {
             try {
-                const response = await fetch('/assets/json/categorias/categorias.json');
+                const response = await fetch('/assets/json/componentes/header.json');
                 if (!response.ok) {
                     throw new Error('Error al cargar los archivos');
                 }
@@ -65,75 +65,44 @@ function Bottom(){
 
                 <nav className={`menu-container ${isMenuOpen ? 'active' : ''}`}>
                     <ul className='menu'>
-                        {categories.categorias.map((categoria) => (
-                            <li key={uuidv4()} className={`menu-li ${activeCategory === categoria.id ? 'active' : ''}`} onClick={() => categoria.subCategorias && handleCategoryClick(categoria.id)}>
+                        {categories.header.map((categoria) => (
+                            <li key={uuidv4()} className={`menu-li ${activeCategory === categoria.id ? 'active' : ''}`} onClick={() => categoria['sub-categorias'] && handleCategoryClick(categoria.id)}>
                                 <div className='menu-li-div'>
-                                    <a href={categoria.ruta} title={categoria.categoria} className='menu-link'>
+                                    <a href={categoria.link} title={categoria.categoria} className='menu-link'>
                                         <h2>{categoria.categoria}</h2>
                                     </a>
 
-                                    {categoria.subCategorias && (
+                                    {categoria['sub-categorias'] && (
                                         <button type='button' className='menu-link-button'>
                                             <span className="material-icons">keyboard_arrow_down</span>
                                         </button>
                                     )}
                                 </div>
 
-                                {categoria.subCategorias && (
+                                {categoria['sub-categorias'] && (
                                     <div className={`submenu-container ${activeCategory === categoria.id ? 'active' : ''}`}>
                                         <div className='submenu'>
-                                            {categoria.menuImg && (
+                                            {categoria['banner-img'] && (
                                                 <div className='submenu-target submenu-target-4'>
-                                                    {/* <img src="https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/colchones.webp" width={450} height={160} loading='lazy' alt="" /> */}
-                                                    <img width={450} height={160} loading='lazy' src={categoria.menuImg[0]?.imgSrc} alt={categoria.menuImg[0]?.imgAlt || categoria.categoria}/>
+                                                    <img width={450} height={160} loading='lazy' src={categoria['banner-img']} alt={categoria['banner-img-alt'] || categoria.categoria}/>
                                                 </div>
                                             )}
 
                                             <nav className='submenu-nav'>
-                                                {categoria.medidas && (
-                                                        <div className='submenu-target submenu-target-3'>
-                                                            <h3 className='submenu-target-title'>Medidas</h3>
-                                                            <ul>
-                                                                {categoria.medidas.map((medida) => (
-                                                                    <li key={uuidv4()}>
-                                                                        <a href={medida.ruta} title={medida.medida}>
-                                                                            <h4>{medida.medida}</h4>
-                                                                        </a>
-                                                                    </li>
-                                                                ))}
-                                                            </ul>
-                                                        </div>
-                                                )}
-
-                                                {categoria.subCategorias && (
-                                                    <div className='submenu-target submenu-target-2'>
-                                                        <h3 className='submenu-target-title'>{categoria.subCategoriasTitulo?.[0]?.text || 'Subcategorías'}</h3>
+                                                {categoria['sub-categorias'].map((subCategoria) => (
+                                                    <div key={uuidv4()} className='submenu-target submenu-target-3'>
+                                                        <h3 className='submenu-target-title'>{subCategoria.titulo}</h3>
                                                         <ul>
-                                                            {categoria.subCategorias.map((sub) => (
+                                                            {subCategoria.lista.map((item) => (
                                                                 <li key={uuidv4()}>
-                                                                    <a href={sub.ruta} title={sub.subcategoria}>
-                                                                        <h4>{sub.subcategoria}</h4>
+                                                                    <a href={item.link} title={item.text}>
+                                                                        <h4>{item.text}</h4>
                                                                     </a>
                                                                 </li>
                                                             ))}
                                                         </ul>
                                                     </div>
-                                                )}
-
-                                                {categoria.modelos && (
-                                                    <div className='submenu-target submenu-target-3'>
-                                                        <h3 className='submenu-target-title'>Modelos</h3>
-                                                        <ul>
-                                                            {categoria.modelos.map((modelo) => (
-                                                                <li key={uuidv4()}>
-                                                                    <a href={modelo.ruta} title={modelo.modelo}>
-                                                                        <h4>{modelo.modelo}</h4>
-                                                                    </a>
-                                                                </li>
-                                                            ))}
-                                                        </ul>
-                                                    </div>
-                                                )}
+                                                ))}
                                             </nav>
                                         </div>
                                     </div>

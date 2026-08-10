@@ -20,9 +20,9 @@ function Top(){
                                 </a>
                             </li>
                             <li>
-                                <a href='tel: +51974317647' title="Llamar" className='d-flex-center-center gap-5'>
+                                <a href='tel: +51975530405' title="Llamar" className='d-flex-center-center gap-5'>
                                     <img src="/assets/imagenes/iconos/telefono-gris.svg" alt="Teléfono | Homesleep" />
-                                    <h2>974317647</h2>
+                                    <h2>975530405</h2>
                                 </a>
                             </li>
                         </ul>
