@@ -1,0 +1,42 @@
+{
+    "productos":[
+        {
+            "categoria": "colchones",
+            "tamaño": "queen",
+            "marca": "el cisne",
+            "modelo": "dynamic",
+            "ruta": "/productos/colchones/queen/el-cisne/dynamic/",
+            "nombre": "COLCHÓN EL CISNE DYNAMIC QUEEN",
+            "fotos": "/assets/imagenes/productos/colchones/el-cisne/dynamic/",
+            "precioRegular": 2599,
+            "precioNormal": 2389,
+            "precioVenta": 1699,
+            "stock": 14,
+            "sku": "D1338N10",
+            "regalos":["2 almohadas viscoelásticas", "1 protector de colchón"],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "mensajes":[
+        "El El Cisne Dynamic ofrece un descanso superior gracias a sus 780 resortes pocket, que se adaptan de manera independiente al cuerpo para brindar un soporte más preciso, reducir los puntos de presión y minimizar la transferencia de movimiento. Su sensación intermedia logra el equilibrio perfecto entre firmeza y comodidad.",
+        "La combinación de capas de poliuretano de distintas densidades —incluyendo espuma de 30 kg/m³ y prensado de 1” de espesor— aporta estabilidad, durabilidad y una sensación más confortable al dormir. Además, su marco reforzado de espuma de 30 kg/m³ garantiza mayor resistencia y mejor soporte en los bordes.",
+        "La superficie está cubierta con tela Pique fresca y resistente, tratada con antihongos, antibacterias y antiácaros, ideal para un descanso más higiénico. Su diseño de uso por un solo lado facilita el mantenimiento, mientras que su altura de 30 cm añade una apariencia más elegante y robusta.",
+        "Respaldado por 10 años de garantía, el Dynamic es una opción confiable y de alta calidad."
+    ],
+    "ficha":[
+        {
+            "marca": "el cisne",
+            "modelo-de-colchón": "Dynamic",
+            "resortes": "780 pocket",
+            "tela": "Pique",
+            "tratamiento": "Antihongos, antibacterias y antiácaros",
+            "tipo-de-uso": "un solo lado",
+            "tipo-de-resorte": "Pocket",
+            "marco": "Espuma con densidad 30kg/m3",
+            "capas": "Poliuretano 1 1/4' a 16kg/m3, 1 1/2' a 30kg/m3 y prensado 1 pulgada de espesor.",
+            "alto": "30 cm.",
+            "sensación": "intermedia",
+            "garantía": "10 años"
+        }
+    ]
+}

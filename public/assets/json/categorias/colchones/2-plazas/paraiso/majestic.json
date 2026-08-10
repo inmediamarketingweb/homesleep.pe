@@ -9,11 +9,10 @@
             "ruta": "/productos/colchones/2-plazas/paraiso/majestic/",
             "nombre": "COLCHÓN PARAISO 2 PLAZAS MAJESTIC",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/majestic/",
-            "precioRegular": 999,
-            "precioNormal": 699,
-            "precioVenta": 300,
+            "precioNormal": 399,
+            "precioVenta": 359,
             "stock": 14,
-            "sku": "H12225N10",
+            "sku": "D12225N10",
             "tipo-de-envio": "Envío preferente"
         }
     ],
@@ -24,18 +23,18 @@
     ],
     "ficha":[
         {
-            "marca": "Paraiso",
+            "marca": "paraiso",
             "modelo-de-colchón": "Majestic",
             "tamaño": "2 plazas",
+            "línea-de-colchón": "Semi ortopédicos",
             "nivel-de-confort": "Intermedio",
-            "línea-de-colchón": "anatómico",
             "resortes": "Bonell",
             "tela": "Poliseda",
             "capas": "2 zebra 18",
             "marco": "zebra 16",
             "sistema": "double side",
             "sensación": "intermedia",
-            "garantía": "3 años"
+            "garantía": "2 años"
         }
     ]
 }

@@ -11,14 +11,14 @@
             "fotos": "/assets/imagenes/productos/colchones/paraiso/super-star/",
             "precioRegular": 1999,
             "precioNormal": 1180,
-            "precioVenta": 649,
+            "precioVenta": 749,
             "stock": 14,
-            "sku": "H12418N10",
+            "sku": "D12418N10",
             "regalos":[ "2 almohadas", "1 protector de colchón" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "H121518N10" },
-                { "nombre": "2 plazas", "sku": "H12218N10" },
-                { "nombre": "Queen", "sku": "H12318N10" }
+                { "nombre": "1 plaza y media", "sku": "D121518N10" },
+                { "nombre": "2 plazas", "sku": "D12218N10" },
+                { "nombre": "Queen", "sku": "D12318N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -30,11 +30,10 @@
     ],
     "ficha":[
         {
-            "marca": "Paraiso",
+            "marca": "paraiso",
             "modelo-de-colchón": "Super star",
             "tamaño": "King",
             "nivel-de-confort": "Intermedio",
-            "línea-de-colchón": "ortopédico",
             "tela": "Tejido de punto",
             "tratamiento": "Antihongos, antibacterias y antiácaros",
             "acabado": "vaporizado",

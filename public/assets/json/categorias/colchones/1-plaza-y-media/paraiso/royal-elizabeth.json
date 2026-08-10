@@ -11,14 +11,14 @@
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-elizabeth/",
             "precioRegular": 1999,
             "precioNormal": 1331,
-            "precioVenta": 599,
+            "precioVenta": 799,
             "stock": 14,
-            "sku": "H12159N10",
+            "sku": "D12159N10",
             "regalos":[ "1 almohada viscoelástica", "1 protector" ],
             "tamaños-disponibles":[
-                { "nombre": "2 plazas", "sku": "H1229N10" },
-                { "nombre": "Queen", "sku": "H1239N10" },
-                { "nombre": "King", "sku": "H1249N10" }
+                { "nombre": "2 plazas", "sku": "D1229N10" },
+                { "nombre": "Queen", "sku": "D1239N10" },
+                { "nombre": "King", "sku": "D1249N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -31,10 +31,9 @@
     ],
     "ficha":[
         {
-            "marca": "Paraiso",
+            "marca": "paraiso",
             "modelo-de-colchón": "Royal elizabeth",
             "nivel-de-confort": "Intermedio",
-            "línea-de-colchón": "ortopédico",
             "resortes": "Pocket",
             "tela": "Tejido de punto higroscópica",
             "sistema": "one side",

@@ -1,0 +1,376 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "clásicos",
+            "madera": "cedro",
+            "tamaño": "queen",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/king/kamas/premium/sarki/1/",
+            "nombre": "DORMITORIO KAMAS MADERA CEDRO QUEEN + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL + PIECERA +  2 VELADORES",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/premium/cedro/1/", 
+            "precioRegular": 5399,
+            "precioNormal": 4999,
+            "precioVenta": 3999,
+            "stock": 10,
+            "sku": "H3253237N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "línea": "clásicos",
+                    "tamaño": "queen",
+                    "marca": "kamas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "clásicos",
+            "madera": "cedro",
+            "tamaño": "queen",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/king/kamas/premium/sarki/2/",
+            "nombre": "DORMITORIO KAMAS MADERA CEDRO QUEEN + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL +  2 VELADORES",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/premium/cedro/2/", 
+            "precioRegular": 3299,
+            "precioNormal": 4999,
+            "precioVenta": 4099,
+            "stock": 10,
+            "sku": "H3253237N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "línea": "clásicos",
+                    "tamaño": "queen",
+                    "marca": "kamas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "clásicos",
+            "madera": "cedro",
+            "tamaño": "queen",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/king/kamas/premium/sarki/3/",
+            "nombre": "DORMITORIO KAMAS MADERA CEDRO QUEEN + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CON MARCO +  1 VELADOR ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/premium/cedro/3/", 
+            "precioRegular": 3299,
+            "precioNormal": 4999,
+            "precioVenta": 4099,
+            "stock": 10,
+            "sku": "H3253237N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "línea": "clásicos",
+                    "tamaño": "queen",
+                    "marca": "kamas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "clásicos",
+            "madera": "cedro",
+            "tamaño": "queen",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/king/kamas/premium/sarki/4/",
+            "nombre": "DORMITORIO KAMAS MADERA CEDRO QUEEN + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CON MARCO + 2 VELADORES",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/premium/cedro/4/", 
+            "precioRegular": 3299,
+            "precioNormal": 4999,
+            "precioVenta": 4099,
+            "stock": 10,
+            "sku": "H3253237N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "línea": "clásicos",
+                    "tamaño": "queen",
+                    "marca": "kamas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "clásicos",
+            "madera": "cedro",
+            "tamaño": "queen",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/king/kamas/premium/sarki/5/",
+            "nombre": "DORMITORIO KAMAS MADERA CEDRO QUEEN + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CORONA + 2 VELADORES",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/premium/cedro/5/", 
+            "precioRegular": 5799,
+            "precioNormal": 5099,
+            "precioVenta": 4199,
+            "stock": 10,
+            "sku": "H3253237N14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "línea": "clásicos",
+                    "tamaño": "queen",
+                    "marca": "kamas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "clásicos",
+            "madera": "cedro",
+            "tamaño": "queen",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/king/kamas/premium/sarki/6/",
+            "nombre": "DORMITORIO KAMAS MADERA CEDRO QUEEN + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CORONA + 2 VELADORES",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/premium/cedro/6/", 
+            "precioRegular": 5799,
+            "precioNormal": 5099,
+            "precioVenta": 4199,
+            "stock": 10,
+            "sku": "H3253237N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "línea": "clásicos",
+                    "tamaño": "queen",
+                    "marca": "kamas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "clásicos",
+            "madera": "cedro",
+            "tamaño": "queen",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/king/kamas/premium/sarki/7/",
+            "nombre": "DORMITORIO KAMAS MADERA CEDRO QUEEN + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CORONA + 2 VELADORES",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/premium/cedro/7/", 
+            "precioRegular": 5799,
+            "precioNormal": 5099,
+            "precioVenta": 4199,
+            "stock": 10,
+            "sku": "H3253237N16",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "línea": "clásicos",
+                    "tamaño": "queen",
+                    "marca": "kamas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "clásicos",
+            "madera": "cedro",
+            "tamaño": "queen",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/king/kamas/premium/sarki/8/",
+            "nombre": "DORMITORIO KAMAS MADERA CEDRO QUEEN + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL + 2 VELADORES",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/premium/cedro/8/", 
+            "precioRegular": 4299,
+            "precioNormal": 5499,
+            "precioVenta": 4699,
+            "stock": 10,
+            "sku": "H3253237N17",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "línea": "clásicos",
+                    "tamaño": "queen",
+                    "marca": "kamas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "clásicos",
+            "madera": "cedro",
+            "tamaño": "queen",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/king/kamas/premium/sarki/9/",
+            "nombre": "DORMITORIO KAMAS MADERA CEDRO QUEEN + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL + PIECERA + 2 VELADORES",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/premium/cedro/9/",
+            "precioRegular": 4299,
+            "precioNormal": 4899,
+            "precioVenta": 4149,
+            "stock": 10,
+            "sku": "H3253237N18",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "línea": "clásicos",
+                    "tamaño": "queen",
+                    "marca": "kamas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "clásicos",
+            "madera": "cedro",
+            "tamaño": "queen",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/king/kamas/premium/sarki/10/",
+            "nombre": "DORMITORIO KAMAS MADERA CEDRO QUEEN + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CORONA + 2 VELADORES",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/premium/cedro/10/",
+            "precioRegular": 4299,
+            "precioNormal": 4899,
+            "precioVenta": 4149,
+            "stock": 10,
+            "sku": "H3253237N19",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "línea": "clásicos",
+                    "tamaño": "queen",
+                    "marca": "kamas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "clásicos",
+            "madera": "cedro",
+            "tamaño": "queen",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/king/kamas/premium/sarki/11/",
+            "nombre": "DORMITORIO KAMAS MADERA CEDRO QUEEN + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CORONA + 2 VELADORES",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/premium/cedro/11/",
+            "precioRegular": 4299,
+            "precioNormal": 4899,
+            "precioVenta": 4149,
+            "stock": 10,
+            "sku": "H3253237N20",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "línea": "clásicos",
+                    "tamaño": "queen",
+                    "marca": "kamas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "clásicos",
+            "madera": "cedro",
+            "tamaño": "queen",
+            "modelo": "sarki",
+            "ruta": "/productos/dormitorios/king/kamas/premium/sarki/12/",
+            "nombre": "DORMITORIO KAMAS MADERA CEDRO QUEEN + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL + PIECERA + 2 VELADORES",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/premium/cedro/12/",
+            "precioRegular": 4299,
+            "precioNormal": 4899,
+            "precioVenta": 4149,
+            "stock": 10,
+            "sku": "H3253237N21",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "línea": "clásicos",
+                    "tamaño": "queen",
+                    "marca": "kamas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        }
+    ]
+}

@@ -12,12 +12,12 @@
             "precioNormal": 1599,
             "precioVenta": 1499,
             "stock": 99,
-            "sku": "H11410N10",
+            "sku": "D11410N10",
             "regalos":[ "2 almohadas" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "H111510N10" },
-                { "nombre": "2-plazas", "sku": "H11210N10" },
-                { "nombre": "Queen", "sku": "H11310N10" }
+                { "nombre": "1 plaza y media", "sku": "D111510N10" },
+                { "nombre": "2-plazas", "sku": "D11210N10" },
+                { "nombre": "Queen", "sku": "D11310N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -29,7 +29,7 @@
         {
             "marca": "kamas",
             "modelo-de-colchón": "Thaleo pocket",
-            "línea-de-colchón": "Extra ortopedico",
+            "línea-de-colchón": "Extra ortopédicos",
             "nivel-de-confort": "Muy firme",
             "tipo-de-resorte": "Pocket",
             "resortes": "810 resortes pocket",

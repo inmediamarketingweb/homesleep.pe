@@ -11,14 +11,14 @@
             "fotos": "/assets/imagenes/productos/colchones/paraiso/super-star-negro/",
             "precioRegular": 1729,
             "precioNormal": 1294,
-            "precioVenta": 699,
+            "precioVenta": 799,
             "stock": 14,
-            "sku": "H12419N10",
+            "sku": "D12419N10",
             "regalos":[ "2 almohadas", "1 protector de colchón" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "H121519N10" },
-                { "nombre": "2 plazas", "sku": "H12219N10" },
-                { "nombre": "Queen", "sku": "H12319N10" }
+                { "nombre": "1 plaza y media", "sku": "D121519N10" },
+                { "nombre": "2 plazas", "sku": "D12219N10" },
+                { "nombre": "Queen", "sku": "D12319N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -30,10 +30,9 @@
     ],
     "ficha":[
         {
-            "marca": "Paraiso",
+            "marca": "paraiso",
             "modelo-de-colchón": "Super star negro",
             "nivel-de-confort": "Intermedio",
-            "línea-de-colchón": "ortopédico",
             "tela": "Tejido de punto",
             "tratamiento": "Antihongos, antibacterias y antiácaros",
             "acabado": "vaporizado",

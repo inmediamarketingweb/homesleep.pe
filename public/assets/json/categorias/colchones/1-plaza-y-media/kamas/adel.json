@@ -8,14 +8,13 @@
             "ruta": "/productos/colchones/1-plaza-y-media/kamas/adel/",
             "nombre": "COLCHÓN KAMAS SEMI ORTOPÉDICO ADEL 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/kamas/adel/",
-            "precioRegular": 425,
-            "precioNormal": 379,
+            "precioNormal": 389,
             "precioVenta": 249,
             "stock": 99,
-            "sku": "H11151N10",
+            "sku": "D11151N10",
             "regalos":["1 almohada"],
             "tamaños-disponibles":[
-                {"nombre": "2 plazas", "sku": "H1121N10"}
+                {"nombre": "2 plazas", "sku": "D1121N10"}
             ],
             "tipo-de-envio": "Envío aplicado"
         }
@@ -28,9 +27,11 @@
     "ficha":[
         {
             "marca": "kamas",
-            "línea-de-colchón": "semi ortopédico",
-            "nivel-de-confort": "confortable",
+            "modelo-de-colchón": "Adel",
+            "tamaño": "1 plaza y media",
             "resortes": "bonell",
+            "línea-de-colchón": "Semi ortopédicos",
+            "nivel-de-confort": "Confortable",
             "cantidad-de-resortes": "8 filas en forma vertical",
             "tela": "Tricop",
             "densidad-de-la-espuma": "16kg/m3",

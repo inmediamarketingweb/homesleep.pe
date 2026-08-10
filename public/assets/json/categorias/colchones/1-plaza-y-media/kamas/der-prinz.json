@@ -6,13 +6,12 @@
             "marca": "kamas",
             "modelo": "der prinz",
             "ruta": "/productos/colchones/1-plaza-y-media/kamas/der-prinz/",
-            "nombre": "COLCHÓN KAMAS SUPER ORTOPÉDICO DER PRINZ 1 PLAZA Y MEDIA",
+            "nombre": "COLCHÓN KAMAS SÚPER ORTOPÉDICO DER PRINZ 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/kamas/der-prinz/",
-            "precioRegular": 720,
-            "precioNormal": 599,
+            "precioNormal": 689,
             "precioVenta": 399,
             "stock": 24,
-            "sku": "H11157N10",
+            "sku": "D11157N10",
             "incluye":["1 almohada"],
             "tamaños-disponibles":[
                 { "nombre": "2 plazas", "sku": "/productos/colchones/2-plazas/kamas/der-prinz/" },
@@ -28,13 +27,13 @@
         "El marco sellado reforzado mejora la durabilidad del colchón y evita deformaciones, garantizando un soporte seguro de hasta 70 kg por persona.",
         "Respaldado por 6 años de garantía, el Der Prinz es una opción confiable para quienes buscan un colchón resistente, estable y duradero."
     ],
-    "ficha":[
+    "descripcion":[
         {
             "marca" :"kamas",
             "modelo-de-colchón": "der prinz",
-            "línea-de-colchón": "Súper ortopédico",
-            "nivel-de-confort": "Muy confortable",
             "resortes": "bonell",
+            "línea-de-colchón": "Súper ortopédicos",
+            "nivel-de-confort": "Muy confortable",
             "filas-de-resortes": "11 filas",
             "tela": "Algodón tejido en punto",
             "densidad-de-la-espuma": "20kg/m3",

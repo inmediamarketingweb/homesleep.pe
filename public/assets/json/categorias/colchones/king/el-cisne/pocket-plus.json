@@ -12,7 +12,7 @@
             "precioNormal": 2089,
             "precioVenta": 1399,
             "stock": 14,
-            "sku": "H13411N10",
+            "sku": "D13411N10",
             "regalos":[
                 "2 almohadas viscoelásticas", "1 protector de colchón"
             ],
@@ -30,8 +30,8 @@
             "marca": "El Cisne",
             "modelo-de-colchón": "Pocket plus",
             "tamaño": "King",
+            "línea": "ortopédico",
             "nivel-de-confort": "Intermedio",
-            "línea-de-colchón": "ortopédico",
             "tipo-de-resortes": "Pocket",
             "resortes": "780",
             "grosor": "30cm",

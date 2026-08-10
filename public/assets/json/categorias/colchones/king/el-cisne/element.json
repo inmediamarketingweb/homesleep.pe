@@ -13,7 +13,7 @@
             "precioNormal": 2789,
             "precioVenta": 1899,
             "stock": 14,
-            "sku": "H13410N10",
+            "sku": "D13410N10",
             "regalos":["2 almohadas viscoelásticas", "1 protector de colchón"],
             "tipo-de-envio": "Envío preferente"
         }
@@ -26,13 +26,10 @@
     ],
     "ficha":[
         {
-            "marca": "el cisne",
             "resortes": "780 pocket",
             "tela": "Pique",
             "tratamiento": "Antihongos, antibacterias y antiácaros",
             "tipo-de-uso": "un solo lado",
-            "línea-de-colchón": "súper ortopédico",
-            "nivel-de-confort": "muy confortable",
             "tipo-de-resorte": "Pocket",
             "marco": "Espuma con densidad 20kg/m3",
             "capas": "Poliuretano 1 1/4' a 16kg/m3, 1 1/2' a 30kg/m3 y prensado 1 pulgada de espesor.",

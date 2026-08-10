@@ -11,14 +11,13 @@
             "fotos": "/assets/imagenes/productos/colchones/paraiso/medallon-ergosoft/",
             "precioRegular": 1199,
             "precioNormal": 733,
-            "precioVenta": 389,
+            "precioVenta": 459,
             "stock": 14,
-            "sku": "H12210N10",
+            "sku": "D12210N10",
             "regalos":[ "2 almohadas" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "H121510N10" },
-                { "nombre": "Queen", "sku": "H12310N10" },
-                { "nombre": "King", "sku": "H12410N10" }
+                { "nombre": "1 plaza y media", "sku": "D12210N10" },
+                { "nombre": "Queen", "sku": "D12210N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -31,10 +30,9 @@
     ],
     "ficha":[
         {
-            "marca": "Paraiso",
+            "marca": "paraiso",
             "modelo-de-colchón": "Medallon ergosoft",
             "nivel-de-confort": "Intermedio",
-            "línea-de-colchón": "anatómico",
             "resortes": "Cosisoft",
             "tela": "Jacquard",
             "tratamiento": "Antihongos, antibacterias y antiácaros",

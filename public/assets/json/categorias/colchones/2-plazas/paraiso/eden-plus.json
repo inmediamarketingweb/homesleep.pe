@@ -9,11 +9,10 @@
             "ruta": "/productos/colchones/2-plazas/paraiso/eden-plus/",
             "nombre": "COLCHÓN PARAISO 2 PLAZAS EDEN PLUS",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/eden-plus/",
-            "precioRegular": 999,
-            "precioNormal": 441,
-            "precioVenta": 309,
+            "precioNormal": 689,
+            "precioVenta": 449,
             "stock": 14,
-            "sku": "H1228N10",
+            "sku": "D1228N10",
             "tipo-de-envio": "Envío preferente"
         }
     ],
@@ -24,11 +23,11 @@
     ],
     "ficha":[
         {
-            "marca": "Paraiso",
+            "marca": "paraiso",
             "modelo-de-colchón": "Eden plus",
             "tamaño": "2 plazas",
+            "línea-de-colchón": "Semi ortopédicos",
             "nivel-de-confort": "Intermedio",
-            "línea-de-colchón": "anatómico",
             "resortes": "Bonell",
             "tela": "Jacquard",
             "tratamiento": "Antihongos, antibacterias y antiácaros",

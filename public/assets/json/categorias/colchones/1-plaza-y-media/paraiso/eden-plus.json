@@ -9,11 +9,10 @@
             "ruta": "/productos/colchones/1-plaza-y-media/paraiso/eden-plus/",
             "nombre": "COLCHÓN PARAISO 1 PLAZA Y MEDIA EDEN PLUS",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/eden-plus/",
-            "precioRegular": 999,
-            "precioNormal": 367,
-            "precioVenta": 239,
+            "precioNormal": 549,
+            "precioVenta": 369,
             "stock": 14,
-            "sku": "H12158N10",
+            "sku": "D12158N10",
             "tipo-de-envio": "Envío aplicado"
         }
     ],
@@ -23,9 +22,9 @@
     ],
     "ficha":[
         {
-            "marca": "Paraiso",
+            "marca": "paraiso",
             "modelo-de-colchón": "Eden plus",
-            "línea-de-colchón": "Anátomico",
+            "línea-de-colchón": "Semi ortopédicos",
             "nivel-de-confort": "Intermedio",
             "resortes": "Bonell",
             "tela": "Jacquard",

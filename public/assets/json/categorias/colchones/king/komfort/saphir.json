@@ -4,19 +4,19 @@
             "categoria": "colchones",
             "tamaño": "king",
             "marca": "komfort",
-            "modelo": "spahir",
+            "modelo": "saphir",
             "ruta": "/productos/colchones/king/komfort/saphir/",
             "nombre": "COLCHÓN KOMFORT KING POCKET SAPHIR",
-            "fotos": "/assets/imagenes/productos/colchones/komfort/saphir/",
+            "fotos": "/assets/imagenes/productos/colchones/komfort/pocket-saphir/",
             "precioRegular": 1699,
             "precioNormal": 1199,
             "precioVenta": 899,
             "stock": 14,
-            "sku": "H1441N10",
+            "sku": "D1441N10",
             "regalos":[ "2 almohadas", "1 protector de colchón" ],
             "tamaños-disponibles":[
-                { "nombre": "2 plazas", "sku": "H1421N10" },
-                { "nombre": "Queen", "sku": "H1431N10" }
+                { "nombre": "2 plazas", "sku": "D1421N10" },
+                { "nombre": "Queen", "sku": "D1431N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -29,9 +29,9 @@
     "ficha":[
         {
             "marca": "Komfort",
-            "modelo-de-colchón": "Saphir",
-            "nivel-de-confort": "Intermedio",
-            "línea-de-colchón": "ortopédico",
+            "modelo-de-colchón": "saphir",
+            "nivel-de-confort": "confortable",
+            "línea-de-colchón": "ortopédicos",
             "resortes": "Pocket",
             "cantidad-de-resortes": "810 resortes pocket",
             "marco": "de espuma de poliuretano",

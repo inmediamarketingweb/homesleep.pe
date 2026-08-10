@@ -12,12 +12,12 @@
             "precioNormal": 1599,
             "precioVenta": 1199,
             "stock": 99,
-            "sku": "H1145N10",
+            "sku": "D1145N10",
             "regalos":[ "2 almohadas" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "H11155N10" },
-                { "nombre": "2 plazas", "sku": "H1125N10" },
-                { "nombre": "Queen", "sku": "H1135N10" }
+                { "nombre": "1 plaza y media", "sku": "D11155N10" },
+                { "nombre": "2 plazas", "sku": "D1125N10" },
+                { "nombre": "Queen", "sku": "D1135N10" }
             ],
             "tipo-de-envio": "Gratis"
         }
@@ -30,7 +30,7 @@
             "marca": "kamas",
             "modelo-de-colchón": "Ramat",
             "tamaño": "King",
-            "línea-de-colchón": "Súper ortopédico",
+            "línea-de-colchón": "Súper ortopédicos",
             "nivel-de-confort": "Muy confortable",
             "resortes": "Bonell",
             "filas-de-resortes": "19",

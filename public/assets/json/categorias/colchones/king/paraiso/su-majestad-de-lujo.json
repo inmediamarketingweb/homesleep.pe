@@ -10,14 +10,14 @@
             "fotos": "/assets/imagenes/productos/colchones/paraiso/su-majestad-de-lujo/",
             "precioRegular": 1759,
             "precioNormal": 1110,
-            "precioVenta": 619,
+            "precioVenta": 699,
             "stock": 14,
-            "sku": "H12417N10",
+            "sku": "D12417N10",
             "regalos":[ "2 almohadas", "1 protector de colchón" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "H121517N10" },
-                { "nombre": "2 plazas", "sku": "H12217N10" },
-                { "nombre": "Queen", "sku": "H12317N10" }
+                { "nombre": "1 plaza y media", "sku": "D121517N10" },
+                { "nombre": "2 plazas", "sku": "D12217N10" },
+                { "nombre": "Queen", "sku": "D12317N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -33,7 +33,6 @@
             "modelo-de-colchón": "Su majestad de lujo",
             "tamaño": "King",
             "nivel-de-confort": "Intermedio",
-            "línea-de-colchón": "anatómico",
             "tela": "Tejido de punto",
             "tratamiento": "Antihongos, antibacterias y antiácaros",
             "acabado": "vaporizado",

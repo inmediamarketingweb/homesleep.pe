@@ -9,9 +9,9 @@
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-cloud/",
             "precioRegular": 3249,
             "precioNormal": 2776,
-            "precioVenta": 1249,
+            "precioVenta": 1379,
             "stock": 14,
-            "sku": "H12322N10",
+            "sku": "D12322N10",
             "regalos":[ "1 almohada viscoelástica", "1 protector de colchón" ],
             "resumen-del-producto":[
                 {
@@ -37,10 +37,9 @@
     ],
     "ficha":[
         {
-            "marca": "Paraiso",
+            "marca": "paraiso",
             "modelo-de-colchón": "Royal cloud",
             "tamaño": "Queen",
-            "línea": "anatómico",
             "nivel-de-confort": "Muy suave",
             "resortes": "Pocket slim",
             "tratamiento": "Antihongos, antibacterias y antiacaros",

@@ -1,0 +1,46 @@
+{
+    "productos":[
+        {
+            "categoria": "colchones",
+            "tamaño": "queen",
+            "marca": "el cisne",
+            "modelo": "pocket plus",
+            "ruta": "/productos/colchones/queen/el-cisne/pocket-plus/",
+            "nombre": "COLCHÓN EL CISNE POCKET PLUS QUEEN",
+            "fotos": "/assets/imagenes/productos/colchones/el-cisne/pocket-plus/",
+            "precioRegular": 2599,
+            "precioNormal": 2089,
+            "precioVenta": 1399,
+            "stock": 14,
+            "sku": "D13311N10",
+            "regalos":[
+                "2 almohadas viscoelásticas", "1 protector de colchón"
+            ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "mensajes":[
+        "Este colchón ofrece un descanso de alto nivel gracias a su panel de 780 resortes pocket, que se adaptan de forma independiente al cuerpo, brindando soporte preciso y reduciendo la transferencia de movimiento. Su espuma Zebra de 1 1/4' (16 kg/m³) aporta suavidad y ergonomía, creando una superficie más confortable y envolvente.",
+        "La cubierta en tela Tricot proporciona frescura, suavidad y un acabado de calidad, mientras que la espuma de 20 kg/m³ añade un confort adicional que mejora la experiencia de descanso. El marco de espuma flexible refuerza la estructura y evita deformaciones, garantizando durabilidad y soporte uniforme.",
+        "Su banda de tela en punto ofrece estilo y resistencia, complementada por una altura de 30 cm, que aporta elegancia, comodidad y fácil acceso.",
+        "Con 6 años de garantía, este colchón es una excelente opción para quienes buscan comodidad, soporte avanzado y larga durabilidad en un solo producto."
+    ],
+    "ficha":[
+        {
+            "marca": "El Cisne",
+            "modelo-de-colchón": "Pocket plus",
+            "tamaño": "queen",
+            "línea": "ortopédico",
+            "nivel-de-confort": "Intermedio",
+            "tipo-de-resortes": "Pocket",
+            "resortes": "780",
+            "grosor": "30cm",
+            "tela": "tricot",
+            "tratamiento": "Antihongos, antibacterias y antiácaros",
+            "tipo-de-uso": "un solo lado",
+            "marco": "Espuma con densidad 20kg/m3",
+            "sensación": "intermedia",
+            "garantía": "6 años"
+        }
+    ]
+}

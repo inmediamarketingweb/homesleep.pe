@@ -5,19 +5,19 @@
             "categoria": "colchones",
             "tamaño": "queen",
             "marca": "komfort",
-            "modelo": "spahir",
+            "modelo": "saphir",
             "ruta": "/productos/colchones/queen/komfort/saphir/",
             "nombre": "COLCHÓN KOMFORT QUEEN POCKET SAPHIR",
-            "fotos": "/assets/imagenes/productos/colchones/komfort/saphir/",
+            "fotos": "/assets/imagenes/productos/colchones/komfort/pocket-saphir/",
             "precioRegular": 1489,
             "precioNormal": 1319,
             "precioVenta": 749,
             "stock": 14,
-            "sku": "H1431N10",
+            "sku": "D1431N10",
             "regalos":[ "2 almohadas", "1 protector de colchón" ],
             "tamaños-disponibles":[
-                { "nombre": "2 plazas", "sku": "H1421N10" },
-                { "nombre": "King", "sku": "H1441N10" }
+                { "nombre": "2 plazas", "sku": "D1421N10" },
+                { "nombre": "King", "sku": "D1441N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -32,7 +32,6 @@
         {
             "marca": "Komfort",
             "modelo-de-colchón": "Saphir",
-            "línea": "ortopédico",
             "nivel-de-confort": "Intermedio",
             "resortes": "pocket",
             "cantidad-de-resortes": "600",

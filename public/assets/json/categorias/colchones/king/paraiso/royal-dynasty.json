@@ -11,14 +11,14 @@
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-dynasty/",
             "precioRegular": 3719,
             "precioNormal": 3242,
-            "precioVenta": 1459,
+            "precioVenta": 1599,
             "stock": 14,
-            "sku": "H1247N10",
+            "sku": "D1247N10",
             "regalos":[ "1 almohada viscoelástica", "1 protector de colchón" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "H12157N10"},
-                { "nombre": "2 plazas", "sku": "H1227N10"},
-                { "nombre": "Queen", "sku": "H1237N10"}
+                { "nombre": "1 plaza y media", "sku": "D12157N10"},
+                { "nombre": "2 plazas", "sku": "D1227N10"},
+                { "nombre": "Queen", "sku": "D1237N10"}
             ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -31,10 +31,9 @@
     ],
     "ficha":[
         {
-            "marca": "Paraiso",
+            "marca": "paraiso",
             "modelo-de-colchón": "Royal dynasty",
             "nivel-de-confort": "Intermedio",
-            "línea-de-colchón": "anatómico",
             "tratamiento": "Antihongos, antibacterias y antiacaros",
             "tela": "Tejido de punto higroscópica",
             "top": "euro top acolchado superior",

@@ -8,16 +8,15 @@
             "ruta": "/productos/colchones/1-plaza-y-media/kamas/rucay/",
             "nombre": "COLCHÓN KAMAS ANÁTOMICO RUCAY 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/kamas/rucay/",
-            "precioRegular": 500,
-            "precioNormal": 449,
+            "precioNormal": 459,
             "precioVenta": 289,
             "stock": 99,
-            "sku": "H11152N10",
+            "sku": "D11152N10",
             "regalos":[ "1 almohada" ],
             "tamaños-disponibles":[
-                { "nombre": "2 plazas", "sku": "H1122N10" },
-                { "nombre": "Queen", "sku": "H1132N10" },
-                { "nombre": "King", "sku": "H1142N10" }
+                { "nombre": "2 plazas", "sku": "D1122N10" },
+                { "nombre": "Queen", "sku": "D1132N10" },
+                { "nombre": "King", "sku": "D1142N10" }
             ],
             "tipo-de-envio": "Envío aplicado"
         }
