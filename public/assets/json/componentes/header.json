@@ -1,0 +1,613 @@
+{
+    "header":[
+        {
+            "id": 1,
+            "categoria": "Colchones",
+            "link": "/productos/colchones/",
+            "banner-img": "https://homesleep.pe/assets/imagenes/productos/colchones/1.webp",
+            "banner-img-alt": "Colchones el cisne, kamas, paraiso y komfort | Homesleep",
+            "sub-categorias":[
+                {
+                    "id": 1,
+                    "titulo": "Marcas",
+                    "lista":[
+                        {
+                            "text": "El Cisne",
+                            "link": "/productos/colchones/?marca=el-cisne"
+                        },
+                        {
+                            "text": "Kamas",
+                            "link": "/productos/colchones/?marca=kamas"
+                        },
+                        {
+                            "text": "Paraiso",
+                            "link": "/productos/colchones/?marca=paraiso"
+                        },
+                        {
+                            "text": "Komfort",
+                            "link": "/productos/colchones/?marca=komfort"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/colchones/"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo": "Medidas",
+                    "lista":[
+                        {
+                            "text": "Cuna",
+                            "link": "/productos/colchones/cuna/"
+                        },
+                        {
+                            "text": "1 plaza",
+                            "link": "/productos/colchones/1-plaza/"
+                        },
+                        {
+                            "text": "1 plaza y media",
+                            "link": "/productos/colchones/1-plaza-y-media/"
+                        },
+                        {
+                            "text": "2 plazas",
+                            "link": "/productos/colchones/2-plazas/"
+                        },
+                        {
+                            "text": "Queen",
+                            "link": "/productos/colchones/queen/"
+                        },
+                        {
+                            "text": "King",
+                            "link": "/productos/colchones/king/"
+                        },
+                        {
+                            "text": "4 plazas",
+                            "link": "/productos/colchones/4-plazas/"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/colchones/"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo": "Líneas",
+                    "lista":[
+                        {
+                            "text": "Semi ortopédicos",
+                            "link": "/productos/colchones/cuna/"
+                        },
+                        {
+                            "text": "Anatómicos",
+                            "link": "/productos/colchones/1-plaza/"
+                        },
+                        {
+                            "text": "Ortopédicos",
+                            "link": "/productos/colchones/2-plazas/"
+                        },
+                        {
+                            "text": "Súper ortopédicos",
+                            "link": "/productos/colchones/queen/"
+                        },
+                        {
+                            "text": "Hoteleros",
+                            "link": "/productos/colchones/4-plazas/"
+                        },
+                        {
+                            "text": "Extra ortopédicos",
+                            "link": "/productos/colchones/king/"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/colchones/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoria": "Camas box tarimas",
+            "link": "/productos/camas-box-tarimas/",
+            "banner-img": "https://homesleep.pe/assets/imagenes/productos/camas-box-tarimas/1.webp",
+            "banner-img-alt": "Camas el cisne, kamas y paraiso | Homesleep",
+            "sub-categorias":[
+                {
+                    "id": 1,
+                    "titulo": "Marcas",
+                    "lista":[
+                        {
+                            "text": "El Cisne",
+                            "link": "/productos/camas-box-tarimas/?marca=el-cisne"
+                        },
+                        {
+                            "text": "Kamas",
+                            "link": "/productos/camas-box-tarimas/?marca=kamas"
+                        },
+                        {
+                            "text": "Paraiso",
+                            "link": "/productos/camas-box-tarimas/?marca=paraiso"
+                        },
+                        {
+                            "text": "Komfort",
+                            "link": "/productos/camas-box-tarimas/?marca=komfort"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/camas-box-tarimas/"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo": "Medidas",
+                    "lista":[
+                        {
+                            "text": "1 plaza y media",
+                            "link": "/productos/camas-box-tarimas/1-plaza-y-media/"
+                        },
+                        {
+                            "text": "2 plazas",
+                            "link": "/productos/camas-box-tarimas/2-plazas/"
+                        },
+                        {
+                            "text": "Queen",
+                            "link": "/productos/camas-box-tarimas/queen/"
+                        },
+                        {
+                            "text": "King",
+                            "link": "/productos/camas-box-tarimas/king/"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/camas-box-tarimas/"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo": "Líneas",
+                    "lista":[
+                        {
+                            "text": "Americanos",
+                            "link": "/productos/camas-box-tarimas/?línea=americanos"
+                        },
+                        {
+                            "text": "Europeos",
+                            "link": "/productos/camas-box-tarimas/?línea=europeos"
+                        },
+                        {
+                            "text": "Nube",
+                            "link": "/productos/camas-box-tarimas/?línea=nube"
+                        },
+                        {
+                            "text": "Circulares",
+                            "link": "/productos/camas-box-tarimas/?línea=circulares"
+                        },
+                        {
+                            "text": "Clásica",
+                            "link": "/productos/camas-box-tarimas/?línea=clásica"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/camas-box-tarimas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "categoria": "Dormitorios",
+            "link": "/productos/dormitorios/",
+            "banner-img": "https://homesleep.pe/assets/imagenes/productos/dormitorios/1.webp",
+            "banner-img-alt": "Dormitorios de las marcas El Cisne, Kamas, Paraiso y Komfort | Homesleep",
+            "sub-categorias":[
+                {
+                    "id": 1,
+                    "titulo": "Marcas",
+                    "lista":[
+                        {
+                            "text": "El Cisne",
+                            "link": "/productos/dormitorios/?marca=el-cisne"
+                        },
+                        {
+                            "text": "Kamas",
+                            "link": "/productos/dormitorios/?marca=kamas"
+                        },
+                        {
+                            "text": "Paraiso",
+                            "link": "/productos/dormitorios/?marca=paraiso"
+                        },
+                        {
+                            "text": "Komfort",
+                            "link": "/productos/dormitorios/?marca=komfort"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/dormitorios/"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo": "Medidas",
+                    "lista":[
+                        {
+                            "text": "1 plaza y media",
+                            "link": "/productos/dormitorios/1-plaza-y-media/"
+                        },
+                        {
+                            "text": "2 plazas",
+                            "link": "/productos/dormitorios/2-plazas/"
+                        },
+                        {
+                            "text": "Queen",
+                            "link": "/productos/dormitorios/queen/"
+                        },
+                        {
+                            "text": "King",
+                            "link": "/productos/dormitorios/king/"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/dormitorios/"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo": "Líneas",
+                    "lista":[
+                        {
+                            "text": "Americanos",
+                            "link": "/productos/dormitorios/?línea=americanos"
+                        },
+                        {
+                            "text": "Europeos",
+                            "link": "/productos/dormitorios/?línea=europeos"
+                        },
+                        {
+                            "text": "Nube",
+                            "link": "/productos/dormitorios/?línea=nube"
+                        },
+                        {
+                            "text": "Circulares",
+                            "link": "/productos/dormitorios/?línea=circulares"
+                        },
+                        {
+                            "text": "Clásica",
+                            "link": "/productos/dormitorios/?línea=clásica"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/dormitorios/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "categoria": "Camas funcionales",
+            "link": "/productos/camas-funcionales/",
+            "banner-img": "https://homesleep.pe/assets/imagenes/productos/camas-funcionales/1.webp",
+            "banner-img-alt": "Camas funcionales de las marcas El Cisne, Kamas, Paraiso y Komfort | Homesleep",
+            "sub-categorias":[
+                {
+                    "id": 1,
+                    "titulo": "Marcas",
+                    "lista":[
+                        {
+                            "text": "El Cisne",
+                            "link": "/productos/camas-funcionales/?marca=el-cisne"
+                        },
+                        {
+                            "text": "Kamas",
+                            "link": "/productos/camas-funcionales/?marca=kamas"
+                        },
+                        {
+                            "text": "Paraiso",
+                            "link": "/productos/camas-funcionales/?marca=paraiso"
+                        },
+                        {
+                            "text": "Komfort",
+                            "link": "/productos/camas-funcionales/?marca=komfort"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/camas-funcionales/"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo": "Medidas",
+                    "lista":[
+                        {
+                            "text": "1 plaza y media",
+                            "link": "/productos/camas-funcionales/1-plaza-y-media/"
+                        },
+                        {
+                            "text": "2 plazas",
+                            "link": "/productos/camas-funcionales/2-plazas/"
+                        },
+                        {
+                            "text": "Queen",
+                            "link": "/productos/camas-funcionales/queen/"
+                        },
+                        {
+                            "text": "King",
+                            "link": "/productos/camas-funcionales/king/"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/camas-funcionales/"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo": "Sub categorías",
+                    "lista":[
+                        {
+                            "text": "Box espacio",
+                            "link": "/productos/camas-funcionales/box-espacio/"
+                        },
+                        {
+                            "text": "Box con baúl",
+                            "link": "/productos/camas-funcionales/box-con-baul/"
+                        },
+                        {
+                            "text": "Cama divan",
+                            "link": "/productos/camas-funcionales/cama-divan/"
+                        },
+                        {
+                            "text": "Camarotes",
+                            "link": "/productos/camas-funcionales/camarotes/"
+                        },
+                        {
+                            "text": "Cunas",
+                            "link": "/productos/camas-funcionales/cunas/"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/camas-funcionales/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "Cabeceras",
+            "link": "/productos/cabeceras/",
+            "banner-img": "https://homesleep.pe/assets/imagenes/productos/cabeceras/1.webp",
+            "banner-img-alt": "Cabeceras de las marcas El Cisne, Kamas, Paraiso y Komfort | Homesleep",
+            "sub-categorias":[
+                {
+                    "id": 1,
+                    "titulo": "Marcas",
+                    "lista":[
+                        {
+                            "text": "El Cisne",
+                            "link": "/productos/cabeceras/?marca=el-cisne"
+                        },
+                        {
+                            "text": "Kamas",
+                            "link": "/productos/cabeceras/?marca=kamas"
+                        },
+                        {
+                            "text": "Paraiso",
+                            "link": "/productos/cabeceras/?marca=paraiso"
+                        },
+                        {
+                            "text": "Komfort",
+                            "link": "/productos/cabeceras/?marca=komfort"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/cabeceras/"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo": "Medidas",
+                    "lista":[
+                        {
+                            "text": "1 plaza y media",
+                            "link": "/productos/cabeceras/1-plaza-y-media/"
+                        },
+                        {
+                            "text": "2 plazas",
+                            "link": "/productos/cabeceras/2-plazas/"
+                        },
+                        {
+                            "text": "Queen",
+                            "link": "/productos/cabeceras/queen/"
+                        },
+                        {
+                            "text": "King",
+                            "link": "/productos/cabeceras/king/"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/cabeceras/"
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "titulo": "Tipo",
+                    "lista":[
+                        {
+                            "text": "Aérea",
+                            "link": "/productos/cabeceras/?tipo-de-cabecera=aérea"
+                        },
+                        {
+                            "text": "Aérea con patas",
+                            "link": "/productos/cabeceras/?tipo-de-cabecera=aérea-con-patas"
+                        },
+                        {
+                            "text": "Pedestal",
+                            "link": "/productos/cabeceras/?tipo-de-cabecera=pedestal"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/cabeceras/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "categoria": "Sofás",
+            "link": "/productos/sofas/",
+            "banner-img": "https://homesleep.pe/assets/imagenes/productos/sofas/1.webp",
+            "banner-img-alt": "Sillones, muebles y sofas de las marcas El Cisne, Kamas, Paraiso y Komfort | Homesleep",
+            "sub-categorias":[
+                {
+                    "id": 1,
+                    "titulo": "Marcas",
+                    "lista":[
+                        {
+                            "text": "El Cisne",
+                            "link": "/productos/sofas/?marca=el-cisne"
+                        },
+                        {
+                            "text": "Kamas",
+                            "link": "/productos/sofas/?marca=kamas"
+                        },
+                        {
+                            "text": "Paraiso",
+                            "link": "/productos/sofas/?marca=paraiso"
+                        },
+                        {
+                            "text": "Komfort",
+                            "link": "/productos/sofas/?marca=komfort"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/sofas/"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo": "Modelos",
+                    "lista":[
+                        {
+                            "text": "Juegos de sala",
+                            "link": "/productos/sofas/juegos-de-sala/"
+                        },
+                        {
+                            "text": "Seccionales",
+                            "link": "/productos/sofas/seccionales/"
+                        },
+                        {
+                            "text": "Sofá cama",
+                            "link": "/productos/sofas/sofa-cama/"
+                        },
+                        {
+                            "text": "Reclinables",
+                            "link": "/productos/sofas/reclinables/"
+                        },
+                        {
+                            "text": "Sofás y sillones",
+                            "link": "/productos/sofas/sofas-y-sillones/"
+                        },
+                        {
+                            "text": "Mecedoras",
+                            "link": "/productos/sofas/mecedoras/"
+                        },
+                        {
+                            "text": "Butacas",
+                            "link": "/productos/sofas/butacas/"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/sofas/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "categoria": "Complementos",
+            "link": "/productos/complementos/",
+            "banner-img": "https://homesleep.pe/assets/imagenes/productos/complementos/1.webp",
+            "banner-img-alt": "Veladores, camas, baules, almohadas, puff en las marcas El Cisne, Kamas, Paraiso y Komfort | Homesleep",
+            "sub-categorias":[
+                {
+                    "id": 1,
+                    "titulo": "Marcas",
+                    "lista":[
+                        {
+                            "text": "El Cisne",
+                            "link": "/productos/complementos/?marca=el-cisne"
+                        },
+                        {
+                            "text": "Kamas",
+                            "link": "/productos/complementos/?marca=kamas"
+                        },
+                        {
+                            "text": "Paraiso",
+                            "link": "/productos/complementos/?marca=paraiso"
+                        },
+                        {
+                            "text": "Komfort",
+                            "link": "/productos/complementos/?marca=komfort"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/complementos/"
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "titulo": "Sub categorías",
+                    "lista":[
+                        {
+                            "text": "Veladores",
+                            "link": "/productos/complementos/veladores/"
+                        },
+                        {
+                            "text": "Baúles",
+                            "link": "/productos/complementos/baules/"
+                        },
+                        {
+                            "text": "Bases",
+                            "link": "/productos/complementos/bases/"
+                        },
+                        {
+                            "text": "Puff",
+                            "link": "/productos/complementos/puffs/"
+                        },
+                        {
+                            "text": "Almohadas",
+                            "link": "/productos/complementos/almohadas/"
+                        },
+                        {
+                            "text": "Sábanas y cobertores",
+                            "link": "/productos/complementos/sabanas-y-cobertores/"
+                        },
+                        {
+                            "text": "Cama perro",
+                            "link": "/productos/complementos/cama-perro/"
+                        },
+                        {
+                            "text": "Ver todos",
+                            "link": "/productos/complementos/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
