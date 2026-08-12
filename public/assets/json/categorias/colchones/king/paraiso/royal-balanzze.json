@@ -7,19 +7,14 @@
             "marca": "paraiso",
             "modelo": "royal balanzze",
             "ruta": "/productos/colchones/king/paraiso/royal-balanzze/",
-            "nombre": "COLCHÓN PARAISO KING ROYAL BALANZZE",
+            "nombre": "COLCHÓN PARAISO ROYAL BALANZZE KING",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-balanzze/",
-            "precioRegular": 2799,
-            "precioNormal": 2349,
-            "precioVenta": 1899,
+            "precioRegular": 3179,
+            "precioNormal": 2559,
+            "precioVenta": 1699,
             "stock": 14,
-            "sku": "D1243N10",
+            "sku": "H1234N10",
             "regalos":[ "2 almohadas viscoelásticas", "1 protector de colchón" ],
-            "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "D12151N10" },
-                { "nombre": "2 plazas", "sku": "D1221N10" },
-                { "nombre": "Queen", "sku": "D1231N10" }
-            ],
             "tipo-de-envio": "Envío preferente"
         }
     ],
@@ -31,7 +26,7 @@
     ],
     "ficha":[
         {
-            "marca": "Paraiso",
+            "marca": "paraiso",
             "modelo-de-colchón": "Royal abrazzo",
             "nivel-de-confort": "intermedio",
             "tratamiento": "Antihongos, antibacterias y antiacaros",

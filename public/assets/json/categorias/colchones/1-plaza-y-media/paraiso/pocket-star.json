@@ -6,19 +6,14 @@
             "marca": "paraiso",
             "subcategoria": "pocket star",
             "ruta": "/productos/colchones/1-plaza-y-media/paraiso/pocket-star/",
-            "nombre": "COLCHÓN PARAISO 1 PLAZA Y MEDIA POCKET STAR",
+            "nombre": "COLCHÓN PARAISO POCKET STAR 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/pocket-star/",
             "precioRegular": 1468,
             "precioNormal": 955,
-            "precioVenta": 499,
+            "precioVenta": 519,
             "stock": 14,
-            "sku": "D121514N10",
+            "sku": "H121514N10",
             "regalos":[ "1 almohada", "1 protector de colchón" ],
-            "tamaños-disponibles":[
-                { "nombre": "2 plazas", "sku": "D12214N10" },
-                { "nombre": "Queen", "sku": "D12314N10" },
-                { "nombre": "King", "sku": "D12414N10" }
-            ],
             "tipo-de-envio": "Envío preferente"
         }
     ],

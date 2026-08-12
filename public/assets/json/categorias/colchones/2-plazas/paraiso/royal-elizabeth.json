@@ -7,35 +7,28 @@
             "marca": "paraiso",
             "modelo": "royal elizabeth",
             "ruta": "/productos/colchones/2-plazas/paraiso/royal-elizabeth/",
-            "nombre": "COLCHÓN PARAISO 2 PLAZAS ROYAL ELIZABETH",
+            "nombre": "COLCHÓN PARAISO ROYAL ELIZABETH 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-elizabeth/",
-            "precioRegular": 1999,
-            "precioNormal": 1776,
-            "precioVenta": 979,
+            "precioRegular": 1499,
+            "precioNormal": 1199,
+            "precioVenta": 879,
             "stock": 14,
-            "sku": "D1229N10",
-            "regalos":[ "1 almohada viscoelástica", "1 protector de colchón" ],
-            "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "D12159N10" },
-                { "nombre": "Queen", "sku": "D1239N10" },
-                { "nombre": "King", "sku": "D1249N10" }
-            ],
+            "sku": "H12159NX141",
+            "regalos":[ "2 almohadas viscoelásticas" ],
             "tipo-de-envio": "Envío preferente"
         }
     ],
     "mensajes":[
-        "El colchón Royal Elizabeth encarna el equilibrio ideal para compartir. Su sensación intermedia ofrece el balance perfecto entre suavidad adaptativa y soporte firme. Su núcleo de resortes Pocket independientes asegura un descanso personalizado y sin interrupciones, aislando el movimiento por completo.",
-        "El confort se profundiza con una capa superior de espuma Viscoelástica D70, que alivia puntos de presión y se moldea inteligentemente a tu cuerpo. Esta construcción se apoya en una estructura de alta estabilidad con 3 capas Zebra D20 y un marco perimetral Zebra 30 HD, garantizando durabilidad y firmeza.",
-        "Todo está envuelto en una fresca tela de punto higroscópica, y su diseño One Side ofrece comodidad sin mantenimiento.",
-        "Descansa con la distinción y seguridad que brinda una garantía de 10 años."
+        "El colchón Royal Elizabeth define el equilibrio ideal con su sensación intermedia. Su núcleo de resortes Pocket independientes ofrece un soporte ergonómico que se adapta a tu cuerpo en cada movimiento.",
+        "La experiencia de confort se potencia con una capa superior de espuma Viscoelástica D70, que alivia puntos de presión y distribuye el peso de forma inteligente. Esta suavidad se apoya en una estructura robusta de 3 capas Zebra D20 y un marco perimetral Zebra 30 HD, garantizando estabilidad y durabilidad excepcionales.",
+        "Todo está envuelto en una fresca tela de punto higroscópica que regula la temperatura, y su diseño One Side ofrece comodidad sin necesidad de volteo.",
+        "Descansa con la seguridad de una garantía de 10 años. Royal Elizabeth, donde el descanso se encuentra con la distinción."
     ],
     "ficha":[
         {
             "marca": "paraiso",
             "modelo-de-colchón": "Royal elizabeth",
-            "tamaño": "2 plazas",
             "nivel-de-confort": "Intermedio",
-            "tipo-de-resorte": "Pocket",
             "resortes": "Pocket",
             "tela": "Tejido de punto higroscópica",
             "sistema": "one side",

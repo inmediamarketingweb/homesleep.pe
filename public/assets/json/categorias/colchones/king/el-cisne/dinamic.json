@@ -2,17 +2,17 @@
     "productos":[
         {
             "categoria": "colchones",
-            "tamaño": "king",
+            "tamaño": "queen",
             "marca": "el cisne",
             "modelo": "dinamic",
-            "ruta": "/productos/colchones/king/el-cisne/dynamic/",
-            "nombre": "COLCHÓN EL CISNE DYNAMIC KING",
+            "ruta": "/productos/colchones/queen/el-cisne/dynamic/",
+            "nombre": "COLCHÓN EL CISNE DYNAMIC QUEEN",
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/dynamic/",
             "precioRegular": 2599,
             "precioNormal": 2389,
             "precioVenta": 1699,
             "stock": 14,
-            "sku": "D1348N10",
+            "sku": "H1338N10",
             "regalos":["2 almohadas viscoelásticas", "1 protector de colchón"],
             "tipo-de-envio": "Envío preferente"
         }

@@ -2,17 +2,17 @@
     "productos":[
         {
             "categoria": "colchones",
-            "tamaño": "1 plaza y media",
+            "tamaño": "2 plazas",
             "marca": "el cisne",
             "modelo": "new diva visco",
-            "ruta": "/productos/colchones/1-plaza-y-media/el-cisne/new-diva-visco/",
-            "nombre": "COLCHÓN EL CISNE NEW DIVA VISCO 1 PLAZA Y MEDIA",
+            "ruta": "/productos/colchones/2-plazas/el-cisne/new-diva-visco/",
+            "nombre": "COLCHÓN EL CISNE NEW DIVA VISCO 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/new-diva/",
-            "precioRegular": 2199,
-            "precioNormal": 1799,
-            "precioVenta": 1199,
+            "precioRegular": 2299,
+            "precioNormal": 1899,
+            "precioVenta": 1399,
             "stock": 14,
-            "sku": "D13159NX111",
+            "sku": "H13159NX111",
             "regalos":["1 almohada viscoelástica", "1 protector de colchón"],
             "tipo-de-envio": "Envío preferente"
         }

@@ -11,11 +11,8 @@
             "precioNormal": 389,
             "precioVenta": 249,
             "stock": 99,
-            "sku": "D11151N10",
+            "sku": "H11151N10",
             "regalos":["1 almohada"],
-            "tamaños-disponibles":[
-                {"nombre": "2 plazas", "sku": "D1121N10"}
-            ],
             "tipo-de-envio": "Envío aplicado"
         }
     ],

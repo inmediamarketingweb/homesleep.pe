@@ -7,19 +7,14 @@
             "marca": "paraiso",
             "modelo": "royal elizabeth",
             "ruta": "/productos/colchones/1-plaza-y-media/paraiso/royal-elizabeth/",
-            "nombre": "COLCHÓN PARAISO 1 PLAZA Y MEDIA ROYAL ELIZABETH",
+            "nombre": "COLCHÓN PARAISO ROYAL ELIZABETH 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-elizabeth/",
-            "precioRegular": 1999,
-            "precioNormal": 1331,
-            "precioVenta": 799,
+            "precioRegular": 1299,
+            "precioNormal": 999,
+            "precioVenta": 669,
             "stock": 14,
-            "sku": "D12159N10",
-            "regalos":[ "1 almohada viscoelástica", "1 protector" ],
-            "tamaños-disponibles":[
-                { "nombre": "2 plazas", "sku": "D1229N10" },
-                { "nombre": "Queen", "sku": "D1239N10" },
-                { "nombre": "King", "sku": "D1249N10" }
-            ],
+            "sku": "H12159NX140",
+            "regalos":[ "1 almohada viscoelástica" ],
             "tipo-de-envio": "Envío preferente"
         }
     ],

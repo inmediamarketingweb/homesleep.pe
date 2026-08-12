@@ -3,24 +3,24 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "tamaño": "king",
+            "tamaño": "queen",
             "marca": "paraiso",
             "modelo": "pocket italiano",
-            "ruta": "/productos/colchones/king/paraiso/pocket-italiano/",
-            "nombre": "COLCHÓN PARAISO KING POCKET ITALIANO",
+            "ruta": "/productos/colchones/queen/paraiso/pocket-italiano/",
+            "nombre": "COLCHÓN PARAISO QUEEN POCKET ITALIANO",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/pocket-italiano/",
             "precioRegular": 2419,
             "precioNormal": 1806,
-            "precioVenta": 899,
+            "precioVenta": 699,
             "stock": 14,
-            "sku": "D12426N10",
+            "sku": "D12326N10",
             "regalos":[ "2 almohadas", "1 protector de colchón" ],
             "tamaños-disponibles":[
                 { "nombre": "1 plaza y media", "sku": "D121526N10"},
                 { "nombre": "2 plazas", "sku": "D12226N10"},
-                { "nombre": "Queen", "sku": "D12326N10"}
+                { "nombre": "king", "sku": "D12426N10"}
             ],
-            "tipo-de-envio": "Gratis"
+            "tipo-de-envio": "Envío preferente"
         }
     ],
     "mensajes":[
@@ -35,8 +35,6 @@
             "modelo-de-colchón": "pocket italiano",
             "tela": "Tejido de punto",
             "resortes": "pocket",
-            "línea-de-colchón": "ortopédicos",
-            "nivel-de-confort": "Confortable",
             "cantidad-de-resortes": "754",
             "espuma": "zebra 1 1/2' 18kg/m",
             "tratamiento": "Antihongos, antibacterias y antiácaros",

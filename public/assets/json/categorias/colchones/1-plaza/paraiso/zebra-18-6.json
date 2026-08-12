@@ -1,0 +1,36 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño": "1 plaza",
+            "marca": "paraiso",
+            "modelo": "zebra 18 6",
+            "ruta": "/productos/colchones/1-plaza/paraiso/zebra-18-6/",
+            "nombre": "COLCHÓN PARAISO ZEBRA 18x6 1 PLAZA",
+            "fotos": "/assets/imagenes/productos/colchones/paraiso/zebra-18/",
+            "precioRegular": 309,
+            "precioNormal": 249,
+            "precioVenta": 159,
+            "stock": 14,
+            "sku": "H11NXE10",
+            "tipo-de-envio": "Envío aplicado"
+        }
+    ],
+    "mensajes":[
+        "Colchón Zebra 18, fabricado con una matriz de espuma para colchón confortable de densidad 18kg/m3 y cubierta por la resistente tela Jacquard. ¿El resultado? Un excelente descanso."
+    ],
+    "ficha":[
+        {
+            "marca": "paraiso",
+            "modelo-de-colchón": "zebra",
+            "línea-de-colchón": "súper ortopédicos",
+            "nivel-de-confort": "Muy firme",
+            "resortes": "espuma",
+            "tela-superior": "poliseda",
+            "sistema": "one side",
+            "sensación": "muy firme",
+            "garantía": "2 años"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño": "2 plazas",
+            "marca": "paraiso",
+            "modelo": "premium super star negro",
+            "ruta": "/productos/colchones/2-plazas/paraiso/premium-super-star-negro/",
+            "nombre": "COLCHÓN PARAISO PREMIUM SUPER STAR NEGRO 2 PLAZAS",
+            "fotos": "/assets/imagenes/productos/colchones/paraiso/super-star-negro/",
+            "precioRegular": 999,
+            "precioNormal": 799,
+            "precioVenta": 599,
+            "stock": 14,
+            "sku": "H121533NX149",
+            "regalos":[ "2 almohadas", "1 protector de colchón" ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "ficha":[
+        {
+            "marca": "paraiso",
+            "modelo-de-colchón": "premium super star negro",
+            "tamaño": "2 plazas",
+            "nivel-de-confort": "Intermedio",
+            "resortes": "Cosisoft",
+            "tela": "Tejido de punto",
+            "tratamiento": "Antihongos, antibacterias y antiácaros",
+            "acabado": "vaporizado",
+            "ergosoft": "acolchado superior",
+            "marco": "zebra 25",
+            "sistema": "one side",
+            "sensación": "intermedia",
+            "garantía": "8 años"
+        }
+    ]
+}

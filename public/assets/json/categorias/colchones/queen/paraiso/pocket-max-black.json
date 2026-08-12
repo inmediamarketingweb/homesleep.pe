@@ -1,0 +1,41 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño":"queen",
+            "marca": "paraiso",
+            "modelo": "pocket max black",
+            "ruta": "/productos/colchones/queen/paraiso/pocket-max-black/",
+            "nombre": "COLCHÓN PARAISO POCKET MAX BLACK QUEEN",
+            "fotos": "/assets/imagenes/productos/colchones/paraiso/pocket-max-black/",
+            "precioRegular": 1299,
+            "precioNormal": 1009,
+            "precioVenta": 689,
+            "stock": 14,
+            "sku": "H1221NX332",
+            "regalos":[ "2 almohadas viscoelásticas", "1 protector de colchón" ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "mensajes":[
+        "Creado con tela tejido de punto que le brindará frescura a tu descanso y un acolchado suave para una mayor comodidad.",
+        "Además sus resortes pocket son encapsulados para que nada interrumpa tu sueño.",
+        "Por dentro está conformado por capas de espuma Zebra 23 que fortalecerán el colchón y un marco de espuma Zebra 25 recubriendo el todo el contorno de los resortes Pocket para darle estabilidad."
+    ],
+    "ficha":[
+        {
+            "marca": "paraiso",
+            "modelo-de-colchón": "pocket max black",
+            "nivel-de-confort": "ortopédicos",
+            "resortes": "Pocket",
+            "tratamiento": "Antihongos, antibacterias y antiacaros",
+            "tela": "Tejido de punto higroscópica con diseño 3D",
+            "capas": "zebra 23 + 2 capas de zebra 20",
+            "marco": "zebra 25",
+            "sensación": "intermedia",
+            "sistema": "one side",
+            "garantía": "8 años"
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño":"1 plaza y media",
+            "marca": "paraiso",
+            "modelo": "pocket advance",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/pocket-advance/",
+            "nombre": "COLCHÓN PARAISO POCKET ADVANCE 1 PLAZA Y MEDIA",
+            "fotos": "/assets/imagenes/productos/colchones/paraiso/pocket-advance/",
+            "precioRegular": 1049,
+            "precioNormal": 799,
+            "precioVenta": 529,
+            "stock": 14,
+            "sku": "H12151NX112100",
+            "regalos":[ "1 almohada viscoelástica", "1 protector de colchón" ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "mensajes":[
+        "Creado con tela tejido de punto que le brindará frescura a tu descanso y un acolchado suave para una mayor comodidad.",
+        "Además sus resortes pocket son encapsulados para que nada interrumpa tu sueño.",
+        "Por dentro está conformado por capas de espuma Zebra 23 que fortalecerán el colchón y un marco de espuma Zebra 25 recubriendo el todo el contorno de los resortes Pocket para darle estabilidad."
+    ],
+    "ficha":[
+        {
+            "marca": "paraiso",
+            "modelo-de-colchón": "pocket advance",
+            "nivel-de-confort": "ortopédicos",
+            "resortes": "Pocket",
+            "tratamiento": "Antihongos, antibacterias y antiacaros",
+            "tela": "Tejido de punto higroscópica con diseño 3D",
+            "capas": "zebra 23 + 2 capas de zebra 20",
+            "marco": "zebra 25",
+            "sensación": "intermedia",
+            "sistema": "one side",
+            "garantía": "10 años"
+        }
+    ]
+}

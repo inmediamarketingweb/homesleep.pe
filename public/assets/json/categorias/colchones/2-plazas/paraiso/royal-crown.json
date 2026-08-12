@@ -1,0 +1,42 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño":"2 plazas",
+            "marca": "paraiso",
+            "modelo": "royal crown",
+            "ruta": "/productos/colchones/2-plazas/paraiso/royal-crown/",
+            "nombre": "COLCHÓN PARAISO ROYAL CROWN 2 PLAZAS",
+            "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-crown/",
+            "precioRegular": 1399,
+            "precioNormal": 1199,
+            "precioVenta": 849,
+            "stock": 14,
+            "sku": "H12222NX1012",
+            "regalos":[ "2 almohadas viscoelásticas" ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "mensajes":[
+        "Royal Crown es la elección perfecta para aquellos que buscan lujo y comodidad en sus noches de descanso. Con una combinación de resortes Pocket que te brinda una independencia de movimiento excepcional, láminas de Zebra D30 exclusivas de Paraíso y su cobertura de tela tejido de punto de alta calidad y suave al tacto.",
+        "Te ofrecerán el mejor soporte y el sueño más reparador que hayas experimentado."
+    ],
+    "ficha":[
+        {
+            "marca": "paraiso",
+            "modelo-de-colchón": "Royal crown",
+            "nivel-de-confort": "Ortopédicos",
+            "sensación": "intermedia",
+            "resortes": "Pocket slim",
+            "tratamiento": "Antihongos, antibacterias y antiacaros",
+            "tela": "Tejido de punto higroscópica que absorbe la humedad",
+            "top": "euro top acolchado superior",
+            "técnología": "Memory foarm D55",
+            "marco": "zebra 30 HD",
+            "espuma": "Viscoelástica D70",
+            "capas": "2 de Zebra 30 HR",
+            "garantía": "10 años"
+        }
+    ]
+}

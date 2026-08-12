@@ -3,40 +3,41 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "paraiso",
-            "subcategoria": "super star negro",
-            "ruta": "/productos/colchones/king/paraiso/super-star-negro/",
-            "nombre": "COLCHÓN KING PARAISO SUPER STAR NEGRO",
+            "modelo": "super star negro",
+            "ruta": "/productos/colchones/queen/paraiso/super-star-negro/",
+            "nombre": "COLCHÓN PARAISO SUPER STAR NEGRO QUEEN",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/super-star-negro/",
-            "precioRegular": 1729,
-            "precioNormal": 1294,
-            "precioVenta": 799,
+            "precioRegular": 1489,
+            "precioNormal": 1035,
+            "precioVenta": 629,
             "stock": 14,
-            "sku": "D12419N10",
-            "regalos":[ "2 almohadas", "1 protector de colchón" ],
+            "sku": "D12319N10",
+            "regalos":[ "2 almohadas", "1 protector de colchón "],
             "tamaños-disponibles":[
                 { "nombre": "1 plaza y media", "sku": "D121519N10" },
                 { "nombre": "2 plazas", "sku": "D12219N10" },
-                { "nombre": "Queen", "sku": "D12319N10" }
+                { "nombre": "King", "sku": "D12419N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }
     ],
     "mensajes":[
-        "El colchón Paraíso Super Star Negro combina diseño moderno y un confort intermedio ideal para el descanso diario. Su sistema de resortes Cosisoft brinda un soporte uniforme y estable, adaptándose al cuerpo para una sensación de descanso equilibrada y confortable.",
-        "Incorpora acolchado superior Ergosoft, que aporta una suavidad agradable desde el primer contacto sin perder firmeza. Su tela de tejido en punto con acabado vaporizado, junto con el tratamiento antihongos, antibacterias y antiácaros, contribuye a un entorno de descanso más fresco, limpio y saludable.",
-        "El marco Zebra 25 refuerza la estructura del colchón, mejorando la durabilidad y estabilidad, mientras que el sistema One Side facilita su uso y mantenimiento. Con una sensación intermedia y 8 años de garantía, el Paraíso Super Star Negro es una excelente opción para quienes buscan confort, resistencia y estilo en un solo colchón."
+        "Olvídate del descanso. El colchón Super Star Negro es un punto de apoyo táctico. Su sensación intermedia proviene de los resortes Cosisoft, diseñados para absorber vibraciones y mantener un perfil bajo. El acolchado superior ErgoSoft no es para confort, es para camuflar equipamiento y reducir la firma acústica.",
+        "La tela de punto con acabado vaporizado no busca suavidad, sino neutralizar olores y ofrecer protección antihongos y antibacterias en condiciones extremas. El marco Zebra 25 no es para durabilidad doméstica, es para rigidez estructural bajo estrés operativo.",
+        "Su diseño One Side es para despliegues rápidos. La garantía de 8 años no cubre el sueño, cubre misiones. No es un colchón. Es tu próxima posición de observación."
     ],
     "ficha":[
         {
             "marca": "paraiso",
             "modelo-de-colchón": "Super star negro",
+            "tamaño": "Queen",
             "nivel-de-confort": "Intermedio",
+            "resortes": "Cosisoft",
             "tela": "Tejido de punto",
             "tratamiento": "Antihongos, antibacterias y antiácaros",
             "acabado": "vaporizado",
-            "resortes": "Cosisoft",
             "ergosoft": "acolchado superior",
             "marco": "zebra 25",
             "sistema": "one side",

@@ -7,19 +7,14 @@
             "marca": "paraiso",
             "modelo": "royal dynasty",
             "ruta": "/productos/colchones/1-plaza-y-media/paraiso/royal-dynasty/",
-            "nombre": "COLCHÓN PARAISO 1 PLAZA Y MEDIA ROYAL DYNASTY",
+            "nombre": "COLCHÓN PARAISO ROYAL DYNASTY 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-dynasty/",
-            "precioRegular": 1999,
-            "precioNormal": 1628,
-            "precioVenta": 979,
+            "precioRegular": 1399,
+            "precioNormal": 1099,
+            "precioVenta": 779,
             "stock": 14,
-            "sku": "D12157N10",
-            "regalos":[ "1 almohada viscoelástica", "1 protector de colchón" ],
-            "tamaños-disponibles":[
-                { "nombre": "2 plazas", "sku": "D1227N10" },
-                { "nombre": "Queen", "sku": "D1237N10" },
-                { "nombre": "King", "sku": "D1247N10" }
-            ],
+            "sku": "H12157N10",
+            "regalos":[ "1 almohada viscoelástica" ],
             "tipo-de-envio": "Envío preferente"
         }
     ],

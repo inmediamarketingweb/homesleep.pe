@@ -1,0 +1,43 @@
+{
+    "productos":[
+        {
+            "categoria": "colchones",
+            "tamaño": "1 plaza y media",
+            "marca": "el cisne",
+            "modelo": "pocket peruano",
+            "ruta": "/productos/colchones/1-plaza-y-media/el-cisne/real-de-lujo-pocket/",
+            "nombre": "COLCHÓN EL CISNE REAL DE LUJO POCKET 1 PLAZA Y MEDIA",
+            "fotos": "/assets/imagenes/productos/colchones/el-cisne/real-de-lujo-pocket/",
+            "precioRegular": 2499,
+            "precioNormal": 2099,
+            "precioVenta": 1599,
+            "stock": 14,
+            "sku": "H113413NX1001",
+            "regalos":[ "1 almohada" ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "mensajes":[
+        "Colchón Real de Lujo, nuestro modelo más exclusivo de la colección, ofrece un descanso suave y agradable con acolchado en espuma Viscoelástica de alta densidad que se adapta al cuerpo y alivia los puntos de presión.",
+        "Su estructura de Resortes Pocket encapsulados e independientes brinda soporte personalizado y reduce la transparencia de movimiento, mientras que las espumas y el marco de poliuretano aseguran estabilidad en el núcleo y durabilidad.",
+        "El tapiz en tejido de punto Tencel aporta frescura, suavidad y transpirabilidad, convirtiéndose en un detalle premium que eleva la experiencia de descanso.",
+        "Con uso one side, tratamientos antiácaros y antibacterias, y respaldo por 14 años de garantía, garantiza un sueño saludable, lujoso y reparador."
+    ],
+    "ficha":[
+        {
+            "marca": "El Cisne",
+            "modelo-de-colchón": "Real de lujo pocket",
+            "tamaño": "1 plaza y media",
+            "línea-de-colchón": "ortopédicos",
+            "nivel-de-confort": "Medio",
+            "resortes": "pocket",
+            "cantidad-de-resortes": "300",
+            "tela": "Pique",
+            "tratamiento": "Antihongos, antibacterias y antiácaros",
+            "tipo-de-uso": "Un solo lado",
+            "sistema": "One side",
+            "marco": "Espuma con densidad 18kg/m3",
+            "garantía": "5 años"
+        }
+    ]
+}

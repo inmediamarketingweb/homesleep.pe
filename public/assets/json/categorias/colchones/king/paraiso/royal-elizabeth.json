@@ -1,37 +1,33 @@
 {
     "productos":[
         {
-            "id": 1,
+            "id": 3,
             "categoria": "colchones",
-            "tamaño": "King",
+            "tamaño": "king",
             "marca": "paraiso",
             "modelo": "royal elizabeth",
             "ruta": "/productos/colchones/king/paraiso/royal-elizabeth/",
-            "nombre": "COLCHÓN KING PARAISO ROYAL ELIZABETH",
+            "nombre": "COLCHÓN PARAISO ROYAL ELIZABETH KING",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-elizabeth/",
-            "precioRegular": 3199,
-            "precioNormal": 2559,
-            "precioVenta": 1399,
+            "precioRegular": 2459,
+            "precioNormal": 1999,
+            "precioVenta": 1259,
             "stock": 14,
-            "sku": "D1249N10",
+            "sku": "H124NX10",
             "regalos":[ "2 almohadas viscoelásticas", "1 protector de colchón" ],
-            "tipo-de-envio": "Envío preferente",
-            "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "D12159N10" },
-                { "nombre": "2 plazas", "sku": "D1229N10" },
-                { "nombre": "Queen", "sku": "D1239N10" }
-            ]
+            "tipo-de-envio": "Envío preferente"
         }
     ],
     "mensajes":[
-        "El colchón Paraíso Royal Elizabeth ofrece un equilibrio ideal entre soporte y confort intermedio, pensado para quienes buscan descanso estable con una sensación agradable y adaptable. Su sistema de resortes Pocket funciona de manera independiente, brindando mejor adaptación al cuerpo y reduciendo la transferencia de movimiento.",
-        "Incorpora espuma viscoelástica D70, que se amolda a la silueta del cuerpo para aliviar puntos de presión y mejorar la calidad del descanso. Las capas de Zebra D20 y el marco Zebra 30 HD refuerzan la estructura del colchón, aportando firmeza, estabilidad y mayor durabilidad.",
-        "Está recubierto con tela de tejido en punto higroscópica, que ayuda a absorber la humedad y mantener una sensación fresca durante la noche. Su sistema One Side facilita el uso y mantenimiento diario, mientras que la garantía de 10 años respalda la calidad y confiabilidad del colchón Paraíso Royal Elizabeth."
+        "El colchón Royal Elizabeth ofrece el equilibrio ideal en tamaño Queen. Su sensación intermedia combina adaptabilidad y soporte firme. Los resortes Pocket aseguran descanso personalizado y aislamiento de movimiento.",
+        "La capa de espuma Viscoelástica D70 alivia la presión y se moldea a tu cuerpo. La base con 3 capas Zebra D20 y marco Zebra 30 HD garantiza estabilidad y durabilidad.",
+        "Con tela higroscópica y diseño One Side, ofrece frescura y comodidad. Respaldado por una garantía de 10 años, es el descanso distinguido que mereces."
     ],
     "ficha":[
         {
             "marca": "paraiso",
             "modelo-de-colchón": "Royal elizabeth",
+            "tamaño": "king",
             "nivel-de-confort": "Intermedio",
             "resortes": "Pocket",
             "tela": "Tejido de punto higroscópica",

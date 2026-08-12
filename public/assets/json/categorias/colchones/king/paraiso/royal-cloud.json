@@ -1,37 +1,33 @@
 {
     "productos":[
         {
-            "id": 1,
             "categoria": "colchones",
-            "tamaño": "king",
             "marca": "paraiso",
+            "tamaño": "king",
             "modelo": "royal cloud",
             "ruta": "/productos/colchones/king/paraiso/royal-cloud/",
-            "nombre": "COLCHÓN KING PARAISO ROYAL CLOUD",
+            "nombre": "COLCHÓN PARAISO ROYAL CLOUD KING",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-cloud/",
-            "precioRegular": 3989,
-            "precioNormal": 3529,
-            "precioVenta": 1729,
+            "precioRegular": 2759,
+            "precioNormal": 2019,
+            "precioVenta": 1529,
             "stock": 14,
-            "sku": "D12422N10",
+            "sku": "H1242N10",
             "regalos":[ "2 almohadas viscoelásticas", "1 protector de colchón" ],
-            "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "D121522N10"},
-                { "nombre": "2 plazas", "sku": "D12222N10"},
-                { "nombre": "Queen", "sku": "D12322N10"}
-            ],
             "tipo-de-envio": "Envío preferente"
         }
     ],
     "mensajes":[
-        "El colchón Paraíso Royal Cloud representa el descanso más suave y envolvente de la marca Paraíso, ideal para quienes buscan una sensación tipo nube al dormir. Su sistema de resortes Pocket Slim trabaja de manera independiente, adaptándose al cuerpo y reduciendo los movimientos para un descanso continuo y profundo.",
-        "Integra tecnología Memory Foam D55 y espuma viscoelástica D70, que se amoldan a la silueta del cuerpo, aliviando puntos de presión y brindando una experiencia de confort superior. El Euro Top acolchado añade una capa extra de suavidad desde el primer contacto, elevando la sensación de lujo.",
-        "La superficie está cubierta con tela de tejido en punto higroscópica, diseñada para absorber la humedad y mantener una temperatura agradable durante la noche. Su marco Zebra 30 HD y las capas Zebra 30 HR aportan estabilidad, soporte y durabilidad. Además, cuenta con tratamiento antihongos, antibacterias y antiácaros, sistema One Side para mayor practicidad y una garantía de 10 años, que respalda la calidad premium del Paraíso Royal Cloud."
+        "Presentamos el colchón Royal Cloud, la cumbre del confort en tamaño Queen. Este modelo reúne lo mejor de Paraíso para ofrecerte una experiencia de sueño muy suave y absolutamente envolvente. Su núcleo de resortes Pocket Slim independientes brinda un soporte milimétrico y un aislamiento total del movimiento, garantizando el descanso individual más puro.",
+        "La sensación de lujo comienza en su superficie con un Euro Top acolchado superior. Combina la adaptabilidad inteligente del Memory Foam D55 y el alivio profundo de la espuma Viscoelástica D70 para un confort que moldea y libera cada punto de tensión.",
+        "Esta suavidad suprema descansa sobre una base inquebrantable: 2 capas Zebra 30 HR y un marco Zebra 30 HD de alta densidad que aseguran una estabilidad y durabilidad excepcionales. Todo envuelto en una tela de punto higroscópica que absorbe la humedad, tratada con protección antihongos, antibacterias y antiácaros.",
+        "Disfruta de la comodidad del diseño One Side y descansa en las nubes con la confianza total de una garantía de 10 años. Royal Cloud es la máxima expresión de bienestar nocturno."
     ],
     "ficha":[
         {
             "marca": "paraiso",
             "modelo-de-colchón": "Royal cloud",
+            "tamaño": "king",
             "nivel-de-confort": "Muy suave",
             "resortes": "Pocket slim",
             "tratamiento": "Antihongos, antibacterias y antiacaros",
@@ -45,4 +41,4 @@
             "garantía": "10 años"
         }
     ]
-} 
+}

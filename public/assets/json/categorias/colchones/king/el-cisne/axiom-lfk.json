@@ -1,0 +1,41 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño": "king",
+            "marca": "el cisne",
+            "modelo": "axiom lfk",
+            "ruta": "/productos/colchones/king/el-cisne/axiom-lfk/",
+            "nombre": "COLCHÓN EL CISNE AXIOM LFK KING",
+            "fotos": "/assets/imagenes/productos/colchones/el-cisne/axiom-lfk/",
+            "precioRegular": 2599,
+            "precioNormal": 1999,
+            "precioVenta": 1099,
+            "stock": 10,
+            "sku": "H1348NX17",
+            "regalos":[ "1 almohada" ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "mensajes":[
+        "Colchón Axion LFK garantiza un descanso de confort extra firme gracias a su sistema de resortes LFK (Low Frequecy Kink) y marco de espuma de poliuretano de alta densidad que refuerza la estructura.",
+        "Su tapiz en tela Jacuard jaspeada lisa aporta resistencia y elegancia, mientras que los tratamientos antiacaros y antibacterias aseguran mayor higiene.",
+        "Diseñado para uso en ambas caras y respaldado con 6 años de garantía."
+    ],
+    "ficha":[
+        {
+            "marca": "el cisne",
+            "resortes": "lfk",
+            "cantidad-de-resortes": "336",
+            "línea-de-colchón": "Súper ortopédicos",
+            "nivel-de-confort": "Súper firme",
+            "tela": "jacuard",
+            "sistema": "One side",
+            "marco": "Espuma flexible de alta densidad",
+            "tratamiento": "Anti ácaros y antialergías",
+            "sensación": "muy firme",
+            "garantía": "6 años"
+        }
+    ]
+}

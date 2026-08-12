@@ -3,20 +3,20 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "tamaño":"2 plazas",
+            "tamaño": "1 plaza y media",
             "marca": "paraiso",
             "modelo": "Su majestad de lujo",
-            "ruta": "/productos/colchones/2-plazas/paraiso/su-majestad-de-lujo/",
-            "nombre": "COLCHÓN PARAISO 2 PLAZAS SU MAJESTAD DE LUJO",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/su-majestad-de-lujo/",
+            "nombre": "COLCHÓN PARAISO SU MAJESTAD DE LUJO 1 PLAZA Y MEDIA",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/su-majestad-de-lujo/",
-            "precioRegular": 1099,
-            "precioNormal": 715,
-            "precioVenta": 499,
+            "precioRegular": 999,
+            "precioNormal": 656,
+            "precioVenta": 399,
             "stock": 14,
-            "sku": "D12217N10",
-            "regalos":[ "2 almohadas", "1 protector de colchón" ],
+            "sku": "D121517N10",
+            "regalos":[ "1 almohada viscoelástica", "1 protector de colchón" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "D121517N10" },
+                { "nombre": "2 plazas", "sku": "D12217N10" },
                 { "nombre": "Queen", "sku": "D12317N10" },
                 { "nombre": "King", "sku": "D12417N10" }
             ],
@@ -24,10 +24,10 @@
         }
     ],
     "mensajes":[
-        "El colchón Su Majestad de Lujo ofrece el equilibrio supremo en pareja. Su sensación intermedia combina una adaptabilidad suave con un soporte ergonómico, gracias a su núcleo de resortes Cosisoft que reduce la transferencia de movimiento.",
-        "El confort se eleva con su acolchado superior ErgoSoft, diseñado para moldearse al cuerpo y aliviar la presión. Está envuelto en un fresco tejido de punto que, con su acabado vaporizado, incorpora protección antihongos, antibacterias y antiácaros para un sueño más saludable.",
-        "Esta construcción de lujo se sostiene sobre un robusto marco Zebra 25, asegurando estabilidad y durabilidad. Su diseño One Side ofrece máxima comodidad sin volteos.",
-        "Reine en sus noches con la seguridad de una garantía de 8 años."
+        "El colchón Su Majestad de Lujo ofrece el equilibrio supremo con su sensación intermedia. Su núcleo de resortes Cosisoft brinda un soporte ergonómico y adaptativo, reduciendo la transferencia de movimiento para un descanso ininterrumpido.",
+        "La experiencia se realza con su acolchado superior ErgoSoft, diseñado para moldearse a tu cuerpo y aliviar puntos de presión. Todo está envuelto en un fresco tejido de punto que, gracias a su acabado vaporizado, incorpora una protección antihongos, antibacterias y antiácaros para un sueño más saludable.",
+        "Esta construcción de lujo se sostiene sobre un robusto marco Zebra 25, asegurando estabilidad y durabilidad. Su diseño One Side te libera de la tarea de voltearlo, ofreciendo siempre la superficie óptima.",
+        "Reina en tus noches con la confianza de una garantía de 8 años. Su Majestad de Lujo, donde el confort se encuentra con la realeza."
     ],
     "ficha":[
         {

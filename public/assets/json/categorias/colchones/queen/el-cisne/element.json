@@ -9,11 +9,11 @@
             "ruta": "/productos/colchones/queen/el-cisne/element/",
             "nombre": "COLCHÓN EL CISNE ELEMENT QUEEN",
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/element/",
-            "precioRegular": 3399,
-            "precioNormal": 2789,
-            "precioVenta": 1899,
+            "precioRegular": 2799,
+            "precioNormal": 2399,
+            "precioVenta": 1599,
             "stock": 14,
-            "sku": "D13310N10",
+            "sku": "H13310N10",
             "regalos":["2 almohadas viscoelásticas", "1 protector de colchón"],
             "tipo-de-envio": "Envío preferente"
         }

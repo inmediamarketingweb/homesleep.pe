@@ -3,17 +3,17 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "tamaño": "King",
+            "tamaño": "king",
             "marca": "el cisne",
             "modelo": "element",
             "ruta": "/productos/colchones/king/el-cisne/element/",
             "nombre": "COLCHÓN EL CISNE ELEMENT KING",
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/element/",
-            "precioRegular": 3399,
-            "precioNormal": 2789,
-            "precioVenta": 1899,
+            "precioRegular": 3699,
+            "precioNormal": 2999,
+            "precioVenta": 1999,
             "stock": 14,
-            "sku": "D13410N10",
+            "sku": "H14310NX10",
             "regalos":["2 almohadas viscoelásticas", "1 protector de colchón"],
             "tipo-de-envio": "Envío preferente"
         }

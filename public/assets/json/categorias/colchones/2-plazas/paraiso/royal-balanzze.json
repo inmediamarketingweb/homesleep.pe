@@ -3,45 +3,39 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "tamaño": "2 plazas",
+            "tamaño":"2 plazas",
             "marca": "paraiso",
             "modelo": "royal balanzze",
-            "ruta": "/productos/colchones/king/paraiso/royal-balanzze/",
-            "nombre": "COLCHÓN PARAISO 2 PLAZAS ROYAL BALANZZE",
+            "ruta": "/productos/colchones/2-plazas/paraiso/royal-balanzze/",
+            "nombre": "COLCHÓN PARAISO ROYAL BALANZZE 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-balanzze/",
-            "precioRegular": 2799,
-            "precioNormal": 2349,
-            "precioVenta": 1199,
+            "precioRegular": 1699,
+            "precioNormal": 1399,
+            "precioVenta": 1129,
             "stock": 14,
-            "sku": "D1223N10",
-            "regalos":[ "2 almohadas viscoelásticas", "1 protector de colchón" ],
-            "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "D12151N10" },
-                { "nombre": "2 plazas", "sku": "D1221N10" },
-                { "nombre": "Queen", "sku": "D1231N10" }
-            ],
+            "sku": "H12222NX1090",
+            "regalos":[ "1 almohada viscoelástica" ],
             "tipo-de-envio": "Envío preferente"
         }
     ],
     "mensajes":[
-        "El colchón Royal Abrazzo redefine el confort intermedio. Su sistema de doble panel de resortes Pocket ofrece una estabilidad sin precedentes y una independencia de movimiento total, garantizando un descanso imperturbable.",
-        "Su capa superior de espuma viscoelástica D70 se adapta inteligentemente a la forma de tu cuerpo, aliviando puntos de presión. Esta innovación está protegida por una cobertura con iones de plata antimicrobianos y un tejido de punto higroscópico que absorbe la humedad, tratado con protección antihongos, antibacterias y antiácaros para un espacio de sueño puro.",
-        "Sobre su robusto marco Zebra 35 HD, cada capa está diseñada para durar. El práctico sistema One Side maximiza su vida útil sin mantenimiento.",
-        "Un abrazo de confort y protección, respaldado por una garantía de 10 años. La excelencia hecha descanso."
+        "Llega lo último en confort supremo: el colchón Royal Cloud, diseñado para ofrecerte la experiencia más suave y envolvente. Su corazón late con resortes Pocket Slim independientes, que brindan un soporte personalizado y aíslan completamente el movimiento. Sobre ellos, una combinación tecnológica única: espuma viscoelástica D70 que alivia la presión y una capa superior de Memory Foam D55 que se adapta a tu contorno.",
+        "Esta sensación de flotar en una nube se estructura sobre una base de gran estabilidad, con 2 capas Zebra 30 HR y un marco reforzado Zebra 30 HD, garantizando durabilidad y firmeza perimetral. Todo está cubierto por un lujoso Euro Top acolchado superior y un tejido de punto higroscópico que absorbe la humedad para mayor frescura, además de contar con un tratamiento protector antihongos, antibacterias y antiácaros.",
+        "Disfruta de este oasis de suavidad con la tranquilidad que brinda una garantía de 10 años. Royal Cloud no es solo un colchón, es la materialización del descanso perfecto."
     ],
     "ficha":[
         {
             "marca": "paraiso",
-            "modelo-de-colchón": "Royal abrazzo",
-            "nivel-de-confort": "intermedio",
+            "modelo-de-colchón": "Royal balanzze",
+            "nivel-de-confort": "Muy suave",
+            "resortes": "Pocket",
             "tratamiento": "Antihongos, antibacterias y antiacaros",
-            "tela": "tejido de punto higroscópica que absorbe la humedad",
-            "Marco": "De Zebra 35 HD",
-            "espuma": "Viscoelástica D70 que se adapta al cuerpo",
-            "Cobertura": "iones de plata antimicrobianos",
-            "capas": "Doble panel de resortes Pocket. Mayor estabilidad e independencia de movimiento",
-            "sistema": "One side",
-            "sensacion": "intermedia",
+            "tela": "Tejido de punto higroscópica que absorbe la humedad",
+            "top": "euro top acolchado superior",
+            "técnología": "Memory foarm D55",
+            "marco": "zebra 30 HD",
+            "espuma": "Viscoelástica D70",
+            "capas": "2 de Zebra 30 HR",
             "garantía": "10 años"
         }
     ]

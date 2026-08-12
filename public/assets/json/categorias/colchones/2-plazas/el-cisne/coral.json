@@ -3,17 +3,17 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "tamaño": "1 plaza y media",
+            "tamaño": "2 plazas",
             "marca": "el cisne",
             "modelo": "coral",
-            "ruta": "/productos/colchones/1-plaza-y-media/el-cisne/coral/",
-            "nombre": "COLCHÓN EL CISNE CORAL 1 PLAZA Y MEDIA",
+            "ruta": "/productos/colchones/2-plazas/el-cisne/coral/",
+            "nombre": "COLCHÓN EL CISNE CORAL 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/coral/",
             "precioRegular": 1099,
-            "precioNormal": 899,
-            "precioVenta": 329,
+            "precioNormal": 999,
+            "precioVenta": 359,
             "stock": 10,
-            "sku": "D13158NX11",
+            "sku": "H13158NX11",
             "regalos":[ "1 almohada" ],
             "tipo-de-envio": "Envío preferente"
         }
