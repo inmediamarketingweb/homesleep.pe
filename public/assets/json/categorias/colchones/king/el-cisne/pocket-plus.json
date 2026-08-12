@@ -2,17 +2,17 @@
     "productos":[
         {
             "categoria": "colchones",
-            "tamaño": "king",
+            "tamaño": "queen",
             "marca": "el cisne",
             "modelo": "pocket plus",
-            "ruta": "/productos/colchones/king/el-cisne/pocket-plus/",
-            "nombre": "COLCHÓN EL CISNE POCKET PLUS KING",
+            "ruta": "/productos/colchones/queen/el-cisne/pocket-plus/",
+            "nombre": "COLCHÓN EL CISNE POCKET PLUS QUEEN",
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/pocket-plus/",
             "precioRegular": 2599,
             "precioNormal": 2089,
             "precioVenta": 1399,
             "stock": 14,
-            "sku": "D13411N10",
+            "sku": "D13311N10",
             "regalos":[
                 "2 almohadas viscoelásticas", "1 protector de colchón"
             ],
@@ -29,7 +29,7 @@
         {
             "marca": "El Cisne",
             "modelo-de-colchón": "Pocket plus",
-            "tamaño": "King",
+            "tamaño": "queen",
             "línea": "ortopédico",
             "nivel-de-confort": "Intermedio",
             "tipo-de-resortes": "Pocket",

@@ -12,13 +12,8 @@
             "precioNormal": 899,
             "precioVenta": 699,
             "stock": 99,
-            "sku": "D1142N10",
+            "sku": "H1142N10",
             "regalos":[ "2 almohadas" ],
-            "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "D11152N10" },
-                { "nombre": "2 plazas", "sku": "D1122N10" },
-                { "nombre": "King", "sku": "D1132N10" }
-            ],
             "tipo-de-envio": "Gratis"
         }
     ],

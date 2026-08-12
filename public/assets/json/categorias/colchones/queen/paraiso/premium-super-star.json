@@ -1,0 +1,38 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño": "queen",
+            "marca": "paraiso",
+            "modelo": "premium super star",
+            "ruta": "/productos/colchones/queen/paraiso/premium-super-star/",
+            "nombre": "COLCHÓN PARAISO PREMIUM SUPER STAR QUEEN",
+            "fotos": "/assets/imagenes/productos/colchones/paraiso/super-star/",
+            "precioRegular": 1099,
+            "precioNormal": 919,
+            "precioVenta": 649,
+            "stock": 14,
+            "sku": "H12333NX149",
+            "regalos":[ "2 almohadas viscoelásticas", "1 protector de colchón" ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "ficha":[
+        {
+            "marca": "paraiso",
+            "modelo-de-colchón": "premium super star",
+            "tamaño": "queen",
+            "nivel-de-confort": "Intermedio",
+            "resortes": "Cosisoft",
+            "tela": "Tejido de punto",
+            "tratamiento": "Antihongos, antibacterias y antiácaros",
+            "acabado": "vaporizado",
+            "ergosoft": "acolchado superior",
+            "marco": "zebra 25",
+            "sistema": "one side",
+            "sensación": "intermedia",
+            "garantía": "8 años"
+        }
+    ]
+}

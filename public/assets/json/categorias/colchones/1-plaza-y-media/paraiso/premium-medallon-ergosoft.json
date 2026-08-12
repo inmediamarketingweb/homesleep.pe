@@ -1,0 +1,44 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "marca": "paraiso",
+            "modelo": "premium medallon ergosoft",
+            "tamaño": "1 plaza y media",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/premium-medallon-ergosoft/",
+            "nombre": "COLCHÓN PARAISO PREMIUM MEDALLON ERGOSOFT 1 PLAZA Y MEDIA",
+            "fotos": "/assets/imagenes/productos/colchones/paraiso/medallon-ergosoft/",
+            "precioRegular": 799,
+            "precioNormal": 549,
+            "precioVenta": 409,
+            "stock": 14,
+            "sku": "H115210NX110",
+            "regalos":[ "1 almohada" ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "mensajes":[
+        "Eleva tu descanso a un estándar superior con el colchón Medallón ErgoSoft de Paraiso, una obra maestra de ingeniería del confort. Ha sido diseñado para quienes buscan la excelencia en cada detalle, ofreciendo una sensación intermedia perfectamente balanceada que combina una suavidad reconfortante con un soporte preciso para la columna.",
+        "El secreto de su superioridad reside en su núcleo de resortes Cosisoft, un sistema innovador que proporciona una adaptabilidad y firmeza excepcionales, reduciendo significativamente la transferencia de movimiento. Este soporte de alto rendimiento se enmarca en un robusto marco Zebra 25 de máxima densidad, asegurando una estabilidad perimetural incomparable y una durabilidad extrema. Sobre esta base, la experiencia se vuelve sublime con un exclusivo acolchado superior ErgoSoft, diseñado para moldearse ergonómicamente a tus curvas y aliviar los puntos de presión.",
+        "Todo esto está envuelto en una elegante tela Jacquard que, gracias a un tratamiento vaporizado de última generación, incorpora una potente barrera antihongos, antibacterias y antiácaros, garantizando un entorno de sueño saludable y puro. La banda perimetral en Mesh asegura una ventilación óptima en todos los lados, mientras que su diseño One Side de lujo elimina la necesidad de voltearlo, ofreciendo comodidad y máximo confort siempre en la superficie ideal.",
+        "Invierte en el pináculo del descanso inteligente, respaldado por la confianza de una garantía de 7 años."
+    ],
+    "ficha":[
+        {
+            "marca": "paraiso",
+            "modelo-de-colchón": "Medallon ergosoft",
+            "nivel-de-confort": "Intermedio",
+            "resortes": "Cosisoft",
+            "tela": "Jacquard",
+            "tratamiento": "Antihongos, antibacterias y antiácaros",
+            "banda": "mesh",
+            "acabado": "vaporizado",
+            "ergosoft": "acolchado superior",
+            "marco": "zebra 25",
+            "sistema": "one side",
+            "sensación": "intermedia",
+            "garantía": "7 años"
+        }
+    ]
+}

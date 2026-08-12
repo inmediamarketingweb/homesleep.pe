@@ -2,17 +2,17 @@
     "productos":[
         {
             "categoria": "colchones",
-            "tamaño": "1 plaza y media",
+            "tamaño": "2 plazas",
             "marca": "el cisne",
             "modelo": "valente",
-            "ruta": "/productos/colchones/1-plaza-y-media/el-cisne/valente-marron/",
-            "nombre": "COLCHÓN EL CISNE VALENTE MARRON 1 PLAZA Y MEDIA",
+            "ruta": "/productos/colchones/2-plazas/el-cisne/valente-marron/",
+            "nombre": "COLCHÓN EL CISNE VALENTE MARRON 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/valente-marron/",
-            "precioRegular": 1349,
-            "precioNormal": 1299,
-            "precioVenta": 799,
+            "precioRegular": 1799,
+            "precioNormal": 1399,
+            "precioVenta": 899,
             "stock": 14,
-            "sku": "D13159NX11",
+            "sku": "H13159NX11",
             "regalos":["2 almohadas viscoelásticas", "1 protector de colchón"],
             "tipo-de-envio": "Envío preferente"
         }

@@ -3,16 +3,16 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "tamaño": "2 plazas",
+            "tamaño": "1 plaza y media",
             "marca": "paraiso",
             "modelo": "cancun",
-            "ruta": "/productos/colchones/2-plazas/paraiso/cancun/",
-            "nombre": "COLCHÓN PARAISO 2 PLAZAS CANCUN",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/cancun/",
+            "nombre": "COLCHÓN PARAISO 1 PLAZA Y MEDIA CANCUN",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/cancun/",
-            "precioNormal": 849,
-            "precioVenta": 399,
+            "precioNormal": 689,
+            "precioVenta": 319,
             "stock": 14,
-            "sku": "D1212288N10",
+            "sku": "H12122122N10",
             "tipo-de-envio": "Envío aplicado"
         }
     ],

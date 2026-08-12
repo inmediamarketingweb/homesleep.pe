@@ -1,0 +1,41 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño": "king",
+            "marca": "el cisne",
+            "modelo": "braemar black",
+            "ruta": "/productos/colchones/king/el-cisne/braemar-black/",
+            "nombre": "COLCHÓN EL CISNE BRAEMAR BLACK KING",
+            "fotos": "/assets/imagenes/productos/colchones/el-cisne/braemar-black/",
+            "precioRegular": 2699,
+            "precioNormal": 1899,
+            "precioVenta": 999,
+            "stock": 10,
+            "sku": "H1348NX15",
+            "regalos":[ "1 almohada" ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "mensajes":[
+        "Colchón Braemar diseñado con resortes encapsulados individualmente que asegura un soporte personalizado y reducen la transparencia de movimiento.",
+        "Su tapiz en tela Jacuard aporta resistencia, mientras que el marco de espuma de poliuretano de alta densidad refuerza la estructura.",
+        "Con tratamientos antiácaros y antibacterias, diseño one side de fácil mantenimiento y el respaldo de 6 años de garantía."
+    ],
+    "ficha":[
+        {
+            "marca": "el cisne",
+            "resortes": "pocket",
+            "cantidad-de-resortes": "300",
+            "línea-de-colchón": "Ortopédicos",
+            "nivel-de-confort": "medio",
+            "tela": "jacuard",
+            "sistema": "One side",
+            "marco": "Espuma flexible de alta densidad",
+            "tratamiento": "Anti ácaros y antialergías",
+            "sensación": "firmeza media",
+            "garantía": "6 años"
+        }
+    ]
+}

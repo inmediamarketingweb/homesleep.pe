@@ -1,0 +1,40 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño": "1 plaza",
+            "marca": "paraiso",
+            "modelo": "standard eden plus",
+            "ruta": "/productos/colchones/1-plaza/paraiso/standard-eden-plus/",
+            "nombre": "COLCHÓN PARAISO STANDARD EDEN PLUS 1 PLAZA",
+            "fotos": "/assets/imagenes/productos/colchones/paraiso/standard-eden-plus/",
+            "precioRegular": 399,
+            "precioNormal": 329,
+            "precioVenta": 279,
+            "stock": 14,
+            "sku": "H1218NX10",
+            "tipo-de-envio": "Envío aplicado"
+        }
+    ],
+    "mensajes":[
+        "Colchón con su matriz de resortes Bonell mejorados y capas de espuma Zebra de celdas abiertas, brinda buen soporte y comodidad al descanso."
+    ],
+    "ficha":[
+        {
+            "marca": "paraiso",
+            "modelo-de-colchón": "standard eden plus",
+            "línea-de-colchón": "Semi ortopédicos",
+            "nivel-de-confort": "Intermedio",
+            "resortes": "Bonell",
+            "tela": "Jacquard",
+            "tratamiento": "Antihongos, antibacterias y antiácaros",
+            "acabado": "vaporizado",
+            "capas": "2 zebra 18",
+            "marco": "zebra 16",
+            "sistema": "double side",
+            "sensación": "intermedia",
+            "garantía": "3 años"
+        }
+    ]
+}

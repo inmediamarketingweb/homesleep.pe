@@ -1,0 +1,41 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño": "1 plaza y media",
+            "marca": "paraiso",
+            "modelo": "nappy pocket 20 firme",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/nappy-pocket-20-firme/",
+            "nombre": "COLCHÓN PARAISO NAPPY POCKET 20 FIRME 1 PLAZA Y MEDIA",
+            "fotos": "/assets/imagenes/productos/colchones/paraiso/nappy-pocket/",
+            "precioRegular": 1099,
+            "precioNormal": 899,
+            "precioVenta": 419,
+            "stock": 14,
+            "sku": "H115222N10",
+            "regalos":[ "1 almohada", "1 protector de colchón" ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "mensajes":[
+        "Descubre la experiencia de estabilidad y firmeza en un Nappy Pocket 20, cuenta con resortes Pocket, tecnología que se adapta a la forma de tu cuerpo, alivia los puntos de presión y ofrece independencia de movimiento para tu descanso.",
+        "Con sus capas de Zebra D18 exclusivas de Paraíso y superficie de tela tejido de punto, obtendrás una sensación de suavidad única en cada noche."
+    ],
+    "ficha":[
+        {
+            "marca": "paraiso",
+            "modelo-de-colchón": "Nappy pocket 20 firme",
+            "nivel-de-confort": "Ortopédicos",
+            "resortes": "Pocket",
+            "tela": "Tejido de punto",
+            "capas": "2 de zebra 18",
+            "tratamiento": "Antihongos, antibacterias y antiácaros",
+            "pillow-top": "extra acolchado",
+            "marco": "zebra 18",
+            "sistema": "one side",
+            "sensación": "firme",
+            "garantía": "5 años"
+        }
+    ]
+}

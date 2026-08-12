@@ -4,21 +4,17 @@
             "id": 1,
             "categoria": "colchones",
             "marca": "paraiso",
+            "tamaño": "Queen",
             "modelo": "medallon ergosoft",
             "ruta": "/productos/colchones/queen/paraiso/medallon-ergosoft/",
             "nombre": "COLCHÓN PARAISO QUEEN MEDALLON ERGOSOFT",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/medallon-ergosoft/",
-            "precioRegular": 1499,
-            "precioNormal": 939,
-            "precioVenta": 529,
+            "precioRegular": 1299,
+            "precioNormal": 899,
+            "precioVenta": 589,
             "stock": 14,
-            "sku": "D12310N10",
+            "sku": "H12310N10",
             "regalos":[ "2 almohadas", "1 protector de colchón"],
-            "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "D121510N10" },
-                { "nombre": "2 plazas", "sku": "D12210N10" },
-                { "nombre": "king", "sku": "D12410N10" }
-            ],
             "tipo-de-envio": "Envío preferente"
         }
     ],

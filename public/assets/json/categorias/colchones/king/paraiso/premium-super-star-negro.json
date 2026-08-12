@@ -1,0 +1,38 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño": "king",
+            "marca": "paraiso",
+            "modelo": "premium super star negro",
+            "ruta": "/productos/colchones/king/paraiso/premium-super-star-negro/",
+            "nombre": "COLCHÓN PARAISO PREMIUM SUPER STAR NEGRO KING",
+            "fotos": "/assets/imagenes/productos/colchones/paraiso/super-star-negro/",
+            "precioRegular": 1499,
+            "precioNormal": 1329,
+            "precioVenta": 829,
+            "stock": 14,
+            "sku": "H1234NX098",
+            "regalos":[ "2 almohadas viscoelásticas", "1 protector de colchón" ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "ficha":[
+        {
+            "marca": "paraiso",
+            "modelo-de-colchón": "premium super star negro",
+            "tamaño": "king",
+            "nivel-de-confort": "Intermedio",
+            "resortes": "Cosisoft",
+            "tela": "Tejido de punto",
+            "tratamiento": "Antihongos, antibacterias y antiácaros",
+            "acabado": "vaporizado",
+            "ergosoft": "acolchado superior",
+            "marco": "zebra 25",
+            "sistema": "one side",
+            "sensación": "intermedia",
+            "garantía": "8 años"
+        }
+    ]
+}

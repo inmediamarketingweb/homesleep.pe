@@ -3,31 +3,38 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "tamaño": "king",
+            "tamaño": "Queen",
             "marca": "paraiso",
             "modelo": "royal prince",
-            "ruta": "/productos/colchones/king/paraiso/royal-prince/",
-            "nombre": "COLCHÓN KING PARAISO ROYAL PRINCE",
+            "ruta": "/productos/colchones/queen/paraiso/royal-prince/",
+            "nombre": "COLCHÓN PARAISO QUEEN ROYAL PRINCE",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-prince/",
-            "precioRegular": 2999,
-            "precioNormal": 2508,
-            "precioVenta": 1199,
+            "precioRegular": 2472,
+            "precioNormal": 1953,
+            "precioVenta": 1049,
             "stock": 14,
-            "sku": "D12423N10",
-            "regalos":[ "1 almohada viscoelástica", "1 protector de colchón" ],
+            "sku": "D12323N10",
+            "regalos":[ "2 almohadas viscoelásticas", "1 protector de colchón" ],
             "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "ruta": "H121523N10" },
-                { "nombre": "2 plazas", "ruta": "H12223N10" },
-                { "nombre": "Queen", "ruta": "H12323N10" }
+                { "nombre": "1 plaza y media", "sku": "D121523N10" },
+                { "nombre": "2 plazas", "sku": "D12223N10" },
+                { "nombre": "King", "sku": "D12423N10" }
             ],
             "tipo-de-envio": "Envío preferente"
         }
+    ],
+    "mensajes":[
+        "El colchón Royal Prince ofrece un soporte firme y definido en tamaño Queen. Su sensación firme asegura alineación espinal y descanso profundo. Los resortes Pocket brindan sostén robusto y reducen la transferencia de movimiento.",
+        "Su estructura de alta resistencia incluye 2 capas Zebra D20, marco Zebra 30 HD y base de espuma D90 para máxima durabilidad.",
+        "Cubierto con tela higroscópica que absorbe humedad, su diseño One Side es práctico y sin mantenimiento. Con garantía de 10 años, es el trono firme para tu descanso."
     ],
     "ficha":[
         {
             "marca": "paraiso",
             "modelo-de-colchón": "Royal prince",
+            "tamaño": "Queen",
             "nivel-de-confort": "Firme",
+            "tipo-de-resorte": "Pocket",
             "resortes": "Pocket",
             "tela": "Tejido de punto higroscópica que absorde la húmedad",
             "sistema": "one side",

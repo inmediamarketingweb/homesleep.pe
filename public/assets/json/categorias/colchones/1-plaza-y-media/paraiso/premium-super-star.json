@@ -1,0 +1,38 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño": "1 plaza y media",
+            "marca": "paraiso",
+            "modelo": "premium super star",
+            "ruta": "/productos/colchones/1-plaza-y-media/paraiso/super-star/",
+            "nombre": "COLCHÓN PARAISO PREMIUM SUPER STAR 1 PLAZA Y MEDIA",
+            "fotos": "/assets/imagenes/productos/colchones/paraiso/super-star/",
+            "precioRegular": 999,
+            "precioNormal": 634,
+            "precioVenta": 449,
+            "stock": 14,
+            "sku": "H121533NX10",
+            "regalos":[ "1 almohada", "1 protector de colchón" ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "ficha":[
+        {
+            "marca": "paraiso",
+            "modelo-de-colchón": "premium super star",
+            "tamaño": "1 plaza y media",
+            "nivel-de-confort": "Intermedio",
+            "resortes": "Cosisoft",
+            "tela": "Tejido de punto",
+            "tratamiento": "Antihongos, antibacterias y antiácaros",
+            "acabado": "vaporizado",
+            "ergosoft": "acolchado superior",
+            "marco": "zebra 25",
+            "sistema": "one side",
+            "sensación": "intermedia",
+            "garantía": "8 años"
+        }
+    ]
+}

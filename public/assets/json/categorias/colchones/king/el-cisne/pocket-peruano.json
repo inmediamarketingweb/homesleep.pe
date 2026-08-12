@@ -6,13 +6,13 @@
             "marca": "el cisne",
             "modelo": "pocket peruano",
             "ruta": "/productos/colchones/king/el-cisne/pocket-peruano/",
-            "nombre": "COLCHÓN EL CISNE POCKET PERUANO",
+            "nombre": "COLCHÓN EL CISNE POCKET PERUANO KING",
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/pocket-peruano/",
             "precioRegular": 1999,
-            "precioNormal": 1399,
-            "precioVenta": 999,
+            "precioNormal": 1499,
+            "precioVenta": 899,
             "stock": 14,
-            "sku": "D13413N10",
+            "sku": "H13413N10",
             "regalos":[ "3 almohadas" ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -27,7 +27,7 @@
         {
             "marca": "El Cisne",
             "modelo-de-colchón": "Pocket peruano",
-            "tamaño": "King",
+            "tamaño": "king",
             "línea": "ortopédico",
             "nivel-de-confort": "Intermedio",
             "tipo-de-resortes": "Pocket",

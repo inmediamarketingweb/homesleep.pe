@@ -1,0 +1,36 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño": "1 plaza",
+            "marca": "paraiso",
+            "modelo": "zebra 16 8",
+            "ruta": "/productos/colchones/1-plaza/paraiso/zebra-16-8/",
+            "nombre": "COLCHÓN PARAISO ZEBRA 16x8 1 PLAZA",
+            "fotos": "/assets/imagenes/productos/colchones/paraiso/zebra-16/",
+            "precioRegular": 379,
+            "precioNormal": 299,
+            "precioVenta": 159,
+            "stock": 14,
+            "sku": "H121229NXE12",
+            "tipo-de-envio": "Envío aplicado"
+        }
+    ],
+    "mensajes":[
+        "Colchón Zebra 16, fabricado con una matriz de espuma para colchón confortable de densidad 16kg/m3 y cubierta por la resistente tela Poliseda. ¿El resultado? Un excelente descanso."
+    ],
+    "ficha":[
+        {
+            "marca": "paraiso",
+            "modelo-de-colchón": "zebra",
+            "línea-de-colchón": "súper ortopédicos",
+            "nivel-de-confort": "Muy firme",
+            "resortes": "espuma",
+            "tela-superior": "poliseda",
+            "sistema": "one side",
+            "sensación": "muy firme",
+            "garantía": "1 año"
+        }
+    ]
+}

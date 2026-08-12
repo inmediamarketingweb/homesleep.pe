@@ -7,19 +7,14 @@
             "marca": "paraiso",
             "modelo": "royal elizabeth",
             "ruta": "/productos/colchones/queen/paraiso/royal-elizabeth/",
-            "nombre": "COLCHÓN PARAISO QUEEN ROYAL ELIZABETH",
+            "nombre": "COLCHÓN PARAISO ROYAL ELIZABETH QUEEN",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-elizabeth/",
-            "precioRegular": 2439,
-            "precioNormal": 2108,
-            "precioVenta": 1149,
+            "precioRegular": 2039,
+            "precioNormal": 1639,
+            "precioVenta": 1119,
             "stock": 14,
-            "sku": "D1239N10",
+            "sku": "H1239N10",
             "regalos":[ "2 almohadas viscoelásticas", "1 protector de colchón" ],
-            "tamaños-disponibles":[
-                { "nombre": "1 plaza y media", "sku": "D12159N10" },
-                { "nombre": "2 plazas", "sku": "D1229N10" },
-                { "nombre": "King", "sku": "D1249N10" }
-            ],
             "tipo-de-envio": "Envío preferente"
         }
     ],

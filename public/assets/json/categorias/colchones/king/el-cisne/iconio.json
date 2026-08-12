@@ -2,17 +2,17 @@
     "productos":[
         {
             "categoria": "colchones",
-            "tamaño": "king",
+            "tamaño": "queen",
             "marca": "el cisne",
             "modelo": "iconio",
-            "ruta": "/productos/colchones/king/el-cisne/iconio/",
-            "nombre": "COLCHÓN EL CISNE ICONIO KING",
+            "ruta": "/productos/colchones/queen/el-cisne/iconio/",
+            "nombre": "COLCHÓN EL CISNE ICONIO QUEEN",
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/iconio/",
             "precioRegular": 2599,
             "precioNormal": 2089,
             "precioVenta": 1399,
             "stock": 14,
-            "sku": "D1347N10",
+            "sku": "D1337N10",
             "regalos":["2 almohadas viscoelásticas", "1 protector de colchón"],
             "tipo-de-envio": "Envío preferente"
         }

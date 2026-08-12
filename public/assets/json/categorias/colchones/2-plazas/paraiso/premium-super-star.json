@@ -1,0 +1,38 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "colchones",
+            "tamaño": "2 plazas",
+            "marca": "paraiso",
+            "modelo": "premium super star",
+            "ruta": "/productos/colchones/2-plazas/paraiso/premium-super-star/",
+            "nombre": "COLCHÓN PARAISO PREMIUM SUPER STAR 2 PLAZAS",
+            "fotos": "/assets/imagenes/productos/colchones/paraiso/super-star/",
+            "precioRegular": 999,
+            "precioNormal": 809,
+            "precioVenta": 589,
+            "stock": 14,
+            "sku": "H121533NX149",
+            "regalos":[ "1 almohada", "1 protector de colchón" ],
+            "tipo-de-envio": "Envío preferente"
+        }
+    ],
+    "ficha":[
+        {
+            "marca": "paraiso",
+            "modelo-de-colchón": "premium super star",
+            "tamaño": "2 plazas",
+            "nivel-de-confort": "Intermedio",
+            "resortes": "Cosisoft",
+            "tela": "Tejido de punto",
+            "tratamiento": "Antihongos, antibacterias y antiácaros",
+            "acabado": "vaporizado",
+            "ergosoft": "acolchado superior",
+            "marco": "zebra 25",
+            "sistema": "one side",
+            "sensación": "intermedia",
+            "garantía": "8 años"
+        }
+    ]
+}

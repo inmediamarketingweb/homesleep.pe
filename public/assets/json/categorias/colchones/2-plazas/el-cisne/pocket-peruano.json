@@ -2,17 +2,17 @@
     "productos":[
         {
             "categoria": "colchones",
-            "tamaño": "1 plaza y media",
+            "tamaño": "2 plazas",
             "marca": "el cisne",
             "modelo": "pocket peruano",
-            "ruta": "/productos/colchones/1-plaza-y-media/el-cisne/pocket-peruano/",
-            "nombre": "COLCHÓN EL CISNE POCKET PERUANO",
+            "ruta": "/productos/colchones/2-plazas/el-cisne/pocket-peruano/",
+            "nombre": "COLCHÓN EL CISNE POCKET PERUANO 2 PLAZAS",
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/pocket-peruano/1-plaza-y-media/",
             "precioRegular": 1029,
             "precioNormal": 999,
             "precioVenta": 499,
             "stock": 14,
-            "sku": "D13413NX10",
+            "sku": "H13413NX10",
             "regalos":[ "1 almohada" ],
             "tipo-de-envio": "Envío preferente"
         }
@@ -27,7 +27,7 @@
         {
             "marca": "El Cisne",
             "modelo-de-colchón": "Pocket peruano",
-            "tamaño": "1 plaza y media",
+            "tamaño": "2 plazas",
             "línea-de-colchón": "ortopédicos",
             "nivel-de-confort": "Medio",
             "resortes": "pocket",

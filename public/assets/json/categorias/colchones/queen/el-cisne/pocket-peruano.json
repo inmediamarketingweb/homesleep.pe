@@ -8,11 +8,11 @@
             "ruta": "/productos/colchones/queen/el-cisne/pocket-peruano/",
             "nombre": "COLCHÓN EL CISNE POCKET PERUANO QUEEN",
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/pocket-peruano/",
-            "precioRegular": 1999,
+            "precioRegular": 2099,
             "precioNormal": 1399,
-            "precioVenta": 999,
+            "precioVenta": 699,
             "stock": 14,
-            "sku": "D13313N10",
+            "sku": "H13313N10",
             "regalos":[ "3 almohadas" ],
             "tipo-de-envio": "Envío preferente"
         }
