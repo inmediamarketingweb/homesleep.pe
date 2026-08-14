@@ -12,7 +12,7 @@ function Busqueda(){
     const [productos, setProductos] = useState([]);
     const [filteredProductos, setFilteredProductos] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 20;
+    const itemsPerPage = 40;
     const location = useLocation();
     const queryParams = new URLSearchParams(location.search);
     const query = queryParams.get('query') || '';
