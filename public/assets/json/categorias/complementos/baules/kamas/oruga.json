@@ -1,0 +1,28 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoría": "complementos",
+            "subcategoria": "baules",
+            "marca": "Kamas",
+            "modelo": "baules",
+            "ruta": "/productos/complementos/baules/kamas/oruga/1/",
+            "nombre": "BAÚL ORUGA KAMAS 2 PLAZAS - CAMEL",
+            "fotos": "/assets/imagenes/productos/complementos/baules/kamas/oruga/1/",
+            "precioRegular": 1049,
+            "precioNormal": 999,
+            "precioVenta": 699,
+            "stock": 14,
+            "sku": "H722NX10",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "sub-categoría": "baúles",
+                    "tamaño": "2 plazas",
+                    "modelo": "clásico"
+                }
+            ]
+        }
+    ]
+}

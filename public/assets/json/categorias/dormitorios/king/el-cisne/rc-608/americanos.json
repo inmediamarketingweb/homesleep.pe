@@ -2063,6 +2063,270 @@
                     "modelo-de-cabecera": "Lineal 6"
                 }
             ]
+        },
+        {
+            "id": 56,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/65/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA REPTILIAN - NARANJA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/reptilian/2/",
+            "precioRegular": 3699,
+            "precioNormal": 2899,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3324256N39",
+            "tipo-de-envio": "Gratis",
+            "regalos":["3 cojines", "1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/66/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA REPTILIAN - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/reptilian/3/",
+            "precioRegular": 3699,
+            "precioNormal": 2899,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3324256N40",
+            "tipo-de-envio": "Gratis",
+            "regalos":["3 cojines", "1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/67/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA REPTILIAN - AZUL ELECTRICO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/reptilian/4/",
+            "precioRegular": 3699,
+            "precioNormal": 2899,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3324256N41",
+            "tipo-de-envio": "Gratis",
+            "regalos":["3 cojines", "1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/68/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA EGYPT - PLATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/egypt/2/",
+            "precioRegular": 3699,
+            "precioNormal": 2899,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3324256N42",
+            "tipo-de-envio": "Gratis",
+            "regalos":["3 cojines", "1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "egypt"
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/69/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA EGYPT - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/egypt/3/",
+            "precioRegular": 3699,
+            "precioNormal": 2899,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3324256N43",
+            "tipo-de-envio": "Gratis",
+            "regalos":["3 cojines", "1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "egypt"
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/70/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA EGYPT - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/egypt/4/",
+            "precioRegular": 3699,
+            "precioNormal": 2899,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3324256N44",
+            "tipo-de-envio": "Gratis",
+            "regalos":["3 cojines", "1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "egypt"
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/71/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA EGYPT - VINO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/egypt/5/",
+            "precioRegular": 3699,
+            "precioNormal": 2899,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3324256N45",
+            "tipo-de-envio": "Gratis",
+            "regalos":["3 cojines", "1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "egypt"
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/72/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA EGYPT - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/egypt/6/",
+            "precioRegular": 3699,
+            "precioNormal": 2899,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3324256N46",
+            "tipo-de-envio": "Gratis",
+            "regalos":["3 cojines", "1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "egypt"
+                }
+            ]
         }
     ]
 }

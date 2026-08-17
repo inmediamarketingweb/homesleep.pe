@@ -3409,6 +3409,90 @@
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "subcategoria": "americanas",
+            "tamaño": "king",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/152/",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA MOKI - TEJIDO CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/moki/1/",
+            "precioRegular": 1999,
+            "precioNormal": 1799,
+            "precioVenta": 1099,
+            "stock": 15,
+            "sku": "H224226N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "moki"
+                }
+            ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "subcategoria": "americanas",
+            "tamaño": "king",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/153/",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA REPTILIAN - NARANJA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/reptilian/1/",
+            "precioRegular": 1999,
+            "precioNormal": 1799,
+            "precioVenta": 1099,
+            "stock": 15,
+            "sku": "H224226N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "subcategoria": "americanas",
+            "tamaño": "king",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/154/",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA SIDNEY - TEJIDO CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sidney/1/",
+            "precioRegular": 1999,
+            "precioNormal": 1799,
+            "precioVenta": 1099,
+            "stock": 15,
+            "sku": "H224226N14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "sidney"
+                }
+            ]
         }
     ]
 }

@@ -560,14 +560,14 @@
             "marca": "Kamas - Komfort",
             "modelo": "saphir",
             "línea": "americanos",
-            "ruta": "/productos/dormitorios/king/komfort/saphir/americanos/17/",
-            "nombre": "DORMITORIO AMERICANO KING KAMAS / KOMFORT + COLCHÓN KOMFORT SAPHIR + CABECERA AÉREA EGYPT - NEGRO",
-            "fotos": "/assets/imagenes/productos/dormitorios/king/komfort/saphir/americanos/bloques/egypt/6/",
+            "ruta": "/productos/dormitorios/king/komfort/saphir/americanos/18/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / KOMFORT + COLCHÓN KOMFORT SAPHIR + CABECERA AÉREA REPTILIAN - NARANJA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/komfort/saphir/americanos/bloques/reptilian/1/",
             "precioRegular": 3199,
             "precioNormal": 2499,
             "precioVenta": 1799,
             "stock": 9,
-            "sku": "H3424216N24",
+            "sku": "H3424216N25",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -581,7 +581,103 @@
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Egypt"
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Komfort",
+            "modelo": "saphir",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/komfort/saphir/americanos/19/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / KOMFORT + COLCHÓN KOMFORT SAPHIR + CABECERA AÉREA REPTILIAN - AZUL ELECTRICO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/komfort/saphir/americanos/bloques/reptilian/2/",
+            "precioRegular": 3199,
+            "precioNormal": 2499,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3424216N26",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - komfort",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Saphir",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Komfort",
+            "modelo": "saphir",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/komfort/saphir/americanos/20/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / KOMFORT + COLCHÓN KOMFORT SAPHIR + CABECERA AÉREA REPTILIAN - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/komfort/saphir/americanos/bloques/reptilian/3/",
+            "precioRegular": 3199,
+            "precioNormal": 2499,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3424216N27",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - komfort",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Saphir",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Komfort",
+            "modelo": "saphir",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/komfort/saphir/americanos/21/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / KOMFORT + COLCHÓN KOMFORT SAPHIR + CABECERA AÉREA REPTILIAN - CAMEL",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/komfort/saphir/americanos/bloques/reptilian/4/",
+            "precioRegular": 3199,
+            "precioNormal": 2499,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3424216N28",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - komfort",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Saphir",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
                 }
             ]
         }
