@@ -37,7 +37,7 @@
             "tipo-de-cabecera":["Aérea", "Aérea con patas", "Pedestal"]
         },
         {
-            "diseño-de-cabecera":["Infantil", "Clásico", "Americano", "Con marco", "Corona", "Bloques"]
+            "diseño-de-cabecera":["Infantil", "clásicas", "americanas", "Con marco", "coronas", "bloques"]
         },
         {
             "brazos-de-cabecera":["sin brazos", "brazos rectos", "brazos curvos", "brazos p", "brazos seahorse"]

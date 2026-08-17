@@ -3,7 +3,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/1/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADO - UVA",
@@ -31,7 +31,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/2/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADO - PLOMO RATA",
@@ -59,7 +59,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/3/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADO - PLOMO PLATA",
@@ -87,7 +87,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/4/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA + 2 PUFF - NEGRO",
@@ -115,7 +115,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/5/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA + VELADOR SHELTER - PLOMO OSCURO",
@@ -143,7 +143,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/6/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA + VELADOR SHELTER - PLOMO PLATA",
@@ -171,7 +171,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/7/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA + VELADOR SHELTER - ARENA OSCURO",
@@ -199,7 +199,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/8/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA + 2 VELADORES SHELTER - ARENA OSCURO",
@@ -227,7 +227,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/9/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA - MORO",
@@ -255,7 +255,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/americanas/13/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA CON MARCO - NEGRO",
@@ -283,7 +283,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/14/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS ENCAJONADA + CABECERA PEDESTAL EMPERATRIZ - PLOMO OSCURO",
@@ -311,7 +311,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/15/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - CHOCOLATE",
@@ -339,7 +339,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/16/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - AZUL NOCHE",
@@ -367,7 +367,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/17/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - MORO",
@@ -395,7 +395,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/18/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - COBALTO",
@@ -423,7 +423,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/19/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - PLOMO PLATA",
@@ -451,7 +451,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/21/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - ROSADO",
@@ -479,7 +479,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/22/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - VINO",
@@ -507,7 +507,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/23/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - CENIZO",
@@ -535,7 +535,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/24/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - CUERO CAMELL",
@@ -563,7 +563,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/25/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - NEGRO",
@@ -591,7 +591,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/26/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - TURQUESA",
@@ -619,7 +619,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/27/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ - PLOMO",
@@ -647,7 +647,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/28/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL LINEAL CON MARCO - ARENA",
@@ -675,7 +675,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/29/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL LINEAL CON MARCO - NEGRO",
@@ -703,7 +703,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/30/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL BLOQUES V - PLOMO OSCURO",
@@ -731,7 +731,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/31/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL MAJESTAD - HUESO",
@@ -759,7 +759,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/32/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL MAJESTAD - AZUL NOCHE",
@@ -787,7 +787,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/33/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL CORONA - UVA",
@@ -815,7 +815,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/36/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL RECTANGULAR - GRIS PLATA",
@@ -843,7 +843,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/37/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL CUADROS 1 - GRIS ",
@@ -871,7 +871,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/38/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL BLOQUES - BEIGE OSCURO ",
@@ -899,7 +899,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "2 plazas",
             "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/39/",
             "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA PEDESTAL BLOQUES + 2 VELADORES",
@@ -921,6 +921,146 @@
                     "diseño-de-cabecera": "Otras formas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "línea": "americanas",
+            "tamaño": "2 plazas",
+            "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/40/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA INLINE - TEJIDO AZUL",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/bloques/inline/1/",
+            "precioRegular": 1299,
+            "precioNormal": 999,
+            "precioVenta": 699,
+            "stock": 15,
+            "sku": "H222227N19",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "no",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "inline"
+                }
+            ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "línea": "americanas",
+            "tamaño": "2 plazas",
+            "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/41/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA EXPLORER - CUERO CHOCOLATE + CAMELL",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/bloques/explorer/1/",
+            "precioRegular": 1299,
+            "precioNormal": 999,
+            "precioVenta": 699,
+            "stock": 15,
+            "sku": "H222227N20",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "no",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "explorer"
+                }
+            ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "línea": "americanas",
+            "tamaño": "2 plazas",
+            "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/41/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA EXPLORER - CUERO AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/bloques/explorer/2/",
+            "precioRegular": 1299,
+            "precioNormal": 999,
+            "precioVenta": 699,
+            "stock": 15,
+            "sku": "H222227N21",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "no",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "explorer"
+                }
+            ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "línea": "americanas",
+            "tamaño": "2 plazas",
+            "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/42/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA VELUTO - CUERO NEGRO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/bloques/veluto/1/",
+            "precioRegular": 1299,
+            "precioNormal": 999,
+            "precioVenta": 699,
+            "stock": 15,
+            "sku": "H222227N22",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "no",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "veluto"
+                }
+            ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "línea": "americanas",
+            "tamaño": "2 plazas",
+            "ruta": "/productos/camas-box-tarimas/2-plazas/kamas/americanas/43/",
+            "nombre": "CAMA BOX TARIMA AMERICANA ENCAJONADA 2 PLAZAS + CABECERA AÉREA ABANICO - PALO ROSA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/coronas/abanico/1/",
+            "precioRegular": 1349,
+            "precioNormal": 1049,
+            "precioVenta": 749,
+            "stock": 15,
+            "sku": "H222225NX10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "si",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "abanico"
                 }
             ]
         }

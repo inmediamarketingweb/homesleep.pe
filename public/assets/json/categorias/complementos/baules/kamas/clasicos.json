@@ -1,0 +1,124 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoría": "complementos",
+            "subcategoria": "baules",
+            "marca": "Kamas",
+            "modelo": "baules",
+            "ruta": "/productos/complementos/baules/kamas/clasicos/1/",
+            "nombre": "BAÚL CLÁSICO KAMAS 2 PLAZAS - PLOMO OSCURO",
+            "fotos": "/assets/imagenes/productos/complementos/baules/kamas/clasicos/1/",
+            "precioRegular": 449,
+            "precioNormal": 499,
+            "precioVenta": 299,
+            "stock": 14,
+            "sku": "H722N10",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "sub-categoría": "baúles",
+                    "tamaño": "2 plazas",
+                    "modelo": "clásico"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoría": "complementos",
+            "subcategoria": "baules",
+            "marca": "Kamas",
+            "modelo": "baules",
+            "ruta": "/productos/complementos/baules/kamas/clasicos/2/",
+            "nombre": "BAÚL CLÁSICO KAMAS 2 PLAZAS - PLATA",
+            "fotos": "/assets/imagenes/productos/complementos/baules/kamas/clasicos/2/",
+            "precioRegular": 449,
+            "precioNormal": 499,
+            "precioVenta": 299,
+            "stock": 14,
+            "sku": "H722N11",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "sub-categoría": "baúles",
+                    "tamaño": "2 plazas",
+                    "modelo": "clásico"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "categoría": "complementos",
+            "subcategoria": "baules",
+            "marca": "Kamas",
+            "modelo": "baules",
+            "ruta": "/productos/complementos/baules/kamas/clasicos/3/",
+            "nombre": "BAÚL CLÁSICO KAMAS 2 PLAZAS - TEJIDO MARFIL",
+            "fotos": "/assets/imagenes/productos/complementos/baules/kamas/clasicos/3/",
+            "precioRegular": 449,
+            "precioNormal": 499,
+            "precioVenta": 299,
+            "stock": 14,
+            "sku": "H722N12",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "sub-categoría": "baúles",
+                    "tamaño": "2 plazas",
+                    "modelo": "clásico"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "categoría": "complementos",
+            "subcategoria": "baules",
+            "marca": "Kamas",
+            "modelo": "baules",
+            "ruta": "/productos/complementos/baules/kamas/clasicos/4/",
+            "nombre": "BAÚL CLÁSICO KAMAS 2 PLAZAS - NEGRO",
+            "fotos": "/assets/imagenes/productos/complementos/baules/kamas/clasicos/4/",
+            "precioRegular": 449,
+            "precioNormal": 499,
+            "precioVenta": 299,
+            "stock": 14,
+            "sku": "H722N13",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "sub-categoría": "baúles",
+                    "tamaño": "2 plazas",
+                    "modelo": "clásico"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoría": "complementos",
+            "subcategoria": "baules",
+            "marca": "Kamas",
+            "modelo": "baules",
+            "ruta": "/productos/complementos/baules/kamas/clasicos/5/",
+            "nombre": "BAÚL CLÁSICO KAMAS 2 PLAZAS - TEJIDO CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/complementos/baules/kamas/clasicos/5/",
+            "precioRegular": 449,
+            "precioNormal": 499,
+            "precioVenta": 299,
+            "stock": 14,
+            "sku": "H722N14",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "sub-categoría": "baúles",
+                    "tamaño": "2 plazas",
+                    "modelo": "clásico"
+                }
+            ]
+        }
+    ]
+}

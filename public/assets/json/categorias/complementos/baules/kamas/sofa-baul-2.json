@@ -1,0 +1,52 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoría": "complementos",
+            "subcategoria": "baules",
+            "marca": "Kamas",
+            "modelo": "sofa baúl 2",
+            "ruta": "/productos/complementos/baules/kamas/sofa-baul-2/1/",
+            "nombre": "SOFÁ BAÚL MODELO 2 KAMAS 2 PLAZAS - TEJIDO MARFIL",
+            "fotos": "/assets/imagenes/productos/complementos/baules/kamas/sofa-baul-2/1/",
+            "precioRegular": 819,
+            "precioNormal": 749,
+            "precioVenta": 599,
+            "stock": 14,
+            "sku": "H72234N10",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "sub-categoría": "baúles",
+                    "modelo": "sofa baúl 2",
+                    "tamaño": "2 plazas"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoría": "complementos",
+            "subcategoria": "baules",
+            "marca": "Kamas",
+            "modelo": "sofa baúl 2",
+            "ruta": "/productos/complementos/baules/kamas/sofa-baul-2/2/",
+            "nombre": "SOFÁ BAÚL MODELO 2 KAMAS 2 PLAZAS - NEGRO",
+            "fotos": "/assets/imagenes/productos/complementos/baules/kamas/sofa-baul-2/2/",
+            "precioRegular": 819,
+            "precioNormal": 749,
+            "precioVenta": 599,
+            "stock": 14,
+            "sku": "H72234N11",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "sub-categoría": "baúles",
+                    "modelo": "sofa baúl 2",
+                    "tamaño": "2 plazas"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoría": "complementos",
+            "subcategoria": "baules",
+            "marca": "Kamas",
+            "modelo": "sofa baúl 1",
+            "ruta": "/productos/complementos/baules/kamas/sofa-baul-1/1/",
+            "nombre": "SOFA BAÚL KAMAS 2 PLAZAS - PLOMO OSCURO",
+            "fotos": "/assets/imagenes/productos/complementos/baules/kamas/sofa-baul-1/1/",
+            "precioRegular": 679,
+            "precioNormal": 599,
+            "precioVenta": 449,
+            "stock": 14,
+            "sku": "H7223N10",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "sub-categoría": "baúles",
+                    "modelo": "sofa baúl 1",
+                    "tamaño": "2 plazas"
+                }
+            ]
+        }
+    ]
+}
