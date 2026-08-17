@@ -12,18 +12,23 @@
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/bloques/grid/1/",
             "precioRegular": 2999,
             "precioNormal": 1999,
-            "precioVenta": 1049,
+            "precioVenta": 1099,
             "stock": 9,
             "sku": "H32222266N10",
             "tipo-de-envio": "Gratis",
-            "resumen-del-producto":[
+            "detalles-del-producto":[
                 {
                     "marca": "Kamas - Paraiso",
                     "línea": "Americanos",
                     "tamaño": "2 Plazas",
-                    "modelo-colchón": "Pocket italiano",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "pocket",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "modelo-de-cabecera": "Grid"
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "grid"
                 }
             ]
         },
@@ -39,7 +44,7 @@
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/bloques/olimpic/1/",
             "precioRegular": 2999,
             "precioNormal": 1999,
-            "precioVenta": 1049,
+            "precioVenta": 1099,
             "stock": 9,
             "sku": "H32222266N11",
             "tipo-de-envio": "Gratis",
@@ -51,8 +56,9 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "pocket",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Olimpic"
                 }
@@ -70,7 +76,7 @@
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/bloques/olimpic/2/",
             "precioRegular": 2999,
             "precioNormal": 1999,
-            "precioVenta": 1049,
+            "precioVenta": 1099,
             "stock": 9,
             "sku": "H32222266N12",
             "tipo-de-envio": "Gratis",
@@ -82,8 +88,9 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "pocket",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Olimpic"
                 }
@@ -101,7 +108,7 @@
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/bloques/sidney/1/",
             "precioRegular": 2999,
             "precioNormal": 1999,
-            "precioVenta": 1049,
+            "precioVenta": 1099,
             "stock": 9,
             "sku": "H32222266N13",
             "tipo-de-envio": "Gratis",
@@ -113,8 +120,9 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "pocket",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Sidney"
                 }
@@ -132,7 +140,7 @@
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/bloques/tortun/1/",
             "precioRegular": 2999,
             "precioNormal": 1999,
-            "precioVenta": 1049,
+            "precioVenta": 1099,
             "stock": 9,
             "sku": "H32222266N14",
             "tipo-de-envio": "Gratis",
@@ -144,8 +152,9 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "pocket",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Tortun"
                 }
@@ -163,9 +172,9 @@
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/coronas/majestad/1/",
             "precioRegular": 2999,
             "precioNormal": 1999,
-            "precioVenta": 1249,
+            "precioVenta": 1299,
             "stock": 9,
-            "sku": "H32222266N15",
+            "sku": "H32222265N15",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -175,6 +184,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "pocket",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos Curvos",
@@ -194,7 +204,7 @@
             "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/americanas/lineal-1/1/",
             "precioRegular": 2999,
             "precioNormal": 1999,
-            "precioVenta": 1049,
+            "precioVenta": 1099,
             "stock": 9,
             "sku": "H32222263N16",
             "tipo-de-envio": "Gratis",
@@ -206,10 +216,139 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "pocket",
                     "tipo-de-cabecera": "Aérea con patas",
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Lineal 1"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Paraiso",
+            "modelo": "pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/8/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS + COLCHÓN PARAISO POCKET ITALIANO + CABECERA AEREA INLINE - TEJIDO AZUL",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/bloques/inline/1/",
+            "precioRegular": 2999,
+            "precioNormal": 1999,
+            "precioVenta": 1099,
+            "stock": 9,
+            "sku": "H32222266N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 Plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Inline"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Paraiso",
+            "modelo": "pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/9/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS + COLCHÓN PARAISO POCKET ITALIANO + CABECERA AEREA INTIPUNKU - TEJIDO TABACO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/bloques/intipunku/1/",
+            "precioRegular": 2999,
+            "precioNormal": 1999,
+            "precioVenta": 1099,
+            "stock": 9,
+            "sku": "H32222266N16",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 Plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Intipunku"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Paraiso",
+            "modelo": "pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/10/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS + COLCHÓN PARAISO POCKET ITALIANO + CABECERA AEREA VELUTO - GRIS",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/bloques/veluto/1/",
+            "precioRegular": 2999,
+            "precioNormal": 1999,
+            "precioVenta": 1099,
+            "stock": 9,
+            "sku": "H32222266N17",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 Plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Veluto"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Paraiso",
+            "modelo": "pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/11/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS + COLCHÓN PARAISO POCKET ITALIANO + CABECERA AEREA XTRATO - IVORY",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/bloques/xtrato/1/",
+            "precioRegular": 2999,
+            "precioNormal": 1999,
+            "precioVenta": 1099,
+            "stock": 9,
+            "sku": "H32222266N18",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 Plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Xtrato"
                 }
             ]
         }
