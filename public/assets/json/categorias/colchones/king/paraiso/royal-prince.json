@@ -3,11 +3,11 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "tamaño": "Queen",
+            "tamaño": "king",
             "marca": "paraiso",
             "modelo": "royal prince",
-            "ruta": "/productos/colchones/queen/paraiso/royal-prince/",
-            "nombre": "COLCHÓN PARAISO QUEEN ROYAL PRINCE",
+            "ruta": "/productos/colchones/king/paraiso/royal-prince/",
+            "nombre": "COLCHÓN KING PARAISO ROYAL PRINCE",
             "fotos": "/assets/imagenes/productos/colchones/paraiso/royal-prince/",
             "precioRegular": 2472,
             "precioNormal": 1953,
@@ -32,7 +32,7 @@
         {
             "marca": "paraiso",
             "modelo-de-colchón": "Royal prince",
-            "tamaño": "Queen",
+            "tamaño": "king",
             "nivel-de-confort": "Firme",
             "tipo-de-resorte": "Pocket",
             "resortes": "Pocket",
