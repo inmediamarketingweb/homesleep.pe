@@ -21,7 +21,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -48,7 +48,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -75,7 +75,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -102,7 +102,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -129,7 +129,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -156,7 +156,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -183,7 +183,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -210,7 +210,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -237,7 +237,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -264,7 +264,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -291,7 +291,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -318,7 +318,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -345,7 +345,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -372,7 +372,7 @@
                     "línea": "Americana",
                     "tamaño": "King",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
+                    "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -726,6 +726,32 @@
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Princesa"
+                }
+            ]
+        },
+        {
+            "id": 107,
+            "categoria": "cabeceras",
+            "marca": "kamas",
+            "subcategoria": "pedestales",
+            "tamaño": "king",
+            "ruta": "/productos/cabeceras/king/kamas/pedestales/28/",
+            "nombre": "CABECERA KAMAS KING PEDESTAL EMPERATRIZ - TEJIDO LILA",
+            "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/emperatriz/1/",
+            "precioRegular": 1239,
+            "precioNormal": 1149,
+            "precioVenta": 799,
+            "stock": 9,
+            "sku": "H54241NX10",
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "tamaño": "King",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americanas",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
                 }
             ]
         }

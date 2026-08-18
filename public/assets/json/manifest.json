@@ -548,12 +548,13 @@
 
         "/assets/json/categorias/camas-funcionales/box-espacio/queen/kamas/americanos.json",
 
+        "/assets/json/categorias/camas-funcionales/box-espacio/king/kamas/americanos.json",
+
         "/assets/json/categorias/camas-funcionales/cama-divan/2-plazas/kamas/americanos.json",
 
 
 
         "/assets/json/categorias/cabeceras/1-plaza-y-media/kamas/pedestales.json",
-
 
         "/assets/json/categorias/cabeceras/2-plazas/kamas/aereas.json",
         "/assets/json/categorias/cabeceras/2-plazas/kamas/aereas-con-patas.json",
@@ -561,6 +562,7 @@
 
         "/assets/json/categorias/cabeceras/queen/kamas/pedestales.json",
 
+        "/assets/json/categorias/cabeceras/king/kamas/aereas.json",
         "/assets/json/categorias/cabeceras/king/kamas/pedestales.json",
 
 

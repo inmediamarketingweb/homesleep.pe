@@ -1,0 +1,33 @@
+{
+    "productos":[
+        {
+            "categoría": "camas funcionales",
+            "subcategoría": "box espacio",
+            "línea": "americanos",
+            "tamaño": "king",
+            "marca": "kamas",
+            "ruta": "/productos/camas-funcionales/box-espacios/king/kamas/americanos/1/",
+            "nombre": "BOX ESPACIO AMERICANO KING + CABECERA AÉREA LINEAL 1 - CUERO IVORY",
+            "fotos": "/assets/imagenes/productos/camas-funcionales/kamas/box-espacios/americanos/king/americanas/lineal-1/1/",
+            "precioRegular": 2999,
+            "precioNormal": 2349,
+            "precioVenta": 1699,
+            "stock": 14,
+            "sku": "H41331N10",
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "marca": "Kamas",
+                    "subcategoría": "box espacio",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "modelo-de-cabecera": "Lineal 1"
+                }
+            ]
+        }
+    ]
+}
