@@ -27,8 +27,8 @@ function Slider() {
     const transformValue = -currentIndex * slideWidth;
 
     return (
-        <div className='block-container hp-slider-container d-flex-column gap-10'>
-            <section className='block-content hp-slider-content'>
+        <div className='hp-slider-container d-flex-column gap-10'>
+            <section className='hp-slider-content'>
                 <div>
                     <ul style={{
                         transform: `translateX(${transformValue}%)`,
@@ -44,20 +44,20 @@ function Slider() {
                     </ul>
                 </div>
 
-                <button type='button' className='hp-slider-button-1' onClick={prevSlide}>
+                <button type='button' className='hp-slider-button hp-slider-button-1' onClick={prevSlide}>
                     <span className="material-symbols-outlined">keyboard_arrow_left</span>
                 </button>
 
-                <button type='button' className='hp-slider-button-2' onClick={nextSlide}>
+                <button type='button' className='hp-slider-button hp-slider-button-2' onClick={nextSlide}>
                     <span className="material-symbols-outlined">keyboard_arrow_right</span>
                 </button>
-            </section>
 
-            <div className='hp-slider-buttons'>
-                {slides.map((_, index) => (
-                    <button key={index} className={currentIndex === index ? 'active' : ''} onClick={() => goToSlide(index)}/>
-                ))}
-            </div>
+                <section className='hp-slider-buttons'>
+                    {slides.map((_, index) => (
+                        <button key={index} className={currentIndex === index ? 'active' : ''} onClick={() => goToSlide(index)}/>
+                    ))}
+                </section>
+            </section>
         </div>
     );
 }

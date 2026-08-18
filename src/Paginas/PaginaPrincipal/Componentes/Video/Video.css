@@ -1,0 +1,70 @@
+.hp-video-block-container{
+    position: relative;
+}
+
+.hp-video-block-content{
+    position: relative;
+    padding: 20px;
+    background-image: url('https://homesleep.pe/assets/imagenes/productos/dormitorios/1.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 4px;
+    border: 1px solid var(--component);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    overflow: hidden;
+}
+
+.hp-video-block-content::before{
+    content: '';
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0 0 0 / 0.75);
+    z-index: 0;
+}
+
+.hp-video-tag{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.hp-video-tag-1{
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.hp-video-logo{
+    width: auto;
+    height: 52px;
+    object-fit: contain;
+    margin-right: auto;
+}
+
+.hp-video-tag video{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    display: flex;
+}
+
+@media screen and (max-width: 600px){
+    .hp-video-block-content{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .hp-video-logo{
+        height: 42px;
+    }
+}
