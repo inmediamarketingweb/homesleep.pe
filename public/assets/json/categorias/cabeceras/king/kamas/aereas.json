@@ -1,0 +1,56 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoría": "cabeceras",
+            "tamaño": "king",
+            "marca": "kamas",
+            "ruta": "/productos/cabeceras/king/kamas/aereas/1/",
+            "nombre": "CABECERA AÉREA KING EGYPT 3 - TRICOLOR",
+            "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/egypt-3/1/",
+            "precioRegular": 899,
+            "precioNormal": 879,
+            "precioVenta": 649,
+            "stock": 9,
+            "sku": "H542231N10",
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "tamaño": "King",
+                    "línea": "bloques",
+                    "tipo-de-cabecera": "aérea",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "Egypt 3"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoría": "cabeceras",
+            "tamaño": "king",
+            "marca": "kamas",
+            "ruta": "/productos/cabeceras/king/kamas/aereas/2/",
+            "nombre": "CABECERA AÉREA KING STARIS - ANTIFLUIDO IVORY",
+            "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/staris/1/",
+            "precioRegular": 899,
+            "precioNormal": 879,
+            "precioVenta": 649,
+            "stock": 9,
+            "sku": "H542231N11",
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "tamaño": "King",
+                    "línea": "bloques",
+                    "tipo-de-cabecera": "aérea",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "Staris"
+                }
+            ]
+        }
+    ]
+}
