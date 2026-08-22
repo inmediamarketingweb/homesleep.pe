@@ -1,10 +1,11 @@
 .hp-slider-content{
     width: 100%;
+    max-height: 450px !important;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     overflow: hidden;
 }
 
@@ -38,22 +39,21 @@
     object-fit: cover;
 }
 
-.hp-slider-content > button{
+.hp-slider-button{
     position: absolute;
     top: 50%;
     translate: 0 -50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(0 0 0 / 0.2);
     transition: var(--t-200ms-linear);
+
     width: 48px;
+    height: auto;
     aspect-ratio: 1/1;
     border-radius: 100%;
-}
 
-.hp-slider-content > button:hover{
-    background: rgba(0 0 0 / 0.45);
+    background: rgba(0 0 0 / 0.25);
 }
 
 .hp-slider-button-1{
@@ -64,13 +64,19 @@
     right: 10px;
 }
 
-.hp-slider-content > button span{
-    font-size: 32px;
+.hp-slider-button span{
+    font-size: 26px;
     color: var(--white);
 }
 
 .hp-slider-buttons{
-    margin: auto;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    translate: -50% 0;
+    z-index: 10;
+
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,14 +86,15 @@
 .hp-slider-buttons button{
     cursor: pointer;
     display: flex;
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
-    background: rgba(0 0 0 / 0.25);
+    width: 12px;
+    height: 12px;
+    border-radius: 25px;
+    background: rgba(0 0 0 / 0.5);
+    transition: var(--t-200ms-linear);
 }
 
 .hp-slider-buttons button.active{
-    width: 30px;
+    width: 36px;
     background: var(--color-1);
 }
 

@@ -314,3 +314,10 @@
         font-size: 32px;
     }
 }
+
+.products-page-filters-container .products-page-filter:nth-child(1) .products-page-filter-list-link::before{
+    display: none !important;
+    pointer-events: none !important;
+    user-select: none !important;
+    visibility: hidden !important;
+}
