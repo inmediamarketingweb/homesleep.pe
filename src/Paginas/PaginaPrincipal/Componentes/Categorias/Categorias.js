@@ -134,7 +134,7 @@ function Categorias(){
                 <div className='block-title-container'>
                     <h2 className='block-title'>Categorías</h2>
 
-                    <a className='block-title-link' href='/'>
+                    <a className='block-title-link' href='https://homesleep.pe/productos/'>
                         <p className='block-title-link-text'>Ver todos los productos</p>
                         <span className="material-symbols-outlined">arrow_outward</span>
                     </a>
