@@ -7,6 +7,7 @@ import Ofertas from './Componentes/Ofertas/Ofertas';
 import StockUnico from './Componentes/StockUnico/StockUnico';
 import Dormitorios from './Componentes/Destacados/Dormitorios';
 // import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
+import SubCategorias from './Componentes/SubCategorias';
 
 function PaginaPrincipal(){
     return(
@@ -29,9 +30,13 @@ function PaginaPrincipal(){
             <main>
                 <Slider/>
 
+                <Dormitorios/>
+
                 <Categorias/>
 
                 <Video/>
+
+                <SubCategorias/>
 
                 {/* <Ofertas/> */}
             </main>

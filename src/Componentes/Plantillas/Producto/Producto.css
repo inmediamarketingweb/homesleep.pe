@@ -6,7 +6,7 @@
     width: 100%;
     height: auto;
     display: flex;
-    border-radius: 15px;
+    border-radius: 5px;
     background: var(--product);
     border: 1px solid rgba(0 0 0 / 0.25) !important;
     transition: var(--t-200ms-linear) !important;
