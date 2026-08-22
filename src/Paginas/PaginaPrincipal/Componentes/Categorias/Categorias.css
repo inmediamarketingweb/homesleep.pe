@@ -11,7 +11,7 @@
 
 .hp-categories{
     display: grid;
-    grid-template-columns: repeat(7, 300px);
+    grid-template-columns: repeat(7, 280px);
     gap: 5px;
 }
 
@@ -42,7 +42,7 @@
 
 .hp-category a div img{
     width: 100%;
-    height: 300px;
+    height: 320px;
     object-fit: cover;
     transition: var(--t-200ms-linear);
 }

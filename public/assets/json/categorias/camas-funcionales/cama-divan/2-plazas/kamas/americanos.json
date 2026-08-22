@@ -197,34 +197,6 @@
             ]
         },
         {
-            "id": 8,
-            "categoria": "camas funcionales",
-            "subcategoria": "cama divan",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-funcionales/cama-divan/2-plazas/kamas/americanos/8/",
-            "nombre": "CAMA DIVAN 2 PLAZAS + 1 PLAZA Y MEDIA + CABECERA PEDESTAL EMPERATRIZ - LILA",
-            "fotos": "/assets/imagenes/productos/camas-funcionales/kamas/divanes/americanos/2-plazas/pedestales/americanas/brazos-rectos/emperatriz/8/",
-            "colores": "si",
-            "precioRegular": 1599,
-            "precioNormal": 1319,
-            "precioVenta": 1029,
-            "stock": 9,
-            "sku": "K43212N17",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ]
-        },
-        {
             "id": 9,
             "categoria": "camas funcionales",
             "subcategoria": "cama divan",
@@ -309,34 +281,6 @@
             ]
         },
         {
-            "id": 12,
-            "categoria": "camas funcionales",
-            "subcategoria": "cama divan",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-funcionales/cama-divan/2-plazas/kamas/americanos/12/",
-            "nombre": "CAMA DIVAN 2 PLAZAS + 1 PLAZA Y MEDIA + CABECERA PEDESTAL EMPERATRIZ - ROJO",
-            "fotos": "/assets/imagenes/productos/camas-funcionales/kamas/divanes/americanos/2-plazas/pedestales/americanas/brazos-rectos/emperatriz/12/",
-            "colores": "si",
-            "precioRegular": 1599,
-            "precioNormal": 1319,
-            "precioVenta": 1029,
-            "stock": 9,
-            "sku": "K43212N21",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ]
-        },
-        {
             "id": 13,
             "categoria": "camas funcionales",
             "subcategoria": "cama divan",
@@ -350,34 +294,6 @@
             "precioVenta": 1029,
             "stock": 9,
             "sku": "K43212N22",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ]
-        },
-        {
-            "id": 14,
-            "categoria": "camas funcionales",
-            "subcategoria": "cama divan",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-funcionales/cama-divan/2-plazas/kamas/americanos/14/",
-            "nombre": "CAMA DIVAN 2 PLAZAS + 1 PLAZA Y MEDIA + CABECERA PEDESTAL EMPERATRIZ - FUCSIA",
-            "fotos": "/assets/imagenes/productos/camas-funcionales/kamas/divanes/americanos/2-plazas/pedestales/americanas/brazos-rectos/emperatriz/14/",
-            "colores": "si",
-            "precioRegular": 1599,
-            "precioNormal": 1319,
-            "precioVenta": 1029,
-            "stock": 9,
-            "sku": "K43212N23",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -680,64 +596,6 @@
             ]
         },
         {
-            "id": 22,
-            "categoria": "camas funcionales",
-            "subcategoria": "cama divan",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-funcionales/cama-divan/2-plazas/kamas/americanos/22/",
-            "nombre": "CAMA DIVAN 2 PLAZAS + 1 PLAZA Y MEDIA + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL EMPERATRIZ - CAMELL",
-            "fotos": "/assets/imagenes/productos/camas-funcionales/kamas/divanes/americanos/2-plazas/pedestales/americanas/brazos-rectos/emperatriz/22/",
-            "colores": "si",
-            "precioRegular": 1899,
-            "precioNormal": 1669,
-            "precioVenta": 1299,
-            "stock": 9,
-            "sku": "K43212N31",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "resortes": "12 filas en forma vertical",
-                    "tela": "Tricop",
-                    "densidad-de-la-espuma": "16kg/m3",
-                    "tipo-de-uso": "Ambos lados",
-                    "soporte-de-peso": "65kg. por persona",
-                    "garantía": "1 año"  
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                            
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "id": 23,
             "categoria": "camas funcionales",
             "subcategoria": "cama divan",
@@ -751,64 +609,6 @@
             "precioVenta": 1299,
             "stock": 9,
             "sku": "K43212N32",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "línea": "americanas",
-                    "tamaño": "2 plazas",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Emperatriz"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Cama divan",
-                    "descripcion":[
-                        {
-                            "resortes": "12 filas en forma vertical",
-                    "tela": "Tricop",
-                    "densidad-de-la-espuma": "16kg/m3",
-                    "tipo-de-uso": "Ambos lados",
-                    "soporte-de-peso": "65kg. por persona",
-                    "garantía": "1 año"  
-                        }
-                    ]
-                },
-                {
-                    "titulo": "Cabecera",
-                    "descripcion":[
-                        {
-                            "madera": "Pino americano seco al horno.",
-                            "espuma": "Zebra de alta densidad",
-                            "láminas": "MDF de 3mm.",
-                            "tela": "Piel de potro",
-                            "patas": "De manera",
-                            "botones": "clásicos o acrílicos",
-                            "garantía": "2 años"
-                            
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": 24,
-            "categoria": "camas funcionales",
-            "subcategoria": "cama divan",
-            "tamaño": "2 plazas",
-            "ruta": "/productos/camas-funcionales/cama-divan/2-plazas/kamas/americanos/24/",
-            "nombre": "CAMA DIVAN 2 PLAZAS + 1 PLAZA Y MEDIA + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL EMPERATRIZ - PALO ROSA",
-            "fotos": "/assets/imagenes/productos/camas-funcionales/kamas/divanes/americanos/2-plazas/pedestales/americanas/brazos-rectos/emperatriz/24/",
-            "colores": "si",
-            "precioRegular": 1899,
-            "precioNormal": 1669,
-            "precioVenta": 1299,
-            "stock": 9,
-            "sku": "K43212N33",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {

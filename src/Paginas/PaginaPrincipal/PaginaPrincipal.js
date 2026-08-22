@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import Slider from './Componentes/Slider/Slider';
 import Video from './Componentes/Video/Video';
 import Categorias from './Componentes/Categorias/Categorias';
+import Ofertas from './Componentes/Ofertas/Ofertas';
 import StockUnico from './Componentes/StockUnico/StockUnico';
 import Dormitorios from './Componentes/Destacados/Dormitorios';
 // import SobreNosotros from './Componentes/SobreNosotros/SobreNosotros';
@@ -31,6 +32,8 @@ function PaginaPrincipal(){
                 <Categorias/>
 
                 <Video/>
+
+                <Ofertas/>
             </main>
         </>
     );

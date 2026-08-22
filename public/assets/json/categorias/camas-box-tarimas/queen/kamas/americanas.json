@@ -481,34 +481,6 @@
             "marca": "kamas",
             "subcategoria": "americanas",
             "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/23/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - COBALTO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/16/",
-            "precioRegular": 1899,
-            "precioNormal": 1899,
-            "precioVenta": 1369,
-            "stock": 15,
-            "sku": "H21232113N25",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/24/",
             "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - AZUL NOCHE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/17/",
@@ -881,34 +853,6 @@
             "precioVenta": 1199,
             "stock": 15,
             "sku": "H21232113N24",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 2"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/45/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - VERDE LORO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/17/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
-            "stock": 15,
-            "sku": "H21232113N25",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {

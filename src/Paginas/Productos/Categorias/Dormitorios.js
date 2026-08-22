@@ -1,3 +1,2576 @@
+// // // // import { useEffect, useState, useMemo, useRef } from 'react';
+// // // // import { Helmet } from 'react-helmet';
+// // // // import { useParams, useLocation, useNavigate, Link } from 'react-router-dom';
+
+// // // // import '../Productos.css';
+// // // // import './Layout.css';
+
+// // // // import Categorias from '../Componentes/Categorias/Categorias';
+// // // // import FiltrosTop from '../Componentes/FiltrosTop/FiltrosTop';
+// // // // import { Producto } from '../../../Componentes/Plantillas/Producto/Producto';
+
+// // // // const normalizarTexto = (texto) => {
+// // // //     return texto.toLowerCase().normalize("NFD").replace(/\s+/g, "-");
+// // // // };
+
+// // // // const filtroKeyMap = {
+// // // //     "tamaño": "tamaño",
+// // // //     "marca": "marca",
+// // // //     "línea": "línea",
+// // // //     "base-encajonada": "base-encajonada",
+// // // //     "cajones": "cajones",
+// // // //     "modelo": "modelo-de-colchón",
+// // // //     "tipo-de-cabecera": "tipo-de-cabecera",
+// // // //     "diseño-de-cabecera": "diseño-de-cabecera",
+// // // //     "brazos-de-cabecera": "brazos-de-cabecera",
+// // // //     "resortes": "resortes",
+// // // // };
+
+// // // // const mapaMarcasModelos = {
+// // // //     "el-cisne": "el-cisne",
+// // // //     "kamas---el-cisne": "el-cisne",
+
+// // // //     "kamas": "kamas",
+
+// // // //     "paraiso": "paraiso",
+// // // //     "kamas---paraiso": "paraiso",
+
+// // // //     "komfort": "komfort",
+// // // //     "kamas---komfort": "komfort",
+// // // //     "komfort---kamas": "komfort"
+// // // // };
+
+// // // // const mapaEquivalenciasMarcas = {
+// // // //     "el-cisne": ["el-cisne", "kamas---el-cisne"],
+// // // //     "kamas---el-cisne": ["el-cisne", "kamas---el-cisne"],
+
+// // // //     "kamas": ["kamas"],
+
+// // // //     "paraiso": ["paraiso", "kamas---paraiso"],
+// // // //     "kamas---paraiso": ["paraiso", "kamas---paraiso"],
+
+// // // //     "komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
+// // // //     "kamas---komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
+// // // //     "komfort---kamas": ["komfort", "kamas---komfort", "komfort---kamas"]
+// // // // };
+
+// // // // const sonMarcasEquivalentes = (marca1, marca2) => {
+// // // //     const normalizada1 = normalizarTexto(marca1);
+// // // //     const normalizada2 = normalizarTexto(marca2);
+// // // //     if (normalizada1 === normalizada2) return true;
+// // // //     const equivalencias1 = mapaEquivalenciasMarcas[normalizada1];
+// // // //     return equivalencias1 && equivalencias1.includes(normalizada2);
+// // // // };
+
+// // // // function Dormitorios() {
+// // // //     const { sub1, sub2, sub3, sub4, sub5 } = useParams();
+// // // //     const location = useLocation();
+// // // //     const navigate = useNavigate();
+// // // //     const [productos, setProductos] = useState([]);
+// // // //     const [loading, setLoading] = useState(true);
+// // // //     const [filtros, setFiltros] = useState([]);
+// // // //     const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
+// // // //     const [isHotSaleActive, setIsHotSaleActive] = useState(() => {
+// // // //         const saved = localStorage.getItem('hotSaleActive');
+// // // //         return saved === 'true';
+// // // //     });
+// // // //     const [hotSaleSKUs, setHotSaleSKUs] = useState([]);
+// // // //     const [isFiltersOpen, setIsFiltersOpen] = useState(false);
+// // // //     const filtersPanelRef = useRef(null);
+// // // //     const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
+// // // //     const [currentPage, setCurrentPage] = useState(1);
+// // // //     const itemsPerPage = 32;
+
+// // // //     const [orden, setOrden] = useState("ultimo");
+
+// // // //     const shuffleArray = (array) => {
+// // // //         const shuffled = [...array];
+// // // //         for (let i = shuffled.length - 1; i > 0; i--) {
+// // // //             const j = Math.floor(Math.random() * (i + 1));
+// // // //             [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+// // // //         }
+// // // //         return shuffled;
+// // // //     };
+
+// // // //     const closeFilters = () => {
+// // // //         setIsFiltersOpen(false);
+// // // //     };
+
+// // // //     const toggleEnvioGratis = () => {
+// // // //         setEnvioGratisActivo(!envioGratisActivo);
+// // // //         setCurrentPage(1);
+// // // //     };
+
+// // // //     const handleHotSaleToggle = () => {
+// // // //         const newState = !isHotSaleActive;
+// // // //         setIsHotSaleActive(newState);
+// // // //         localStorage.setItem('hotSaleActive', newState);
+// // // //         setCurrentPage(1);
+// // // //     };
+
+// // // //     useEffect(() => {
+// // // //         const handleClickOutside = (event) => {
+// // // //             if (filtersPanelRef.current && 
+// // // //                 !filtersPanelRef.current.contains(event.target) &&
+// // // //                 !event.target.closest('.filters-button-open')) {
+// // // //                 setIsFiltersOpen(false);
+// // // //             }
+// // // //         };
+
+// // // //         document.addEventListener('mousedown', handleClickOutside);
+// // // //         return () => {
+// // // //             document.removeEventListener('mousedown', handleClickOutside);
+// // // //         };
+// // // //     }, []);
+
+// // // //     // Cargar SKUs de Hot Sale (más vendidos)
+// // // //     useEffect(() => {
+// // // //         const cargarHotSaleSKUs = async () => {
+// // // //             try {
+// // // //                 const response = await fetch('/assets/json/mas-vendidos.json');
+// // // //                 const skus = await response.json();
+// // // //                 setHotSaleSKUs(skus);
+// // // //             } catch (error) {
+// // // //                 console.error("Error cargando mas-vendidos.json:", error);
+// // // //                 setHotSaleSKUs([]);
+// // // //             }
+// // // //         };
+        
+// // // //         cargarHotSaleSKUs();
+// // // //     }, []);
+
+// // // //     useEffect(() => {
+// // // //         if (sub5) {
+// // // //             const rutaProducto = `/productos/dormitorios/${sub1}/${sub2}/${sub3}/${sub4}/${sub5}`;
+// // // //             navigate(rutaProducto, { replace: true });
+// // // //         }
+// // // //     }, [sub5, sub1, sub2, sub3, sub4, navigate]);
+
+// // // //     useEffect(() => {
+// // // //         if (sub5) return;
+
+// // // //         const cargarProductosDormitorios = async () => {
+// // // //             try {
+// // // //                 setLoading(true);
+// // // //                 const manifestResponse = await fetch('/assets/json/manifest.json');
+// // // //                 const manifestData = await manifestResponse.json();
+// // // //                 const archivos = manifestData.files || [];
+
+// // // //                 let archivosProductos = archivos.filter(url =>
+// // // //                     url.startsWith('/assets/json/categorias/dormitorios/')
+// // // //                 );
+
+// // // //                 if (sub1) {
+// // // //                     archivosProductos = archivosProductos.filter(
+// // // //                         url => url.includes(`/dormitorios/${sub1}/`)
+// // // //                     );
+// // // //                 }
+
+// // // //                 if (sub2) {
+// // // //                     archivosProductos = archivosProductos.filter(
+// // // //                         url => url.includes(`/dormitorios/${sub1}/${sub2}/`)
+// // // //                     );
+// // // //                 }
+
+// // // //                 if (sub3) {
+// // // //                     archivosProductos = archivosProductos.filter(
+// // // //                         url => url.includes(`/dormitorios/${sub1}/${sub2}/${sub3}/`)
+// // // //                     );
+// // // //                 }
+
+// // // //                 if (sub4) {
+// // // //                     archivosProductos = archivosProductos.filter(
+// // // //                         url => url.includes(`/dormitorios/${sub1}/${sub2}/${sub3}/${sub4}.json`)
+// // // //                     );
+// // // //                 }
+
+// // // //                 const productosPromesas = archivosProductos.map(async (url) => {
+// // // //                     try {
+// // // //                         const response = await fetch(url);
+// // // //                         const data = await response.json();
+// // // //                         return data.productos || [];
+// // // //                     } catch (error) {
+// // // //                         return [];
+// // // //                     }
+// // // //                 });
+
+// // // //                 const productosPorArchivo = await Promise.all(productosPromesas);
+// // // //                 const todosProductos = productosPorArchivo.flat();
+
+// // // //                 setProductos(todosProductos);
+// // // //                 setCurrentPage(1);
+// // // //             } catch (error) {
+// // // //             } finally {
+// // // //                 setLoading(false);
+// // // //             }
+// // // //         };
+
+// // // //         cargarProductosDormitorios();
+// // // //     }, [sub1, sub2, sub3, sub4, sub5]);
+
+// // // //     useEffect(() => {
+// // // //         if (sub5) return;
+
+// // // //         const cargarFiltros = async () => {
+// // // //             try {
+// // // //                 const response = await fetch('/assets/json/categorias/dormitorios/filtros.json');
+// // // //                 const data = await response.json();
+// // // //                 setFiltros(data.filtros || []);
+// // // //             } catch (error) {
+// // // //             }
+// // // //         };
+
+// // // //         cargarFiltros();
+// // // //     }, [sub5]);
+
+// // // //     const marcaSeleccionada = queryParams.get('marca');
+
+// // // //     const filtrosFiltrados = useMemo(() => {
+// // // //         return filtros.map(filtro => {
+// // // //             const nombreFiltro = Object.keys(filtro)[0];
+// // // //             const valoresFiltro = filtro[nombreFiltro];
+
+// // // //             if (nombreFiltro === "modelos" && marcaSeleccionada) {
+// // // //                 const marcaNormalizada = normalizarTexto(marcaSeleccionada);
+// // // //                 const grupoModelos = mapaMarcasModelos[marcaNormalizada];
+
+// // // //                 if (grupoModelos) {
+// // // //                     const modelosFiltrados = valoresFiltro.filter(grupo => {
+// // // //                         const nombreGrupo = Object.keys(grupo)[0];
+// // // //                         const grupoNormalizado = normalizarTexto(nombreGrupo);
+// // // //                         return grupoNormalizado === grupoModelos;
+// // // //                     });
+
+// // // //                     if (modelosFiltrados.length > 0) {
+// // // //                         return { [nombreFiltro]: modelosFiltrados };
+// // // //                     }
+// // // //                 }
+
+// // // //                 return filtro;
+// // // //             }
+
+// // // //             return filtro;
+// // // //         });
+// // // //     }, [filtros, marcaSeleccionada]);
+
+// // // //     const productosFiltrados = useMemo(() => {
+// // // //         if (productos.length === 0) return [];
+
+// // // //         let productosFiltradosTemp = productos;
+
+// // // //         if (queryParams.entries().length === 0 && !envioGratisActivo && !isHotSaleActive) {
+// // // //             productosFiltradosTemp = productos;
+// // // //         } else {
+// // // //             productosFiltradosTemp = productos.filter(producto => {
+// // // //                 if (envioGratisActivo) {
+// // // //                     if (producto["tipo-de-envio"] !== "Gratis") {
+// // // //                         return false;
+// // // //                     }
+// // // //                 }
+
+// // // //                 if (queryParams.entries().length === 0) return true;
+
+// // // //                 for (let [paramUrl, valorFiltro] of queryParams.entries()) {
+// // // //                     const claveJson = filtroKeyMap[paramUrl];
+// // // //                     if (!claveJson) continue;
+
+// // // //                     const normalizadoFiltro = normalizarTexto(valorFiltro);
+// // // //                     const detalles = producto["detalles-del-producto"] || [];
+                    
+// // // //                     const cumpleFiltro = detalles.some(detalle => {
+// // // //                         const valorProducto = detalle[claveJson];
+// // // //                         if (!valorProducto) {
+// // // //                             if (paramUrl === "modelo" && producto.modelo) {
+// // // //                                 const valorSuperior = producto.modelo;
+// // // //                                 const normalizadoSuperior = normalizarTexto(valorSuperior.toString());
+// // // //                                 return normalizadoSuperior === normalizadoFiltro;
+// // // //                             }
+// // // //                             return false;
+// // // //                         }
+
+// // // //                         const normalizadoProducto = normalizarTexto(valorProducto.toString());
+
+// // // //                         if (paramUrl === "marca" && mapaEquivalenciasMarcas[normalizadoFiltro]) {
+// // // //                             return mapaEquivalenciasMarcas[normalizadoFiltro].includes(normalizadoProducto);
+// // // //                         }
+                        
+// // // //                         return normalizadoProducto === normalizadoFiltro;
+// // // //                     });
+
+// // // //                     if (!cumpleFiltro) {
+// // // //                         return false;
+// // // //                     }
+// // // //                 }
+// // // //                 return true;
+// // // //             });
+// // // //         }
+
+// // // //         // Aplicar filtro de Hot Sale si está activo
+// // // //         if (isHotSaleActive && hotSaleSKUs.length > 0) {
+// // // //             productosFiltradosTemp = productosFiltradosTemp.filter(producto => 
+// // // //                 hotSaleSKUs.includes(producto.sku)
+// // // //             );
+// // // //         }
+
+// // // //         return shuffleArray(productosFiltradosTemp);
+// // // //     }, [productos, queryParams, envioGratisActivo, isHotSaleActive, hotSaleSKUs]);
+
+// // // //     const totalItems = productosFiltrados.length;
+// // // //     const totalPages = Math.ceil(totalItems / itemsPerPage);
+// // // //     const startIndex = (currentPage - 1) * itemsPerPage;
+// // // //     const endIndex = startIndex + itemsPerPage;
+// // // //     const productosPagina = productosFiltrados.slice(startIndex, endIndex);
+
+// // // //     const getVisiblePages = () => {
+// // // //         const visiblePages = [];
+// // // //         if (totalPages <= 5) {
+// // // //             for (let i = 1; i <= totalPages; i++) visiblePages.push(i);
+// // // //         } else {
+// // // //             if (currentPage <= 3) { 
+// // // //                 visiblePages.push(1, 2, 3, 4, '...', totalPages); 
+// // // //             } else if (currentPage >= totalPages - 2) {
+// // // //                 visiblePages.push(1, '...', totalPages - 3, totalPages - 2, totalPages - 1, totalPages);
+// // // //             } else {
+// // // //                 visiblePages.push(1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages);
+// // // //             }
+// // // //         }
+// // // //         return visiblePages;
+// // // //     };
+
+// // // //     const handlePageChange = (newPage) => {
+// // // //         setCurrentPage(Math.max(1, Math.min(totalPages, newPage)));
+// // // //         window.scrollTo({ top: 0, behavior: 'smooth' });
+// // // //     };
+
+// // // //     const handlePreviousPage = () => handlePageChange(currentPage - 1);
+// // // //     const handleNextPage = () => handlePageChange(currentPage + 1);
+
+// // // //     const toggleFiltro = (nombreFiltro, valor) => {
+// // // //         const normalizadoValor = normalizarTexto(valor);
+// // // //         const newParams = new URLSearchParams(location.search);
+// // // //         const valorActual = newParams.get(nombreFiltro);
+
+// // // //         if (nombreFiltro === "marca") {
+// // // //             const marcaActual = newParams.get('marca');
+// // // //             if (marcaActual && marcaActual !== normalizadoValor && !sonMarcasEquivalentes(marcaActual, normalizadoValor)) {
+// // // //                 newParams.delete('modelo');
+// // // //             }
+// // // //         }
+
+// // // //         if (valorActual === normalizadoValor) {
+// // // //             newParams.delete(nombreFiltro);
+// // // //         } else {
+// // // //             newParams.set(nombreFiltro, normalizadoValor);
+// // // //         }
+
+// // // //         setCurrentPage(1);
+// // // //         navigate(`${location.pathname}?${newParams.toString()}`, { replace: true });
+// // // //     };
+
+// // // //     const isFiltroActivo = (nombreFiltro, valor) => {
+// // // //         const normalizadoValor = normalizarTexto(valor);
+// // // //         return queryParams.get(nombreFiltro) === normalizadoValor;
+// // // //     };
+
+// // // //     const limpiarFiltros = () => {
+// // // //         setCurrentPage(1);
+// // // //         setIsHotSaleActive(false);
+// // // //         localStorage.setItem('hotSaleActive', 'false');
+// // // //         setEnvioGratisActivo(false);
+// // // //         navigate(location.pathname, { replace: true });
+// // // //     };
+
+// // // //     const hayFiltrosActivos = queryParams.toString() || envioGratisActivo || isHotSaleActive;
+
+// // // //     if (sub5) {
+// // // //         return null;
+// // // //     }
+
+// // // //     return(
+// // // //         <>
+// // // //             <Helmet>
+// // // //                 <title>Dormitorios | Homesleep</title>
+// // // //                 <meta name="description" content="Las mejores marcas de colchones y box tarimas, en el mismo lugar. Paraiso, Kamas, El Cisne, Komfort y muchas más." />
+// // // //                 <meta property="og:title" content="Dormitorios | Homesleep"/>
+// // // //             </Helmet>
+
+// // // //             <main className='products-page-main d-flex-column gap-20'>
+// // // //                 <Categorias/>
+
+// // // //                 <div className='products-page-blocks'>
+// // // //                     <div className={`products-page-left ${isFiltersOpen ? 'active' : ''}`} ref={filtersPanelRef}>
+// // // //                         <div className='products-page-filters-container-global'>
+// // // //                             <div className='d-flex-column gap-20'>
+// // // //                                 <div className='d-flex-column padding-bottom-20 border-bottom-2-solid-component'>
+// // // //                                     <p className='block-title color-color-1 uppercase w-100 d-flex'>Homesleep</p>
+// // // //                                     <button type='button' className='filters-button-close margin-left' onClick={closeFilters}>
+// // // //                                         <span className="material-icons color-color-1">close</span>
+// // // //                                     </button>
+// // // //                                     <p className='uppercase w-100 d-flex'>Las mejores marcas en productos para el descanso</p>
+// // // //                                 </div>
+
+// // // //                                 <div className='envio-gratis-button-container'>
+// // // //                                     <div className='d-flex-center-center'>
+// // // //                                         <p className='weight-bold uppercase color-color-1 font-bold'>Envío gratis</p>
+// // // //                                     </div>
+// // // //                                     <div type='button' className={`envio-gratis-button ${envioGratisActivo ? 'active' : ''}`} onClick={toggleEnvioGratis}>
+// // // //                                         <span></span>
+// // // //                                     </div>
+// // // //                                 </div>
+
+// // // //                                 {/* Hot Sale Toggle */}
+// // // //                                 <button type='button' className={`filter-hot-sale ${isHotSaleActive ? 'active' : ''}`} onClick={handleHotSaleToggle}>
+// // // //                                     <div className='d-flex-center-left'>
+// // // //                                         <span className="material-symbols-outlined">local_fire_department</span>
+// // // //                                         <div className='d-flex-column'>
+// // // //                                             <p className='title color-gray-dark'>Hot sale</p>
+// // // //                                             <span className='color-gray-dark'>(Más vendidos)</span>
+// // // //                                         </div>
+// // // //                                     </div>
+// // // //                                     <div className='switch'></div>
+// // // //                                 </button>
+
+// // // //                                 <div className='products-page-filters-container d-flex-column gap-20'>
+// // // //                                     {filtrosFiltrados.map((filtro, index) => {
+// // // //                                         const nombreFiltro = Object.keys(filtro)[0];
+// // // //                                         const valoresFiltro = filtro[nombreFiltro];
+
+// // // //                                         if (nombreFiltro === "modelos" && valoresFiltro.length === 0) {
+// // // //                                             return null;
+// // // //                                         }
+
+// // // //                                         if (nombreFiltro === "tamaño") {
+// // // //                                             return(
+// // // //                                                 <div className='products-page-filter' key={index}>
+// // // //                                                     <p className='filter-title uppercase'>Tamaño</p>
+// // // //                                                     <ul className='products-page-filter-list'>
+// // // //                                                         {valoresFiltro.map((item, i) => (
+// // // //                                                             <li key={i}>
+// // // //                                                                 <Link to={item.ruta} className={location.pathname === item.ruta ? "products-page-filter-list-link active" : "products-page-filter-list-link"}>
+// // // //                                                                     <p>{item.tamaño}</p>
+// // // //                                                                 </Link>
+// // // //                                                             </li>
+// // // //                                                         ))}
+// // // //                                                     </ul>
+// // // //                                                 </div>
+// // // //                                             );
+// // // //                                         }
+
+// // // //                                         if (nombreFiltro === "modelos") {
+// // // //                                             return(
+// // // //                                                 <div className='products-page-filter' key={index}>
+// // // //                                                     <p className='filter-title'>Modelos</p>
+// // // //                                                     <div className='filter-subgroups'>
+// // // //                                                         {valoresFiltro.map((grupo, idx) => {
+// // // //                                                             const nombreGrupo = Object.keys(grupo)[0];
+// // // //                                                             const modelos = grupo[nombreGrupo];
+
+// // // //                                                             return(
+// // // //                                                                 <div key={idx} className='filter-subgroup d-flex-column gap-5'>
+// // // //                                                                     {(!marcaSeleccionada || valoresFiltro.length > 1) && (
+// // // //                                                                         <p className='filter-subgroup-title color-color-1 uppercase font-bold'>{nombreGrupo.replace(/-/g, ' ')}</p>
+// // // //                                                                     )}
+// // // //                                                                     <ul className='products-page-filter-list'>
+// // // //                                                                         {modelos.map((modelo, mIdx) => (
+// // // //                                                                             <li key={mIdx}>
+// // // //                                                                                 <button type='button' className={isFiltroActivo("modelo", modelo) ? "active" : ""} onClick={() => toggleFiltro("modelo", modelo)}>
+// // // //                                                                                     <p>{modelo}</p>
+// // // //                                                                                 </button>
+// // // //                                                                             </li>
+// // // //                                                                         ))}
+// // // //                                                                     </ul>
+// // // //                                                                 </div>
+// // // //                                                             );
+// // // //                                                         })}
+// // // //                                                     </div>
+// // // //                                                 </div>
+// // // //                                             );
+// // // //                                         }
+
+// // // //                                         return(
+// // // //                                             <div className='products-page-filter' key={index}>
+// // // //                                                 <p className='filter-title uppercase'>{nombreFiltro.replace(/-/g, ' ')}</p>
+// // // //                                                 <ul className='products-page-filter-list'>
+// // // //                                                     {valoresFiltro.map((valor, i) => (
+// // // //                                                         <li key={i}>
+// // // //                                                             <button type='button' className={isFiltroActivo(nombreFiltro, valor) ? "active" : ""} onClick={() => toggleFiltro(nombreFiltro, valor)}>
+// // // //                                                                 <p>{valor}</p>
+// // // //                                                             </button>
+// // // //                                                         </li>
+// // // //                                                     ))}
+// // // //                                                 </ul>
+// // // //                                             </div>
+// // // //                                         );
+// // // //                                     })}
+// // // //                                 </div>
+
+// // // //                                 {hayFiltrosActivos && (
+// // // //                                     <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
+// // // //                                         <span className="material-icons">delete</span>
+// // // //                                         <p className="button-link-text">Limpiar filtros</p>
+// // // //                                     </button>
+// // // //                                 )}
+// // // //                             </div>
+// // // //                         </div>
+// // // //                     </div>
+
+// // // //                     <div className='products-page-right'>
+// // // //                         <FiltrosTop 
+// // // //                             setOrden={setOrden}
+// // // //                             orden={orden}
+// // // //                             toggleFiltro={toggleFiltro} 
+// // // //                             isFiltroActivo={isFiltroActivo}
+// // // //                             setIsFiltersOpen={setIsFiltersOpen} 
+// // // //                             isFiltersOpen={isFiltersOpen}
+// // // //                             totalProductos={productosFiltrados.length}
+// // // //                             currentPage={currentPage}
+// // // //                             itemsPerPage={itemsPerPage}
+// // // //                             startIndex={startIndex}
+// // // //                             endIndex={Math.min(endIndex, totalItems)}
+// // // //                         />
+
+// // // //                         <div className='products-page-products-container'>
+// // // //                             {loading ? (
+// // // //                                 <div className="loading-products d-flex-center-center d-flex-column gap-10">
+// // // //                                     <div className="spinner"></div>
+// // // //                                     <p>Cargando productos...</p>
+// // // //                                 </div>
+// // // //                             ) : (
+// // // //                                 <>
+// // // //                                     <ul className="products-page-products">
+// // // //                                         {
+// // // //                                             productosPagina.length === 0 ? (
+// // // //                                                 <div className='d-grid-1-1'>
+// // // //                                                 <div className="w-100 d-flex-column d-flex-center-center text-center gap-10">
+// // // //                                                         <img src="/assets/imagenes/paginas/not-found.svg" alt="" width={320} />
+// // // //                                                         <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
+// // // //                                                     </div>
+// // // //                                                 </div>
+// // // //                                             ) : (
+// // // //                                                 productosPagina.map(
+// // // //                                                     producto => (
+// // // //                                                         <Producto key={producto.sku} producto={producto} />
+// // // //                                                     )
+// // // //                                                 )
+// // // //                                             )
+// // // //                                         }
+// // // //                                     </ul>
+
+// // // //                                     {productosPagina.length > 0 && totalPages > 1 && (
+// // // //                                         <div className="pagination-controls d-grid-column-2-3 margin-top-20">
+// // // //                                             <button className="pagination-arrow" onClick={handlePreviousPage} disabled={currentPage === 1}>
+// // // //                                                 <span className="material-icons">chevron_left</span>
+// // // //                                             </button>
+
+// // // //                                             <div className="d-flex-center-center gap-10">
+// // // //                                                 {getVisiblePages().map((page, index) => 
+// // // //                                                     typeof page === 'number' ? (
+// // // //                                                         <button key={index} className={`pagination-page ${currentPage === page ? 'active' : ''}`} onClick={() => handlePageChange(page)}>
+// // // //                                                             {page}
+// // // //                                                         </button>
+// // // //                                                     ) : (
+// // // //                                                         <span key={index} className="pagination-ellipsis">...</span>
+// // // //                                                     )
+// // // //                                                 )}
+// // // //                                             </div>
+
+// // // //                                             <button className="pagination-arrow" onClick={handleNextPage} disabled={currentPage === totalPages}>
+// // // //                                                 <span className="material-icons">chevron_right</span>
+// // // //                                             </button>
+// // // //                                         </div>
+// // // //                                     )}
+// // // //                                 </>
+// // // //                             )}
+// // // //                         </div>
+// // // //                     </div>
+// // // //                 </div>
+// // // //             </main>
+
+// // // //             <div className={`filters-layout ${isFiltersOpen ? 'active' : ''}`} onClick={closeFilters}></div>
+// // // //         </>
+// // // //     );
+// // // // }
+
+// // // // export default Dormitorios;
+
+// // // import { useEffect, useState, useMemo, useRef } from 'react';
+// // // import { Helmet } from 'react-helmet';
+// // // import { useParams, useLocation, useNavigate, Link } from 'react-router-dom';
+
+// // // import '../Productos.css';
+// // // import './Layout.css';
+
+// // // import Categorias from '../Componentes/Categorias/Categorias';
+// // // import FiltrosTop from '../Componentes/FiltrosTop/FiltrosTop';
+// // // import { Producto } from '../../../Componentes/Plantillas/Producto/Producto';
+// // // import RangoPrecios from '../Componentes/RangoPrecios/RangoPrecios';
+
+// // // const normalizarTexto = (texto) => {
+// // //     if (!texto || typeof texto !== 'string') {
+// // //         return '';
+// // //     }
+// // //     return texto.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
+// // // };
+
+// // // const filtroKeyMap = {
+// // //     "tamaño": "tamaño",
+// // //     "marca": "marca",
+// // //     "línea": "línea",
+// // //     "base-encajonada": "base-encajonada",
+// // //     "cajones": "cajones",
+// // //     "modelo": "modelo-de-colchón",
+// // //     "tipo-de-cabecera": "tipo-de-cabecera",
+// // //     "diseño-de-cabecera": "diseño-de-cabecera",
+// // //     "brazos-de-cabecera": "brazos-de-cabecera",
+// // //     "resortes": "resortes",
+// // // };
+
+// // // const mapaMarcasModelos = {
+// // //     "el-cisne": "el-cisne",
+// // //     "kamas---el-cisne": "el-cisne",
+
+// // //     "kamas": "kamas",
+
+// // //     "paraiso": "paraiso",
+// // //     "kamas---paraiso": "paraiso",
+
+// // //     "komfort": "komfort",
+// // //     "kamas---komfort": "komfort",
+// // //     "komfort---kamas": "komfort"
+// // // };
+
+// // // const mapaEquivalenciasMarcas = {
+// // //     "el-cisne": ["el-cisne", "kamas---el-cisne"],
+// // //     "kamas---el-cisne": ["el-cisne", "kamas---el-cisne"],
+
+// // //     "kamas": ["kamas"],
+
+// // //     "paraiso": ["paraiso", "kamas---paraiso"],
+// // //     "kamas---paraiso": ["paraiso", "kamas---paraiso"],
+
+// // //     "komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
+// // //     "kamas---komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
+// // //     "komfort---kamas": ["komfort", "kamas---komfort", "komfort---kamas"]
+// // // };
+
+// // // const sonMarcasEquivalentes = (marca1, marca2) => {
+// // //     const normalizada1 = normalizarTexto(marca1);
+// // //     const normalizada2 = normalizarTexto(marca2);
+// // //     if (normalizada1 === normalizada2) return true;
+// // //     const equivalencias1 = mapaEquivalenciasMarcas[normalizada1];
+// // //     return equivalencias1 && equivalencias1.includes(normalizada2);
+// // // };
+
+// // // function Dormitorios() {
+// // //     const { sub1, sub2, sub3, sub4, sub5 } = useParams();
+// // //     const location = useLocation();
+// // //     const navigate = useNavigate();
+// // //     const [productos, setProductos] = useState([]);
+// // //     const [loading, setLoading] = useState(true);
+// // //     const [filtros, setFiltros] = useState([]);
+// // //     const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
+// // //     const [isHotSaleActive, setIsHotSaleActive] = useState(() => {
+// // //         const saved = localStorage.getItem('hotSaleActive');
+// // //         return saved === 'true';
+// // //     });
+// // //     const [hotSaleSKUs, setHotSaleSKUs] = useState([]);
+// // //     const [isFiltersOpen, setIsFiltersOpen] = useState(false);
+// // //     const filtersPanelRef = useRef(null);
+// // //     const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
+// // //     const [currentPage, setCurrentPage] = useState(1);
+// // //     const itemsPerPage = 32;
+// // //     const [hasActiveFilters, setHasActiveFilters] = useState(false);
+
+// // //     const [orden, setOrden] = useState("ultimo");
+
+// // //     const shuffleArray = (array) => {
+// // //         const shuffled = [...array];
+// // //         for (let i = shuffled.length - 1; i > 0; i--) {
+// // //             const j = Math.floor(Math.random() * (i + 1));
+// // //             [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+// // //         }
+// // //         return shuffled;
+// // //     };
+
+// // //     const closeFilters = () => {
+// // //         setIsFiltersOpen(false);
+// // //     };
+
+// // //     const toggleEnvioGratis = () => {
+// // //         setEnvioGratisActivo(!envioGratisActivo);
+// // //         setCurrentPage(1);
+// // //     };
+
+// // //     const handleHotSaleToggle = () => {
+// // //         const newState = !isHotSaleActive;
+// // //         setIsHotSaleActive(newState);
+// // //         localStorage.setItem('hotSaleActive', newState);
+// // //         setCurrentPage(1);
+// // //     };
+
+// // //     // Detectar si hay filtros activos (incluyendo precio)
+// // //     useEffect(() => {
+// // //         const params = new URLSearchParams(location.search);
+// // //         const hasPriceFilter = params.has('min') || params.has('max');
+// // //         const hasOtherFilters = queryParams.toString() || envioGratisActivo || isHotSaleActive;
+        
+// // //         setHasActiveFilters(hasPriceFilter || hasOtherFilters);
+// // //     }, [queryParams, envioGratisActivo, isHotSaleActive, location.search]);
+
+// // //     useEffect(() => {
+// // //         const handleClickOutside = (event) => {
+// // //             if (filtersPanelRef.current && 
+// // //                 !filtersPanelRef.current.contains(event.target) &&
+// // //                 !event.target.closest('.filters-button-open')) {
+// // //                 setIsFiltersOpen(false);
+// // //             }
+// // //         };
+
+// // //         document.addEventListener('mousedown', handleClickOutside);
+// // //         return () => {
+// // //             document.removeEventListener('mousedown', handleClickOutside);
+// // //         };
+// // //     }, []);
+
+// // //     // Cargar SKUs de Hot Sale (más vendidos)
+// // //     useEffect(() => {
+// // //         const cargarHotSaleSKUs = async () => {
+// // //             try {
+// // //                 const response = await fetch('/assets/json/mas-vendidos.json');
+// // //                 const skus = await response.json();
+// // //                 setHotSaleSKUs(skus);
+// // //             } catch (error) {
+// // //                 console.error("Error cargando mas-vendidos.json:", error);
+// // //                 setHotSaleSKUs([]);
+// // //             }
+// // //         };
+        
+// // //         cargarHotSaleSKUs();
+// // //     }, []);
+
+// // //     useEffect(() => {
+// // //         if (sub5) {
+// // //             const rutaProducto = `/productos/dormitorios/${sub1}/${sub2}/${sub3}/${sub4}/${sub5}`;
+// // //             navigate(rutaProducto, { replace: true });
+// // //         }
+// // //     }, [sub5, sub1, sub2, sub3, sub4, navigate]);
+
+// // //     useEffect(() => {
+// // //         if (sub5) return;
+
+// // //         const cargarProductosDormitorios = async () => {
+// // //             try {
+// // //                 setLoading(true);
+// // //                 const manifestResponse = await fetch('/assets/json/manifest.json');
+// // //                 const manifestData = await manifestResponse.json();
+// // //                 const archivos = manifestData.files || [];
+
+// // //                 let archivosProductos = archivos.filter(url =>
+// // //                     url.startsWith('/assets/json/categorias/dormitorios/')
+// // //                 );
+
+// // //                 if (sub1) {
+// // //                     archivosProductos = archivosProductos.filter(
+// // //                         url => url.includes(`/dormitorios/${sub1}/`)
+// // //                     );
+// // //                 }
+
+// // //                 if (sub2) {
+// // //                     archivosProductos = archivosProductos.filter(
+// // //                         url => url.includes(`/dormitorios/${sub1}/${sub2}/`)
+// // //                     );
+// // //                 }
+
+// // //                 if (sub3) {
+// // //                     archivosProductos = archivosProductos.filter(
+// // //                         url => url.includes(`/dormitorios/${sub1}/${sub2}/${sub3}/`)
+// // //                     );
+// // //                 }
+
+// // //                 if (sub4) {
+// // //                     archivosProductos = archivosProductos.filter(
+// // //                         url => url.includes(`/dormitorios/${sub1}/${sub2}/${sub3}/${sub4}.json`)
+// // //                     );
+// // //                 }
+
+// // //                 const productosPromesas = archivosProductos.map(async (url) => {
+// // //                     try {
+// // //                         const response = await fetch(url);
+// // //                         const data = await response.json();
+// // //                         return data.productos || [];
+// // //                     } catch (error) {
+// // //                         return [];
+// // //                     }
+// // //                 });
+
+// // //                 const productosPorArchivo = await Promise.all(productosPromesas);
+// // //                 const todosProductos = productosPorArchivo.flat();
+
+// // //                 setProductos(todosProductos);
+// // //                 setCurrentPage(1);
+// // //             } catch (error) {
+// // //                 console.error("Error cargando productos:", error);
+// // //             } finally {
+// // //                 setLoading(false);
+// // //             }
+// // //         };
+
+// // //         cargarProductosDormitorios();
+// // //     }, [sub1, sub2, sub3, sub4, sub5]);
+
+// // //     useEffect(() => {
+// // //         if (sub5) return;
+
+// // //         const cargarFiltros = async () => {
+// // //             try {
+// // //                 const response = await fetch('/assets/json/categorias/dormitorios/filtros.json');
+// // //                 const data = await response.json();
+// // //                 setFiltros(data.filtros || []);
+// // //             } catch (error) {
+// // //                 console.error("Error cargando filtros:", error);
+// // //             }
+// // //         };
+
+// // //         cargarFiltros();
+// // //     }, [sub5]);
+
+// // //     const marcaSeleccionada = queryParams.get('marca');
+
+// // //     const filtrosFiltrados = useMemo(() => {
+// // //         return filtros.map(filtro => {
+// // //             const nombreFiltro = Object.keys(filtro)[0];
+// // //             const valoresFiltro = filtro[nombreFiltro];
+
+// // //             if (nombreFiltro === "modelos" && marcaSeleccionada) {
+// // //                 const marcaNormalizada = normalizarTexto(marcaSeleccionada);
+// // //                 const grupoModelos = mapaMarcasModelos[marcaNormalizada];
+
+// // //                 if (grupoModelos) {
+// // //                     const modelosFiltrados = valoresFiltro.filter(grupo => {
+// // //                         const nombreGrupo = Object.keys(grupo)[0];
+// // //                         const grupoNormalizado = normalizarTexto(nombreGrupo);
+// // //                         return grupoNormalizado === grupoModelos;
+// // //                     });
+
+// // //                     if (modelosFiltrados.length > 0) {
+// // //                         return { [nombreFiltro]: modelosFiltrados };
+// // //                     }
+// // //                 }
+
+// // //                 return filtro;
+// // //             }
+
+// // //             return filtro;
+// // //         });
+// // //     }, [filtros, marcaSeleccionada]);
+
+// // //     // PRIMERO: Aplicar filtros de URL, envío gratis y Hot Sale (excluyendo precio)
+// // //     const productosBaseFiltrados = useMemo(() => {
+// // //         if (productos.length === 0) return [];
+
+// // //         let productosFiltradosTemp = productos;
+
+// // //         if (queryParams.entries().length === 0 && !envioGratisActivo && !isHotSaleActive) {
+// // //             productosFiltradosTemp = productos;
+// // //         } else {
+// // //             productosFiltradosTemp = productos.filter(producto => {
+// // //                 if (envioGratisActivo) {
+// // //                     if (producto["tipo-de-envio"] !== "Gratis") {
+// // //                         return false;
+// // //                     }
+// // //                 }
+
+// // //                 if (queryParams.entries().length === 0) return true;
+
+// // //                 for (let [paramUrl, valorFiltro] of queryParams.entries()) {
+// // //                     // Saltar parámetros de precio (se aplican después)
+// // //                     if (paramUrl === 'min' || paramUrl === 'max') continue;
+
+// // //                     const claveJson = filtroKeyMap[paramUrl];
+// // //                     if (!claveJson) continue;
+
+// // //                     const normalizadoFiltro = normalizarTexto(valorFiltro);
+// // //                     const detalles = producto["detalles-del-producto"] || [];
+                    
+// // //                     const cumpleFiltro = detalles.some(detalle => {
+// // //                         const valorProducto = detalle[claveJson];
+// // //                         if (!valorProducto) {
+// // //                             if (paramUrl === "modelo" && producto.modelo) {
+// // //                                 const valorSuperior = producto.modelo;
+// // //                                 const normalizadoSuperior = normalizarTexto(valorSuperior.toString());
+// // //                                 return normalizadoSuperior === normalizadoFiltro;
+// // //                             }
+// // //                             return false;
+// // //                         }
+
+// // //                         const normalizadoProducto = normalizarTexto(valorProducto.toString());
+
+// // //                         if (paramUrl === "marca" && mapaEquivalenciasMarcas[normalizadoFiltro]) {
+// // //                             return mapaEquivalenciasMarcas[normalizadoFiltro].includes(normalizadoProducto);
+// // //                         }
+                        
+// // //                         return normalizadoProducto === normalizadoFiltro;
+// // //                     });
+
+// // //                     if (!cumpleFiltro) {
+// // //                         return false;
+// // //                     }
+// // //                 }
+// // //                 return true;
+// // //             });
+// // //         }
+
+// // //         // Aplicar filtro de Hot Sale si está activo
+// // //         if (isHotSaleActive && hotSaleSKUs.length > 0) {
+// // //             productosFiltradosTemp = productosFiltradosTemp.filter(producto => 
+// // //                 hotSaleSKUs.includes(producto.sku)
+// // //             );
+// // //         }
+
+// // //         return shuffleArray(productosFiltradosTemp);
+// // //     }, [productos, queryParams, envioGratisActivo, isHotSaleActive, hotSaleSKUs]);
+
+// // //     // SEGUNDO: Aplicar filtro de precio
+// // //     const productosFiltrados = useMemo(() => {
+// // //         const params = new URLSearchParams(location.search);
+// // //         const precioMin = params.get('min');
+// // //         const precioMax = params.get('max');
+        
+// // //         if (precioMin === null || precioMax === null) {
+// // //             return productosBaseFiltrados;
+// // //         }
+
+// // //         const min = parseInt(precioMin);
+// // //         const max = parseInt(precioMax);
+
+// // //         if (isNaN(min) || isNaN(max)) {
+// // //             return productosBaseFiltrados;
+// // //         }
+
+// // //         return productosBaseFiltrados.filter(producto => {
+// // //             const precio = producto.precioVenta || 0;
+// // //             return precio >= min && precio <= max;
+// // //         });
+// // //     }, [productosBaseFiltrados, location.search]);
+
+// // //     const totalItems = productosFiltrados.length;
+// // //     const totalPages = Math.ceil(totalItems / itemsPerPage);
+// // //     const startIndex = (currentPage - 1) * itemsPerPage;
+// // //     const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
+// // //     const productosPagina = productosFiltrados.slice(startIndex, endIndex);
+
+// // //     const getVisiblePages = () => {
+// // //         const visiblePages = [];
+// // //         if (totalPages <= 5) {
+// // //             for (let i = 1; i <= totalPages; i++) visiblePages.push(i);
+// // //         } else {
+// // //             if (currentPage <= 3) { 
+// // //                 visiblePages.push(1, 2, 3, 4, '...', totalPages); 
+// // //             } else if (currentPage >= totalPages - 2) {
+// // //                 visiblePages.push(1, '...', totalPages - 3, totalPages - 2, totalPages - 1, totalPages);
+// // //             } else {
+// // //                 visiblePages.push(1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages);
+// // //             }
+// // //         }
+// // //         return visiblePages;
+// // //     };
+
+// // //     const handlePageChange = (newPage) => {
+// // //         setCurrentPage(Math.max(1, Math.min(totalPages, newPage)));
+// // //         window.scrollTo({ top: 0, behavior: 'smooth' });
+// // //     };
+
+// // //     const handlePreviousPage = () => handlePageChange(currentPage - 1);
+// // //     const handleNextPage = () => handlePageChange(currentPage + 1);
+
+// // //     const toggleFiltro = (nombreFiltro, valor) => {
+// // //         const normalizadoValor = normalizarTexto(valor);
+// // //         const newParams = new URLSearchParams(location.search);
+// // //         const valorActual = newParams.get(nombreFiltro);
+
+// // //         if (nombreFiltro === "marca") {
+// // //             const marcaActual = newParams.get('marca');
+// // //             if (marcaActual && marcaActual !== normalizadoValor && !sonMarcasEquivalentes(marcaActual, normalizadoValor)) {
+// // //                 newParams.delete('modelo');
+// // //             }
+// // //         }
+
+// // //         if (valorActual === normalizadoValor) {
+// // //             newParams.delete(nombreFiltro);
+// // //         } else {
+// // //             newParams.set(nombreFiltro, normalizadoValor);
+// // //         }
+
+// // //         setCurrentPage(1);
+// // //         navigate(`${location.pathname}?${newParams.toString()}`, { replace: true });
+// // //     };
+
+// // //     const isFiltroActivo = (nombreFiltro, valor) => {
+// // //         const normalizadoValor = normalizarTexto(valor);
+// // //         return queryParams.get(nombreFiltro) === normalizadoValor;
+// // //     };
+
+// // //     const limpiarFiltros = () => {
+// // //         setCurrentPage(1);
+// // //         setIsHotSaleActive(false);
+// // //         localStorage.setItem('hotSaleActive', 'false');
+// // //         setEnvioGratisActivo(false);
+        
+// // //         // Limpiar también los filtros de precio de la URL
+// // //         const params = new URLSearchParams(location.search);
+// // //         params.delete('min');
+// // //         params.delete('max');
+// // //         const newSearch = params.toString();
+// // //         const newPath = location.pathname + (newSearch ? `?${newSearch}` : '');
+// // //         navigate(newPath, { replace: true });
+// // //     };
+
+// // //     if (sub5) {
+// // //         return null;
+// // //     }
+
+// // //     return(
+// // //         <>
+// // //             <Helmet>
+// // //                 <title>Dormitorios | Homesleep</title>
+// // //                 <meta name="description" content="Las mejores marcas de colchones y box tarimas, en el mismo lugar. Paraiso, Kamas, El Cisne, Komfort y muchas más." />
+// // //                 <meta property="og:title" content="Dormitorios | Homesleep"/>
+// // //             </Helmet>
+
+// // //             <main className='products-page-main d-flex-column gap-20'>
+// // //                 <Categorias/>
+
+// // //                 <div className='products-page-blocks'>
+// // //                     <div className={`products-page-left ${isFiltersOpen ? 'active' : ''}`} ref={filtersPanelRef}>
+// // //                         <div className='products-page-filters-container-global'>
+// // //                             <div className='d-flex-column gap-20'>
+// // //                                 <div className='d-flex-column padding-bottom-20 border-bottom-2-solid-component'>
+// // //                                     <p className='block-title color-color-1 uppercase w-100 d-flex'>Homesleep</p>
+// // //                                     <button type='button' className='filters-button-close margin-left' onClick={closeFilters}>
+// // //                                         <span className="material-icons color-color-1">close</span>
+// // //                                     </button>
+// // //                                     <p className='uppercase w-100 d-flex'>Las mejores marcas en productos para el descanso</p>
+// // //                                 </div>
+
+// // //                                 <div className='envio-gratis-button-container'>
+// // //                                     <div className='d-flex-center-center'>
+// // //                                         <p className='weight-bold uppercase color-color-1 font-bold'>Envío gratis</p>
+// // //                                     </div>
+// // //                                     <div type='button' className={`envio-gratis-button ${envioGratisActivo ? 'active' : ''}`} onClick={toggleEnvioGratis}>
+// // //                                         <span></span>
+// // //                                     </div>
+// // //                                 </div>
+
+// // //                                 <RangoPrecios productos={productosFiltrados} loading={loading}/>
+
+// // //                                 {/* Hot Sale Toggle */}
+// // //                                 <button type='button' className={`filter-hot-sale ${isHotSaleActive ? 'active' : ''}`} onClick={handleHotSaleToggle}>
+// // //                                     <div className='d-flex-center-left'>
+// // //                                         <span className="material-symbols-outlined">local_fire_department</span>
+// // //                                         <div className='d-flex-column'>
+// // //                                             <p className='title color-gray-dark'>Hot sale</p>
+// // //                                             <span className='color-gray-dark'>(Más vendidos)</span>
+// // //                                         </div>
+// // //                                     </div>
+// // //                                     <div className='switch'></div>
+// // //                                 </button>
+
+// // //                                 <div className='products-page-filters-container d-flex-column gap-20'>
+// // //                                     {filtrosFiltrados.map((filtro, index) => {
+// // //                                         const nombreFiltro = Object.keys(filtro)[0];
+// // //                                         const valoresFiltro = filtro[nombreFiltro];
+
+// // //                                         if (nombreFiltro === "modelos" && valoresFiltro.length === 0) {
+// // //                                             return null;
+// // //                                         }
+
+// // //                                         if (nombreFiltro === "tamaño") {
+// // //                                             return(
+// // //                                                 <div className='products-page-filter' key={index}>
+// // //                                                     <p className='filter-title uppercase'>Tamaño</p>
+// // //                                                     <ul className='products-page-filter-list'>
+// // //                                                         {valoresFiltro.map((item, i) => (
+// // //                                                             <li key={i}>
+// // //                                                                 <Link to={item.ruta} className={location.pathname === item.ruta ? "products-page-filter-list-link active" : "products-page-filter-list-link"}>
+// // //                                                                     <p>{item.tamaño}</p>
+// // //                                                                 </Link>
+// // //                                                             </li>
+// // //                                                         ))}
+// // //                                                     </ul>
+// // //                                                 </div>
+// // //                                             );
+// // //                                         }
+
+// // //                                         if (nombreFiltro === "modelos") {
+// // //                                             return(
+// // //                                                 <div className='products-page-filter' key={index}>
+// // //                                                     <p className='filter-title'>Modelos</p>
+// // //                                                     <div className='filter-subgroups'>
+// // //                                                         {valoresFiltro.map((grupo, idx) => {
+// // //                                                             const nombreGrupo = Object.keys(grupo)[0];
+// // //                                                             const modelos = grupo[nombreGrupo];
+
+// // //                                                             return(
+// // //                                                                 <div key={idx} className='filter-subgroup d-flex-column gap-5'>
+// // //                                                                     {(!marcaSeleccionada || valoresFiltro.length > 1) && (
+// // //                                                                         <p className='filter-subgroup-title color-color-1 uppercase font-bold'>{nombreGrupo.replace(/-/g, ' ')}</p>
+// // //                                                                     )}
+// // //                                                                     <ul className='products-page-filter-list'>
+// // //                                                                         {modelos.map((modelo, mIdx) => (
+// // //                                                                             <li key={mIdx}>
+// // //                                                                                 <button type='button' className={isFiltroActivo("modelo", modelo) ? "active" : ""} onClick={() => toggleFiltro("modelo", modelo)}>
+// // //                                                                                     <p>{modelo}</p>
+// // //                                                                                 </button>
+// // //                                                                             </li>
+// // //                                                                         ))}
+// // //                                                                     </ul>
+// // //                                                                 </div>
+// // //                                                             );
+// // //                                                         })}
+// // //                                                     </div>
+// // //                                                 </div>
+// // //                                             );
+// // //                                         }
+
+// // //                                         return(
+// // //                                             <div className='products-page-filter' key={index}>
+// // //                                                 <p className='filter-title uppercase'>{nombreFiltro.replace(/-/g, ' ')}</p>
+// // //                                                 <ul className='products-page-filter-list'>
+// // //                                                     {valoresFiltro.map((valor, i) => (
+// // //                                                         <li key={i}>
+// // //                                                             <button type='button' className={isFiltroActivo(nombreFiltro, valor) ? "active" : ""} onClick={() => toggleFiltro(nombreFiltro, valor)}>
+// // //                                                                 <p>{valor}</p>
+// // //                                                             </button>
+// // //                                                         </li>
+// // //                                                     ))}
+// // //                                                 </ul>
+// // //                                             </div>
+// // //                                         );
+// // //                                     })}
+// // //                                 </div>
+
+// // //                                 {hasActiveFilters && (
+// // //                                     <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
+// // //                                         <span className="material-icons">delete</span>
+// // //                                         <p className="button-link-text">Limpiar filtros</p>
+// // //                                     </button>
+// // //                                 )}
+// // //                             </div>
+// // //                         </div>
+// // //                     </div>
+
+// // //                     <div className='products-page-right'>
+// // //                         <FiltrosTop 
+// // //                             setOrden={setOrden}
+// // //                             orden={orden}
+// // //                             toggleFiltro={toggleFiltro} 
+// // //                             isFiltroActivo={isFiltroActivo}
+// // //                             setIsFiltersOpen={setIsFiltersOpen} 
+// // //                             isFiltersOpen={isFiltersOpen}
+// // //                             totalProductos={productosFiltrados.length}
+// // //                             currentPage={currentPage}
+// // //                             itemsPerPage={itemsPerPage}
+// // //                             startIndex={startIndex}
+// // //                             endIndex={Math.min(endIndex, totalItems)}
+// // //                         />
+
+// // //                         <div className='products-page-products-container'>
+// // //                             {loading ? (
+// // //                                 <div className="loading-products d-flex-center-center d-flex-column gap-10">
+// // //                                     <div className="spinner"></div>
+// // //                                     <p>Cargando productos...</p>
+// // //                                 </div>
+// // //                             ) : (
+// // //                                 <>
+// // //                                     <ul className="products-page-products">
+// // //                                         {
+// // //                                             productosPagina.length === 0 ? (
+// // //                                                 <div className='d-grid-1-1'>
+// // //                                                 <div className="w-100 d-flex-column d-flex-center-center text-center gap-10">
+// // //                                                         <img src="/assets/imagenes/paginas/not-found.svg" alt="" width={320} />
+// // //                                                         <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
+// // //                                                         {hasActiveFilters && (
+// // //                                                             <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
+// // //                                                                 <span className="material-icons">delete</span>
+// // //                                                                 <p className="button-link-text">Limpiar filtros</p>
+// // //                                                             </button>
+// // //                                                         )}
+// // //                                                     </div>
+// // //                                                 </div>
+// // //                                             ) : (
+// // //                                                 productosPagina.map(
+// // //                                                     producto => (
+// // //                                                         <Producto key={producto.sku} producto={producto} />
+// // //                                                     )
+// // //                                                 )
+// // //                                             )
+// // //                                         }
+// // //                                     </ul>
+
+// // //                                     {productosPagina.length > 0 && totalPages > 1 && (
+// // //                                         <div className="pagination-controls d-grid-column-2-3 margin-top-20">
+// // //                                             <button className="pagination-arrow" onClick={handlePreviousPage} disabled={currentPage === 1}>
+// // //                                                 <span className="material-icons">chevron_left</span>
+// // //                                             </button>
+
+// // //                                             <div className="d-flex-center-center gap-10">
+// // //                                                 {getVisiblePages().map((page, index) => 
+// // //                                                     typeof page === 'number' ? (
+// // //                                                         <button key={index} className={`pagination-page ${currentPage === page ? 'active' : ''}`} onClick={() => handlePageChange(page)}>
+// // //                                                             {page}
+// // //                                                         </button>
+// // //                                                     ) : (
+// // //                                                         <span key={index} className="pagination-ellipsis">...</span>
+// // //                                                     )
+// // //                                                 )}
+// // //                                             </div>
+
+// // //                                             <button className="pagination-arrow" onClick={handleNextPage} disabled={currentPage === totalPages}>
+// // //                                                 <span className="material-icons">chevron_right</span>
+// // //                                             </button>
+// // //                                         </div>
+// // //                                     )}
+// // //                                 </>
+// // //                             )}
+// // //                         </div>
+// // //                     </div>
+// // //                 </div>
+// // //             </main>
+
+// // //             <div className={`filters-layout ${isFiltersOpen ? 'active' : ''}`} onClick={closeFilters}></div>
+// // //         </>
+// // //     );
+// // // }
+
+// // // export default Dormitorios;
+
+// // import { useEffect, useState, useMemo, useRef } from 'react';
+// // import { Helmet } from 'react-helmet';
+// // import { useParams, useLocation, useNavigate, Link } from 'react-router-dom';
+
+// // import '../Productos.css';
+// // import './Layout.css';
+
+// // import Categorias from '../Componentes/Categorias/Categorias';
+// // import FiltrosTop from '../Componentes/FiltrosTop/FiltrosTop';
+// // import { Producto } from '../../../Componentes/Plantillas/Producto/Producto';
+// // import RangoPrecios from '../Componentes/RangoPrecios/RangoPrecios';
+
+// // const normalizarTexto = (texto) => {
+// //     if (!texto || typeof texto !== 'string') {
+// //         return '';
+// //     }
+// //     return texto.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
+// // };
+
+// // const filtroKeyMap = {
+// //     "tamaño": "tamaño",
+// //     "marca": "marca",
+// //     "línea": "línea",
+// //     "base-encajonada": "base-encajonada",
+// //     "cajones": "cajones",
+// //     "modelo": "modelo-de-colchón",
+// //     "tipo-de-cabecera": "tipo-de-cabecera",
+// //     "diseño-de-cabecera": "diseño-de-cabecera",
+// //     "brazos-de-cabecera": "brazos-de-cabecera",
+// //     "resortes": "resortes",
+// // };
+
+// // const mapaMarcasModelos = {
+// //     "el-cisne": "el-cisne",
+// //     "kamas---el-cisne": "el-cisne",
+// //     "kamas": "kamas",
+// //     "paraiso": "paraiso",
+// //     "kamas---paraiso": "paraiso",
+// //     "komfort": "komfort",
+// //     "kamas---komfort": "komfort",
+// //     "komfort---kamas": "komfort"
+// // };
+
+// // const mapaEquivalenciasMarcas = {
+// //     "el-cisne": ["el-cisne", "kamas---el-cisne"],
+// //     "kamas---el-cisne": ["el-cisne", "kamas---el-cisne"],
+// //     "kamas": ["kamas"],
+// //     "paraiso": ["paraiso", "kamas---paraiso"],
+// //     "kamas---paraiso": ["paraiso", "kamas---paraiso"],
+// //     "komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
+// //     "kamas---komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
+// //     "komfort---kamas": ["komfort", "kamas---komfort", "komfort---kamas"]
+// // };
+
+// // const sonMarcasEquivalentes = (marca1, marca2) => {
+// //     const normalizada1 = normalizarTexto(marca1);
+// //     const normalizada2 = normalizarTexto(marca2);
+// //     if (normalizada1 === normalizada2) return true;
+// //     const equivalencias1 = mapaEquivalenciasMarcas[normalizada1];
+// //     return equivalencias1 && equivalencias1.includes(normalizada2);
+// // };
+
+// // function Dormitorios() {
+// //     const { sub1, sub2, sub3, sub4, sub5 } = useParams();
+// //     const location = useLocation();
+// //     const navigate = useNavigate();
+// //     const [productos, setProductos] = useState([]);
+// //     const [loading, setLoading] = useState(true);
+// //     const [filtros, setFiltros] = useState([]);
+// //     const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
+// //     const [isHotSaleActive, setIsHotSaleActive] = useState(() => {
+// //         const saved = localStorage.getItem('hotSaleActive');
+// //         return saved === 'true';
+// //     });
+// //     const [hotSaleSKUs, setHotSaleSKUs] = useState([]);
+// //     const [isFiltersOpen, setIsFiltersOpen] = useState(false);
+// //     const filtersPanelRef = useRef(null);
+// //     const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
+// //     const [currentPage, setCurrentPage] = useState(1);
+// //     const itemsPerPage = 32;
+// //     const [hasActiveFilters, setHasActiveFilters] = useState(false);
+
+// //     const [orden, setOrden] = useState("ultimo");
+
+// //     const closeFilters = () => {
+// //         setIsFiltersOpen(false);
+// //     };
+
+// //     const toggleEnvioGratis = () => {
+// //         setEnvioGratisActivo(!envioGratisActivo);
+// //         setCurrentPage(1);
+// //     };
+
+// //     const handleHotSaleToggle = () => {
+// //         const newState = !isHotSaleActive;
+// //         setIsHotSaleActive(newState);
+// //         localStorage.setItem('hotSaleActive', newState);
+// //         setCurrentPage(1);
+// //     };
+
+// //     // Detectar si hay filtros activos (incluyendo precio)
+// //     useEffect(() => {
+// //         const params = new URLSearchParams(location.search);
+// //         const hasPriceFilter = params.has('min') || params.has('max');
+// //         const hasOtherFilters = queryParams.toString() || envioGratisActivo || isHotSaleActive;
+        
+// //         setHasActiveFilters(hasPriceFilter || hasOtherFilters);
+// //     }, [queryParams, envioGratisActivo, isHotSaleActive, location.search]);
+
+// //     useEffect(() => {
+// //         const handleClickOutside = (event) => {
+// //             if (filtersPanelRef.current && 
+// //                 !filtersPanelRef.current.contains(event.target) &&
+// //                 !event.target.closest('.filters-button-open')) {
+// //                 setIsFiltersOpen(false);
+// //             }
+// //         };
+
+// //         document.addEventListener('mousedown', handleClickOutside);
+// //         return () => {
+// //             document.removeEventListener('mousedown', handleClickOutside);
+// //         };
+// //     }, []);
+
+// //     // Cargar SKUs de Hot Sale (más vendidos)
+// //     useEffect(() => {
+// //         const cargarHotSaleSKUs = async () => {
+// //             try {
+// //                 const response = await fetch('/assets/json/mas-vendidos.json');
+// //                 const skus = await response.json();
+// //                 setHotSaleSKUs(skus);
+// //             } catch (error) {
+// //                 console.error("Error cargando mas-vendidos.json:", error);
+// //                 setHotSaleSKUs([]);
+// //             }
+// //         };
+        
+// //         cargarHotSaleSKUs();
+// //     }, []);
+
+// //     useEffect(() => {
+// //         if (sub5) {
+// //             const rutaProducto = `/productos/dormitorios/${sub1}/${sub2}/${sub3}/${sub4}/${sub5}`;
+// //             navigate(rutaProducto, { replace: true });
+// //         }
+// //     }, [sub5, sub1, sub2, sub3, sub4, navigate]);
+
+// //     useEffect(() => {
+// //         if (sub5) return;
+
+// //         const cargarProductosDormitorios = async () => {
+// //             try {
+// //                 setLoading(true);
+// //                 const manifestResponse = await fetch('/assets/json/manifest.json');
+// //                 const manifestData = await manifestResponse.json();
+// //                 const archivos = manifestData.files || [];
+
+// //                 let archivosProductos = archivos.filter(url =>
+// //                     url.startsWith('/assets/json/categorias/dormitorios/')
+// //                 );
+
+// //                 if (sub1) {
+// //                     archivosProductos = archivosProductos.filter(
+// //                         url => url.includes(`/dormitorios/${sub1}/`)
+// //                     );
+// //                 }
+
+// //                 if (sub2) {
+// //                     archivosProductos = archivosProductos.filter(
+// //                         url => url.includes(`/dormitorios/${sub1}/${sub2}/`)
+// //                     );
+// //                 }
+
+// //                 if (sub3) {
+// //                     archivosProductos = archivosProductos.filter(
+// //                         url => url.includes(`/dormitorios/${sub1}/${sub2}/${sub3}/`)
+// //                     );
+// //                 }
+
+// //                 if (sub4) {
+// //                     archivosProductos = archivosProductos.filter(
+// //                         url => url.includes(`/dormitorios/${sub1}/${sub2}/${sub3}/${sub4}.json`)
+// //                     );
+// //                 }
+
+// //                 const productosPromesas = archivosProductos.map(async (url) => {
+// //                     try {
+// //                         const response = await fetch(url);
+// //                         const data = await response.json();
+// //                         return data.productos || [];
+// //                     } catch (error) {
+// //                         return [];
+// //                     }
+// //                 });
+
+// //                 const productosPorArchivo = await Promise.all(productosPromesas);
+// //                 const todosProductos = productosPorArchivo.flat();
+
+// //                 setProductos(todosProductos);
+// //                 setCurrentPage(1);
+// //             } catch (error) {
+// //                 console.error("Error cargando productos:", error);
+// //             } finally {
+// //                 setLoading(false);
+// //             }
+// //         };
+
+// //         cargarProductosDormitorios();
+// //     }, [sub1, sub2, sub3, sub4, sub5]);
+
+// //     useEffect(() => {
+// //         if (sub5) return;
+
+// //         const cargarFiltros = async () => {
+// //             try {
+// //                 const response = await fetch('/assets/json/categorias/dormitorios/filtros.json');
+// //                 const data = await response.json();
+// //                 setFiltros(data.filtros || []);
+// //             } catch (error) {
+// //                 console.error("Error cargando filtros:", error);
+// //             }
+// //         };
+
+// //         cargarFiltros();
+// //     }, [sub5]);
+
+// //     const marcaSeleccionada = queryParams.get('marca');
+
+// //     const filtrosFiltrados = useMemo(() => {
+// //         return filtros.map(filtro => {
+// //             const nombreFiltro = Object.keys(filtro)[0];
+// //             const valoresFiltro = filtro[nombreFiltro];
+
+// //             if (nombreFiltro === "modelos" && marcaSeleccionada) {
+// //                 const marcaNormalizada = normalizarTexto(marcaSeleccionada);
+// //                 const grupoModelos = mapaMarcasModelos[marcaNormalizada];
+
+// //                 if (grupoModelos) {
+// //                     const modelosFiltrados = valoresFiltro.filter(grupo => {
+// //                         const nombreGrupo = Object.keys(grupo)[0];
+// //                         const grupoNormalizado = normalizarTexto(nombreGrupo);
+// //                         return grupoNormalizado === grupoModelos;
+// //                     });
+
+// //                     if (modelosFiltrados.length > 0) {
+// //                         return { [nombreFiltro]: modelosFiltrados };
+// //                     }
+// //                 }
+
+// //                 return filtro;
+// //             }
+
+// //             return filtro;
+// //         });
+// //     }, [filtros, marcaSeleccionada]);
+
+// //     // PRIMERO: Aplicar filtros de URL, envío gratis y Hot Sale (excluyendo precio)
+// //     const productosBaseFiltrados = useMemo(() => {
+// //         if (productos.length === 0) return [];
+
+// //         let productosFiltradosTemp = productos;
+
+// //         if (queryParams.entries().length === 0 && !envioGratisActivo && !isHotSaleActive) {
+// //             productosFiltradosTemp = productos;
+// //         } else {
+// //             productosFiltradosTemp = productos.filter(producto => {
+// //                 if (envioGratisActivo) {
+// //                     if (producto["tipo-de-envio"] !== "Gratis") {
+// //                         return false;
+// //                     }
+// //                 }
+
+// //                 if (queryParams.entries().length === 0) return true;
+
+// //                 for (let [paramUrl, valorFiltro] of queryParams.entries()) {
+// //                     // Saltar parámetros de precio (se aplican después)
+// //                     if (paramUrl === 'min' || paramUrl === 'max') continue;
+
+// //                     const claveJson = filtroKeyMap[paramUrl];
+// //                     if (!claveJson) continue;
+
+// //                     const normalizadoFiltro = normalizarTexto(valorFiltro);
+// //                     const detalles = producto["detalles-del-producto"] || [];
+                    
+// //                     const cumpleFiltro = detalles.some(detalle => {
+// //                         const valorProducto = detalle[claveJson];
+// //                         if (!valorProducto) {
+// //                             if (paramUrl === "modelo" && producto.modelo) {
+// //                                 const valorSuperior = producto.modelo;
+// //                                 const normalizadoSuperior = normalizarTexto(valorSuperior.toString());
+// //                                 return normalizadoSuperior === normalizadoFiltro;
+// //                             }
+// //                             return false;
+// //                         }
+
+// //                         const normalizadoProducto = normalizarTexto(valorProducto.toString());
+
+// //                         if (paramUrl === "marca" && mapaEquivalenciasMarcas[normalizadoFiltro]) {
+// //                             return mapaEquivalenciasMarcas[normalizadoFiltro].includes(normalizadoProducto);
+// //                         }
+                        
+// //                         return normalizadoProducto === normalizadoFiltro;
+// //                     });
+
+// //                     if (!cumpleFiltro) {
+// //                         return false;
+// //                     }
+// //                 }
+// //                 return true;
+// //             });
+// //         }
+
+// //         // Aplicar filtro de Hot Sale si está activo
+// //         if (isHotSaleActive && hotSaleSKUs.length > 0) {
+// //             productosFiltradosTemp = productosFiltradosTemp.filter(producto => 
+// //                 hotSaleSKUs.includes(producto.sku)
+// //             );
+// //         }
+
+// //         return productosFiltradosTemp;
+// //     }, [productos, queryParams, envioGratisActivo, isHotSaleActive, hotSaleSKUs]);
+
+// //     // SEGUNDO: Aplicar filtro de precio
+// //     const productosFiltrados = useMemo(() => {
+// //         const params = new URLSearchParams(location.search);
+// //         const precioMin = params.get('min');
+// //         const precioMax = params.get('max');
+        
+// //         if (precioMin === null || precioMax === null) {
+// //             return productosBaseFiltrados;
+// //         }
+
+// //         const min = parseInt(precioMin);
+// //         const max = parseInt(precioMax);
+
+// //         if (isNaN(min) || isNaN(max)) {
+// //             return productosBaseFiltrados;
+// //         }
+
+// //         return productosBaseFiltrados.filter(producto => {
+// //             const precio = producto.precioVenta || 0;
+// //             return precio >= min && precio <= max;
+// //         });
+// //     }, [productosBaseFiltrados, location.search]);
+
+// //     // TERCERO: Ordenar productos
+// //     const productosOrdenados = useMemo(() => {
+// //         const productosParaOrdenar = [...productosFiltrados];
+        
+// //         if (orden === "ultimo") {
+// //             // Ordenar por defecto (sin orden específico) - mantener el orden original
+// //             return productosParaOrdenar;
+// //         }
+        
+// //         if (orden === "menor-mayor") {
+// //             return productosParaOrdenar.sort((a, b) => {
+// //                 const precioA = a.precioVenta || 0;
+// //                 const precioB = b.precioVenta || 0;
+// //                 return precioA - precioB;
+// //             });
+// //         }
+        
+// //         if (orden === "mayor-menor") {
+// //             return productosParaOrdenar.sort((a, b) => {
+// //                 const precioA = a.precioVenta || 0;
+// //                 const precioB = b.precioVenta || 0;
+// //                 return precioB - precioA;
+// //             });
+// //         }
+
+// //         return productosParaOrdenar;
+// //     }, [productosFiltrados, orden]);
+
+// //     const totalItems = productosOrdenados.length;
+// //     const totalPages = Math.ceil(totalItems / itemsPerPage);
+// //     const startIndex = (currentPage - 1) * itemsPerPage;
+// //     const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
+// //     const productosPagina = productosOrdenados.slice(startIndex, endIndex);
+
+// //     const getVisiblePages = () => {
+// //         const visiblePages = [];
+// //         if (totalPages <= 5) {
+// //             for (let i = 1; i <= totalPages; i++) visiblePages.push(i);
+// //         } else {
+// //             if (currentPage <= 3) { 
+// //                 visiblePages.push(1, 2, 3, 4, '...', totalPages); 
+// //             } else if (currentPage >= totalPages - 2) {
+// //                 visiblePages.push(1, '...', totalPages - 3, totalPages - 2, totalPages - 1, totalPages);
+// //             } else {
+// //                 visiblePages.push(1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages);
+// //             }
+// //         }
+// //         return visiblePages;
+// //     };
+
+// //     const handlePageChange = (newPage) => {
+// //         setCurrentPage(Math.max(1, Math.min(totalPages, newPage)));
+// //         window.scrollTo({ top: 0, behavior: 'smooth' });
+// //     };
+
+// //     const handlePreviousPage = () => handlePageChange(currentPage - 1);
+// //     const handleNextPage = () => handlePageChange(currentPage + 1);
+
+// //     const toggleFiltro = (nombreFiltro, valor) => {
+// //         const normalizadoValor = normalizarTexto(valor);
+// //         const newParams = new URLSearchParams(location.search);
+// //         const valorActual = newParams.get(nombreFiltro);
+
+// //         if (nombreFiltro === "marca") {
+// //             const marcaActual = newParams.get('marca');
+// //             if (marcaActual && marcaActual !== normalizadoValor && !sonMarcasEquivalentes(marcaActual, normalizadoValor)) {
+// //                 newParams.delete('modelo');
+// //             }
+// //         }
+
+// //         if (valorActual === normalizadoValor) {
+// //             newParams.delete(nombreFiltro);
+// //         } else {
+// //             newParams.set(nombreFiltro, normalizadoValor);
+// //         }
+
+// //         setCurrentPage(1);
+// //         navigate(`${location.pathname}?${newParams.toString()}`, { replace: true });
+// //     };
+
+// //     const isFiltroActivo = (nombreFiltro, valor) => {
+// //         const normalizadoValor = normalizarTexto(valor);
+// //         return queryParams.get(nombreFiltro) === normalizadoValor;
+// //     };
+
+// //     const limpiarFiltros = () => {
+// //         setCurrentPage(1);
+// //         setIsHotSaleActive(false);
+// //         localStorage.setItem('hotSaleActive', 'false');
+// //         setEnvioGratisActivo(false);
+        
+// //         // Limpiar también los filtros de precio de la URL
+// //         const params = new URLSearchParams(location.search);
+// //         params.delete('min');
+// //         params.delete('max');
+// //         const newSearch = params.toString();
+// //         const newPath = location.pathname + (newSearch ? `?${newSearch}` : '');
+// //         navigate(newPath, { replace: true });
+// //     };
+
+// //     if (sub5) {
+// //         return null;
+// //     }
+
+// //     return(
+// //         <>
+// //             <Helmet>
+// //                 <title>Dormitorios | Homesleep</title>
+// //                 <meta name="description" content="Las mejores marcas de colchones y box tarimas, en el mismo lugar. Paraiso, Kamas, El Cisne, Komfort y muchas más." />
+// //                 <meta property="og:title" content="Dormitorios | Homesleep"/>
+// //             </Helmet>
+
+// //             <main className='products-page-main d-flex-column gap-20'>
+// //                 <Categorias/>
+
+// //                 <div className='products-page-blocks'>
+// //                     <div className={`products-page-left ${isFiltersOpen ? 'active' : ''}`} ref={filtersPanelRef}>
+// //                         <div className='products-page-filters-container-global'>
+// //                             <div className='d-flex-column gap-20'>
+// //                                 <div className='d-flex-column padding-bottom-20 border-bottom-2-solid-component'>
+// //                                     <p className='block-title color-color-1 uppercase w-100 d-flex'>Homesleep</p>
+// //                                     <button type='button' className='filters-button-close margin-left' onClick={closeFilters}>
+// //                                         <span className="material-icons color-color-1">close</span>
+// //                                     </button>
+// //                                     <p className='uppercase w-100 d-flex'>Las mejores marcas en productos para el descanso</p>
+// //                                 </div>
+
+// //                                 <div className='envio-gratis-button-container'>
+// //                                     <div className='d-flex-center-center'>
+// //                                         <p className='weight-bold uppercase color-color-1 font-bold'>Envío gratis</p>
+// //                                     </div>
+// //                                     <div type='button' className={`envio-gratis-button ${envioGratisActivo ? 'active' : ''}`} onClick={toggleEnvioGratis}>
+// //                                         <span></span>
+// //                                     </div>
+// //                                 </div>
+
+// //                                 <RangoPrecios productos={productosFiltrados} loading={loading}/>
+
+// //                                 {/* Hot Sale Toggle */}
+// //                                 <button type='button' className={`filter-hot-sale ${isHotSaleActive ? 'active' : ''}`} onClick={handleHotSaleToggle}>
+// //                                     <div className='d-flex-center-left'>
+// //                                         <span className="material-symbols-outlined">local_fire_department</span>
+// //                                         <div className='d-flex-column'>
+// //                                             <p className='title color-gray-dark'>Hot sale</p>
+// //                                             <span className='color-gray-dark'>(Más vendidos)</span>
+// //                                         </div>
+// //                                     </div>
+// //                                     <div className='switch'></div>
+// //                                 </button>
+
+// //                                 <div className='products-page-filters-container d-flex-column gap-20'>
+// //                                     {filtrosFiltrados.map((filtro, index) => {
+// //                                         const nombreFiltro = Object.keys(filtro)[0];
+// //                                         const valoresFiltro = filtro[nombreFiltro];
+
+// //                                         if (nombreFiltro === "modelos" && valoresFiltro.length === 0) {
+// //                                             return null;
+// //                                         }
+
+// //                                         if (nombreFiltro === "tamaño") {
+// //                                             return(
+// //                                                 <div className='products-page-filter' key={index}>
+// //                                                     <p className='filter-title uppercase'>Tamaño</p>
+// //                                                     <ul className='products-page-filter-list'>
+// //                                                         {valoresFiltro.map((item, i) => (
+// //                                                             <li key={i}>
+// //                                                                 <Link to={item.ruta} className={location.pathname === item.ruta ? "products-page-filter-list-link active" : "products-page-filter-list-link"}>
+// //                                                                     <p>{item.tamaño}</p>
+// //                                                                 </Link>
+// //                                                             </li>
+// //                                                         ))}
+// //                                                     </ul>
+// //                                                 </div>
+// //                                             );
+// //                                         }
+
+// //                                         if (nombreFiltro === "modelos") {
+// //                                             return(
+// //                                                 <div className='products-page-filter' key={index}>
+// //                                                     <p className='filter-title'>Modelos</p>
+// //                                                     <div className='filter-subgroups'>
+// //                                                         {valoresFiltro.map((grupo, idx) => {
+// //                                                             const nombreGrupo = Object.keys(grupo)[0];
+// //                                                             const modelos = grupo[nombreGrupo];
+
+// //                                                             return(
+// //                                                                 <div key={idx} className='filter-subgroup d-flex-column gap-5'>
+// //                                                                     {(!marcaSeleccionada || valoresFiltro.length > 1) && (
+// //                                                                         <p className='filter-subgroup-title color-color-1 uppercase font-bold'>{nombreGrupo.replace(/-/g, ' ')}</p>
+// //                                                                     )}
+// //                                                                     <ul className='products-page-filter-list'>
+// //                                                                         {modelos.map((modelo, mIdx) => (
+// //                                                                             <li key={mIdx}>
+// //                                                                                 <button type='button' className={isFiltroActivo("modelo", modelo) ? "active" : ""} onClick={() => toggleFiltro("modelo", modelo)}>
+// //                                                                                     <p>{modelo}</p>
+// //                                                                                 </button>
+// //                                                                             </li>
+// //                                                                         ))}
+// //                                                                     </ul>
+// //                                                                 </div>
+// //                                                             );
+// //                                                         })}
+// //                                                     </div>
+// //                                                 </div>
+// //                                             );
+// //                                         }
+
+// //                                         return(
+// //                                             <div className='products-page-filter' key={index}>
+// //                                                 <p className='filter-title uppercase'>{nombreFiltro.replace(/-/g, ' ')}</p>
+// //                                                 <ul className='products-page-filter-list'>
+// //                                                     {valoresFiltro.map((valor, i) => (
+// //                                                         <li key={i}>
+// //                                                             <button type='button' className={isFiltroActivo(nombreFiltro, valor) ? "active" : ""} onClick={() => toggleFiltro(nombreFiltro, valor)}>
+// //                                                                 <p>{valor}</p>
+// //                                                             </button>
+// //                                                         </li>
+// //                                                     ))}
+// //                                                 </ul>
+// //                                             </div>
+// //                                         );
+// //                                     })}
+// //                                 </div>
+
+// //                                 {hasActiveFilters && (
+// //                                     <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
+// //                                         <span className="material-icons">delete</span>
+// //                                         <p className="button-link-text">Limpiar filtros</p>
+// //                                     </button>
+// //                                 )}
+// //                             </div>
+// //                         </div>
+// //                     </div>
+
+// //                     <div className='products-page-right'>
+// //                         <FiltrosTop 
+// //                             setOrden={setOrden}
+// //                             orden={orden}
+// //                             toggleFiltro={toggleFiltro} 
+// //                             isFiltroActivo={isFiltroActivo}
+// //                             setIsFiltersOpen={setIsFiltersOpen} 
+// //                             isFiltersOpen={isFiltersOpen}
+// //                             totalProductos={productosFiltrados.length}
+// //                             currentPage={currentPage}
+// //                             itemsPerPage={itemsPerPage}
+// //                             startIndex={startIndex}
+// //                             endIndex={Math.min(endIndex, totalItems)}
+// //                         />
+
+// //                         <div className='products-page-products-container'>
+// //                             {loading ? (
+// //                                 <div className="loading-products d-flex-center-center d-flex-column gap-10">
+// //                                     <div className="spinner"></div>
+// //                                     <p>Cargando productos...</p>
+// //                                 </div>
+// //                             ) : (
+// //                                 <>
+// //                                     <ul className="products-page-products">
+// //                                         {
+// //                                             productosPagina.length === 0 ? (
+// //                                                 <div className='d-grid-1-1'>
+// //                                                     <div className="w-100 d-flex-column d-flex-center-center text-center gap-10">
+// //                                                         <img src="/assets/imagenes/paginas/not-found.svg" alt="" width={320} />
+// //                                                         <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
+// //                                                         {hasActiveFilters && (
+// //                                                             <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
+// //                                                                 <span className="material-icons">delete</span>
+// //                                                                 <p className="button-link-text">Limpiar filtros</p>
+// //                                                             </button>
+// //                                                         )}
+// //                                                     </div>
+// //                                                 </div>
+// //                                             ) : (
+// //                                                 productosPagina.map(
+// //                                                     producto => (
+// //                                                         <Producto key={producto.sku} producto={producto} />
+// //                                                     )
+// //                                                 )
+// //                                             )
+// //                                         }
+// //                                     </ul>
+
+// //                                     {productosPagina.length > 0 && totalPages > 1 && (
+// //                                         <div className="pagination-controls d-grid-column-2-3 margin-top-20">
+// //                                             <button className="pagination-arrow" onClick={handlePreviousPage} disabled={currentPage === 1}>
+// //                                                 <span className="material-icons">chevron_left</span>
+// //                                             </button>
+
+// //                                             <div className="d-flex-center-center gap-10">
+// //                                                 {getVisiblePages().map((page, index) => 
+// //                                                     typeof page === 'number' ? (
+// //                                                         <button key={index} className={`pagination-page ${currentPage === page ? 'active' : ''}`} onClick={() => handlePageChange(page)}>
+// //                                                             {page}
+// //                                                         </button>
+// //                                                     ) : (
+// //                                                         <span key={index} className="pagination-ellipsis">...</span>
+// //                                                     )
+// //                                                 )}
+// //                                             </div>
+
+// //                                             <button className="pagination-arrow" onClick={handleNextPage} disabled={currentPage === totalPages}>
+// //                                                 <span className="material-icons">chevron_right</span>
+// //                                             </button>
+// //                                         </div>
+// //                                     )}
+// //                                 </>
+// //                             )}
+// //                         </div>
+// //                     </div>
+// //                 </div>
+// //             </main>
+
+// //             <div className={`filters-layout ${isFiltersOpen ? 'active' : ''}`} onClick={closeFilters}></div>
+// //         </>
+// //     );
+// // }
+
+// // export default Dormitorios;
+
+// import { useEffect, useState, useMemo, useRef } from 'react';
+// import { Helmet } from 'react-helmet';
+// import { useParams, useLocation, useNavigate, Link } from 'react-router-dom';
+
+// import '../Productos.css';
+// import './Layout.css';
+
+// import Categorias from '../Componentes/Categorias/Categorias';
+// import FiltrosTop from '../Componentes/FiltrosTop/FiltrosTop';
+// import { Producto } from '../../../Componentes/Plantillas/Producto/Producto';
+// import RangoPrecios from '../Componentes/RangoPrecios/RangoPrecios';
+
+// const normalizarTexto = (texto) => {
+//     if (!texto || typeof texto !== 'string') {
+//         return '';
+//     }
+//     return texto.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
+// };
+
+// const filtroKeyMap = {
+//     "tamaño": "tamaño",
+//     "marca": "marca",
+//     "línea": "línea",
+//     "base-encajonada": "base-encajonada",
+//     "cajones": "cajones",
+//     "modelo": "modelo-de-colchón",
+//     "tipo-de-cabecera": "tipo-de-cabecera",
+//     "diseño-de-cabecera": "diseño-de-cabecera",
+//     "brazos-de-cabecera": "brazos-de-cabecera",
+//     "resortes": "resortes",
+// };
+
+// const mapaMarcasModelos = {
+//     "el-cisne": "el-cisne",
+//     "kamas---el-cisne": "el-cisne",
+//     "kamas": "kamas",
+//     "paraiso": "paraiso",
+//     "kamas---paraiso": "paraiso",
+//     "komfort": "komfort",
+//     "kamas---komfort": "komfort",
+//     "komfort---kamas": "komfort"
+// };
+
+// const mapaEquivalenciasMarcas = {
+//     "el-cisne": ["el-cisne", "kamas---el-cisne"],
+//     "kamas---el-cisne": ["el-cisne", "kamas---el-cisne"],
+//     "kamas": ["kamas"],
+//     "paraiso": ["paraiso", "kamas---paraiso"],
+//     "kamas---paraiso": ["paraiso", "kamas---paraiso"],
+//     "komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
+//     "kamas---komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
+//     "komfort---kamas": ["komfort", "kamas---komfort", "komfort---kamas"]
+// };
+
+// const sonMarcasEquivalentes = (marca1, marca2) => {
+//     const normalizada1 = normalizarTexto(marca1);
+//     const normalizada2 = normalizarTexto(marca2);
+//     if (normalizada1 === normalizada2) return true;
+//     const equivalencias1 = mapaEquivalenciasMarcas[normalizada1];
+//     return equivalencias1 && equivalencias1.includes(normalizada2);
+// };
+
+// function Dormitorios() {
+//     const { sub1, sub2, sub3, sub4, sub5 } = useParams();
+//     const location = useLocation();
+//     const navigate = useNavigate();
+//     const [productos, setProductos] = useState([]);
+//     const [loading, setLoading] = useState(true);
+//     const [filtros, setFiltros] = useState([]);
+//     const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
+//     const [isHotSaleActive, setIsHotSaleActive] = useState(() => {
+//         const saved = localStorage.getItem('hotSaleActive');
+//         return saved === 'true';
+//     });
+//     const [hotSaleSKUs, setHotSaleSKUs] = useState([]);
+//     const [isFiltersOpen, setIsFiltersOpen] = useState(false);
+//     const filtersPanelRef = useRef(null);
+//     const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
+//     const [currentPage, setCurrentPage] = useState(1);
+//     const itemsPerPage = 32;
+//     const [hasActiveFilters, setHasActiveFilters] = useState(false);
+
+//     const [orden, setOrden] = useState("ultimo");
+
+//     const closeFilters = () => {
+//         setIsFiltersOpen(false);
+//     };
+
+//     const toggleEnvioGratis = () => {
+//         setEnvioGratisActivo(!envioGratisActivo);
+//         setCurrentPage(1);
+//     };
+
+//     const handleHotSaleToggle = () => {
+//         const newState = !isHotSaleActive;
+//         setIsHotSaleActive(newState);
+//         localStorage.setItem('hotSaleActive', newState);
+//         setCurrentPage(1);
+//     };
+
+//     // Detectar si hay filtros activos (incluyendo precio)
+//     useEffect(() => {
+//         const params = new URLSearchParams(location.search);
+//         const hasPriceFilter = params.has('min') || params.has('max');
+//         const hasOtherFilters = queryParams.toString() || envioGratisActivo || isHotSaleActive;
+        
+//         setHasActiveFilters(hasPriceFilter || hasOtherFilters);
+//     }, [queryParams, envioGratisActivo, isHotSaleActive, location.search]);
+
+//     useEffect(() => {
+//         const handleClickOutside = (event) => {
+//             if (filtersPanelRef.current && 
+//                 !filtersPanelRef.current.contains(event.target) &&
+//                 !event.target.closest('.filters-button-open')) {
+//                 setIsFiltersOpen(false);
+//             }
+//         };
+
+//         document.addEventListener('mousedown', handleClickOutside);
+//         return () => {
+//             document.removeEventListener('mousedown', handleClickOutside);
+//         };
+//     }, []);
+
+//     // Cargar SKUs de Hot Sale (más vendidos)
+//     useEffect(() => {
+//         const cargarHotSaleSKUs = async () => {
+//             try {
+//                 const response = await fetch('/assets/json/mas-vendidos.json');
+//                 const skus = await response.json();
+//                 setHotSaleSKUs(skus);
+//             } catch (error) {
+//                 console.error("Error cargando mas-vendidos.json:", error);
+//                 setHotSaleSKUs([]);
+//             }
+//         };
+        
+//         cargarHotSaleSKUs();
+//     }, []);
+
+//     useEffect(() => {
+//         if (sub5) {
+//             const rutaProducto = `/productos/dormitorios/${sub1}/${sub2}/${sub3}/${sub4}/${sub5}`;
+//             navigate(rutaProducto, { replace: true });
+//         }
+//     }, [sub5, sub1, sub2, sub3, sub4, navigate]);
+
+//     useEffect(() => {
+//         if (sub5) return;
+
+//         const cargarProductosDormitorios = async () => {
+//             try {
+//                 setLoading(true);
+//                 const manifestResponse = await fetch('/assets/json/manifest.json');
+//                 const manifestData = await manifestResponse.json();
+//                 const archivos = manifestData.files || [];
+
+//                 let archivosProductos = archivos.filter(url =>
+//                     url.startsWith('/assets/json/categorias/dormitorios/')
+//                 );
+
+//                 if (sub1) {
+//                     archivosProductos = archivosProductos.filter(
+//                         url => url.includes(`/dormitorios/${sub1}/`)
+//                     );
+//                 }
+
+//                 if (sub2) {
+//                     archivosProductos = archivosProductos.filter(
+//                         url => url.includes(`/dormitorios/${sub1}/${sub2}/`)
+//                     );
+//                 }
+
+//                 if (sub3) {
+//                     archivosProductos = archivosProductos.filter(
+//                         url => url.includes(`/dormitorios/${sub1}/${sub2}/${sub3}/`)
+//                     );
+//                 }
+
+//                 if (sub4) {
+//                     archivosProductos = archivosProductos.filter(
+//                         url => url.includes(`/dormitorios/${sub1}/${sub2}/${sub3}/${sub4}.json`)
+//                     );
+//                 }
+
+//                 const productosPromesas = archivosProductos.map(async (url) => {
+//                     try {
+//                         const response = await fetch(url);
+//                         const data = await response.json();
+//                         return data.productos || [];
+//                     } catch (error) {
+//                         return [];
+//                     }
+//                 });
+
+//                 const productosPorArchivo = await Promise.all(productosPromesas);
+//                 const todosProductos = productosPorArchivo.flat();
+
+//                 setProductos(todosProductos);
+//                 setCurrentPage(1);
+//             } catch (error) {
+//                 console.error("Error cargando productos:", error);
+//             } finally {
+//                 setLoading(false);
+//             }
+//         };
+
+//         cargarProductosDormitorios();
+//     }, [sub1, sub2, sub3, sub4, sub5]);
+
+//     useEffect(() => {
+//         if (sub5) return;
+
+//         const cargarFiltros = async () => {
+//             try {
+//                 const response = await fetch('/assets/json/categorias/dormitorios/filtros.json');
+//                 const data = await response.json();
+//                 setFiltros(data.filtros || []);
+//             } catch (error) {
+//                 console.error("Error cargando filtros:", error);
+//             }
+//         };
+
+//         cargarFiltros();
+//     }, [sub5]);
+
+//     const marcaSeleccionada = queryParams.get('marca');
+
+//     const filtrosFiltrados = useMemo(() => {
+//         return filtros.map(filtro => {
+//             const nombreFiltro = Object.keys(filtro)[0];
+//             const valoresFiltro = filtro[nombreFiltro];
+
+//             if (nombreFiltro === "modelos" && marcaSeleccionada) {
+//                 const marcaNormalizada = normalizarTexto(marcaSeleccionada);
+//                 const grupoModelos = mapaMarcasModelos[marcaNormalizada];
+
+//                 if (grupoModelos) {
+//                     const modelosFiltrados = valoresFiltro.filter(grupo => {
+//                         const nombreGrupo = Object.keys(grupo)[0];
+//                         const grupoNormalizado = normalizarTexto(nombreGrupo);
+//                         return grupoNormalizado === grupoModelos;
+//                     });
+
+//                     if (modelosFiltrados.length > 0) {
+//                         return { [nombreFiltro]: modelosFiltrados };
+//                     }
+//                 }
+
+//                 return filtro;
+//             }
+
+//             return filtro;
+//         });
+//     }, [filtros, marcaSeleccionada]);
+
+//     // PRIMERO: Aplicar filtros de URL, envío gratis y Hot Sale (excluyendo precio)
+//     const productosBaseFiltrados = useMemo(() => {
+//         if (productos.length === 0) return [];
+
+//         let productosFiltradosTemp = productos;
+
+//         if (queryParams.entries().length === 0 && !envioGratisActivo && !isHotSaleActive) {
+//             productosFiltradosTemp = productos;
+//         } else {
+//             productosFiltradosTemp = productos.filter(producto => {
+//                 if (envioGratisActivo) {
+//                     if (producto["tipo-de-envio"] !== "Gratis") {
+//                         return false;
+//                     }
+//                 }
+
+//                 if (queryParams.entries().length === 0) return true;
+
+//                 for (let [paramUrl, valorFiltro] of queryParams.entries()) {
+//                     // Saltar parámetros de precio (se aplican después)
+//                     if (paramUrl === 'min' || paramUrl === 'max') continue;
+
+//                     const claveJson = filtroKeyMap[paramUrl];
+//                     if (!claveJson) continue;
+
+//                     const normalizadoFiltro = normalizarTexto(valorFiltro);
+//                     const detalles = producto["detalles-del-producto"] || [];
+                    
+//                     const cumpleFiltro = detalles.some(detalle => {
+//                         const valorProducto = detalle[claveJson];
+//                         if (!valorProducto) {
+//                             if (paramUrl === "modelo" && producto.modelo) {
+//                                 const valorSuperior = producto.modelo;
+//                                 const normalizadoSuperior = normalizarTexto(valorSuperior.toString());
+//                                 return normalizadoSuperior === normalizadoFiltro;
+//                             }
+//                             return false;
+//                         }
+
+//                         const normalizadoProducto = normalizarTexto(valorProducto.toString());
+
+//                         if (paramUrl === "marca" && mapaEquivalenciasMarcas[normalizadoFiltro]) {
+//                             return mapaEquivalenciasMarcas[normalizadoFiltro].includes(normalizadoProducto);
+//                         }
+                        
+//                         return normalizadoProducto === normalizadoFiltro;
+//                     });
+
+//                     if (!cumpleFiltro) {
+//                         return false;
+//                     }
+//                 }
+//                 return true;
+//             });
+//         }
+
+//         // Aplicar filtro de Hot Sale si está activo
+//         if (isHotSaleActive && hotSaleSKUs.length > 0) {
+//             productosFiltradosTemp = productosFiltradosTemp.filter(producto => 
+//                 hotSaleSKUs.includes(producto.sku)
+//             );
+//         }
+
+//         return productosFiltradosTemp;
+//     }, [productos, queryParams, envioGratisActivo, isHotSaleActive, hotSaleSKUs]);
+
+//     // SEGUNDO: Aplicar filtro de precio
+//     const productosFiltrados = useMemo(() => {
+//         const params = new URLSearchParams(location.search);
+//         const precioMin = params.get('min');
+//         const precioMax = params.get('max');
+        
+//         if (precioMin === null || precioMax === null) {
+//             return productosBaseFiltrados;
+//         }
+
+//         const min = parseInt(precioMin);
+//         const max = parseInt(precioMax);
+
+//         if (isNaN(min) || isNaN(max)) {
+//             return productosBaseFiltrados;
+//         }
+
+//         return productosBaseFiltrados.filter(producto => {
+//             const precio = producto.precioVenta || 0;
+//             return precio >= min && precio <= max;
+//         });
+//     }, [productosBaseFiltrados, location.search]);
+
+//     // TERCERO: Ordenar productos
+//     const productosOrdenados = useMemo(() => {
+//         const productosParaOrdenar = [...productosFiltrados];
+        
+//         if (orden === "ultimo") {
+//             return productosParaOrdenar;
+//         }
+        
+//         if (orden === "menor-mayor") {
+//             return productosParaOrdenar.sort((a, b) => {
+//                 const precioA = a.precioVenta || 0;
+//                 const precioB = b.precioVenta || 0;
+//                 return precioA - precioB;
+//             });
+//         }
+        
+//         if (orden === "mayor-menor") {
+//             return productosParaOrdenar.sort((a, b) => {
+//                 const precioA = a.precioVenta || 0;
+//                 const precioB = b.precioVenta || 0;
+//                 return precioB - precioA;
+//             });
+//         }
+
+//         return productosParaOrdenar;
+//     }, [productosFiltrados, orden]);
+
+//     const totalItems = productosOrdenados.length;
+//     const totalPages = Math.ceil(totalItems / itemsPerPage);
+//     const startIndex = (currentPage - 1) * itemsPerPage;
+//     const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
+//     const productosPagina = productosOrdenados.slice(startIndex, endIndex);
+
+//     const getVisiblePages = () => {
+//         const visiblePages = [];
+//         if (totalPages <= 5) {
+//             for (let i = 1; i <= totalPages; i++) visiblePages.push(i);
+//         } else {
+//             if (currentPage <= 3) { 
+//                 visiblePages.push(1, 2, 3, 4, '...', totalPages); 
+//             } else if (currentPage >= totalPages - 2) {
+//                 visiblePages.push(1, '...', totalPages - 3, totalPages - 2, totalPages - 1, totalPages);
+//             } else {
+//                 visiblePages.push(1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages);
+//             }
+//         }
+//         return visiblePages;
+//     };
+
+//     const handlePageChange = (newPage) => {
+//         setCurrentPage(Math.max(1, Math.min(totalPages, newPage)));
+//         window.scrollTo({ top: 0, behavior: 'smooth' });
+//     };
+
+//     const handlePreviousPage = () => handlePageChange(currentPage - 1);
+//     const handleNextPage = () => handlePageChange(currentPage + 1);
+
+//     const toggleFiltro = (nombreFiltro, valor) => {
+//         const normalizadoValor = normalizarTexto(valor);
+//         const newParams = new URLSearchParams(location.search);
+//         const valorActual = newParams.get(nombreFiltro);
+
+//         if (nombreFiltro === "marca") {
+//             const marcaActual = newParams.get('marca');
+//             if (marcaActual && marcaActual !== normalizadoValor && !sonMarcasEquivalentes(marcaActual, normalizadoValor)) {
+//                 newParams.delete('modelo');
+//             }
+//         }
+
+//         if (valorActual === normalizadoValor) {
+//             newParams.delete(nombreFiltro);
+//         } else {
+//             newParams.set(nombreFiltro, normalizadoValor);
+//         }
+
+//         setCurrentPage(1);
+//         navigate(`${location.pathname}?${newParams.toString()}`, { replace: true });
+//     };
+
+//     const isFiltroActivo = (nombreFiltro, valor) => {
+//         const normalizadoValor = normalizarTexto(valor);
+//         return queryParams.get(nombreFiltro) === normalizadoValor;
+//     };
+
+//     const limpiarFiltros = () => {
+//         setCurrentPage(1);
+//         setIsHotSaleActive(false);
+//         localStorage.setItem('hotSaleActive', 'false');
+//         setEnvioGratisActivo(false);
+        
+//         // Limpiar también los filtros de precio de la URL
+//         const params = new URLSearchParams(location.search);
+//         params.delete('min');
+//         params.delete('max');
+//         const newSearch = params.toString();
+//         const newPath = location.pathname + (newSearch ? `?${newSearch}` : '');
+//         navigate(newPath, { replace: true });
+//     };
+
+//     if (sub5) {
+//         return null;
+//     }
+
+//     return(
+//         <>
+//             <Helmet>
+//                 <title>Dormitorios | Homesleep</title>
+//                 <meta name="description" content="Las mejores marcas de colchones y box tarimas, en el mismo lugar. Paraiso, Kamas, El Cisne, Komfort y muchas más." />
+//                 <meta property="og:title" content="Dormitorios | Homesleep"/>
+//             </Helmet>
+
+//             <main className='products-page-main d-flex-column gap-20'>
+//                 <Categorias/>
+
+//                 <div className='products-page-blocks'>
+//                     <div className={`products-page-left ${isFiltersOpen ? 'active' : ''}`} ref={filtersPanelRef}>
+//                         <div className='products-page-filters-container-global'>
+//                             <div className='d-flex-column gap-20'>
+//                                 <div className='d-flex-column padding-bottom-20 border-bottom-2-solid-component'>
+//                                     <p className='block-title color-color-1 uppercase w-100 d-flex'>Homesleep</p>
+//                                     <button type='button' className='filters-button-close margin-left' onClick={closeFilters}>
+//                                         <span className="material-icons color-color-1">close</span>
+//                                     </button>
+//                                     <p className='uppercase w-100 d-flex'>Las mejores marcas en productos para el descanso</p>
+//                                 </div>
+
+//                                 <div className='envio-gratis-button-container'>
+//                                     <div className='d-flex-center-center'>
+//                                         <p className='weight-bold uppercase color-color-1 font-bold'>Envío gratis</p>
+//                                     </div>
+//                                     <div type='button' className={`envio-gratis-button ${envioGratisActivo ? 'active' : ''}`} onClick={toggleEnvioGratis}>
+//                                         <span></span>
+//                                     </div>
+//                                 </div>
+
+//                                 <RangoPrecios productos={productosFiltrados} loading={loading}/>
+
+//                                 {/* Hot Sale Toggle */}
+//                                 <button type='button' className={`filter-hot-sale ${isHotSaleActive ? 'active' : ''}`} onClick={handleHotSaleToggle}>
+//                                     <div className='d-flex-center-left'>
+//                                         <span className="material-symbols-outlined">local_fire_department</span>
+//                                         <div className='d-flex-column'>
+//                                             <p className='title color-gray-dark'>Hot sale</p>
+//                                             <span className='color-gray-dark'>(Más vendidos)</span>
+//                                         </div>
+//                                     </div>
+//                                     <div className='switch'></div>
+//                                 </button>
+
+//                                 <div className='products-page-filters-container d-flex-column gap-20'>
+//                                     {filtrosFiltrados.map((filtro, index) => {
+//                                         const nombreFiltro = Object.keys(filtro)[0];
+//                                         const valoresFiltro = filtro[nombreFiltro];
+
+//                                         if (nombreFiltro === "modelos" && valoresFiltro.length === 0) {
+//                                             return null;
+//                                         }
+
+//                                         if (nombreFiltro === "tamaño") {
+//                                             return(
+//                                                 <div className='products-page-filter' key={index}>
+//                                                     <p className='filter-title uppercase'>Tamaño</p>
+//                                                     <ul className='products-page-filter-list'>
+//                                                         {valoresFiltro.map((item, i) => (
+//                                                             <li key={i}>
+//                                                                 <Link to={item.ruta} className={location.pathname === item.ruta ? "products-page-filter-list-link active" : "products-page-filter-list-link"}>
+//                                                                     <p>{item.tamaño}</p>
+//                                                                 </Link>
+//                                                             </li>
+//                                                         ))}
+//                                                     </ul>
+//                                                 </div>
+//                                             );
+//                                         }
+
+//                                         if (nombreFiltro === "modelos") {
+//                                             return(
+//                                                 <div className='products-page-filter' key={index}>
+//                                                     <p className='filter-title'>Modelos</p>
+//                                                     <div className='filter-subgroups'>
+//                                                         {valoresFiltro.map((grupo, idx) => {
+//                                                             const nombreGrupo = Object.keys(grupo)[0];
+//                                                             const modelos = grupo[nombreGrupo];
+
+//                                                             return(
+//                                                                 <div key={idx} className='filter-subgroup d-flex-column gap-5'>
+//                                                                     {(!marcaSeleccionada || valoresFiltro.length > 1) && (
+//                                                                         <p className='filter-subgroup-title color-color-1 uppercase font-bold'>{nombreGrupo.replace(/-/g, ' ')}</p>
+//                                                                     )}
+//                                                                     <ul className='products-page-filter-list'>
+//                                                                         {modelos.map((modelo, mIdx) => (
+//                                                                             <li key={mIdx}>
+//                                                                                 <button type='button' className={isFiltroActivo("modelo", modelo) ? "active" : ""} onClick={() => toggleFiltro("modelo", modelo)}>
+//                                                                                     <p>{modelo}</p>
+//                                                                                 </button>
+//                                                                             </li>
+//                                                                         ))}
+//                                                                     </ul>
+//                                                                 </div>
+//                                                             );
+//                                                         })}
+//                                                     </div>
+//                                                 </div>
+//                                             );
+//                                         }
+
+//                                         return(
+//                                             <div className='products-page-filter' key={index}>
+//                                                 <p className='filter-title uppercase'>{nombreFiltro.replace(/-/g, ' ')}</p>
+//                                                 <ul className='products-page-filter-list'>
+//                                                     {valoresFiltro.map((valor, i) => (
+//                                                         <li key={i}>
+//                                                             <button type='button' className={isFiltroActivo(nombreFiltro, valor) ? "active" : ""} onClick={() => toggleFiltro(nombreFiltro, valor)}>
+//                                                                 <p>{valor}</p>
+//                                                             </button>
+//                                                         </li>
+//                                                     ))}
+//                                                 </ul>
+//                                             </div>
+//                                         );
+//                                     })}
+//                                 </div>
+
+//                                 {hasActiveFilters && (
+//                                     <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
+//                                         <span className="material-icons">delete</span>
+//                                         <p className="button-link-text">Limpiar filtros</p>
+//                                     </button>
+//                                 )}
+//                             </div>
+//                         </div>
+//                     </div>
+
+//                     <div className='products-page-right'>
+//                         <FiltrosTop 
+//                             setOrden={setOrden}
+//                             orden={orden}
+//                             toggleFiltro={toggleFiltro} 
+//                             isFiltroActivo={isFiltroActivo}
+//                             setIsFiltersOpen={setIsFiltersOpen} 
+//                             isFiltersOpen={isFiltersOpen}
+//                             totalProductos={productosFiltrados.length}
+//                             currentPage={currentPage}
+//                             itemsPerPage={itemsPerPage}
+//                             startIndex={startIndex}
+//                             endIndex={Math.min(endIndex, totalItems)}
+//                         />
+
+//                         <div className='products-page-products-container'>
+//                             {loading ? (
+//                                 <div className="loading-products d-flex-center-center d-flex-column gap-10">
+//                                     <div className="spinner"></div>
+//                                     <p>Cargando productos...</p>
+//                                 </div>
+//                             ) : (
+//                                 <>
+//                                     <ul className="products-page-products">
+//                                         {
+//                                             productosPagina.length === 0 ? (
+//                                                 <div className='d-grid-1-1'>
+//                                                     <div className="w-100 d-flex-column d-flex-center-center text-center gap-10">
+//                                                         <img src="/assets/imagenes/paginas/not-found.svg" alt="" width={320} />
+//                                                         <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
+//                                                         {hasActiveFilters && (
+//                                                             <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
+//                                                                 <span className="material-icons">delete</span>
+//                                                                 <p className="button-link-text">Limpiar filtros</p>
+//                                                             </button>
+//                                                         )}
+//                                                     </div>
+//                                                 </div>
+//                                             ) : (
+//                                                 productosPagina.map(
+//                                                     producto => (
+//                                                         <Producto key={producto.sku} producto={producto} />
+//                                                     )
+//                                                 )
+//                                             )
+//                                         }
+//                                     </ul>
+
+//                                     {productosPagina.length > 0 && totalPages > 1 && (
+//                                         <div className="pagination-controls d-grid-column-2-3 margin-top-20">
+//                                             <button className="pagination-arrow" onClick={handlePreviousPage} disabled={currentPage === 1}>
+//                                                 <span className="material-icons">chevron_left</span>
+//                                             </button>
+
+//                                             <div className="d-flex-center-center gap-10">
+//                                                 {getVisiblePages().map((page, index) => 
+//                                                     typeof page === 'number' ? (
+//                                                         <button key={index} className={`pagination-page ${currentPage === page ? 'active' : ''}`} onClick={() => handlePageChange(page)}>
+//                                                             {page}
+//                                                         </button>
+//                                                     ) : (
+//                                                         <span key={index} className="pagination-ellipsis">...</span>
+//                                                     )
+//                                                 )}
+//                                             </div>
+
+//                                             <button className="pagination-arrow" onClick={handleNextPage} disabled={currentPage === totalPages}>
+//                                                 <span className="material-icons">chevron_right</span>
+//                                             </button>
+//                                         </div>
+//                                     )}
+//                                 </>
+//                             )}
+//                         </div>
+//                     </div>
+//                 </div>
+//             </main>
+
+//             <div className={`filters-layout ${isFiltersOpen ? 'active' : ''}`} onClick={closeFilters}></div>
+//         </>
+//     );
+// }
+
+// export default Dormitorios;
+
 import { useEffect, useState, useMemo, useRef } from 'react';
 import { Helmet } from 'react-helmet';
 import { useParams, useLocation, useNavigate, Link } from 'react-router-dom';
@@ -8,9 +2581,13 @@ import './Layout.css';
 import Categorias from '../Componentes/Categorias/Categorias';
 import FiltrosTop from '../Componentes/FiltrosTop/FiltrosTop';
 import { Producto } from '../../../Componentes/Plantillas/Producto/Producto';
+import RangoPrecios from '../Componentes/RangoPrecios/RangoPrecios';
 
 const normalizarTexto = (texto) => {
-    return texto.toLowerCase().normalize("NFD").replace(/\s+/g, "-");
+    if (!texto || typeof texto !== 'string') {
+        return '';
+    }
+    return texto.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
 };
 
 const filtroKeyMap = {
@@ -29,12 +2606,9 @@ const filtroKeyMap = {
 const mapaMarcasModelos = {
     "el-cisne": "el-cisne",
     "kamas---el-cisne": "el-cisne",
-
     "kamas": "kamas",
-
     "paraiso": "paraiso",
     "kamas---paraiso": "paraiso",
-
     "komfort": "komfort",
     "kamas---komfort": "komfort",
     "komfort---kamas": "komfort"
@@ -43,12 +2617,9 @@ const mapaMarcasModelos = {
 const mapaEquivalenciasMarcas = {
     "el-cisne": ["el-cisne", "kamas---el-cisne"],
     "kamas---el-cisne": ["el-cisne", "kamas---el-cisne"],
-
     "kamas": ["kamas"],
-
     "paraiso": ["paraiso", "kamas---paraiso"],
     "kamas---paraiso": ["paraiso", "kamas---paraiso"],
-
     "komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
     "kamas---komfort": ["komfort", "kamas---komfort", "komfort---kamas"],
     "komfort---kamas": ["komfort", "kamas---komfort", "komfort---kamas"]
@@ -80,17 +2651,13 @@ function Dormitorios() {
     const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 32;
+    const [hasActiveFilters, setHasActiveFilters] = useState(false);
 
-    const [orden, setOrden] = useState("ultimo");
-
-    const shuffleArray = (array) => {
-        const shuffled = [...array];
-        for (let i = shuffled.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-        }
-        return shuffled;
-    };
+    // Leer el orden desde la URL
+    const [orden, setOrden] = useState(() => {
+        const params = new URLSearchParams(location.search);
+        return params.get('orden') || 'ultimo';
+    });
 
     const closeFilters = () => {
         setIsFiltersOpen(false);
@@ -107,6 +2674,30 @@ function Dormitorios() {
         localStorage.setItem('hotSaleActive', newState);
         setCurrentPage(1);
     };
+
+    // Función para manejar el cambio de orden con actualización de URL
+    const handleOrdenChange = (nuevoOrden) => {
+        const params = new URLSearchParams(location.search);
+        
+        if (nuevoOrden === 'ultimo') {
+            params.delete('orden');
+        } else {
+            params.set('orden', nuevoOrden);
+        }
+        
+        setOrden(nuevoOrden);
+        setCurrentPage(1);
+        navigate(`${location.pathname}?${params.toString()}`, { replace: true });
+    };
+
+    // Detectar si hay filtros activos (incluyendo precio)
+    useEffect(() => {
+        const params = new URLSearchParams(location.search);
+        const hasPriceFilter = params.has('min') || params.has('max');
+        const hasOtherFilters = queryParams.toString() || envioGratisActivo || isHotSaleActive;
+        
+        setHasActiveFilters(hasPriceFilter || hasOtherFilters);
+    }, [queryParams, envioGratisActivo, isHotSaleActive, location.search]);
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -200,6 +2791,7 @@ function Dormitorios() {
                 setProductos(todosProductos);
                 setCurrentPage(1);
             } catch (error) {
+                console.error("Error cargando productos:", error);
             } finally {
                 setLoading(false);
             }
@@ -217,11 +2809,21 @@ function Dormitorios() {
                 const data = await response.json();
                 setFiltros(data.filtros || []);
             } catch (error) {
+                console.error("Error cargando filtros:", error);
             }
         };
 
         cargarFiltros();
     }, [sub5]);
+
+    // Sincronizar orden con la URL cuando cambia
+    useEffect(() => {
+        const params = new URLSearchParams(location.search);
+        const ordenFromUrl = params.get('orden');
+        if (ordenFromUrl && ordenFromUrl !== orden) {
+            setOrden(ordenFromUrl);
+        }
+    }, [location.search]);
 
     const marcaSeleccionada = queryParams.get('marca');
 
@@ -253,7 +2855,8 @@ function Dormitorios() {
         });
     }, [filtros, marcaSeleccionada]);
 
-    const productosFiltrados = useMemo(() => {
+    // PRIMERO: Aplicar filtros de URL, envío gratis y Hot Sale (excluyendo precio)
+    const productosBaseFiltrados = useMemo(() => {
         if (productos.length === 0) return [];
 
         let productosFiltradosTemp = productos;
@@ -271,6 +2874,11 @@ function Dormitorios() {
                 if (queryParams.entries().length === 0) return true;
 
                 for (let [paramUrl, valorFiltro] of queryParams.entries()) {
+                    // Saltar parámetros de precio (se aplican después)
+                    if (paramUrl === 'min' || paramUrl === 'max') continue;
+                    // Saltar parámetro de orden
+                    if (paramUrl === 'orden') continue;
+
                     const claveJson = filtroKeyMap[paramUrl];
                     if (!claveJson) continue;
 
@@ -312,14 +2920,64 @@ function Dormitorios() {
             );
         }
 
-        return shuffleArray(productosFiltradosTemp);
+        return productosFiltradosTemp;
     }, [productos, queryParams, envioGratisActivo, isHotSaleActive, hotSaleSKUs]);
 
-    const totalItems = productosFiltrados.length;
+    // SEGUNDO: Aplicar filtro de precio
+    const productosFiltrados = useMemo(() => {
+        const params = new URLSearchParams(location.search);
+        const precioMin = params.get('min');
+        const precioMax = params.get('max');
+        
+        if (precioMin === null || precioMax === null) {
+            return productosBaseFiltrados;
+        }
+
+        const min = parseInt(precioMin);
+        const max = parseInt(precioMax);
+
+        if (isNaN(min) || isNaN(max)) {
+            return productosBaseFiltrados;
+        }
+
+        return productosBaseFiltrados.filter(producto => {
+            const precio = producto.precioVenta || 0;
+            return precio >= min && precio <= max;
+        });
+    }, [productosBaseFiltrados, location.search]);
+
+    // TERCERO: Ordenar productos
+    const productosOrdenados = useMemo(() => {
+        const productosParaOrdenar = [...productosFiltrados];
+        
+        if (orden === "ultimo") {
+            return productosParaOrdenar;
+        }
+        
+        if (orden === "menor-mayor") {
+            return productosParaOrdenar.sort((a, b) => {
+                const precioA = a.precioVenta || 0;
+                const precioB = b.precioVenta || 0;
+                return precioA - precioB;
+            });
+        }
+        
+        if (orden === "mayor-menor") {
+            return productosParaOrdenar.sort((a, b) => {
+                const precioA = a.precioVenta || 0;
+                const precioB = b.precioVenta || 0;
+                return precioB - precioA;
+            });
+        }
+
+        return productosParaOrdenar;
+    }, [productosFiltrados, orden]);
+
+    const totalItems = productosOrdenados.length;
     const totalPages = Math.ceil(totalItems / itemsPerPage);
     const startIndex = (currentPage - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-    const productosPagina = productosFiltrados.slice(startIndex, endIndex);
+    const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
+    const productosPagina = productosOrdenados.slice(startIndex, endIndex);
 
     const getVisiblePages = () => {
         const visiblePages = [];
@@ -377,10 +3035,16 @@ function Dormitorios() {
         setIsHotSaleActive(false);
         localStorage.setItem('hotSaleActive', 'false');
         setEnvioGratisActivo(false);
-        navigate(location.pathname, { replace: true });
+        
+        // Limpiar también los filtros de precio y orden de la URL
+        const params = new URLSearchParams(location.search);
+        params.delete('min');
+        params.delete('max');
+        params.delete('orden');
+        const newSearch = params.toString();
+        const newPath = location.pathname + (newSearch ? `?${newSearch}` : '');
+        navigate(newPath, { replace: true });
     };
-
-    const hayFiltrosActivos = queryParams.toString() || envioGratisActivo || isHotSaleActive;
 
     if (sub5) {
         return null;
@@ -417,6 +3081,8 @@ function Dormitorios() {
                                         <span></span>
                                     </div>
                                 </div>
+
+                                <RangoPrecios productos={productosFiltrados} loading={loading}/>
 
                                 {/* Hot Sale Toggle */}
                                 <button type='button' className={`filter-hot-sale ${isHotSaleActive ? 'active' : ''}`} onClick={handleHotSaleToggle}>
@@ -504,7 +3170,7 @@ function Dormitorios() {
                                     })}
                                 </div>
 
-                                {hayFiltrosActivos && (
+                                {hasActiveFilters && (
                                     <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
                                         <span className="material-icons">delete</span>
                                         <p className="button-link-text">Limpiar filtros</p>
@@ -516,7 +3182,7 @@ function Dormitorios() {
 
                     <div className='products-page-right'>
                         <FiltrosTop 
-                            setOrden={setOrden}
+                            setOrden={handleOrdenChange}
                             orden={orden}
                             toggleFiltro={toggleFiltro} 
                             isFiltroActivo={isFiltroActivo}
@@ -541,9 +3207,15 @@ function Dormitorios() {
                                         {
                                             productosPagina.length === 0 ? (
                                                 <div className='d-grid-1-1'>
-                                                <div className="w-100 d-flex-column d-flex-center-center text-center gap-10">
+                                                    <div className="w-100 d-flex-column d-flex-center-center text-center gap-10">
                                                         <img src="/assets/imagenes/paginas/not-found.svg" alt="" width={320} />
                                                         <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
+                                                        {hasActiveFilters && (
+                                                            <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
+                                                                <span className="material-icons">delete</span>
+                                                                <p className="button-link-text">Limpiar filtros</p>
+                                                            </button>
+                                                        )}
                                                     </div>
                                                 </div>
                                             ) : (
