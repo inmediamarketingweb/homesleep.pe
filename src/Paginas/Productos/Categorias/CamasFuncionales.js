@@ -8,9 +8,13 @@ import './Layout.css';
 import Categorias from '../Componentes/Categorias/Categorias';
 import FiltrosTop from '../Componentes/FiltrosTop/FiltrosTop';
 import { Producto } from '../../../Componentes/Plantillas/Producto/Producto';
+import RangoPrecios from '../Componentes/RangoPrecios/RangoPrecios';
 
 const normalizarTexto = (texto) => {
-    return texto.toLowerCase().normalize("NFD").replace(/\s+/g, "-");
+    if (!texto || typeof texto !== 'string') {
+        return '';
+    }
+    return texto.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
 };
 
 const filtroKeyMap = {
@@ -28,7 +32,6 @@ function CamasFuncionales() {
     const [productos, setProductos] = useState([]);
     const [loading, setLoading] = useState(true);
     const [filtros, setFiltros] = useState([]);
-    const [orden, setOrden] = useState("ultimo");
     const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
     const [isHotSaleActive, setIsHotSaleActive] = useState(() => {
         const saved = localStorage.getItem('hotSaleActive');
@@ -40,6 +43,14 @@ function CamasFuncionales() {
     const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
     const [currentPage, setCurrentPage] = useState(1);
     const itemsPerPage = 20;
+    const [hasActiveFilters, setHasActiveFilters] = useState(false);
+
+    // Leer el orden desde la URL
+    const [orden, setOrden] = useState(() => {
+        const params = new URLSearchParams(location.search);
+        return params.get('orden') || 'ultimo';
+    });
+
     const closeFilters = () => { setIsFiltersOpen(false); };
 
     const toggleEnvioGratis = () => {
@@ -53,6 +64,39 @@ function CamasFuncionales() {
         localStorage.setItem('hotSaleActive', newState);
         setCurrentPage(1);
     };
+
+    // Función para manejar el cambio de orden con actualización de URL
+    const handleOrdenChange = (nuevoOrden) => {
+        const params = new URLSearchParams(location.search);
+        
+        if (nuevoOrden === 'ultimo') {
+            params.delete('orden');
+        } else {
+            params.set('orden', nuevoOrden);
+        }
+        
+        setOrden(nuevoOrden);
+        setCurrentPage(1);
+        navigate(`${location.pathname}?${params.toString()}`, { replace: true });
+    };
+
+    // Detectar si hay filtros activos (incluyendo precio)
+    useEffect(() => {
+        const params = new URLSearchParams(location.search);
+        const hasPriceFilter = params.has('min') || params.has('max');
+        const hasOtherFilters = queryParams.toString() || envioGratisActivo || isHotSaleActive;
+        
+        setHasActiveFilters(hasPriceFilter || hasOtherFilters);
+    }, [queryParams, envioGratisActivo, isHotSaleActive, location.search]);
+
+    // Sincronizar orden con la URL cuando cambia
+    useEffect(() => {
+        const params = new URLSearchParams(location.search);
+        const ordenFromUrl = params.get('orden');
+        if (ordenFromUrl && ordenFromUrl !== orden) {
+            setOrden(ordenFromUrl);
+        }
+    }, [location.search]);
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -172,7 +216,8 @@ function CamasFuncionales() {
         cargarFiltros();
     }, [sub5]);
 
-    const productosFiltrados = useMemo(() => {
+    // PRIMERO: Aplicar filtros de URL, envío gratis y Hot Sale (excluyendo precio)
+    const productosBaseFiltrados = useMemo(() => {
         if (productos.length === 0) return [];
 
         let productosFiltradosTemp = productos;
@@ -190,6 +235,11 @@ function CamasFuncionales() {
                 if (queryParams.entries().length === 0) return true;
 
                 for (let [paramUrl, valorFiltro] of queryParams.entries()) {
+                    // Saltar parámetros de precio (se aplican después)
+                    if (paramUrl === 'min' || paramUrl === 'max') continue;
+                    // Saltar parámetro de orden
+                    if (paramUrl === 'orden') continue;
+
                     const claveJson = filtroKeyMap[paramUrl];
                     if (!claveJson) continue;
 
@@ -220,15 +270,54 @@ function CamasFuncionales() {
         return productosFiltradosTemp;
     }, [productos, queryParams, envioGratisActivo, isHotSaleActive, hotSaleSKUs]);
 
-    const productosOrdenados = useMemo(() => {
-        return [...productosFiltrados].sort((a, b) => {
-            const precioA = a.precioVenta || 0;
-            const precioB = b.precioVenta || 0;
+    // SEGUNDO: Aplicar filtro de precio
+    const productosFiltrados = useMemo(() => {
+        const params = new URLSearchParams(location.search);
+        const precioMin = params.get('min');
+        const precioMax = params.get('max');
+        
+        if (precioMin === null || precioMax === null) {
+            return productosBaseFiltrados;
+        }
 
-            if (orden === "menor-mayor") return precioA - precioB;
-            if (orden === "mayor-menor") return precioB - precioA;
-            return 0;
+        const min = parseInt(precioMin);
+        const max = parseInt(precioMax);
+
+        if (isNaN(min) || isNaN(max)) {
+            return productosBaseFiltrados;
+        }
+
+        return productosBaseFiltrados.filter(producto => {
+            const precio = producto.precioVenta || 0;
+            return precio >= min && precio <= max;
         });
+    }, [productosBaseFiltrados, location.search]);
+
+    // TERCERO: Ordenar productos
+    const productosOrdenados = useMemo(() => {
+        const productosParaOrdenar = [...productosFiltrados];
+        
+        if (orden === "ultimo") {
+            return productosParaOrdenar;
+        }
+        
+        if (orden === "menor-mayor") {
+            return productosParaOrdenar.sort((a, b) => {
+                const precioA = a.precioVenta || 0;
+                const precioB = b.precioVenta || 0;
+                return precioA - precioB;
+            });
+        }
+        
+        if (orden === "mayor-menor") {
+            return productosParaOrdenar.sort((a, b) => {
+                const precioA = a.precioVenta || 0;
+                const precioB = b.precioVenta || 0;
+                return precioB - precioA;
+            });
+        }
+
+        return productosParaOrdenar;
     }, [productosFiltrados, orden]);
 
     const totalItems = productosOrdenados.length;
@@ -286,10 +375,16 @@ function CamasFuncionales() {
         setIsHotSaleActive(false);
         localStorage.setItem('hotSaleActive', 'false');
         setEnvioGratisActivo(false);
-        navigate(location.pathname, { replace: true });
+        
+        // Limpiar también los filtros de precio y orden de la URL
+        const params = new URLSearchParams(location.search);
+        params.delete('min');
+        params.delete('max');
+        params.delete('orden');
+        const newSearch = params.toString();
+        const newPath = location.pathname + (newSearch ? `?${newSearch}` : '');
+        navigate(newPath, { replace: true });
     };
-
-    const hayFiltrosActivos = queryParams.toString() || envioGratisActivo || isHotSaleActive;
 
     if (sub5) {
         return null;
@@ -324,6 +419,8 @@ function CamasFuncionales() {
                                         <span></span>
                                     </div>
                                 </div>
+
+                                <RangoPrecios productos={productosFiltrados} loading={loading}/>
 
                                 <button type='button' className={`filter-hot-sale ${isHotSaleActive ? 'active' : ''}`} onClick={handleHotSaleToggle}>
                                     <div className='d-flex-center-left'>
@@ -408,7 +505,7 @@ function CamasFuncionales() {
                                     })}
                                 </div>
 
-                                {hayFiltrosActivos && (
+                                {hasActiveFilters && (
                                     <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
                                         <span className="material-icons">delete</span>
                                         <p className="button-link-text">Limpiar filtros</p>
@@ -420,11 +517,17 @@ function CamasFuncionales() {
 
                     <div className='products-page-right'>
                         <FiltrosTop 
-                            setOrden={setOrden} orden={orden} toggleFiltro={toggleFiltro} 
-                            isFiltroActivo={isFiltroActivo} setIsFiltersOpen={setIsFiltersOpen} 
-                            isFiltersOpen={isFiltersOpen} productosCount={productosOrdenados.length} 
-                            totalProductos={productos.length} currentPage={currentPage}
-                            itemsPerPage={itemsPerPage} startIndex={startIndex}
+                            setOrden={handleOrdenChange}
+                            orden={orden} 
+                            toggleFiltro={toggleFiltro} 
+                            isFiltroActivo={isFiltroActivo} 
+                            setIsFiltersOpen={setIsFiltersOpen} 
+                            isFiltersOpen={isFiltersOpen} 
+                            productosCount={productosOrdenados.length} 
+                            totalProductos={productos.length} 
+                            currentPage={currentPage}
+                            itemsPerPage={itemsPerPage} 
+                            startIndex={startIndex}
                             endIndex={endIndex}
                         />
 
@@ -442,6 +545,12 @@ function CamasFuncionales() {
                                                 <div className="w-100 d-flex-column d-flex-center-center text-center gap-10">
                                                     <img src="/assets/imagenes/paginas/not-found.svg" alt="" width={320} />
                                                     <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
+                                                    {hasActiveFilters && (
+                                                        <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
+                                                            <span className="material-icons">delete</span>
+                                                            <p className="button-link-text">Limpiar filtros</p>
+                                                        </button>
+                                                    )}
                                                 </div>
                                             </div>
                                         ) : (

@@ -1,96 +1,3 @@
-// import './Categorias.css';
-
-// function Categorias(){
-//     return(
-//         <div className='block-container'>
-//             <section className='block-content'>
-//                 <div className='block-title-container'>
-//                     <h2 className='block-title'>Categorías</h2>
-
-//                     <a className='block-title-link' href='/'>
-//                         <p className='block-title-link-text'>Ver todos los productos</p>
-//                         <span class="material-symbols-outlined">arrow_outward</span>
-//                     </a>
-//                 </div>
-
-//                 <div className='hp-categories-container'>
-//                     <ul className='hp-categories'>
-//                         <li className='hp-category hp-category-1'>
-//                             <a href='/'>
-//                                 <div>
-//                                     <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/colchones.webp' alt=''/>
-//                                     <p className=''>lorem de unas 8 palabras en estas seccion</p>
-//                                 </div>
-//                                 <h3 className=''>Colchones</h3>
-//                             </a>
-//                         </li>
-//                         <li className='hp-category hp-category-2'>
-//                             <a href='/'>
-//                                 <div>
-//                                     <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/camas-box-tarimas.webp' alt=''/>
-//                                     <p className=''>lorem de unas 8 palabras en estas seccion</p>
-//                                 </div>
-//                                 <h3 className=''>Camas box tarimas</h3>
-//                             </a>
-//                         </li>
-//                         <li className='hp-category hp-category-3'>
-//                             <a href='/'>
-//                                 <div>
-//                                     <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/dormitorios-1.webp' alt=''/>
-//                                     <p className=''>lorem de unas 8 palabras en estas seccion</p>
-//                                 </div>
-//                                 <h3 className=''>Dormitorios</h3>
-//                             </a>
-//                         </li>
-//                         <li className='hp-category hp-category-4'>
-//                             <a href='/'>
-//                                 <div>
-//                                     <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/camas-funcionales.webp' alt=''/>
-//                                     <p className=''>lorem de unas 8 palabras en estas seccion</p>
-//                                 </div>
-//                                 <h3 className=''>Camas funcionales</h3>
-//                             </a>
-//                         </li>
-//                         <li className='hp-category hp-category-5'>
-//                             <a href='/'>
-//                                 <div>
-//                                     <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/cabeceras.webp' alt=''/>
-//                                     <p className=''>lorem de unas 8 palabras en estas seccion</p>
-//                                 </div>
-//                                 <h3 className=''>Cabeceras</h3>
-//                             </a>
-//                         </li>
-//                         <li className='hp-category hp-category-6'>
-//                             <a href='/'>
-//                                 <div>
-//                                     <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/sofas.webp' alt=''/>
-//                                     <p className=''>lorem de unas 8 palabras en estas seccion</p>
-//                                 </div>
-//                                 <h3 className=''>Sofás</h3>
-//                             </a>
-//                         </li>
-//                         <li className='hp-category hp-category-7'>
-//                             <a href='/'>
-//                                 <div>
-//                                     <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/complementos.webp' alt=''/>
-//                                     <p className=''>lorem de unas 8 palabras en estas seccion</p>
-//                                 </div>
-//                                 <h3 className=''>Complementos</h3>
-//                             </a>
-//                         </li>
-//                     </ul>
-//                 </div>
-
-//                 <div className='hp-cat-scroll-controler'>
-//                     <span className='hp-cat-scroll-thumb'></span>
-//                 </div>
-//             </section>
-//         </div>
-//     )
-// }
-
-// export default Categorias;
-
 import { useRef, useEffect, useState } from 'react';
 
 import './Categorias.css';
@@ -111,14 +18,12 @@ function Categorias(){
             const thumb = thumbRef.current;
             const controller = controllerRef.current;
             if (!thumb || !controller) return;
-
             const scrollWidth = container.scrollWidth - container.clientWidth;
             const scrollPosition = container.scrollLeft;
             const visibleRatio = container.clientWidth / container.scrollWidth;
             const thumbWidth = Math.max(visibleRatio * 100, 10);
             const thumbMaxMove = 100 - thumbWidth;
             const scrollPercent = scrollWidth > 0 ? (scrollPosition / scrollWidth) * thumbMaxMove : 0;
-
             thumb.style.width = `${thumbWidth}%`;
             thumb.style.marginLeft = `${scrollPercent}%`;
         };
@@ -238,7 +143,7 @@ function Categorias(){
                 <div className='hp-categories-container' ref={containerRef}>
                     <ul className='hp-categories'>
                         <li className='hp-category hp-category-1'>
-                            <a href='/'>
+                            <a href='https://homesleep.pe/productos/colchones/' title='Colchones | Homesleep'>
                                 <div>
                                     <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/colchones.webp' alt=''/>
                                     <p>Confort y descanso para cada noche</p>
@@ -247,7 +152,7 @@ function Categorias(){
                             </a>
                         </li>
                         <li className='hp-category hp-category-2'>
-                            <a href='/'>
+                            <a href='https://homesleep.pe/productos/camas-box-tarimas/' title='Camas box tarimas | Homesleep'>
                                 <div>
                                     <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/camas-box-tarimas.webp' alt=''/>
                                     <p>La base ideal para tu descanso</p>
@@ -256,7 +161,7 @@ function Categorias(){
                             </a>
                         </li>
                         <li className='hp-category hp-category-3'>
-                            <a href='/'>
+                            <a href='https://homesleep.pe/productos/dormitorios/' title='Dormitorios | Homesleep'>
                                 <div>
                                     <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/dormitorios-1.webp' alt=''/>
                                     <p>Todo lo que necesitas para tu habitación</p>
@@ -265,7 +170,7 @@ function Categorias(){
                             </a>
                         </li>
                         <li className='hp-category hp-category-4'>
-                            <a href='/'>
+                            <a href='https://homesleep.pe/productos/camas-funcionales/' title='Camas funcionales | Homesleep'>
                                 <div>
                                     <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/camas-funcionales.webp' alt=''/>
                                     <p>Más espacio y funcionalidad para tu hogar</p>
@@ -274,7 +179,7 @@ function Categorias(){
                             </a>
                         </li>
                         <li className='hp-category hp-category-5'>
-                            <a href='/'>
+                            <a href='https://homesleep.pe/productos/cabeceras/' title='Colchones | Homesleep'>
                                 <div>
                                     <img src='https://www.kamas.pe/assets/imagenes/paginas/pagina-principal/categorias/cabeceras.webp' alt=''/>
                                     <p>El detalle que transforma tu dormitorio</p>

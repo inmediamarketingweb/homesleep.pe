@@ -3,17 +3,17 @@
         {
             "id": 1,
             "categoria": "colchones",
-            "tamaño": "1 plaza y media",
+            "tamaño": "2 plazas",
             "marca": "el cisne",
             "modelo": "virase black",
-            "ruta": "/productos/colchones/1-plaza-y-media/el-cisne/virase-black/",
-            "nombre": "COLCHÓN EL CISNE VIRASE BLACK 1 PLAZA Y MEDIA",
+            "ruta": "/productos/colchones/2-plazas/el-cisne/virase-black/",
+            "nombre": "COLCHÓN 2 PLAZAS EL CISNE VIRASE BLACK",
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/virase/black/",
             "precioRegular": 2399,
             "precioNormal": 2099,
             "precioVenta": 1399,
             "stock": 10,
-            "sku": "D13158NXS101",
+            "sku": "D1328NXS101",
             "regalos":[ "1 almohada" ],
             "tipo-de-envio": "Envío preferente"
         }

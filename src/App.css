@@ -113,16 +113,17 @@ main{
 .block-title-container{
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: left;
+    align-items: flex-end;
+    justify-content: flex-start;
     margin-bottom: 10px;
-    gap: 20px;
+    gap: 10px;
     grid-column: 1/-1;
 }
 
 .block-title{
+    line-height: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 24px;
     color: var(--color-1);
 }
 
