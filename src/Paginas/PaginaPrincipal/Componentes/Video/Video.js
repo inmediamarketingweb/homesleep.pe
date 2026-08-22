@@ -13,7 +13,7 @@ function Video(){
                         <p className='color-white'>- Llevatelo con obsequios y a un súper precio llevandolo en combo.</p>
                     </div>
 
-                    <a href='/' className='button-link button-link-2'>
+                    <a href='https://homesleep.pe/productos/dormitorios/?marca=kamas---el-cisne&resortes=pocket&modelo=pocket-plus' title='Dormitorios pocket plus | Homesleep' className='button-link button-link-2'>
                         <p className='button-link-text'>Ver pocket plus</p>
                         <span class="material-symbols-outlined">arrow_outward</span>
                     </a>

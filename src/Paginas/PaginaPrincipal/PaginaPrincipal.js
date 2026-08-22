@@ -33,7 +33,7 @@ function PaginaPrincipal(){
 
                 <Video/>
 
-                <Ofertas/>
+                {/* <Ofertas/> */}
             </main>
         </>
     );
