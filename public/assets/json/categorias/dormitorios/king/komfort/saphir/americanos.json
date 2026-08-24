@@ -680,6 +680,38 @@
                     "modelo-de-cabecera": "reptilian"
                 }
             ]
+        },
+        {
+            "id": 2,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Komfort",
+            "modelo": "saphir",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/komfort/saphir/americanos/22/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / KOMFORT + COLCHÓN KOMFORT SAPHIR + CABECERA AÉREA RECTANGULAR - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/komfort/saphir/americanos/americanas/rectangular-1/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2499,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3424213N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - komfort",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Saphir",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Rectangular 2"
+                }
+            ]
         }
     ]
 }

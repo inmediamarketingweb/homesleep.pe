@@ -94,6 +94,38 @@
                     "modelo-de-cabecera": "nube"
                 }
             ]
+        },
+        {
+            "id": 4,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "nube",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/cama-nube/4/",
+            "nombre": "DORMITORIO NUBE KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL NUBE - AZUL ELÉCTRICO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/cama-nube/4/",
+            "precioRegular": 3599,
+            "precioNormal": 3099,
+            "precioVenta": 2299,
+            "stock": 9,
+            "sku": "H3124235N1003",
+            "tipo-de-envio": "Gratis",
+            "regalos": [ "3 cojines" ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "nube",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "nube"
+                }
+            ]
         }
     ]
 }
