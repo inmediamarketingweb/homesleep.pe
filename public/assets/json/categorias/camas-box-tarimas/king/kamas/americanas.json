@@ -3,7 +3,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "King",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/1/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA PISAC - ARENA",
@@ -31,7 +31,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "King",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/2/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA PISAC - AZUL ELÉCTRICO",
@@ -59,7 +59,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "King",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/3/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA PISAC - VERDE LORO",
@@ -87,7 +87,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/8/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA - AZUL NOCHE",
@@ -115,7 +115,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/9/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA - COBALTO",
@@ -143,7 +143,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/10/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA - PLOMO OSCURO",
@@ -171,7 +171,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/11/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA - PLOMO RATA",
@@ -199,7 +199,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/12/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA - CHOCOLATE",
@@ -227,7 +227,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/15/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA - GRIS ",
@@ -255,7 +255,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/16/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA - BEIGE",
@@ -283,7 +283,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/20/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA - GRIS PLATA",
@@ -311,7 +311,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/21/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA - NEGRO",
@@ -339,7 +339,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/22/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA - GRIS RATA",
@@ -367,7 +367,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/23/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - COBALTO",
@@ -395,7 +395,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/24/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - AZUL NOCHE",
@@ -423,7 +423,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/26/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - PLOMO RATA",
@@ -451,7 +451,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/28/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - VINO",
@@ -479,7 +479,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/29/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - PLOMO PLATA",
@@ -507,7 +507,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/32/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 - GRIS",
@@ -535,7 +535,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/33/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 - BEIGE",
@@ -563,7 +563,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/35/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 - MORO",
@@ -591,7 +591,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/36/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 - GRIS OSCURO",
@@ -619,7 +619,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/39/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 - AZUL NOCHE",
@@ -647,7 +647,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/40/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 - VERDE LORO",
@@ -675,7 +675,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/41/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - CAMELL",
@@ -703,7 +703,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/42/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - COBALTO",
@@ -731,7 +731,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/43/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - AZUL NOCHE",
@@ -759,7 +759,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/44/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - BEIGE",
@@ -787,7 +787,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/45/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - VERDE LORO",
@@ -815,7 +815,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/50/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - GRIS",
@@ -843,7 +843,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/50/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - ROSADO",
@@ -871,7 +871,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/51/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - VINO",
@@ -899,7 +899,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/52/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - BEIGE",
@@ -927,7 +927,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/54/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - BEIGE",
@@ -955,7 +955,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/55/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - CHOCOLATE",
@@ -983,7 +983,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/56/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - PLOMO OSCURO",
@@ -1011,7 +1011,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/59/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR - BEIGE",
@@ -1039,7 +1039,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/60/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR - VINO",
@@ -1067,7 +1067,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/61/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR - COBALTO",
@@ -1095,7 +1095,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/62/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 2 + 1 VELADOR - CHOCOLATE",
@@ -1123,7 +1123,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/63/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 1 - VERDE LORO",
@@ -1151,7 +1151,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/64/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 1 - AZUL NOCHE",
@@ -1179,7 +1179,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/65/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 1 - CAMELL",
@@ -1207,7 +1207,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/67/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 1 - CAMELL OSCURO",
@@ -1235,7 +1235,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/68/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 1 - CHOCOLATE",
@@ -1263,7 +1263,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/69/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 1 - PLOMO PLATA",
@@ -1291,7 +1291,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/70/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 1 - CUERO CAMELL",
@@ -1348,7 +1348,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/72/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CUADROS 1 - ROJ0",
@@ -1376,7 +1376,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/73/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA LINEAL - NEGRO",
@@ -1404,7 +1404,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/75/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA LINEAL HORI - PLOMO PLATA",
@@ -1432,7 +1432,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/76/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA LINEAL HORI - CAMELL",
@@ -1460,7 +1460,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/77/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA LINEAL HORI - AZUL NOCHE ",
@@ -1488,7 +1488,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/78/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA LINEAL HORI - CHOCOLATE ",
@@ -1516,7 +1516,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/79/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA LINEAL HORI - FUCSIA",
@@ -1544,7 +1544,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/80/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA LINEAL HORI - PLOMO OSCURO",
@@ -1572,7 +1572,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/81/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXALINE - PLOMO OSCURO",
@@ -1600,7 +1600,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/82/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXALINE - VIOLETA",
@@ -1628,7 +1628,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/84/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA HEXALINE - COBALTO",
@@ -1656,7 +1656,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/87/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA MESHLOCK - ARENA",
@@ -1684,7 +1684,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/88/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA MESHLOCK - AZUL NOCHE",
@@ -1712,7 +1712,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/89/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA MESHLOCK - VIOLETA",
@@ -1740,7 +1740,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/90/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA MESHLOCK - CHOCOLATE",
@@ -1768,7 +1768,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/91/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA MESHLOCK - FUCSIA",
@@ -1796,7 +1796,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/92/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA MESHLOCK - ROSADO BEBÉ",
@@ -1824,7 +1824,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/94/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA MESHLOCK - CAMELL",
@@ -1852,7 +1852,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/95/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA ROMBOI - CHOCOLATE",
@@ -1880,7 +1880,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/96/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA VELUTO - NEGRO",
@@ -1908,7 +1908,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/97/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CON MARCO - VIOLETA",
@@ -1936,7 +1936,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/98/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CON MARCO - PLOMO RATA",
@@ -1964,7 +1964,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/99/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CON MARCO - PLOMO PLATA",
@@ -1992,7 +1992,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/100/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CON MARCO - CAMELL",
@@ -2020,7 +2020,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/103/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CON MARCO - BEIGE OSCURO",
@@ -2049,7 +2049,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/105/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CORONA - ARENA OSCURO",
@@ -2077,7 +2077,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/108/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CORONA - CAMELL",
@@ -2105,7 +2105,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/109/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CORONA - CHOCOLATE",
@@ -2133,7 +2133,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/112/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CORONA - VERDE LORO",
@@ -2161,7 +2161,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/113/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CORONA - CAMELL OSCURO",
@@ -2189,7 +2189,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/114/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CORONA - BEIGE",
@@ -2217,7 +2217,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/115/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA CORONA - PLOMO PLATA",
@@ -2245,7 +2245,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/116/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL CAPITONEADA + BAUL - GRIS PLATA",
@@ -2273,7 +2273,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/117/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - PLOMO PLATA",
@@ -2301,7 +2301,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/118/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - NEGRO",
@@ -2329,7 +2329,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/119/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - GRIS PLATA",
@@ -2357,7 +2357,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/120/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL CUADROS 2 - GRIS RATA",
@@ -2385,7 +2385,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/121/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL EMPERATRIZ - PLOMO RATA",
@@ -2413,7 +2413,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/122/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL EMPERATRIZ - PLOMO OSCURO",
@@ -2441,7 +2441,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/123/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL EMPERATRIZ - CUERO NEGRO",
@@ -2498,7 +2498,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/124/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL EMPERATRIZ + BAUL - GRIS RATA",
@@ -2526,7 +2526,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/125/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL EMPERATRIZ - NEGRO",
@@ -2554,7 +2554,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/126/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL EMPERATRIZ - PLOMO",
@@ -2582,7 +2582,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/127/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL EMPERATRIZ - ROJO",
@@ -2610,7 +2610,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/128/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL EMPERATRIZ - TURQUESA",
@@ -2638,7 +2638,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/129/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL LINEAL - CAMELL",
@@ -2666,7 +2666,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/130/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL CAPITONEADO - ARENA",
@@ -2694,7 +2694,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/131/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL CAPITONEADO - COBALTO",
@@ -2722,7 +2722,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/132/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL CAPITONEADO - PLOMO RATA",
@@ -2750,7 +2750,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/133/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL CAPITONEADO - NEGRO",
@@ -2778,7 +2778,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/134/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL CAPITONEADO - GRIS PLATA",
@@ -2806,7 +2806,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/135/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL CAPITONEADO - CAMELL",
@@ -2834,7 +2834,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/136/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL CAPITONEADA CON MARCO + 2 VELADORES DE MADERA - HUESO",
@@ -2891,7 +2891,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/137/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL VESSO - ROJO",
@@ -2919,7 +2919,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/139/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL VESSO - GRIS RATA",
@@ -2947,7 +2947,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/141/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL VESSO - NEGRO",
@@ -2975,7 +2975,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/143/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL VESSO - VIN0",
@@ -3003,7 +3003,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/144/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL MAJESTAD - HUESO",
@@ -3031,7 +3031,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/145/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL MAJESTAD + BAUL- PLOMO PLATA",
@@ -3059,7 +3059,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/145/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL PRINCESA + PIECERA + 1 PUFF - AZUL ELECTRICO",
@@ -3087,7 +3087,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/146/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL PRINCESA + PIECERA + 1 PUFF - PLOMO RATA",
@@ -3115,7 +3115,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/147/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL LINEAL - PLOMO RATA",
@@ -3143,7 +3143,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "ruta": "/productos/camas-box-tarimas/kamas/americanas/2-plazas/40/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL CAPITONEADA + BAÚL + 2 PUFF - GRIS",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas/americanas/sin-brazos/capitoneado/3/",
@@ -3170,7 +3170,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "ruta": "/productos/camas-box-tarimas/kamas/americanas/2-plazas/41/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADA + BAÚL  - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/americanas/brazos-rectos/capitoneado/2/",
@@ -3197,7 +3197,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "ruta": "/productos/camas-box-tarimas/kamas/americanas/2-plazas/42/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADA + SOFÁ BAÚL - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/9/",
@@ -3224,7 +3224,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "ruta": "/productos/camas-box-tarimas/kamas/americanas/2-plazas/43/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA AÉREA CAPITONEADA + SOFÁ BAÚL - AZUL NOCHE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/10/",
@@ -3251,7 +3251,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "ruta": "/productos/camas-box-tarimas/kamas/americanas/2-plazas/44/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ + BAÚL + 2 PUFF - GRIS RATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/pedestales/americanas/brazos-rectos/emperatriz/15/",
@@ -3278,7 +3278,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "ruta": "/productos/camas-box-tarimas/kamas/americanas/2-plazas/45/",
             "nombre": "CAMA BOX TARIMA AMERICANO 2 PLAZAS + CABECERA PEDESTAL EMPERATRIZ + BAÚL + 2 PUFF - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/pedestales/americanas/brazos-rectos/emperatriz/16/",
@@ -3305,7 +3305,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/148/",
             "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA AÉREA CAPITONEADA + BAÚL - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas/americanas/sin-brazos/capitoneada/1/",
@@ -3332,7 +3332,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/149/",
             "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA PEDESTAL CAPITONEADA + BAÚL - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/capitoneado/5/",
@@ -3359,7 +3359,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/150/",
             "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA PEDESTAL CAPITONEADA + BAÚL - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/capitoneado/6/",
@@ -3386,7 +3386,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/151/",
             "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA PEDESTAL CAPITONEADA + BAÚL - ROJO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/capitoneado/7/",
@@ -3413,7 +3413,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/152/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA MOKI - TEJIDO CHOCOLATE",
@@ -3441,7 +3441,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/153/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA REPTILIAN - NARANJA",
@@ -3469,7 +3469,7 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "king",
             "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/154/",
             "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA SIDNEY - TEJIDO CHOCOLATE",
@@ -3491,6 +3491,34 @@
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "sidney"
+                }
+            ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "línea": "americanas",
+            "tamaño": "king",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/155/",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AÉREA SIDNEY - CUERO IVORY",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/bloques/prestige/1/",
+            "precioRegular": 1999,
+            "precioNormal": 1799,
+            "precioVenta": 1099,
+            "stock": 15,
+            "sku": "H224226N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "prestige"
                 }
             ]
         }

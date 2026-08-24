@@ -833,6 +833,38 @@
                     "modelo-de-cabecera": "nilo"
                 }
             ]
+        },
+        {
+            "id": 13,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "pocket",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/pocket/americanos/27/",
+            "nombre": "DORMITORIO KING KAMAS / EL CISNE AMERICANO + COLCHÓN POCKET PERUANO + CABECERA AÉREA RUPESTRE - CHAMPAGNE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/bloques/rupestre/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2599,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H33242286N35",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "rupestre"
+                }
+            ]
         }
     ]
 }
