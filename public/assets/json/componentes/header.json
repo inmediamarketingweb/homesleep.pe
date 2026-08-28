@@ -145,6 +145,10 @@
                     "titulo": "Medidas",
                     "lista":[
                         {
+                            "text": "1 plaza",
+                            "link": "/productos/camas-box-tarimas/1-plaza/"
+                        },
+                        {
                             "text": "1 plaza y media",
                             "link": "/productos/camas-box-tarimas/1-plaza-y-media/"
                         },
@@ -332,19 +336,19 @@
                     "lista":[
                         {
                             "text": "1 plaza y media",
-                            "link": "/productos/camas-funcionales/1-plaza-y-media/"
+                            "link": "/productos/camas-funcionales/?tamaño=1-plaza-y-media"
                         },
                         {
                             "text": "2 plazas",
-                            "link": "/productos/camas-funcionales/2-plazas/"
+                            "link": "/productos/camas-funcionales/?tamaño=2-plazas"
                         },
                         {
                             "text": "Queen",
-                            "link": "/productos/camas-funcionales/queen/"
+                            "link": "/productos/camas-funcionales/?tamaño=queen"
                         },
                         {
                             "text": "King",
-                            "link": "/productos/camas-funcionales/king/"
+                            "link": "/productos/camas-funcionales/?tamaño=king"
                         },
                         {
                             "text": "Ver todos",
