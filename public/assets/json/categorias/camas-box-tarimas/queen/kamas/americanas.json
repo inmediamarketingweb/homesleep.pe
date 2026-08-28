@@ -3,100 +3,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "Queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/1/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA - NEGRO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/queen/aereas/americanas/sin-brazos/capitoneado/1/",
-            "precioRegular": 1329,
-            "precioNormal": 1099,
-            "precioVenta": 819,
-            "stock": 15,
-            "sku": "H223213N10",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "Queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "Queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/2/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA - PLOMO PLATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/queen/aereas-con-patas/americanas/sin-brazos/capitoneado/1/",
-            "precioRegular": 1329,
-            "precioNormal": 1099,
-            "precioVenta": 819,
-            "stock": 15,
-            "sku": "H2232113N10",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "Queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/6/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA PISAC - PLOMO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas/bloques/sin-brazos/pisac/6/",
-            "precioRegular": 1829,
-            "precioNormal": 1519,
-            "precioVenta": 1119,
-            "stock": 15,
-            "sku": "H224216N15",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Pisac"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/1/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA PISAC - ARENA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA PISAC - ARENA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas/bloques/sin-brazos/pisac/1/",
-            "precioRegular": 1829,
-            "precioNormal": 1519,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H2123216N10",
+            "sku": "D223216N10",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -115,16 +31,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/2/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA PISAC - AZUL ELÉCTRICO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA PISAC - AZUL ELÉCTRICO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas/bloques/sin-brazos/pisac/2/",
-            "precioRegular": 1829,
-            "precioNormal": 1519,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H2123216N11",
+            "sku": "D223216N11",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -143,184 +59,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/3/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA PISAC - VERDE LORO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas/bloques/sin-brazos/pisac/3/",
-            "precioRegular": 1829,
-            "precioNormal": 1519,
-            "precioVenta": 1019,
-            "stock": 15,
-            "sku": "H2123216N12",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Pisac"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/6/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA PISAC - PLOMO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas/bloques/sin-brazos/pisac/6/",
-            "precioRegular": 1829,
-            "precioNormal": 1519,
-            "precioVenta": 1019,
-            "stock": 15,
-            "sku": "H2123216N15",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Pisac"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/8/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA - AZUL NOCHE",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/1/",
-            "precioRegular": 1859,
-            "precioNormal": 1159,
-            "precioVenta": 819,
-            "stock": 15,
-            "sku": "H21232113N10",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/9/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA - COBALTO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/2/",
-            "precioRegular": 1859,
-            "precioNormal": 1159,
-            "precioVenta": 819,
-            "stock": 15,
-            "sku": "H21232113N11",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/10/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA - PLOMO OSCURO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/3/",
-            "precioRegular": 1859,
-            "precioNormal": 1159,
-            "precioVenta": 819,
-            "stock": 15,
-            "sku": "H21232113N12",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/11/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA - PLOMO RATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/4/",
-            "precioRegular": 1859,
-            "precioNormal": 1159,
-            "precioVenta": 819,
-            "stock": 15,
-            "sku": "H21232113N13",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/12/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA - CHOCOLATE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CAPITONEADA - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/5/",
-            "precioRegular": 1859,
-            "precioNormal": 1159,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232113N14",
+            "sku": "D2232113N14",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -330,7 +78,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -339,44 +87,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/13/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA - ROSADO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/6/",
-            "precioRegular": 1859,
-            "precioNormal": 1159,
-            "precioVenta": 819,
-            "stock": 15,
-            "sku": "H21232113N15",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/15/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA - GRIS ",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CAPITONEADA - GRIS ",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/8/",
-            "precioRegular": 1859,
-            "precioNormal": 1159,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232113N17",
+            "sku": "D2232113N17",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -386,7 +106,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -395,16 +115,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/20/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA - GRIS PLATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CAPITONEADA - IVORY",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/13/",
-            "precioRegular": 1859,
-            "precioNormal": 1159,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232113N22",
+            "sku": "D2231113N22",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -414,7 +134,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -423,16 +143,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/21/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA - NEGRO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CAPITONEADA - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/14/",
-            "precioRegular": 1859,
-            "precioNormal": 1159,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232113N23",
+            "sku": "D2231113N23",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -442,7 +162,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -451,44 +171,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/22/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA - GRIS RATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/15/",
-            "precioRegular": 1859,
-            "precioNormal": 1159,
-            "precioVenta": 819,
-            "stock": 15,
-            "sku": "H21232113N24",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/24/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - AZUL NOCHE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - AZUL NOCHE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/17/",
-            "precioRegular": 1899,
-            "precioNormal": 1899,
-            "precioVenta": 1369,
+            "precioRegular": 2459,
+            "precioNormal": 2069,
+            "precioVenta": 1439,
             "stock": 15,
-            "sku": "H21232113N25",
+            "sku": "D2231113N25",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -498,7 +190,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -507,44 +199,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/26/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - PLOMO RATA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/20/",
-            "precioRegular": 1899,
-            "precioNormal": 1899,
-            "precioVenta": 1369,
-            "stock": 15,
-            "sku": "H21232113N27",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/28/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - VINO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - VINO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/22/",
-            "precioRegular": 1899,
-            "precioNormal": 1899,
-            "precioVenta": 1369,
+            "precioRegular": 2459,
+            "precioNormal": 2069,
+            "precioVenta": 1439,
             "stock": 15,
-            "sku": "H21232113N29",
+            "sku": "D2231113N29",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -554,7 +218,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -563,16 +227,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/29/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - PLOMO PLATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CAPITONEADA + 2 VELADORES VINTAGE - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/capitoneado/23/",
-            "precioRegular": 1899,
-            "precioNormal": 1899,
-            "precioVenta": 1369,
+            "precioRegular": 2459,
+            "precioNormal": 2069,
+            "precioVenta": 1439,
             "stock": 15,
-            "sku": "H21232113N30",
+            "sku": "D2231113N30",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -582,7 +246,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -591,44 +255,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/31/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 - ROJO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/2/",
-            "precioRegular": 1899,
-            "precioNormal": 1369,
-            "precioVenta": 819,
-            "stock": 15,
-            "sku": "H21232113N11",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 2"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/32/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 - GRIS",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 2 - GRIS",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/3/",
-            "precioRegular": 1899,
-            "precioNormal": 1369,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232113N12",
+            "sku": "D231113N12",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -638,7 +274,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -647,16 +283,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/33/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 - BEIGE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 2 - BEIGE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/4/",
-            "precioRegular": 1899,
-            "precioNormal": 1369,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232113N13",
+            "sku": "D231113N13",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -666,7 +302,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -675,16 +311,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/35/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 - MORO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 2 - MORO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/6/",
-            "precioRegular": 1899,
-            "precioNormal": 1369,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232113N15",
+            "sku": "D231113N15",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -694,7 +330,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -703,16 +339,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/39/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 - AZUL NOCHE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 1 - CENIZO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/11/",
-            "precioRegular": 1899,
-            "precioNormal": 1369,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232113N19",
+            "sku": "D231113N19",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -722,7 +358,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -731,44 +367,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/40/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 - VERDE LORO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/12/",
-            "precioRegular": 1899,
-            "precioNormal": 1879,
-            "precioVenta": 1178,
-            "stock": 15,
-            "sku": "H21232113N20",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 2"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/41/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - CAMELL",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - CAMELL",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/13/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
+            "precioRegular": 2469,
+            "precioNormal": 2069,
+            "precioVenta": 1419,
             "stock": 15,
-            "sku": "H21232113N21",
+            "sku": "D231113N21",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -778,7 +386,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -787,72 +395,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/42/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - COBALTO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/14/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
-            "stock": 15,
-            "sku": "H21232113N22",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 2"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/43/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - AZUL NOCHE",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/15/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
-            "stock": 15,
-            "sku": "H21232113N23",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 2"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/44/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - BEIGE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - BEIGE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/16/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
+            "precioRegular": 2469,
+            "precioNormal": 2069,
+            "precioVenta": 1419,
             "stock": 15,
-            "sku": "H21232113N24",
+            "sku": "D231113N24",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -862,7 +414,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -871,72 +423,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/50/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - GRIS",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/21/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
-            "stock": 15,
-            "sku": "H21232113N29",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 2"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/50/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - ROSADO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/22/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
-            "stock": 15,
-            "sku": "H21232113N30",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 2"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/51/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - VINO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - VINO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/23/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
+            "precioRegular": 2469,
+            "precioNormal": 2069,
+            "precioVenta": 1419,
             "stock": 15,
-            "sku": "H21232113N31",
+            "sku": "D231113N31",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -946,7 +442,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -955,16 +451,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/52/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - BEIGE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - BEIGE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/24/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
+            "precioRegular": 2469,
+            "precioNormal": 2069,
+            "precioVenta": 1419,
             "stock": 15,
-            "sku": "H21232113N32",
+            "sku": "D231113N32",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -974,7 +470,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -983,44 +479,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/54/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - BEIGE",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/26/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
-            "stock": 15,
-            "sku": "H21232113N34",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 2"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/55/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - CHOCOLATE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/27/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
+            "precioRegular": 2469,
+            "precioNormal": 2069,
+            "precioVenta": 1419,
             "stock": 15,
-            "sku": "H21232113N35",
+            "sku": "D231113N35",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1030,7 +498,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -1039,16 +507,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/56/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - PLOMO OSCURO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 2 + 1 VELADOR SHELTER - PLOMO OSCURO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/28/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
+            "precioRegular": 2469,
+            "precioNormal": 2069,
+            "precioVenta": 1419,
             "stock": 15,
-            "sku": "H21232113N36",
+            "sku": "D231113N36",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1058,7 +526,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -1067,16 +535,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/59/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR - BEIGE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 2 + 1 VELADOR MADERA - BEIGE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/31/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
+            "precioRegular": 2569,
+            "precioNormal": 2269,
+            "precioVenta": 1819,
             "stock": 15,
-            "sku": "H21232113N39",
+            "sku": "D231113N39",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1086,7 +554,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -1095,16 +563,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/61/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR - COBALTO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/33/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
+            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/60/",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 2 + 1 VELADOR MADERA - VINO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/32/",
+            "precioRegular": 2569,
+            "precioNormal": 2269,
+            "precioVenta": 1819,
             "stock": 15,
-            "sku": "H21232113N41",
+            "sku": "D231113N40",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1114,7 +582,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -1123,16 +591,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/62/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR - CHOCOLATE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 2 + 1 VELADOR MADERA - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/34/",
-            "precioRegular": 1799,
-            "precioNormal": 1879,
-            "precioVenta": 1199,
+            "precioRegular": 2569,
+            "precioNormal": 2269,
+            "precioVenta": 1819,
             "stock": 15,
-            "sku": "H21232113N42",
+            "sku": "D231113N42",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1142,7 +610,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -1151,72 +619,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/63/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 1 - VERDE LORO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-1/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1349,
-            "precioVenta": 819,
-            "stock": 15,
-            "sku": "H21232113N43",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 1"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/64/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 1 - AZUL NOCHE",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-1/2/",
-            "precioRegular": 1799,
-            "precioNormal": 1349,
-            "precioVenta": 819,
-            "stock": 15,
-            "sku": "H21232113N44",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 1"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/65/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 1 - CAMELL",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 1 - CAMELL",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-1/3/",
-            "precioRegular": 1799,
-            "precioNormal": 1349,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232113N45",
+            "sku": "D231113N45",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1226,7 +638,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 1"
                 }
@@ -1235,44 +647,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/67/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 1 - CAMELL OSCURO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-1/5/",
-            "precioRegular": 1799,
-            "precioNormal": 1349,
-            "precioVenta": 819,
-            "stock": 15,
-            "sku": "H21232113N47",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 1"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/68/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 1 - CHOCOLATE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 1 - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-1/6/",
-            "precioRegular": 1799,
-            "precioNormal": 1349,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232113N48",
+            "sku": "D231113N48",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1282,7 +666,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 1"
                 }
@@ -1291,16 +675,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/69/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 1 - PLOMO PLATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CUADROS 1 - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-1/7/",
-            "precioRegular": 1799,
-            "precioNormal": 1349,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232113N49",
+            "sku": "D231113N49",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1310,7 +694,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Cuadros 1"
                 }
@@ -1319,16 +703,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/70/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 1 - CUERO CAMELL",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-1/8/",
-            "precioRegular": 1799,
-            "precioNormal": 1349,
-            "precioVenta": 819,
+            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/73/",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA LINEAL - NEGRO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/lineal/1/",
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232113N50",
+            "sku": "D231113N53",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1338,25 +722,25 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 1"
+                    "modelo-de-cabecera": "Lineal"
                 }
             ]
         },
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/72/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 1 - ROJ0",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-1/10/",
-            "precioRegular": 1799,
-            "precioNormal": 1349,
-            "precioVenta": 819,
+            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/75/",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA LINEAL HORI - PLOMO PLATA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/lineal-hori/2/",
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232113N52",
+            "sku": "D2232116N11",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1366,25 +750,137 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Cuadros 1"
+                    "modelo-de-cabecera": "Lineal hori"
                 }
             ]
         },
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
+            "tamaño": "queen",
+            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/76/",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA LINEAL HORI - CAMELL",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/lineal-hori/3/",
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
+            "stock": 15,
+            "sku": "D2232116N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal hori"
+                }
+            ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "línea": "americanas",
+            "tamaño": "queen",
+            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/77/",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA LINEAL HORI - AZUL NOCHE ",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/lineal-hori/4/",
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
+            "stock": 15,
+            "sku": "D2232116N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal hori"
+                }
+            ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "línea": "americanas",
+            "tamaño": "queen",
+            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/78/",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA LINEAL HORI - CHOCOLATE ",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/lineal-hori/5/",
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
+            "stock": 15,
+            "sku": "D2232116N14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal hori"
+                }
+            ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "línea": "americanas",
+            "tamaño": "queen",
+            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/80/",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA LINEAL HORI - PLOMO OSCURO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/lineal-hori/7/",
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
+            "stock": 15,
+            "sku": "D2232116N16",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal hori"
+                }
+            ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/81/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA HEXALINE - PLOMO OSCURO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA HEXALINE - PLOMO OSCURO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/hexa/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1589,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N17",
+            "sku": "D2232116N17",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1403,16 +899,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/82/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA HEXALINE - VIOLETA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA HEXALINE - VIOLETA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/hexa/2/",
-            "precioRegular": 1799,
-            "precioNormal": 1589,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N18",
+            "sku": "D2232116N18",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1431,44 +927,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/83/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA HEXALINE - ESMERALDA",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/hexa/3/",
-            "precioRegular": 1799,
-            "precioNormal": 1589,
-            "precioVenta": 1019,
-            "stock": 15,
-            "sku": "H21232116N19",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Hexaline"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/84/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA HEXALINE - COBALTO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA HEXALINE - COBALTO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/hexa/4/",
-            "precioRegular": 1799,
-            "precioNormal": 1589,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N20",
+            "sku": "D2232116N20",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1487,16 +955,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/87/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA MESHLOCK - ARENA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA MESHLOCK - ARENA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/meshlock/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1589,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N23",
+            "sku": "D2232116N23",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1515,16 +983,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/88/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA MESHLOCK - AZUL NOCHE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA MESHLOCK - AZUL NOCHE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/meshlock/2/",
-            "precioRegular": 1799,
-            "precioNormal": 1589,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N24",
+            "sku": "D2232116N24",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1543,16 +1011,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/89/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA MESHLOCK - VIOLETA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA MESHLOCK - VIOLETA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/meshlock/3/",
-            "precioRegular": 1799,
-            "precioNormal": 1589,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N25",
+            "sku": "D2232116N25",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1571,16 +1039,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/90/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA MESHLOCK - CHOCOLATE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA MESHLOCK - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/meshlock/4/",
-            "precioRegular": 1799,
-            "precioNormal": 1589,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N26",
+            "sku": "D2232116N26",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1599,16 +1067,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/91/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA MESHLOCK - FUCSIA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA MESHLOCK - FUCSIA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/meshlock/5/",
-            "precioRegular": 1799,
-            "precioNormal": 1589,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N27",
+            "sku": "D2232116N27",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1627,16 +1095,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/92/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA MESHLOCK - ROSADO BEBÉ",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA MESHLOCK - ROSADO BEBÉ",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/meshlock/6/",
-            "precioRegular": 1799,
-            "precioNormal": 1589,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N28",
+            "sku": "D2232116N28",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1655,16 +1123,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/94/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA MESHLOCK - CAMELL",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA MESHLOCK - CAMELL",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/meshlock/8/",
-            "precioRegular": 1799,
-            "precioNormal": 1589,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N30",
+            "sku": "D2232116N30",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1683,16 +1151,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/95/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA ROMBOI - CHOCOLATE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA ROMBOI - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/romboi/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1589,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N31",
+            "sku": "D2232116N31",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1711,16 +1179,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/96/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA VELUTO - NEGRO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA VELUTO - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/bloques/sin-brazos/veluto/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1589,
-            "precioVenta": 1019,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N32",
+            "sku": "D2232116N32",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1739,16 +1207,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/97/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CON MARCO - VIOLETA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CON MARCO - VIOLETA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/con-marco/sin-brazos/capitoneado/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1379,
-            "precioVenta": 869,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N33",
+            "sku": "D2232116N33",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1767,16 +1235,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/98/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CON MARCO - PLOMO RATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CON MARCO - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/con-marco/sin-brazos/capitoneado/2/",
-            "precioRegular": 1799,
-            "precioNormal": 1379,
-            "precioVenta": 869,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N34",
+            "sku": "D2232116N34",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1795,16 +1263,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/99/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CON MARCO - PLOMO PLATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CON MARCO - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/con-marco/sin-brazos/capitoneado/3/",
-            "precioRegular": 1799,
-            "precioNormal": 1379,
-            "precioVenta": 869,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N35",
+            "sku": "D2232116N35",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1823,16 +1291,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/100/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CON MARCO - CAMELL",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CON MARCO - CAMELL",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/con-marco/sin-brazos/capitoneado/4/",
-            "precioRegular": 1799,
-            "precioNormal": 1379,
-            "precioVenta": 869,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N36",
+            "sku": "D2232116N36",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1851,44 +1319,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/102/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CON MARCO - ROSADO BEBÉ",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/con-marco/sin-brazos/capitoneado/7/",
-            "precioRegular": 1799,
-            "precioNormal": 1379,
-            "precioVenta": 869,
-            "stock": 15,
-            "sku": "H21232116N38",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea con patas",
-                    "diseño-de-cabecera": "Con marco",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/103/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CON MARCO - BEIGE OSCURO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CON MARCO - BEIGE OSCURO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/con-marco/sin-brazos/capitoneado/8/",
-            "precioRegular": 1799,
-            "precioNormal": 1379,
-            "precioVenta": 869,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N39",
+            "sku": "D2232116N39",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1908,16 +1348,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/105/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CORONA - ARENA OSCURO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CORONA - ARENA OSCURO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/coronas/sin-brazos/lineal/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1269,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N40",
+            "sku": "D2232116N40",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1936,16 +1376,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/108/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CORONA - CAMELL",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CORONA - CAMELL",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/coronas/sin-brazos/lineal/3/",
-            "precioRegular": 1799,
-            "precioNormal": 1269,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N42",
+            "sku": "D2232116N42",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1964,16 +1404,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/109/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CORONA - CHOCOLATE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CORONA - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/coronas/sin-brazos/lineal/4/",
-            "precioRegular": 1799,
-            "precioNormal": 1269,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N43",
+            "sku": "D2232116N43",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -1992,16 +1432,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/112/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CORONA - VERDE LORO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CORONA - VERDE LORO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/coronas/sin-brazos/lineal/7/",
-            "precioRegular": 1799,
-            "precioNormal": 1269,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N46",
+            "sku": "D2232116N46",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2020,16 +1460,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/113/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CORONA - CAMELL OSCURO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CORONA - CAMELL OSCURO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/coronas/sin-brazos/lineal/8/",
-            "precioRegular": 1799,
-            "precioNormal": 1269,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N47",
+            "sku": "D2232116N47",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2048,16 +1488,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/114/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CORONA - BEIGE",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CORONA - BEIGE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/coronas/sin-brazos/lineal/9/",
-            "precioRegular": 1799,
-            "precioNormal": 1269,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N48",
+            "sku": "D2232116N48",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2076,16 +1516,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/115/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CORONA - PLOMO PLATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA AÉREA CORONA - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/coronas/sin-brazos/lineal/10/",
-            "precioRegular": 1799,
-            "precioNormal": 1269,
-            "precioVenta": 819,
+            "precioRegular": 2099,
+            "precioNormal": 1499,
+            "precioVenta": 1069,
             "stock": 15,
-            "sku": "H21232116N49",
+            "sku": "D2232116N49",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2104,16 +1544,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/116/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL CAPITONEADA + BAUL - GRIS PLATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL CAPITONEADA + BAUL - GRIS PLATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/capitoneado/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1959,
-            "precioVenta": 1349,
+            "precioRegular": 2429,
+            "precioNormal": 2099,
+            "precioVenta": 1569,
             "stock": 15,
-            "sku": "H2123223N10",
+            "sku": "D223223N10",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2123,7 +1563,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -2132,16 +1572,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/117/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - PLOMO PLATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/capitoneado/2/",
-            "precioRegular": 1799,
-            "precioNormal": 2359,
-            "precioVenta": 1657,
+            "precioRegular": 2979,
+            "precioNormal": 2439,
+            "precioVenta": 1919,
             "stock": 15,
-            "sku": "H2123223N11",
+            "sku": "D223223N11",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2151,7 +1591,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -2160,16 +1600,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/118/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - NEGRO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/capitoneado/3/",
-            "precioRegular": 1799,
-            "precioNormal": 2359,
-            "precioVenta": 1657,
+            "precioRegular": 2979,
+            "precioNormal": 2439,
+            "precioVenta": 1919,
             "stock": 15,
-            "sku": "H2123223N12",
+            "sku": "D223223N12",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2179,7 +1619,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -2188,16 +1628,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/119/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - GRIS PLATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - GRIS PLATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/capitoneado/4/",
-            "precioRegular": 1799,
-            "precioNormal": 2359,
-            "precioVenta": 1657,
+            "precioRegular": 2979,
+            "precioNormal": 2439,
+            "precioVenta": 1919,
             "stock": 15,
-            "sku": "H2123223N13",
+            "sku": "D223223N13",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2207,7 +1647,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -2216,16 +1656,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/120/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL CUADROS 2 - GRIS RATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL CUADROS 2 - GRIS RATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/cuadros-2/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1559,
-            "precioVenta": 1099,
+            "precioRegular": 2399,
+            "precioNormal": 1699,
+            "precioVenta": 1269,
             "stock": 15,
-            "sku": "H2123223N14",
+            "sku": "D223223N14",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2235,7 +1675,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
@@ -2244,16 +1684,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/121/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL EMPERATRIZ - PLOMO RATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL EMPERATRIZ - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/emperatriz/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1559,
-            "precioVenta": 1099,
+            "precioRegular": 2399,
+            "precioNormal": 1699,
+            "precioVenta": 1269,
             "stock": 15,
-            "sku": "H2123223N15",
+            "sku": "D223223N15",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2263,7 +1703,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -2272,16 +1712,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/122/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL EMPERATRIZ - PLOMO OSCURO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL EMPERATRIZ - PLOMO OSCURO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/emperatriz/2/",
-            "precioRegular": 1799,
-            "precioNormal": 1559,
-            "precioVenta": 1099,
+            "precioRegular": 2399,
+            "precioNormal": 1699,
+            "precioVenta": 1269,
             "stock": 15,
-            "sku": "H2123223N16",
+            "sku": "D223223N16",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2291,7 +1731,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -2300,16 +1740,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/123/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL EMPERATRIZ - CUERO NEGRO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL EMPERATRIZ - CUERO NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/emperatriz/3/",
-            "precioRegular": 1799,
-            "precioNormal": 1559,
-            "precioVenta": 1099,
+            "precioRegular": 2399,
+            "precioNormal": 1699,
+            "precioVenta": 1269,
             "stock": 15,
-            "sku": "H2123223N17",
+            "sku": "D223223N17",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2319,7 +1759,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -2328,16 +1768,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/124/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL EMPERATRIZ + BAUL - GRIS RATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL EMPERATRIZ + BAUL - GRIS RATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/emperatriz/4/",
-            "precioRegular": 1799,
-            "precioNormal": 1959,
-            "precioVenta": 1349,
+            "precioRegular": 2399,
+            "precioNormal": 1699,
+            "precioVenta": 1269,
             "stock": 15,
-            "sku": "H2123223N18",
+            "sku": "D223223N18",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2347,7 +1787,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -2356,16 +1796,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/125/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL EMPERATRIZ - NEGRO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL EMPERATRIZ - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/emperatriz/5/",
-            "precioRegular": 1799,
-            "precioNormal": 1559,
-            "precioVenta": 1099,
+            "precioRegular": 2399,
+            "precioNormal": 1699,
+            "precioVenta": 1269,
             "stock": 15,
-            "sku": "H2123223N19",
+            "sku": "D223223N19",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2375,7 +1815,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -2384,16 +1824,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/126/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL EMPERATRIZ - PLOMO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL EMPERATRIZ - PLOMO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/emperatriz/6/",
-            "precioRegular": 1799,
-            "precioNormal": 1559,
-            "precioVenta": 1099,
+            "precioRegular": 2399,
+            "precioNormal": 1699,
+            "precioVenta": 1269,
             "stock": 15,
-            "sku": "H2123223N20",
+            "sku": "D223223N20",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2403,7 +1843,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -2412,16 +1852,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/127/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL EMPERATRIZ - ROJO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL EMPERATRIZ - ROJO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/emperatriz/7/",
-            "precioRegular": 1799,
-            "precioNormal": 1559,
-            "precioVenta": 1099,
+            "precioRegular": 2399,
+            "precioNormal": 1699,
+            "precioVenta": 1269,
             "stock": 15,
-            "sku": "H2123223N21",
+            "sku": "D223223N21",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2431,7 +1871,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -2440,16 +1880,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/128/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL EMPERATRIZ - TURQUESA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL EMPERATRIZ - TURQUESA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/emperatriz/8/",
-            "precioRegular": 1799,
-            "precioNormal": 1559,
-            "precioVenta": 1099,
+            "precioRegular": 2399,
+            "precioNormal": 1699,
+            "precioVenta": 1269,
             "stock": 15,
-            "sku": "H2123223N22",
+            "sku": "D223223N22",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2459,7 +1899,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Emperatriz"
                 }
@@ -2468,16 +1908,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/129/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL LINEAL - CAMELL",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL LINEAL - CAMELL",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/bloques/brazos-rectos/lineal/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1869,
-            "precioVenta": 1299,
+            "precioRegular": 2399,
+            "precioNormal": 1699,
+            "precioVenta": 1269,
             "stock": 15,
-            "sku": "H2123226N10",
+            "sku": "D223226N10",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2487,7 +1927,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Lineal"
                 }
@@ -2496,16 +1936,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/130/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL CAPITONEADO - ARENA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL CAPITONEADO - ARENA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-seahorse/capitoneado/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1769,
-            "precioVenta": 1269,
+            "precioRegular": 2389,
+            "precioNormal": 2119,
+            "precioVenta": 1319,
             "stock": 15,
-            "sku": "H2123223N23",
+            "sku": "D223223N23",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2515,7 +1955,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "corona",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -2524,16 +1964,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/131/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL CAPITONEADO - COBALTO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL CAPITONEADO - COBALTO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-seahorse/capitoneado/2/",
-            "precioRegular": 1799,
-            "precioNormal": 1769,
-            "precioVenta": 1269,
+            "precioRegular": 2389,
+            "precioNormal": 2119,
+            "precioVenta": 1319,
             "stock": 15,
-            "sku": "H2123223N24",
+            "sku": "D223223N24",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2543,7 +1983,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "corona",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -2552,16 +1992,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/132/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL CAPITONEADO - PLOMO RATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL CAPITONEADO - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-seahorse/capitoneado/3/",
-            "precioRegular": 1799,
-            "precioNormal": 1769,
-            "precioVenta": 1269,
+            "precioRegular": 2389,
+            "precioNormal": 2119,
+            "precioVenta": 1319,
             "stock": 15,
-            "sku": "H2123223N25",
+            "sku": "D223223N25",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2571,7 +2011,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "corona",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -2580,16 +2020,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/133/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL CAPITONEADO - NEGRO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL CAPITONEADO - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-seahorse/capitoneado/4/",
-            "precioRegular": 1799,
-            "precioNormal": 1769,
-            "precioVenta": 1269,
+            "precioRegular": 2389,
+            "precioNormal": 2119,
+            "precioVenta": 1319,
             "stock": 15,
-            "sku": "H2123223N26",
+            "sku": "D223223N26",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2599,7 +2039,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "corona",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -2608,16 +2048,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/134/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL CAPITONEADO - GRIS PLATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL CAPITONEADO - GRIS PLATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-seahorse/capitoneado/5/",
-            "precioRegular": 1799,
-            "precioNormal": 1769,
-            "precioVenta": 1269,
+            "precioRegular": 2389,
+            "precioNormal": 2119,
+            "precioVenta": 1319,
             "stock": 15,
-            "sku": "H2123223N27",
+            "sku": "D223223N27",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2627,7 +2067,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "corona",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -2636,44 +2076,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/135/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL CAPITONEADO - CAMELL",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/sin-brazos/otros-modelos/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1549,
-            "precioVenta": 1079,
-            "stock": 15,
-            "sku": "H2123223N28",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Otros modelos"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/136/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL CAPITONEADA CON MARCO + 2 VELADORES DE MADERA - HUESO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL CAPITONEADA CON MARCO + 2 VELADORES DE MADERA - HUESO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/con-marco/sin-brazos/otros-modelos/5/",
-            "precioRegular": 1799,
-            "precioNormal": 2879,
-            "precioVenta": 2349,
+            "precioRegular": 4019,
+            "precioNormal": 3179,
+            "precioVenta": 2399,
             "stock": 15,
-            "sku": "H2123224N10",
+            "sku": "D223224N10",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2692,16 +2104,44 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
+            "tamaño": "queen",
+            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/137/",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL VESSO - ROJO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/coronas/brazos-curvos/vesso/1/",
+            "precioRegular": 2879,
+            "precioNormal": 2249,
+            "precioVenta": 1519,
+            "stock": 15,
+            "sku": "D22325N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos curvos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ]
+        },
+        {
+            "categoria": "camas box tarimas",
+            "marca": "kamas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/139/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL VESSO - GRIS RATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL VESSO - GRIS RATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/coronas/brazos-curvos/vesso/3/",
-            "precioRegular": 1799,
-            "precioNormal": 1849,
-            "precioVenta": 1339,
+            "precioRegular": 2879,
+            "precioNormal": 2249,
+            "precioVenta": 1519,
             "stock": 15,
-            "sku": "H2123225N12",
+            "sku": "D22325N12",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2720,16 +2160,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/141/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL VESSO - NEGRO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL VESSO - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/coronas/brazos-curvos/vesso/5/",
-            "precioRegular": 1799,
-            "precioNormal": 1849,
-            "precioVenta": 1339,
+            "precioRegular": 2879,
+            "precioNormal": 2249,
+            "precioVenta": 1519,
             "stock": 15,
-            "sku": "H2123225N14",
+            "sku": "D22325N14",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2748,16 +2188,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/143/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL VESSO - VIN0",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL VESSO - VIN0",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/coronas/brazos-curvos/vesso/7/",
-            "precioRegular": 1799,
-            "precioNormal": 1849,
-            "precioVenta": 1339,
+            "precioRegular": 2879,
+            "precioNormal": 2249,
+            "precioVenta": 1519,
             "stock": 15,
-            "sku": "H2123225N16",
+            "sku": "D22325N16",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2776,16 +2216,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/144/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL MAJESTAD - HUESO",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL MAJESTAD - HUESO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/coronas/brazos-curvos/majestad/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1849,
-            "precioVenta": 1339,
+            "precioRegular": 2879,
+            "precioNormal": 2249,
+            "precioVenta": 1519,
             "stock": 15,
-            "sku": "H2123225N17",
+            "sku": "D22325N17",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2804,16 +2244,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/145/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL MAJESTAD + BAUL- PLOMO PLATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL MAJESTAD + BAUL- PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/coronas/brazos-curvos/majestad/2/",
-            "precioRegular": 1799,
-            "precioNormal": 1999,
-            "precioVenta": 1589,
+            "precioRegular": 3049,
+            "precioNormal": 2439,
+            "precioVenta": 1769,
             "stock": 15,
-            "sku": "H2123225N18",
+            "sku": "D22325N18",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2832,16 +2272,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/145/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL PRINCESA + PIECERA + 1 PUFF - AZUL ELECTRICO",
+            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/148/",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL PRINCESA + PIECERA + 1 PUFF - AZUL ELECTRICO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/coronas/brazos-p/princesa/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1779,
-            "precioVenta": 1349,
+            "precioRegular": 2989,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
             "stock": 15,
-            "sku": "H2123225N10",
+            "sku": "D223225N10",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2850,6 +2290,7 @@
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
+                    "piecera": "si",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos p",
@@ -2860,16 +2301,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/146/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL PRINCESA + PIECERA + 1 PUFF - PLOMO RATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL PRINCESA + PIECERA + 1 PUFF - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/coronas/brazos-p/princesa/2/",
-            "precioRegular": 1799,
-            "precioNormal": 1779,
-            "precioVenta": 1349,
+            "precioRegular": 2989,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
             "stock": 15,
-            "sku": "H2123225N11",
+            "sku": "D223225N11",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2878,6 +2319,7 @@
                     "tamaño": "queen",
                     "cajones": "No",
                     "base-encajonada": "No",
+                    "piecera": "si",
                     "tipo-de-cabecera": "Pedestal",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos p",
@@ -2888,16 +2330,16 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "tamaño": "queen",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/147/",
-            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA PEDESTAL LINEAL - PLOMO RATA",
+            "nombre": "CAMA BOX TARIMA QUEEN AMERICANA + CABECERA PEDESTAL LINEAL - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/coronas/brazos-rectos/lunar/1/",
-            "precioRegular": 1799,
-            "precioNormal": 1869,
-            "precioVenta": 1299,
+            "precioRegular": 2649,
+            "precioNormal": 2099,
+            "precioVenta": 1519,
             "stock": 15,
-            "sku": "H2123226N11",
+            "sku": "D223226N11",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2907,7 +2349,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
+                    "diseño-de-cabecera": "corona",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Lunar"
                 }
@@ -2916,42 +2358,15 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
-            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/148/",
-            "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA AÉREA CAPITONEADA + BAÚL - NEGRO",
-            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas/americanas/sin-brazos/capitoneada/1/",
-            "precioRegular": 1099,
-            "precioNormal": 1129,
-            "precioVenta": 859,
-            "stock": 12,
-            "sku": "H2123213N10",
-            "tipo-de-envio": "Gratis",
-            "detalles-del-producto":[
-                {
-                    "marca": "kamas",
-                    "línea": "americanas",
-                    "tamaño": "queen",
-                    "cajones": "No",
-                    "base-encajonada": "No",
-                    "tipo-de-cabecera": "Aérea",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Sin brazos",
-                    "modelo-de-cabecera": "Capitoneada"
-                }
-            ]
-        },
-        {
-            "categoria": "camas box tarimas",
-            "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/149/",
-            "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA PEDESTAL CAPITONEADA + BAÚL - CHOCOLATE",
+            "nombre": "CAMA BOX TARIMA AMERICANO QUEEN + CABECERA PEDESTAL CAPITONEADA + BAÚL - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/capitoneado/5/",
-            "precioRegular": 1099,
-            "precioNormal": 1249,
-            "precioVenta": 979,
+            "precioRegular": 2429,
+            "precioNormal": 2099,
+            "precioVenta": 1569,
             "stock": 12,
-            "sku": "H2123223N29",
+            "sku": "D223223N29",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2961,7 +2376,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -2970,15 +2385,15 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/150/",
-            "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA PEDESTAL CAPITONEADA + BAÚL - NEGRO",
+            "nombre": "CAMA BOX TARIMA AMERICANO QUEEN + CABECERA PEDESTAL CAPITONEADA + BAÚL - NEGRO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/capitoneado/6/",
-            "precioRegular": 1099,
-            "precioNormal": 1249,
-            "precioVenta": 979,
+            "precioRegular": 2429,
+            "precioNormal": 2099,
+            "precioVenta": 1569,
             "stock": 12,
-            "sku": "H2123223N30",
+            "sku": "D223223N30",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -2988,7 +2403,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
@@ -2997,15 +2412,15 @@
         {
             "categoria": "camas box tarimas",
             "marca": "kamas",
-            "subcategoria": "americanas",
+            "línea": "americanas",
             "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/151/",
-            "nombre": "CAMA BOX TARIMA AMERICANO KING + CABECERA PEDESTAL CAPITONEADA + BAÚL - ROJO",
+            "nombre": "CAMA BOX TARIMA AMERICANO QUEEN + CABECERA PEDESTAL CAPITONEADA + BAÚL - ROJO",
             "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/americanas/brazos-rectos/capitoneado/7/",
-            "precioRegular": 1099,
-            "precioNormal": 1249,
-            "precioVenta": 979,
+            "precioRegular": 2429,
+            "precioNormal": 2099,
+            "precioVenta": 1569,
             "stock": 12,
-            "sku": "H2123223N31",
+            "sku": "D223223N31",
             "tipo-de-envio": "Gratis",
             "detalles-del-producto":[
                 {
@@ -3015,7 +2430,7 @@
                     "cajones": "No",
                     "base-encajonada": "No",
                     "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
+                    "diseño-de-cabecera": "americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
