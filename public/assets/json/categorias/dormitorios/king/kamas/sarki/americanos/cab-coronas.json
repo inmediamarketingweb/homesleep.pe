@@ -1,0 +1,68 @@
+{
+    "productos":[
+        {
+            "id": 56,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/56/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CORONA LINEAL 1 - ARENA OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/aereas-con-patas/coronas/lineal-1/1/",
+            "precioRegular": 3099,
+            "precioNormal": 2599,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "H3124235N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 1"
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/57/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA AÉREA CORONA LINEAL 1 - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/aereas-con-patas/coronas/lineal-1/2/",
+            "precioRegular": 3099,
+            "precioNormal": 2599,
+            "precioVenta": 1699,
+            "stock": 9,
+            "sku": "H3124235N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 1"
+                }
+            ]
+        }
+    ]
+}

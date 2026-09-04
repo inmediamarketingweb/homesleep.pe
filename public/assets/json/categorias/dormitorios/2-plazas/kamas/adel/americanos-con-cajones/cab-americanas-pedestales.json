@@ -1,0 +1,97 @@
+{
+    "productos":[
+        {
+            "id": 7,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "adel",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/adel/americanos-con-cajones/7/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL CAPITONEADO 1 - PLATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/adel/americanos-con-cajones/americanas/capitoneado-1/7/",
+            "precioRegular": 2199,
+            "precioNormal": 1599,
+            "precioVenta": 939,
+            "stock": 9,
+            "sku": "H3122113N16",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "adel",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/adel/americanos-con-cajones/8/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL CAPITONEADO 1 - CUERO CAMEL",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/adel/americanos-con-cajones/americanas/capitoneado-1/8/",
+            "precioRegular": 2199,
+            "precioNormal": 1599,
+            "precioVenta": 939,
+            "stock": 9,
+            "sku": "H3122113N17",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "adel",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/adel/americanos-con-cajones/9/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS ADEL + CABECERA PEDESTAL CAPITONEADO 1 - GRIS OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/adel/americanos-con-cajones/americanas/capitoneado-1/9/",
+            "precioRegular": 2199,
+            "precioNormal": 1599,
+            "precioVenta": 939,
+            "stock": 9,
+            "sku": "H3122113N18",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Adel",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

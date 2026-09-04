@@ -1,0 +1,593 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/12/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA EGYTP 3 ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/egytp-4/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Egytp 3"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/14/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA OLIMPIC - TEJIDO BEIGE ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/olimpic/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Olimpic"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/15/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA STARIS - VINO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/staris/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Staris"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/16/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA GAVIOTA - AZUL NOCHE ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/gaviota/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Gaviota"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/17/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA ROMBOI - PLATA ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/romboi/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Romboi"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/18/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA SPIDER - ANTIFLUIDO PLOMO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/spider/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Spider"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/19/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA SYDNEY - TEJIDO CHOCOLATE ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/sydney/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N16",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Sydney"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/20/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA WUELO - CHOCOLATE ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/wuelo/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N17",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Wuelo"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/23/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA OLIMPIC - IVORY ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/olimpic/2/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N18",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Olimpic"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/24/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA EXPLORER - VINO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/explorer/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N19",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Explorer"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/25/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA GAVIOTA - PLATA ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/gaviota/2/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N20",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Gaviota"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/26/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA LINEAL 2 - PLATA ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/lineal-2/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N21",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 2"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/27/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA EGYPT - VINO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/egytp-1/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N22",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Egypt"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/28/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA VIENNA - CUERO NEGRO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/vienna/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N23",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Vienna"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/29/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA REPTILIAN - CUERO NEGRO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/reptilian/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N24",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Reptilian"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/30/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA NILO - ANTIFLUIDO PLATA ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/nilo/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N25",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Nilo"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/31/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA TORTUN - TEJIDO MARFIL ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/tortun/1/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N26",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Tortun"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/32/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA TORTUN - TEJIDO CASTAÑO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/tortun/2/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N27",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Tortun"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/34/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA OLIMPIC - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/olimpic/3/",
+            "precioRegular": 3199,
+            "precioNormal": 2399,
+            "precioVenta": 1719,
+            "stock": 9,
+            "sku": "H32242106N29",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Olimpic"
+                }
+            ]
+        }
+    ]
+}

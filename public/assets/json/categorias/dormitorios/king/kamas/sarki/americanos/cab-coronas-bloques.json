@@ -1,0 +1,36 @@
+{
+    "productos":[
+        {
+            "id": 27,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/27/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CORONA LINEAL 6 - CHAMPAGNE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/coronas/lineal-6/1/",
+            "precioRegular": 3999,
+            "precioNormal": 3599,
+            "precioVenta": 2299,
+            "stock": 9,
+            "sku": "H3124235N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Lineal 6"
+                }
+            ]
+        }
+    ]
+}

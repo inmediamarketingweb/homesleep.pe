@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Super star negro",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/super-star-negro/americanos/31/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS + COLCHÓN PARAISO SUPER STAR NEGRO + CABECERA PEDESTAL VESSO - CENIZO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/super-star-negro/americanos/pedestales/vesso/1/",
+            "precioRegular": 4159,
+            "precioNormal": 3049,
+            "precioVenta": 2299,
+            "stock": 9,
+            "sku": "H32242193N28",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Super star Negro",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Vesso",
+                    "brazos-de-cabecera": "Brazos curvos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ]
+        }
+    ]
+}

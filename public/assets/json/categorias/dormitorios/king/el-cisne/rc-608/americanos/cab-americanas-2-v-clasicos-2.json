@@ -1,0 +1,70 @@
+{
+    "productos":[
+        {
+            "id": 62,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/62/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA CUADROS 1 + 2 VELADORES CLÁSICO 2 - IVORY",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/con-marco/cuadros-1/5/",
+            "precioRegular": 4049,
+            "precioNormal": 3349,
+            "precioVenta": 2249,
+            "stock": 9,
+            "sku": "H3324254N14",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Con marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Cuadros 1"
+                }
+            ]
+        },
+        {
+            "id": 63,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/63/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA CUADROS 1 + 2 VELADORES CLÁSICO 2 - CENIZO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/con-marco/cuadros-1/6/",
+            "precioRegular": 4049,
+            "precioNormal": 3349,
+            "precioVenta": 2249,
+            "stock": 9,
+            "sku": "H3324254N15",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Con marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Cuadros 1"
+                }
+            ]
+        }
+    ]
+}

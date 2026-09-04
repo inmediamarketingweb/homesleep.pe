@@ -2,238 +2,134 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* gap: 20px; */
-    flex-wrap: wrap;
-    position: relative;
 }
 
-.filters-left-button{
-    display: none;
-
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-}
-
-.filters-left-button.active{
-    background: var(--color-1);
-    border-radius: 8px;
-}
-
-.filters-left-button.active span{
-    color: white;
-}
-
-.filtros-top-brands-container{
-    position: relative;
-}
-
-.filtros-top-brands-button{
+.filtros-top-helpers{
     display: flex;
     align-items: center;
-    gap: 8px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 8px 12px;
-    border-radius: 8px;
+    justify-content: center;
+    gap: 5px;
+}
+
+.filtros-top-helpers .toggle-btn{
+    width: 40px;
+    height: auto;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: var(--t-200ms-linear);
-
-    display: none;
-}
-
-.filtros-top-brands-button:hover{
-    background: rgba(0, 0, 0, 0.05);
-}
-
-.filtros-top-brands-button.active{
-    background: var(--color-1);
-}
-
-.filtros-top-brands-button.active span,
-.filtros-top-brands-button.active p{
-    color: white;
-}
-
-.filtros-top-brands-button .dropdown-arrow{
-    font-size: 18px;
-    transition: transform 0.2s ease;
-}
-
-.filtros-top-brands-button.active .dropdown-arrow{
-    transform: rotate(180deg);
-}
-
-.filtros-top-brands-dropdown{
-    position: absolute;
-    top: calc(100% + 10px);
-    left: 0;
-    background: var(--body);
-    border-radius: 8px;
+    border-radius: 4px;
     border: 1px solid var(--component);
-    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); */
-    padding: 10px;
-    z-index: 12;
+    position: relative;
 }
 
-.filtros-top-brands{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
+.filter-grid::before{
+    content: 'Cuadricula';
 }
 
-.marca-filter-btn{
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.filter-list::before{
+    content: 'Lista';
 }
 
-.marca-filter-btn img{
-    width: 80px;
-    height: auto;
-    object-fit: contain;
-    filter: grayscale(1);
+.filtros-top-helpers .toggle-btn span{
+    color: var(--text);
     transition: var(--t-200ms-linear);
 }
 
-.marca-filter-btn:hover img{
-    filter: grayscale(0);
-}
-
-.marca-filter-btn.active img{
-    filter: grayscale(0);
-}
-
-.marca-placeholder{
-    padding: 10px;
-    font-weight: bold;
+.filtros-top-helpers .toggle-btn:hover span{
     color: var(--color-1);
 }
 
-.filtros-top-brands-desktop{
-    flex: 1;
-}
-
-.filtros-top-brands-desktop ul{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.filtros-top-brands-desktop ul li button{
-    display: flex;
-    position: relative;
-    background: none;
-    border: none;
-    cursor: pointer;
-    transition: var(--t-200ms-linear);
-}
-
-.filtros-top-brands-desktop ul li button img{
-    width: 80px;
-    height: auto;
-    object-fit: contain;
-    filter: grayscale(1);
-    transition: var(--t-200ms-linear);
-}
-
-.filtros-top-brands-desktop ul li button:hover img{
-    filter: grayscale(0);
-}
-
-.filtros-top-brands-desktop ul li button.active img{
-    filter: grayscale(0);
-}
-
-.filtros-top-order{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--color-1);
-    gap: 10px;
-}
-
-.filtros-top-order button{
-    display: flex;
-    position: relative;
-    background: none;
-    border: none;
-    cursor: pointer;
-    transition: var(--t-200ms-linear);
-}
-
-.filtros-top-order button::before{
-    content: '';
+.filtros-top-helpers .toggle-btn::before{
     position: absolute;
-    left: 50%;
-    bottom: 0;
-    top: calc(100% + 2px);
-    display: flex;
-    width: 5px;
-    height: 5px;
+    left: 0;
+    top: calc(100% + 5px);
     background: var(--color-1);
+    border-radius: 0 10px 10px 10px;
+    padding: 3px 5px;
+    padding-right: 6px;
+    z-index: 1;
+    font-size: 10px;
+    color: var(--white);
     transition: var(--t-200ms-linear);
-    border-radius: 100%;
-    transform: translateX(-50%);
+
     opacity: 0;
+    pointer-events: none;
+    user-select: none;
 }
 
-.filtros-top-order button:hover::before{
-    opacity: 0.5;
-}
-
-.filtros-top-order button.active::before{
+.filtros-top-helpers .toggle-btn:hover::before{
     opacity: 1;
 }
 
-.filtros-top-order button p{
-    color: var(--text);
-    font-size: 15px;
-    margin: 0;
+.filtros-top-helpers .toggle-btn.active{
+    background: var(--color-1);
 }
 
-.filtros-top-order .separator{
-    color: var(--color-1);
-    font-weight: 300;
+.filtros-top-helpers .toggle-btn.active span{
+    color: var(--white);
 }
 
-.filtros-top-loading,
-.filtros-top-error{
-    padding: 10px;
-    color: var(--text);
+.filtros-top-helpers .toggle-btn.active:hover span{
+    color: var(--white);
 }
 
-@media screen and (max-width: 600px){
-    .filters-left-button{
-        display: flex;
-    }
+.order-filter-container{
+    display: flex;
+    width: auto;
+    height: 40px;
+    position: relative;
+}
 
-    /* .filtros-top-brands-container{
-        display: none;
-    } */
+.order-filter-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid var(--component);
+    border-radius: 3px;
+    padding: 0 5px;
+}
 
-    .filtros-top-brands-desktop{
-        display: none;
-    }
+.order-filter-button > div span{
+    font-size: 18px;
+    rotate: 90deg;
+}
 
-    .filtros-top-order{
-        margin-left: auto;
-    }
+.order-filter-button > span{
+    font-size: 20px;
+}
 
-    .filtros-top-brands-button{
-        display: flex;
-        align-items: center;
-        justify-content: left;
-    }
-    
-    .filtros-top-brands-dropdown{
-        position: absolute;
-        left: 0;
-        top: calc(100% + 5px);
-    }
+.order-filter-options{
+    position: absolute;
+    right: 0;
+    top: calc(100% + 5px);
+    z-index: 49;
+
+    width: 250px;
+    background: var(--white);
+    border: 1px solid var(--component);
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+.order-filter-options li{
+    display: flex;
+    width: 100%;
+}
+
+.order-filter-option-button{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    transition: var(--t-200ms-linear);
+    padding: 0 10px;
+    gap: 10px;
+}
+
+.order-filter-options li button:hover{
+    background: var(--component);
 }

@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "adel",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/adel/americanos/1/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS + COLCHÓN KAMAS ADEL + CABECERA AÉREA - CUERO NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/adel/americanos/otros-modelos/1/",
+            "precioRegular": 1999,
+            "precioNormal": 1399,
+            "precioVenta": 739,
+            "stock": 9,
+            "sku": "H3122213N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Adel",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 import { useEffect, useState, useMemo, useRef, useCallback } from 'react';
 import { Helmet } from 'react-helmet';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 import '../Productos.css';
 import './Layout.css';
@@ -26,6 +27,11 @@ const filtroKeyMap = {
 };
 
 function Complementos(){
+    const params = useParams();
+    console.log("PARAMS:", params);
+
+    console.log("COMPLEMENTOS MONTADO");
+
     const location = useLocation();
     const navigate = useNavigate();
     const [productos, setProductos] = useState([]);

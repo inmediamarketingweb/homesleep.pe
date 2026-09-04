@@ -1,0 +1,32 @@
+{
+    "productos":[
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "king",
+            "marca": "kamas",
+            "línea": "americanas con cajones",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/americanas-con-cajones/21/",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING 6 CAJONES + CABECERA PEDESTAL WELO - ANTIFLUIDO IVORY",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas-con-cajones/king/bloques/welo/1/",
+            "precioRegular": 2799,
+            "precioNormal": 2299,
+            "precioVenta": 1699,
+            "stock": 15,
+            "sku": "H224126N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas con cajones",
+                    "tamaño": "King",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "welo"
+                }
+            ]
+        }
+    ]
+}

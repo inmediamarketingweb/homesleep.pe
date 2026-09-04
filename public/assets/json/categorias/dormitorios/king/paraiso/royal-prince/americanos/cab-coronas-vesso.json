@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Royal Prince",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-prince/americanos/16/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL PRINCE + CABECERA PEDESTAL VESSO - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-prince/americanos/pedestales/vesso/1/",
+            "precioRegular": 5199,
+            "precioNormal": 3599,
+            "precioVenta": 2699,
+            "stock": 9,
+            "sku": "H32242155N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Prince",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos curvos",
+                    "modelo-de-cabecera": "Vesso"
+                }
+            ]
+        }
+    ]
+}

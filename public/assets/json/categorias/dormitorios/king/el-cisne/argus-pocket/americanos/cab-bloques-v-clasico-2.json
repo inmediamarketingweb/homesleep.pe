@@ -1,0 +1,70 @@
+{
+    "productos":[
+        {
+            "id": 4,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "argus pocket",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/argus-pocket/americanos/4/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS - EL CISNE + COLCHÓN ARGUS POCKET + CABECERA AÉREA REPTILIAN + 1 VELADOR CLÁSICO 2 - AZUL",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/argus-pocket/americanos/bloques/reptilian/4/",
+            "precioRegular": 3699,
+            "precioNormal": 3149,
+            "precioVenta": 2249,
+            "stock": 9,
+            "sku": "H3324266N13",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Argus pocket",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Reptilian"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "argus pocket",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/argus-pocket/americanos/5/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS - EL CISNE + COLCHÓN ARGUS POCKET + CABECERA AÉREA REPTILIAN + 1 VELADOR CLÁSICO 2 - IVORY",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/argus-pocket/americanos/bloques/reptilian/5/",
+            "precioRegular": 3699,
+            "precioNormal": 3149,
+            "precioVenta": 2249,
+            "stock": 9,
+            "sku": "H3324266N14",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Argus pocket",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Reptilian"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "productos":[
+        {
+            "id": 8,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "subcategoria": "europeos",
+            "tamaño": "king",
+            "modelo": "konig",
+            "ruta": "/productos/dormitorios/king/kamas/konig/europeos/8/",
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL REPTILIAN - TURQUESA OPALO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/8/",
+            "precioRegular": 4699,
+            "precioNormal": 4119,
+            "precioVenta": 2929,
+            "stock": 23,
+            "sku": "H31242116N17",
+            "tipo-de-envio": "Gratis",
+            "regalos": [ "3 cojines" ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Europeos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "subcategoria": "europeos",
+            "tamaño": "king",
+            "modelo": "konig",
+            "ruta": "/productos/dormitorios/king/kamas/konig/europeos/9/",
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL REPTILIAN - PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/9/",
+            "precioRegular": 4699,
+            "precioNormal": 4119,
+            "precioVenta": 2929,
+            "stock": 23,
+            "sku": "H31242116N18",
+            "tipo-de-envio": "Gratis",
+            "regalos": [ "3 cojines" ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Europeos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "subcategoria": "europeos",
+            "tamaño": "king",
+            "modelo": "konig",
+            "ruta": "/productos/dormitorios/king/kamas/konig/europeos/10/",
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL REPTILIAN - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/10/",
+            "precioRegular": 4699,
+            "precioNormal": 4119,
+            "precioVenta": 2929,
+            "stock": 23,
+            "sku": "H31242116N19",
+            "tipo-de-envio": "Gratis",
+            "regalos": [ "3 cojines" ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Europeos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "subcategoria": "europeos",
+            "tamaño": "king",
+            "modelo": "konig",
+            "ruta": "/productos/dormitorios/king/kamas/konig/europeos/11/",
+            "nombre": "DORMITORIO EUROPEO KAMAS KING + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL REPTILIAN - PALO ROSA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/europeos/bloques/reptilian/11/",
+            "precioRegular": 4699,
+            "precioNormal": 4119,
+            "precioVenta": 2929,
+            "stock": 23,
+            "sku": "H31242116N20",
+            "tipo-de-envio": "Gratis",
+            "regalos": [ "3 cojines" ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Europeos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        }
+    ]
+}

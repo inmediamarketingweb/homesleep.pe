@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Royal Prince",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-prince/americanos/14/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL PRINCE + CABECERA AEREA CON MARCO CAPITONEADO - ROSADO BEBÉ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-prince/americanos/con-marco/otros-modelos/1/",
+            "precioRegular": 4999,
+            "precioNormal": 3599,
+            "precioVenta": 2499,
+            "stock": 9,
+            "sku": "H32242154N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Prince",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Con Marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ]
+        }
+    ]
+}

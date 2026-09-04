@@ -1,0 +1,66 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Paraiso",
+            "modelo": "medallon ergosoft",
+            "línea": "Americanos",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/medallon-ergosoft/americanos/1/",
+            "nombre": "DORMITORIO 2 PLAZAS KAMAS / PARAISO + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AÉREA CAPITONEADO 1 - LILA",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/medallon-ergosoft/americanos/americanas/capitoneado-1/1/",
+            "precioRegular": 1899,
+            "precioNormal": 1399,
+            "precioVenta": 949,
+            "stock": 9,
+            "sku": "H32222103N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "medallon ergosoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Clásica",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Paraiso",
+            "modelo": "medallon ergosoft",
+            "línea": "Americanos",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/medallon-ergosoft/americanos/2/",
+            "nombre": "DORMITORIO 2 PLAZAS KAMAS / PARAISO + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AÉREA CAPITONEADO 1 - ARENA OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/medallon-ergosoft/americanos/americanas/capitoneado-1/2/",
+            "precioRegular": 1899,
+            "precioNormal": 1399,
+            "precioVenta": 949,
+            "stock": 9,
+            "sku": "H32222103N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "medallon ergosoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Clásica",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

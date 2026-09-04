@@ -7,13 +7,13 @@
             "marca": "el cisne",
             "modelo": "virase black",
             "ruta": "/productos/colchones/king/el-cisne/virase-black/",
-            "nombre": "COLCHÓN EL CISNE REAL DE LUJO POCKET KING",
+            "nombre": "COLCHÓN EL CISNE KING VIRASE BLACK",
             "fotos": "/assets/imagenes/productos/colchones/el-cisne/virase/black/",
-            "precioRegular": 3999,
-            "precioNormal": 3499,
-            "precioVenta": 2699,
+            "precioRegular": 4199,
+            "precioNormal": 3599,
+            "precioVenta": 2799,
             "stock": 10,
-            "sku": "H1348NXS1010111",
+            "sku": "H1348NXS1901",
             "regalos":[ "1 almohada" ],
             "tipo-de-envio": "Envío preferente"
         }

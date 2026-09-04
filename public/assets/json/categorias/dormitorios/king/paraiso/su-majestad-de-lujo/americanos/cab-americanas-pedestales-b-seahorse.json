@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Su majestad de lujo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/33/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO SU MAJESTAD DE LUJO + CABECERA PEDESTAL SEAHORSE - PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/pedestales/seahorse/2/",
+            "precioRegular": 3999,
+            "precioNormal": 2799,
+            "precioVenta": 2099,
+            "stock": 9,
+            "sku": "H32242173N24",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Su Majestad de lujo",
+                    "resortes": "pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos curvos",
+                    "modelo-de-cabecera": "SeaHorse"
+                }
+            ]
+        }
+    ]
+}

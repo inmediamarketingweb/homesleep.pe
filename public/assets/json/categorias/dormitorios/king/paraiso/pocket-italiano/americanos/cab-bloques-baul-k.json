@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/75/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA AEREA EGYPT + BAUL KING - ANTIFLUIDO PLATA NEW",   
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/bloques/egypt/3/",
+            "precioRegular": 4009,
+            "precioNormal": 3099,
+            "precioVenta": 2299,
+            "stock": 9,
+            "sku": "H32243266N36",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Egypt"
+                }
+            ]
+        }
+    ]
+}

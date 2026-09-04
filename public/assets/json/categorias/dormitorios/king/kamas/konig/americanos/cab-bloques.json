@@ -1,0 +1,164 @@
+{
+    "productos":[
+        {
+            "id": 12,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "konig",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/konig/americanos/13/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS KONIG + CABECERA AÉREA EGYPT 4 - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/americanos/bloques/egypt-4/1/",
+            "precioRegular": 4399,
+            "precioNormal": 3779,
+            "precioVenta": 2049,
+            "stock": 13,
+            "sku": "H31242116N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "egypt 4"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "konig",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/konig/americanos/14/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS KONIG + CABECERA AÉREA GIRASOL - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/americanos/bloques/girasol/1/",
+            "precioRegular": 4399,
+            "precioNormal": 3779,
+            "precioVenta": 2049,
+            "stock": 13,
+            "sku": "H31242116N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "girasol"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "konig",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/konig/americanos/15/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS KONIG + CABECERA AÉREA REPTILIAN - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/americanos/bloques/reptilian/1/",
+            "precioRegular": 4399,
+            "precioNormal": 3779,
+            "precioVenta": 2049,
+            "stock": 13,
+            "sku": "H31242116N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "konig",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/konig/americanos/16/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS KONIG + CABECERA AÉREA TORTUN - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/americanos/bloques/tortun/1/",
+            "precioRegular": 4399,
+            "precioNormal": 3779,
+            "precioVenta": 2049,
+            "stock": 13,
+            "sku": "H31242116N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "konig",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/konig/americanos/17/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS KONIG + CABECERA AÉREA VITORIA - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/americanos/bloques/vitoria/1/",
+            "precioRegular": 4399,
+            "precioNormal": 3779,
+            "precioVenta": 2049,
+            "stock": 13,
+            "sku": "H31242116N14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "vitoria"
+                }
+            ]
+        }
+    ]
+}

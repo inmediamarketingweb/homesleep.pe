@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Paraiso",
+            "modelo": "pocket italiano",
+            "linea": "europeos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/pocket-italiano/europeos-con-cajones/1/",
+            "nombre": "DORMITORIO EUROPEO 2 PLAZAS CON 2 CAJONES + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL CAPITONEADO 1 - VINO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/pocket-italiano/europeos-con-cajones/americanas/capitoneado-1/1/",
+            "precioRegular": 2999,
+            "precioNormal": 1999,
+            "precioVenta": 1499,
+            "stock": 9,
+            "sku": "H32321263N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Europeos con cajones",
+                    "tamaño": "2 Plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americanas",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

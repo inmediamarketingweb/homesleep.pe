@@ -1,0 +1,356 @@
+{
+    "productos":[
+        {
+            "id": 15,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/15/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - ARENA OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/1/",
+            "precioRegular": 2799,
+            "precioNormal": 2249,
+            "precioVenta": 1489,
+            "stock": 9,
+            "sku": "H3122175N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/16/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/2/",
+            "precioRegular": 2799,
+            "precioNormal": 2249,
+            "precioVenta": 1489,
+            "stock": 9,
+            "sku": "H3122175N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/17/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - BEIGE",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/3/",
+            "precioRegular": 2799,
+            "precioNormal": 2249,
+            "precioVenta": 1489,
+            "stock": 9,
+            "sku": "H3122175N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/18/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/4/",
+            "precioRegular": 2799,
+            "precioNormal": 2249,
+            "precioVenta": 1489,
+            "stock": 9,
+            "sku": "H3122175N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/19/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - VINO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/6/",
+            "precioRegular": 2799,
+            "precioNormal": 2249,
+            "precioVenta": 1489,
+            "stock": 9,
+            "sku": "H3122175N14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/20/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - VERDE LORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/8/",
+            "precioRegular": 2799,
+            "precioNormal": 2249,
+            "precioVenta": 1489,
+            "stock": 9,
+            "sku": "H3122175N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/21/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - PALO ROSA",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/9/",
+            "precioRegular": 2799,
+            "precioNormal": 2249,
+            "precioVenta": 1489,
+            "stock": 9,
+            "sku": "H3122175N16",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/22/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - VERDE CERCETA",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/10/",
+            "precioRegular": 2799,
+            "precioNormal": 2249,
+            "precioVenta": 1489,
+            "stock": 9,
+            "sku": "H3122175N17",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/23/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - VERDE JADE",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/11/",
+            "precioRegular": 2799,
+            "precioNormal": 2249,
+            "precioVenta": 1489,
+            "stock": 9,
+            "sku": "H3122175N18",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/24/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - UVA",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/coronas/majestad/12/",
+            "precioRegular": 2799,
+            "precioNormal": 2249,
+            "precioVenta": 1489,
+            "stock": 9,
+            "sku": "H3122175N19",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/25/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL MAJESTAD - UVA",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/americanas/capitoneado-1/15/",
+            "precioRegular": 2799,
+            "precioNormal": 2249,
+            "precioVenta": 1489,
+            "stock": 9,
+            "sku": "H3122175N20",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

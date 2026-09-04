@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "id": 3,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + El Cisne",
+            "modelo": "presence",
+            "línea": "Americanos",
+            "ruta": "/productos/dormitorios/2-plazas/el-cisne/presence/americanos/3/",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS KAMAS / EL CISNE + COLCHÓN EL CISNE PRESENCE + CABECERA PEDESTAL MAJESTAD - CHAMPAGNE",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/el-cisne/presence/americanos/coronas/majestad/1/",
+            "precioRegular": 2299,
+            "precioNormal": 1999,
+            "precioVenta": 1289,
+            "stock": 9,
+            "sku": "H3322245N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "presence",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "Majestad"
+                }
+            ]
+        }
+    ]
+}

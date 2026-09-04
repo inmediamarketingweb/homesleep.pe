@@ -1,0 +1,196 @@
+{
+    "productos":[
+        {
+            "id": 11,
+            "categoria": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "linea": "americanos",
+            "tamaño": "king",
+            "modelo": "Royal Cloud",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/11/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA LINEAL HORIZONTAL - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/bloques/lineal-horizontal/2/",
+            "precioRegular": 5099,
+            "precioNormal": 3699,
+            "precioVenta": 2849,
+            "stock": 9,
+            "sku": "H32242226N20",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Cloud",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 4"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "linea": "americanos",
+            "tamaño": "king",
+            "modelo": "Royal Cloud",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/12/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA LINEAL HORIZONTAL - COBALTO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/bloques/lineal-horizontal/1/",
+            "precioRegular": 5099,
+            "precioNormal": 3699,
+            "precioVenta": 2849,
+            "stock": 9,
+            "sku": "H32242226N21",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Cloud",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 4"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "categoria": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "linea": "americanos",
+            "tamaño": "king",
+            "modelo": "Royal Cloud",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/13/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA MESHLOCK - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/bloques/meshlock/1/",
+            "precioRegular": 5099,
+            "precioNormal": 3699,
+            "precioVenta": 2849,
+            "stock": 9,
+            "sku": "H32242226N22",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Cloud",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Meshlock"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "categoria": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "linea": "americanos",
+            "tamaño": "king",
+            "modelo": "Royal Cloud",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/14/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA MESHLOCK - PLATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/bloques/meshlock/2/",
+            "precioRegular": 5099,
+            "precioNormal": 3699,
+            "precioVenta": 2849,
+            "stock": 9,
+            "sku": "H32242226N23",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Cloud",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Meshlock"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "categoria": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "linea": "americanos",
+            "tamaño": "king",
+            "modelo": "Royal Cloud",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/15/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA HEXALINE ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/bloques/hexaline/1/",
+            "precioRegular": 5099,
+            "precioNormal": 3699,
+            "precioVenta": 2849,
+            "stock": 9,
+            "sku": "H32242226N24",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Cloud",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Hexaline"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "categoria": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "linea": "americanos",
+            "tamaño": "king",
+            "modelo": "Royal Cloud",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/16/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA V - MORO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/bloques/v/1/",
+            "precioRegular": 5099,
+            "precioNormal": 3699,
+            "precioVenta": 2849,
+            "stock": 9,
+            "sku": "H32242226N25",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Cloud",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "V"
+                }
+            ]
+        }
+    ]
+}

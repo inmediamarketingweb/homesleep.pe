@@ -1,0 +1,235 @@
+{
+    "productos":[
+        {
+            "id": 10,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/10/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA CHAN CHAN + 2 VELADORES - VERDE LORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/chan-chan/2/",
+            "precioRegular": 3919,
+            "precioNormal": 3519,
+            "precioVenta": 2019,
+            "stock": 9,
+            "sku": "H3324256N13",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Chan chan"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/11/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA CHAN CHAN + 2 VELADORES - IVORY",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/chan-chan/3/",
+            "precioRegular": 3919,
+            "precioNormal": 3519,
+            "precioVenta": 2019,
+            "stock": 9,
+            "sku": "H3324256N14",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Chan chan"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/12/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA CHAN CHAN + 2 VELADORES - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/chan-chan/4/",
+            "precioRegular": 3919,
+            "precioNormal": 3519,
+            "precioVenta": 2019,
+            "stock": 9,
+            "sku": "H3324256N15",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Chan chan"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/14/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA CHAN CHAN + 2 VELADORES - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/chan-chan/6/",
+            "precioRegular": 3919,
+            "precioNormal": 3519,
+            "precioVenta": 2019,
+            "stock": 9,
+            "sku": "H3324256N17",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Chan chan"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/16/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA CHAN CHAN + 2 VELADORES - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/chan-chan/8/",
+            "precioRegular": 3919,
+            "precioNormal": 3519,
+            "precioVenta": 2019,
+            "stock": 9,
+            "sku": "H3324256N19",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Chan chan"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/17/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA CHAN CHAN + 2 VELADORES - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/chan-chan/9/",
+            "precioRegular": 3919,
+            "precioNormal": 3519,
+            "precioVenta": 2019,
+            "stock": 9,
+            "sku": "H3324256N20",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Chan chan"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/18/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA AÉREA CHAN CHAN + 2 VELADORES - PALO ROSA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/chan-chan/11/",
+            "precioRegular": 3919,
+            "precioNormal": 3519,
+            "precioVenta": 2019,
+            "stock": 9,
+            "sku": "H3324256N21",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Chan chan"
+                }
+            ]
+        }
+    ]
+}

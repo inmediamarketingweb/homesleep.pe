@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Su majestad de lujo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/30/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO SU MAJESTAD DE LUJO + CABECERA AEREA CON MARCO CAPITONEADO - ROSADO BEBÉ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/con-marco/capitoneado-1/1/",
+            "precioRegular": 4109,
+            "precioNormal": 2399,
+            "precioVenta": 1949,
+            "stock": 9,
+            "sku": "H32242174N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Su Majestad de lujo",
+                    "resortes": "pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Con Marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "productos":[
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "king",
+            "marca": "kamas",
+            "línea": "americanas con cajones",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/americanas-con-cajones/6/",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AEREA CAPITONEADA + 6 CAJONES - GRIS RATA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas-con-cajones/king/pedestales/americanas/brazos-rectos/emperatriz/1/",
+            "precioRegular": 2599,
+            "precioNormal": 2099,
+            "precioVenta": 1499,
+            "stock": 15,
+            "sku": "H224123N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "King",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "king",
+            "marca": "kamas",
+            "línea": "americanas con cajones",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/americanas-con-cajones/7/",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AEREA CAPITONEADA + 6 CAJONES - VERDE LORO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas-con-cajones/king/pedestales/americanas/brazos-rectos/emperatriz/2/",
+            "precioRegular": 2599,
+            "precioNormal": 2099,
+            "precioVenta": 1499,
+            "stock": 15,
+            "sku": "H224123N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "King",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "king",
+            "marca": "kamas",
+            "línea": "americanas con cajones",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/americanas-con-cajones/8/",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA AEREA CAPITONEADA + 6 CAJONES - PLOMO RATA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas-con-cajones/king/pedestales/americanas/brazos-rectos/emperatriz/3/",
+            "precioRegular": 2599,
+            "precioNormal": 2099,
+            "precioVenta": 1499,
+            "stock": 15,
+            "sku": "H224123N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "King",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "king",
+            "marca": "kamas",
+            "línea": "americanas con cajones",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/americanas-con-cajones/9/",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL CAPITONEADA + 6 CAJONES - NEGRO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas-con-cajones/king/pedestales/americanas/brazos-rectos/emperatriz/4/",
+            "precioRegular": 2599,
+            "precioNormal": 2099,
+            "precioVenta": 1499,
+            "stock": 15,
+            "sku": "H224123N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "King",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        }
+    ]
+}

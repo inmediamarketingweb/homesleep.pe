@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "royal abrazzo",
+            "linea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/king/paraiso/abrazzo/americanos-con-cajones/3/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL ABRAZZO + CABECERA PEDESTAL CORONA CAPITONEADO 1 + 2 CAJONES LATERALES - CAMEL",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/abrazzo/americanos-con-cajones/coronas/capitoneados-1/1/",
+            "precioRegular": 4999,
+            "precioNormal": 4399,
+            "precioVenta": 3699,
+            "stock": 9,
+            "sku": "H3224115N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "king",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal abrazzo",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos Curvos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

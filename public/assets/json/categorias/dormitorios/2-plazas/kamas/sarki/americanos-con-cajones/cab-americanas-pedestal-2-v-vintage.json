@@ -1,0 +1,66 @@
+{
+    "productos":[
+        {
+            "id": 4,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/4/",
+            "nombre": "DORMITORIO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CAPITONEADO 1 + 2 VELADORES VINTAGE - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/americanas/capitoneado-1/4/",
+            "precioRegular": 2199,
+            "precioNormal": 1899,
+            "precioVenta": 1399,
+            "stock": 9,
+            "sku": "H3122133N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/5/",
+            "nombre": "DORMITORIO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CAPITONEADO 1 + 2 VELADORES VINTAGE - PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/americanas/capitoneado-1/5/",
+            "precioRegular": 2199,
+            "precioNormal": 1899,
+            "precioVenta": 1399,
+            "stock": 9,
+            "sku": "H3122133N14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

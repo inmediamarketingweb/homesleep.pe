@@ -1,0 +1,34 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "línea": "Americanos",
+            "tamaño": "2 plazas",
+            "modelo": "pocket star",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/pocket-star/americanos/6/",
+            "nombre": "DORMITORIO KAMAS AMERICANO 2 PLAZAS + COLCHÓN PARAISO POCKET STAR + CABECERA KAMAS AEREA CAPITONEADA + VELADOR SHELTER - CENIZO",
+            "fotos": "/assets/imagenes/productos/dormitorios/paraiso/americanos/2-plazas/pocket-star/aereas-con-patas/americanas/sin-brazos/capitoneado/2/",
+            "precioRegular": 2499,
+            "precioNormal": 1999,
+            "precioVenta": 1479,
+            "stock": 9,
+            "sku": "H32222143N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket star",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ]
+        }
+    ]
+}

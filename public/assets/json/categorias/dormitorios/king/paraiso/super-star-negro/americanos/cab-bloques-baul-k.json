@@ -1,0 +1,36 @@
+{
+    "productos":[
+        {
+            "id": 5,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Super star negro",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/super-star-negro/americanos/45/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS + COLCHÓN PARAISO SUPER STAR NEGRO + CABECERA AEREA EGYPT + BAÚL - ANTIFLUIDO PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/super-star-negro/americanos/bloques/egypt/3/",
+            "precioRegular": 4149,
+            "precioNormal": 3109,
+            "precioVenta": 2499,
+            "stock": 9,
+            "sku": "H32242196N21",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Super star Negro",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Egypt"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Su majestad de lujo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/36/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO SU MAJESTAD DE LUJO + CABECERA AERA EGYPT + BAUL KING - ANTIFLUIDO PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/bloques/egypt/2/",
+            "precioRegular": 3909,
+            "precioNormal": 3109,
+            "precioVenta": 2449,
+            "stock": 9,
+            "sku": "H32242173N26",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Su Majestad de lujo",
+                    "resortes": "pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Egypt"
+                }
+            ]
+        }
+    ]
+}

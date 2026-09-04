@@ -1,0 +1,97 @@
+{
+    "productos":[
+        {
+            "id": 6,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/6/",
+            "nombre": "DORMITORIO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CAPITONEADO 1 + 1 VELADOR CLÁSICO 1 - VERDE OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/americanas/capitoneado-1/6/",
+            "precioRegular": 2099,
+            "precioNormal": 1619,
+            "precioVenta": 1199,
+            "stock": 9,
+            "sku": "H3122133N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/7/",
+            "nombre": "DORMITORIO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CAPITONEADO 1 + 1 VELADOR CLÁSICO 1 - PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/americanas/capitoneado-1/7/",
+            "precioRegular": 2099,
+            "precioNormal": 1619,
+            "precioVenta": 1199,
+            "stock": 9,
+            "sku": "H3122133N16",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/8/",
+            "nombre": "DORMITORIO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL CAPITONEADO 1 + 1 VELADOR CLÁSICO 1 - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/americanas/capitoneado-1/8/",
+            "precioRegular": 2099,
+            "precioNormal": 1619,
+            "precioVenta": 1199,
+            "stock": 9,
+            "sku": "H3122133N17",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        }
+    ]
+}
