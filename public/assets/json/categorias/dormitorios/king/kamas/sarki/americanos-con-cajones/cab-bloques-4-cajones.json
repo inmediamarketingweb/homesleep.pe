@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "id": 3,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "Americanos con cajones",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos-con-cajones/3/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING CON 4 CAJONES + COLCHÓN KAMAS SARKI + CABECERA AÉREA VELUTO 2 - CUERO NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos-con-cajones/aereas-con-patas/bloques/veluto-2/1/",
+            "precioRegular": 3299,
+            "precioNormal": 2999,
+            "precioVenta": 1899,
+            "stock": 9,
+            "sku": "H3124136N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "King",
+                    "cajones": "si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Veluto 2"
+                }
+            ]
+        }
+    ]
+}

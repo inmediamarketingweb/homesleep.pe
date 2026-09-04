@@ -238,315 +238,173 @@
         "/assets/json/categorias/colchones/king/paraiso/royal-balanzze.json",
         "/assets/json/categorias/colchones/king/paraiso/royal-abrazzo.json",
 
-        "/assets/json/categorias/camas-box-tarimas/1-plaza/kamas/clasicas.json",
-        "/assets/json/categorias/camas-box-tarimas/1-plaza/kamas/americanas.json",
-        "/assets/json/categorias/camas-box-tarimas/1-plaza/kamas/americanas-con-cajones.json",
-        "/assets/json/categorias/camas-box-tarimas/1-plaza/kamas/europeas.json",
 
-        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/clasicas.json",
-        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/americanas.json",
-        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/americanas-con-cajones.json",
-        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/europeas.json",
 
-        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/clasicas.json",
-        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas.json",
-        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas-con-cajones.json",
-        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/europeas.json",
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas/cab-americanas-baul.json",
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas/cab-americanas-con-marco.json",
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas/cab-americanas-pedestales-baul.json",
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas/cab-americanas-pedestales.json",
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas/cab-americanas-v-shelter.json",
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas/cab-americanas.json",
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas/cab-bloques-pedestales.json",
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas/cab-coronas-pedestales.json",
+
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas-con-cajones/cab-americanas-2-cajones-baul.json",
+
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/europeas/cab-americanas-baul.json",
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/europeas/cab-americanas-sofa-baul-1.json",
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/europeas/cab-coronas-pedestal-baul.json",
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/europeas/cab-coronas-pedestal-sofa-baul-1.json",
+
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-americanas-baul.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-americanas-con-marco.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-americanas-pedestales-baul.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-americanas-pedestales-v-madera-2.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-americanas-pedestales-v-vintage-2.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-americanas-pedestales.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-americanas-v-shelter.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-americanas-v-velador.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-americanas-v-vintage-2.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-americanas.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-bloques.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-coronas-pedestales-baul.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-coronas-pedestales-piecera.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-coronas-pedestales.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas/cab-coronas.json",
+
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas-con-cajones/cab-americanas-2-cajones.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas-con-cajones/cab-americanas-4-cajones.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas-con-cajones/cab-americanas-6-cajones.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas-con-cajones/cab-americanas-pedestales-2-cajones.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas-con-cajones/cab-bloques-pedestales-6-cajones.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas-con-cajones/cab-coronas-pedestales-2-cajones.json",
+
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/europeas/cab-americanas-pedestales.json",
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/europeas/cab-americanas.json",
+
+        "/assets/json/categorias/camas-box-tarimas/king/kamas/europeas-con-cajones/cab-americanas-pedestales-2-cajones.json",
+
+
+
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/argus/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/argus/americanos/cab-coronas-pedestales.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/argus/americanos-con-cajones/cab-americanas-pedestales-2-cajones.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/argus/europeos/cab-americanas.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/cec/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/cec/americanos/cab-coronas-pedestales.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/cec/americanos/cab-coronas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/cec/americanos-con-cajones/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/cec/europeos/cab-americanas-pedestales.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/cec/europeos/cab-coronas.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/presence/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/presence/americanos/cab-coronas-pedestales-b-curvo.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/presence/americanos/cab-coronas-pedestales.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/presence/americanos/cab-coronas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/presence/americanos-con-cajones/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/presence/europeos/cab-americanas.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/adel/americanos/cab-americanas-pedestales.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/adel/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/adel/americanos-con-cajones/cab-americanas-pedestales.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/adel/europeos/cab-americanas-pedestales.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/cab-americanas-pedestal.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones/cab-coronas-b-curvos-2-cajones.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/ramat/europeos-con-cajones/cab-americanas-2-cajones.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/rucay/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/rucay/americanos/cab-americanas-pedestal-b-curvos.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/safynnte/americanos/cab-americanas-pedestal.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/safynnte/americanos-con-cajones/cab-americanas-pedestal-2-cajones.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/sarki/americanos/cab-americanas-pedestal.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/sarki/americanos/cab-coronas-pedestal-b-curvos.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/sarki/americanos/cab-coronas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/cab-americanas-con-marco-2-cajones.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/cab-americanas-pedestal-2-cajones.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/cab-americanas-pedestal-2-v-vintage.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/cab-americanas-pedestal-v-clasicos-2-cajones.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/cab-americanas-pedestal-b-curvo-2-cajones.json",
+        "/assets/json/categorias/dormitorios/2-plazas/kamas/sarki/europeos/cab-americanas-pedestal.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/komfort/saphir/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/komfort/saphir/americanos/cab-bloques.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/cancun/americanos/cab-americanas-pedestal.json",
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/cancun/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/cancun/americanos/cab-coronas-pedestal.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/consul-black/americanos/cab-coronas-pedestal.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/consul-plus/americanos/cab-coronas-pedestal.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/eden-plus/americanos/cab-coronas-pedestal.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/majestic/americanos/cab-americanas-pedestal.json",
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/majestic/americanos/cab-americanas.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/medallon-ergosoft/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/medallon-ergosoft/americanos/cab-coronas-pedestal.json",
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/medallon-ergosoft/americanos-con-cajones/cab-americanas-2-cajones.json",
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/medallon-ergosoft/europeos/cab-americanas-pedestal.json",
+
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/pocket-italiano/americanos/cab-bloques.json",
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/pocket-italiano/americanos-con-cajones/cab-americanas-pedestal-4-cajones.json",
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/pocket-italiano/americanos-con-cajones/cab-bloques-sabanera.json",
+        "/assets/json/categorias/dormitorios/2-plazas/paraiso/pocket-italiano/europeos-con-cajones/cab-americanas-pedestal-2-cajones.json",
+
+        "/assets/json/categorias/dormitorios/4-plazas/kamas/sarki/americanos/cab-americanas-con-marco.json",
+        "/assets/json/categorias/dormitorios/4-plazas/kamas/sarki/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/4-plazas/kamas/sarki/americanos/cab-bloques.json",
+
+        "/assets/json/categorias/dormitorios/king/el-cisne/argus-pocket/americanos/cab-bloques-2-v-clasicos-2.json",
+        "/assets/json/categorias/dormitorios/king/el-cisne/argus-pocket/americanos/cab-bloques-v-clasico-2.json",
+        "/assets/json/categorias/dormitorios/king/el-cisne/argus-pocket/americanos/cab-bloques.json",
+
+        "/assets/json/categorias/dormitorios/king/el-cisne/dynamic/americanos/cab-americanas.json",
+
+        "/assets/json/categorias/dormitorios/king/el-cisne/iconio/americanos/cab-americanas.json",
+
+        "/assets/json/categorias/dormitorios/king/el-cisne/pocket-peruano/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/king/el-cisne/pocket-peruano/americanos/cab-bloques.json",
+        "/assets/json/categorias/dormitorios/king/el-cisne/pocket-peruano/americanos/cab-coronas-pedestal-piecera.json",
+        "/assets/json/categorias/dormitorios/king/el-cisne/pocket-peruano/americanos-con-cajones/cab-americanas-2-cajones.json",
+
+        "/assets/json/categorias/dormitorios/king/el-cisne/pocket-plus/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/king/el-cisne/pocket-plus/americanos/cab-bloques.json",
+
+        "/assets/json/categorias/dormitorios/king/el-cisne/rc-608/americanos/cab-americanas-2-v-clasicos-2.json",
+        "/assets/json/categorias/dormitorios/king/el-cisne/rc-608/americanos/cab-americanas-con-marco.json",
+        "/assets/json/categorias/dormitorios/king/el-cisne/rc-608/americanos/cab-americanas-pedestal-seahorse.json",
+        "/assets/json/categorias/dormitorios/king/el-cisne/rc-608/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/king/el-cisne/rc-608/americanos/cab-bloques-2-v-clasicos.json",
+        "/assets/json/categorias/dormitorios/king/el-cisne/rc-608/americanos/cab-bloques.json",
+        "/assets/json/categorias/dormitorios/king/el-cisne/rc-608/americanos/cab-coronas-pedestal-piecera.json",
+        "/assets/json/categorias/dormitorios/king/el-cisne/rc-608/americanos/cab-coronas-pedestal.json",
+
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/nube/cab-nube.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos/cab-americanas-con-marco.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos/cab-americanas-pedestales-seahorse.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos/cab-americanas-pedestales.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos/cab-bloques.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos/cab-coronas-bloques-pedestales.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos/cab-coronas-bloques.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos/cab-coronas-pedestales.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos/cab-coronas.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos-con-cajones/cab-americanas-2-cajones.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos-con-cajones/cab-bloques-4-cajones.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/clasicos/mad-cedro.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/europeos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/king/kamas/sarki/europeos-con-cajones/cab-americanas-2-cajones.json",
+
+        "/assets/json/categorias/dormitorios/king/komfort/saphir/americanos/cab-americanas.json",
+        "/assets/json/categorias/dormitorios/king/komfort/saphir/americanos/cab-bloques.json",
 
-        "/assets/json/categorias/camas-box-tarimas/queen/kamas/americanas.json",
-        "/assets/json/categorias/camas-box-tarimas/queen/kamas/americanas-con-cajones.json",
-        "/assets/json/categorias/camas-box-tarimas/queen/kamas/europeas.json",
-        "/assets/json/categorias/camas-box-tarimas/queen/kamas/europeas-con-cajones.json",
-
-        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas.json",
-        "/assets/json/categorias/camas-box-tarimas/king/kamas/americanas-con-cajones.json",
-        "/assets/json/categorias/camas-box-tarimas/king/kamas/europeas-con-cajones.json",
-
-
-
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/argus/americanos.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/argus/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/argus/europeos.json",
-
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/cec/americanos.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/cec/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/cec/europeos.json",
-
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/presence/americanos.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/presence/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/el-cisne/presence/europeos.json",
-
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/adel/americanos.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/adel/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/adel/europeos.json",
-
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/rucay/clasicos.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/rucay/americanos.json",
-
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/safynnte/americanos.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/safynnte/americanos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/sarki/clasicos.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/sarki/americanos.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/sarki/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/sarki/europeos.json",
-
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/ramat/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/kamas/ramat/europeos.json",
-
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/paraiso/majestic/americanos.json",
-
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/paraiso/pocket-italiano/americanos.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/paraiso/pocket-italiano/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/paraiso/pocket-italiano/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/paraiso/consul-black/americanos.json",
-
-
-
-        "/assets/json/categorias/dormitorios/1-plaza-y-media/komfort/saphir/americanos.json",
-
-
-
-        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/argus/americanos.json",
-        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/argus/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/argus/europeos.json",
-
-        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/cec/americanos.json",
-        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/cec/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/cec/europeos.json",
-
-        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/presence/americanos.json",
-        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/presence/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/2-plazas/el-cisne/presence/europeos.json",
-
-
-
-        "/assets/json/categorias/dormitorios/2-plazas/kamas/adel/americanos.json",
-        "/assets/json/categorias/dormitorios/2-plazas/kamas/adel/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/2-plazas/kamas/adel/europeos.json",
-
-        "/assets/json/categorias/dormitorios/2-plazas/kamas/rucay/clasicos.json",
-        "/assets/json/categorias/dormitorios/2-plazas/kamas/rucay/americanos.json",
-
-        "/assets/json/categorias/dormitorios/2-plazas/kamas/safynnte/americanos.json",
-        "/assets/json/categorias/dormitorios/2-plazas/kamas/safynnte/americanos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/2-plazas/kamas/sarki/clasicos.json",
-        "/assets/json/categorias/dormitorios/2-plazas/kamas/sarki/americanos.json",
-        "/assets/json/categorias/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/2-plazas/kamas/sarki/europeos.json",
-
-        "/assets/json/categorias/dormitorios/2-plazas/kamas/ramat/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/2-plazas/kamas/ramat/europeos-con-cajones.json",
-
-
-
-        "/assets/json/categorias/dormitorios/2-plazas/paraiso/pocket-italiano/americanos.json",
-        "/assets/json/categorias/dormitorios/2-plazas/paraiso/pocket-italiano/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/2-plazas/paraiso/pocket-italiano/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/2-plazas/paraiso/consul-black/americanos.json",
-
-        "/assets/json/categorias/dormitorios/2-plazas/paraiso/majestic/americanos.json",
-
-        "/assets/json/categorias/dormitorios/2-plazas/paraiso/cancun/clasicos.json",
-        "/assets/json/categorias/dormitorios/2-plazas/paraiso/cancun/americanos.json",
-
-        "/assets/json/categorias/dormitorios/2-plazas/paraiso/consul-plus/americanos.json",
-
-        "/assets/json/categorias/dormitorios/2-plazas/paraiso/eden-plus/americanos.json",
-
-        "/assets/json/categorias/dormitorios/2-plazas/paraiso/medallon-ergosoft/americanos.json",
-        "/assets/json/categorias/dormitorios/2-plazas/paraiso/medallon-ergosoft/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/2-plazas/paraiso/medallon-ergosoft/europeos.json",
-
-
-
-        "/assets/json/categorias/dormitorios/2-plazas/komfort/saphir/americanos.json",
-
-
-
-        "/assets/json/categorias/dormitorios/queen/el-cisne/pocket-peruano/americanos.json",
-        "/assets/json/categorias/dormitorios/queen/el-cisne/pocket-peruano/americanos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/queen/el-cisne/pocket-plus/americanos.json",
-
-        "/assets/json/categorias/dormitorios/queen/el-cisne/valente/americanos.json",
-
-        "/assets/json/categorias/dormitorios/queen/el-cisne/rc-456/americanos.json",
-
-
-
-        "/assets/json/categorias/dormitorios/queen/kamas/sarki/americanos.json",
-        "/assets/json/categorias/dormitorios/queen/kamas/sarki/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/queen/kamas/sarki/europeos.json",
-        "/assets/json/categorias/dormitorios/queen/kamas/sarki/europeos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/queen/kamas/sarki/premium.json",
-
-
-        "/assets/json/categorias/dormitorios/queen/kamas/der-prinz/americanos.json",
-        "/assets/json/categorias/dormitorios/queen/kamas/der-prinz/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/queen/kamas/der-prinz/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/queen/kamas/nesie/americanos.json",
-
-        "/assets/json/categorias/dormitorios/queen/kamas/norole/americanos.json",
-
-        "/assets/json/categorias/dormitorios/queen/kamas/safynnte/americanos.json",
-
-    
-
-        "/assets/json/categorias/dormitorios/queen/paraiso/medallon-ergosoft/americanos.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/medallon-ergosoft/americanos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/queen/paraiso/pocket-italiano/americanos.json",
-
-        "/assets/json/categorias/dormitorios/queen/paraiso/su-majestad-de-lujo/americanos.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/su-majestad-de-lujo/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/su-majestad-de-lujo/europeos.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/su-majestad-de-lujo/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/queen/paraiso/super-star/americanos.json",
-
-        "/assets/json/categorias/dormitorios/queen/paraiso/super-star-negro/americanos.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/super-star-negro/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/super-star-negro/europeos.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/super-star-negro/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/queen/paraiso/pocket-star/americanos.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/pocket-star/europeos.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/pocket-star/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/pocket-star/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-prince/americanos.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-prince/europeos.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-prince/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-elizabeth/americanos.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-elizabeth/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-elizabeth/europeos.json",
-
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-dynasty/americanos.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-dynasty/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-dynasty/europeos.json",
-
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-cloud/americanos.json",
-
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-abrazzo/americanos.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-abrazzo/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-abrazzo/europeos.json",
-        "/assets/json/categorias/dormitorios/queen/paraiso/royal-abrazzo/europeos-con-cajones.json",
-
-
-
-        "/assets/json/categorias/dormitorios/queen/komfort/saphir/americanos.json",
-
-
-
-        "/assets/json/categorias/dormitorios/4-plazas/kamas/sarki/americanos.json",
-
-
-
-        "/assets/json/categorias/dormitorios/king/el-cisne/pocket-peruano/americanos.json",
-        "/assets/json/categorias/dormitorios/king/el-cisne/pocket-peruano/americanos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/king/el-cisne/rc-608/americanos.json",
-
-        "/assets/json/categorias/dormitorios/king/el-cisne/argus-pocket/americanos.json",
-
-        "/assets/json/categorias/dormitorios/king/el-cisne/dynamic/americanos.json",
-
-        "/assets/json/categorias/dormitorios/king/el-cisne/iconio/americanos.json",
-
-        "/assets/json/categorias/dormitorios/king/el-cisne/pocket-plus/americanos.json",
-
-        "/assets/json/categorias/dormitorios/king/el-cisne/valente/americanos.json",
-
-
-
-        "/assets/json/categorias/dormitorios/king/kamas/rucay/americanos.json",
-
-        "/assets/json/categorias/dormitorios/king/kamas/sarki/cama-nube.json",
-        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos.json",
-        "/assets/json/categorias/dormitorios/king/kamas/sarki/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/king/kamas/sarki/europeos.json",
-        "/assets/json/categorias/dormitorios/king/kamas/sarki/europeos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/king/kamas/sarki/premium.json",
-
-
-        "/assets/json/categorias/dormitorios/king/kamas/der-prinz/cama-nube.json",
-        "/assets/json/categorias/dormitorios/king/kamas/der-prinz/americanos.json",
-        "/assets/json/categorias/dormitorios/king/kamas/der-prinz/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/king/kamas/der-prinz/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/king/kamas/konig/americanos.json",
-        "/assets/json/categorias/dormitorios/king/kamas/konig/europeos.json",
-
-        "/assets/json/categorias/dormitorios/king/kamas/nesie/americanos.json",
-
-        "/assets/json/categorias/dormitorios/king/kamas/norole/americanos.json",
-
-        "/assets/json/categorias/dormitorios/king/kamas/ramat/americanos.json",
-        "/assets/json/categorias/dormitorios/king/kamas/ramat/americanos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/king/kamas/thaleo-pocket/americanos.json",
-
-        "/assets/json/categorias/dormitorios/king/kamas/thameo-pocket/americanos.json",
-
-        "/assets/json/categorias/dormitorios/king/kamas/safynnte/americanos.json",
-
-        "/assets/json/categorias/dormitorios/king/kamas/yurmale/americanos.json",
-
-
-        "/assets/json/categorias/dormitorios/king/paraiso/medallon-ergosoft/americanos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/medallon-ergosoft/americanos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/king/paraiso/pocket-italiano/americanos.json",
-
-        "/assets/json/categorias/dormitorios/king/paraiso/su-majestad-de-lujo/americanos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/su-majestad-de-lujo/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/su-majestad-de-lujo/europeos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/su-majestad-de-lujo/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/king/paraiso/super-star/americanos.json",
-
-        "/assets/json/categorias/dormitorios/king/paraiso/super-star-negro/americanos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/super-star-negro/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/super-star-negro/europeos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/super-star-negro/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/king/paraiso/pocket-star/americanos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/pocket-star/europeos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/pocket-star/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/pocket-star/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-prince/americanos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-prince/europeos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-prince/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-elizabeth/americanos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-elizabeth/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-elizabeth/europeos.json",
-
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-dynasty/americanos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-dynasty/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-dynasty/europeos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-dynasty/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-cloud/americanos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-cloud/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-cloud/europeos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-cloud/europeos-con-cajones.json",
-
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-abrazzo/americanos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-abrazzo/americanos-con-cajones.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-abrazzo/europeos.json",
-        "/assets/json/categorias/dormitorios/king/paraiso/royal-abrazzo/europeos-con-cajones.json",
-
-
-
-        "/assets/json/categorias/dormitorios/king/komfort/saphir/americanos.json",
 
 
         "/assets/json/categorias/camas-funcionales/box-espacio/1-plaza-y-media/kamas/americanos.json",
@@ -602,18 +460,15 @@
         "/assets/json/categorias/complementos/bases/king/kamas/americanas-con-cajones.json",
         "/assets/json/categorias/complementos/bases/king/kamas/europeas.json",
 
-        "/assets/json/categorias/complementos/cama-perro/s/kamas.json",
-        "/assets/json/categorias/complementos/cama-perro/m/kamas.json",
-        "/assets/json/categorias/complementos/cama-perro/l/kamas.json",
-        "/assets/json/categorias/complementos/cama-perro/xl/kamas.json",
-        "/assets/json/categorias/complementos/cama-perro/xxl/kamas.json",
+        "/assets/json/categorias/complementos/cama-perro/l.json",
+        "/assets/json/categorias/complementos/cama-perro/m.json",
 
         "/assets/json/categorias/complementos/baules/kamas/clasicos.json",
         "/assets/json/categorias/complementos/baules/kamas/sofa-baul-1.json",
         "/assets/json/categorias/complementos/baules/kamas/sofa-baul-2.json",
         "/assets/json/categorias/complementos/baules/kamas/oruga.json",
 
-        "/assets/json/categorias/complementos/puffs/clasicos/kamas.json",
+        "/assets/json/categorias/complementos/puffs/clasicos.json",
 
         "/assets/json/categorias/complementos/veladores/kamas.json",
 

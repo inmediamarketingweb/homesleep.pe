@@ -1,0 +1,36 @@
+{
+    "productos":[
+        {
+            "id": 7,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Paraiso",
+            "modelo": "cancun",
+            "línea": "Americanos",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/cancun/americanos/7/",
+            "nombre": "DORMITORIO 2 PLAZAS KAMAS / PARAISO + COLCHÓN PARAISO CANCUN + CABECERA AÉREA - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/cancun/americanos/otros-modelos/1/",
+            "precioRegular": 2199,
+            "precioNormal": 1599,
+            "precioVenta": 989,
+            "stock": 9,
+            "sku": "H32222293N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "cancun",
+                    "resortes": "cancun",
+                    "tipo-de-cabecera": "aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "otros modelos"
+                }
+            ]
+        }
+    ]
+}

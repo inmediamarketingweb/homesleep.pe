@@ -1,0 +1,36 @@
+{
+    "productos":[
+        {
+            "id": 6,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "king",
+            "modelo": "norole",
+            "ruta": "/productos/dormitorios/king/kamas/norole/americanos/6/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS NOROLE + CABECERA PEDESTAL CAPITONEADA - ACERO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/norole/americanos/americanas/capitoneado-1/6/", 
+            "precioRegular": 3189,
+            "precioNormal": 3059,
+            "precioVenta": 2229,
+            "stock": 13,
+            "sku": "H3124293N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Norole",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

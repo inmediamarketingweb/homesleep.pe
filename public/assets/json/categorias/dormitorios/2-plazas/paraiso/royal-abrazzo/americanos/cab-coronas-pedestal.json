@@ -1,0 +1,124 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "línea": "americanos",
+            "tamaño": "2 plazas",
+            "modelo": "abrazzo",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/royal-abrazzo/americanos/4/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 2 PLAZAS + COLCHÓN PARAISO ABRAZZO + CABECERA PEDESTAL CORONA - ACERO OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/paraiso/americanos/2-plazas/abrazzo/pedestales/americanas/brazos-rectos/emperatriz/2/",
+            "precioRegular": 3399,
+            "precioNormal": 2899,
+            "precioVenta": 2099,
+            "stock": 9,
+            "sku": "H3222213N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Abrazzo",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "línea": "americanos",
+            "tamaño": "2 plazas",
+            "modelo": "abrazzo",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/royal-abrazzo/americanos/5/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KAMAS 2 PLAZAS + COLCHÓN PARAISO ABRAZZO + CABECERA KAMAS PEDESTAL CORONA - UVA",
+            "fotos": "/assets/imagenes/productos/dormitorios/paraiso/americanos/2-plazas/abrazzo/pedestales/coronas/brazos-rectos/otras-formas/1/",
+            "precioRegular": 3399,
+            "precioNormal": 2899,
+            "precioVenta": 2199,
+            "stock": 9,
+            "sku": "H322225N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Abrazzo",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "línea": "americanos",
+            "tamaño": "2 plazas",
+            "modelo": "abrazzo",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/royal-abrazzo/americanos/6/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KAMAS 2 PLAZAS + COLCHÓN PARAISO ABRAZZO + CABECERA KAMAS PEDESTAL CORONA - VINO",
+            "fotos": "/assets/imagenes/productos/dormitorios/paraiso/americanos/2-plazas/abrazzo/pedestales/coronas/brazos-rectos/otras-formas/2/",
+            "precioRegular": 3399,
+            "precioNormal": 2899,
+            "precioVenta": 2199,
+            "stock": 9,
+            "sku": "H322225N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Abrazzo",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "línea": "americanos",
+            "tamaño": "2 plazas",
+            "modelo": "abrazzo",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/royal-abrazzo/americanos/7/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KAMAS 2 PLAZAS + COLCHÓN PARAISO ABRAZZO + CABECERA KAMAS PEDESTAL CORONA - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/paraiso/americanos/2-plazas/abrazzo/pedestales/coronas/brazos-rectos/otras-formas/3/",
+            "precioRegular": 3399,
+            "precioNormal": 2899,
+            "precioVenta": 2199,
+            "stock": 9,
+            "sku": "H322225N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Abrazzo",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        }
+    ]
+}

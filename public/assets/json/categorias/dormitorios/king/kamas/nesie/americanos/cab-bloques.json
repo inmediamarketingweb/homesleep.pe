@@ -1,0 +1,164 @@
+{
+    "productos":[
+        {
+            "id": 6,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "king",
+            "modelo": "nesie",
+            "ruta": "/productos/dormitorios/king/kamas/nesie/americanos/6/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS NESIE + CABECERA AÉREA EGYPT 4 - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/nesie/americanos/bloques/egypt-4/1/", 
+            "precioRegular": 2999,
+            "precioNormal": 2599,
+            "precioVenta": 1899,
+            "stock": 13,
+            "sku": "H3124283N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "resortes": "bonell",
+                    "modelo-de-colchón": "Nesie",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "egypt 4"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "king",
+            "modelo": "nesie",
+            "ruta": "/productos/dormitorios/king/kamas/nesie/americanos/7/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS NESIE + CABECERA AÉREA GIRASOL - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/nesie/americanos/bloques/girasol/1/", 
+            "precioRegular": 2999,
+            "precioNormal": 2599,
+            "precioVenta": 1899,
+            "stock": 13,
+            "sku": "H3124283N16",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "resortes": "bonell",
+                    "modelo-de-colchón": "Nesie",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "girasol"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "king",
+            "modelo": "nesie",
+            "ruta": "/productos/dormitorios/king/kamas/nesie/americanos/8/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS NESIE + CABECERA AÉREA REPTILIAN - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/nesie/americanos/bloques/reptilian/1/", 
+            "precioRegular": 2999,
+            "precioNormal": 2599,
+            "precioVenta": 1899,
+            "stock": 13,
+            "sku": "H3124283N17",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "resortes": "bonell",
+                    "modelo-de-colchón": "Nesie",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "king",
+            "modelo": "nesie",
+            "ruta": "/productos/dormitorios/king/kamas/nesie/americanos/9/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS NESIE + CABECERA AÉREA TORTUN - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/nesie/americanos/bloques/tortun/1/", 
+            "precioRegular": 2999,
+            "precioNormal": 2599,
+            "precioVenta": 1899,
+            "stock": 13,
+            "sku": "H3124283N18",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "resortes": "bonell",
+                    "modelo-de-colchón": "Nesie",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "tortun"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "king",
+            "modelo": "nesie",
+            "ruta": "/productos/dormitorios/king/kamas/nesie/americanos/10/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS NESIE + CABECERA AÉREA VITORIA - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/nesie/americanos/bloques/vitoria/1/", 
+            "precioRegular": 2999,
+            "precioNormal": 2599,
+            "precioVenta": 1899,
+            "stock": 13,
+            "sku": "H3124283N19",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "resortes": "bonell",
+                    "modelo-de-colchón": "Nesie",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "vitoria"
+                }
+            ]
+        }
+    ]
+}

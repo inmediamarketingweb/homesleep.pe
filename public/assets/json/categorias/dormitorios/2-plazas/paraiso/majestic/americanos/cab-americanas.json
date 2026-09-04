@@ -1,0 +1,66 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Paraiso",
+            "modelo": "majestic",
+            "línea": "Americanos",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/majestic/americanos/1/",
+            "nombre": "DORMITORIO 2 PLAZAS KAMAS / PARAISO + COLCHÓN PARAISO MAJESTIC + CABECERA AÉREA CLÁSICA 2 - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/majestic/americanos/clasicas/clasica-2/1/",
+            "precioRegular": 1899,
+            "precioNormal": 1399,
+            "precioVenta": 749,
+            "stock": 9,
+            "sku": "H32222252N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "majestic",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Clásica",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Clásica 1"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Paraiso",
+            "modelo": "majestic",
+            "línea": "Americanos",
+            "ruta": "/productos/dormitorios/2-plazas/paraiso/majestic/americanos/2/",
+            "nombre": "DORMITORIO 2 PLAZAS KAMAS / PARAISO + COLCHÓN PARAISO MAJESTIC + CABECERA AÉREA - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/majestic/americanos/americanas/otros-modelos/1/",
+            "precioRegular": 1899,
+            "precioNormal": 1399,
+            "precioVenta": 749,
+            "stock": 9,
+            "sku": "H32222257N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "majestic",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Otros modelos",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        }
+    ]
+}

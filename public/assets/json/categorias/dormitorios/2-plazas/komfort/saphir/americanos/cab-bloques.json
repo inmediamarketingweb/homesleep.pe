@@ -1,0 +1,36 @@
+{
+    "productos":[
+        {
+            "id": 3,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "Kamas + Komfort",
+            "modelo": "saphir",
+            "línea": "Americanos",
+            "ruta": "/productos/dormitorios/2-plazas/komfort/saphir/americanos/3/",
+            "nombre": "DORMITORIO 2 PLAZAS KAMAS / KOMFORT + COLCHÓN KOMFORT SAPHIR + CABECERA AÉREA MOKI - CAMEL",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/komfort/saphir/americanos/bloques/moki/1/",
+            "precioRegular": 2499,
+            "precioNormal": 1799,
+            "precioVenta": 999,
+            "stock": 9,
+            "sku": "H34222136N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Komfort",
+                    "línea": "Americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "resortes": "pocket",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "saphir",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Moki"
+                }
+            ]
+        }
+    ]
+}

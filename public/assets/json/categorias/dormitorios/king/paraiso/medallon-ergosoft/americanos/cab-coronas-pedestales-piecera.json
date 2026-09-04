@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/21/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA PEDESTAL CORONA + PIECERA - CHAMPAGNE ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/coronas/otros-modelos/1/",
+            "precioRegular": 2999,
+            "precioNormal": 2199,
+            "precioVenta": 1999,
+            "stock": 9,
+            "sku": "H32242105N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Coronas",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Otros Modelos"
+                }
+            ]
+        }
+    ]
+}

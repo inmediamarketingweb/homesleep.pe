@@ -4,23 +4,48 @@
             "tamaño":[
                 {
                     "tamaño": "1 plaza",
-                    "ruta": "/productos/camas-box-tarimas/1-plaza/"
+                    "ruta": "/productos/camas-box-tarimas/1-plaza/",
+                    "marcas":[
+                        {
+                            "marca": "Kamas"
+                        }
+                    ]
                 },
                 {
                     "tamaño": "1 plaza y media",
-                    "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/"
+                    "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/",
+                    "marcas":[
+                        {
+                            "marca": "Kamas"
+                        }
+                    ]
                 },
                 {
                     "tamaño": "2 plazas",
-                    "ruta": "/productos/camas-box-tarimas/2-plazas/"
+                    "ruta": "/productos/camas-box-tarimas/2-plazas/",
+                    "marcas":[
+                        {
+                            "marca": "Kamas"
+                        }
+                    ]
                 },
                 {
-                    "tamaño": "Queen",
-                    "ruta": "/productos/camas-box-tarimas/queen/"
+                    "tamaño": "queen",
+                    "ruta": "/productos/camas-box-tarimas/queen/",
+                    "marcas":[
+                        {
+                            "marca": "Kamas"
+                        }
+                    ]
                 },
                 {
-                    "tamaño": "King",
-                    "ruta": "/productos/camas-box-tarimas/king/"
+                    "tamaño": "king",
+                    "ruta": "/productos/camas-box-tarimas/king/",
+                    "marcas":[
+                        {
+                            "marca": "Kamas"
+                        }
+                    ]
                 },
                 {
                     "tamaño": "Ver todos",
@@ -29,22 +54,76 @@
             ]
         },
         {
-            "marca":["El cisne", "Kamas", "Paraiso", "Komfort"]
+            "líneas":[
+                {
+                    "línea": "americanas"
+                },
+                {
+                    "línea": "europeas"
+                },
+                {
+                    "línea": "nube"
+                }
+            ]
         },
         {
-            "línea":["Clásica", "americanas", "Americana con cajones", "Europea", "Europea con cajones"]
+            "tipos-de-cabecera":[
+                {
+                    "tipo-de-cabecera": "aérea"
+                },
+                {
+                    "tipo-de-cabecera": "aérea con patas"
+                },
+                {
+                    "tipo-de-cabecera": "pedestal"
+                }
+            ]
         },
         {
-            "base-encajonada":["Si", "No"]
+            "diseños-de-cabecera":[
+                {
+                    "diseño-de-cabecera": "Clásicas"
+                },
+                {
+                    "diseño-de-cabecera": "Americanas"
+                },
+                {
+                    "diseño-de-cabecera": "Con marco"
+                },
+                {
+                    "diseño-de-cabecera": "Bloques"
+                },
+                {
+                    "diseño-de-cabecera": "Coronas"
+                },
+                {
+                    "diseño-de-cabecera": "Infantiles"
+                },
+                {
+                    "diseño-de-cabecera": "Otros modelos"
+                }
+            ]
         },
         {
-            "tipo-de-cabecera":["Aérea", "Aérea con patas", "Pedestal"]
+            "cajones":[
+                {
+                    "cajón": "si",
+                    "cantidad-de-cajones":["1", "2", "3", "4", "5", "6"]
+                },
+                {
+                    "cajón": "no"
+                }
+            ]
         },
         {
-            "diseño-de-cabecera":["Infantil", "clásicas", "americanas", "Con marco", "coronas", "bloques"]
-        },
-        {
-            "brazos-de-cabecera":["sin brazos", "brazos rectos", "brazos curvos", "brazos p", "brazos seahorse"]
+            "pieceras":[
+                {
+                    "piecera": "si"
+                },
+                {
+                    "piecera": "no"
+                }
+            ]
         }
     ]
 }

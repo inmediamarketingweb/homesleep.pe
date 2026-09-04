@@ -1,0 +1,33 @@
+{
+    "productos":[
+        {
+            "id": 2,
+            "categoria": "complementos",
+            "subcategoria": "cama perro",
+            "marca": "kamas",
+            "tamaño": "m",
+            "ruta": "/productos/complementos/cama-perro/m/1/",
+            "nombre": "CAMA PERRO M + CABECERA PEDESTAL - VINO CLARO",
+            "fotos": "/assets/imagenes/productos/complementos/cama-perro/2/",
+            "precioRegular": 249,
+            "precioNormal": 229,
+            "precioVenta": 179,
+            "stock": 14,
+            "sku": "H771512N10",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "sub-categoría": "cama perro",
+                    "tamaño": "M",
+                    "cajones": "No",
+                    "base-encajonada": "Si",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ]
+        }
+    ]
+}

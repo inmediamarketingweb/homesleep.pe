@@ -1,0 +1,37 @@
+{
+    "productos":[
+        {
+            "id": 46,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/el-cisne/rc-608/americanos/46/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS / CISNE + COLCHÓN RC-608 + CABECERA PEDESTAL - CUERO NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/bloques/otros-modelos/1/",
+            "precioRegular": 3699,
+            "precioNormal": 2899,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H3324256N28",
+            "tipo-de-envio": "Gratis",
+            "regalos":["3 cojines", "1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                        "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otro modelos"
+                }
+            ]
+        }
+    ]
+}

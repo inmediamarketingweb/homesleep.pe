@@ -1,0 +1,197 @@
+{
+    "productos":[
+        {
+            "id": 11,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/ramat/americanos/11/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/ramat/americanos/americanas/capitoneado-1/3/",
+            "precioRegular": 3329,
+            "precioNormal": 2999,
+            "precioVenta": 2029,
+            "stock": 13,
+            "sku": "H3124273N20",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "lineal 1"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/ramat/americanos/12/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - PALO ROSA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/ramat/americanos/americanas/capitoneado-1/4/",
+            "precioRegular": 3329,
+            "precioNormal": 2999,
+            "precioVenta": 2029,
+            "stock": 13,
+            "sku": "H3124273N21",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "lineal 1"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/ramat/americanos/13/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - TURQUESA OPALO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/ramat/americanos/americanas/capitoneado-1/5/",
+            "precioRegular": 3329,
+            "precioNormal": 2999,
+            "precioVenta": 2029,
+            "stock": 13,
+            "sku": "H3124273N22",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "lineal 1"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/ramat/americanos/14/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - ARENA OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/ramat/americanos/americanas/capitoneado-1/6/",
+            "precioRegular": 3329,
+            "precioNormal": 2999,
+            "precioVenta": 2029,
+            "stock": 13,
+            "sku": "H3124273N23",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "lineal 1"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/ramat/americanos/15/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - GRIS",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/ramat/americanos/americanas/capitoneado-1/7/",
+            "precioRegular": 3329,
+            "precioNormal": 2999,
+            "precioVenta": 2029,
+            "stock": 13,
+            "sku": "H3124273N24",
+            "tipo-de-envio": "Gratis",
+            "regalos": [ "3 cojines" ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "lineal 1"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "ramat",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/ramat/americanos/16/",
+            "nombre": "DORMITORIO AMERICANO KING + COLCHÓN KAMAS RAMAT + CABECERA PEDESTAL CAPITONEADO 1 - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/ramat/americanos/americanas/capitoneado-1/8/",
+            "precioRegular": 3329,
+            "precioNormal": 2999,
+            "precioVenta": 2029,
+            "stock": 13,
+            "sku": "H3124273N25",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Ramat",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "lineal 1"
+                }
+            ]
+        }
+    ]
+}

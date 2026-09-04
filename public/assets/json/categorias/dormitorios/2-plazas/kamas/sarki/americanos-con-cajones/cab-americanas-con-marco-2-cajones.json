@@ -1,0 +1,190 @@
+{
+    "productos":[
+        {
+            "id": 9,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/9/",
+            "nombre": "DORMITORIO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS SARKI + CABECERA AÉREA CON MARCO CUADROS 2 - ARENA",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/con-marco/cuadros-2/1/",
+            "precioRegular": 2099,
+            "precioNormal": 1599,
+            "precioVenta": 1049,
+            "stock": 9,
+            "sku": "H3122134N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "aérea con patas",
+                    "diseño-de-cabecera": "con marco",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/10/",
+            "nombre": "DORMITORIO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS SARKI + CABECERA AÉREA CON MARCO CUADROS 2 - FUCSIA",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/con-marco/cuadros-2/2/",
+            "precioRegular": 2099,
+            "precioNormal": 1599,
+            "precioVenta": 1049,
+            "stock": 9,
+            "sku": "H3122134N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "aérea con patas",
+                    "diseño-de-cabecera": "con marco",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/11/",
+            "nombre": "DORMITORIO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS SARKI + CABECERA AÉREA CON MARCO CUADROS 2 - VINO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/con-marco/cuadros-2/3/",
+            "precioRegular": 2099,
+            "precioNormal": 1599,
+            "precioVenta": 1049,
+            "stock": 9,
+            "sku": "H3122134N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "aérea con patas",
+                    "diseño-de-cabecera": "con marco",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/12/",
+            "nombre": "DORMITORIO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS SARKI + CABECERA AÉREA CON MARCO CUADROS 2 - LILA",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/con-marco/cuadros-2/4/",
+            "precioRegular": 2099,
+            "precioNormal": 1599,
+            "precioVenta": 1049,
+            "stock": 9,
+            "sku": "H3122134N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "aérea con patas",
+                    "diseño-de-cabecera": "con marco",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/14/",
+            "nombre": "DORMITORIO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS SARKI + CABECERA AÉREA CON MARCO CUADROS 2 - ROSADO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/con-marco/cuadros-2/5/",
+            "precioRegular": 2099,
+            "precioNormal": 1599,
+            "precioVenta": 1049,
+            "stock": 9,
+            "sku": "H3122134N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "aérea con patas",
+                    "diseño-de-cabecera": "con marco",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "categoria": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos con cajones",
+            "ruta": "/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/15/",
+            "nombre": "DORMITORIO KAMAS 2 PLAZAS CON 2 CAJONES + COLCHÓN KAMAS SARKI + CABECERA AÉREA CON MARCO CUADROS 2 - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos-con-cajones/con-marco/cuadros-2/6/",
+            "precioRegular": 2099,
+            "precioNormal": 1599,
+            "precioVenta": 1049,
+            "stock": 9,
+            "sku": "H3122134N16",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos con cajones",
+                    "tamaño": "2 plazas",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "aérea con patas",
+                    "diseño-de-cabecera": "con marco",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

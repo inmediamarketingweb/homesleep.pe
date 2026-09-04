@@ -1,0 +1,221 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "royal abrazzo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/abrazzo/americanos/1/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL ABRAZZO + CABECERA AEREA LINEAL 2 + 1 PUFF - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/abrazzo/americanos/bloques/lineal-2/1/",
+            "precioRegular": 5199,
+            "precioNormal": 4199,
+            "precioVenta": 3199,
+            "stock": 9,
+            "sku": "H32242286N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal abrazzo",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 2"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "royal abrazzo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/abrazzo/americanos/16/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL ABRAZZO + CABECERA AEREA HEXALINE - GRIS",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/abrazzo/americanos/bloques/hexaline/1/",
+            "precioRegular": 5199,
+            "precioNormal": 4199,
+            "precioVenta": 3199,
+            "stock": 9,
+            "sku": "H32242286N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal abrazzo",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Hexaline"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "royal abrazzo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/abrazzo/americanos/17/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL ABRAZZO + CABECERA AEREA LINEAL HORIZONTAL - TURQUESA ÓPALO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/abrazzo/americanos/bloques/lineal-horizontal/1/",
+            "precioRegular": 5199,
+            "precioNormal": 4199,
+            "precioVenta": 3199,
+            "stock": 9,
+            "sku": "H32242286N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal abrazzo",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal Horizontal"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "royal abrazzo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/abrazzo/americanos/18/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL ABRAZZO + CABECERA AEREA MESHLOCK - ROSADO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/abrazzo/americanos/bloques/meshlock/1/",
+            "precioRegular": 5199,
+            "precioNormal": 4199,
+            "precioVenta": 3199,
+            "stock": 9,
+            "sku": "H32242286N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal abrazzo",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Meshlock"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "royal abrazzo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/abrazzo/americanos/19/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL ABRAZZO + CABECERA AEREA MESHLOCK - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/abrazzo/americanos/bloques/meshlock/2/",
+            "precioRegular": 5199,
+            "precioNormal": 4199,
+            "precioVenta": 3199,
+            "stock": 9,
+            "sku": "H32242286N14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal abrazzo",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Meshlock"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "royal abrazzo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/abrazzo/americanos/20/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL ABRAZZO + CABECERA AEREA OBSIDIAN - PALO ROSA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/abrazzo/americanos/bloques/obsidian/1/",
+            "precioRegular": 5199,
+            "precioNormal": 4199,
+            "precioVenta": 3199,
+            "stock": 9,
+            "sku": "H32242286N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal abrazzo",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Meshlock"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "royal abrazzo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/abrazzo/americanos/21/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL ABRAZZO + CABECERA AEREA V - CUERO NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/abrazzo/americanos/bloques/v/1/",
+            "precioRegular": 5199,
+            "precioNormal": 4199,
+            "precioVenta": 3199,
+            "stock": 9,
+            "sku": "H32242286N16",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal abrazzo",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "V"
+                }
+            ]
+        }
+    ]
+}

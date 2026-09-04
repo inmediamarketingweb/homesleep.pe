@@ -192,7 +192,7 @@
                         },
                         {
                             "text": "Clásica",
-                            "link": "/productos/camas-box-tarimas/?línea=clásica"
+                            "link": "/productos/camas-box-tarimas/?linea=clásicos"
                         },
                         {
                             "text": "Ver todos",
@@ -271,23 +271,23 @@
                     "lista":[
                         {
                             "text": "Americanos",
-                            "link": "/productos/dormitorios/?línea=americanos"
+                            "link": "/productos/dormitorios/?linea-dormitorio=americanos"
                         },
                         {
                             "text": "Europeos",
-                            "link": "/productos/dormitorios/?línea=europeos"
+                            "link": "/productos/dormitorios/?linea-dormitorio=europeos"
                         },
                         {
                             "text": "Nube",
-                            "link": "/productos/dormitorios/?línea=nube"
+                            "link": "/productos/dormitorios/?linea-dormitorio=nube"
                         },
                         {
                             "text": "Circulares",
-                            "link": "/productos/dormitorios/?línea=circulares"
+                            "link": "/productos/dormitorios/?linea-dormitorio=circulares"
                         },
                         {
                             "text": "Clásica",
-                            "link": "/productos/dormitorios/?línea=clásicos"
+                            "link": "/productos/dormitorios/?linea-dormitorio=clásicos"
                         },
                         {
                             "text": "Ver todos",
