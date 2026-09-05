@@ -1,0 +1,60 @@
+{
+    "productos":[
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/kamas/americanas/5/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA + VELADOR SHELTER - PLOMO OSCURO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/5/",
+            "precioRegular": 1599,
+            "precioNormal": 1349,
+            "precioVenta": 1029,
+            "stock": 15,
+            "sku": "H21513NX14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/kamas/americanas/8/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 2 PLAZAS + CABECERA AÉREA CAPITONEADA + 1 VELADOR SHELTER - ARENA OSCURO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/8/",
+            "precioRegular": 1599,
+            "precioNormal": 1349,
+            "precioVenta": 1029,
+            "stock": 15,
+            "sku": "H21513NX17",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "productos":[
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "europeas",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/kamas/europeas/1/",
+            "nombre": "CAMA BOX TARIMA EUROPEA 1 PLAZA Y MEDIA + CABECERA PEDESTAL CORONA + SOFÁ BAÚL - PLOMO RATA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/europeas/2-plazas/pedestales/coronas/brazos-curvos/majestad/1/",
+            "precioRegular": 2399,
+            "precioNormal": 1999,
+            "precioVenta": 1329,
+            "stock": 12,
+            "sku": "H21575NX10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "Europea",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos curvos",
+                    "modelo-de-cabecera": "Majestad"
+                }
+            ]
+        }
+    ]
+}

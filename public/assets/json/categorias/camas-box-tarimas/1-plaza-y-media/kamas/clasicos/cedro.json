@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoría": "camas box tarimas",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "clásicos",
+            "madera": "cedro",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/kamas/clasicos/1/",
+            "nombre": "CAMA BOX TARIMA AMERICANA CEDRO 1 PLAZA Y MEDIA + CABECERA AÉREA + PIECERA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/2-plazas/kamas/clasicos/cedro/1/",
+            "precioRegular": 4799,
+            "precioNormal": 4099,
+            "precioVenta": 2599,
+            "stock": 15,
+            "sku": "H21510NX10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "tamaño": "1 plaza y media",
+                    "marca": "kamas",
+                    "línea": "clásicos",
+                    "madera": "cedro",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "otros modelos"
+                }
+            ]
+        }
+    ]
+}

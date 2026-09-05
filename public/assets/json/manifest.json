@@ -240,6 +240,28 @@
 
 
 
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/infantiles/cab-pedestal.json",
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/clasicos/cedro.json",
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/americanas/cab-americanas-baul.json",
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/americanas/cab-americanas-con-marco.json",
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/americanas/cab-americanas-pedestales-baul.json",
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/americanas/cab-americanas-pedestales.json",
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/americanas/cab-americanas-v-shelter.json",
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/americanas/cab-americanas.json",
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/americanas/cab-bloques-pedestales.json",
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/americanas/cab-coronas-pedestales.json",
+
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/americanas-con-cajones/cab-americanas-2-cajones-baul.json",
+
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/europeas/cab-americanas-baul.json",
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/europeas/cab-americanas-sofa-baul-1.json",
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/europeas/cab-coronas-pedestal-baul.json",
+        "/assets/json/categorias/camas-box-tarimas/1-plaza-y-media/kamas/europeas/cab-coronas-pedestal-sofa-baul-1.json",
+
+
+
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/infantiles/cab-pedestal.json",
+        "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/clasicos/cedro.json",
         "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas/cab-americanas-baul.json",
         "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas/cab-americanas-con-marco.json",
         "/assets/json/categorias/camas-box-tarimas/2-plazas/kamas/americanas/cab-americanas-pedestales-baul.json",

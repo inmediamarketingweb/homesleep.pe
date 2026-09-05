@@ -1,0 +1,116 @@
+{
+    "productos":[
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "queen",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/59/",
+            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR - BEIGE",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/31/",
+            "precioRegular": 2399,
+            "precioNormal": 1899,
+            "precioVenta": 1369,
+            "stock": 15,
+            "sku": "H23113N39",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Cuadros 2"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "queen",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/60/",
+            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR - VINO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/32/",
+            "precioRegular": 2399,
+            "precioNormal": 1899,
+            "precioVenta": 1369,
+            "stock": 15,
+            "sku": "H23113N40",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Cuadros 2"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "queen",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/61/",
+            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR - COBALTO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/33/",
+            "precioRegular": 2399,
+            "precioNormal": 1899,
+            "precioVenta": 1369,
+            "stock": 15,
+            "sku": "H23113N41",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Cuadros 2"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "queen",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/queen/kamas/americanas/62/",
+            "nombre": "CAMA BOX TARIMA AMERICANA QUEEN + CABECERA AÉREA CUADROS 2 + 1 VELADOR - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/aereas-con-patas/americanas/sin-brazos/cuadros-2/34/",
+            "precioRegular": 2399,
+            "precioNormal": 1899,
+            "precioVenta": 1369,
+            "stock": 15,
+            "sku": "H23113N42",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Cuadros 2"
+                }
+            ]
+        }
+    ]
+}

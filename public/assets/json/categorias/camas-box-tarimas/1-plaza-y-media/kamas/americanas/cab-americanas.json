@@ -1,0 +1,144 @@
+{
+    "productos":[
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/kamas/americanas/1/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 1 PLAZA Y MEDIA + CABECERA AÉREA CAPITONEADO - UVA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/1/",
+            "precioRegular": 1299,
+            "precioNormal": 1049,
+            "precioVenta": 729,
+            "stock": 15,
+            "sku": "H215213NX10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americana",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/kamas/americanas/3/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 1 PLAZA Y MEDIA + CABECERA AÉREA CAPITONEADO - PLOMO PLATA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/3/",
+            "precioRegular": 1299,
+            "precioNormal": 1049,
+            "precioVenta": 729,
+            "stock": 15,
+            "sku": "H215213NX12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americana",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/kamas/americanas/4/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 1 PLAZA Y MEDIA + CABECERA AÉREA CAPITONEADA + 2 PUFF - NEGRO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/capitoneado/4/",
+            "precioRegular": 1299,
+            "precioNormal": 1049,
+            "precioVenta": 729,
+            "stock": 15,
+            "sku": "H215213NX13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americana",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ]
+        },
+            {
+            "categoría": "camas box tarimas",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/kamas/americanas/9/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 1 PLAZA Y MEDIA + CABECERA AÉREA CAPITONEADA - MORO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/americanas/brazos-rectos/capitoneado/1/",
+            "precioRegular": 1299,
+            "precioNormal": 1049,
+            "precioVenta": 729,
+            "stock": 15,
+            "sku": "H215213NX18",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americana",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "Si",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/kamas/americanas/12/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 1 PLAZA Y MEDIA + CABECERA AÉREA LINEAL - NEGRO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/americanas/sin-brazos/lineal/1/",
+            "precioRegular": 1299,
+            "precioNormal": 1049,
+            "precioVenta": 729,
+            "stock": 15,
+            "sku": "H215213NX19",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americana",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal"
+                }
+            ]
+        }
+    ]
+}

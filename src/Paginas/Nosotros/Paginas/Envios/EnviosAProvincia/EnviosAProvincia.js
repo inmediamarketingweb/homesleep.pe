@@ -237,7 +237,7 @@ function EnviosAProvincia(){
                                 <input placeholder='Busca tu provincia, distrito o ruta' value={searchTerm} onChange={handleSearchChange} className='province-search-input'/>
                             </div>
 
-                            <div className='d-flex-center-center gap-10'>
+                            {/* <div className='d-flex-center-center gap-10'>
                                 <div className='year-filters'>
                                     {availableYears.map(year => (
                                         <button key={year} type='button' className={`year-filter-btn ${selectedYear === year.toString() ? 'active' : ''}`}  onClick={() => handleYearFilter(year.toString())}>
@@ -252,7 +252,7 @@ function EnviosAProvincia(){
                                         <p className='text'>Limpiar filtros</p>
                                     </button>
                                 )}
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className='province-content'>
@@ -282,7 +282,7 @@ function EnviosAProvincia(){
                                                         <span className="material-symbols-outlined">location_on</span>
                                                         <div className='text'>{envio.destino}</div>
                                                     </div>
-                                                    <div className='text'>{envio.año}</div>
+                                                    {/* <div className='text'>{envio.año}</div> */}
                                                 </div>
 
                                                 <img src={photos.imgOne} alt={`Envío a ${envio.destino} - Imagen 1`} className='image-1' onClick={() => openPopup(envio)} style={{ cursor: 'pointer' }}/>
@@ -367,13 +367,13 @@ function EnviosAProvincia(){
                                             <p className='info-value'>{selectedEnvio.agencia}</p>
                                         </div>
                                     </div>
-                                    <div className='info-item'>
+                                    {/* <div className='info-item'>
                                         <span className="material-symbols-outlined">calendar_month</span>
                                         <div>
                                             <p className='info-label'>Año</p>
                                             <p className='info-value'>{selectedEnvio.año}</p>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </>

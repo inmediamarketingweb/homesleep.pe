@@ -1,0 +1,116 @@
+{
+    "productos":[
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/kamas/americanas/1-plaza-y-media/40/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL CAPITONEADA + BAÚL + 2 PUFF - GRIS",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas/americanas/sin-brazos/capitoneado/3/",
+            "precioRegular": 1699,
+            "precioNormal": 1529,
+            "precioVenta": 1029,
+            "stock": 12,
+            "sku": "D15213NX12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/kamas/americanas/1-plaza-y-media/44/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL EMPERATRIZ + BAÚL + 2 PUFF - GRIS RATA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/pedestales/americanas/brazos-rectos/emperatriz/15/",
+            "precioRegular": 1799,
+            "precioNormal": 1629,
+            "precioVenta": 1129,
+            "stock": 12,
+            "sku": "D15213NX24",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/kamas/americanas/1-plaza-y-media/45/",
+            "nombre": "CAMA BOX TARIMA AMERICANO 1 PLAZA Y MEDIA + CABECERA PEDESTAL EMPERATRIZ + BAÚL + 2 PUFF - NEGRO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/pedestales/americanas/brazos-rectos/emperatriz/16/",
+            "precioRegular": 1799,
+            "precioNormal": 1629,
+            "precioVenta": 1129,
+            "stock": 12,
+            "sku": "D15213NX25",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/1-plaza-y-media/kamas/americanas/37/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 1 PLAZA Y MEDIA + CABECERA PEDESTAL CUADROS 1 - GRIS ",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/pedestales/otras-formas/sin-brazos/otros-modelos/1/",
+            "precioRegular": 1999,
+            "precioNormal": 1449,
+            "precioVenta": 929,
+            "stock": 15,
+            "sku": "D222227N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Otras formas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        }
+    ]
+}

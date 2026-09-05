@@ -1,0 +1,60 @@
+{
+    "productos":[
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "king",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/145/",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL PRINCESA + PIECERA + 1 PUFF - AZUL ELECTRICO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/coronas/brazos-p/princesa/1/",
+            "precioRegular": 2599,
+            "precioNormal": 2199,
+            "precioVenta": 1499,
+            "stock": 15,
+            "sku": "H224225N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos p",
+                    "modelo-de-cabecera": "Princesa"
+                }
+            ]
+        },
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "king",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/americanas/146/",
+            "nombre": "CAMA BOX TARIMA AMERICANA KING + CABECERA PEDESTAL PRINCESA + PIECERA + 1 PUFF - PLOMO RATA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/king/pedestales/coronas/brazos-p/princesa/2/",
+            "precioRegular": 2599,
+            "precioNormal": 2199,
+            "precioVenta": 1499,
+            "stock": 15,
+            "sku": "H224225N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos p",
+                    "modelo-de-cabecera": "Princesa"
+                }
+            ]
+        }
+    ]
+}

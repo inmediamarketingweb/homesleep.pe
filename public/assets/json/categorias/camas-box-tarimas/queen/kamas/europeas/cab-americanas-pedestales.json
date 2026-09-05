@@ -1,0 +1,149 @@
+{
+    "productos":[
+        {
+            "id": 12,
+            "categoría": "camas box tarimas",
+            "tamaño": "king",
+            "marca": "kamas",
+            "línea": "europeas",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/europeas/11/",
+            "nombre": "CAMA BOX TARIMA EUROPEA KING + CABECERA PEDESTAL EMPERATRIZ - ARENA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/europeas/king/pedestales/americanas/brazos-rectos/emperatriz/1/",
+            "precioRegular": 1800,
+            "precioNormal": 1949,
+            "precioVenta": 1349,
+            "stock": 12,
+            "sku": "H234223N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "categoría": "camas box tarimas",
+            "tamaño": "king",
+            "marca": "kamas",
+            "línea": "europeas",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/europeas/13/",
+            "nombre": "CAMA BOX TARIMA EUROPEA KING + CABECERA PEDESTAL EMPERATRIZ - VERDE LORO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/europeas/king/pedestales/americanas/brazos-rectos/emperatriz/3/",
+            "precioRegular": 1800,
+            "precioNormal": 1949,
+            "precioVenta": 1349,
+            "stock": 12,
+            "sku": "H234223N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "categoría": "camas box tarimas",
+            "tamaño": "king",
+            "marca": "kamas",
+            "línea": "europeas",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/europeas/14/",
+            "nombre": "CAMA BOX TARIMA EUROPEA KING + CABECERA PEDESTAL EMPERATRIZ - FUCSIA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/europeas/king/pedestales/americanas/brazos-rectos/emperatriz/4/",
+            "precioRegular": 1800,
+            "precioNormal": 1949,
+            "precioVenta": 1349,
+            "stock": 12,
+            "sku": "H234223N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "categoría": "camas box tarimas",
+            "tamaño": "king",
+            "marca": "kamas",
+            "línea": "europeas",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/europeas/15/",
+            "nombre": "CAMA BOX TARIMA EUROPEA KING + CABECERA PEDESTAL EMPERATRIZ - LILA",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/europeas/king/pedestales/americanas/brazos-rectos/emperatriz/5/",
+            "precioRegular": 1800,
+            "precioNormal": 1949,
+            "precioVenta": 1349,
+            "stock": 12,
+            "sku": "H234223N14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "categoría": "camas box tarimas",
+            "tamaño": "king",
+            "marca": "kamas",
+            "línea": "europeas",
+            "ruta": "/productos/camas-box-tarimas/king/kamas/europeas/16/",
+            "nombre": "CAMA BOX TARIMA EUROPEA KING + CABECERA PEDESTAL EMPERATRIZ - ROSADO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/europeas/king/pedestales/americanas/brazos-rectos/emperatriz/6/",
+            "precioRegular": 1800,
+            "precioNormal": 1949,
+            "precioVenta": 1349,
+            "stock": 12,
+            "sku": "H234223N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        }
+    ]
+}
