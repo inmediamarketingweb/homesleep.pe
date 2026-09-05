@@ -56,6 +56,12 @@
         {
             "líneas":[
                 {
+                    "línea": "infantiles"
+                },
+                {
+                    "línea": "clásicos"
+                },
+                {
                     "línea": "americanas"
                 },
                 {
@@ -81,9 +87,6 @@
         },
         {
             "diseños-de-cabecera":[
-                {
-                    "diseño-de-cabecera": "Clásicas"
-                },
                 {
                     "diseño-de-cabecera": "Americanas"
                 },
