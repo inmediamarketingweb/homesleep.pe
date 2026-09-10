@@ -1,0 +1,252 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket Star",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-star/americanos/20/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET STAR + CABECERA AEREA MESHLOCK - COBALTO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-star/americanos/bloques/meshlock/1/",
+            "precioRegular": 4999,
+            "precioNormal": 3699,
+            "precioVenta": 2149,
+            "stock": 9,
+            "sku": "H32242146N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket star",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Meshlock"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket Star",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-star/americanos/21/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET STAR + CABECERA AEREA MESHLOCK - TURQUESA ÓPALO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-star/americanos/bloques/meshlock/3/",
+            "precioRegular": 4999,
+            "precioNormal": 3699,
+            "precioVenta": 2149,
+            "stock": 9,
+            "sku": "H32242146N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket star",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Meshlock"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket Star",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-star/americanos/22/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET STAR + CABECERA AEREA MESHLOCK - LILA ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-star/americanos/bloques/meshlock/2/",
+            "precioRegular": 4999,
+            "precioNormal": 3699,
+            "precioVenta": 2149,
+            "stock": 9,
+            "sku": "H32242146N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket star",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Meshlock"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket Star",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-star/americanos/23/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET STAR + CABECERA AEREA OBSIDIAN - AZUL ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-star/americanos/bloques/obsidian/1/",
+            "precioRegular": 5399,
+            "precioNormal": 3699,
+            "precioVenta": 2249,
+            "stock": 9,
+            "sku": "H32242146N14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket star",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Obsidian"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket Star",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-star/americanos/24/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET STAR + CABECERA AEREA OBSIDIAN - TABACO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-star/americanos/bloques/obsidian/2/",
+            "precioRegular": 5399,
+            "precioNormal": 3699,
+            "precioVenta": 2249,
+            "stock": 9,
+            "sku": "H32242146N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket star",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Obsidian"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket Star",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-star/americanos/26/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET STAR + CABECERA AEREA OBSIDIAN - LILA ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-star/americanos/bloques/obsidian/3/",
+            "precioRegular": 5399,
+            "precioNormal": 3699,
+            "precioVenta": 2249,
+            "stock": 9,
+            "sku": "H32242146N17",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket star",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Obsidian"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket Star",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-star/americanos/27/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET STAR + CABECERA AEREA HEXALINE ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-star/americanos/bloques/hexaline/1/",
+            "precioRegular": 5399,
+            "precioNormal": 3699,
+            "precioVenta": 2249,
+            "stock": 9,
+            "sku": "H32242146N18",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket star",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Hexaline"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket Star",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-star/americanos/28/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET STAR + CABECERA AEREA VELUTO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-star/americanos/bloques/veluto/1/",
+            "precioRegular": 5399,
+            "precioNormal": 3699,
+            "precioVenta": 2249,
+            "stock": 9,
+            "sku": "H32242146N19",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket star",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Veluto"
+                }
+            ]
+        }
+    ]
+}

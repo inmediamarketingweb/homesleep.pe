@@ -1,0 +1,100 @@
+{
+    "productos":[
+        {
+            "id": 63,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/63/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL BRAZOS SEAHORSE - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/americanas/capitoneado-1/6/",
+            "precioRegular": 3599,
+            "precioNormal": 3099,
+            "precioVenta": 1999,
+            "stock": 9,
+            "sku": "H3124233N57",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos seahorse",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/64/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL BRAZOS SEAHORSE - ARENA OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/americanas/capitoneado-1/7/",
+            "precioRegular": 3599,
+            "precioNormal": 3099,
+            "precioVenta": 1999,
+            "stock": 9,
+            "sku": "H3124233N58",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos seahorse",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 65,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/king/kamas/sarki/americanos/65/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL BRAZOS SEAHORSE - VERDE LORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/sarki/americanos/pedestales/americanas/capitoneado-1/8/",
+            "precioRegular": 3599,
+            "precioNormal": 3099,
+            "precioVenta": 1999,
+            "stock": 9,
+            "sku": "H3124233N59",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "King",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos seahorse",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

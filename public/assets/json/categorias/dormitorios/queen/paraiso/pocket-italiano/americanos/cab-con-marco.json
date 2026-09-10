@@ -1,0 +1,66 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/70/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA AEREA CON MARCO NAZCA LINE - PLATA",   
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/con-marco/nazca-line/1/",
+            "precioRegular": 3399,
+            "precioNormal": 2699,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H32242264N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Con Marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Nazca Line"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/71/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA AEREA CON MARCO CUADROS 2 - CHAMPAGNE",   
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/con-marco/cuadros-2/1/",
+            "precioRegular": 3999,
+            "precioNormal": 2199,
+            "precioVenta": 1849,
+            "stock": 9,
+            "sku": "H32242264N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Con Marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Cuadros 2"
+                }
+            ]
+        }
+    ]
+}

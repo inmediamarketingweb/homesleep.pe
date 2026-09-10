@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "royal abrazzo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/abrazzo/americanos/22/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL ABRAZZO + CABECERA AEREA CON MARCO CAPITONEADO - LILA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/abrazzo/americanos/con-marco/capitoneado-1/1/",
+            "precioRegular": 4999,
+            "precioNormal": 4199,
+            "precioVenta": 3299,
+            "stock": 9,
+            "sku": "H3224214N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal abrazzo",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Con Marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

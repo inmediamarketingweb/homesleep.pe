@@ -1,0 +1,66 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Su majestad de lujo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/31/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO SU MAJESTAD DE LUJO + CABECERA AEREA CORONA LINEAL - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/coronas/otros-modelos/1/",
+            "precioRegular": 4099,
+            "precioNormal": 2399,
+            "precioVenta": 1849,
+            "stock": 9,
+            "sku": "H32242175N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Su Majestad de lujo",
+                    "resortes": "pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 1"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Su majestad de lujo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/32/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO SU MAJESTAD DE LUJO + CABECERA AEREA CORONA LINEAL - PALO ROSA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/su-majestad-de-lujo/americanos/coronas/otros-modelos/2/",
+            "precioRegular": 4109,
+            "precioNormal": 2399,
+            "precioVenta": 1949,
+            "stock": 9,
+            "sku": "H32242175N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Su Majestad de lujo",
+                    "resortes": "pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 1"
+                }
+            ]
+        }
+    ]
+}

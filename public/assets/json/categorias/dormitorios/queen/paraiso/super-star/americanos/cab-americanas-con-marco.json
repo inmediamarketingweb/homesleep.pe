@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Paraiso",
+            "modelo": "Super star",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/super-star/americanos/10/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO SUPER STAR + CABECERA AEREA CON MARCO CAPITONEADO - TURQUESA ÓPALO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/super-star/americanos/con-marco/capitoneado-1/1/",
+            "precioRegular": 4049,
+            "precioNormal": 3109,
+            "precioVenta": 2099,
+            "stock": 9,
+            "sku": "H32242184N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Super star",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Con marco",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ]
+        }
+    ]
+}

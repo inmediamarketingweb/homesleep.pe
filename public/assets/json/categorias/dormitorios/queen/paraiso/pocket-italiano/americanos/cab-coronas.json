@@ -1,0 +1,97 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/72/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA AEREA CORONA LINEAL - PLATA",   
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/corona/lineal/1/",
+            "precioRegular": 3399,
+            "precioNormal": 2699,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H32242265N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/73/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA AEREA CORONA LINEAL 2 - NEGRO",   
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/corona/lineal-2/1/",
+            "precioRegular": 3399,
+            "precioNormal": 2699,
+            "precioVenta": 1799,
+            "stock": 9,
+            "sku": "H32242265N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 2"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/74/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA AEREA CORONA LINEAL + PIECERA - CHAMPAGNE",   
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/corona/otros-modelos/1/",
+            "precioRegular": 3999,
+            "precioNormal": 2899,
+            "precioVenta": 2299,
+            "stock": 9,
+            "sku": "H32242265N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal 2"
+                }
+            ]
+        }
+    ]
+}

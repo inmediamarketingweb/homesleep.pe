@@ -1,0 +1,36 @@
+{
+    "productos":[
+        {
+            "id": 13,
+            "categoria": "dormitorios",
+            "tamaño": "queen",
+            "marca": "Kamas - El Cisne",
+            "modelo": "pocket",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/13/",
+            "nombre": "DORMITORIO QUEEN KAMAS - EL CISNE AMERICANO + COLCHÓN POCKET PERUANO + CABECERA PEDESTAL PRINCESA + PIECERA - CHAMPAGNE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/coronas/princesa/1/",
+            "precioRegular": 4099,
+            "precioNormal": 3299,
+            "precioVenta": 2399,
+            "stock": 9,
+            "sku": "H3325NX10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Lineal 6"
+                }
+            ]
+        }
+    ]
+}

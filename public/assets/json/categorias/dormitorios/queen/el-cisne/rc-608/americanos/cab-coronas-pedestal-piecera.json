@@ -1,0 +1,37 @@
+{
+    "productos":[
+        {
+            "id": 64,
+            "categoria": "dormitorios",
+            "tamaño": "queen",
+            "marca": "Kamas - El Cisne",
+            "modelo": "RC-608",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/queen/el-cisne/rc-608/americanos/64/",
+            "nombre": "DORMITORIO AMERICANO QUEEN KAMAS - EL CISNE + COLCHÓN RC-608 + CABECERA PEDESTAL CORONA - CHAMPAGNE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/rc-608/americanos/coronas/otros-modelos/1/",
+            "precioRegular": 4249,
+            "precioNormal": 3249,
+            "precioVenta": 2249,
+            "stock": 9,
+            "sku": "H3355NX10",
+            "tipo-de-envio": "Gratis",
+            "regalos":["3 cojines", "1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El cisne",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "rc-608",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Lineal 6"
+                }
+            ]
+        }
+    ]
+}

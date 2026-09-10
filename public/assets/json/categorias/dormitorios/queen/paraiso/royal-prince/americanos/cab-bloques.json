@@ -1,0 +1,190 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Royal Prince",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-prince/americanos/8/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL PRINCE + CABECERA AEREA LINEAL HORIZONTAL - BEIGE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-prince/americanos/bloques/lineal-horizontal/1/",
+            "precioRegular": 5199,
+            "precioNormal": 3599,
+            "precioVenta": 2299,
+            "stock": 9,
+            "sku": "H32242156N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Prince",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal Horizontal"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Royal Prince",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-prince/americanos/9/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL PRINCE + CABECERA AEREA MESHLOCK - TURQUESA ÓPALO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-prince/americanos/bloques/meshlock/1/",
+            "precioRegular": 5199,
+            "precioNormal": 3599,
+            "precioVenta": 2299,
+            "stock": 9,
+            "sku": "H32242156N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Prince",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Meshlock"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Royal Prince",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-prince/americanos/10/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL PRINCE + CABECERA AEREA OBSIDIAN - TURQUESA ÓPALO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-prince/americanos/bloques/obsidian/1/",
+            "precioRegular": 4399,
+            "precioNormal": 3599,
+            "precioVenta": 2499,
+            "stock": 9,
+            "sku": "H32242156N13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Prince",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Meshlock"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Royal Prince",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-prince/americanos/11/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL PRINCE + CABECERA AEREA OBSIDIAN - BEIGE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-prince/americanos/bloques/obsidian/2/",
+            "precioRegular": 4999,
+            "precioNormal": 3599,
+            "precioVenta": 2499,
+            "stock": 9,
+            "sku": "H32242156N14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Prince",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Meshlock"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Royal Prince",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-prince/americanos/12/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL PRINCE + CABECERA AEREA PISSAC - BEIGE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-prince/americanos/bloques/pissac/1/",
+            "precioRegular": 5199,
+            "precioNormal": 3599,
+            "precioVenta": 2299,
+            "stock": 9,
+            "sku": "H32242156N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Prince",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Pissac"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Royal Prince",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-prince/americanos/13/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL PRINCE + CABECERA AEREA V - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-prince/americanos/bloques/vienna/1/",
+            "precioRegular": 5199,
+            "precioNormal": 3599,
+            "precioVenta": 2299,
+            "stock": 9,
+            "sku": "H32242156N16",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Prince",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "V"
+                }
+            ]
+        }
+    ]
+}

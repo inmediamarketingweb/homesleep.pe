@@ -1,0 +1,164 @@
+{
+    "productos":[
+        {
+            "id": 6,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "queen",
+            "modelo": "norole",
+            "ruta": "/productos/dormitorios/queen/kamas/norole/americanos/7/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS NOROLE + CABECERA AÉREA EGYPT 4 - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/norole/americanos/bloques/egypt-4/1/", 
+            "precioRegular": 3449,
+            "precioNormal": 2999,
+            "precioVenta": 2049,
+            "stock": 13,
+            "sku": "H3196NX10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Norole",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "egypt 4"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "queen",
+            "modelo": "norole",
+            "ruta": "/productos/dormitorios/queen/kamas/norole/americanos/8/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS NOROLE + CABECERA AÉREA GIRASOL - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/norole/americanos/bloques/girasol/1/", 
+            "precioRegular": 3449,
+            "precioNormal": 2999,
+            "precioVenta": 2049,
+            "stock": 13,
+            "sku": "H3196NX11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Norole",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "girasol"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "queen",
+            "modelo": "norole",
+            "ruta": "/productos/dormitorios/queen/kamas/norole/americanos/9/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS NOROLE + CABECERA AÉREA REPTILIAN - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/norole/americanos/bloques/reptilian/1/", 
+            "precioRegular": 3449,
+            "precioNormal": 2999,
+            "precioVenta": 2049,
+            "stock": 13,
+            "sku": "H3196NX12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Norole",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "reptilian"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "queen",
+            "modelo": "norole",
+            "ruta": "/productos/dormitorios/queen/kamas/norole/americanos/10/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS NOROLE + CABECERA AÉREA TORTUN - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/norole/americanos/bloques/tortun/1/", 
+            "precioRegular": 3449,
+            "precioNormal": 2999,
+            "precioVenta": 2049,
+            "stock": 13,
+            "sku": "H3196NX13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Norole",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "tortun"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "queen",
+            "modelo": "norole",
+            "ruta": "/productos/dormitorios/queen/kamas/norole/americanos/11/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS NOROLE + CABECERA AÉREA VITORIA - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/norole/americanos/bloques/vitoria/1/", 
+            "precioRegular": 3449,
+            "precioNormal": 2999,
+            "precioVenta": 2049,
+            "stock": 13,
+            "sku": "H3196NX14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Norole",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "tortun"
+                }
+            ]
+        }
+    ]
+}
