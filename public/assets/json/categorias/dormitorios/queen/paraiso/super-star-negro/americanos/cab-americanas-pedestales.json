@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Super star negro",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/super-star-negro/americanos/29/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS + COLCHÓN PARAISO SUPER STAR NEGRO + CABECERA PEDESTAL EMPERATRIZ CAPITONEADO - PLATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/super-star-negro/americanos/pedestales/emperatriz/1/",
+            "precioRegular": 4109,
+            "precioNormal": 3099,
+            "precioVenta": 2199,
+            "stock": 9,
+            "sku": "H32242193N26",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Super star Negro",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Emperatriz",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ]
+        }
+    ]
+}

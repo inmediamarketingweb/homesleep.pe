@@ -1,0 +1,36 @@
+{
+    "productos":[
+        {
+            "id": 18,
+            "categoria": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "linea": "americanos",
+            "tamaño": "king",
+            "modelo": "Royal Cloud",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-cloud/americanos/18/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL CLOUD + CABECERA AEREA CORONA LINEAL - CHOCOLATE ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-cloud/americanos/coronas/otros-modelos/1/",
+            "precioRegular": 5199,
+            "precioNormal": 3899,
+            "precioVenta": 2999,
+            "stock": 9,
+            "sku": "H32242225N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Cloud",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Lineal"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Royal Elizabeth",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-elizabeth/americanos/12/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL ELIZABETH + CABECERA PEDESTAL EMPERATRIZ- MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-elizabeth/americanos/pedestales/emperatriz/1/",
+            "precioRegular": 5149,
+            "precioNormal": 3499,
+            "precioVenta": 2599,
+            "stock": 9,
+            "sku": "H3224293N16",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Elizabeth",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Pedestal",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        }
+    ]
+}

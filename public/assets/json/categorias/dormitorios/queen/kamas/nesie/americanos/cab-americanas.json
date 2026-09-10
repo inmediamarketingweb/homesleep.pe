@@ -1,0 +1,164 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "queen",
+            "modelo": "nesie",
+            "ruta": "/productos/dormitorios/queen/kamas/nesie/americanos/1/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS NESIE + CABECERA AÉREA CAPITONEADA - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/nesie/americanos/americanas/capitoneado-1/1/", 
+            "precioRegular": 2899,
+            "precioNormal": 2499,
+            "precioVenta": 1799,
+            "stock": 13,
+            "sku": "H3283NX10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "resortes": "bonell",
+                    "modelo-de-colchón": "Nesie",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "queen",
+            "modelo": "nesie",
+            "ruta": "/productos/dormitorios/queen/kamas/nesie/americanos/2/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS NESIE + CABECERA AÉREA CAPITONEADA - VERDE CERCETA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/nesie/americanos/americanas/capitoneado-1/2/", 
+            "precioRegular": 2899,
+            "precioNormal": 2499,
+            "precioVenta": 1799,
+            "stock": 13,
+            "sku": "H3283NX11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "resortes": "bonell",
+                    "modelo-de-colchón": "Nesie",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "queen",
+            "modelo": "nesie",
+            "ruta": "/productos/dormitorios/queen/kamas/nesie/americanos/3/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS NESIE + CABECERA AÉREA CAPITONEADA - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/nesie/americanos/americanas/capitoneado-1/3/", 
+            "precioRegular": 2899,
+            "precioNormal": 2499,
+            "precioVenta": 1799,
+            "stock": 13,
+            "sku": "H3283NX12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "resortes": "bonell",
+                    "modelo-de-colchón": "Nesie",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "queen",
+            "modelo": "nesie",
+            "ruta": "/productos/dormitorios/queen/kamas/nesie/americanos/4/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS NESIE + CABECERA AÉREA CAPITONEADA - PLOMO OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/nesie/americanos/americanas/capitoneado-1/4/", 
+            "precioRegular": 2899,
+            "precioNormal": 2499,
+            "precioVenta": 1799,
+            "stock": 13,
+            "sku": "H3283NX13",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "resortes": "bonell",
+                    "modelo-de-colchón": "Nesie",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "dormitorios",
+            "marca": "kamas",
+            "línea": "americanos",
+            "tamaño": "queen",
+            "modelo": "nesie",
+            "ruta": "/productos/dormitorios/queen/kamas/nesie/americanos/5/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS NESIE + CABECERA AÉREA CAPITONEADA - GRIS RATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/nesie/americanos/americanas/capitoneado-1/5/", 
+            "precioRegular": 2899,
+            "precioNormal": 2499,
+            "precioVenta": 1799,
+            "stock": 13,
+            "sku": "H3283NX14",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "resortes": "bonell",
+                    "modelo-de-colchón": "Nesie",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneada"
+                }
+            ]
+        }
+    ]
+}

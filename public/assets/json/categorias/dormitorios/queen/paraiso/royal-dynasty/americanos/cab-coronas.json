@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Royal dynasty",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-dynasty/americanos/16/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL DYNASTY + CABECERA AEREA CORONA - BEIGE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-dynasty/americanos/coronas/otros-modelos/1/",
+            "precioRegular": 5199,
+            "precioNormal": 3599,
+            "precioVenta": 2899,
+            "stock": 9,
+            "sku": "H3224275N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Dynasty",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "V"
+                }
+            ]
+        }
+    ]
+}

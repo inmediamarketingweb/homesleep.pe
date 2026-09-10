@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Royal dynasty",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-dynasty/americanos/16/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO ROYAL DYNASTY + CABECERA PEDESTAL EMPERATRIZ - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-dynasty/americanos/pedestal/emperatriz/1/",
+            "precioRegular": 5299,
+            "precioNormal": 3599,
+            "precioVenta": 2949,
+            "stock": 9,
+            "sku": "H3224273N21",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Dynasty",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Emperatriz",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "V"
+                }
+            ]
+        }
+    ]
+}

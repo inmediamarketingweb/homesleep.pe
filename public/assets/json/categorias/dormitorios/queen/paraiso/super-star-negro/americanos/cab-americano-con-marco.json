@@ -1,0 +1,66 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Super star negro",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/super-star-negro/americanos/25/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS + COLCHÓN PARAISO SUPER STAR NEGRO + CABECERA AEREA CON MARCO CAPITONEADO - CAMEL",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/super-star-negro/americanos/con-marco/capitoneado-1/1/",
+            "precioRegular": 4119,
+            "precioNormal": 3109,
+            "precioVenta": 2099,
+            "stock": 9,
+            "sku": "H32242194N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Super star Negro",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Con marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Super star negro",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/super-star-negro/americanos/26/",
+            "nombre": "DORMITORIO AMERICANO KING KAMAS + COLCHÓN PARAISO SUPER STAR NEGRO + CABECERA AEREA CON MARCO CAPITONEADO - PLATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/super-star-negro/americanos/con-marco/capitoneado-1/2/",
+            "precioRegular": 4119,
+            "precioNormal": 3109,
+            "precioVenta": 2099,
+            "stock": 9,
+            "sku": "H32242194N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Super star Negro",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Con marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Royal Elizabeth",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-elizabeth/americanos/11/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL ELIZABETH + CABECERA CORONA - PLOMO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-elizabeth/americanos/coronas/otros-modelos/1/",
+            "precioRegular": 5149,
+            "precioNormal": 3499,
+            "precioVenta": 2599,
+            "stock": 9,
+            "sku": "H3224295N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Elizabeth",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ]
+        }
+    ]
+}

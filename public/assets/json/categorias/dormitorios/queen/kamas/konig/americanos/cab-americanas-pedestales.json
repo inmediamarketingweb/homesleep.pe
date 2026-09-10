@@ -1,0 +1,228 @@
+{
+    "productos":[
+        {
+            "id": 7,
+            "categoria": "dormitorios",
+            "tamaño": "queen",
+            "marca": "kamas",
+            "modelo": "konig",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/queen/kamas/konig/americanos/7/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL CAPITONEADA - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/americanos/americanas/capitoneado-1/8/", 
+            "precioRegular": 3649,
+            "precioNormal": 3209,
+            "precioVenta": 2549,
+            "stock": 13,
+            "sku": "H312113NX16",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "categoria": "dormitorios",
+            "tamaño": "queen",
+            "marca": "kamas",
+            "modelo": "konig",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/queen/kamas/konig/americanos/8/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/americanos/americanas/capitoneado-1/9/", 
+            "precioRegular": 3649,
+            "precioNormal": 3209,
+            "precioVenta": 2549,
+            "stock": 13,
+            "sku": "H312113NX17",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "categoria": "dormitorios",
+            "tamaño": "queen",
+            "marca": "kamas",
+            "modelo": "konig",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/queen/kamas/konig/americanos/9/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/americanos/americanas/capitoneado-1/9/", 
+            "precioRegular": 3649,
+            "precioNormal": 3209,
+            "precioVenta": 2549,
+            "stock": 13,
+            "sku": "H312113NX22",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "categoria": "dormitorios",
+            "tamaño": "queen",
+            "marca": "kamas",
+            "modelo": "konig",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/queen/kamas/konig/americanos/13/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - COBALTO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/americanos/americanas/capitoneado-1/10/", 
+            "precioRegular": 3649,
+            "precioNormal": 3209,
+            "precioVenta": 2549,
+            "stock": 13,
+            "sku": "H312113NX18",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "categoria": "dormitorios",
+            "tamaño": "queen",
+            "marca": "kamas",
+            "modelo": "konig",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/queen/kamas/konig/americanos/10/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/americanos/americanas/capitoneado-1/11/",
+            "precioRegular": 3649,
+            "precioNormal": 3209,
+            "precioVenta": 2549,
+            "stock": 13,
+            "sku": "H312113NX19",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "categoria": "dormitorios",
+            "tamaño": "queen",
+            "marca": "kamas",
+            "modelo": "konig",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/queen/kamas/konig/americanos/11/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - GRIS",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/americanos/americanas/capitoneado-1/12/",
+            "precioRegular": 3649,
+            "precioNormal": 3209,
+            "precioVenta": 2549,
+            "stock": 13,
+            "sku": "H312113NX20",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "categoria": "dormitorios",
+            "tamaño": "queen",
+            "marca": "kamas",
+            "modelo": "konig",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/queen/kamas/konig/americanos/12/",
+            "nombre": "DORMITORIO AMERICANO QUEEN + COLCHÓN KAMAS KONIG + CABECERA PEDESTAL CAPITONEADA + 2 VELADORES VINTAGE - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/kamas/konig/americanos/americanas/capitoneado-1/13/",
+            "precioRegular": 3649,
+            "precioNormal": 3209,
+            "precioVenta": 2549,
+            "stock": 13,
+            "sku": "H312113NX21",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Konig",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

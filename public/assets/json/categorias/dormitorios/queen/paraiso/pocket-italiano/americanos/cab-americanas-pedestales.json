@@ -1,0 +1,469 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/16/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - COBALTO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/1/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N23",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/17/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - AZUL NOCHE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/2/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N24",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/18/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - CAMEL",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/3/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N25",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/19/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - ARENA OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/4/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N26",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/21/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - VERDE CERCETA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/5/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N27",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/22/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - LILA ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/6/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N28",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/23/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - ROJO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/8/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N29",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/24/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - NEGRO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/7/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N30",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/25/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - VINO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/9/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N31",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/26/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - TURQUESA ÓPALO ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/10/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N49",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/27/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - IVORY ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/11/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N32",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/28/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - PALO ROSA ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/12/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N33",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/29/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - FUCSIA ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/13/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N34",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/31/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - ROSADO BEBÉ ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/15/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N35",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket italiano",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-italiano/americanos/32/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO POCKET ITALIANO + CABECERA PEDESTAL EMPERATRIZ - GRIS ",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-italiano/americanos/pedestales/emperatriz/14/",
+            "precioRegular": 3399,
+            "precioNormal": 2879,
+            "precioVenta": 2029,
+            "stock": 9,
+            "sku": "H32242263N36",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americano",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket Italiano",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos Rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        }
+    ]
+}

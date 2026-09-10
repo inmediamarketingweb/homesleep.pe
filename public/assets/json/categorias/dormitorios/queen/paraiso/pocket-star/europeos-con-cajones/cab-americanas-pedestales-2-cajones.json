@@ -1,0 +1,101 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket Star",
+            "linea": "europeos con cajones",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-star/europeos-con-cajones/1/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO POCKET STAR + CABECERA PEDESTAL CAPITONEADO 1 + 2 CAJONES LATERALES - MORO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-star/europeos-con-cajones/pedestales/emperatriz/1/",
+            "precioRegular": 5299,
+            "precioNormal": 3799,
+            "precioVenta": 2699,
+            "stock": 9,
+            "sku": "H32341143N10",
+            "tipo-de-envio": "Gratis",
+            "regalos":[ "1 puff" ],
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "europeos con cajones",
+                    "tamaño": "king",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket star",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {   
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket Star",
+            "linea": "europeos con cajones",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-star/europeos-con-cajones/2/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO POCKET STAR + CABECERA PEDESTAL CAPITONEADO 1 + 2 CAJONES AL PIE - BEIGE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-star/europeos-con-cajones/pedestales/emperatriz/2/",
+            "colores": "si",
+            "precioRegular": 5299,
+            "precioNormal": 3799,
+            "precioVenta": 2699,
+            "stock": 9,
+            "sku": "H32341143N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "europeos con cajones",
+                    "tamaño": "king",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket star",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        },
+        {   
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Pocket Star",
+            "linea": "europeos con cajones",
+            "ruta": "/productos/dormitorios/king/paraiso/pocket-star/europeos-con-cajones/2/",
+            "nombre": "DORMITORIO KAMAS AMERICANO KING + COLCHÓN PARAISO POCKET STAR + CABECERA PEDESTAL CAPITONEADO 1 + 2 CAJONES AL PIE - CHOCOLATE",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/pocket-star/europeos-con-cajones/pedestales/emperatriz/3/",
+            "colores": "si",
+            "precioRegular": 5299,
+            "precioNormal": 3799,
+            "precioVenta": 2699,
+            "stock": 9,
+            "sku": "H32341143N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Paraiso",
+                    "línea": "europeos con cajones",
+                    "tamaño": "king",
+                    "cajones": "Si",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket star",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        }
+    ]
+}

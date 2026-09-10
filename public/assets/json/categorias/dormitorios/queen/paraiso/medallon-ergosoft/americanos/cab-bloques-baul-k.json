@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "medallon ergosoft",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/medallon/americanos/33/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AEREA EGYPT + BAUL KING - ANTIFLUIDO PLATA NEW",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/medallon/americanos/bloques/egytp-1/2/",
+            "precioRegular": 3899,
+            "precioNormal": 3599,
+            "precioVenta": 2349,
+            "stock": 9,
+            "sku": "H32242106N28",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Medallon Ergosoft",
+                    "resortes": "Cosisoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Egypt"
+                }
+            ]
+        }
+    ]
+}

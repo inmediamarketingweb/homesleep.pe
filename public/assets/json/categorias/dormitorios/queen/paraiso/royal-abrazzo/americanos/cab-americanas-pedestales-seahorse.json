@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "royal abrazzo",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/abrazzo/americanos/24/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL ABRAZZO + CABECERA AEREA CORONA SEA HORSE - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/abrazzo/americanos/coronas/sea-horse/1/",
+            "precioRegular": 4999,
+            "precioNormal": 4399,
+            "precioVenta": 3599,
+            "stock": 9,
+            "sku": "H3224215N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal abrazzo",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Brazos Curvos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

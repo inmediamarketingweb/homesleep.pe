@@ -1,0 +1,103 @@
+{
+    "productos":[
+        {
+            "id": 6,
+            "categoria": "dormitorios",
+            "tamaño": "queen",
+            "marca": "Kamas - El Cisne",
+            "modelo": "argus pocket",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/queen/el-cisne/argus-pocket/americanos/6/",
+            "nombre": "DORMITORIO AMERICANO QUEEN KAMAS - EL CISNE + COLCHÓN ARGUS POCKET + CABECERA AÉREA REPTILIAN + 2 VELADORES CLÁSICO 2 - IVORY",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/argus-pocket/americanos/bloques/reptilian/6/",
+            "precioRegular": 3899,
+            "precioNormal": 3249,
+            "precioVenta": 2199,
+            "stock": 9,
+            "sku": "H3266XN15",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Argus pocket",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Reptilian"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "categoria": "dormitorios",
+            "tamaño": "queen",
+            "marca": "Kamas - El Cisne",
+            "modelo": "argus pocket",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/queen/el-cisne/argus-pocket/americanos/7/",
+            "nombre": "DORMITORIO AMERICANO QUEEN KAMAS - EL CISNE + COLCHÓN ARGUS POCKET + CABECERA AÉREA REPTILIAN + 2 VELADORES CLÁSICO 2 - AZUL",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/argus-pocket/americanos/bloques/reptilian/7/",
+            "precioRegular": 3899,
+            "precioNormal": 3249,
+            "precioVenta": 2199,
+            "stock": 9,
+            "sku": "H3266XN16",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Argus pocket",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Reptilian"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "categoria": "dormitorios",
+            "tamaño": "queen",
+            "marca": "Kamas - El Cisne",
+            "modelo": "argus pocket",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/queen/el-cisne/argus-pocket/americanos/8/",
+            "nombre": "DORMITORIO AMERICANO QUEEN KAMAS - EL CISNE + COLCHÓN ARGUS POCKET + CABECERA AÉREA REPTILIAN + 2 VELADORES CLÁSICO 2 - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/argus-pocket/americanos/bloques/reptilian/8/",
+            "precioRegular": 3899,
+            "precioNormal": 3249,
+            "precioVenta": 2199,
+            "stock": 9,
+            "sku": "H3266XN17",
+            "tipo-de-envio": "Gratis",
+            "regalos":["1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "Americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Argus pocket",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Reptilian"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "tamaño": "king",
+            "marca": "Kamas - Paraiso",
+            "modelo": "Royal Elizabeth",
+            "linea": "americanos",
+            "ruta": "/productos/dormitorios/king/paraiso/royal-elizabeth/americanos/10/",
+            "nombre": "DORMITORIO AMERICANO KAMAS KING + COLCHÓN PARAISO ROYAL ELIZABETH + CABECERA CON MARCO - PLATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/paraiso/royal-elizabeth/americanos/con-marco/otros-modelos/1/",
+            "precioRegular": 5099,
+            "precioNormal": 3599,
+            "precioVenta": 2549,
+            "stock": 9,
+            "sku": "H3224294N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "americanos",
+                    "tamaño": "king",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Royal Elizabeth",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Con Marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado"
+                }
+            ]
+        }
+    ]
+}

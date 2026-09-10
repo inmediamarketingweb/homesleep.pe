@@ -1,0 +1,37 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "tamaño": "queen",
+            "marca": "Kamas - El Cisne",
+            "modelo": "pocket",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/queen/el-cisne/pocket/americanos/1/",
+            "nombre": "DORMITORIO QUEEN KAMAS - EL CISNE AMERICANO + COLCHÓN POCKET PERUANO + CABECERA AÉREA CAPITONEADO - ROJO",
+            "fotos": "/assets/imagenes/productos/dormitorios/king/el-cisne/pocket-peruano/americanos/americanas/capitoneado-1/1/",
+            "precioRegular": 3099,
+            "precioNormal": 2499,
+            "precioVenta": 1599,
+            "stock": 9,
+            "sku": "H3383XN10",
+            "tipo-de-envio": "Gratis",
+            "regalos": ["3 cojines", "1 puff"],
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "americanos",
+                    "tamaño": "queen",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Pocket",
+                    "resortes": "Pocket",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Capitoneado 1"
+                }
+            ]
+        }
+    ]
+}
