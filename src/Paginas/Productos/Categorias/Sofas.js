@@ -5,9 +5,11 @@ import { useParams, useLocation, useNavigate, Link } from 'react-router-dom';
 import '../Productos.css';
 import './Layout.css';
 
+// import BtnGeneral from './Componentes/BtnGeneral/BtnGeneral';
 import Categorias from '../Componentes/Categorias/Categorias';
 import FiltrosTop from '../Componentes/FiltrosTop/FiltrosTop';
 import { Producto } from '../../../Componentes/Plantillas/Producto/Producto';
+import { usePagination } from '../../../Hooks/usePagination';
 import RangoPrecios from '../Componentes/RangoPrecios/RangoPrecios';
 
 const normalizarTexto = (texto) => {
@@ -17,121 +19,64 @@ const normalizarTexto = (texto) => {
     return texto.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
 };
 
-const filtroKeyMap = {
-    "tipo": "tipo",
-    "marca": "marca", 
-    "línea": "línea",
-    "configuración": "configuración",
-    "posición": "posición",
-    "tamaño": "tamaño"
-};
-
 function Sofas() {
     const { sub1, sub2, sub3, sub4, sub5, marca, configuracion, cuerpos, orientacion, tamaño, id } = useParams();
     const location = useLocation();
     const navigate = useNavigate();
     const [productos, setProductos] = useState([]);
     const [loading, setLoading] = useState(true);
-    const [filtros, setFiltros] = useState([]);
-    const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
-    const [isHotSaleActive, setIsHotSaleActive] = useState(() => {
-        const saved = localStorage.getItem('hotSaleActive');
-        return saved === 'true';
+    const [filtrosData, setFiltrosData] = useState(null);
+    const [orden, setOrden] = useState("ultimo");
+    const [viewMode, setViewMode] = useState(() => {
+        const savedMode = localStorage.getItem('viewModeSofas');
+        return savedMode || 'grid';
     });
-    const [hotSaleSKUs, setHotSaleSKUs] = useState([]);
+    const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
     const [isFiltersOpen, setIsFiltersOpen] = useState(false);
     const filtersPanelRef = useRef(null);
-    const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
-    const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 20;
+    const itemsPerPage = 28;
+
+    const [activeFilters, setActiveFilters] = useState({
+        tipo: null,
+        tamaño: null,
+        marca: null,
+        línea: null,
+        modelo: null,
+        configuración: null,
+        posición: null,
+        cuerpos: null,
+        orientación: null
+    });
+
+    const [envioGratisActivo, setEnvioGratisActivo] = useState(false);
+    const [filtroSkus, setFiltroSkus] = useState(null);
+    const [resetFiltersTrigger, setResetFiltersTrigger] = useState(false);
     const [hasActiveFilters, setHasActiveFilters] = useState(false);
 
-    // Leer el orden desde la URL
-    const [orden, setOrden] = useState(() => {
-        const params = new URLSearchParams(location.search);
-        return params.get('orden') || 'ultimo';
-    });
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
 
     const closeFilters = () => {
         setIsFiltersOpen(false);
     };
 
-    const toggleEnvioGratis = () => {
-        setEnvioGratisActivo(!envioGratisActivo);
-        setCurrentPage(1);
+    const filterParamMap = {
+        'tipo': 'tipo',
+        'tamaño': 'tamaño',
+        'marca': 'marca',
+        'línea': 'línea',
+        'modelo': 'modelo',
+        'configuración': 'configuración',
+        'posición': 'posición',
+        'cuerpos': 'cuerpos',
+        'orientación': 'orientación'
     };
 
-    const handleHotSaleToggle = () => {
-        const newState = !isHotSaleActive;
-        setIsHotSaleActive(newState);
-        localStorage.setItem('hotSaleActive', newState);
-        setCurrentPage(1);
-    };
-
-    // Función para manejar el cambio de orden con actualización de URL
-    const handleOrdenChange = (nuevoOrden) => {
-        const params = new URLSearchParams(location.search);
-        
-        if (nuevoOrden === 'ultimo') {
-            params.delete('orden');
-        } else {
-            params.set('orden', nuevoOrden);
-        }
-        
-        setOrden(nuevoOrden);
-        setCurrentPage(1);
-        navigate(`${location.pathname}?${params.toString()}`, { replace: true });
-    };
-
-    // Detectar si hay filtros activos (incluyendo precio)
-    useEffect(() => {
-        const params = new URLSearchParams(location.search);
-        const hasPriceFilter = params.has('min') || params.has('max');
-        const hasOtherFilters = queryParams.toString() || envioGratisActivo || isHotSaleActive;
-        
-        setHasActiveFilters(hasPriceFilter || hasOtherFilters);
-    }, [queryParams, envioGratisActivo, isHotSaleActive, location.search]);
-
-    // Sincronizar orden con la URL cuando cambia
-    useEffect(() => {
-        const params = new URLSearchParams(location.search);
-        const ordenFromUrl = params.get('orden');
-        if (ordenFromUrl && ordenFromUrl !== orden) {
-            setOrden(ordenFromUrl);
-        }
-    }, [location.search]);
-
-    useEffect(() => {
-        const handleClickOutside = (event) => {
-            if (filtersPanelRef.current && 
-                !filtersPanelRef.current.contains(event.target) &&
-                !event.target.closest('.filters-button-open')) {
-                setIsFiltersOpen(false);
-            }
-        };
-
-        document.addEventListener('mousedown', handleClickOutside);
-        return () => {
-            document.removeEventListener('mousedown', handleClickOutside);
-        };
-    }, []);
-
-    // Cargar SKUs de Hot Sale (más vendidos)
-    useEffect(() => {
-        const cargarHotSaleSKUs = async () => {
-            try {
-                const response = await fetch('/assets/json/mas-vendidos.json');
-                const skus = await response.json();
-                setHotSaleSKUs(skus);
-            } catch (error) {
-                console.error("Error cargando mas-vendidos.json:", error);
-                setHotSaleSKUs([]);
-            }
-        };
-        
-        cargarHotSaleSKUs();
-    }, []);
-
+    // Determinar estructura según la ruta
     const determinarEstructura = useCallback(() => {
         const path = location.pathname;
         
@@ -151,6 +96,91 @@ function Sofas() {
         
         return { tipo: 'general', niveles: 0 };
     }, [location.pathname]);
+
+    useEffect(() => {
+        const params = new URLSearchParams(location.search);
+        const newActiveFilters = { ...activeFilters };
+        let hasChanges = false;
+
+        Object.entries(filterParamMap).forEach(([paramKey, stateKey]) => {
+            const value = params.get(paramKey);
+            if (value !== null) {
+                newActiveFilters[stateKey] = value;
+                hasChanges = true;
+            } else if (newActiveFilters[stateKey] !== null) {
+                newActiveFilters[stateKey] = null;
+                hasChanges = true;
+            }
+        });
+
+        if (hasChanges) {
+            setActiveFilters(newActiveFilters);
+        }
+    }, [location.search]);
+
+    // Detectar si hay filtros activos (incluyendo precio)
+    useEffect(() => {
+        const params = new URLSearchParams(location.search);
+        const hasPriceFilter = params.has('min') || params.has('max');
+        const hasOtherFilters = activeFilters.tipo || activeFilters.tamaño || 
+                               activeFilters.marca || activeFilters.línea || 
+                               activeFilters.modelo || activeFilters['configuración'] || 
+                               activeFilters['posición'] || activeFilters['cuerpos'] || 
+                               activeFilters['orientación'] || filtroSkus || envioGratisActivo;
+        
+        setHasActiveFilters(hasPriceFilter || hasOtherFilters);
+    }, [activeFilters, filtroSkus, envioGratisActivo, location.search]);
+
+    // Sincronizar sub1 con activeFilters.tipo
+    useEffect(() => {
+        if (sub1) {
+            const categoriaNormalizada = normalizarTexto(sub1);
+            if (activeFilters.tipo !== categoriaNormalizada) {
+                setActiveFilters(prev => ({
+                    ...prev,
+                    tipo: categoriaNormalizada
+                }));
+            }
+        } else {
+            if (activeFilters.tipo !== null) {
+                setActiveFilters(prev => ({
+                    ...prev,
+                    tipo: null
+                }));
+            }
+        }
+    }, [sub1]);
+
+    useEffect(() => {
+        localStorage.setItem('viewModeSofas', viewMode);
+    }, [viewMode]);
+
+    useEffect(() => {
+        if (sub1 && filtrosData?.filtros) {
+            const categorias = filtrosData.filtros.find(f => f.categorías);
+            if (categorias && activeFilters.tipo) {
+                const categoriasDisponibles = categorias.categorías.map(c => normalizarTexto(c.categoría));
+                if (!categoriasDisponibles.includes(normalizarTexto(activeFilters.tipo))) {
+                    handleFilterChange('tipo', null);
+                }
+            }
+        }
+    }, [sub1, filtrosData]);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (filtersPanelRef.current && 
+                !filtersPanelRef.current.contains(event.target) &&
+                !event.target.closest('.filters-button-open')) {
+                setIsFiltersOpen(false);
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, []);
 
     useEffect(() => {        
         if (id || (sub5 && !isNaN(sub5))) {
@@ -215,7 +245,13 @@ function Sofas() {
                     try {
                         const response = await fetch(url);
                         const data = await response.json();
-                        return data.productos || [];
+                        
+                        const productosConFicha = data.productos?.map(producto => ({
+                            ...producto,
+                            fichaTecnica: data.ficha?.[0] || {}
+                        })) || [];
+                        
+                        return productosConFicha;
                     } catch (error) {
                         console.error(`Error cargando ${url}:`, error);
                         return [];
@@ -226,10 +262,9 @@ function Sofas() {
                 const todosProductos = productosPorArchivo.flat();
 
                 setProductos(todosProductos);
-                setCurrentPage(1);
+                setLoading(false);
             } catch (error) {
                 console.error("Error cargando productos de sofás:", error);
-            } finally {
                 setLoading(false);
             }
         };
@@ -246,7 +281,7 @@ function Sofas() {
             try {
                 const response = await fetch('/assets/json/categorias/sofas/filtros.json');
                 const data = await response.json();
-                setFiltros(data.filtros || []);
+                setFiltrosData(data);
             } catch (error) {
                 console.error("Error cargando filtros:", error);
             }
@@ -255,175 +290,748 @@ function Sofas() {
         cargarFiltros();
     }, [sub1, sub2, sub3, sub4, sub5, marca, id, location.pathname, determinarEstructura]);
 
-    // PRIMERO: Aplicar filtros de URL, envío gratis y Hot Sale (excluyendo precio)
-    const productosBaseFiltrados = useMemo(() => {
-        if (productos.length === 0) return [];
-        
-        let productosFiltradosTemp = productos;
-        
-        if (queryParams.entries().length === 0 && !envioGratisActivo && !isHotSaleActive) {
-            productosFiltradosTemp = productos;
+    const getProductValue = (product, fieldName) => {
+        if (!product) return null;
+
+        const variants = new Set();
+
+        variants.add(fieldName);
+        variants.add(fieldName.toLowerCase());
+        variants.add(fieldName.toUpperCase());
+        variants.add(fieldName.replace(/-/g, ' '));
+        variants.add(fieldName.replace(/ /g, '-'));
+        variants.add(fieldName.replace(/ /g, '_'));
+
+        if (fieldName.endsWith('ón')) {
+            variants.add(fieldName.slice(0, -1) + 'es');
+        } else if (fieldName.endsWith('or')) {
+            variants.add(fieldName + 's');
+            variants.add(fieldName.toLowerCase() + 's');
+        } else if (fieldName.endsWith('e')) {
+            variants.add(fieldName.slice(0, -1) + 'as');
+            variants.add(fieldName.toLowerCase().slice(0, -1) + 'as');
+        } else if (fieldName.endsWith('a') || fieldName.endsWith('o')) {
+            variants.add(fieldName + 's');
+            variants.add(fieldName.toLowerCase() + 's');
+        } else if (fieldName.endsWith('l')) {
+            variants.add(fieldName + 'es');
+            variants.add(fieldName.toLowerCase() + 'es');
         } else {
-            productosFiltradosTemp = productos.filter(producto => {
-                if (envioGratisActivo) {
-                    if (producto["tipo-de-envio"] !== "Gratis") {
-                        return false;
+            variants.add(fieldName + 's');
+            variants.add(fieldName.toLowerCase() + 's');
+        }
+
+        const newVariants = new Set(variants);
+        variants.forEach(v => {
+            newVariants.add(v.replace(/ /g, '-'));
+            newVariants.add(v.replace(/-/g, ' '));
+        });
+
+        const fieldMappings = {
+            'tipo': ['tipo', 'tipos', 'categoría', 'categorías', 'categoria', 'categorias', 'subcategoría', 'subcategorías', 'subcategoria', 'subcategorias'],
+            'tamaño': ['tamaño', 'tamaños', 'medida', 'medidas', 'tamano', 'tamanos'],
+            'marca': ['marca', 'marcas'],
+            'línea': ['línea', 'líneas', 'linea', 'lineas'],
+            'modelo': ['modelo', 'modelos'],
+            'configuración': ['configuración', 'configuracion', 'configuraciones', 'config'],
+            'posición': ['posición', 'posicion', 'posiciones', 'pos'],
+            'cuerpos': ['cuerpos', 'cuerpo', 'plazas', 'plaza'],
+            'orientación': ['orientación', 'orientacion', 'orientaciones', 'orient', 'dirección', 'direccion']
+        };
+
+        let keysToSearch = new Set();
+
+        if (fieldMappings[fieldName]) {
+            fieldMappings[fieldName].forEach(key => keysToSearch.add(key));
+        } else {
+            newVariants.forEach(v => keysToSearch.add(v));
+        }
+
+        for (const key of keysToSearch) {
+            if (product[key] !== undefined && product[key] !== null && product[key] !== '') {
+                const value = product[key];
+                return typeof value === 'string' ? value : String(value);
+            }
+        }
+
+        if (product['detalles-del-producto'] && product['detalles-del-producto'].length > 0) {
+            const detalles = product['detalles-del-producto'][0];
+            for (const key of keysToSearch) {
+                if (detalles[key] !== undefined && detalles[key] !== null && detalles[key] !== '') {
+                    const value = detalles[key];
+                    return typeof value === 'string' ? value : String(value);
+                }
+            }
+        }
+
+        if (product.fichaTecnica) {
+            for (const key of keysToSearch) {
+                if (product.fichaTecnica[key] !== undefined && product.fichaTecnica[key] !== null && product.fichaTecnica[key] !== '') {
+                    const value = product.fichaTecnica[key];
+                    return typeof value === 'string' ? value : String(value);
+                }
+            }
+        }
+
+        if (product.ficha && product.ficha.length > 0) {
+            const ficha = product.ficha[0];
+            for (const key of keysToSearch) {
+                if (ficha[key] !== undefined && ficha[key] !== null && ficha[key] !== '') {
+                    const value = ficha[key];
+                    return typeof value === 'string' ? value : String(value);
+                }
+            }
+        }
+
+        for (const key of Object.keys(product)) {
+            const keyLower = key.toLowerCase().replace(/[^a-z0-9]/g, '');
+            for (const searchKey of keysToSearch) {
+                const searchLower = searchKey.toLowerCase().replace(/[^a-z0-9]/g, '');
+                if (keyLower === searchLower || keyLower.includes(searchLower) || searchLower.includes(keyLower)) {
+                    if (product[key] !== undefined && product[key] !== null && product[key] !== '') {
+                        const value = product[key];
+                        return typeof value === 'string' ? value : String(value);
                     }
                 }
+            }
+        }
 
-                if (queryParams.entries().length === 0) return true;
+        return null;
+    };
 
-                for (let [paramUrl, valorFiltro] of queryParams.entries()) {
-                    // Saltar parámetros de precio (se aplican después)
-                    if (paramUrl === 'min' || paramUrl === 'max') continue;
-                    // Saltar parámetro de orden
-                    if (paramUrl === 'orden') continue;
+    const updateURL = (filterType, value) => {
+        const params = new URLSearchParams(location.search);
 
-                    const claveJson = filtroKeyMap[paramUrl];
-                    if (!claveJson) continue;
+        const paramMap = {
+            tipo: 'tipo',
+            tamaño: 'tamaño',
+            marca: 'marca',
+            línea: 'línea',
+            modelo: 'modelo',
+            'configuración': 'configuración',
+            'posición': 'posición',
+            'cuerpos': 'cuerpos',
+            'orientación': 'orientación'
+        };
 
-                    const normalizadoFiltro = normalizarTexto(valorFiltro);
-                    const detalles = producto["detalles-del-producto"] || [];
+        const paramName = paramMap[filterType] || filterType;
 
-                    const cumpleFiltro = detalles.some(detalle => {
-                        const valorProducto = detalle[claveJson];
-                        if (!valorProducto) return false;
+        if (value === null || value === undefined) {
+            params.delete(paramName);
+        } else {
+            params.set(paramName, value);
+        }
 
-                        const normalizadoProducto = normalizarTexto(valorProducto.toString());
-                        return normalizadoProducto === normalizadoFiltro;
-                    });
+        if (filterType === 'tipo') {
+            params.delete('tamaño');
+            params.delete('marca');
+            params.delete('línea');
+            params.delete('modelo');
+            params.delete('configuración');
+            params.delete('posición');
+            params.delete('cuerpos');
+            params.delete('orientación');
+        }
+        if (filterType === 'tamaño') {
+            params.delete('marca');
+            params.delete('línea');
+            params.delete('modelo');
+        }
+        if (filterType === 'marca') {
+            params.delete('línea');
+            params.delete('modelo');
+        }
+        if (filterType === 'línea') {
+            params.delete('modelo');
+        }
+        if (filterType === 'configuración') {
+            params.delete('posición');
+            params.delete('cuerpos');
+            params.delete('orientación');
+        }
+        if (filterType === 'posición') {
+            params.delete('cuerpos');
+            params.delete('orientación');
+        }
+        if (filterType === 'cuerpos') {
+            params.delete('orientación');
+        }
 
-                    if (!cumpleFiltro) return false;
+        const newSearch = params.toString();
+        const newPath = location.pathname + (newSearch ? `?${newSearch}` : '');
+        navigate(newPath, { replace: true });
+        
+        scrollToTop();
+    };
+
+    const handleFilterChange = (filterType, value) => {
+        setActiveFilters(prev => {
+            const newFilters = { ...prev };
+            
+            if (filterType === 'tipo') {
+                newFilters.tipo = value;
+                newFilters.tamaño = null;
+                newFilters.marca = null;
+                newFilters.línea = null;
+                newFilters.modelo = null;
+                newFilters['configuración'] = null;
+                newFilters['posición'] = null;
+                newFilters['cuerpos'] = null;
+                newFilters['orientación'] = null;
+
+                const params = new URLSearchParams(location.search);
+                params.delete('tamaño');
+                params.delete('marca');
+                params.delete('línea');
+                params.delete('modelo');
+                params.delete('configuración');
+                params.delete('posición');
+                params.delete('cuerpos');
+                params.delete('orientación');
+
+                if (value === null) {
+                    params.delete('tipo');
+                } else {
+                    params.set('tipo', value);
                 }
-                return true;
-            });
+
+                const newSearch = params.toString();
+                const newPath = location.pathname + (newSearch ? `?${newSearch}` : '');
+                navigate(newPath, { replace: true });
+                
+                scrollToTop();
+                
+                return newFilters;
+            }
+
+            if (filterType === 'tamaño') {
+                if (value === null) {
+                    newFilters.tamaño = null;
+                    newFilters.marca = null;
+                    newFilters.línea = null;
+                    newFilters.modelo = null;
+                } else {
+                    newFilters.tamaño = value;
+                    newFilters.marca = null;
+                    newFilters.línea = null;
+                    newFilters.modelo = null;
+                }
+            } else if (filterType === 'marca') {
+                if (value === null) {
+                    newFilters.marca = null;
+                    newFilters.línea = null;
+                    newFilters.modelo = null;
+                } else {
+                    newFilters.marca = value;
+                    newFilters.línea = null;
+                    newFilters.modelo = null;
+                }
+            } else if (filterType === 'línea') {
+                if (value === null) {
+                    newFilters.línea = null;
+                    newFilters.modelo = null;
+                } else {
+                    newFilters.línea = value;
+                    newFilters.modelo = null;
+                }
+            } else if (filterType === 'configuración') {
+                if (value === null) {
+                    newFilters['configuración'] = null;
+                    newFilters['posición'] = null;
+                    newFilters['cuerpos'] = null;
+                    newFilters['orientación'] = null;
+                } else {
+                    newFilters['configuración'] = value;
+                    newFilters['posición'] = null;
+                    newFilters['cuerpos'] = null;
+                    newFilters['orientación'] = null;
+                }
+            } else if (filterType === 'posición') {
+                if (value === null) {
+                    newFilters['posición'] = null;
+                    newFilters['cuerpos'] = null;
+                    newFilters['orientación'] = null;
+                } else {
+                    newFilters['posición'] = value;
+                    newFilters['cuerpos'] = null;
+                    newFilters['orientación'] = null;
+                }
+            } else if (filterType === 'cuerpos') {
+                if (value === null) {
+                    newFilters['cuerpos'] = null;
+                    newFilters['orientación'] = null;
+                } else {
+                    newFilters['cuerpos'] = value;
+                    newFilters['orientación'] = null;
+                }
+            } else {
+                if (value === null) {
+                    newFilters[filterType] = null;
+                } else {
+                    newFilters[filterType] = value;
+                }
+            }
+            
+            const filterToUpdate = value === null ? filterType : filterType;
+            updateURL(filterToUpdate, value);
+            
+            return newFilters;
+        });
+    };
+
+    const handleFiltroSkus = (skus) => {
+        setFiltroSkus(skus);
+        scrollToTop();
+    };
+
+    const handleEnvioGratis = (activo) => {
+        setEnvioGratisActivo(activo);
+        scrollToTop();
+    };
+
+    const isFiltroActivo = (nombreFiltro, valor) => {
+        const stateKey = filterParamMap[nombreFiltro] || nombreFiltro;
+        return activeFilters[stateKey] === valor;
+    };
+
+    const toggleFiltro = (nombreFiltro, valor) => {
+        const stateKey = filterParamMap[nombreFiltro] || nombreFiltro;
+        const isActive = activeFilters[stateKey] === valor;
+        handleFilterChange(stateKey, isActive ? null : valor);
+    };
+
+    const obtenerValoresUnicos = (productosList, campo) => {
+        const valores = new Set();
+        productosList.forEach(producto => {
+            const valor = getProductValue(producto, campo);
+            if (valor && typeof valor === 'string') {
+                valores.add(valor);
+            }
+        });
+        return Array.from(valores).sort();
+    };
+
+    // PRIMERO: Productos filtrados por categoría (tipo) - Base
+    const productosBaseFiltrados = useMemo(() => {
+        if (productos.length === 0) return [];
+
+        const categoriaActual = sub1 || activeFilters.tipo;
+
+        if (!categoriaActual) {
+            return productos;
         }
 
-        // Aplicar filtro de Hot Sale si está activo
-        if (isHotSaleActive && hotSaleSKUs.length > 0) {
-            productosFiltradosTemp = productosFiltradosTemp.filter(producto => 
-                hotSaleSKUs.includes(producto.sku)
-            );
-        }
+        return productos.filter(producto => {
+            let cumpleTodosLosFiltros = true;
 
-        return productosFiltradosTemp;
-    }, [productos, queryParams, envioGratisActivo, isHotSaleActive, hotSaleSKUs]);
+            if (categoriaActual) {
+                const subcategoriaProducto = producto.subcategoría || 
+                                            getProductValue(producto, 'subcategoría') || 
+                                            getProductValue(producto, 'subcategoria');
+                const categoriaProducto = producto.categoria || 
+                                         getProductValue(producto, 'categoria') ||
+                                         getProductValue(producto, 'categoría');
+                
+                const subcategoriaNormalizada = normalizarTexto(subcategoriaProducto);
+                const categoriaNormalizada = normalizarTexto(categoriaProducto);
+                const categoriaActualNormalizada = normalizarTexto(categoriaActual);
+                
+                if (subcategoriaNormalizada !== categoriaActualNormalizada && 
+                    categoriaNormalizada !== categoriaActualNormalizada) {
+                    cumpleTodosLosFiltros = false;
+                }
+            }
 
-    // SEGUNDO: Aplicar filtro de precio
-    const productosFiltrados = useMemo(() => {
+            return cumpleTodosLosFiltros;
+        });
+    }, [productos, sub1, activeFilters.tipo]);
+
+    // SEGUNDO: Aplicar filtros de envío gratis y SKUs
+    const productosConEnvios = useMemo(() => {
+        if (productosBaseFiltrados.length === 0) return [];
+
+        return productosBaseFiltrados.filter(producto => {
+            let cumpleTodosLosFiltros = true;
+
+            if (envioGratisActivo) {
+                if (producto["tipo-de-envio"] !== "Gratis") {
+                    cumpleTodosLosFiltros = false;
+                }
+            }
+
+            if (cumpleTodosLosFiltros && filtroSkus && Array.isArray(filtroSkus) && filtroSkus.length > 0) {
+                if (!filtroSkus.includes(producto.sku)) {
+                    cumpleTodosLosFiltros = false;
+                }
+            }
+
+            return cumpleTodosLosFiltros;
+        });
+    }, [productosBaseFiltrados, envioGratisActivo, filtroSkus]);
+
+    // TERCERO: Aplicar filtro de precio
+    const productosFiltradosPorPrecio = useMemo(() => {
         const params = new URLSearchParams(location.search);
         const precioMin = params.get('min');
         const precioMax = params.get('max');
         
         if (precioMin === null || precioMax === null) {
-            return productosBaseFiltrados;
+            return productosConEnvios;
         }
 
         const min = parseInt(precioMin);
         const max = parseInt(precioMax);
 
         if (isNaN(min) || isNaN(max)) {
-            return productosBaseFiltrados;
+            return productosConEnvios;
         }
 
-        return productosBaseFiltrados.filter(producto => {
-            const precio = producto.precioVenta || 0;
+        return productosConEnvios.filter(producto => {
+            const precio = producto.precioVenta;
             return precio >= min && precio <= max;
         });
-    }, [productosBaseFiltrados, location.search]);
+    }, [productosConEnvios, location.search]);
 
-    // TERCERO: Ordenar productos
+    // CUARTO: Aplicar todos los demás filtros (tamaño, marca, línea, modelo, etc.)
+    const productosFiltrados = useMemo(() => {
+        if (productosFiltradosPorPrecio.length === 0) return [];
+
+        return productosFiltradosPorPrecio.filter(producto => {
+            let cumpleTodosLosFiltros = true;
+
+            if (cumpleTodosLosFiltros && activeFilters.tamaño) {
+                const tamañoProducto = getProductValue(producto, 'tamaño');
+                if (!tamañoProducto || normalizarTexto(tamañoProducto) !== normalizarTexto(activeFilters.tamaño)) {
+                    cumpleTodosLosFiltros = false;
+                }
+            }
+
+            if (cumpleTodosLosFiltros && activeFilters.marca) {
+                const marcaProducto = getProductValue(producto, 'marca');
+                if (!marcaProducto || normalizarTexto(marcaProducto) !== normalizarTexto(activeFilters.marca)) {
+                    cumpleTodosLosFiltros = false;
+                }
+            }
+
+            if (cumpleTodosLosFiltros && activeFilters.línea) {
+                const lineaProducto = getProductValue(producto, 'línea');
+                if (!lineaProducto || normalizarTexto(lineaProducto) !== normalizarTexto(activeFilters.línea)) {
+                    cumpleTodosLosFiltros = false;
+                }
+            }
+
+            if (cumpleTodosLosFiltros && activeFilters.modelo) {
+                const modeloProducto = getProductValue(producto, 'modelo');
+                if (!modeloProducto || normalizarTexto(modeloProducto) !== normalizarTexto(activeFilters.modelo)) {
+                    cumpleTodosLosFiltros = false;
+                }
+            }
+
+            if (cumpleTodosLosFiltros && activeFilters['configuración']) {
+                const valorProducto = getProductValue(producto, 'configuración');
+                if (!valorProducto || normalizarTexto(valorProducto) !== normalizarTexto(activeFilters['configuración'])) {
+                    cumpleTodosLosFiltros = false;
+                }
+            }
+
+            if (cumpleTodosLosFiltros && activeFilters['posición']) {
+                const valorProducto = getProductValue(producto, 'posición');
+                if (!valorProducto || normalizarTexto(valorProducto) !== normalizarTexto(activeFilters['posición'])) {
+                    cumpleTodosLosFiltros = false;
+                }
+            }
+
+            if (cumpleTodosLosFiltros && activeFilters['cuerpos']) {
+                const valorProducto = getProductValue(producto, 'cuerpos');
+                if (!valorProducto || normalizarTexto(valorProducto) !== normalizarTexto(activeFilters['cuerpos'])) {
+                    cumpleTodosLosFiltros = false;
+                }
+            }
+
+            if (cumpleTodosLosFiltros && activeFilters['orientación']) {
+                const valorProducto = getProductValue(producto, 'orientación');
+                if (!valorProducto || normalizarTexto(valorProducto) !== normalizarTexto(activeFilters['orientación'])) {
+                    cumpleTodosLosFiltros = false;
+                }
+            }
+
+            return cumpleTodosLosFiltros;
+        });
+    }, [productosFiltradosPorPrecio, activeFilters]);
+
+    const valoresDisponibles = useMemo(() => {
+        const valores = {
+            marcas: obtenerValoresUnicos(productosConEnvios, 'marca'),
+            líneas: obtenerValoresUnicos(productosConEnvios, 'línea'),
+            tamaños: obtenerValoresUnicos(productosConEnvios, 'tamaño'),
+            'configuración': obtenerValoresUnicos(productosConEnvios, 'configuración'),
+            'posición': obtenerValoresUnicos(productosConEnvios, 'posición'),
+            'cuerpos': obtenerValoresUnicos(productosConEnvios, 'cuerpos'),
+            'orientación': obtenerValoresUnicos(productosConEnvios, 'orientación')
+        };
+
+        return valores;
+    }, [productosConEnvios]);
+
     const productosOrdenados = useMemo(() => {
-        const productosParaOrdenar = [...productosFiltrados];
-        
-        if (orden === "ultimo") {
-            return productosParaOrdenar;
-        }
-        
-        if (orden === "menor-mayor") {
-            return productosParaOrdenar.sort((a, b) => {
-                const precioA = a.precioVenta || 0;
-                const precioB = b.precioVenta || 0;
-                return precioA - precioB;
-            });
-        }
-        
-        if (orden === "mayor-menor") {
-            return productosParaOrdenar.sort((a, b) => {
-                const precioA = a.precioVenta || 0;
-                const precioB = b.precioVenta || 0;
-                return precioB - precioA;
-            });
-        }
-
-        return productosParaOrdenar;
+        return [...productosFiltrados].sort((a, b) => {
+            if (orden === "menor-mayor") {
+                return a.precioVenta - b.precioVenta;
+            } else if (orden === "mayor-menor") {
+                return b.precioVenta - a.precioVenta;
+            }
+            return 0;
+        });
     }, [productosFiltrados, orden]);
 
-    const totalItems = productosOrdenados.length;
-    const totalPages = Math.ceil(totalItems / itemsPerPage);
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const endIndex = Math.min(startIndex + itemsPerPage, totalItems);
+    const {
+        currentPage,
+        setCurrentPage,
+        totalPages,
+        startIndex,
+        endIndex,
+        getVisiblePages,
+        handlePageChange,
+        handlePreviousPage,
+        handleNextPage,
+        resetPage
+    } = usePagination(productosOrdenados.length, itemsPerPage);
+
+    useEffect(() => {
+        resetPage();
+        scrollToTop();
+    }, [activeFilters, envioGratisActivo, filtroSkus, orden, sub1, location.search]);
+
     const productosPagina = productosOrdenados.slice(startIndex, endIndex);
 
-    const getVisiblePages = () => {
-        const visiblePages = [];
-        if (totalPages <= 5) {
-            for (let i = 1; i <= totalPages; i++) visiblePages.push(i);
-        } else {
-            if (currentPage <= 3) { 
-                visiblePages.push(1, 2, 3, 4, '...', totalPages); 
-            } else if (currentPage >= totalPages - 2) {
-                visiblePages.push(1, '...', totalPages - 3, totalPages - 2, totalPages - 1, totalPages);
-            } else {
-                visiblePages.push(1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages);
-            }
-        }
-        return visiblePages;
-    };
-
-    const handlePageChange = (newPage) => {
-        setCurrentPage(Math.max(1, Math.min(totalPages, newPage)));
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    };
-
-    const handlePreviousPage = () => handlePageChange(currentPage - 1);
-    const handleNextPage = () => handlePageChange(currentPage + 1);
-
-    const toggleFiltro = (nombreFiltro, valor) => {
-        const normalizadoValor = normalizarTexto(valor);
-        const newParams = new URLSearchParams(location.search);
-        
-        const valorActual = newParams.get(nombreFiltro);
-
-        if (valorActual === normalizadoValor) {
-            newParams.delete(nombreFiltro);
-        } else {
-            newParams.set(nombreFiltro, normalizadoValor);
-        }
-
-        setCurrentPage(1);
-        navigate(`${location.pathname}?${newParams.toString()}`, { replace: true });
-    };
-
-    const isFiltroActivo = (nombreFiltro, valor) => {
-        const normalizadoValor = normalizarTexto(valor);
-        return queryParams.get(nombreFiltro) === normalizadoValor;
-    };
-
     const limpiarFiltros = () => {
-        setCurrentPage(1);
-        setIsHotSaleActive(false);
-        localStorage.setItem('hotSaleActive', 'false');
-        setEnvioGratisActivo(false);
+        setActiveFilters({
+            tipo: null,
+            tamaño: null,
+            marca: null,
+            línea: null,
+            modelo: null,
+            'configuración': null,
+            'posición': null,
+            'cuerpos': null,
+            'orientación': null
+        });
         
-        // Limpiar también los filtros de precio y orden de la URL
+        setFiltroSkus(null);
+        setEnvioGratisActivo(false);
+        resetPage();
+        
+        // Limpiar también los filtros de precio de la URL
         const params = new URLSearchParams(location.search);
         params.delete('min');
         params.delete('max');
-        params.delete('orden');
         const newSearch = params.toString();
         const newPath = location.pathname + (newSearch ? `?${newSearch}` : '');
         navigate(newPath, { replace: true });
+        
+        setResetFiltersTrigger(true);
+        scrollToTop();
+        
+        setTimeout(() => {
+            setResetFiltersTrigger(false);
+        }, 100);
+    };
+
+    const renderCategoriaFilters = () => {
+        if (!filtrosData?.filtros) return null;
+        const categorias = filtrosData.filtros.find(f => f.categorías);
+        if (!categorias) return null;
+
+        const currentPath = location.pathname;
+
+        return (
+            <div className='prds-filter-tag'>
+                <div 
+                    className='prds-filter-title-container'
+                    onClick={() => {
+                        const tag = document.querySelector('.prds-filter-tag:first-child');
+                        tag?.classList.toggle('active');
+                    }}
+                >
+                    <p className='prds-filter-title'>Categorías</p>
+                    <span className="material-symbols-outlined">keyboard_arrow_down</span>
+                </div>
+
+                <div className='prds-filter-tag-results-container'>
+                    <ul>
+                        {categorias.categorías.map((item, index) => {
+                            const finalUrl = item.ruta;
+                            const currentPathNormalized = currentPath.endsWith('/') ? currentPath.slice(0, -1) : currentPath;
+                            const linkPathNormalized = finalUrl.endsWith('/') ? finalUrl.slice(0, -1) : finalUrl;
+                            const isActive = currentPathNormalized === linkPathNormalized;
+                            
+                            return (
+                                <li key={index}>
+                                    <Link 
+                                        to={finalUrl}
+                                        className={isActive ? 'active' : ''}
+                                        title={`Ver productos de ${item.categoría}`}
+                                        onClick={scrollToTop}
+                                    >
+                                        <span></span>
+                                        <p>{item.categoría}</p>
+                                    </Link>
+                                </li>
+                            );
+                        })}
+                    </ul>
+                </div>
+            </div>
+        );
+    };
+
+    const renderFiltroDinamico = (nombreFiltro, valores, label, soloCategoria = false) => {
+        if (soloCategoria && !activeFilters.tipo && !sub1) {
+            return null;
+        }
+
+        if (!valores || valores.length === 0) {
+            return null;
+        }
+
+        const stateKey = filterParamMap[nombreFiltro] || nombreFiltro;
+        const isActive = activeFilters[stateKey] !== null;
+
+        return (
+            <div className={`prds-filter-tag ${isActive ? 'active' : ''}`}>
+                <div 
+                    className='prds-filter-title-container'
+                    onClick={(e) => {
+                        const parent = e.currentTarget.closest('.prds-filter-tag');
+                        parent?.classList.toggle('active');
+                    }}
+                >
+                    <p className='prds-filter-title'>{label}</p>
+                    <span className="material-symbols-outlined">keyboard_arrow_down</span>
+                </div>
+
+                <div className='prds-filter-tag-results-container'>
+                    <ul>
+                        {valores.map((valor, index) => {
+                            const isActiveVal = activeFilters[stateKey] === valor;
+                            return (
+                                <li key={index}>
+                                    <button 
+                                        type='button'
+                                        className={isActiveVal ? 'active' : ''}
+                                        onClick={() => toggleFiltro(nombreFiltro, isActiveVal ? null : valor)}
+                                    >
+                                        <span></span>
+                                        <p>{valor}</p>
+                                    </button>
+                                </li>
+                            );
+                        })}
+                    </ul>
+                </div>
+            </div>
+        );
+    };
+
+    const renderFiltrosEspecificos = () => {
+        if (!filtrosData?.filtros) return null;
+
+        const filtrosEspecificos = filtrosData.filtros.filter(f => 
+            f.modelos || f.tipos || f.configuraciones || f.posiciones
+        );
+
+        if (filtrosEspecificos.length === 0) return null;
+
+        return filtrosEspecificos.map((filtro, index) => {
+            const nombreFiltro = Object.keys(filtro)[0];
+            const valores = filtro[nombreFiltro];
+
+            if (!Array.isArray(valores)) return null;
+
+            return (
+                <div key={index} className='prds-filter-tag'>
+                    <div 
+                        className='prds-filter-title-container'
+                        onClick={(e) => {
+                            const parent = e.currentTarget.closest('.prds-filter-tag');
+                            parent?.classList.toggle('active');
+                        }}
+                    >
+                        <p className='prds-filter-title'>{nombreFiltro.replace(/-/g, ' ')}</p>
+                        <span className="material-symbols-outlined">keyboard_arrow_down</span>
+                    </div>
+
+                    <div className='prds-filter-tag-results-container'>
+                        {valores.map((grupo, idx) => {
+                            const grupoKeys = Object.keys(grupo);
+                            const nombreGrupo = grupoKeys[0];
+                            let opciones = grupo[nombreGrupo];
+
+                            if (!Array.isArray(opciones)) {
+                                opciones = opciones ? [opciones] : [];
+                            }
+
+                            const opcionesDisponibles = opciones.filter(opcion => {
+                                let valorOpcion = opcion;
+                                if (typeof opcion === 'object' && opcion !== null) {
+                                    const opcionKeys = Object.keys(opcion);
+                                    if (opcionKeys.length > 0) {
+                                        valorOpcion = opcion[opcionKeys[0]];
+                                    }
+                                }
+                                
+                                const stateKey = nombreFiltro === 'modelos' ? 'modelo' : 
+                                               nombreFiltro === 'tipos' ? 'tipo' : 
+                                               nombreFiltro === 'configuraciones' ? 'configuración' : 
+                                               nombreFiltro === 'posiciones' ? 'posición' : nombreFiltro;
+                                const valoresDisponibles = obtenerValoresUnicos(productosConEnvios, stateKey);
+                                return valoresDisponibles.includes(valorOpcion);
+                            });
+
+                            if (opcionesDisponibles.length === 0) return null;
+
+                            return (
+                                <div key={idx} className='filter-subgroup'>
+                                    <p className='filter-subgroup-title'>{nombreGrupo}</p>
+                                    <ul>
+                                        {opcionesDisponibles.map((opcion, mIdx) => {
+                                            let valorOpcion = opcion;
+                                            if (typeof opcion === 'object' && opcion !== null) {
+                                                const opcionKeys = Object.keys(opcion);
+                                                if (opcionKeys.length > 0) {
+                                                    valorOpcion = opcion[opcionKeys[0]];
+                                                }
+                                            }
+                                            
+                                            const stateKey = nombreFiltro === 'modelos' ? 'modelo' : 
+                                                           nombreFiltro === 'tipos' ? 'tipo' : 
+                                                           nombreFiltro === 'configuraciones' ? 'configuración' : 
+                                                           nombreFiltro === 'posiciones' ? 'posición' : nombreFiltro;
+                                            const isActive = activeFilters[stateKey] === valorOpcion;
+                                            
+                                            return (
+                                                <li key={mIdx}>
+                                                    <button 
+                                                        type='button'
+                                                        className={isActive ? 'active' : ''}
+                                                        onClick={() => {
+                                                            toggleFiltro(stateKey, isActive ? null : valorOpcion);
+                                                        }}
+                                                    >
+                                                        <span></span>
+                                                        <p>{valorOpcion}</p>
+                                                    </button>
+                                                </li>
+                                            );
+                                        })}
+                                    </ul>
+                                </div>
+                            );
+                        })}
+                    </div>
+                </div>
+            );
+        });
     };
 
     if (id || (sub5 && !isNaN(sub5))) {
@@ -434,112 +1042,83 @@ function Sofas() {
         <>
             <Helmet>
                 <title>Sofás | Homesleep</title>
+                <meta name='description' content='Encuentra el sofá perfecto para tu hogar. Contamos con butacas, juegos de sala, mecedoras, reclinables, seccionales y sofá cama.' />
             </Helmet>
 
-            <main className='products-page-main d-flex-column gap-20'>
+            <main className='products-page-main d-flex-column gap-10'>
                 <Categorias/>
 
                 <div className='products-page-blocks'>
                     <div className={`products-page-left ${isFiltersOpen ? 'active' : ''}`} ref={filtersPanelRef}>
                         <div className='products-page-filters-container-global'>
-                            <div className='d-flex-column gap-20'>
-                                <div className='d-flex-column padding-bottom-20 border-bottom-2-solid-component'>
-                                    <p className='block-title color-color-1 uppercase w-100 d-flex'>Homesleep</p>
-                                    <button type='button' className='filters-button-close margin-left' onClick={closeFilters}>
-                                        <span className="material-icons color-color-1">close</span>
-                                    </button>
-                                    <p className='uppercase w-100 d-flex'>Las mejores marcas en productos para el descanso</p>
+                            <div className='d-flex-column gap-20-to-10'>
+                                <div className='hp-cat-title'>
+                                    <h1>Sofás</h1>
+                                    <p className='text'>Encuentra el sofá ideal para tu espacio, en las mejores marcas del mercado</p>
                                 </div>
 
-                                <div className='envio-gratis-button-container'>
-                                    <div className='d-flex-center-center'>
-                                        <p className='weight-bold uppercase color-color-1 font-bold'>Envío gratis</p>
+                                {/* <BtnGeneral 
+                                    onEnvioGratisChange={handleEnvioGratis}
+                                    onFiltroSkusChange={handleFiltroSkus}
+                                    envioGratisActivo={envioGratisActivo}
+                                    currentPage={currentPage}
+                                    setCurrentPage={setCurrentPage}
+                                    resetFilters={resetFiltersTrigger}
+                                /> */}
+
+                                <div className='d-flex-column gap-20'>
+                                    <div className='d-flex-center-left gap-5'>
+                                        <span className="material-symbols-outlined">filter_alt</span>
+                                        <p className='text title'>Filtros</p>
+
+                                        {hasActiveFilters && (
+                                            <button 
+                                                type="button" 
+                                                className="limpiar-filtros-btn" 
+                                                onClick={limpiarFiltros}
+                                                style={{ marginLeft: '10px', fontSize: '12px', color: 'var(--color-1)' }}
+                                            >
+                                                Limpiar filtros
+                                            </button>
+                                        )}
                                     </div>
-                                    <div type='button' className={`envio-gratis-button ${envioGratisActivo ? 'active' : ''}`} onClick={toggleEnvioGratis}>
-                                        <span></span>
+
+                                    <RangoPrecios productos={productosFiltrados} loading={loading}/>
+
+                                    <div className='prds-filters-container'>
+                                        {renderCategoriaFilters()}
+                                        {renderFiltroDinamico('marca', valoresDisponibles.marcas, 'Marcas')}
+                                        {renderFiltroDinamico('tamaño', valoresDisponibles.tamaños, 'Tamaños')}
+                                        {renderFiltroDinamico('línea', valoresDisponibles.líneas, 'Líneas')}
+                                        {renderFiltroDinamico('configuración', valoresDisponibles['configuración'], 'Configuración')}
+                                        {renderFiltroDinamico('posición', valoresDisponibles['posición'], 'Posición')}
+                                        {renderFiltroDinamico('cuerpos', valoresDisponibles['cuerpos'], 'Cuerpos')}
+                                        {renderFiltroDinamico('orientación', valoresDisponibles['orientación'], 'Orientación')}
+                                        {renderFiltrosEspecificos()}
                                     </div>
                                 </div>
-
-                                <RangoPrecios productos={productosFiltrados} loading={loading}/>
-
-                                <button type='button' className={`filter-hot-sale ${isHotSaleActive ? 'active' : ''}`} onClick={handleHotSaleToggle}>
-                                    <div className='d-flex-center-left'>
-                                        <span className="material-symbols-outlined">local_fire_department</span>
-                                        <div className='d-flex-column'>
-                                            <p className='title color-gray-dark'>Hot sale</p>
-                                            <span className='color-gray-dark'>(Más vendidos)</span>
-                                        </div>
-                                    </div>
-                                    <div className='switch'></div>
-                                </button>
-
-                                <div className='products-page-filters-container d-flex-column gap-20'>
-                                    {filtros.map((filtro, index) => {
-                                        const nombreFiltro = Object.keys(filtro)[0];
-                                        const valoresFiltro = filtro[nombreFiltro];
-
-                                        if (nombreFiltro === "sofas"){
-                                            return(
-                                                <div className='products-page-filter' key={index}>
-                                                    <p className='filter-title uppercase'>Sofás</p>
-                                                    <ul className='products-page-filter-list'>
-                                                        {valoresFiltro.map((item, i) => (
-                                                            <li key={i}>
-                                                                <Link to={item.ruta} className={location.pathname === item.ruta ? "products-page-filter-list-link active" : "products-page-filter-list-link"}>
-                                                                    <p>{item.sofas}</p>
-                                                                </Link>
-                                                            </li>
-                                                        ))}
-                                                    </ul>
-                                                </div>
-                                            );
-                                        }
-
-                                        return(
-                                            <div className='products-page-filter' key={index}>
-                                                <p className='filter-title uppercase'>{nombreFiltro}</p>
-                                                <ul className='products-page-filter-list'>
-                                                    {valoresFiltro.map((valor, i) => (
-                                                        <li key={i}>
-                                                            <button 
-                                                                type='button' 
-                                                                className={isFiltroActivo(nombreFiltro, valor) ? "active" : ""} 
-                                                                onClick={() => toggleFiltro(nombreFiltro, valor)}
-                                                            >
-                                                                <p>{valor}</p>
-                                                            </button>
-                                                        </li>
-                                                    ))}
-                                                </ul>
-                                            </div>
-                                        );
-                                    })}
-                                </div>
-
-                                {hasActiveFilters && (
-                                    <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
-                                        <span className="material-icons">delete</span>
-                                        <p className="button-link-text">Limpiar filtros</p>
-                                    </button>
-                                )}
                             </div>
                         </div>
                     </div>
 
                     <div className='products-page-right'>
                         <FiltrosTop 
-                            setOrden={handleOrdenChange}
+                            setOrden={setOrden} 
                             orden={orden} 
                             toggleFiltro={toggleFiltro} 
-                            isFiltroActivo={isFiltroActivo}
-                            setIsFiltersOpen={setIsFiltersOpen}
-                            isFiltersOpen={isFiltersOpen}
+                            isFiltroActivo={isFiltroActivo} 
+                            setIsFiltersOpen={setIsFiltersOpen} 
+                            isFiltersOpen={isFiltersOpen} 
                             productosCount={productosOrdenados.length}
-                            totalProductos={productos.length}
+                            totalProductos={productos.length} 
                             currentPage={currentPage}
-                            itemsPerPage={itemsPerPage}
-                            startIndex={startIndex}
-                            endIndex={endIndex}
+                            totalPages={totalPages}
+                            onPageChange={handlePageChange}
+                            onPreviousPage={handlePreviousPage}
+                            onNextPage={handleNextPage}
+                            getVisiblePages={getVisiblePages}
+                            viewMode={viewMode}
+                            setViewMode={setViewMode}
                         />
 
                         <div className='products-page-products-container'>
@@ -550,16 +1129,16 @@ function Sofas() {
                                 </div>
                             ) : (
                                 <>
-                                    <ul className="products-page-products">
+                                    <ul className={`products-page-products ${viewMode}`}>
                                         {productosPagina.length === 0 ? (
                                             <div className='d-grid-1-1'>
-                                                <div className="w-100 d-flex-column d-flex-center-center text-center gap-10">
-                                                    <img src="/assets/imagenes/paginas/not-found.svg" alt="" width={320} />
+                                                <div className="d-flex-column gap-10">
                                                     <p className='text'>No se encontraron productos con los filtros seleccionados.</p>
+
                                                     {hasActiveFilters && (
-                                                        <button type="button" className="button-link button-link-2" onClick={limpiarFiltros}>
+                                                        <button type="button" className="margin-right button-link button-link-2" onClick={limpiarFiltros}>
                                                             <span className="material-icons">delete</span>
-                                                            <p className="button-link-text">Limpiar filtros</p>
+                                                            <p className='button-link-text'>Limpiar filtros</p>
                                                         </button>
                                                     )}
                                                 </div>
@@ -574,31 +1153,39 @@ function Sofas() {
                                             ))
                                         )}
                                     </ul>
-                                    
+
                                     {productosPagina.length > 0 && totalPages > 1 && (
-                                        <div className="pagination-controls d-grid-column-2-3 margin-top-20">
-                                            <button className="pagination-arrow" onClick={handlePreviousPage} disabled={currentPage === 1}>
-                                                <span className="material-icons">chevron_left</span>
+                                        <div className='pagination-controls'>
+                                            <button type='button' className='pagination-arrow' onClick={handlePreviousPage} disabled={currentPage === 1}>
+                                                <span className="material-symbols-outlined">chevron_left</span>
+                                                <p>Anterior</p>
                                             </button>
 
-                                            <div className="d-flex-center-center gap-10">
+                                            <ul className='pagination-list'>
                                                 {getVisiblePages().map((page, index) => 
                                                     typeof page === 'number' ? (
-                                                        <button 
-                                                            key={index} 
-                                                            className={`pagination-page ${currentPage === page ? 'active' : ''}`} 
-                                                            onClick={() => handlePageChange(page)}
-                                                        >
-                                                            {page}
-                                                        </button>
+                                                        <li key={index}>
+                                                            <button 
+                                                                type='button'
+                                                                className={`pagination-page ${currentPage === page ? 'active' : ''}`}
+                                                                onClick={() => handlePageChange(page)}
+                                                            >
+                                                                <p>{page}</p>
+                                                            </button>
+                                                        </li>
                                                     ) : (
-                                                        <span key={index} className="pagination-ellipsis">...</span>
+                                                        <li key={index}>
+                                                            <div className='dots'>
+                                                                <span>...</span>
+                                                            </div>
+                                                        </li>
                                                     )
                                                 )}
-                                            </div>
+                                            </ul>
 
-                                            <button className="pagination-arrow" onClick={handleNextPage} disabled={currentPage === totalPages}>
-                                                <span className="material-icons">chevron_right</span>
+                                            <button type='button' className='pagination-arrow' onClick={handleNextPage} disabled={currentPage === totalPages}>
+                                                <p>Siguiente</p>
+                                                <span className="material-symbols-outlined">chevron_right</span>
                                             </button>
                                         </div>
                                     )}

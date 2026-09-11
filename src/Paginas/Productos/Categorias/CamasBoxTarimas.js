@@ -1219,7 +1219,7 @@ function CamasBoxTarimas() {
                                     </ul>
 
                                     {productosPagina.length > 0 && totalPages > 1 && (
-                                        <div className='pagination-container'>
+                                        <div className='pagination-controls'>
                                             <button type='button' className='pagination-arrow' onClick={handlePreviousPage} disabled={currentPage === 1}>
                                                 <span className="material-symbols-outlined">chevron_left</span>
                                                 <p>Anterior</p>
