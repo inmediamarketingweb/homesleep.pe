@@ -2,10 +2,10 @@
     "productos":[
         {
             "id": 80,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/1/",
             "nombre": "CABECERA PEDESTAL KING CAPITONEADO - ROJO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-rectos/capitoneado/1/",
@@ -17,10 +17,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
@@ -29,10 +30,10 @@
         },
         {
             "id": 81,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/2/",
             "nombre": "CABECERA PEDESTAL KING CAPITONEADO - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-rectos/capitoneado/2/",
@@ -44,10 +45,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
@@ -56,10 +58,10 @@
         },
         {
             "id": 82,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/3/",
             "nombre": "CABECERA PEDESTAL KING CAPITONEADO - FUCSIA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-rectos/capitoneado/3/",
@@ -71,10 +73,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
@@ -83,10 +86,10 @@
         },
         {
             "id": 83,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/4/",
             "nombre": "CABECERA PEDESTAL KING CAPITONEADO - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-rectos/capitoneado/4/",
@@ -98,10 +101,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
@@ -110,10 +114,10 @@
         },
         {
             "id": 84,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/5/",
             "nombre": "CABECERA PEDESTAL KING CAPITONEADO - PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-rectos/capitoneado/5/",
@@ -125,10 +129,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
@@ -137,10 +142,10 @@
         },
         {
             "id": 85,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/6/",
             "nombre": "CABECERA PEDESTAL KING CAPITONEADO - HUESO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-rectos/capitoneado/6/",
@@ -152,10 +157,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
@@ -164,10 +170,10 @@
         },
         {
             "id": 86,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/7/",
             "nombre": "CABECERA PEDESTAL KING EMPERATRIZ - CENIZO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-seahorse/emperatriz/1/",
@@ -179,10 +185,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
@@ -191,10 +198,10 @@
         },
         {
             "id": 87,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/8/",
             "nombre": "CABECERA PEDESTAL KING EMPERATRIZ - VERDE LORO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-seahorse/emperatriz/2/",
@@ -206,10 +213,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
@@ -218,10 +226,10 @@
         },
         {
             "id": 88,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/9/",
             "nombre": "CABECERA PEDESTAL KING EMPERATRIZ - ARENA OSCURO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-seahorse/emperatriz/3/",
@@ -233,10 +241,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
@@ -245,10 +254,10 @@
         },
         {
             "id": 89,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/10/",
             "nombre": "CABECERA PEDESTAL KING EMPERATRIZ - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-seahorse/emperatriz/4/",
@@ -260,10 +269,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
@@ -272,10 +282,10 @@
         },
         {
             "id": 90,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/11/",
             "nombre": "CABECERA PEDESTAL KING EMPERATRIZ - FUCSIA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-seahorse/emperatriz/5/",
@@ -287,10 +297,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
@@ -299,10 +310,10 @@
         },
         {
             "id": 91,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/12/",
             "nombre": "CABECERA PEDESTAL KING EMPERATRIZ - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-seahorse/emperatriz/6/",
@@ -314,10 +325,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
@@ -326,10 +338,10 @@
         },
         {
             "id": 92,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/13/",
             "nombre": "CABECERA PEDESTAL KING EMPERATRIZ - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-seahorse/emperatriz/7/",
@@ -341,10 +353,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
@@ -353,10 +366,10 @@
         },
         {
             "id": 93,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/14/",
             "nombre": "CABECERA PEDESTAL KING EMPERATRIZ - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/brazos-seahorse/emperatriz/8/",
@@ -368,10 +381,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americanas",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Emperatriz"
@@ -380,10 +394,10 @@
         },
         {
             "id": 95,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/15/",
             "nombre": "CABECERA PEDESTAL KING CON MARCO + 2 VELADORES - HUESO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/con-marco/sin-brazos/capitoneado/1/",
@@ -395,10 +409,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Con marco",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
@@ -407,10 +422,10 @@
         },
         {
             "id": 96,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/16/",
             "nombre": "CABECERA PEDESTAL KING MAJESTAD - FUCSIA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/coronas/brazos-curvos/majestad/1/",
@@ -422,10 +437,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos curvos",
                     "modelo-de-cabecera": "Majestad"
@@ -434,10 +450,10 @@
         },
         {
             "id": 97,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/17/",
             "nombre": "CABECERA PEDESTAL KING MAJESTAD - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/coronas/brazos-curvos/majestad/2/",
@@ -449,10 +465,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos curvos",
                     "modelo-de-cabecera": "Majestad"
@@ -461,10 +478,10 @@
         },
         {
             "id": 98,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/18/",
             "nombre": "CABECERA PEDESTAL KING MAJESTAD - GRIS PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/coronas/brazos-curvos/majestad/3/",
@@ -476,10 +493,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos curvos",
                     "modelo-de-cabecera": "Majestad"
@@ -488,10 +506,10 @@
         },
         {
             "id": 99,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/19/",
             "nombre": "CABECERA PEDESTAL KING MAJESTAD - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/coronas/brazos-curvos/majestad/4/",
@@ -503,10 +521,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos curvos",
                     "modelo-de-cabecera": "Majestad"
@@ -515,10 +534,10 @@
         },
         {
             "id": 100,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/20/",
             "nombre": "CABECERA PEDESTAL KING MAJESTAD - ROSADO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/coronas/brazos-curvos/majestad/5/",
@@ -530,10 +549,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos curvos",
                     "modelo-de-cabecera": "Majestad"
@@ -542,10 +562,10 @@
         },
         {
             "id": 101,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/21/",
             "nombre": "CABECERA PEDESTAL KING VESSO - FUCSIA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/coronas/brazos-curvos/vesso/1/",
@@ -557,10 +577,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos curvos",
                     "modelo-de-cabecera": "Vesso"
@@ -569,10 +590,10 @@
         },
         {
             "id": 102,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/22/",
             "nombre": "CABECERA PEDESTAL KING VESSO - AZUL ELECTRICO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/coronas/brazos-curvos/vesso/2/",
@@ -584,10 +605,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos curvos",
                     "modelo-de-cabecera": "Vesso"
@@ -596,10 +618,10 @@
         },
         {
             "id": 103,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/23/",
             "nombre": "CABECERA PEDESTAL KING VESSO - ROJO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/coronas/brazos-curvos/vesso/3/",
@@ -611,10 +633,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos curvos",
                     "modelo-de-cabecera": "Vesso"
@@ -623,10 +646,10 @@
         },
         {
             "id": 104,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/24/",
             "nombre": "CABECERA PEDESTAL KING VESSO - TURQUESA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/coronas/brazos-curvos/vesso/4/",
@@ -638,10 +661,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos curvos",
                     "modelo-de-cabecera": "Vesso"
@@ -650,10 +674,10 @@
         },
         {
             "id": 105,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/25/",
             "nombre": "CABECERA PEDESTAL KING VESSO - LILA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/coronas/brazos-curvos/vesso/5/",
@@ -665,10 +689,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos curvos",
                     "modelo-de-cabecera": "Vesso"
@@ -677,10 +702,10 @@
         },
         {
             "id": 106,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/26/",
             "nombre": "CABECERA PEDESTAL KING VESSO - COBALTO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/coronas/brazos-curvos/vesso/6/",
@@ -692,10 +717,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos curvos",
                     "modelo-de-cabecera": "Vesso"
@@ -704,10 +730,10 @@
         },
         {
             "id": 107,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/27/",
             "nombre": "CABECERA PEDESTAL KING PRINCESA - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/coronas/brazos-rectos/princesa/1/",
@@ -719,10 +745,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "línea": "Americana",
-                    "tamaño": "King",
-                    "tipo-de-cabecera": "Pedestal",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "Princesa"
@@ -731,10 +758,10 @@
         },
         {
             "id": 107,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/king/kamas/pedestales/28/",
             "nombre": "CABECERA KAMAS KING PEDESTAL EMPERATRIZ - TEJIDO LILA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/pedestales/americanas/emperatriz/1/",

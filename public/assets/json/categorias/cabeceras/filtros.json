@@ -43,26 +43,26 @@
         {
             "tipos-de-cabecera":[
                 {
-                    "tipo-de-cabecera": "aérea"
+                    "tipo-de-cabecera": "aéreas"
                 },
                 {
-                    "tipo-de-cabecera": "aérea con patas"
+                    "tipo-de-cabecera": "aéreas con patas"
                 },
                 {
-                    "tipo-de-cabecera": "pedestal"
+                    "tipo-de-cabecera": "pedestales"
                 }
             ]
         },
         {
             "diseños-de-cabecera":[
                 {
-                    "diseño-de-cabecera": "infantil"
+                    "diseño-de-cabecera": "infantiles"
                 },
                 {
                     "diseño-de-cabecera": "clásicas"
                 },
                 {
-                    "diseño-de-cabecera": "americanos"
+                    "diseño-de-cabecera": "americanas"
                 },
                 {
                     "diseño-de-cabecera": "con marco"

@@ -2,10 +2,10 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/1-plaza-y-media/kamas/pedestales/1/",
             "nombre": "CABECERA PEDESTAL 1 PLAZA Y MEDIA CAPITONEADO - PLOMO",
             "fotos": "/assets/imagenes/productos/cabeceras/1-plaza-y-media/pedestales/americanas/brazos-rectos/capitoneado/1/",
@@ -17,22 +17,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "1 plaza y media",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "capitoneado"
                 }
             ]
         },
         {
             "id": 2,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/1-plaza-y-media/kamas/pedestales/2/",
             "nombre": "CABECERA PEDESTAL 1 PLAZA Y MEDIA CAPITONEADO - AZUL NOCHE",
             "fotos": "/assets/imagenes/productos/cabeceras/1-plaza-y-media/pedestales/americanas/brazos-rectos/capitoneado/2/",
@@ -44,22 +45,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "1 plaza y media",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "capitoneado"
                 }
             ]
         },
         {
             "id": 3,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/1-plaza-y-media/kamas/pedestales/3/",
             "nombre": "CABECERA PEDESTAL 1 PLAZA Y MEDIA CAPITONEADO - VERDE CERCETA",
             "fotos": "/assets/imagenes/productos/cabeceras/1-plaza-y-media/pedestales/americanas/brazos-rectos/capitoneado/3/",
@@ -71,22 +73,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "1 plaza y media",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "capitoneado"
                 }
             ]
         },
         {
             "id": 4,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/1-plaza-y-media/kamas/pedestales/4/",
             "nombre": "CABECERA PEDESTAL 1 PLAZA Y MEDIA CAPITONEADO - GRIS PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/1-plaza-y-media/pedestales/americanas/brazos-rectos/capitoneado/4/",
@@ -98,22 +101,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "1 plaza y media",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americanas",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Capitoneada"
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "capitoneado"
                 }
             ]
         },
         {
             "id": 5,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/1-plaza-y-media/kamas/pedestales/5/",
             "nombre": "CABECERA PEDESTAL 1 PLAZA Y MEDIA CAPITONEADO - GRIS PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/1-plaza-y-media/pedestales/americanas/sin-brazos/capitoneado/1/",
@@ -125,10 +129,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "1 plaza y media",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
@@ -137,10 +142,10 @@
         },
         {
             "id": 6,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/1-plaza-y-media/kamas/pedestales/6/",
             "nombre": "CABECERA PEDESTAL 1 PLAZA Y MEDIA CAPITONEADO - PLOMO",
             "fotos": "/assets/imagenes/productos/cabeceras/1-plaza-y-media/pedestales/americanas/sin-brazos/capitoneado/2/",
@@ -152,10 +157,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "1 plaza y media",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Americana",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Capitoneada"
@@ -164,10 +170,10 @@
         },
         {
             "id": 7,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/1-plaza-y-media/kamas/pedestales/7/",
             "nombre": "CABECERA PEDESTAL 1 PLAZA Y MEDIA CUADROS 2 - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/1-plaza-y-media/pedestales/bloques/brazos-rectos/cuadros-2/1/",
@@ -179,10 +185,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "1 plaza y media",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "cuadros 2"
@@ -191,10 +198,10 @@
         },
         {
             "id": 8,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/1-plaza-y-media/kamas/pedestales/8/",
             "nombre": "CABECERA PEDESTAL 1 PLAZA Y MEDIA CUADROS 2 - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/cabeceras/1-plaza-y-media/pedestales/bloques/brazos-rectos/cuadros-2/2/",
@@ -206,10 +213,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "1 plaza y media",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "cuadros 2"
@@ -218,10 +226,10 @@
         },
         {
             "id": 9,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/1-plaza-y-media/kamas/pedestales/9/",
             "nombre": "CABECERA PEDESTAL 1 PLAZA Y MEDIA CUADROS 2 - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/cabeceras/1-plaza-y-media/pedestales/bloques/brazos-rectos/cuadros-2/3/",
@@ -233,10 +241,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "1 plaza y media",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "cuadros 2"
@@ -245,10 +254,10 @@
         },
         {
             "id": 10,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/1-plaza-y-media/kamas/pedestales/10/",
             "nombre": "CABECERA PEDESTAL 1 PLAZA Y MEDIA CUADROS 2 - AZUL NOCHE",
             "fotos": "/assets/imagenes/productos/cabeceras/1-plaza-y-media/pedestales/bloques/brazos-rectos/cuadros-2/4/",
@@ -260,10 +269,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "1 plaza y media",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Brazos rectos",
                     "modelo-de-cabecera": "cuadros 2"
@@ -272,10 +282,10 @@
         },
         {
             "id": 11,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/1-plaza-y-media/kamas/pedestales/11/",
             "nombre": "CABECERA PEDESTAL 1 PLAZA Y MEDIA ABANICO - ROSADO",
             "fotos": "/assets/imagenes/productos/cabeceras/1-plaza-y-media/pedestales/otras-formas/sin-brazos/abanico/1/",
@@ -287,10 +297,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "1 plaza y media",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Otras formas",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Abanico"

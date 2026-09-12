@@ -2,10 +2,10 @@
     "productos":[
         {
             "id": 12,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/1/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CAPITONEADO - CUERO CAMELL",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/americanas/brazos-rectos/capitoneado/1/",
@@ -17,22 +17,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ]
         },
         {
             "id": 13,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/2/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CAPITONEADO -  CUERO ROSADO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/americanas/brazos-rectos/capitoneado/2/",
@@ -44,22 +45,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ]
         },
         {
             "id": 14,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/3/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CAPITONEADO -  CUERO ARENA OSCURO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/americanas/brazos-rectos/capitoneado/3/",
@@ -71,22 +73,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ]
         },
         {
             "id": 15,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/4/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CAPITONEADO - PALO ROSA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/americanas/brazos-rectos/capitoneado/4/",
@@ -98,22 +101,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ]
         },
         {
             "id": 16,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/5/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CAPITONEADO - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/americanas/brazos-rectos/capitoneado/5/",
@@ -125,22 +129,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ]
         },
         {
             "id": 17,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/6/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CAPITONEADO - CUERO VIOLETA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/americanas/brazos-rectos/capitoneado/6/",
@@ -152,22 +157,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ]
         },
         {
             "id": 18,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/7/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CAPITONEADO - CUERO CHOCOLATE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/americanas/brazos-rectos/capitoneado/7/",
@@ -179,22 +185,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ]
         },
         {
             "id": 19,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/8/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CAPITONEADO - CUERO LILA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/americanas/brazos-rectos/capitoneado/8/",
@@ -206,22 +213,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ]
         },
         {
             "id": 20,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/9/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CUADROS 2 - PLOMO OSCURO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/brazos-rectos/cuadros-2/1/",
@@ -233,22 +241,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
             ]
         },
         {
             "id": 21,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/10/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CUADROS 2 - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/brazos-rectos/cuadros-2/2/",
@@ -260,22 +269,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
             ]
         },
         {
             "id": 22,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/11/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CUADROS 2 - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/brazos-rectos/cuadros-2/3/",
@@ -287,22 +297,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Cuadros 2"
                 }
             ]
         },
         {
             "id": 23,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/12/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CAPITONEADO - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/americanas/brazos-rectos/capitoneado/9/",
@@ -314,22 +325,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ]
         },
         {
             "id": 24,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/14/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CAPITONEADO - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/americanas/brazos-rectos/capitoneado/10/",
@@ -341,22 +353,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ]
         },
         {
             "id": 25,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/15/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CAPITONEADO - PLOMO OSCURO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/americanas/brazos-rectos/capitoneado/11/",
@@ -368,22 +381,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ]
         },
         {
             "id": 26,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/16/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CAPITONEADO - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/americanas/brazos-rectos/capitoneado/12/",
@@ -395,22 +409,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Americana",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Capitoneada"
                 }
             ]
         },
         {
             "id": 27,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/17/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 1 - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/brazos-rectos/lineal-1/1/",
@@ -422,22 +437,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Lineal 1"
                 }
             ]
         },
         {
             "id": 28,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/18/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 1 - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/brazos-rectos/lineal-1/2/",
@@ -449,22 +465,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Lineal 1"
                 }
             ]
         },
         {
             "id": 29,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/19/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 1 - PLOMO OSCURO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/brazos-rectos/lineal-1/3/",
@@ -476,22 +493,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Lineal 1"
                 }
             ]
         },
         {
             "id": 30,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/20/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 1 - MORO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/brazos-rectos/lineal-1/4/",
@@ -503,22 +521,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Lineal 1"
                 }
             ]
         },
         {
             "id": 31,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/21/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - VERDE JADE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/brazos-rectos/lineal-2/1/",
@@ -530,22 +549,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Lineal 2"
                 }
             ]
         },
         {
             "id": 32,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/22/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - ROJO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/brazos-rectos/lineal-2/2/",
@@ -557,21 +577,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "línea":"Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea":"pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Lineal 2"
                 }
             ]
         },
         {
             "id": 33,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/23/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - ROSADO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/brazos-rectos/lineal-2/3/",
@@ -583,22 +605,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Lineal 2"
                 }
             ]
         },
         {
             "id": 34,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/24/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - ROSADO BEBÉ",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/brazos-rectos/lineal-2/4/",
@@ -610,22 +633,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Lineal 2"
                 }
             ]
         },
         {
             "id": 35,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/25/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - BEIGE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/brazos-rectos/lineal-2/5/",
@@ -637,22 +661,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Bloques",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Lineal 2"
                 }
             ]
         },
         {
             "id": 36,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/26/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/sin-brazos/otros-modelos/1/",
@@ -664,10 +689,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "sin brazos",
                     "modelo-de-cabecera": "Otros modelos"
@@ -676,10 +702,10 @@
         },
         {
             "id": 37,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/27/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - AZUL NOCHE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/sin-brazos/otros-modelos/2/",
@@ -691,10 +717,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "sin brazos",
                     "modelo-de-cabecera": "Otros modelos"
@@ -703,10 +730,10 @@
         },
         {
             "id": 38,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/28/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/sin-brazos/otros-modelos/3/",
@@ -718,10 +745,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "sin brazos",
                     "modelo-de-cabecera": "Otros modelos"
@@ -730,10 +758,10 @@
         },
         {
             "id": 39,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/29/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/sin-brazos/otros-modelos/4/",
@@ -745,10 +773,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "sin brazos",
                     "modelo-de-cabecera": "Otros modelos"
@@ -757,10 +786,10 @@
         },
         {
             "id": 40,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/30/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - GRIS PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/sin-brazos/otros-modelos/5/",
@@ -772,10 +801,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "sin brazos",
                     "modelo-de-cabecera": "Otros modelos"
@@ -784,10 +814,10 @@
         },
         {
             "id": 41,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/31/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/sin-brazos/otros-modelos/6/",
@@ -799,10 +829,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "sin brazos",
                     "modelo-de-cabecera": "Otros modelos"
@@ -811,10 +842,10 @@
         },
         {
             "id": 42,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/32/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - VERDE CERCETA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/sin-brazos/otros-modelos/7/",
@@ -826,10 +857,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "sin brazos",
                     "modelo-de-cabecera": "Otros modelos"
@@ -838,10 +870,10 @@
         },
         {
             "id": 43,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/33/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - AZUL",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/sin-brazos/otros-modelos/8/",
@@ -853,10 +885,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "sin brazos",
                     "modelo-de-cabecera": "Otros modelos"
@@ -865,10 +898,10 @@
         },
         {
             "id": 44,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/34/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS LINEAL 2 - TURQUESA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/bloques/sin-brazos/otros-modelos/9/",
@@ -880,10 +913,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Bloques",
                     "brazos-de-cabecera": "sin brazos",
                     "modelo-de-cabecera": "Otros modelos"
@@ -892,10 +926,10 @@
         },
         {
             "id": 45,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/35/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CORONA - AZUL NOCHE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-rectos/corona/6/",
@@ -907,22 +941,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Corona"
                 }
             ]
         },
         {
             "id": 46,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/36/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CORONA - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-rectos/corona/2/",
@@ -934,22 +969,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Corona"
                 }
             ]
         },
         {
             "id": 47,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/37/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CORONA - ROJO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-rectos/corona/3/",
@@ -961,22 +997,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Corona"
                 }
             ]
         },
         {
             "id": 48,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/38/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CORONA - UVA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-rectos/corona/4/",
@@ -988,22 +1025,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Corona"
                 }
             ]
         },
         {
             "id": 49,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/39/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CORONA - ARENA OSCURO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-rectos/corona/5/",
@@ -1015,22 +1053,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "Corona"
                 }
             ]
         },
         {
             "id": 50,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/40/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS MAJESTAD - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/majestad/1/",
@@ -1042,22 +1081,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Majestad"
                 }
             ]
         },
         {
             "id": 51,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/41/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS MAJESTAD - PALO ROSA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/majestad/2/",
@@ -1069,22 +1109,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Majestad"
                 }
             ]
         },
         {
             "id": 52,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/42/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS MAJESTAD - FUCSIA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/majestad/3/",
@@ -1096,22 +1137,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Majestad"
                 }
             ]
         },
         {
             "id": 53,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/43/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS MAJESTAD - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/majestad/4/",
@@ -1123,22 +1165,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Majestad"
                 }
             ]
         },
         {
             "id": 54,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/44/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS OTRO MODELO - ARENA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/otros-modelos/1/",
@@ -1150,22 +1193,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Otros modelos"
                 }
             ]
         },
         {
             "id": 55,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/45/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS MAJESTAD - BEIGE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/majestad/6/",
@@ -1177,22 +1221,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Majestad"
                 }
             ]
         },
         {
             "id": 56,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/46/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CORONA + BAÚL - VINO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-seahorse/corona/1/",
@@ -1204,10 +1249,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "corona"
@@ -1216,10 +1262,10 @@
         },
         {
             "id": 57,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/47/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CORONA + BAÚL - BEIGE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-seahorse/corona/2/",
@@ -1231,10 +1277,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Corona"
@@ -1243,10 +1290,10 @@
         },
         {
             "id": 58,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/48/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CORONA + BAÚL - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-seahorse/corona/3/",
@@ -1258,10 +1305,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Corona"
@@ -1270,10 +1318,10 @@
         },
         {
             "id": 59,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/49/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CORONA + BAÚL - PLOMO OSCURO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-seahorse/corona/4/",
@@ -1285,10 +1333,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Corona"
@@ -1297,10 +1346,10 @@
         },
         {
             "id": 60,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/50/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CORONA + BAÚL - VERDE LORO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-seahorse/corona/5/",
@@ -1312,10 +1361,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Corona"
@@ -1324,10 +1374,10 @@
         },
         {
             "id": 61,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/51/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CORONA + BAÚL - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-seahorse/corona/6/",
@@ -1339,10 +1389,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Otros modelos"
@@ -1351,10 +1402,10 @@
         },
         {
             "id": 62,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/52/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS CORONA - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-seahorse/corona/7/",
@@ -1366,10 +1417,11 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
                     "diseño-de-cabecera": "Corona",
                     "brazos-de-cabecera": "Brazos seahorse",
                     "modelo-de-cabecera": "Corona"
@@ -1378,10 +1430,10 @@
         },
         {
             "id": 63,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/53/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS PALACIO DE REY - VERDE JADE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/palacio-de-rey/1/",
@@ -1393,22 +1445,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Palacio de rey"
                 }
             ]
         },
         {
             "id": 64,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/54/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS PALACIO DE REY - ROSADO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/palacio-de-rey/2/",
@@ -1420,22 +1473,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Palacio de rey"
                 }
             ]
         },
         {
             "id": 65,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/55/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS PALACIO DE REY - ROSADO BEBÉ",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/palacio-de-rey/3/",
@@ -1447,22 +1501,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Palacio de rey"
                 }
             ]
         },
         {
             "id": 66,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/56/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS PALACIO DE REY - BEIGE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/palacio-de-rey/4/",
@@ -1474,22 +1529,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Palacio de rey"
                 }
             ]
         },
         {
             "id": 67,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/57/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS PALACIO DE REY - CAMELL",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/palacio-de-rey/5/",
@@ -1501,22 +1557,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Palacio de rey"
                 }
             ]
         },
         {
             "id": 68,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/58/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS PALACIO DE REY - VERDE LORO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/palacio-de-rey/6/",
@@ -1528,22 +1585,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Palacio de rey"
                 }
             ]
         },
         {
             "id": 69,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/59/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS PALACIO DE REY - ROJO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/palacio-de-rey/7/",
@@ -1555,22 +1613,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Palacio de rey"
                 }
             ]
         },
         {
             "id": 70,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/60/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS VESSO - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/vesso/1/",
@@ -1582,22 +1641,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Vesso"
                 }
             ]
         },
         {
             "id": 71,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/61/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS VESSO - GRIS RATA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/vesso/2/",
@@ -1609,22 +1669,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Vesso"
                 }
             ]
         },
         {
             "id": 72,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/62/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS VESSO - UVA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/vesso/3/",
@@ -1636,22 +1697,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Vesso"
                 }
             ]
         },
         {
             "id": 73,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/63/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS VESSO - VINO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/vesso/4/",
@@ -1663,22 +1725,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Vesso"
                 }
             ]
         },
         {
             "id": 74,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/64/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS VESSO - AZUL NOCHE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/vesso/5/",
@@ -1690,22 +1753,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Vesso"
                 }
             ]
         },
         {
             "id": 75,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/65/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS VESSO - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/vesso/6/",
@@ -1717,22 +1781,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Vesso"
                 }
             ]
         },
         {
             "id": 76,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/66/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS VESSO - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-curvos/vesso/7/",
@@ -1744,22 +1809,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos curvos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
                     "modelo-de-cabecera": "Vesso"
                 }
             ]
         },
         {
             "id": 77,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/67/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS PRINCESA - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-rectos/princesa/1/",
@@ -1771,22 +1837,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "princesa"
                 }
             ]
         },
         {
             "id": 78,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/68/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS PRINCESA - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-rectos/princesa/2/",
@@ -1798,22 +1865,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "princesa"
                 }
             ]
         },
         {
             "id": 79,
-            "categoria": "cabeceras",
-            "marca": "kamas",
-            "subcategoria": "pedestales",
+            "categoría": "cabeceras",
             "tamaño": "2 plazas",
+            "marca": "kamas",
+            "línea": "pedestales",
             "ruta": "/productos/cabeceras/2-plazas/kamas/pedestales/69/",
             "nombre": "CABECERA PEDESTAL 2 PLAZAS PRINCESA - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/cabeceras/2-plazas/pedestales/coronas/brazos-rectos/princesa/3/",
@@ -1825,12 +1893,13 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "línea": "Americana",
+                    "categoría": "cabeceras",
                     "tamaño": "2 plazas",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "Corona",
-                    "brazos-de-cabecera": "Brazos rectos",
+                    "marca": "kamas",
+                    "línea": "pedestales",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos rectos",
                     "modelo-de-cabecera": "princesa"
                 }
             ]
