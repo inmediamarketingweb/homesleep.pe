@@ -18,6 +18,14 @@ const normalizarTexto = (texto) => {
     return texto.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
 };
 
+const ORDEN_FILTROS = [
+    'tamaño',
+    'marca',
+    'tipo-de-cabecera',
+    'diseño-de-cabecera',
+    'brazos-de-cabecera'
+];
+
 function Cabeceras() {
     const { sub1, sub2, sub3, sub4 } = useParams();
     const location = useLocation();
@@ -71,6 +79,22 @@ function Cabeceras() {
         'tipo-de-cabecera': 'tipo-de-cabecera',
         'diseño-de-cabecera': 'diseño-de-cabecera',
         'brazos-de-cabecera': 'brazos-de-cabecera'
+    };
+
+    const filtroAJsonKey = {
+        'tamaño': 'tamaño',
+        'marca': 'marcas',
+        'tipo-de-cabecera': 'tipos-de-cabecera',
+        'diseño-de-cabecera': 'diseños-de-cabecera',
+        'brazos-de-cabecera': 'brazos-de-cabecera'
+    };
+
+    const filtroLabels = {
+        'tamaño': 'Tamaños',
+        'marca': 'Marcas',
+        'tipo-de-cabecera': 'Tipo de Cabecera',
+        'diseño-de-cabecera': 'Diseño de Cabecera',
+        'brazos-de-cabecera': 'Brazos de Cabecera'
     };
 
     useEffect(() => {
@@ -571,7 +595,6 @@ function Cabeceras() {
         });
     }, [productos, sub1, activeFilters.tipo]);
 
-    // SEGUNDO: Aplicar filtros de envío gratis y SKUs
     const productosConEnvios = useMemo(() => {
         if (productosBaseFiltrados.length === 0) return [];
 
@@ -594,7 +617,6 @@ function Cabeceras() {
         });
     }, [productosBaseFiltrados, envioGratisActivo, filtroSkus]);
 
-    // TERCERO: Aplicar filtro de precio
     const productosFiltradosPorPrecio = useMemo(() => {
         const params = new URLSearchParams(location.search);
         const precioMin = params.get('min');
@@ -617,6 +639,9 @@ function Cabeceras() {
         });
     }, [productosConEnvios, location.search]);
 
+    // ============================================================
+    // Aplicar TODOS los filtros activos (para mostrar productos)
+    // ============================================================
     const productosFiltrados = useMemo(() => {
         if (productosFiltradosPorPrecio.length === 0) return [];
 
@@ -676,18 +701,103 @@ function Cabeceras() {
         });
     }, [productosFiltradosPorPrecio, activeFilters]);
 
-    const valoresDisponibles = useMemo(() => {
-        const valores = {
-            marcas: obtenerValoresUnicos(productosConEnvios, 'marca'),
-            líneas: obtenerValoresUnicos(productosConEnvios, 'línea'),
-            tamaños: obtenerValoresUnicos(productosConEnvios, 'tamaño'),
-            'tipo-de-cabecera': obtenerValoresUnicos(productosConEnvios, 'tipo-de-cabecera'),
-            'diseño-de-cabecera': obtenerValoresUnicos(productosConEnvios, 'diseño-de-cabecera'),
-            'brazos-de-cabecera': obtenerValoresUnicos(productosConEnvios, 'brazos-de-cabecera')
-        };
+    // ============================================================
+    // Productos filtrados EXCLUYENDO el filtro actual Y TODOS los
+    // filtros posteriores en la jerarquía (para calcular opciones)
+    // ============================================================
+    const productosParaCalcularOpciones = (nombreFiltro) => {
+        if (productosFiltradosPorPrecio.length === 0) return [];
 
-        return valores;
-    }, [productosConEnvios]);
+        // Índice del filtro actual en la jerarquía
+        const indexActual = ORDEN_FILTROS.indexOf(nombreFiltro);
+
+        // Filtros a aplicar: solo los que están ANTES del filtro actual
+        const filtrosAAplicar = indexActual === -1 
+            ? [] 
+            : ORDEN_FILTROS.slice(0, indexActual);
+
+        return productosFiltradosPorPrecio.filter(producto => {
+            let cumpleTodosLosFiltros = true;
+
+            // Aplicar solo los filtros anteriores en la jerarquía
+            for (const filtro of filtrosAAplicar) {
+                if (!cumpleTodosLosFiltros) break;
+
+                const valorFiltro = activeFilters[filtro];
+                if (!valorFiltro) continue;
+
+                const valorProducto = getProductValue(producto, filtro);
+                if (!valorProducto || normalizarTexto(valorProducto) !== normalizarTexto(valorFiltro)) {
+                    cumpleTodosLosFiltros = false;
+                }
+            }
+
+            return cumpleTodosLosFiltros;
+        });
+    };
+
+    // ============================================================
+    // Obtener valores disponibles desde el JSON, aplicando solo
+    // los filtros ANTERIORES en la jerarquía
+    // ============================================================
+    const obtenerValoresDisponiblesDesdeJSON = (nombreFiltro) => {
+        if (!filtrosData?.filtros) return [];
+
+        const claveJson = filtroAJsonKey[nombreFiltro] || nombreFiltro;
+        const filtroJson = filtrosData.filtros.find(f => f[claveJson]);
+
+        if (!filtroJson) return [];
+
+        const valores = filtroJson[claveJson];
+        if (!Array.isArray(valores)) return [];
+
+        const valoresJson = valores.map(item => {
+            if (typeof item === 'object' && item !== null) {
+                const keys = Object.keys(item);
+                if (keys.length === 0) return null;
+                const keyValor = keys.find(k => k !== 'ruta') || keys[0];
+                return item[keyValor];
+            }
+            return item;
+        }).filter(v => v !== null && v !== undefined && v !== '' && v !== 'Ver todos');
+
+        // Productos que cumplen solo los filtros ANTERIORES
+        const productosRelevantes = productosParaCalcularOpciones(nombreFiltro);
+
+        const valoresDisponibles = obtenerValoresUnicos(productosRelevantes, nombreFiltro);
+        const disponiblesNormalizados = valoresDisponibles.map(v => normalizarTexto(v));
+
+        return valoresJson.filter(valor => {
+            const valorNormalizado = normalizarTexto(valor);
+            return disponiblesNormalizados.includes(valorNormalizado);
+        });
+    };
+
+    const renderFiltrosDesdeJSON = () => {
+        if (!filtrosData?.filtros) return null;
+
+        return filtrosData.filtros.map((filtroObj, index) => {
+            const claveJson = Object.keys(filtroObj)[0];
+            if (claveJson === 'categorías') return null;
+
+            const nombreFiltro = Object.entries(filtroAJsonKey).find(
+                ([, jsonKey]) => jsonKey === claveJson
+            )?.[0];
+
+            if (!nombreFiltro) return null;
+
+            const valores = obtenerValoresDisponiblesDesdeJSON(nombreFiltro);
+            const label = filtroLabels[nombreFiltro] || nombreFiltro.replace(/-/g, ' ');
+
+            if (valores.length === 0) return null;
+
+            return (
+                <div key={index}>
+                    {renderFiltroDinamico(nombreFiltro, valores, label)}
+                </div>
+            );
+        });
+    };
 
     const productosOrdenados = useMemo(() => {
         return [...productosFiltrados].sort((a, b) => {
@@ -735,15 +845,9 @@ function Cabeceras() {
         setFiltroSkus(null);
         setEnvioGratisActivo(false);
         resetPage();
-        
-        // Limpiar también los filtros de precio de la URL
-        const params = new URLSearchParams(location.search);
-        params.delete('min');
-        params.delete('max');
-        const newSearch = params.toString();
-        const newPath = location.pathname + (newSearch ? `?${newSearch}` : '');
-        navigate(newPath, { replace: true });
-        
+
+        navigate('/productos/cabeceras/', { replace: true });
+
         setResetFiltersTrigger(true);
         scrollToTop();
         
@@ -886,29 +990,13 @@ function Cabeceras() {
                                 opciones = opciones ? [opciones] : [];
                             }
 
-                            const opcionesDisponibles = opciones.filter(opcion => {
-                                let valorOpcion = opcion;
-                                if (typeof opcion === 'object' && opcion !== null) {
-                                    const opcionKeys = Object.keys(opcion);
-                                    if (opcionKeys.length > 0) {
-                                        valorOpcion = opcion[opcionKeys[0]];
-                                    }
-                                }
-                                
-                                const stateKey = nombreFiltro === 'modelos' ? 'modelo' : 
-                                               nombreFiltro === 'diseños' ? 'diseño-de-cabecera' : 
-                                               nombreFiltro === 'estilos' ? 'estilo' : nombreFiltro;
-                                const valoresDisponibles = obtenerValoresUnicos(productosConEnvios, stateKey);
-                                return valoresDisponibles.includes(valorOpcion);
-                            });
-
-                            if (opcionesDisponibles.length === 0) return null;
+                            if (opciones.length === 0) return null;
 
                             return (
                                 <div key={idx} className='filter-subgroup'>
                                     <p className='filter-subgroup-title'>{nombreGrupo}</p>
                                     <ul>
-                                        {opcionesDisponibles.map((opcion, mIdx) => {
+                                        {opciones.map((opcion, mIdx) => {
                                             let valorOpcion = opcion;
                                             if (typeof opcion === 'object' && opcion !== null) {
                                                 const opcionKeys = Object.keys(opcion);
@@ -970,15 +1058,6 @@ function Cabeceras() {
                                     <p className='text'>Encuentra la cabecera ideal para tu espacio, en las mejores marcas del mercado</p>
                                 </div>
 
-                                {/* <BtnGeneral 
-                                    onEnvioGratisChange={handleEnvioGratis}
-                                    onFiltroSkusChange={handleFiltroSkus}
-                                    envioGratisActivo={envioGratisActivo}
-                                    currentPage={currentPage}
-                                    setCurrentPage={setCurrentPage}
-                                    resetFilters={resetFiltersTrigger}
-                                /> */}
-
                                 <div className='d-flex-column gap-20'>
                                     <div className='d-flex-center-left gap-5'>
                                         <span className="material-symbols-outlined">filter_alt</span>
@@ -1000,12 +1079,7 @@ function Cabeceras() {
 
                                     <div className='prds-filters-container'>
                                         {renderCategoriaFilters()}
-                                        {renderFiltroDinamico('marca', valoresDisponibles.marcas, 'Marcas')}
-                                        {renderFiltroDinamico('tamaño', valoresDisponibles.tamaños, 'Tamaños')}
-                                        {renderFiltroDinamico('línea', valoresDisponibles.líneas, 'Líneas')}
-                                        {renderFiltroDinamico('tipo-de-cabecera', valoresDisponibles['tipo-de-cabecera'], 'Tipo de Cabecera')}
-                                        {renderFiltroDinamico('diseño-de-cabecera', valoresDisponibles['diseño-de-cabecera'], 'Diseño de Cabecera')}
-                                        {renderFiltroDinamico('brazos-de-cabecera', valoresDisponibles['brazos-de-cabecera'], 'Brazos de Cabecera')}
+                                        {renderFiltrosDesdeJSON()}
                                         {renderFiltrosEspecificos()}
                                     </div>
                                 </div>

@@ -5,6 +5,7 @@
             "categoría": "cabeceras",
             "tamaño": "king",
             "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/22/",
             "nombre": "CABECERA AÉREA KING EGYPT 3 - TRICOLOR",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/egypt-3/1/",
@@ -17,9 +18,9 @@
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
-                    "tamaño": "King",
-                    "línea": "bloques",
-                    "tipo-de-cabecera": "aérea",
+                    "tamaño": "king",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
                     "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "sin brazos",
                     "modelo-de-cabecera": "Egypt 3"
@@ -31,6 +32,7 @@
             "categoría": "cabeceras",
             "tamaño": "king",
             "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/23/",
             "nombre": "CABECERA AÉREA KING STARIS - ANTIFLUIDO IVORY",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/staris/1/",
@@ -43,9 +45,9 @@
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
-                    "tamaño": "King",
-                    "línea": "bloques",
-                    "tipo-de-cabecera": "aérea",
+                    "tamaño": "king",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
                     "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "sin brazos",
                     "modelo-de-cabecera": "Staris"
@@ -54,9 +56,10 @@
         },
         {
             "id": 1,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/1/",
             "nombre": "CABECERA AEREA KING EGYPT - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/egypt/1/",
@@ -68,11 +71,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "Egypt"
                 }
@@ -80,9 +84,10 @@
         },
         {
             "id": 2,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/2/",
             "nombre": "CABECERA AEREA KING - CUERO NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/escalera/1/",
@@ -94,11 +99,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "otros modelos"
                 }
@@ -106,9 +112,10 @@
         },
         {
             "id": 3,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/3/",
             "nombre": "CABECERA AEREA KING EXPLORER - VINO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/explorer/1/",
@@ -120,11 +127,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "explorer"
                 }
@@ -132,9 +140,10 @@
         },
         {
             "id": 4,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/4/",
             "nombre": "CABECERA AEREA KING GAVIOTA 2 - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/gaviota-2/1/",
@@ -146,11 +155,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "gaviota 2"
                 }
@@ -158,9 +168,10 @@
         },
         {
             "id": 5,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/5/",
             "nombre": "CABECERA AEREA KING GAVIOTA 2 - TEJIDO AZUL",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/gaviota-2/2/",
@@ -172,11 +183,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "gaviota 2"
                 }
@@ -184,9 +196,10 @@
         },
         {
             "id": 6,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/6/",
             "nombre": "CABECERA AEREA KING MOSTER - TEJIDO CELESTE",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/moster/1/",
@@ -198,11 +211,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "moster"
                 }
@@ -210,9 +224,10 @@
         },
         {
             "id": 7,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/7/",
             "nombre": "CABECERA AEREA KING PANAL 2 - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/panal-2/1/",
@@ -224,11 +239,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "panal 2"
                 }
@@ -236,9 +252,10 @@
         },
         {
             "id": 8,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/8/",
             "nombre": "CABECERA AEREA KING PRIME - HUESO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/prime/1/",
@@ -250,11 +267,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "prime"
                 }
@@ -262,9 +280,10 @@
         },
         {
             "id": 9,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/9/",
             "nombre": "CABECERA AEREA KING REPTILIAN - ANTIFLUIDO IVORY",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/reptilian/1/",
@@ -276,11 +295,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "reptilian"
                 }
@@ -288,9 +308,10 @@
         },
         {
             "id": 10,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/10/",
             "nombre": "CABECERA AEREA KING SPIDER - ANTIFLUIDO PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/spider/1/",
@@ -302,11 +323,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "reptilian"
                 }
@@ -314,9 +336,10 @@
         },
         {
             "id": 11,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/11/",
             "nombre": "CABECERA AEREA KING SPIDER - ANTIFLUIDO PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/spider/2/",
@@ -328,11 +351,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "reptilian"
                 }
@@ -340,9 +364,10 @@
         },
         {
             "id": 12,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/12/",
             "nombre": "CABECERA AEREA KING SIDNEY - PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/sydnei/1/",
@@ -354,11 +379,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "sidney"
                 }
@@ -366,9 +392,10 @@
         },
         {
             "id": 13,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/13/",
             "nombre": "CABECERA AEREA KING SIDNEY - ARENA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/sydnei/2/",
@@ -380,11 +407,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "sidney"
                 }
@@ -392,9 +420,10 @@
         },
         {
             "id": 14,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/14/",
             "nombre": "CABECERA AEREA KING SIDNEY - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/sydnei/3/",
@@ -406,11 +435,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "sidney"
                 }
@@ -418,9 +448,10 @@
         },
         {
             "id": 15,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/15/",
             "nombre": "CABECERA AEREA KING TORTUN - TEJIDO MARFIL",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/tortun/1/",
@@ -432,11 +463,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "tortun"
                 }
@@ -444,9 +476,10 @@
         },
         {
             "id": 16,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/16/",
             "nombre": "CABECERA AEREA KING TORTUN - IKER VERDE",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/tortun/2/",
@@ -458,11 +491,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "tortun"
                 }
@@ -470,9 +504,10 @@
         },
         {
             "id": 17,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/17/",
             "nombre": "CABECERA AEREA KING TURMALINA 3 - IVORY",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/turmalina-3/1/",
@@ -484,11 +519,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "turmalina"
                 }
@@ -496,9 +532,10 @@
         },
         {
             "id": 18,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/18/",
             "nombre": "CABECERA AEREA KING VIENA - CUERO CHOCOLATE",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/viena/1/",
@@ -510,11 +547,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "viena"
                 }
@@ -522,9 +560,10 @@
         },
         {
             "id": 19,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/19/",
             "nombre": "CABECERA AEREA KING VIENA - CUERO NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/viena/2/",
@@ -536,11 +575,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "viena"
                 }
@@ -548,9 +588,10 @@
         },
         {
             "id": 20,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/20/",
             "nombre": "CABECERA AEREA KING VITORIA - NEGRO",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/vitoria/1/",
@@ -562,11 +603,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "vitoria"
                 }
@@ -574,9 +616,10 @@
         },
         {
             "id": 21,
-            "categoria": "cabeceras",
-            "subcategoria": "aereas",
+            "categoría": "cabeceras",
             "tamaño": "king",
+            "marca": "kamas",
+            "línea": "aéreas",
             "ruta": "/productos/cabeceras/king/kamas/aereas/21/",
             "nombre": "CABECERA AEREA KING VITORIA - PLATA",
             "fotos": "/assets/imagenes/productos/cabeceras/king/aereas/bloques/vitoria/2/",
@@ -588,11 +631,12 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "tamaño": "King",
+                    "categoría": "cabeceras",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "tipo-de-cabecera": "Aérea",
-                    "línea": "americana",
-                    "diseño-de-cabecera": "Bloques",
+                    "línea": "aéreas",
+                    "tipo-de-cabecera": "aéreas",
+                    "diseño-de-cabecera": "bloques",
                     "brazos-de-cabecera": "Sin brazos",
                     "modelo-de-cabecera": "vitoria"
                 }
