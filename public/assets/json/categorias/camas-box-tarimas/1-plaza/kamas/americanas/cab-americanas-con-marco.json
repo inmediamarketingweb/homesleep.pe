@@ -1,0 +1,32 @@
+{
+    "productos":[
+        {
+            "categoría": "camas box tarimas",
+            "tamaño": "1 plaza",
+            "marca": "kamas",
+            "línea": "americanas",
+            "ruta": "/productos/camas-box-tarimas/1-plaza/kamas/americanas/13/",
+            "nombre": "CAMA BOX TARIMA AMERICANA 1 PLAZA + CABECERA AÉREA CAPITONEADA CON MARCO - NEGRO",
+            "fotos": "/assets/imagenes/productos/camas-box-tarimas/kamas/americanas/2-plazas/aereas-con-patas/con-marco/sin-brazos/corona/1/",
+            "precioRegular": 1539,
+            "precioNormal": 1099,
+            "precioVenta": 779,
+            "stock": 15,
+            "sku": "H2114NX10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas",
+                    "línea": "americanas",
+                    "tamaño": "1 plaza",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Con marco",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Corona"
+                }
+            ]
+        }
+    ]
+}

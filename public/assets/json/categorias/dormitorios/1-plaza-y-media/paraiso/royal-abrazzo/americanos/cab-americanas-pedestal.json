@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "categoría": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "línea": "americanos",
+            "tamaño": "1 plaza y media",
+            "modelo": "abrazzo",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/paraiso/royal-abrazzo/americanos/3/",
+            "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA + COLCHÓN PARAISO ABRAZZO + CABECERA KAMAS PEDESTAL EMPERATRIZ - VINO",
+            "fotos": "/assets/imagenes/productos/dormitorios/paraiso/americanos/2-plazas/abrazzo/pedestales/americanas/brazos-rectos/emperatriz/1/",
+            "precioRegular": 3399,
+            "precioNormal": 2899,
+            "precioVenta": 2099,
+            "stock": 9,
+            "sku": "H3215213N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "categoría": "dormitorios",
+                    "marca": "Kamas - Paraiso",
+                    "tamaño": "1 plaza y media",
+                    "modelo-de-colchón": "royal abrazzo",
+                    "línea": "americanos",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americana",
+                    "brazos-de-cabecera": "Brazos rectos",
+                    "modelo-de-cabecera": "Emperatriz"
+                }
+            ]
+        }
+    ]
+}

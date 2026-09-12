@@ -159,22 +159,32 @@ function Busqueda(){
                                                 ))}
                                             </ul>
 
-                                            <div className="pagination-controls d-grid-column-2-3">
+                                            <div className="pagination-controls">
                                                 <button className="pagination-arrow" onClick={handlePreviousPage} disabled={currentPage === 1}>
                                                     <span className="material-icons">chevron_left</span>
+                                                    <p>Anterior</p>
                                                 </button>
 
-                                                <div className="d-flex-center-center gap-10">
+                                                <ul className='pagination-list'>
                                                     {getVisiblePages().map((page, index) => 
                                                         typeof page === 'number' ? (
-                                                            <button key={index} className={`pagination-page ${currentPage === page ? 'active' : ''}`} onClick={() => handlePageChange(page)}>{page}</button>
+                                                            <li key={index}>
+                                                                <button type='button' className={`pagination-page ${currentPage === page ? 'active' : ''}`} onClick={() => handlePageChange(page)}>
+                                                                    <p>{page}</p>
+                                                                </button>
+                                                            </li>
                                                         ) : (
-                                                            <span key={index} className="pagination-ellipsis">...</span>
+                                                            <li key={index}>
+                                                                <div className='dots'>
+                                                                    <span>...</span>
+                                                                </div>
+                                                            </li>
                                                         )
                                                     )}
-                                                </div>
+                                                </ul>
 
                                                 <button className="pagination-arrow" onClick={handleNextPage} disabled={currentPage === totalPages}>
+                                                    <p>Siguiente</p>
                                                     <span className="material-icons">chevron_right</span>
                                                 </button>
                                             </div>

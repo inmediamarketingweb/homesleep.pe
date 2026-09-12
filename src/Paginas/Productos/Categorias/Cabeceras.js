@@ -1073,11 +1073,7 @@ function Cabeceras() {
                                                 {getVisiblePages().map((page, index) => 
                                                     typeof page === 'number' ? (
                                                         <li key={index}>
-                                                            <button 
-                                                                type='button'
-                                                                className={`pagination-page ${currentPage === page ? 'active' : ''}`}
-                                                                onClick={() => handlePageChange(page)}
-                                                            >
+                                                            <button type='button' className={`pagination-page ${currentPage === page ? 'active' : ''}`} onClick={() => handlePageChange(page)}>
                                                                 <p>{page}</p>
                                                             </button>
                                                         </li>

@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "tamaño": "1 plaza y media",
+            "marca": "Kamas + Paraiso",
+            "modelo": "medallon ergosoft",
+            "línea": "Americanos con cajones",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/paraiso/medallon-ergosoft/americanos-con-cajones/1/",
+            "nombre": "DORMITORIO 1 PLAZA Y MEDIA KAMAS - PARAISO CON 2 CAJONES + COLCHÓN PARAISO MEDALLON ERGOSOFT + CABECERA AÉREA CAPITONEADO 1 - ARENA",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/paraiso/medallon-ergosoft/americanos-con-cajones/clasicas/clasica-1/1/",
+            "precioRegular": 1999,
+            "precioNormal": 1499,
+            "precioVenta": 1049,
+            "stock": 9,
+            "sku": "H32221103N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos con cajones",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "medallon ergosoft",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

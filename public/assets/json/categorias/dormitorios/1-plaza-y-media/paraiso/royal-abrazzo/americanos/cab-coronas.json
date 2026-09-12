@@ -1,0 +1,34 @@
+{
+    "productos":[
+        {
+            "categoria": "dormitorios",
+            "marca": "Kamas - Paraiso",
+            "línea": "americanos",
+            "tamaño": "1 plaza y media",
+            "modelo": "abrazzo",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/paraiso/royal-abrazzo/americanos/2/",
+            "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA + COLCHÓN PARAISO ABRAZZO + CABECERA KAMAS AEREA CORONA - NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/paraiso/americanos/2-plazas/abrazzo/aereas-con-patas/coronas/sin-brazos/otros-modelos/1/",
+            "precioRegular": 3399,
+            "precioNormal": 2899,
+            "precioVenta": 2049,
+            "stock": 9,
+            "sku": "H321525N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - Paraiso",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Abrazzo",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "Corona",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Corona"
+                }
+            ]
+        }
+    ]
+}
