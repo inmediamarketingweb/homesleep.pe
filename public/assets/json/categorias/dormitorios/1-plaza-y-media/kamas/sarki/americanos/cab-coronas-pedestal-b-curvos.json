@@ -1,0 +1,66 @@
+{
+    "productos":[
+        {
+            "id": 8,
+            "categoria": "dormitorios",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/sarki/americanos/8/",
+            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL MAJESTAD - PLATA",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos/coronas/majestad/2/",
+            "precioRegular": 2889,
+            "precioNormal": 1889,
+            "precioVenta": 1189,
+            "stock": 9,
+            "sku": "H31152235N11",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "majestad"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "categoria": "dormitorios",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "modelo": "sarki",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/sarki/americanos/9/",
+            "nombre": "DORMITORIO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS SARKI + CABECERA PEDESTAL MAJESTAD - CENIZO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/sarki/americanos/coronas/majestad/3/",
+            "precioRegular": 2889,
+            "precioNormal": 1889,
+            "precioVenta": 1189,
+            "stock": 9,
+            "sku": "H31152235N12",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Sarki",
+                    "tipo-de-cabecera": "pedestal",
+                    "diseño-de-cabecera": "corona",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "majestad"
+                }
+            ]
+        }
+    ]
+}

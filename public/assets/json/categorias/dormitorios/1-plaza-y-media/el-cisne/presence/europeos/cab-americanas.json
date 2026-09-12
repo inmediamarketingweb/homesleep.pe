@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "tamaño": "1 plaza y media",
+            "marca": "Kamas + El Cisne",
+            "modelo": "presence",
+            "línea": "europeos",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/presence/europeos/1/",
+            "nombre": "DORMITORIO EUROPEO 1 PLAZA Y MEDIA KAMAS - EL CISNE + COLCHÓN EL CISNE PRESENCE + CABECERA AÉREA CAPITONEADO 1 - VINO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/el-cisne/presence/europeos/americanas/capitoneado-1/1/",
+            "precioRegular": 2399,
+            "precioNormal": 1999,
+            "precioVenta": 1199,
+            "stock": 9,
+            "sku": "H33315243N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "europeos",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "presence",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "capitoneado 1"
+                }
+            ]
+        }
+    ]
+}

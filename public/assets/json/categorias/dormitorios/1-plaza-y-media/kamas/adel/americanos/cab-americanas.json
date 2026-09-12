@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoria": "dormitorios",
+            "tamaño": "1 plaza y media",
+            "marca": "kamas",
+            "modelo": "adel",
+            "línea": "americanos",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/kamas/adel/americanos/1/",
+            "nombre": "DORMITORIO AMERICANO KAMAS 1 PLAZA Y MEDIA + COLCHÓN KAMAS ADEL + CABECERA AÉREA - CUERO NEGRO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/kamas/adel/americanos/otros-modelos/1/",
+            "precioRegular": 1999,
+            "precioNormal": 1399,
+            "precioVenta": 739,
+            "stock": 9,
+            "sku": "H31152213N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas",
+                    "línea": "americanos",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "Adel",
+                    "tipo-de-cabecera": "Aérea con patas",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "Sin brazos",
+                    "modelo-de-cabecera": "Otros modelos"
+                }
+            ]
+        }
+    ]
+}

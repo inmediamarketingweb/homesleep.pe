@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "id": 3,
+            "categoria": "dormitorios",
+            "tamaño": "1 plaza y media",
+            "marca": "Kamas + El Cisne",
+            "modelo": "presence",
+            "línea": "Americanos",
+            "ruta": "/productos/dormitorios/1-plaza-y-media/el-cisne/presence/americanos/3/",
+            "nombre": "DORMITORIO AMERICANO 1 PLAZA Y MEDIA KAMAS - EL CISNE + COLCHÓN EL CISNE PRESENCE + CABECERA PEDESTAL MAJESTAD - CHAMPAGNE",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/el-cisne/presence/americanos/coronas/majestad/1/",
+            "precioRegular": 2299,
+            "precioNormal": 1999,
+            "precioVenta": 1289,
+            "stock": 9,
+            "sku": "H33152245N10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "Kamas - El Cisne",
+                    "línea": "Americanos",
+                    "tamaño": "1 plaza y media",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "presence",
+                    "tipo-de-cabecera": "Pedestal",
+                    "diseño-de-cabecera": "coronas",
+                    "brazos-de-cabecera": "brazos curvos",
+                    "modelo-de-cabecera": "Majestad"
+                }
+            ]
+        }
+    ]
+}
