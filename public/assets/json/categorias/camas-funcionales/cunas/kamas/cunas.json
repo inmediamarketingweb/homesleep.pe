@@ -1,0 +1,88 @@
+{
+    "productos":[
+        {
+            "categoria": "camas funcionales",
+            "subcategoría": "cunas",
+            "tamaño": "cuna",
+            "ruta": "/productos/camas-funcionales/cunas/kamas/1/",
+            "nombre": "CUNA KAMAS MADERA TORNILLO",
+            "fotos": "/assets/imagenes/productos/camas-funcionales/cunas/1/",
+            "precioRegular": 1299,
+            "precioNormal": 999,
+            "precioVenta": 799,
+            "stock": 9,
+            "sku": "K442N11",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "subcategoría": "camarotes",
+                    "tamaño": "1 plaza y media + 2 plazas",
+                    "tipo-de-cabecera": "No aplica"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "subcategoría": "camarotes",
+                    "tamaño": "mixto",
+                    "cajones": "No",
+                    "base-encajonada": "No"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Camarote",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano.",
+                            "parrillas": "100% madera pino americano",
+                            "unión": "Encajonada y con pernos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "categoria": "camas funcionales",
+            "subcategoría": "cunas",
+            "tamaño": "cuna",
+            "ruta": "/productos/camas-funcionales/cunas/kamas/2/",
+            "nombre": "CUNA KAMAS MADERA TORNILLO",
+            "fotos": "/assets/imagenes/productos/camas-funcionales/cunas/2/",
+            "precioRegular": 1299,
+            "precioNormal": 999,
+            "precioVenta": 799,
+            "stock": 9,
+            "sku": "K442N11",
+            "tipo-de-envio": "Gratis",
+            "resumen-del-producto":[
+                {
+                    "subcategoría": "camarotes",
+                    "tamaño": "1 plaza y media + 2 plazas",
+                    "tipo-de-cabecera": "No aplica"
+                }
+            ],
+            "detalles-del-producto":[
+                {
+                    "subcategoría": "camarotes",
+                    "tamaño": "mixto",
+                    "cajones": "No",
+                    "base-encajonada": "No"
+                }
+            ],
+            "descripciones":[
+                {
+                    "titulo": "Camarote",
+                    "descripcion":[
+                        {
+                            "madera": "Pino americano.",
+                            "parrillas": "100% madera pino americano",
+                            "unión": "Encajonada y con pernos",
+                            "garantía": "2 años"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

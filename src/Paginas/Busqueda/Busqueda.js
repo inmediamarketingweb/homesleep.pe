@@ -1,205 +1,475 @@
-import { useEffect, useState } from 'react';
-import { useLocation } from 'react-router-dom';
+// import { useEffect, useState, useMemo } from 'react';
+// import { useLocation, useNavigate } from 'react-router-dom';
+// import Helmet from 'react-helmet';
+// import './Busqueda.css';
+// import { Producto } from '../../Componentes/Plantillas/Producto/Producto';
+
+// function Busqueda() {
+//   const [productos, setProductos] = useState([]);
+//   const location = useLocation();
+//   const navigate = useNavigate();
+
+//   // 1. Obtener parámetros de la URL (Mantenemos 'tamano' en la URL para evitar caracteres raros)
+//   const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
+//   const queryParam = queryParams.get('query') || '';
+//   const selectedTamano = queryParams.get('tamano') || ''; // Solo 1 tamaño a la vez
+//   const selectedMarca = queryParams.get('marca') || '';   // Solo 1 marca a la vez
+//   const sortParam = queryParams.get('orden') || 'relevancia';
+
+//   const normalizeStr = (str = '') =>
+//     str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+
+//   const slugify = (text) => normalizeStr(text).replace(/\s+/g, '-');
+
+//   // 2. Cargar productos desde manifest
+//   useEffect(() => {
+//     const fetchProductos = async () => {
+//       try {
+//         const manifestResponse = await fetch('/assets/json/manifest.json');
+//         if (!manifestResponse.ok) return;
+//         const manifestData = await manifestResponse.json();
+//         const archivos = manifestData.files || [];
+
+//         const productosArrays = await Promise.all(
+//           archivos.map(async (archivo) => {
+//             try {
+//               const res = await fetch(archivo);
+//               if (!res.ok) return [];
+//               const data = await res.json();
+//               return data.productos || [];
+//             } catch {
+//               return [];
+//             }
+//           })
+//         );
+//         setProductos(productosArrays.flat());
+//       } catch (error) {
+//         console.error('Error al cargar productos:', error);
+//       }
+//     };
+//     fetchProductos();
+//   }, []);
+
+//   // 3. Búsqueda por texto base
+//   const searchBaseProducts = useMemo(() => {
+//     if (!queryParam.trim()) return productos;
+//     const tokens = normalizeStr(queryParam).split(' ').filter(Boolean);
+//     return productos.filter((p) => {
+//       const nom = normalizeStr(p.nombre);
+//       const sku = normalizeStr(p.sku);
+//       const cat = normalizeStr(p.categoria);
+//       const sub = normalizeStr(p.subCategoria);
+//       return tokens.every(
+//         (t) => nom.includes(t) || sku.includes(t) || cat.includes(t) || sub.includes(t)
+//       );
+//     });
+//   }, [productos, queryParam]);
+
+//   // 4. Opciones de filtros dinámicos (Tamaños y Marcas)
+//   const availableFilters = useMemo(() => {
+//     const tamanosSet = new Map();
+//     const marcasSet = new Map();
+
+//     searchBaseProducts.forEach((p) => {
+//       // AQUÍ ESTÁ EL CAMBIO: p.tamaño con "ñ"
+//       if (p.tamaño) tamanosSet.set(slugify(p.tamaño), p.tamaño);
+//       if (p.marca) marcasSet.set(slugify(p.marca), p.marca);
+//     });
+
+//     return {
+//       tamanos: Array.from(tamanosSet.entries()).map(([slug, label]) => ({ slug, label })),
+//       marcas: Array.from(marcasSet.entries()).map(([slug, label]) => ({ slug, label })),
+//     };
+//   }, [searchBaseProducts]);
+
+//   // 5. Aplicar Filtros Seleccionados + Ordenamiento
+//   const finalProducts = useMemo(() => {
+//     let result = searchBaseProducts.filter((p) => {
+//       // AQUÍ ESTÁ EL CAMBIO: p.tamaño con "ñ"
+//       const matchTamano = !selectedTamano || slugify(p.tamaño || '') === selectedTamano;
+//       const matchMarca = !selectedMarca || slugify(p.marca || '') === selectedMarca;
+//       return matchTamano && matchMarca;
+//     });
+
+//     if (sortParam === 'asc') {
+//       result.sort((a, b) => (Number(a.precio) || 0) - (Number(b.precio) || 0));
+//     } else if (sortParam === 'desc') {
+//       result.sort((a, b) => (Number(b.precio) || 0) - (Number(a.precio) || 0));
+//     }
+
+//     return result;
+//   }, [searchBaseProducts, selectedTamano, selectedMarca, sortParam]);
+
+//   // 6. Selección Exclusiva: si se activa 1, se desactiva el otro del mismo grupo
+//   const handleFilterToggle = (key, slugValue) => {
+//     const newParams = new URLSearchParams(location.search);
+//     const currentValue = newParams.get(key);
+
+//     if (currentValue === slugValue) {
+//       newParams.delete(key); // Desactivar si vuelve a hacer clic
+//     } else {
+//       newParams.set(key, slugValue); // Reemplazar valor anterior por el nuevo
+//     }
+
+//     navigate(`?${newParams.toString()}`);
+//   };
+
+//   const handleSortChange = (e) => {
+//     const newParams = new URLSearchParams(location.search);
+//     newParams.set('orden', e.target.value);
+//     navigate(`?${newParams.toString()}`);
+//   };
+
+//   const truncate = (str = '', maxLength) =>
+//     str.length <= maxLength ? str : str.slice(0, maxLength) + '...';
+
+//   return (
+//     <>
+//       <Helmet>
+//         <title>{queryParam ? `${queryParam} | Homesleep` : 'Catálogo | Homesleep'}</title>
+//         <meta name="description" content="Resultados de búsqueda" />
+//       </Helmet>
+
+//       <main className="main">
+//         <div className="block-container">
+//           <section className="block-content d-flex-column gap-10">
+//             <div className="banner-link-img-100w">
+//               <img src="/assets/imagenes/paginas/pagina-principal/slider/slider-2.webp" alt="Banner" />
+//             </div>
+
+//             <div className="page-search-container">
+//               {/* PANEL DE FILTROS LATERAL */}
+//               <div className="page-search-left">
+//                 <div className="pg-search-filters">
+                  
+//                   {/* Filtro Tamaño */}
+//                   {availableFilters.tamanos.length > 0 && (
+//                     <div className="pg-search-fl-tag">
+//                       <p className="title text">Tamaño</p>
+//                       <ul>
+//                         {availableFilters.tamanos.map(({ slug, label }) => {
+//                           const isChecked = selectedTamano === slug;
+//                           return (
+//                             <li key={slug}>
+//                               <button
+//                                 type="button"
+//                                 onClick={() => handleFilterToggle('tamano', slug)}
+//                               >
+//                                 <input
+//                                   type="checkbox"
+//                                   checked={isChecked}
+//                                   readOnly
+//                                 />
+//                                 <p className="text">{label}</p>
+//                               </button>
+//                             </li>
+//                           );
+//                         })}
+//                       </ul>
+//                     </div>
+//                   )}
+
+//                   {/* Filtro Marcas */}
+//                   {availableFilters.marcas.length > 0 && (
+//                     <div className="pg-search-fl-tag">
+//                       <p className="title text">Marcas</p>
+//                       <ul>
+//                         {availableFilters.marcas.map(({ slug, label }) => {
+//                           const isChecked = selectedMarca === slug;
+//                           return (
+//                             <li key={slug}>
+//                               <button
+//                                 type="button"
+//                                 onClick={() => handleFilterToggle('marca', slug)}
+//                               >
+//                                 <input
+//                                   type="checkbox"
+//                                   checked={isChecked}
+//                                   readOnly
+//                                 />
+//                                 <p className="text">{label}</p>
+//                               </button>
+//                             </li>
+//                           );
+//                         })}
+//                       </ul>
+//                     </div>
+//                   )}
+
+//                 </div>
+//               </div>
+
+//               {/* LISTA DE RESULTADOS DE PRODUCTOS */}
+//               <div className="page-search-right">
+//                 <div className="pg-search-results">
+//                   {finalProducts.length > 0 ? (
+//                     <ul>
+//                       {finalProducts.map((producto) => (
+//                         <Producto
+//                           key={producto.sku}
+//                           producto={producto}
+//                           truncate={truncate}
+//                         />
+//                       ))}
+//                     </ul>
+//                   ) : (
+//                     <p className="text p-20">No se encontraron productos con los filtros seleccionados.</p>
+//                   )}
+//                 </div>
+//               </div>
+//             </div>
+//           </section>
+//         </div>
+//       </main>
+//     </>
+//   );
+// }
+
+// export default Busqueda;
+
+import { useEffect, useState, useMemo } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Helmet from 'react-helmet';
-
 import './Busqueda.css';
-
 import { Producto } from '../../Componentes/Plantillas/Producto/Producto';
-// import Filtros from './Componentes/Filtros/Filtros';
-// import Recomendados from './Componentes/Recomendados/Recomendados';
 
-function Busqueda(){
-    const [productos, setProductos] = useState([]);
-    const [filteredProductos, setFilteredProductos] = useState([]);
-    const [currentPage, setCurrentPage] = useState(1);
-    const itemsPerPage = 40;
-    const location = useLocation();
-    const queryParams = new URLSearchParams(location.search);
-    const query = queryParams.get('query') || '';
-    const normalizeStr = (str = '') => str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+function Busqueda() {
+  const [productos, setProductos] = useState([]);
+  const location = useLocation();
+  const navigate = useNavigate();
 
-    useEffect(() => {
-        const fetchProductos = async () => {
-            try{
-                const manifestResponse = await fetch('/assets/json/manifest.json');
-                if (!manifestResponse.ok) {
-                    throw new Error(`HTTP error! status: ${manifestResponse.status}`);
-                }
+  // 1. Obtener parámetros de la URL
+  const queryParams = useMemo(() => new URLSearchParams(location.search), [location.search]);
+  const queryParam = queryParams.get('query') || '';
+  const selectedTamano = queryParams.get('tamano') || ''; 
+  const selectedMarca = queryParams.get('marca') || '';   
+  const sortParam = queryParams.get('orden') || 'relevancia';
 
-                const manifestContentType = manifestResponse.headers.get('content-type');
-                if (!manifestContentType || !manifestContentType.includes('application/json')) {
-                    throw new Error('Response is not JSON');
-                }
+  // BLINDAJE 1: Convertir a String y usar trim() para evitar errores si recibe números o espacios extra
+  const normalizeStr = (str) => {
+    if (!str) return '';
+    return String(str)
+      .trim()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
+  };
 
-                const manifestData = await manifestResponse.json();
-                const archivos = manifestData.files || [];
+  const slugify = (text) => normalizeStr(text).replace(/\s+/g, '-');
 
-                const productosArrays = await Promise.all(
-                    archivos.map(async (archivo) => {
-                        try {
-                            const response = await fetch(archivo);
-                            if (!response.ok) {
-                                console.error(`Archivo no encontrado: ${archivo}`);
-                                return [];
-                            }
+  // BLINDAJE 2: Función segura para obtener el tamaño/marca (cubre posibles variaciones de mayúsculas en el JSON)
+  const getTamano = (p) => p.tamaño || p.Tamaño || p.tamano || p.Tamano || '';
+  const getMarca = (p) => p.marca || p.Marca || '';
 
-                            const contentType = response.headers.get('content-type');
-                            if (!contentType || !contentType.includes('application/json')) {
-                                console.error(`Respuesta no JSON en: ${archivo}`);
-                                return [];
-                            }
+  // 2. Cargar productos desde manifest
+  useEffect(() => {
+    const fetchProductos = async () => {
+      try {
+        const manifestResponse = await fetch('/assets/json/manifest.json');
+        if (!manifestResponse.ok) return;
+        const manifestData = await manifestResponse.json();
+        const archivos = manifestData.files || [];
 
-                            const data = await response.json();
-                            return data.productos || [];
-                        } catch (error) {
-                            console.error(`Error cargando ${archivo}:`, error);
-                            return [];
-                        }
-                    })
-                );
-
-                const productosUnificados = productosArrays.flat();
-                setProductos(productosUnificados);
-            } catch (error){
-                console.error('Error al cargar los productos:', error);
+        const productosArrays = await Promise.all(
+          archivos.map(async (archivo) => {
+            try {
+              const res = await fetch(archivo);
+              if (!res.ok) return [];
+              const data = await res.json();
+              return data.productos || [];
+            } catch {
+              return [];
             }
-        };
-
-        fetchProductos();
-    }, []);
-
-    useEffect(() => {
-        if (!query.trim()) {
-            setFilteredProductos([]);
-            return;
-        }
-
-        const tokens = normalizeStr(query).split(' ').filter(Boolean);
-        const filtered = productos.filter(producto => {
-            const searchMatch = tokens.length === 0 || tokens.every(token => {
-                const normalizedNombre = normalizeStr(String(producto.nombre ?? ''));
-                const normalizedSKU = normalizeStr(String(producto.sku ?? ''));
-                const normalizedCategoria = normalizeStr(String(producto.categoria ?? ''));
-                const normalizedSubCategoria = normalizeStr(String(producto.subCategoria ?? ''));
-
-                return normalizedNombre.includes(token) || normalizedSKU.includes(token) || normalizedCategoria.includes(token) || normalizedSubCategoria.includes(token);
-            });
-
-            return searchMatch;
-        });
-
-        setFilteredProductos(filtered);
-        setCurrentPage(1);
-    }, [query, productos]);
-
-    const totalItems = filteredProductos.length;
-    const totalPages = Math.ceil(totalItems / itemsPerPage);
-
-    const getVisiblePages = () => {
-        const visiblePages = [];
-        if (totalPages <= 5) {
-            for (let i = 1; i <= totalPages; i++) visiblePages.push(i);
-        } else {
-            if (currentPage <= 3) { 
-                visiblePages.push(1, 2, 3, 4, '...', totalPages); 
-            } else if (currentPage >= totalPages - 2) {
-                visiblePages.push(1, '...', totalPages - 3, totalPages - 2, totalPages - 1, totalPages);
-            } else {
-                visiblePages.push(1, '...', currentPage - 1, currentPage, currentPage + 1, '...', totalPages);
-            }
-        }
-        return visiblePages;
+          })
+        );
+        setProductos(productosArrays.flat());
+      } catch (error) {
+        console.error('Error al cargar productos:', error);
+      }
     };
+    fetchProductos();
+  }, []);
 
-    const handlePageChange = (newPage) => {
-        setCurrentPage(Math.max(1, Math.min(totalPages, newPage)));
+  // 3. Búsqueda por texto base
+  const searchBaseProducts = useMemo(() => {
+    if (!queryParam.trim()) return productos;
+    const tokens = normalizeStr(queryParam).split(' ').filter(Boolean);
+    return productos.filter((p) => {
+      const nom = normalizeStr(p.nombre);
+      const sku = normalizeStr(p.sku);
+      const cat = normalizeStr(p.categoria);
+      const sub = normalizeStr(p.subCategoria);
+      return tokens.every(
+        (t) => nom.includes(t) || sku.includes(t) || cat.includes(t) || sub.includes(t)
+      );
+    });
+  }, [productos, queryParam]);
+
+  // 4. Opciones de filtros dinámicos
+  const availableFilters = useMemo(() => {
+    const tamanosSet = new Map();
+    const marcasSet = new Map();
+
+    searchBaseProducts.forEach((p) => {
+      const t = getTamano(p);
+      const m = getMarca(p);
+      
+      if (t) tamanosSet.set(slugify(t), t);
+      if (m) marcasSet.set(slugify(m), m);
+    });
+
+    return {
+      tamanos: Array.from(tamanosSet.entries()).map(([slug, label]) => ({ slug, label })),
+      marcas: Array.from(marcasSet.entries()).map(([slug, label]) => ({ slug, label })),
     };
+  }, [searchBaseProducts]);
 
-    const handlePreviousPage = () => handlePageChange(currentPage - 1);
-    const handleNextPage = () => handlePageChange(currentPage + 1);
-    const startIndex = (currentPage - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-    const currentProducts = filteredProductos.slice(startIndex, endIndex);
+  // 5. Aplicar Filtros Seleccionados + Ordenamiento
+  const finalProducts = useMemo(() => {
+    let result = searchBaseProducts.filter((p) => {
+      const t = getTamano(p);
+      const m = getMarca(p);
 
-    const truncate = (str, maxLength) => {
-        if (str.length <= maxLength) return str;
-        return str.slice(0, maxLength) + "...";
-    };
+      const matchTamano = !selectedTamano || slugify(t) === selectedTamano;
+      const matchMarca = !selectedMarca || slugify(m) === selectedMarca;
+      
+      return matchTamano && matchMarca;
+    });
 
-    return(
-        <>
-            <Helmet>
-                <title>{query} | Homesleep</title>
-                <meta name='description' content="Resultados de búsqueda" />
-            </Helmet>
+    if (sortParam === 'asc') {
+      result.sort((a, b) => (Number(a.precio) || 0) - (Number(b.precio) || 0));
+    } else if (sortParam === 'desc') {
+      result.sort((a, b) => (Number(b.precio) || 0) - (Number(a.precio) || 0));
+    }
 
-            <main>
-                <div className='block-container margin-top-20'>
-                    <section className='block-content'>
-                        <div className='block-title-container'>
-                            <h1 className='block-title'>Resultados para: {query}</h1>
-                            {filteredProductos.length > 0 && (
-                                <p className="block-subtitle">{totalItems} productos encontrados</p>
-                            )}
-                        </div>
+    return result;
+  }, [searchBaseProducts, selectedTamano, selectedMarca, sortParam]);
 
-                        <div className='page-search-content gap-10'>
-                            {/* <div className='d-flex-column gap-10'>
-                                <Filtros/>
-                                <Recomendados/>
-                            </div> */}
+  // 6. Selección Exclusiva y Actualización segura de URL
+  const handleFilterToggle = (key, slugValue) => {
+    const newParams = new URLSearchParams(location.search);
+    const currentValue = newParams.get(key);
 
-                            <div>
-                                <div className='search-products-content d-flex-column gap-20'>
-                                    {filteredProductos.length > 0 ? (
-                                        <>
-                                            <ul className='search-products'>
-                                                {currentProducts.map(producto => (
-                                                    <Producto key={producto.sku} producto={producto} truncate={truncate}/>
-                                                ))}
-                                            </ul>
+    if (currentValue === slugValue) {
+      newParams.delete(key); 
+    } else {
+      newParams.set(key, slugValue); 
+    }
 
-                                            <div className="pagination-controls">
-                                                <button className="pagination-arrow" onClick={handlePreviousPage} disabled={currentPage === 1}>
-                                                    <span className="material-icons">chevron_left</span>
-                                                    <p>Anterior</p>
-                                                </button>
+    // Usar sintaxis segura de React Router v6
+    navigate({ search: newParams.toString() });
+  };
 
-                                                <ul className='pagination-list'>
-                                                    {getVisiblePages().map((page, index) => 
-                                                        typeof page === 'number' ? (
-                                                            <li key={index}>
-                                                                <button type='button' className={`pagination-page ${currentPage === page ? 'active' : ''}`} onClick={() => handlePageChange(page)}>
-                                                                    <p>{page}</p>
-                                                                </button>
-                                                            </li>
-                                                        ) : (
-                                                            <li key={index}>
-                                                                <div className='dots'>
-                                                                    <span>...</span>
-                                                                </div>
-                                                            </li>
-                                                        )
-                                                    )}
-                                                </ul>
+  const handleSortChange = (e) => {
+    const newParams = new URLSearchParams(location.search);
+    newParams.set('orden', e.target.value);
+    navigate({ search: newParams.toString() });
+  };
 
-                                                <button className="pagination-arrow" onClick={handleNextPage} disabled={currentPage === totalPages}>
-                                                    <p>Siguiente</p>
-                                                    <span className="material-icons">chevron_right</span>
-                                                </button>
-                                            </div>
-                                        </>
-                                    ) : (
-                                        <p>Intentalo de nuevo</p>
-                                    )}
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+  const truncate = (str = '', maxLength) =>
+    str.length <= maxLength ? str : str.slice(0, maxLength) + '...';
+
+  return (
+    <>
+      <Helmet>
+        <title>{queryParam ? `${queryParam} | Homesleep` : 'Catálogo | Homesleep'}</title>
+        <meta name="description" content="Resultados de búsqueda" />
+      </Helmet>
+
+      <main className="main">
+        <div className="block-container">
+          <section className="block-content d-flex-column gap-10">
+            <div className="banner-link-img-100w">
+              <img src="/assets/imagenes/paginas/pagina-principal/slider/slider-2.webp" alt="Banner" />
+            </div>
+
+            <div className="page-search-container">
+              {/* PANEL DE FILTROS LATERAL */}
+              <div className="page-search-left">
+                <div className="pg-search-filters">
+                  
+                  {/* Filtro Tamaño */}
+                  {availableFilters.tamanos.length > 0 && (
+                    <div className="pg-search-fl-tag">
+                      <p className="title text">Tamaño</p>
+                      <ul>
+                        {availableFilters.tamanos.map(({ slug, label }) => {
+                          const isChecked = selectedTamano === slug;
+                          return (
+                            <li key={slug}>
+                              <button
+                                type="button"
+                                onClick={() => handleFilterToggle('tamano', slug)}
+                              >
+                                <input
+                                  type="checkbox"
+                                  checked={isChecked}
+                                  readOnly
+                                />
+                                <p className="text">{label}</p>
+                              </button>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  )}
+
+                  {/* Filtro Marcas */}
+                  {availableFilters.marcas.length > 0 && (
+                    <div className="pg-search-fl-tag">
+                      <p className="title text">Marcas</p>
+                      <ul>
+                        {availableFilters.marcas.map(({ slug, label }) => {
+                          const isChecked = selectedMarca === slug;
+                          return (
+                            <li key={slug}>
+                              <button
+                                type="button"
+                                onClick={() => handleFilterToggle('marca', slug)}
+                              >
+                                <input
+                                  type="checkbox"
+                                  checked={isChecked}
+                                  readOnly
+                                />
+                                <p className="text">{label}</p>
+                              </button>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  )}
+
                 </div>
-            </main>
-        </>
-    );
+              </div>
+
+              {/* LISTA DE RESULTADOS DE PRODUCTOS */}
+              <div className="page-search-right">
+                <div className="pg-search-results">
+                  {finalProducts.length > 0 ? (
+                    <ul>
+                      {finalProducts.map((producto, index) => (
+                        <Producto
+                          // BLINDAJE 4: Combinar SKU e Index fuerza a React a eliminar componentes viejos al filtrar
+                          key={`${producto.sku}-${index}`}
+                          producto={producto}
+                          truncate={truncate}
+                        />
+                      ))}
+                    </ul>
+                  ) : (
+                    <p className="text p-20">No se encontraron productos con los filtros seleccionados.</p>
+                  )}
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </>
+  );
 }
 
 export default Busqueda;

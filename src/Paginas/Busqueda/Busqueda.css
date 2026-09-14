@@ -1,48 +1,51 @@
-.page-search-content{
+.page-search-container{
     display: grid;
     grid-template-columns: auto 1fr;
+    gap: 10px;
 }
 
-.filters-container{
+.page-search-left{
+    width: 240px;
+    /* background: orange; */
+    border-right: 2px solid var(--component);
+    /* padding: 10px; */
+}
+
+.pg-search-filters{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
 }
 
-.search-products{
+.pg-search-fl-tag{
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-direction: column;
+    gap: 5px;
 }
 
-.search-products li{
+.pg-search-fl-tag > ul{
     display: flex;
-    flex: 1 1 clamp(100px, calc(calc(100% / 5) - calc(40px / 5)), 100%) !important;
-    max-width: calc(calc(100% / 5) - calc(40px / 5)) !important;
-    height: 400px;
+    flex-direction: column;
 }
 
-.search-products li .product-card{
-    max-width: none !important;
+.pg-search-fl-tag > ul li button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 3px;
 }
 
-@media screen and (max-width: 600px){
-    .search-products-content{
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
+.pg-search-fl-tag > ul li button p{
+    display: inline-block;
+}
 
-    .search-products{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 10px;
-    }
+.pg-search-fl-tag > ul li button p::first-letter{
+    text-transform: uppercase;
+}
 
-    .search-products li{
-        flex: unset;
-        width: 100%;
-        max-width: none !important;
-        height: auto !important;
-    }
+.pg-search-results ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
 }
