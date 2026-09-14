@@ -185,6 +185,20 @@ option{
     height: auto;
 }
 
+.banner-link-img-100w{
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.banner-link-img-100w img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 button{
     width: auto;
     border: 0;
