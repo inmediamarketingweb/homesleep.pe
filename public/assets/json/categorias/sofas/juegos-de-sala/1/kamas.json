@@ -1,0 +1,29 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoría": "sofas",
+            "subcategoría": "juegos de sala",
+            "marca": "kamas",
+            "tamaño": "king",
+            "ruta": "/productos/sofas/juegos-de-sala/1/kamas/1/",
+            "nombre": "JUEGO DE SALA 4 1 CUERPO - TEJIDO ARENA CLARO",
+            "fotos": "/assets/imagenes/productos/sofas/juegos-de-sala/37/",
+            "precioRegular": 3549,
+            "precioNormal": 3199,
+            "precioVenta": 2999,
+            "stock": 9,
+            "sku": "H6322NX1000",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "categoría": "sofas",
+                    "subcategoría": "juegos de sala",
+                    "marca": "kamas",
+                    "tamaño": "king",
+                    "modelo": "clasic"
+                }
+            ]
+        }
+    ]
+}

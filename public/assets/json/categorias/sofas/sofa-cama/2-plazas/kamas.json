@@ -104,6 +104,27 @@
                     "ancho": "167.cm"
                 }
             ]
+        },
+        {
+            "id": 6,
+            "categoria": "sofas",
+            "subcategoria": "sofa cama",
+            "ruta": "/productos/sofas/sofa-cama/2-plazas/kamas/6/",
+            "nombre": "SOFÁ CAMA 2 PLAZAS - TEJIDO CENIZO",
+            "fotos": "/assets/imagenes/productos/sofas/sofas-camas/6/",
+            "precioRegular": 1999,
+            "precioNormal": 1549,
+            "precioVenta": 1299,
+            "stock": 9,
+            "sku": "H6322N15",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "tamaño": "2 plazas",
+                    "tela": "Piel de potro",
+                    "ancho": "167.cm"
+                }
+            ]
         }
     ]
 }

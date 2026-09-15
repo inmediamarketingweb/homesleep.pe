@@ -261,32 +261,6 @@
             ]
         },
         {
-            "id": 11,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
-            "marca": "kamas",
-            "modelo": "clásicos",
-            "ruta": "/productos/complementos/puffs/clasicos/11/",
-            "nombre": "PUFF CLÁSICO - TURQUESA ÓPALO",
-            "fotos": "/assets/imagenes/productos/complementos/puffs/11/",
-            "precioRegular": 129,
-            "precioNormal": 99,
-            "precioVenta": 79,
-            "stock": 14,
-            "sku": "H74N20",
-            "tipo-de-envio": "Envío aplicado",
-            "detalles-del-producto":[
-                {
-                    "sub-categoría": "Puffs",
-                    "cajones": "No",
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ]
-        },
-        {
             "id": 12,
             "categoria": "complementos",
             "subcategoria": "puffs",
@@ -352,32 +326,6 @@
             "precioVenta": 79,
             "stock": 14,
             "sku": "H74N23",
-            "tipo-de-envio": "Envío aplicado",
-            "detalles-del-producto":[
-                {
-                    "sub-categoría": "Puffs",
-                    "cajones": "No",
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ]
-        },
-        {
-            "id": 15,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
-            "marca": "kamas",
-            "modelo": "clásicos",
-            "ruta": "/productos/complementos/puffs/clasicos/15/",
-            "nombre": "PUFF CLÁSICO - MELÓN",
-            "fotos": "/assets/imagenes/productos/complementos/puffs/15/",
-            "precioRegular": 129,
-            "precioNormal": 99,
-            "precioVenta": 79,
-            "stock": 14,
-            "sku": "H74N24",
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
@@ -547,32 +495,6 @@
             ]
         },
         {
-            "id": 22,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
-            "marca": "kamas",
-            "modelo": "clásicos",
-            "ruta": "/productos/complementos/puffs/clasicos/22/",
-            "nombre": "PUFF CLÁSICO - PALO ROSA",
-            "fotos": "/assets/imagenes/productos/complementos/puffs/22/",
-            "precioRegular": 129,
-            "precioNormal": 99,
-            "precioVenta": 79,
-            "stock": 14,
-            "sku": "H74N31",
-            "tipo-de-envio": "Envío aplicado",
-            "detalles-del-producto":[
-                {
-                    "sub-categoría": "Puffs",
-                    "cajones": "No",
-                    "modelo": "clásico",
-                    "alto": 37,
-                    "largo": 27,
-                    "ancho": 37
-                }
-            ]
-        },
-        {
             "id": 23,
             "categoria": "complementos",
             "subcategoria": "puffs",
@@ -623,7 +545,110 @@
                     "ancho": 37
                 }
             ]
+        },
+        {
+            "id": 25,
+            "categoria": "complementos",
+            "subcategoria": "puffs",
+            "marca": "kamas",
+            "modelo": "clásicos",
+            "ruta": "/productos/complementos/puffs/clasicos/25/",
+            "nombre": "PUFF CLÁSICO - TEJIDO ARENA",
+            "fotos": "/assets/imagenes/productos/complementos/puffs/25/",
+            "precioRegular": 119,
+            "precioNormal": 109,
+            "precioVenta": 89,
+            "stock": 14,
+            "sku": "H74N34",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "sub-categoría": "Puffs",
+                    "cajones": "No",
+                    "modelo": "clásico",
+                    "alto": 37,
+                    "largo": 27,
+                    "ancho": 37
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "categoria": "complementos",
+            "subcategoria": "puffs",
+            "marca": "kamas",
+            "modelo": "clásicos",
+            "ruta": "/productos/complementos/puffs/clasicos/26/",
+            "nombre": "PUFF DISEÑO LINEAL - CALABAZA",
+            "fotos": "/assets/imagenes/productos/complementos/puffs/26/",
+            "precioRegular": 149,
+            "precioNormal": 139,
+            "precioVenta": 119,
+            "stock": 14,
+            "sku": "H74N35",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "sub-categoría": "Puffs",
+                    "cajones": "No",
+                    "modelo": "clásico",
+                    "alto": 37,
+                    "largo": 27,
+                    "ancho": 37
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "categoria": "complementos",
+            "subcategoria": "puffs",
+            "marca": "kamas",
+            "modelo": "clásicos",
+            "ruta": "/productos/complementos/puffs/clasicos/27/",
+            "nombre": "PUFF DISEÑO MARSHMALLOW - ROSA BEBÉ",
+            "fotos": "/assets/imagenes/productos/complementos/puffs/27/",
+            "precioRegular": 199,
+            "precioNormal": 159,
+            "precioVenta": 149,
+            "stock": 14,
+            "sku": "H74N36",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "sub-categoría": "Puffs",
+                    "cajones": "No",
+                    "modelo": "clásico",
+                    "alto": 37,
+                    "largo": 27,
+                    "ancho": 37
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "categoria": "complementos",
+            "subcategoria": "puffs",
+            "marca": "kamas",
+            "modelo": "clásicos",
+            "ruta": "/productos/complementos/puffs/clasicos/28/",
+            "nombre": "PUFF BÁUL CIRCULAR CAPITONEADO - TEJIFO MARFIL CLARO",
+            "fotos": "/assets/imagenes/productos/complementos/puffs/28/",
+            "precioRegular": 249,
+            "precioNormal": 219,
+            "precioVenta": 199,
+            "stock": 14,
+            "sku": "H74N37",
+            "tipo-de-envio": "Envío aplicado",
+            "detalles-del-producto":[
+                {
+                    "sub-categoría": "Puffs",
+                    "cajones": "No",
+                    "modelo": "clásico",
+                    "alto": 37,
+                    "largo": 27,
+                    "ancho": 37
+                }
+            ]
         }
-
     ]
 }

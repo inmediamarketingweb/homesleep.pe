@@ -1,0 +1,23 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoría": "sofas",
+            "subcategoría": "reclinables",
+            "ruta": "/productos/sofas/reclinables/1-cuerpo/kamas/1/",
+            "nombre": "SOFÁ RECLINABLE FAMILIAR - CUERO CENIZO",
+            "fotos": "/assets/imagenes/productos/sofas/reclinables/9/",
+            "precioRegular": 3119,
+            "precioNormal": 2599,
+            "precioVenta": 2499,
+            "stock": 9,
+            "sku": "H641NX10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "tapiz": "Cuero brescia"
+                }
+            ]
+        }
+    ]
+}
