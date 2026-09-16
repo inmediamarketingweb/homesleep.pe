@@ -1,0 +1,36 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "categoría": "dormitorios",
+            "tamaño": "2 plazas",
+            "marca": "kamas + el cisne",
+            "línea": "americanos",
+            "modelo": "CEC",
+            "ruta": "/productos/dormitorios/2-plazas/el-cisne/cec/americanos/1/",
+            "nombre": "DORMITORIO AMERICANO 2 PLAZAS KAMAS / EL CISNE + COLCHÓN EL CISNE CEC + CABECERA AÉREA VIENNA - ARENA OSCURO",
+            "fotos": "/assets/imagenes/productos/dormitorios/2-plazas/el-cisne/cec/americanos/bloques/viena/1/",
+            "precioRegular": 1999,
+            "precioNormal": 1599,
+            "precioVenta": 1099,
+            "stock": 9,
+            "sku": "H3322216NX10",
+            "tipo-de-envio": "Gratis",
+            "detalles-del-producto":[
+                {
+                    "marca": "kamas - el cisne",
+                    "línea": "americanos",
+                    "tamaño": "2 plazas",
+                    "cajones": "No",
+                    "base-encajonada": "No",
+                    "modelo-de-colchón": "cec",
+                    "resortes": "bonell",
+                    "tipo-de-cabecera": "aérea con patas",
+                    "diseño-de-cabecera": "bloques",
+                    "brazos-de-cabecera": "sin brazos",
+                    "modelo-de-cabecera": "vienna"
+                }
+            ]
+        }
+    ]
+}

@@ -62,6 +62,86 @@
                     "diseño": "Capitoneado"
                 }
             ]
+        },
+        {
+            "id": 4,
+            "categoria": "sofas",
+            "subcategoria": "mecedoras",
+            "ruta": "/productos/sofas/mecedoras/kamas/4/",
+            "nombre": "MECEDORA CAPITONEADA SILLA - TEJIDO PLOMO NEW",
+            "fotos": "/assets/imagenes/productos/sofas/mecedoras/4/",
+            "precioRegular": 1299,
+            "precioNormal": 899,
+            "precioVenta": 799,
+            "stock": 9,
+            "sku": "H6621N13",
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "modelo": "Mecedoras",
+                    "diseño": "Silla"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "categoria": "sofas",
+            "subcategoria": "mecedoras",
+            "ruta": "/productos/sofas/mecedoras/kamas/5/",
+            "nombre": "MECEDORA CAPITONEADA SILLA - TEJIDO PLOMO NEW",
+            "fotos": "/assets/imagenes/productos/sofas/mecedoras/5/",
+            "precioRegular": 1499,
+            "precioNormal": 999,
+            "precioVenta": 899,
+            "stock": 9,
+            "sku": "H6621N14",
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "modelo": "Mecedoras",
+                    "diseño": "Silla"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "categoria": "sofas",
+            "subcategoria": "mecedoras",
+            "ruta": "/productos/sofas/mecedoras/kamas/6/",
+            "nombre": "MECEDORA CAPITONEADA SILLA - TEJIDO PLOMO NEW",
+            "fotos": "/assets/imagenes/productos/sofas/mecedoras/6/",
+            "precioRegular": 1699,
+            "precioNormal": 1099,
+            "precioVenta": 999,
+            "stock": 9,
+            "sku": "H6621N15",
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "modelo": "Mecedoras",
+                    "diseño": "Silla"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "categoria": "sofas",
+            "subcategoria": "mecedoras",
+            "ruta": "/productos/sofas/mecedoras/kamas/7/",
+            "nombre": "MECEDORA CAPITONEADA SILLA - IVORY",
+            "fotos": "/assets/imagenes/productos/sofas/mecedoras/7/",
+            "precioRegular": 1699,
+            "precioNormal": 1099,
+            "precioVenta": 999,
+            "stock": 9,
+            "sku": "H6621N16",
+            "tipo-de-envio": "Envío preferente",
+            "detalles-del-producto":[
+                {
+                    "modelo": "Mecedoras",
+                    "diseño": "Silla"
+                }
+            ]
         }
     ]
 }
