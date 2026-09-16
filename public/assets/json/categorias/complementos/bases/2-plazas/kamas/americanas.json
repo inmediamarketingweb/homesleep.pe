@@ -2,8 +2,8 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
             "marca": "kamas",
             "línea": "americanos",
             "tamaño": "2 plazas",
@@ -19,8 +19,8 @@
             "detalles-del-producto":[
                 {
                     "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "americanos",
+                    "subcategoría": "bases",
+                    "línea": "americanas",
                     "tamaño": "2 plazas",
                     "cajones": "No",
                     "base-encajonada": "Si"

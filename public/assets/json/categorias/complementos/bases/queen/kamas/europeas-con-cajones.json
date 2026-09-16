@@ -2,11 +2,11 @@
     "productos":[
         {
             "id": 23,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "king",
             "marca": "kamas",
-            "línea": "europeas",
-            "tamaño": "queen",
+            "línea": "americanas",
             "ruta": "/productos/complementos/bases/queen/kamas/europeas-con-cajones/1/",
             "nombre": "BASE SOLA EUROPEA QUEEN + 2 CAJONES LATERALES - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/queen/1/",
@@ -18,11 +18,12 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "Europea",
-                    "tamaño": "2 plazas",
-                    "cajones": "Si",
+                    "línea": "americanas",
+                    "cajones": "si",
                     "base-encajonada": "No"
                 }
             ]

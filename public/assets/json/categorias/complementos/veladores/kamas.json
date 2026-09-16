@@ -2,8 +2,8 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "complementos",
-            "subcategoria": "veladores",
+            "categoría": "complementos",
+            "subcategoría": "veladores",
             "marca": "kamas",
             "modelo": "shelter",
             "ruta": "/productos/complementos/veladores/kamas/1/",
@@ -17,16 +17,18 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si",
+                    "cantidad-de-cajones": "6"
                 }
             ]
         },
         {
             "id": 2,
-            "categoria": "complementos",
-            "subcategoria": "veladores",
+            "categoría": "complementos",
+            "subcategoría": "veladores",
             "marca": "kamas",
             "modelo": "shelter",
             "ruta": "/productos/complementos/veladores/kamas/2/",
@@ -40,9 +42,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -62,9 +65,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -84,9 +88,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -106,9 +111,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -128,9 +134,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -150,9 +157,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -172,9 +180,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -194,9 +203,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -216,9 +226,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -238,9 +249,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -260,9 +272,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -282,9 +295,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -304,9 +318,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -326,9 +341,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -348,9 +364,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -370,9 +387,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },        
@@ -392,9 +410,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         },
@@ -414,9 +433,10 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "veladores",
                     "marcas": "kamas",
-                    "sub-categoría": "Veladores",
-                    "cajones": "Si"
+                    "cajones": "si"
                 }
             ]
         }

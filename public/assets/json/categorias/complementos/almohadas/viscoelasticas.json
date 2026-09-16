@@ -2,93 +2,49 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "complementos",
-            "subcategoria": "almohadas",
-            "marca": "Cisne",
-            "modelo": "viscoelasticas",
+            "categoría": "complementos",
+            "subcategoría": "almohadas",
+            "marca": "el cisne",
+            "modelo": "viscoelásticas",
             "ruta": "/productos/complementos/almohadas/viscoelasticas/1/",
-            "nombre": "ALMOHADA EL CISNE VISCOELASTICA BLANCA",
+            "nombre": "ALMOHADA EL CISNE VISCOELÁSTICA BLANCA",
             "fotos": "/assets/imagenes/productos/complementos/almohadas/viscoelasticas/1/",
             "precioRegular": 179,
             "precioNormal": 119,
             "precioVenta": 89,
             "stock": 14,
-            "sku": "K752N10",
+            "sku": "H752NX10",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "marca": "Cisne",
-                    "modelo": "Viscoelasticas"
-                }
-            ],
             "detalles-del-producto":[
                 {
-                    "marca": "Cisne",
-                    "sub-categoría": "Viscoelasticas"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Almohada",
-                    "descripcion":[
-                        {
-                           "profundidad": "60",
-                           "Peso": "1.146 kg",
-                           "numero de piezas": "1",
-                           "ancho": "40",
-                           "alto": "12",
-                           "material": "Espuma",
-                           "garantía": "1 año",
-                           "tipo de tela": "Tela tejido en punto",
-                           "información adicional": "Funda lavable"
-                        }
-                    ]
+                    "categoría": "complementos",
+                    "subcategoría": "almohadas",
+                    "marca": "el cisne",
+                    "relleno": "espuma viscoelástica"
                 }
             ]
         },
         {
             "id": 2,
-            "categoria": "complementos",
-            "subcategoria": "almohadas",
-            "marca": "Cisne",
-            "modelo": "viscoelasticas",
+            "categoría": "complementos",
+            "subcategoría": "almohadas",
+            "marca": "el cisne",
+            "modelo": "viscoelásticas",
             "ruta": "/productos/complementos/almohadas/viscoelasticas/2/",
-            "nombre": "SET 2 ALMOHADAS EL CISNE VISCOELASTICAS BLANCAS",
+            "nombre": "SET 2 ALMOHADAS EL CISNE VISCOELÁSTICAS BLANCAS",
             "fotos": "/assets/imagenes/productos/complementos/almohadas/viscoelasticas/2/",
             "precioRegular": 309,
             "precioNormal": 269,
             "precioVenta": 199,
             "stock": 14,
-            "sku": "K752N11",
+            "sku": "H752NX11",
             "tipo-de-envio": "Envío aplicado",
-            "resumen-del-producto":[
-                {
-                    "marca": "Cisne",
-                    "modelo": "Viscoelasticas"
-                }
-            ],
             "detalles-del-producto":[
                 {
-                    "marca": "Cisne",
-                    "sub-categoría": "Viscoelasticas"
-                }
-            ],
-            "descripciones":[
-                {
-                    "titulo": "Almohada",
-                    "descripcion":[
-                        {
-                           "profundidad": "60",
-                           "Peso": "1.146 kg",
-                           "numero de piezas": "2",
-                           "ancho": "40",
-                           "alto": "12",
-                           "material": "Espuma",
-                           "garantía": "1 año",
-                           "tipo de tela": "Tela tejido en punto",
-                           "información adicional": "Funda lavable"
-                        }
-                    ]
+                    "categoría": "complementos",
+                    "subcategoría": "almohadas",
+                    "marca": "el cisne",
+                    "relleno": "espuma viscoelástica"
                 }
             ]
         }

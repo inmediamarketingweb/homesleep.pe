@@ -2,11 +2,10 @@
     "productos":[
         {
             "id": 16,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
             "marca": "kamas",
             "línea": "europeas con cajones",
-            "tamaño": "2 plazas",
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas-con-cajones/15/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/1/",
@@ -18,22 +17,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "europeas con cajones",
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
                     "tamaño": "2 plazas",
-                    "cajones": "Si",
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "cajones": "si",
                     "base-encajonada": "No"
                 }
             ]
         },
         {
             "id": 17,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "2 plazas",
             "marca": "kamas",
             "línea": "europeas con cajones",
-            "tamaño": "2 plazas",
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas-con-cajones/16/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - VINO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/2/",
@@ -45,22 +45,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "europeas con cajones",
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
                     "tamaño": "2 plazas",
-                    "cajones": "Si",
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "cajones": "si",
                     "base-encajonada": "No"
                 }
             ]
         },
         {
             "id": 18,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "2 plazas",
             "marca": "kamas",
             "línea": "europeas con cajones",
-            "tamaño": "2 plazas",
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas-con-cajones/17/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - FUCSIA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/3/",
@@ -72,22 +73,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "europeas con cajones",
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
                     "tamaño": "2 plazas",
-                    "cajones": "Si",
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "cajones": "si",
                     "base-encajonada": "No"
                 }
             ]
         },
         {
             "id": 19,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "2 plazas",
             "marca": "kamas",
             "línea": "europeas con cajones",
-            "tamaño": "2 plazas",
             "ruta": "/ofertas/solo-por-horas/complementos/bases/europeas-con-cajones/2-plazas/18/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES AL PIE - GRIS PLATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/4/",
@@ -100,22 +102,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "europeas con cajones",
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
                     "tamaño": "2 plazas",
-                    "cajones": "Si",
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "cajones": "si",
                     "base-encajonada": "No"
                 }
             ]
         },
         {
             "id": 20,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "2 plazas",
             "marca": "kamas",
             "línea": "europeas con cajones",
-            "tamaño": "2 plazas",
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas-con-cajones/19/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - ROJO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/5/",
@@ -127,22 +130,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "europeas con cajones",
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
                     "tamaño": "2 plazas",
-                    "cajones": "Si",
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "cajones": "si",
                     "base-encajonada": "No"
                 }
             ]
         },
         {
             "id": 21,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "2 plazas",
             "marca": "kamas",
             "línea": "europeas con cajones",
-            "tamaño": "2 plazas",
             "ruta": "/ofertas/solo-por-horas/complementos/bases/europeas-con-cajones/2-plazas/20/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - ROSADO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/6/",
@@ -155,22 +159,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "europeas con cajones",
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
                     "tamaño": "2 plazas",
-                    "cajones": "Si",
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "cajones": "si",
                     "base-encajonada": "No"
                 }
             ]
         },
         {
             "id": 22,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "2 plazas",
             "marca": "kamas",
             "línea": "europeas con cajones",
-            "tamaño": "2 plazas",
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas-con-cajones/21/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS + 2 CAJONES LATERALES - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas-con-cajones/2-plazas/7/",
@@ -182,11 +187,12 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "europeas con cajones",
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
                     "tamaño": "2 plazas",
-                    "cajones": "Si",
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "cajones": "si",
                     "base-encajonada": "No"
                 }
             ]

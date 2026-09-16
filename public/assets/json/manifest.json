@@ -848,8 +848,11 @@
         "/assets/json/categorias/complementos/bases/king/kamas/americanas-con-cajones.json",
         "/assets/json/categorias/complementos/bases/king/kamas/europeas.json",
 
-        "/assets/json/categorias/complementos/cama-perro/l.json",
+        "/assets/json/categorias/complementos/cama-perro/s.json",
         "/assets/json/categorias/complementos/cama-perro/m.json",
+        "/assets/json/categorias/complementos/cama-perro/l.json",
+        "/assets/json/categorias/complementos/cama-perro/xl.json",
+        "/assets/json/categorias/complementos/cama-perro/xxl.json",
 
         "/assets/json/categorias/complementos/baules/kamas/clasicos.json",
         "/assets/json/categorias/complementos/baules/kamas/sofa-baul-1.json",

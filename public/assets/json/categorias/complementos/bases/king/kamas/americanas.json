@@ -2,11 +2,11 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "king",
             "marca": "kamas",
             "línea": "americanas",
-            "tamaño": "king",
             "ruta": "/productos/complementos/bases/king/kamas/americanas/1/",
             "nombre": "BASE SOLA AMERICANA KING - NEGRO",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas/king/kamas/1/",
@@ -18,22 +18,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "sub-categoría": "bases",
                     "línea": "americanas",
-                    "tamaño": "King",
-                    "cajones": "No",
-                    "base-encajonada": "No"
+                    "cajones": "no",
+                    "base-encajonada": "no"
                 }
             ]
         },
         {
             "id": 2,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "king",
             "marca": "kamas",
             "línea": "americanas",
-            "tamaño": "king",
             "ruta": "/productos/complementos/bases/king/kamas/americanas/2/",
             "nombre": "BASE SOLA AMERICANA KING - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas/king/kamas/2/",
@@ -45,22 +46,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "sub-categoría": "bases",
                     "línea": "americanas",
-                    "tamaño": "King",
-                    "cajones": "No",
-                    "base-encajonada": "No"
+                    "cajones": "no",
+                    "base-encajonada": "no"
                 }
             ]
         },
         {
             "id": 3,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "king",
             "marca": "kamas",
             "línea": "americanas",
-            "tamaño": "king",
             "ruta": "/productos/complementos/bases/king/kamas/americanas/3/",
             "nombre": "BASE SOLA AMERICANA KING - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas/king/kamas/3/",
@@ -72,12 +74,13 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "sub-categoría": "bases",
                     "línea": "americanas",
-                    "tamaño": "King",
-                    "cajones": "No",
-                    "base-encajonada": "No"
+                    "cajones": "no",
+                    "base-encajonada": "no"
                 }
             ]
         }
