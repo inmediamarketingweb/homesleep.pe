@@ -815,7 +815,10 @@
         "/assets/json/categorias/cabeceras/2-plazas/kamas/aereas-con-patas.json",
         "/assets/json/categorias/cabeceras/2-plazas/kamas/pedestales.json",
 
+        "/assets/json/categorias/cabeceras/queen/kamas/aereas.json",
+        "/assets/json/categorias/cabeceras/queen/kamas/aereas-con-patas.json",
         "/assets/json/categorias/cabeceras/queen/kamas/pedestales.json",
+
 
         "/assets/json/categorias/cabeceras/king/kamas/aereas.json",
         "/assets/json/categorias/cabeceras/king/kamas/aereas-con-patas.json",
