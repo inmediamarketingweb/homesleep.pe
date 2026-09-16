@@ -2,8 +2,8 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "complementos",
-            "subcategoria": "cama perro",
+            "categoría": "complementos",
+            "subcategoría": "cama perro",
             "marca": "kamas",
             "tamaño": "s",
             "ruta": "/productos/complementos/cama-perro/kamas/s/1/",
@@ -17,15 +17,16 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "cama perro",
                     "marca": "kamas",
-                    "sub-categoría": "cama perro",
-                    "tamaño": "S",
-                    "cajones": "No",
-                    "base-encajonada": "Si",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Capitoneado"
+                    "tamaño": "s",
+                    "cajones": "no",
+                    "base-encajonada": "si",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "capitoneado"
                 }
             ]
         }

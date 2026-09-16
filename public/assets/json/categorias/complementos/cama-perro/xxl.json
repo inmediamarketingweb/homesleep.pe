@@ -2,8 +2,8 @@
     "productos":[
         {
             "id": 5,
-            "categoria": "complementos",
-            "subcategoria": "cama perro",
+            "categoría": "complementos",
+            "subcategoría": "cama perro",
             "marca": "kamas",
             "tamaño": "xxl",
             "ruta": "/productos/complementos/cama-perro/kamas/xxl/1/",
@@ -19,20 +19,20 @@
                 {
                     "marca": "kamas",
                     "sub-categoría": "cama perro",
-                    "tamaño": "Xxl",
-                    "cajones": "No",
-                    "base-encajonada": "Si",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Capitoneado"
+                    "tamaño": "XXL",
+                    "cajones": "no",
+                    "base-encajonada": "no",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "capitoneado"
                 }
             ]
         },
         {
             "id": 6,
-            "categoria": "complementos",
-            "subcategoria": "cama perro",
+            "categoría": "complementos",
+            "subcategoría": "cama perro",
             "marca": "kamas",
             "tamaño": "xxl",
             "ruta": "/productos/complementos/cama-perro/kamas/xxl/2/",
@@ -48,13 +48,13 @@
                 {
                     "marca": "kamas",
                     "sub-categoría": "cama perro",
-                    "tamaño": "Xxl",
-                    "cajones": "No",
-                    "base-encajonada": "Si",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Capitoneado"
+                    "tamaño": "XXL",
+                    "cajones": "no",
+                    "base-encajonada": "no",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "capitoneado"
                 }
             ]
         }

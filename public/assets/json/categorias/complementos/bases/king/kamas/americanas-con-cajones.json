@@ -2,11 +2,11 @@
     "productos":[
         {
             "id": 5,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "king",
             "marca": "kamas",
             "línea": "americanas",
-            "tamaño": "king",
             "ruta": "/productos/complementos/bases/king/kamas/americanas-con-cajones/4/",
             "nombre": "BASE SOLA AMERICANA KING + 2 CAJONES AL PIE - PLOMO OSCURO",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas-con-cajones/king/1/",
@@ -18,22 +18,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "sub-categoría": "bases",
                     "línea": "americanas",
-                    "tamaño": "King",
-                    "cajones": "Si",
-                    "base-encajonada": "No"
+                    "cajones": "si",
+                    "base-encajonada": "no"
                 }
             ]
         },
         {
             "id": 6,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "king",
             "marca": "kamas",
             "línea": "americanas",
-            "tamaño": "king",
             "ruta": "/productos/complementos/bases/king/kamas/americanas-con-cajones/5/",
             "nombre": "BASE SOLA AMERICANA KING + 4 CAJONES LATERALES - NEGRO",
             "fotos": "/assets/imagenes/productos/complementos/bases/americanas-con-cajones/king/2/",
@@ -45,12 +46,13 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "sub-categoría": "bases",
                     "línea": "americanas",
-                    "tamaño": "King",
-                    "cajones": "Si",
-                    "base-encajonada": "No"
+                    "cajones": "si",
+                    "base-encajonada": "no"
                 }
             ]
         }

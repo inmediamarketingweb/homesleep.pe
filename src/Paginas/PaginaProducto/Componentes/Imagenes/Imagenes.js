@@ -52,9 +52,11 @@ function Imagenes({ imagenes, producto }){
         setZoomPos({ x, y });
     };
 
-    const precioNormal = producto.precioNormal || 0;
+    const precioRegular = producto.precioRegular || 0;
+    // const precioNormal = producto.precioNormal || 0;
     const precioVenta = producto.precioVenta || 0;
-    const descuento = precioNormal > 0 ? Math.round(((precioNormal - precioVenta) * 100) / precioNormal) : 0;
+    // const descuento = precioNormal > 0 ? Math.round(((precioNormal - precioVenta) * 100) / precioNormal) : 0;
+    const descuento = producto.precioRegular > 0 ? Math.round(((precioRegular - precioVenta) * 100) / precioRegular) : 0;
     const nombreProducto = producto.nombre || "Producto";
 
     return(

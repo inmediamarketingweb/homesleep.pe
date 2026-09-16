@@ -2,11 +2,11 @@
     "productos":[
         {
             "id": 7,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "king",
             "marca": "kamas",
             "línea": "americanas",
-            "tamaño": "queen",
             "ruta": "/productos/complementos/bases/quen/kamas/americanas-con-cajones/6/",
             "nombre": "BASE SOLA AMERICANA QUEEN + 2 CAJONES AL PIE - ROJO",
             "fotos": "/assets/imagenes/productos/complementos/bases/king/kamas/americanas-con-cajones/1/",
@@ -18,11 +18,12 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "sub-categoría": "bases",
                     "línea": "americanas",
-                    "tamaño": "Queen",
-                    "cajones": "Si",
+                    "cajones": "si",
                     "base-encajonada": "No"
                 }
             ]

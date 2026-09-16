@@ -2,11 +2,11 @@
     "productos":[
         {
             "id": 14,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "king",
             "marca": "kamas",
             "línea": "europeas",
-            "tamaño": "king",
             "ruta": "/productos/complementos/bases/king/kamas/europeas/13/",
             "nombre": "BASE SOLA EUROPEA KING - PLOMO RATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/king/1/",
@@ -18,22 +18,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "Europea",
-                    "tamaño": "King",
-                    "cajones": "No",
-                    "base-encajonada": "No"
+                    "línea": "europeas",
+                    "cajones": "no",
+                    "base-encajonada": "no"
                 }
             ]
         },
         {
             "id": 15,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "king",
             "marca": "kamas",
             "línea": "europeas",
-            "tamaño": "king",
             "ruta": "/productos/complementos/bases/king/kamas/europeas/14/",
             "nombre": "BASE SOLA EUROPEA KING - CHOCOLATE",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/king/2/",
@@ -45,12 +46,13 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
+                    "tamaño": "king",
                     "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "Europea",
-                    "tamaño": "King",
-                    "cajones": "No",
-                    "base-encajonada": "No"
+                    "línea": "europeas",
+                    "cajones": "no",
+                    "base-encajonada": "no"
                 }
             ]
         }

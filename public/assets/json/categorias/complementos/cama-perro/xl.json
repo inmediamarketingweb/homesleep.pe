@@ -2,10 +2,10 @@
     "productos":[
         {
             "id": 4,
-            "categoria": "complementos",
-            "subcategoria": "cama perro",
+            "categoría": "complementos",
+            "subcategoría": "cama perro",
             "marca": "kamas",
-            "tamaño": "xl",
+            "tamaño": "XL",
             "ruta": "/productos/complementos/cama-perro/kamas/xl/1/",
             "nombre": "CAMA PERRO XL + CABECERA PEDESTAL - MORO",
             "fotos": "/assets/imagenes/productos/complementos/cama-perro/4/",
@@ -19,13 +19,13 @@
                 {
                     "marca": "kamas",
                     "sub-categoría": "cama perro",
-                    "tamaño": "Xl",
-                    "cajones": "No",
-                    "base-encajonada": "Si",
-                    "tipo-de-cabecera": "Pedestal",
-                    "diseño-de-cabecera": "americana",
-                    "brazos-de-cabecera": "Brazos rectos",
-                    "modelo-de-cabecera": "Capitoneado"
+                    "tamaño": "XL",
+                    "cajones": "no",
+                    "base-encajonada": "si",
+                    "tipo-de-cabecera": "pedestales",
+                    "diseño-de-cabecera": "americanas",
+                    "brazos-de-cabecera": "brazos rectos",
+                    "modelo-de-cabecera": "capitoneado"
                 }
             ]
         }

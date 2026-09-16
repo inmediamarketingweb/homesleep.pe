@@ -1,6 +1,6 @@
 import { useEffect, useState, useMemo, useRef, useCallback } from 'react';
 import { Helmet } from 'react-helmet';
-import { useParams, useLocation, useNavigate, Link } from 'react-router-dom';
+import { useParams, useLocation, useNavigate } from 'react-router-dom';
 
 import '../Productos.css';
 import './Layout.css';
@@ -36,7 +36,7 @@ function Complementos() {
     const itemsPerPage = 48;
 
     const [activeFilters, setActiveFilters] = useState({
-        tipo: null,
+        subcategoría: null,
         tamaño: null,
         marca: null,
         línea: null,
@@ -62,7 +62,7 @@ function Complementos() {
     };
 
     const filterParamMap = {
-        'tipo': 'tipo',
+        'subcategoría': 'subcategoría',
         'tamaño': 'tamaño',
         'marca': 'marca',
         'línea': 'línea',
@@ -105,7 +105,7 @@ function Complementos() {
     useEffect(() => {
         const params = new URLSearchParams(location.search);
         const hasPriceFilter = params.has('min') || params.has('max');
-        const hasOtherFilters = activeFilters.tipo || activeFilters.tamaño || 
+        const hasOtherFilters = activeFilters['subcategoría'] || activeFilters.tamaño || 
                                activeFilters.marca || activeFilters.línea || 
                                activeFilters.modelo || activeFilters['estilo'] || 
                                activeFilters['categoría'] || filtroSkus || envioGratisActivo;
@@ -113,22 +113,22 @@ function Complementos() {
         setHasActiveFilters(hasPriceFilter || hasOtherFilters);
     }, [activeFilters, filtroSkus, envioGratisActivo, location.search]);
 
-    // Sincronizar sub1 con activeFilters.tipo
+    // Sincronizar sub1 con activeFilters['subcategoría']
     useEffect(() => {
         const sub1 = params.sub1;
         if (sub1) {
             const categoriaNormalizada = normalizarTexto(sub1);
-            if (activeFilters.tipo !== categoriaNormalizada) {
+            if (activeFilters['subcategoría'] !== categoriaNormalizada) {
                 setActiveFilters(prev => ({
                     ...prev,
-                    tipo: categoriaNormalizada
+                    'subcategoría': categoriaNormalizada
                 }));
             }
         } else {
-            if (activeFilters.tipo !== null) {
+            if (activeFilters['subcategoría'] !== null) {
                 setActiveFilters(prev => ({
                     ...prev,
-                    tipo: null
+                    'subcategoría': null
                 }));
             }
         }
@@ -137,19 +137,6 @@ function Complementos() {
     useEffect(() => {
         localStorage.setItem('viewModeComplementos', viewMode);
     }, [viewMode]);
-
-    useEffect(() => {
-        const sub1 = params.sub1;
-        if (sub1 && filtrosData?.filtros) {
-            const categorias = filtrosData.filtros.find(f => f.categorías);
-            if (categorias && activeFilters.tipo) {
-                const categoriasDisponibles = categorias.categorías.map(c => normalizarTexto(c.categoría));
-                if (!categoriasDisponibles.includes(normalizarTexto(activeFilters.tipo))) {
-                    handleFilterChange('tipo', null);
-                }
-            }
-        }
-    }, [params.sub1, filtrosData]);
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -235,106 +222,31 @@ function Complementos() {
         cargarFiltros();
     }, [location.pathname]);
 
+    /**
+     * Obtiene el valor de un campo SOLO desde 'detalles-del-producto'.
+     * Orden: tamaño, marca, línea.
+     * No se usa id, sku, ni ninguna otra clave.
+     */
     const getProductValue = (product, fieldName) => {
         if (!product) return null;
 
-        const variants = new Set();
-
-        variants.add(fieldName);
-        variants.add(fieldName.toLowerCase());
-        variants.add(fieldName.toUpperCase());
-        variants.add(fieldName.replace(/-/g, ' '));
-        variants.add(fieldName.replace(/ /g, '-'));
-        variants.add(fieldName.replace(/ /g, '_'));
-
-        if (fieldName.endsWith('ón')) {
-            variants.add(fieldName.slice(0, -1) + 'es');
-        } else if (fieldName.endsWith('or')) {
-            variants.add(fieldName + 's');
-            variants.add(fieldName.toLowerCase() + 's');
-        } else if (fieldName.endsWith('e')) {
-            variants.add(fieldName.slice(0, -1) + 'as');
-            variants.add(fieldName.toLowerCase().slice(0, -1) + 'as');
-        } else if (fieldName.endsWith('a') || fieldName.endsWith('o')) {
-            variants.add(fieldName + 's');
-            variants.add(fieldName.toLowerCase() + 's');
-        } else if (fieldName.endsWith('l')) {
-            variants.add(fieldName + 'es');
-            variants.add(fieldName.toLowerCase() + 'es');
-        } else {
-            variants.add(fieldName + 's');
-            variants.add(fieldName.toLowerCase() + 's');
-        }
-
-        const newVariants = new Set(variants);
-        variants.forEach(v => {
-            newVariants.add(v.replace(/ /g, '-'));
-            newVariants.add(v.replace(/-/g, ' '));
-        });
-
+        // Mapeo directo de los campos permitidos
         const fieldMappings = {
-            'tipo': ['tipo', 'tipos', 'categoría', 'categorías', 'categoria', 'categorias', 'subcategoría', 'subcategorías', 'subcategoria', 'subcategorias'],
             'tamaño': ['tamaño', 'tamaños', 'medida', 'medidas', 'tamano', 'tamanos'],
             'marca': ['marca', 'marcas'],
-            'línea': ['línea', 'líneas', 'linea', 'lineas'],
-            'modelo': ['modelo', 'modelos'],
-            'estilo': ['estilo', 'estilos', 'diseño', 'diseno', 'diseños', 'disenos'],
-            'categoría': ['categoría', 'categorías', 'categoria', 'categorias', 'tipo', 'tipos']
+            'línea': ['línea', 'líneas', 'linea', 'lineas']
         };
 
-        let keysToSearch = new Set();
+        const keysToSearch = fieldMappings[fieldName];
+        if (!keysToSearch) return null;
 
-        if (fieldMappings[fieldName]) {
-            fieldMappings[fieldName].forEach(key => keysToSearch.add(key));
-        } else {
-            newVariants.forEach(v => keysToSearch.add(v));
-        }
-
-        for (const key of keysToSearch) {
-            if (product[key] !== undefined && product[key] !== null && product[key] !== '') {
-                const value = product[key];
-                return typeof value === 'string' ? value : String(value);
-            }
-        }
-
+        // Buscar SOLO en detalles-del-producto
         if (product['detalles-del-producto'] && product['detalles-del-producto'].length > 0) {
             const detalles = product['detalles-del-producto'][0];
             for (const key of keysToSearch) {
                 if (detalles[key] !== undefined && detalles[key] !== null && detalles[key] !== '') {
                     const value = detalles[key];
                     return typeof value === 'string' ? value : String(value);
-                }
-            }
-        }
-
-        if (product.fichaTecnica) {
-            for (const key of keysToSearch) {
-                if (product.fichaTecnica[key] !== undefined && product.fichaTecnica[key] !== null && product.fichaTecnica[key] !== '') {
-                    const value = product.fichaTecnica[key];
-                    return typeof value === 'string' ? value : String(value);
-                }
-            }
-        }
-
-        if (product.ficha && product.ficha.length > 0) {
-            const ficha = product.ficha[0];
-            for (const key of keysToSearch) {
-                if (ficha[key] !== undefined && ficha[key] !== null && ficha[key] !== '') {
-                    const value = ficha[key];
-                    return typeof value === 'string' ? value : String(value);
-                }
-            }
-        }
-
-        for (const key of Object.keys(product)) {
-            const keyLower = key.toLowerCase().replace(/[^a-z0-9]/g, '');
-            for (const searchKey of keysToSearch) {
-                const searchLower = searchKey.toLowerCase().replace(/[^a-z0-9]/g, '');
-                if (keyLower === searchLower || keyLower.includes(searchLower) || searchLower.includes(keyLower)) {
-                    if (product[key] !== undefined && product[key] !== null && product[key] !== '') {
-                        const value = product[key];
-                        return typeof value === 'string' ? value : String(value);
-                    }
                 }
             }
         }
@@ -346,7 +258,7 @@ function Complementos() {
         const params = new URLSearchParams(location.search);
 
         const paramMap = {
-            tipo: 'tipo',
+            subcategoría: 'subcategoría',
             tamaño: 'tamaño',
             marca: 'marca',
             línea: 'línea',
@@ -363,7 +275,7 @@ function Complementos() {
             params.set(paramName, value);
         }
 
-        if (filterType === 'tipo') {
+        if (filterType === 'subcategoría') {
             params.delete('tamaño');
             params.delete('marca');
             params.delete('línea');
@@ -398,8 +310,8 @@ function Complementos() {
         setActiveFilters(prev => {
             const newFilters = { ...prev };
             
-            if (filterType === 'tipo') {
-                newFilters.tipo = value;
+            if (filterType === 'subcategoría') {
+                newFilters['subcategoría'] = value;
                 newFilters.tamaño = null;
                 newFilters.marca = null;
                 newFilters.línea = null;
@@ -416,9 +328,9 @@ function Complementos() {
                 params.delete('categoría');
 
                 if (value === null) {
-                    params.delete('tipo');
+                    params.delete('subcategoría');
                 } else {
-                    params.set('tipo', value);
+                    params.set('subcategoría', value);
                 }
 
                 const newSearch = params.toString();
@@ -515,40 +427,35 @@ function Complementos() {
         return Array.from(valores).sort();
     };
 
-    // PRIMERO: Productos filtrados por categoría (tipo) - Base
+    // PRIMERO: Productos filtrados por subcategoría - Base
     const productosBaseFiltrados = useMemo(() => {
         if (productos.length === 0) return [];
 
-        const categoriaActual = params.sub1 || activeFilters.tipo;
+        const subcategoriaActual = params.sub1 || activeFilters['subcategoría'];
 
-        if (!categoriaActual) {
+        if (!subcategoriaActual) {
             return productos;
         }
 
         return productos.filter(producto => {
             let cumpleTodosLosFiltros = true;
 
-            if (categoriaActual) {
+            if (subcategoriaActual) {
                 const subcategoriaProducto = producto.subcategoría || 
-                                            getProductValue(producto, 'subcategoría') || 
-                                            getProductValue(producto, 'subcategoria');
-                const categoriaProducto = producto.categoria || 
-                                         getProductValue(producto, 'categoria') ||
-                                         getProductValue(producto, 'categoría');
+                                            producto.subcategoria ||
+                                            getProductValue(producto, 'subcategoría');
                 
                 const subcategoriaNormalizada = normalizarTexto(subcategoriaProducto);
-                const categoriaNormalizada = normalizarTexto(categoriaProducto);
-                const categoriaActualNormalizada = normalizarTexto(categoriaActual);
+                const subcategoriaActualNormalizada = normalizarTexto(subcategoriaActual);
                 
-                if (subcategoriaNormalizada !== categoriaActualNormalizada && 
-                    categoriaNormalizada !== categoriaActualNormalizada) {
+                if (subcategoriaNormalizada !== subcategoriaActualNormalizada) {
                     cumpleTodosLosFiltros = false;
                 }
             }
 
             return cumpleTodosLosFiltros;
         });
-    }, [productos, params.sub1, activeFilters.tipo]);
+    }, [productos, params.sub1, activeFilters['subcategoría']]);
 
     // SEGUNDO: Aplicar filtros de envío gratis y SKUs
     const productosConEnvios = useMemo(() => {
@@ -596,7 +503,7 @@ function Complementos() {
         });
     }, [productosConEnvios, location.search]);
 
-    // CUARTO: Aplicar todos los demás filtros (tamaño, marca, línea, modelo, etc.)
+    // CUARTO: Aplicar todos los demás filtros (tamaño, marca, línea)
     const productosFiltrados = useMemo(() => {
         if (productosFiltradosPorPrecio.length === 0) return [];
 
@@ -624,27 +531,6 @@ function Complementos() {
                 }
             }
 
-            if (cumpleTodosLosFiltros && activeFilters.modelo) {
-                const modeloProducto = getProductValue(producto, 'modelo');
-                if (!modeloProducto || normalizarTexto(modeloProducto) !== normalizarTexto(activeFilters.modelo)) {
-                    cumpleTodosLosFiltros = false;
-                }
-            }
-
-            if (cumpleTodosLosFiltros && activeFilters['estilo']) {
-                const valorProducto = getProductValue(producto, 'estilo');
-                if (!valorProducto || normalizarTexto(valorProducto) !== normalizarTexto(activeFilters['estilo'])) {
-                    cumpleTodosLosFiltros = false;
-                }
-            }
-
-            if (cumpleTodosLosFiltros && activeFilters['categoría']) {
-                const valorProducto = getProductValue(producto, 'categoría');
-                if (!valorProducto || normalizarTexto(valorProducto) !== normalizarTexto(activeFilters['categoría'])) {
-                    cumpleTodosLosFiltros = false;
-                }
-            }
-
             return cumpleTodosLosFiltros;
         });
     }, [productosFiltradosPorPrecio, activeFilters]);
@@ -653,9 +539,7 @@ function Complementos() {
         const valores = {
             marcas: obtenerValoresUnicos(productosConEnvios, 'marca'),
             líneas: obtenerValoresUnicos(productosConEnvios, 'línea'),
-            tamaños: obtenerValoresUnicos(productosConEnvios, 'tamaño'),
-            'estilo': obtenerValoresUnicos(productosConEnvios, 'estilo'),
-            'categoría': obtenerValoresUnicos(productosConEnvios, 'categoría')
+            tamaños: obtenerValoresUnicos(productosConEnvios, 'tamaño')
         };
 
         return valores;
@@ -694,7 +578,7 @@ function Complementos() {
 
     const limpiarFiltros = () => {
         setActiveFilters({
-            tipo: null,
+            subcategoría: null,
             tamaño: null,
             marca: null,
             línea: null,
@@ -723,45 +607,59 @@ function Complementos() {
         }, 100);
     };
 
-    const renderCategoriaFilters = () => {
+    /**
+     * Renderiza el filtro de "complementos" como BOTONES (no links).
+     * Los datos vienen de filtros.json -> filtros[0].complementos
+     * El valor usado para filtrar es el nombre del complemento,
+     * y se guarda en activeFilters['subcategoría'].
+     */
+    const renderComplementosFiltro = () => {
         if (!filtrosData?.filtros) return null;
-        const categorias = filtrosData.filtros.find(f => f.categorías);
-        if (!categorias) return null;
 
-        const currentPath = location.pathname;
+        // Buscar el objeto que tenga la clave "complementos"
+        const complementosObj = filtrosData.filtros.find(f => f.complementos);
+        if (!complementosObj) return null;
+
+        const complementos = complementosObj.complementos;
+        if (!Array.isArray(complementos)) return null;
+
+        // Extraer solo los nombres
+        const valores = complementos
+            .map(item => item.complementos)
+            .filter(Boolean);
+
+        if (valores.length === 0) return null;
+
+        const stateKey = 'subcategoría';
+        const isActive = activeFilters[stateKey] !== null;
 
         return (
-            <div className='prds-filter-tag'>
+            <div className={`prds-filter-tag ${isActive ? 'active' : ''}`}>
                 <div 
                     className='prds-filter-title-container'
-                    onClick={() => {
-                        const tag = document.querySelector('.prds-filter-tag:first-child');
-                        tag?.classList.toggle('active');
+                    onClick={(e) => {
+                        const parent = e.currentTarget.closest('.prds-filter-tag');
+                        parent?.classList.toggle('active');
                     }}
                 >
-                    <p className='prds-filter-title'>Categorías</p>
+                    <p className='prds-filter-title'>Complementos</p>
                     <span className="material-symbols-outlined">keyboard_arrow_down</span>
                 </div>
 
                 <div className='prds-filter-tag-results-container'>
                     <ul>
-                        {categorias.categorías.map((item, index) => {
-                            const finalUrl = item.ruta;
-                            const currentPathNormalized = currentPath.endsWith('/') ? currentPath.slice(0, -1) : currentPath;
-                            const linkPathNormalized = finalUrl.endsWith('/') ? finalUrl.slice(0, -1) : finalUrl;
-                            const isActive = currentPathNormalized === linkPathNormalized;
-                            
+                        {valores.map((valor, index) => {
+                            const isActiveVal = activeFilters[stateKey] === valor;
                             return (
                                 <li key={index}>
-                                    <Link 
-                                        to={finalUrl}
-                                        className={isActive ? 'active' : ''}
-                                        title={`Ver productos de ${item.categoría}`}
-                                        onClick={scrollToTop}
+                                    <button 
+                                        type='button'
+                                        className={isActiveVal ? 'active' : ''}
+                                        onClick={() => toggleFiltro(stateKey, isActiveVal ? null : valor)}
                                     >
                                         <span></span>
-                                        <p>{item.categoría}</p>
-                                    </Link>
+                                        <p>{valor}</p>
+                                    </button>
                                 </li>
                             );
                         })}
@@ -771,11 +669,7 @@ function Complementos() {
         );
     };
 
-    const renderFiltroDinamico = (nombreFiltro, valores, label, soloCategoria = false) => {
-        if (soloCategoria && !activeFilters.tipo && !params.sub1) {
-            return null;
-        }
-
+    const renderFiltroDinamico = (nombreFiltro, valores, label) => {
         if (!valores || valores.length === 0) {
             return null;
         }
@@ -819,105 +713,6 @@ function Complementos() {
         );
     };
 
-    const renderFiltrosEspecificos = () => {
-        if (!filtrosData?.filtros) return null;
-
-        const filtrosEspecificos = filtrosData.filtros.filter(f => 
-            f.modelos || f.tipos || f.estilos
-        );
-
-        if (filtrosEspecificos.length === 0) return null;
-
-        return filtrosEspecificos.map((filtro, index) => {
-            const nombreFiltro = Object.keys(filtro)[0];
-            const valores = filtro[nombreFiltro];
-
-            if (!Array.isArray(valores)) return null;
-
-            return (
-                <div key={index} className='prds-filter-tag'>
-                    <div 
-                        className='prds-filter-title-container'
-                        onClick={(e) => {
-                            const parent = e.currentTarget.closest('.prds-filter-tag');
-                            parent?.classList.toggle('active');
-                        }}
-                    >
-                        <p className='prds-filter-title'>{nombreFiltro.replace(/-/g, ' ')}</p>
-                        <span className="material-symbols-outlined">keyboard_arrow_down</span>
-                    </div>
-
-                    <div className='prds-filter-tag-results-container'>
-                        {valores.map((grupo, idx) => {
-                            const grupoKeys = Object.keys(grupo);
-                            const nombreGrupo = grupoKeys[0];
-                            let opciones = grupo[nombreGrupo];
-
-                            if (!Array.isArray(opciones)) {
-                                opciones = opciones ? [opciones] : [];
-                            }
-
-                            const opcionesDisponibles = opciones.filter(opcion => {
-                                let valorOpcion = opcion;
-                                if (typeof opcion === 'object' && opcion !== null) {
-                                    const opcionKeys = Object.keys(opcion);
-                                    if (opcionKeys.length > 0) {
-                                        valorOpcion = opcion[opcionKeys[0]];
-                                    }
-                                }
-                                
-                                const stateKey = nombreFiltro === 'modelos' ? 'modelo' : 
-                                               nombreFiltro === 'tipos' ? 'tipo' : 
-                                               nombreFiltro === 'estilos' ? 'estilo' : nombreFiltro;
-                                const valoresDisponibles = obtenerValoresUnicos(productosConEnvios, stateKey);
-                                return valoresDisponibles.includes(valorOpcion);
-                            });
-
-                            if (opcionesDisponibles.length === 0) return null;
-
-                            return (
-                                <div key={idx} className='filter-subgroup'>
-                                    <p className='filter-subgroup-title'>{nombreGrupo}</p>
-                                    <ul>
-                                        {opcionesDisponibles.map((opcion, mIdx) => {
-                                            let valorOpcion = opcion;
-                                            if (typeof opcion === 'object' && opcion !== null) {
-                                                const opcionKeys = Object.keys(opcion);
-                                                if (opcionKeys.length > 0) {
-                                                    valorOpcion = opcion[opcionKeys[0]];
-                                                }
-                                            }
-                                            
-                                            const stateKey = nombreFiltro === 'modelos' ? 'modelo' : 
-                                                           nombreFiltro === 'tipos' ? 'tipo' : 
-                                                           nombreFiltro === 'estilos' ? 'estilo' : nombreFiltro;
-                                            const isActive = activeFilters[stateKey] === valorOpcion;
-                                            
-                                            return (
-                                                <li key={mIdx}>
-                                                    <button 
-                                                        type='button'
-                                                        className={isActive ? 'active' : ''}
-                                                        onClick={() => {
-                                                            toggleFiltro(stateKey, isActive ? null : valorOpcion);
-                                                        }}
-                                                    >
-                                                        <span></span>
-                                                        <p>{valorOpcion}</p>
-                                                    </button>
-                                                </li>
-                                            );
-                                        })}
-                                    </ul>
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-            );
-        });
-    };
-
     return(
         <>
             <Helmet>
@@ -956,13 +751,10 @@ function Complementos() {
                                     <RangoPrecios productos={productosFiltrados} loading={loading}/>
 
                                     <div className='prds-filters-container'>
-                                        {renderCategoriaFilters()}
+                                        {renderComplementosFiltro()}
                                         {renderFiltroDinamico('marca', valoresDisponibles.marcas, 'Marcas')}
                                         {renderFiltroDinamico('tamaño', valoresDisponibles.tamaños, 'Tamaños')}
-                                        {renderFiltroDinamico('estilo', valoresDisponibles['estilo'], 'Estilos')}
-                                        {renderFiltroDinamico('categoría', valoresDisponibles['categoría'], 'Categorías')}
                                         {renderFiltroDinamico('línea', valoresDisponibles.líneas, 'Líneas')}
-                                        {renderFiltrosEspecificos()}
                                     </div>
                                 </div>
                             </div>

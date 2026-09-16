@@ -2,11 +2,11 @@
     "productos":[
         {
             "id": 9,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "2 plazas",
             "marca": "kamas",
             "línea": "europeas",
-            "tamaño": "2 plazas",
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas/8/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS - NEGRO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/2-plazas/1/",
@@ -18,22 +18,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "Europea",
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
                     "tamaño": "2 plazas",
-                    "cajones": "No",
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "cajones": "no",
                     "base-encajonada": "No"
                 }
             ]
         },
         {
             "id": 10,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "2 plazas",
             "marca": "kamas",
             "línea": "europeas",
-            "tamaño": "2 plazas",
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas/9/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS - COBALTO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/2-plazas/2/",
@@ -45,22 +46,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "Europea",
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
                     "tamaño": "2 plazas",
-                    "cajones": "No",
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "cajones": "no",
                     "base-encajonada": "No"
                 }
             ]
         },
         {
             "id": 11,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "2 plazas",
             "marca": "kamas",
             "línea": "europeas",
-            "tamaño": "2 plazas",
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas/10/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS - MELON",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/2-plazas/3/",
@@ -72,22 +74,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "Europea",
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
                     "tamaño": "2 plazas",
-                    "cajones": "No",
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "cajones": "no",
                     "base-encajonada": "No"
                 }
             ]
         },
         {
             "id": 12,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "2 plazas",
             "marca": "kamas",
             "línea": "europeas",
-            "tamaño": "2 plazas",
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas/11/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS - PLOMO OSCURO",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/2-plazas/4/",
@@ -99,22 +102,23 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "Europea",
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
                     "tamaño": "2 plazas",
-                    "cajones": "No",
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "cajones": "no",
                     "base-encajonada": "No"
                 }
             ]
         },
         {
             "id": 13,
-            "categoria": "complementos",
-            "subcategoria": "bases",
+            "categoría": "complementos",
+            "subcategoría": "bases",
+            "tamaño": "2 plazas",
             "marca": "kamas",
             "línea": "europeas",
-            "tamaño": "2 plazas",
             "ruta": "/productos/complementos/bases/2-plazas/kamas/europeas/12/",
             "nombre": "BASE SOLA EUROPEA 2 PLAZAS - PLOMO PLATA",
             "fotos": "/assets/imagenes/productos/complementos/bases/europeas/2-plazas/5/",
@@ -126,11 +130,12 @@
             "tipo-de-envio": "Envío preferente",
             "detalles-del-producto":[
                 {
-                    "marca": "kamas",
-                    "sub-categoría": "bases",
-                    "línea": "Europea",
+                    "categoría": "complementos",
+                    "subcategoría": "bases",
                     "tamaño": "2 plazas",
-                    "cajones": "No",
+                    "marca": "kamas",
+                    "línea": "europeas",
+                    "cajones": "no",
                     "base-encajonada": "No"
                 }
             ]

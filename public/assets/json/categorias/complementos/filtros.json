@@ -3,32 +3,75 @@
         {
             "complementos":[
                 {
-                    "complementos": "Veladores",
+                    "complementos": "veladores",
                     "ruta": "/productos/complementos/veladores/"
                 },
                 {
-                    "complementos": "Baúles",
+                    "complementos": "baúles",
                     "ruta": "/productos/complementos/baules/"
                 },
                 {
-                    "complementos": "Bases",
+                    "complementos": "bases",
                     "ruta": "/productos/complementos/bases/"
                 },
                 {
-                    "complementos": "Puffs",
+                    "complementos": "puffs",
                     "ruta": "/productos/complementos/puffs/"
                 },
                 {
-                    "complementos": "Almohadas",
+                    "complementos": "almohadas",
                     "ruta": "/productos/complementos/almohadas/"
                 },
                 {
-                    "complementos": "Sábanas y cobertores",
+                    "complementos": "sábanas y cobertores",
                     "ruta": "/productos/complementos/sabanas-y-cobertores/"
                 },
                 {
-                    "complementos": "Cama perro",
+                    "complementos": "cama perro",
                     "ruta": "/productos/complementos/cama-perro/"
+                }
+            ]
+        },
+        {
+            "marcas":[
+                {
+                    "marca": "el cisne"
+                },
+                {
+                    "marca": "kamas"
+                },
+                {
+                    "marca": "paraiso"
+                },
+                {
+                    "marca": "komfort"
+                }
+            ]
+        },
+        {
+            "líneas":[
+                {
+                    "línea": "americanas"
+                },
+                {
+                    "línea": "europeas"
+                },
+                {
+                    "línea": "clásicas"
+                },
+                {
+                    "línea": "nube"
+                }
+            ]
+        },
+        {
+            "cajones":[
+                {
+                    "cajón": "si",
+                    "cantidad-de-cajones":["1", "2", "3", "4", "5", "6"]
+                },
+                {
+                    "cajón": "no"
                 }
             ]
         }

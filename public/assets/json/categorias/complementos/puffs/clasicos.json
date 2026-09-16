@@ -2,8 +2,8 @@
     "productos":[
         {
             "id": 1,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/1/",
@@ -17,7 +17,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -28,8 +28,8 @@
         },
         {
             "id": 2,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/2/",
@@ -43,7 +43,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -54,8 +54,8 @@
         },
         {
             "id": 3,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/3/",
@@ -69,7 +69,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -80,8 +80,8 @@
         },
         {
             "id": 4,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/4/",
@@ -95,7 +95,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -106,8 +106,8 @@
         },
         {
             "id": 5,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/5/",
@@ -121,7 +121,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -132,8 +132,8 @@
         },
         {
             "id": 6,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/6/",
@@ -147,7 +147,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -158,8 +158,8 @@
         },
         {
             "id": 7,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/7/",
@@ -173,7 +173,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -184,8 +184,8 @@
         },
         {
             "id": 8,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/8/",
@@ -199,7 +199,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -210,8 +210,8 @@
         },
         {
             "id": 9,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/9/",
@@ -225,7 +225,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -236,8 +236,8 @@
         },
         {
             "id": 10,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/10/",
@@ -251,7 +251,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -262,8 +262,8 @@
         },
         {
             "id": 12,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/12/",
@@ -277,7 +277,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -288,8 +288,8 @@
         },
         {
             "id": 13,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/13/",
@@ -303,7 +303,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -314,8 +314,8 @@
         },
         {
             "id": 14,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/14/",
@@ -329,7 +329,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -340,8 +340,8 @@
         },
         {
             "id": 16,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/16/",
@@ -355,7 +355,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -366,8 +366,8 @@
         },
         {
             "id": 17,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/17/",
@@ -381,7 +381,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -392,8 +392,8 @@
         },
         {
             "id": 18,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/18/",
@@ -407,7 +407,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -418,8 +418,8 @@
         },
         {
             "id": 19,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/19/",
@@ -433,7 +433,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -444,8 +444,8 @@
         },
         {
             "id": 20,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/20/",
@@ -459,7 +459,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -470,8 +470,8 @@
         },     
         {
             "id": 21,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/21/",
@@ -485,7 +485,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -496,8 +496,8 @@
         },
         {
             "id": 23,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/23/",
@@ -511,7 +511,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -522,8 +522,8 @@
         },
         {
             "id": 24,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/24/",
@@ -537,7 +537,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -548,8 +548,8 @@
         },
         {
             "id": 25,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/25/",
@@ -563,7 +563,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -574,8 +574,8 @@
         },
         {
             "id": 26,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/26/",
@@ -589,7 +589,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -600,8 +600,8 @@
         },
         {
             "id": 27,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/27/",
@@ -615,7 +615,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
@@ -626,8 +626,8 @@
         },
         {
             "id": 28,
-            "categoria": "complementos",
-            "subcategoria": "puffs",
+            "categoría": "complementos",
+            "subcategoría": "puffs",
             "marca": "kamas",
             "modelo": "clásicos",
             "ruta": "/productos/complementos/puffs/clasicos/28/",
@@ -641,7 +641,7 @@
             "tipo-de-envio": "Envío aplicado",
             "detalles-del-producto":[
                 {
-                    "sub-categoría": "Puffs",
+                    "subcategoría": "puff",
                     "cajones": "No",
                     "modelo": "clásico",
                     "alto": 37,
