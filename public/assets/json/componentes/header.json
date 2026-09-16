@@ -175,6 +175,10 @@
                     "titulo": "Líneas",
                     "lista":[
                         {
+                            "text": "Infantiles",
+                            "link": "/productos/camas-box-tarimas/?línea=infantiles"
+                        },
+                        {
                             "text": "Americanos",
                             "link": "/productos/camas-box-tarimas/?línea=americanos"
                         },
@@ -269,6 +273,10 @@
                     "id": 3,
                     "titulo": "Líneas",
                     "lista":[
+                        {
+                            "text": "Infantiles",
+                            "link": "/productos/dormitorios/?linea-dormitorio=infantiles"
+                        },
                         {
                             "text": "Americanos",
                             "link": "/productos/dormitorios/?linea-dormitorio=americanos"
