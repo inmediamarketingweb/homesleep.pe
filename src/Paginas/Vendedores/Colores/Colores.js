@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'; // Añade useCallback
+import { useState, useEffect, useCallback } from 'react';
 import { Helmet } from 'react-helmet';
 import { useLocation, useNavigate } from 'react-router-dom';
 
@@ -6,7 +6,7 @@ import './Colores.css';
 
 import SpinnerLoading from '../../../Componentes/SpinnerLoading/SpinnerLoading';
 
-const DEFAULT_BANNER = 'https://concepto.de/wp-content/uploads/2018/09/Historia-Pintura-Van-Gogh-691x451.jpg';
+const DEFAULT_BANNER = '/assets/imagenes/paginas/banner-colores.png';
 
 function Colores(){
     const location = useLocation();
