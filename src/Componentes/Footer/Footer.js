@@ -134,11 +134,11 @@ function Footer(){
                                         <p>Envios a provincia</p>
                                     </a>
                                 </li>
-                                <li>
+                                {/* <li>
                                     <a href='/envios/envios-a-lima-y-callao/' title='Envios a Lima y Callao | Homesleep'>
                                         <p>Envios a Lima y Callao</p>
                                     </a>
-                                </li>
+                                </li> */}
                                 <li>
                                     <a href='/agencias-recomendadas/' title='Agencias recomendadas | Homesleep'>
                                         <p>Agencias recomendadas</p>
