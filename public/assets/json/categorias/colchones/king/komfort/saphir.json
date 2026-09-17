@@ -1,12 +1,12 @@
 {
     "productos":[
         {
-            "categoria": "colchones",
+            "categoría": "colchones",
             "tamaño": "king",
             "marca": "komfort",
             "modelo": "saphir",
             "ruta": "/productos/colchones/king/komfort/saphir/",
-            "nombre": "COLCHÓN KOMFORT POCKET SAPHIR KING",
+            "nombre": "COLCHÓN KOMFORT KING POCKET SAPHIR",
             "fotos": "/assets/imagenes/productos/colchones/komfort/saphir/",
             "precioRegular": 1699,
             "precioNormal": 1199,
@@ -28,7 +28,7 @@
     ],
     "ficha":[
         {
-            "marca": "Komfort",
+            "marca": "kopmfort",
             "modelo-de-colchón": "saphir",
             "nivel-de-confort": "confortable",
             "línea-de-colchón": "ortopédicos",
