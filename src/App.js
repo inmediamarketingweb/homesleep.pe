@@ -22,7 +22,7 @@ import Nosotros from "./Paginas/Nosotros/Nosotros";
 import ProyectosYAlianzas from "./Paginas/ProyectosYAlianzas/ProyectosYAlianzas";
 import PropiedadIntelectual from "./Paginas/Nosotros/Paginas/PropiedadIntelectual";
 import RazonesParaComprar from "./Paginas/Nosotros/Paginas/RazonesParaComprar";
-import MediosDePago from './Paginas/ServicioAlCliente/MediosDePago';
+import Cuentas from './Paginas/ServicioAlCliente/Cuentas/Cuentas';
 import GarantiaDeProductos from "./Paginas/ServicioAlCliente/GarantiaDeProductos/GarantiaDeProductos";
 import GarantiaColchones from "./Paginas/ServicioAlCliente/GarantiaDeProductos/Paginas/Colchones";
 import GarantiaTarimas from "./Paginas/ServicioAlCliente/GarantiaDeProductos/Paginas/Tarimas";
@@ -178,7 +178,7 @@ function App(){
                         <Route path="/envios/envios-a-provincia/" element={<EnviosAProvincia/>}/>
 
                         <Route path="/paleta-de-colores/" element={<Colores/>}/>
-                        <Route path="/servicio-al-cliente/medios-de-pago/" element={<MediosDePago/>}/>
+                        <Route path="/servicio-al-cliente/medios-de-pago/" element={<Cuentas/>}/>
                         <Route path="/servicio-al-cliente/costos-de-envio-por-zona/" element={<CostosDeEnvioPorZonas/>}/>
                         <Route path="/servicio-al-cliente/costos-de-envio-por-zona/lima-y-callao/" element={<LimaYCallao/>}/>
                         <Route path="/servicio-al-cliente/costos-de-envio-por-zona/norte-chico/" element={<NorteChico/>}/>

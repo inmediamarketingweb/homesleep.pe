@@ -952,6 +952,14 @@ button{
     font-size: 13px;
 }
 
+.object-cover{
+    object-fit: cover;
+}
+
+.object-contain{
+    object-fit: contain;
+}
+
 @media screen and (max-width: 800px){
     .d-grid-5-3-2fr{
         grid-template-columns: repeat(3, 1fr);
