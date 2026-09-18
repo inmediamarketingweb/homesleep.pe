@@ -7,7 +7,7 @@ import Layout from "./Componentes/Layout";
 
 import PaginaPrincipal from "./Paginas/PaginaPrincipal/PaginaPrincipal";
 import Productos from './Paginas/Productos/Productos';
-// import LayoutP from './Paginas/Productos/Componentes/Layout';
+// import Layout from './Paginas/Productos/Componentes/Layout';
 import Colchones from './Paginas/Productos/Categorias/Colchones';
 import CamasBoxTarimas from './Paginas/Productos/Categorias/CamasBoxTarimas';
 import Dormitorios from "./Paginas/Productos/Categorias/Dormitorios";
@@ -56,11 +56,13 @@ function App(){
         <HelmetProvider>
             <Router>
                 <Routes>
+                    <Route path="/paleta-de-colores/" element={<Colores/>}/>
+
                     <Route element={<Layout/>}>
                         <Route path="/" element={<PaginaPrincipal/>} />
 
                         <Route path="/productos/" element={<Productos />} />
-                        {/* <Route path="/productos/" element={<LayoutP />} /> */}
+                        <Route path="/productos/" element={<Layout />} />
 
                         <Route path="/productos/colchones/" element={<Colchones />} />
                         <Route path="/productos/colchones/:sub1/:sub2/:sub3/" element={<PaginaProducto />} />
@@ -177,7 +179,6 @@ function App(){
                         <Route path="/envios/envios-a-lima-y-callao/" element={<EnviosALimaYCallao/>}/>
                         <Route path="/envios/envios-a-provincia/" element={<EnviosAProvincia/>}/>
 
-                        <Route path="/paleta-de-colores/" element={<Colores/>}/>
                         <Route path="/servicio-al-cliente/medios-de-pago/" element={<Cuentas/>}/>
                         <Route path="/servicio-al-cliente/costos-de-envio-por-zona/" element={<CostosDeEnvioPorZonas/>}/>
                         <Route path="/servicio-al-cliente/costos-de-envio-por-zona/lima-y-callao/" element={<LimaYCallao/>}/>
